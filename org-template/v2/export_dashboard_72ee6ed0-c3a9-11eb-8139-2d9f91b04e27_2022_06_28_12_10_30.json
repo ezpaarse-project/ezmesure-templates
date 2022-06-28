@@ -1,0 +1,403 @@
+{
+  "version": "7.14.1",
+  "objects": [
+    {
+      "id": "72ee6ed0-c3a9-11eb-8139-2d9f91b04e27",
+      "type": "dashboard",
+      "namespaces": [
+        "org-template"
+      ],
+      "updated_at": "2022-06-28T09:34:08.469Z",
+      "version": "WzQ3OTcyMiw4XQ==",
+      "attributes": {
+        "title": "* : modèle tableau de bord données ezPAARSE Bouquet Editeur Wiley V2",
+        "hits": 0,
+        "description": "Modèle tableau de bord données ezPAARSE Editeur Wiley bouquet 2021 mis à jour le 01/07/2022",
+        "panelsJSON": "[{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"h\":19,\"i\":\"4da2b2a6-5158-4618-9c97-551ed4601710\",\"w\":24,\"x\":0,\"y\":0},\"panelIndex\":\"4da2b2a6-5158-4618-9c97-551ed4601710\",\"embeddableConfig\":{\"enhancements\":{}},\"panelRefName\":\"panel_4da2b2a6-5158-4618-9c97-551ed4601710\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"h\":19,\"i\":\"dbeed313-0698-4f5b-a584-ec32fc5d7f10\",\"w\":24,\"x\":24,\"y\":0},\"panelIndex\":\"dbeed313-0698-4f5b-a584-ec32fc5d7f10\",\"embeddableConfig\":{\"enhancements\":{}},\"panelRefName\":\"panel_dbeed313-0698-4f5b-a584-ec32fc5d7f10\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"h\":21,\"i\":\"29789634-f82f-4b03-a8e3-83ac2d9bcf54\",\"w\":48,\"x\":0,\"y\":19},\"panelIndex\":\"29789634-f82f-4b03-a8e3-83ac2d9bcf54\",\"embeddableConfig\":{\"enhancements\":{}},\"panelRefName\":\"panel_29789634-f82f-4b03-a8e3-83ac2d9bcf54\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"h\":19,\"i\":\"547c073f-b376-4079-93b1-d8040a2447ee\",\"w\":14,\"x\":34,\"y\":40},\"panelIndex\":\"547c073f-b376-4079-93b1-d8040a2447ee\",\"embeddableConfig\":{\"colors\":{\"PDF\":\"#64B0C8\"},\"vis\":{\"colors\":{\"HTML\":\"#F29191\",\"PDF\":\"#64B0C8\"},\"legendOpen\":false},\"enhancements\":{}},\"panelRefName\":\"panel_547c073f-b376-4079-93b1-d8040a2447ee\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"h\":19,\"i\":\"705ea1a0-0cf1-4053-83bd-9fe5af036d34\",\"w\":18,\"x\":0,\"y\":40},\"panelIndex\":\"705ea1a0-0cf1-4053-83bd-9fe5af036d34\",\"embeddableConfig\":{\"enhancements\":{},\"vis\":{\"legendOpen\":false}},\"panelRefName\":\"panel_705ea1a0-0cf1-4053-83bd-9fe5af036d34\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"h\":19,\"i\":\"be5cb237-19c9-4f17-9247-2c9e58ed0a18\",\"w\":16,\"x\":18,\"y\":40},\"panelIndex\":\"be5cb237-19c9-4f17-9247-2c9e58ed0a18\",\"embeddableConfig\":{\"enhancements\":{},\"vis\":{\"legendOpen\":false}},\"panelRefName\":\"panel_be5cb237-19c9-4f17-9247-2c9e58ed0a18\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"h\":18,\"i\":\"733c36a9-8e9d-4a59-88a5-8fc337298fd8\",\"w\":21,\"x\":0,\"y\":59},\"panelIndex\":\"733c36a9-8e9d-4a59-88a5-8fc337298fd8\",\"embeddableConfig\":{\"vis\":{\"colors\":{\"avec DOI\":\"#629E51\",\"avec doi\":\"#508642\",\"sans DOI\":\"#BF1B00\",\"sans doi\":\"#BF1B00\"},\"legendOpen\":false},\"enhancements\":{}},\"panelRefName\":\"panel_733c36a9-8e9d-4a59-88a5-8fc337298fd8\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"h\":18,\"i\":\"e27178e2-c341-4ab7-92a9-bb4816fda67a\",\"w\":27,\"x\":21,\"y\":59},\"panelIndex\":\"e27178e2-c341-4ab7-92a9-bb4816fda67a\",\"embeddableConfig\":{\"enhancements\":{},\"vis\":{\"colors\":{\"avec DOI\":\"#629E51\",\"sans DOI\":\"#BF1B00\",\"sans doi\":\"#BF1B00\"},\"legendOpen\":false}},\"panelRefName\":\"panel_e27178e2-c341-4ab7-92a9-bb4816fda67a\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"h\":25,\"i\":\"4503739f-aeb6-468d-81f0-67ffc23e46c8\",\"w\":48,\"x\":0,\"y\":77},\"panelIndex\":\"4503739f-aeb6-468d-81f0-67ffc23e46c8\",\"embeddableConfig\":{\"enhancements\":{}},\"panelRefName\":\"panel_4503739f-aeb6-468d-81f0-67ffc23e46c8\"}]",
+        "optionsJSON": "{\"hidePanelTitles\":false,\"useMargins\":true}",
+        "version": 1,
+        "timeRestore": true,
+        "timeTo": "2021-12-31T14:47:23.745Z",
+        "timeFrom": "2021-01-01T14:47:15.194Z",
+        "refreshInterval": {
+          "pause": true,
+          "value": 0
+        },
+        "kibanaSavedObjectMeta": {
+          "searchSourceJSON": "{\"query\":{\"language\":\"kuery\",\"query\":\"\"},\"filter\":[{\"$state\":{\"store\":\"appState\"},\"meta\":{\"alias\":null,\"disabled\":false,\"key\":\"rtype\",\"negate\":false,\"params\":{\"query\":\"ARTICLE\"},\"type\":\"phrase\",\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.filter[0].meta.index\"},\"query\":{\"match\":{\"rtype\":{\"query\":\"ARTICLE\",\"type\":\"phrase\"}}}},{\"$state\":{\"store\":\"appState\"},\"meta\":{\"alias\":null,\"disabled\":false,\"key\":\"platform_name\",\"negate\":false,\"params\":{\"query\":\"Wiley\"},\"type\":\"phrase\",\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.filter[1].meta.index\"},\"query\":{\"match\":{\"platform_name\":{\"query\":\"Wiley\",\"type\":\"phrase\"}}}},{\"$state\":{\"store\":\"appState\"},\"meta\":{\"alias\":\"Bouquet 8 titres Wiley\",\"disabled\":false,\"key\":\"publication_title\",\"negate\":false,\"params\":[\"Hepatology\",\"Advanced Materials\",\"British Journal of Haematology\",\"European Journal of Neuroscience\",\"American Journal of Transplantation\",\"International Journal of Cancer\",\"Advanced Synthesis & Catalysis\",\"Geophysical Research Letters\"],\"type\":\"phrases\",\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.filter[2].meta.index\"},\"query\":{\"bool\":{\"minimum_should_match\":1,\"should\":[{\"match_phrase\":{\"publication_title\":\"Hepatology\"}},{\"match_phrase\":{\"publication_title\":\"Advanced Materials\"}},{\"match_phrase\":{\"publication_title\":\"British Journal of Haematology\"}},{\"match_phrase\":{\"publication_title\":\"European Journal of Neuroscience\"}},{\"match_phrase\":{\"publication_title\":\"American Journal of Transplantation\"}},{\"match_phrase\":{\"publication_title\":\"International Journal of Cancer\"}},{\"match_phrase\":{\"publication_title\":\"Advanced Synthesis & Catalysis\"}},{\"match_phrase\":{\"publication_title\":\"Geophysical Research Letters\"}}]}}}]}"
+        }
+      },
+      "references": [
+        {
+          "name": "kibanaSavedObjectMeta.searchSourceJSON.filter[0].meta.index",
+          "type": "index-pattern",
+          "id": "34a502d0-b391-11e9-8339-63cd4d0c5d94"
+        },
+        {
+          "name": "kibanaSavedObjectMeta.searchSourceJSON.filter[1].meta.index",
+          "type": "index-pattern",
+          "id": "34a502d0-b391-11e9-8339-63cd4d0c5d94"
+        },
+        {
+          "name": "kibanaSavedObjectMeta.searchSourceJSON.filter[2].meta.index",
+          "type": "index-pattern",
+          "id": "34a502d0-b391-11e9-8339-63cd4d0c5d94"
+        },
+        {
+          "name": "4da2b2a6-5158-4618-9c97-551ed4601710:panel_4da2b2a6-5158-4618-9c97-551ed4601710",
+          "type": "visualization",
+          "id": "47b34640-c3aa-11eb-8139-2d9f91b04e27"
+        },
+        {
+          "name": "dbeed313-0698-4f5b-a584-ec32fc5d7f10:panel_dbeed313-0698-4f5b-a584-ec32fc5d7f10",
+          "type": "visualization",
+          "id": "b9e74dc0-bdeb-11eb-8139-2d9f91b04e27"
+        },
+        {
+          "name": "29789634-f82f-4b03-a8e3-83ac2d9bcf54:panel_29789634-f82f-4b03-a8e3-83ac2d9bcf54",
+          "type": "visualization",
+          "id": "19bd4530-c434-11eb-8139-2d9f91b04e27"
+        },
+        {
+          "name": "547c073f-b376-4079-93b1-d8040a2447ee:panel_547c073f-b376-4079-93b1-d8040a2447ee",
+          "type": "visualization",
+          "id": "65f86040-bdec-11eb-8139-2d9f91b04e27"
+        },
+        {
+          "name": "705ea1a0-0cf1-4053-83bd-9fe5af036d34:panel_705ea1a0-0cf1-4053-83bd-9fe5af036d34",
+          "type": "visualization",
+          "id": "fbdb0050-bdeb-11eb-8139-2d9f91b04e27"
+        },
+        {
+          "name": "be5cb237-19c9-4f17-9247-2c9e58ed0a18:panel_be5cb237-19c9-4f17-9247-2c9e58ed0a18",
+          "type": "visualization",
+          "id": "412ecdd0-bdec-11eb-8139-2d9f91b04e27"
+        },
+        {
+          "name": "733c36a9-8e9d-4a59-88a5-8fc337298fd8:panel_733c36a9-8e9d-4a59-88a5-8fc337298fd8",
+          "type": "visualization",
+          "id": "cc279940-bdf0-11eb-8139-2d9f91b04e27"
+        },
+        {
+          "name": "e27178e2-c341-4ab7-92a9-bb4816fda67a:panel_e27178e2-c341-4ab7-92a9-bb4816fda67a",
+          "type": "visualization",
+          "id": "2fef9a20-c433-11eb-8139-2d9f91b04e27"
+        },
+        {
+          "name": "4503739f-aeb6-468d-81f0-67ffc23e46c8:panel_4503739f-aeb6-468d-81f0-67ffc23e46c8",
+          "type": "visualization",
+          "id": "b30f4d50-bdef-11eb-8139-2d9f91b04e27"
+        },
+        {
+          "id": "b9f60840-f6c2-11ec-871c-618dc17b393f",
+          "type": "tag",
+          "name": "tag-b9f60840-f6c2-11ec-871c-618dc17b393f"
+        }
+      ],
+      "migrationVersion": {
+        "dashboard": "7.14.0"
+      },
+      "coreMigrationVersion": "7.14.1"
+    },
+    {
+      "id": "34a502d0-b391-11e9-8339-63cd4d0c5d94",
+      "type": "index-pattern",
+      "namespaces": [
+        "org-template"
+      ],
+      "updated_at": "2019-10-28T14:03:30.593Z",
+      "version": "WzU5MDc0LDZd",
+      "attributes": {
+        "title": "univ-example",
+        "timeFieldName": "datetime",
+        "fields": "[{\"name\":\"_id\",\"type\":\"string\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":false},{\"name\":\"_index\",\"type\":\"string\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":false},{\"name\":\"_score\",\"type\":\"number\",\"count\":0,\"scripted\":false,\"searchable\":false,\"aggregatable\":false,\"readFromDocValues\":false},{\"name\":\"_source\",\"type\":\"_source\",\"count\":0,\"scripted\":false,\"searchable\":false,\"aggregatable\":false,\"readFromDocValues\":false},{\"name\":\"_type\",\"type\":\"string\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":false},{\"name\":\"bib-groups\",\"type\":\"string\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"date\",\"type\":\"date\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"datetime\",\"type\":\"date\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"db_id\",\"type\":\"string\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"db_title\",\"type\":\"string\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"department\",\"type\":\"string\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"doi\",\"type\":\"string\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"doi-publication-date\",\"type\":\"date\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"doi-publication-date-year\",\"type\":\"date\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"domain\",\"type\":\"string\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"els-publication-date\",\"type\":\"date\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"els-publication-date-year\",\"type\":\"date\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"ezpaarse_date\",\"type\":\"date\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"ezpaarse_version\",\"type\":\"string\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"ezproxy-session\",\"type\":\"string\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"geoip-country\",\"type\":\"string\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"geoip-latitude\",\"type\":\"number\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"geoip-longitude\",\"type\":\"number\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"host\",\"type\":\"string\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"index_name\",\"type\":\"string\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"location\",\"type\":\"geo_point\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"log_id\",\"type\":\"string\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"login\",\"type\":\"string\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"middlewares\",\"type\":\"string\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"middlewares_date\",\"type\":\"date\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"middlewares_version\",\"type\":\"string\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"mime\",\"type\":\"string\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"on_campus\",\"type\":\"string\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"online_identifier\",\"type\":\"string\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"platform\",\"type\":\"string\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"platform_name\",\"type\":\"string\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"platforms_date\",\"type\":\"date\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"platforms_version\",\"type\":\"string\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"print_identifier\",\"type\":\"string\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"publication_date\",\"type\":\"string\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"publication_title\",\"type\":\"string\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"publisher_name\",\"type\":\"string\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"rtype\",\"type\":\"string\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"section\",\"type\":\"string\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"size\",\"type\":\"number\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"status\",\"type\":\"number\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"subject\",\"type\":\"string\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"timestamp\",\"type\":\"date\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"title_id\",\"type\":\"string\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"type\",\"type\":\"string\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"unit\",\"type\":\"string\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"unitid\",\"type\":\"string\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"url\",\"type\":\"string\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"user\",\"type\":\"string\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true}]",
+        "fieldFormatMap": "{\"datetime\":{\"id\":\"date\",\"params\":{\"pattern\":\"MMM D, YYYY \"}}}"
+      },
+      "references": [],
+      "migrationVersion": {
+        "index-pattern": "7.11.0"
+      },
+      "coreMigrationVersion": "7.14.1"
+    },
+    {
+      "id": "47b34640-c3aa-11eb-8139-2d9f91b04e27",
+      "type": "visualization",
+      "namespaces": [
+        "org-template"
+      ],
+      "updated_at": "2021-06-03T13:57:51.867Z",
+      "version": "WzYyNjE1LDZd",
+      "attributes": {
+        "description": "",
+        "kibanaSavedObjectMeta": {
+          "searchSourceJSON": "{\"query\":{\"language\":\"kuery\",\"query\":\"\"},\"filter\":[]}"
+        },
+        "title": "*: modèle bouquet editeur wiley  présentation",
+        "uiStateJSON": "{}",
+        "version": 1,
+        "visState": "{\"title\":\"*: modèle bouquet editeur wiley  présentation\",\"type\":\"markdown\",\"params\":{\"markdown\":\"![ezMESURE](https://raw.githubusercontent.com/ezpaarse-project/ezpaarse-project.github.io/master/ezmesure/static/images/logo-ezMESURE-350.png)\\n## Tableau de bord données ezPAARSE - Editeur Wiley Bouquet\\nModèle d'un tableau de bord filtré sur :\\n- Editeur Wiley\\n- Ressource consultée : ARTICLE (JR1 / TR_j3)\\n- fitre sur un bouquet de 8 revues \\nTous les filtres sont modifiables. Il suffit d'enregistrer un nouveau tableau de bord basé sur un autre éditeur avec une liste de titres de revues différente.\\n\\n-  [Tutoriel ezPAARSE-ezMESURE - guide des bonnes pratiques](https://blog.ezpaarse.org/2020/10/tutoriel-ezpaarse-ezmesure-guide-des-bonnes-pratiques/) .\\n\\n N'hésitez pas à consulter le blog ezPAARSE pour d'autres informations (tutos, FAQ, Supports mutualisés) (https://blog.ezpaarse.org/)\\n\\nL'équipe ezTEAM.\",\"openLinksInNewTab\":false,\"fontSize\":12},\"aggs\":[]}"
+      },
+      "references": [],
+      "migrationVersion": {
+        "visualization": "7.14.0"
+      },
+      "coreMigrationVersion": "7.14.1"
+    },
+    {
+      "id": "b9e74dc0-bdeb-11eb-8139-2d9f91b04e27",
+      "type": "visualization",
+      "namespaces": [
+        "org-template"
+      ],
+      "updated_at": "2021-06-03T06:48:35.385Z",
+      "version": "WzYyNTczLDZd",
+      "attributes": {
+        "description": "",
+        "kibanaSavedObjectMeta": {
+          "searchSourceJSON": "{\"query\":{\"language\":\"kuery\",\"query\":\"\"},\"filter\":[],\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.index\"}"
+        },
+        "title": "* : générique métriques",
+        "uiStateJSON": "{}",
+        "version": 1,
+        "visState": "{\"title\":\"* : générique métriques\",\"type\":\"metric\",\"params\":{\"metric\":{\"percentageMode\":false,\"useRanges\":false,\"colorSchema\":\"Green to Red\",\"metricColorMode\":\"None\",\"colorsRange\":[{\"type\":\"range\",\"from\":0,\"to\":10000}],\"labels\":{\"show\":true},\"invertColors\":false,\"style\":{\"bgFill\":\"#000\",\"bgColor\":false,\"labelColor\":false,\"subText\":\"\",\"fontSize\":20}},\"dimensions\":{\"metrics\":[{\"type\":\"vis_dimension\",\"accessor\":0,\"format\":{\"id\":\"number\",\"params\":{}}},{\"type\":\"vis_dimension\",\"accessor\":1,\"format\":{\"id\":\"number\",\"params\":{}}},{\"type\":\"vis_dimension\",\"accessor\":2,\"format\":{\"id\":\"number\",\"params\":{}}},{\"type\":\"vis_dimension\",\"accessor\":3,\"format\":{\"id\":\"date\",\"params\":{\"pattern\":\"D MMM YYYY \"}}},{\"type\":\"vis_dimension\",\"accessor\":4,\"format\":{\"id\":\"date\",\"params\":{\"pattern\":\"D MMM YYYY \"}}}]},\"addTooltip\":true,\"addLegend\":false,\"type\":\"metric\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"Total des accès\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"cardinality\",\"schema\":\"metric\",\"params\":{\"field\":\"platform\",\"customLabel\":\"Plateformes\"}},{\"id\":\"3\",\"enabled\":true,\"type\":\"cardinality\",\"schema\":\"metric\",\"params\":{\"field\":\"publication_title\",\"customLabel\":\"Titres de publications\"}},{\"id\":\"4\",\"enabled\":true,\"type\":\"min\",\"schema\":\"metric\",\"params\":{\"field\":\"datetime\",\"customLabel\":\"Période du\"}},{\"id\":\"5\",\"enabled\":true,\"type\":\"max\",\"schema\":\"metric\",\"params\":{\"field\":\"datetime\",\"customLabel\":\"au\"}}]}"
+      },
+      "references": [
+        {
+          "id": "34a502d0-b391-11e9-8339-63cd4d0c5d94",
+          "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
+          "type": "index-pattern"
+        }
+      ],
+      "migrationVersion": {
+        "visualization": "7.14.0"
+      },
+      "coreMigrationVersion": "7.14.1"
+    },
+    {
+      "id": "19bd4530-c434-11eb-8139-2d9f91b04e27",
+      "type": "visualization",
+      "namespaces": [
+        "org-template"
+      ],
+      "updated_at": "2021-06-03T13:57:56.495Z",
+      "version": "WzYyNjEyLDZd",
+      "attributes": {
+        "description": "",
+        "kibanaSavedObjectMeta": {
+          "searchSourceJSON": "{\"query\":{\"query\":\"\",\"language\":\"lucene\"},\"filter\":[],\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.index\"}"
+        },
+        "title": "* : modèle générique histogramme mensuel",
+        "uiStateJSON": "{}",
+        "version": 1,
+        "visState": "{\"title\":\"* : modèle générique histogramme mensuel\",\"type\":\"histogram\",\"params\":{\"type\":\"histogram\",\"grid\":{\"categoryLines\":false},\"categoryAxes\":[{\"id\":\"CategoryAxis-1\",\"type\":\"category\",\"position\":\"bottom\",\"show\":true,\"style\":{},\"scale\":{\"type\":\"linear\"},\"labels\":{\"show\":true,\"filter\":true,\"truncate\":100},\"title\":{}}],\"valueAxes\":[{\"id\":\"ValueAxis-1\",\"name\":\"LeftAxis-1\",\"type\":\"value\",\"position\":\"left\",\"show\":true,\"style\":{},\"scale\":{\"type\":\"linear\",\"mode\":\"normal\"},\"labels\":{\"show\":true,\"rotate\":0,\"filter\":false,\"truncate\":100},\"title\":{\"text\":\"Count\"}}],\"seriesParams\":[{\"show\":\"true\",\"type\":\"histogram\",\"mode\":\"stacked\",\"data\":{\"label\":\"Count\",\"id\":\"1\"},\"valueAxis\":\"ValueAxis-1\",\"drawLinesBetweenPoints\":true,\"showCircles\":true}],\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"times\":[],\"addTimeMarker\":false,\"labels\":{\"show\":true},\"thresholdLine\":{\"show\":false,\"value\":10,\"width\":1,\"style\":\"full\",\"color\":\"#34130C\"},\"dimensions\":{\"x\":{\"accessor\":0,\"format\":{\"id\":\"date\",\"params\":{\"pattern\":\"YYYY-MM-DD\"}},\"params\":{\"date\":true,\"interval\":\"P1M\",\"format\":\"YYYY-MM-DD\",\"bounds\":{\"min\":\"2020-01-01T14:47:15.194Z\",\"max\":\"2020-12-31T14:47:23.745Z\"}},\"aggType\":\"date_histogram\"},\"y\":[{\"accessor\":1,\"format\":{\"id\":\"number\"},\"params\":{},\"aggType\":\"count\"}]},\"palette\":{\"type\":\"palette\",\"name\":\"kibana_palette\"},\"isVislibVis\":true,\"detailedTooltip\":true},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"enabled\":true,\"type\":\"date_histogram\",\"schema\":\"segment\",\"params\":{\"field\":\"datetime\",\"timeRange\":{\"from\":\"2020-01-01T14:47:15.194Z\",\"to\":\"2020-12-31T14:47:23.745Z\"},\"useNormalizedEsInterval\":true,\"interval\":\"M\",\"drop_partials\":false,\"min_doc_count\":1,\"extended_bounds\":{}}}]}"
+      },
+      "references": [
+        {
+          "id": "34a502d0-b391-11e9-8339-63cd4d0c5d94",
+          "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
+          "type": "index-pattern"
+        }
+      ],
+      "migrationVersion": {
+        "visualization": "7.14.0"
+      },
+      "coreMigrationVersion": "7.14.1"
+    },
+    {
+      "id": "65f86040-bdec-11eb-8139-2d9f91b04e27",
+      "type": "visualization",
+      "namespaces": [
+        "org-template"
+      ],
+      "updated_at": "2022-06-28T09:12:58.763Z",
+      "version": "WzQ3OTI0Myw4XQ==",
+      "attributes": {
+        "title": "*: générique Format",
+        "visState": "{\"title\":\"*: générique Format\",\"type\":\"pie\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"params\":{},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"params\":{\"field\":\"mime\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":10,\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\"},\"schema\":\"segment\"}],\"params\":{\"type\":\"pie\",\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"top\",\"isDonut\":true,\"labels\":{\"show\":true,\"values\":true,\"last_level\":true,\"truncate\":100,\"position\":\"inside\"},\"dimensions\":{\"metric\":{\"accessor\":1,\"format\":{\"id\":\"number\"},\"params\":{},\"aggType\":\"count\"},\"buckets\":[{\"accessor\":0,\"format\":{\"id\":\"terms\",\"params\":{\"id\":\"string\",\"otherBucketLabel\":\"Other\",\"missingBucketLabel\":\"Missing\"}},\"params\":{},\"aggType\":\"terms\"}]},\"palette\":{\"type\":\"palette\",\"name\":\"kibana_palette\"},\"distinctColors\":true,\"nestedLegend\":false}}",
+        "uiStateJSON": "{\"vis\":{\"legendOpen\":true}}",
+        "description": "",
+        "version": 1,
+        "kibanaSavedObjectMeta": {
+          "searchSourceJSON": "{\"query\":{\"query\":\"\",\"language\":\"kuery\"},\"filter\":[],\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.index\"}"
+        }
+      },
+      "references": [
+        {
+          "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
+          "type": "index-pattern",
+          "id": "34a502d0-b391-11e9-8339-63cd4d0c5d94"
+        }
+      ],
+      "migrationVersion": {
+        "visualization": "7.14.0"
+      },
+      "coreMigrationVersion": "7.14.1"
+    },
+    {
+      "id": "fbdb0050-bdeb-11eb-8139-2d9f91b04e27",
+      "type": "visualization",
+      "namespaces": [
+        "org-template"
+      ],
+      "updated_at": "2022-06-28T09:11:24.424Z",
+      "version": "WzQ3OTIwNSw4XQ==",
+      "attributes": {
+        "title": "*: générique les 15 premières plateformes éditeur",
+        "visState": "{\"title\":\"*: générique les 15 premières plateformes éditeur\",\"type\":\"pie\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"params\":{},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"params\":{\"field\":\"platform_name\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":15,\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\"},\"schema\":\"segment\"}],\"params\":{\"type\":\"pie\",\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"top\",\"isDonut\":true,\"labels\":{\"show\":true,\"values\":true,\"last_level\":true,\"truncate\":100,\"position\":\"inside\"},\"dimensions\":{\"metric\":{\"accessor\":1,\"format\":{\"id\":\"number\"},\"params\":{},\"aggType\":\"count\"},\"buckets\":[{\"accessor\":0,\"format\":{\"id\":\"terms\",\"params\":{\"id\":\"string\",\"otherBucketLabel\":\"Other\",\"missingBucketLabel\":\"Missing\"}},\"params\":{},\"aggType\":\"terms\"}]},\"palette\":{\"type\":\"palette\",\"name\":\"kibana_palette\"},\"distinctColors\":true,\"nestedLegend\":false}}",
+        "uiStateJSON": "{\"vis\":{\"legendOpen\":true}}",
+        "description": "",
+        "version": 1,
+        "kibanaSavedObjectMeta": {
+          "searchSourceJSON": "{\"query\":{\"query\":\"\",\"language\":\"kuery\"},\"filter\":[],\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.index\"}"
+        }
+      },
+      "references": [
+        {
+          "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
+          "type": "index-pattern",
+          "id": "34a502d0-b391-11e9-8339-63cd4d0c5d94"
+        }
+      ],
+      "migrationVersion": {
+        "visualization": "7.14.0"
+      },
+      "coreMigrationVersion": "7.14.1"
+    },
+    {
+      "id": "412ecdd0-bdec-11eb-8139-2d9f91b04e27",
+      "type": "visualization",
+      "namespaces": [
+        "org-template"
+      ],
+      "updated_at": "2022-06-28T09:12:38.862Z",
+      "version": "WzQ3OTIyOCw4XQ==",
+      "attributes": {
+        "title": "*: générique Type de consultation",
+        "visState": "{\"title\":\"*: générique Type de consultation\",\"type\":\"pie\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"params\":{},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"params\":{\"field\":\"rtype\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":20,\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\"},\"schema\":\"segment\"}],\"params\":{\"type\":\"pie\",\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"top\",\"isDonut\":true,\"labels\":{\"show\":true,\"values\":true,\"last_level\":true,\"truncate\":100,\"position\":\"inside\"},\"dimensions\":{\"metric\":{\"accessor\":1,\"format\":{\"id\":\"number\"},\"params\":{},\"aggType\":\"count\"},\"buckets\":[{\"accessor\":0,\"format\":{\"id\":\"terms\",\"params\":{\"id\":\"string\",\"otherBucketLabel\":\"Other\",\"missingBucketLabel\":\"Missing\"}},\"params\":{},\"aggType\":\"terms\"}]},\"palette\":{\"type\":\"palette\",\"name\":\"kibana_palette\"},\"distinctColors\":true,\"nestedLegend\":false}}",
+        "uiStateJSON": "{\"vis\":{\"legendOpen\":true}}",
+        "description": "",
+        "version": 1,
+        "kibanaSavedObjectMeta": {
+          "searchSourceJSON": "{\"query\":{\"query\":\"\",\"language\":\"kuery\"},\"filter\":[],\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.index\"}"
+        }
+      },
+      "references": [
+        {
+          "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
+          "type": "index-pattern",
+          "id": "34a502d0-b391-11e9-8339-63cd4d0c5d94"
+        }
+      ],
+      "migrationVersion": {
+        "visualization": "7.14.0"
+      },
+      "coreMigrationVersion": "7.14.1"
+    },
+    {
+      "id": "cc279940-bdf0-11eb-8139-2d9f91b04e27",
+      "type": "visualization",
+      "namespaces": [
+        "org-template"
+      ],
+      "updated_at": "2022-06-28T09:13:22.618Z",
+      "version": "WzQ3OTI2Miw4XQ==",
+      "attributes": {
+        "title": "* : générique présence du DOI ",
+        "visState": "{\"title\":\"* : générique présence du DOI \",\"type\":\"pie\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"params\":{},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"filters\",\"params\":{\"filters\":[{\"input\":{\"query\":\"_exists_:doi \",\"language\":\"lucene\"},\"label\":\"avec DOI\"},{\"input\":{\"query\":\"!_exists_:doi\",\"language\":\"lucene\"},\"label\":\"sans DOI\"}]},\"schema\":\"segment\"}],\"params\":{\"type\":\"pie\",\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"isDonut\":true,\"labels\":{\"show\":true,\"values\":true,\"last_level\":true,\"truncate\":100,\"position\":\"inside\"},\"dimensions\":{\"metric\":{\"accessor\":1,\"format\":{\"id\":\"number\"},\"params\":{},\"aggType\":\"count\"},\"buckets\":[{\"accessor\":0,\"format\":{},\"params\":{},\"aggType\":\"filters\"}]},\"palette\":{\"type\":\"palette\",\"name\":\"kibana_palette\"},\"distinctColors\":true,\"nestedLegend\":false}}",
+        "uiStateJSON": "{\"vis\":{\"colors\":{\"avec DOI\":\"#629E51\",\"sans DOI\":\"#BF1B00\"},\"legendOpen\":true}}",
+        "description": "",
+        "version": 1,
+        "kibanaSavedObjectMeta": {
+          "searchSourceJSON": "{\"query\":{\"query\":\"\",\"language\":\"kuery\"},\"filter\":[],\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.index\"}"
+        }
+      },
+      "references": [
+        {
+          "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
+          "type": "index-pattern",
+          "id": "34a502d0-b391-11e9-8339-63cd4d0c5d94"
+        }
+      ],
+      "migrationVersion": {
+        "visualization": "7.14.0"
+      },
+      "coreMigrationVersion": "7.14.1"
+    },
+    {
+      "id": "2fef9a20-c433-11eb-8139-2d9f91b04e27",
+      "type": "visualization",
+      "namespaces": [
+        "org-template"
+      ],
+      "updated_at": "2022-06-28T09:32:45.556Z",
+      "version": "WzQ3OTY5OSw4XQ==",
+      "attributes": {
+        "title": "* : modèle générique Publication date",
+        "visState": "{\"title\":\"* : modèle générique Publication date\",\"type\":\"pie\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"params\":{},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"params\":{\"field\":\"publication_date\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":10,\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":true,\"missingBucketLabel\":\"Missing\",\"customLabel\":\"non renseigné\"},\"schema\":\"segment\"}],\"params\":{\"addLegend\":true,\"addTooltip\":true,\"dimensions\":{\"metric\":{\"accessor\":1,\"format\":{\"id\":\"number\"},\"params\":{},\"aggType\":\"count\"},\"buckets\":[{\"accessor\":0,\"format\":{\"id\":\"terms\",\"params\":{\"id\":\"string\",\"otherBucketLabel\":\"Other\",\"missingBucketLabel\":\"Missing\"}},\"params\":{},\"aggType\":\"terms\"}]},\"isDonut\":true,\"labels\":{\"last_level\":true,\"show\":true,\"truncate\":100,\"values\":true,\"position\":\"inside\"},\"legendPosition\":\"right\",\"type\":\"pie\",\"palette\":{\"type\":\"palette\",\"name\":\"kibana_palette\"},\"distinctColors\":true,\"nestedLegend\":false}}",
+        "uiStateJSON": "{\"vis\":{\"colors\":{\"avec DOI\":\"#629E51\",\"sans DOI\":\"#BF1B00\",\"sans doi\":\"#BF1B00\"},\"legendOpen\":true}}",
+        "description": "",
+        "version": 1,
+        "kibanaSavedObjectMeta": {
+          "searchSourceJSON": "{\"query\":{\"language\":\"kuery\",\"query\":\"\"},\"filter\":[],\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.index\"}"
+        }
+      },
+      "references": [
+        {
+          "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
+          "type": "index-pattern",
+          "id": "34a502d0-b391-11e9-8339-63cd4d0c5d94"
+        }
+      ],
+      "migrationVersion": {
+        "visualization": "7.14.0"
+      },
+      "coreMigrationVersion": "7.14.1"
+    },
+    {
+      "id": "b30f4d50-bdef-11eb-8139-2d9f91b04e27",
+      "type": "visualization",
+      "namespaces": [
+        "org-template"
+      ],
+      "updated_at": "2021-06-03T06:48:35.385Z",
+      "version": "WzYyNTc5LDZd",
+      "attributes": {
+        "description": "",
+        "kibanaSavedObjectMeta": {
+          "searchSourceJSON": "{\"query\":{\"language\":\"kuery\",\"query\":\"\"},\"filter\":[],\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.index\"}"
+        },
+        "title": "* : générique Top 20 des titres de publication les plus consultés",
+        "uiStateJSON": "{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":3,\"direction\":\"desc\"}}}}",
+        "version": 1,
+        "visState": "{\"title\":\"* : générique Top 20 des titres de publication les plus consultés\",\"type\":\"table\",\"params\":{\"dimensions\":{\"metrics\":[{\"accessor\":3,\"format\":{\"id\":\"number\"},\"params\":{},\"aggType\":\"count\"}],\"buckets\":[{\"accessor\":0,\"format\":{\"id\":\"terms\",\"params\":{\"id\":\"string\",\"otherBucketLabel\":\"Other\",\"missingBucketLabel\":\"Missing\"}},\"params\":{},\"aggType\":\"terms\"},{\"accessor\":1,\"format\":{\"id\":\"terms\",\"params\":{\"id\":\"string\",\"otherBucketLabel\":\"Other\",\"missingBucketLabel\":\"Missing\"}},\"params\":{},\"aggType\":\"terms\"},{\"accessor\":2,\"format\":{\"id\":\"terms\",\"params\":{\"id\":\"string\",\"otherBucketLabel\":\"Other\",\"missingBucketLabel\":\"Missing\"}},\"params\":{},\"aggType\":\"terms\"}]},\"perPage\":21,\"percentageCol\":\"\",\"showMetricsAtAllLevels\":false,\"showPartialRows\":false,\"showTotal\":false,\"sort\":{\"columnIndex\":3,\"direction\":\"desc\"},\"totalFunc\":\"sum\",\"showToolbar\":true},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"publication_title\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":21,\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":true,\"missingBucketLabel\":\"non renseigné\",\"customLabel\":\"Titres de publication\"}},{\"id\":\"3\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"print_identifier\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":5,\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":true,\"missingBucketLabel\":\"non renseigné\",\"customLabel\":\"Print identifier ISSN ISBN\"}},{\"id\":\"4\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"online_identifier\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":5,\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":true,\"missingBucketLabel\":\"non renseigné\",\"customLabel\":\"Online identifier ISSN ISBN\"}}]}"
+      },
+      "references": [
+        {
+          "id": "34a502d0-b391-11e9-8339-63cd4d0c5d94",
+          "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
+          "type": "index-pattern"
+        }
+      ],
+      "migrationVersion": {
+        "visualization": "7.14.0"
+      },
+      "coreMigrationVersion": "7.14.1"
+    },
+    {
+      "id": "b9f60840-f6c2-11ec-871c-618dc17b393f",
+      "type": "tag",
+      "namespaces": [
+        "org-template"
+      ],
+      "updated_at": "2022-06-28T09:14:34.572Z",
+      "version": "WzQ3OTI4MSw4XQ==",
+      "attributes": {
+        "name": "validé",
+        "description": "",
+        "color": "#07db57"
+      },
+      "references": [],
+      "coreMigrationVersion": "7.14.1"
+    }
+  ]
+}
