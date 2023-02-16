@@ -11,8 +11,8 @@
       "version": "WzUyODcwMyw4XQ==",
       "attributes": {
         "hits": 0,
-        "timeFrom": "2020-12-30T23:21:30.981Z",
-        "timeTo": "2021-12-31T22:30:00.000Z",
+        "timeFrom": "now-1y/y",
+        "timeTo": "now-1y/y",
         "refreshInterval": {
           "value": 0,
           "pause": true
