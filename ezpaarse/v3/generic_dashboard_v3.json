@@ -7,8 +7,8 @@
       "namespaces": [
         "formation-ezpaarse"
       ],
-      "updated_at": "2023-03-24T10:48:57.837Z",
-      "version": "WzEyNzEzNzAsMTBd",
+      "updated_at": "2023-03-27T08:06:23.625Z",
+      "version": "WzEyNzU1OTYsMTBd",
       "attributes": {
         "title": "* : tableau de bord générique données ezPAARSE V3 ",
         "hits": 0,
@@ -77,6 +77,11 @@
           "name": "4503739f-aeb6-468d-81f0-67ffc23e46c8:panel_4503739f-aeb6-468d-81f0-67ffc23e46c8",
           "type": "visualization",
           "id": "b30f4d50-bdef-11eb-8139-2d9f91b04e27"
+        },
+        {
+          "id": "b9f60840-f6c2-11ec-871c-618dc17b393f",
+          "type": "tag",
+          "name": "tag-b9f60840-f6c2-11ec-871c-618dc17b393f"
         }
       ],
       "migrationVersion": {
@@ -376,6 +381,22 @@
       "migrationVersion": {
         "visualization": "7.14.0"
       },
+      "coreMigrationVersion": "7.14.1"
+    },
+    {
+      "id": "b9f60840-f6c2-11ec-871c-618dc17b393f",
+      "type": "tag",
+      "namespaces": [
+        "formation-ezpaarse"
+      ],
+      "updated_at": "2022-07-13T09:30:48.742Z",
+      "version": "WzExODA1OTMsMTBd",
+      "attributes": {
+        "name": "validé",
+        "description": "",
+        "color": "#07db57"
+      },
+      "references": [],
       "coreMigrationVersion": "7.14.1"
     },
     {
