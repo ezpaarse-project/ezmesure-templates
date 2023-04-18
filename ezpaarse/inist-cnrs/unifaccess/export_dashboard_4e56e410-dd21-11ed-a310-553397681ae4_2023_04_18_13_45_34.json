@@ -2,13 +2,13 @@
   "version": "7.14.1",
   "objects": [
     {
-      "id": "4e56e410-dd21-11ed-a310-553397681ae4",
+      "id": "5ebf3e60-ddee-11ed-a310-553397681ae4",
       "type": "dashboard",
       "namespaces": [
         "int_unifaccess"
       ],
-      "updated_at": "2023-04-18T11:44:03.862Z",
-      "version": "Wzk0MTgyLDE0XQ==",
+      "updated_at": "2023-04-18T13:38:57.995Z",
+      "version": "Wzk0NDc0LDE0XQ==",
       "attributes": {
         "title": "unifaccess : generic",
         "hits": 0,
@@ -24,15 +24,10 @@
           "value": 0
         },
         "kibanaSavedObjectMeta": {
-          "searchSourceJSON": "{\"query\":{\"query\":\"\",\"language\":\"kuery\"},\"filter\":[{\"meta\":{\"params\":{\"gte\":\"2023-03-30T11:29:35.224Z\",\"lt\":\"2023-04-16T22:00:00.000Z\",\"format\":\"strict_date_optional_time\"},\"type\":\"range\",\"key\":\"datetime\",\"disabled\":false,\"negate\":false,\"alias\":null,\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.filter[0].meta.index\"},\"range\":{\"datetime\":{\"gte\":\"2023-03-30T11:29:35.224Z\",\"lt\":\"2023-04-16T22:00:00.000Z\",\"format\":\"strict_date_optional_time\"}},\"$state\":{\"store\":\"appState\"}}]}"
+          "searchSourceJSON": "{\"query\":{\"query\":\"\",\"language\":\"kuery\"},\"filter\":[]}"
         }
       },
       "references": [
-        {
-          "name": "kibanaSavedObjectMeta.searchSourceJSON.filter[0].meta.index",
-          "type": "index-pattern",
-          "id": "2116ffc0-dcff-11ed-a310-553397681ae4"
-        },
         {
           "name": "a4c11106-6413-48fd-a149-505d6208a8fc:panel_a4c11106-6413-48fd-a149-505d6208a8fc",
           "type": "visualization",
@@ -126,29 +121,6 @@
       ],
       "migrationVersion": {
         "dashboard": "7.14.0"
-      },
-      "coreMigrationVersion": "7.14.1"
-    },
-    {
-      "id": "2116ffc0-dcff-11ed-a310-553397681ae4",
-      "type": "index-pattern",
-      "namespaces": [
-        "int_unifaccess"
-      ],
-      "updated_at": "2023-04-17T13:24:19.226Z",
-      "version": "WzkzOTg4LDE0XQ==",
-      "attributes": {
-        "fieldAttrs": "{}",
-        "title": "int_unifaccess-ezpaarse*",
-        "timeFieldName": "timestamp",
-        "fields": "[]",
-        "typeMeta": "{}",
-        "runtimeFieldMap": "{}",
-        "fieldFormatMap": "{\"timestamp\":{\"id\":\"date\",\"params\":{\"pattern\":\"DD-MM-YYYY\"}},\"datetime\":{\"id\":\"date\",\"params\":{\"pattern\":\"DD-MM-YYYY\"}}}"
-      },
-      "references": [],
-      "migrationVersion": {
-        "index-pattern": "7.11.0"
       },
       "coreMigrationVersion": "7.14.1"
     },
@@ -705,6 +677,29 @@
       ],
       "migrationVersion": {
         "search": "7.9.3"
+      },
+      "coreMigrationVersion": "7.14.1"
+    },
+    {
+      "id": "2116ffc0-dcff-11ed-a310-553397681ae4",
+      "type": "index-pattern",
+      "namespaces": [
+        "int_unifaccess"
+      ],
+      "updated_at": "2023-04-17T13:24:19.226Z",
+      "version": "WzkzOTg4LDE0XQ==",
+      "attributes": {
+        "fieldAttrs": "{}",
+        "title": "int_unifaccess-ezpaarse*",
+        "timeFieldName": "timestamp",
+        "fields": "[]",
+        "typeMeta": "{}",
+        "runtimeFieldMap": "{}",
+        "fieldFormatMap": "{\"timestamp\":{\"id\":\"date\",\"params\":{\"pattern\":\"DD-MM-YYYY\"}},\"datetime\":{\"id\":\"date\",\"params\":{\"pattern\":\"DD-MM-YYYY\"}}}"
+      },
+      "references": [],
+      "migrationVersion": {
+        "index-pattern": "7.11.0"
       },
       "coreMigrationVersion": "7.14.1"
     },
