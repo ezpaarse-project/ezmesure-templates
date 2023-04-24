@@ -1,0 +1,878 @@
+{
+  "version": "7.14.1",
+  "objects": [
+    {
+      "id": "45cf3cd0-c6f5-11ed-8ce4-61ee0b8a2f58",
+      "type": "dashboard",
+      "namespaces": [
+        "formation-ezpaarse"
+      ],
+      "updated_at": "2023-04-24T08:28:54.244Z",
+      "version": "WzEzNDk4MTQsMTFd",
+      "attributes": {
+        "title": "bibcnrs-*: Tableau de bord des consultations de 2023  enrichissement ezUNPAYWALL OA",
+        "hits": 0,
+        "description": "Consultation des usages du portail BIBCNRS des éditeurs scientifiques par les logs traités dans ezPAARSE et enrichissement ezUNPAYWALL OA",
+        "panelsJSON": "[{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":0,\"y\":86,\"w\":24,\"h\":27,\"i\":\"2\"},\"panelIndex\":\"2\",\"embeddableConfig\":{\"params\":{\"sort\":{\"columnIndex\":1,\"direction\":\"asc\"}},\"vis\":{\"params\":{\"sort\":{\"columnIndex\":1,\"direction\":\"desc\"}}},\"enhancements\":{}},\"panelRefName\":\"panel_2\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":0,\"y\":65,\"w\":12,\"h\":21,\"i\":\"4\"},\"panelIndex\":\"4\",\"embeddableConfig\":{\"enhancements\":{},\"vis\":{\"legendOpen\":true}},\"panelRefName\":\"panel_4\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":0,\"y\":113,\"w\":26,\"h\":45,\"i\":\"5\"},\"panelIndex\":\"5\",\"embeddableConfig\":{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":3,\"direction\":\"desc\"}}},\"enhancements\":{}},\"panelRefName\":\"panel_5\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":12,\"y\":65,\"w\":11,\"h\":21,\"i\":\"6\"},\"panelIndex\":\"6\",\"embeddableConfig\":{\"colors\":{\"HTML\":\"#64B0C8\"},\"vis\":{\"colors\":{\"HTML\":\"#64B0C8\",\"PDF\":\"#BF1B00\"},\"legendOpen\":true},\"enhancements\":{}},\"panelRefName\":\"panel_6\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":24,\"y\":0,\"w\":24,\"h\":29,\"i\":\"7\"},\"panelIndex\":\"7\",\"embeddableConfig\":{\"enhancements\":{}},\"panelRefName\":\"panel_7\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":0,\"y\":39,\"w\":36,\"h\":26,\"i\":\"8\"},\"panelIndex\":\"8\",\"embeddableConfig\":{\"enhancements\":{},\"vis\":{\"colors\":{\"Count\":\"#65C5DB\"}}},\"panelRefName\":\"panel_8\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":36,\"y\":39,\"w\":12,\"h\":26,\"i\":\"9\"},\"panelIndex\":\"9\",\"embeddableConfig\":{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}},\"enhancements\":{}},\"panelRefName\":\"panel_9\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":24,\"y\":86,\"w\":24,\"h\":27,\"i\":\"11\"},\"panelIndex\":\"11\",\"embeddableConfig\":{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}},\"enhancements\":{}},\"panelRefName\":\"panel_11\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":24,\"y\":158,\"w\":24,\"h\":9,\"i\":\"13\"},\"panelIndex\":\"13\",\"embeddableConfig\":{\"enhancements\":{}},\"panelRefName\":\"panel_13\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":0,\"y\":29,\"w\":48,\"h\":10,\"i\":\"14\"},\"panelIndex\":\"14\",\"embeddableConfig\":{\"enhancements\":{}},\"panelRefName\":\"panel_14\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":0,\"y\":158,\"w\":24,\"h\":9,\"i\":\"15\"},\"panelIndex\":\"15\",\"embeddableConfig\":{\"enhancements\":{}},\"panelRefName\":\"panel_15\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":0,\"y\":167,\"w\":36,\"h\":31,\"i\":\"18\"},\"panelIndex\":\"18\",\"embeddableConfig\":{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}},\"enhancements\":{}},\"panelRefName\":\"panel_18\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":36,\"y\":167,\"w\":12,\"h\":31,\"i\":\"19\"},\"panelIndex\":\"19\",\"embeddableConfig\":{\"enhancements\":{},\"vis\":{\"colors\":{\"CNRS\":\"#447EBC\",\"OTHER\":\"#F9934E\",\"Missing\":\"#E24D42\",\"UNKNOWN\":\"#BF1B00\",\"NON RENSEIGNE\":\"#7EB26D\"},\"legendOpen\":true}},\"panelRefName\":\"panel_19\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":36,\"y\":65,\"w\":12,\"h\":21,\"i\":\"20\"},\"panelIndex\":\"20\",\"embeddableConfig\":{\"enhancements\":{},\"vis\":{\"legendOpen\":true,\"colors\":{\"__missing__\":\"#BF1B00\"}}},\"panelRefName\":\"panel_20\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":26,\"y\":113,\"w\":22,\"h\":45,\"i\":\"23\"},\"panelIndex\":\"23\",\"embeddableConfig\":{\"enhancements\":{},\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null},\"colWidth\":[{\"colIndex\":0,\"width\":732.5}]}},\"table\":null},\"panelRefName\":\"panel_23\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":23,\"y\":65,\"w\":13,\"h\":21,\"i\":\"24\"},\"panelIndex\":\"24\",\"embeddableConfig\":{\"enhancements\":{},\"vis\":{\"colors\":{\"ARTICLE\":\"#BF1B00\",\"PDF\":\"#70DBED\",\"HTML\":\"#2F575E\",\"with DOI\":\"#447EBC\",\"without DOI\":\"#F29191\",\"sans DOI\":\"#BF1B00\"},\"legendOpen\":true}},\"panelRefName\":\"panel_24\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":0,\"y\":0,\"w\":24,\"h\":29,\"i\":\"e32cf96c-c0f1-4b6c-a3c7-5f66e3006a3e\"},\"panelIndex\":\"e32cf96c-c0f1-4b6c-a3c7-5f66e3006a3e\",\"embeddableConfig\":{\"enhancements\":{}},\"panelRefName\":\"panel_e32cf96c-c0f1-4b6c-a3c7-5f66e3006a3e\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":0,\"y\":198,\"w\":12,\"h\":20,\"i\":\"fab2d0c2-c77f-45b6-9eb5-89faef39287f\"},\"panelIndex\":\"fab2d0c2-c77f-45b6-9eb5-89faef39287f\",\"embeddableConfig\":{\"vis\":{\"legendOpen\":true,\"colors\":{\"__missing__\":\"#AEA2E0\",\"closed\":\"#F9E2D2\",\"green\":\"#508642\",\"gold\":\"#EAB839\",\"bronze\":\"#890F02\",\"hybrid\":\"#F9934E\"}},\"table\":null,\"enhancements\":{}},\"panelRefName\":\"panel_fab2d0c2-c77f-45b6-9eb5-89faef39287f\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":12,\"y\":198,\"w\":11,\"h\":20,\"i\":\"21c06491-c9f5-4b1e-88cb-fb02c1543726\"},\"panelIndex\":\"21c06491-c9f5-4b1e-88cb-fb02c1543726\",\"embeddableConfig\":{\"vis\":{\"legendOpen\":true,\"colors\":{\"false\":\"#BF1B00\",\"true\":\"#64B0C8\",\"__missing__\":\"#AEA2E0\"}},\"table\":null,\"enhancements\":{}},\"panelRefName\":\"panel_21c06491-c9f5-4b1e-88cb-fb02c1543726\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":23,\"y\":198,\"w\":13,\"h\":20,\"i\":\"aa1a3fc6-7e16-43e5-b8b6-33b4e1baf3d1\"},\"panelIndex\":\"aa1a3fc6-7e16-43e5-b8b6-33b4e1baf3d1\",\"embeddableConfig\":{\"vis\":{\"legendOpen\":true,\"colors\":{\"true\":\"#64B0C8\",\"false\":\"#BF1B00\",\"__missing__\":\"#AEA2E0\"}},\"table\":null,\"enhancements\":{}},\"panelRefName\":\"panel_aa1a3fc6-7e16-43e5-b8b6-33b4e1baf3d1\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":36,\"y\":198,\"w\":12,\"h\":20,\"i\":\"01e18040-1d55-46ad-8ddd-6291cbf83209\"},\"panelIndex\":\"01e18040-1d55-46ad-8ddd-6291cbf83209\",\"embeddableConfig\":{\"vis\":{\"legendOpen\":true,\"colors\":{\"__missing__\":\"#AEA2E0\",\"false\":\"#BF1B00\",\"true\":\"#64B0C8\"}},\"table\":null,\"enhancements\":{}},\"panelRefName\":\"panel_01e18040-1d55-46ad-8ddd-6291cbf83209\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":0,\"y\":218,\"w\":48,\"h\":44,\"i\":\"20307e50-463d-42e1-acbf-93a44e87f826\"},\"panelIndex\":\"20307e50-463d-42e1-acbf-93a44e87f826\",\"embeddableConfig\":{\"vis\":{\"params\":{\"colWidth\":[{\"colIndex\":2,\"width\":377}],\"sort\":{\"columnIndex\":3,\"direction\":\"desc\"}}},\"enhancements\":{}},\"panelRefName\":\"panel_20307e50-463d-42e1-acbf-93a44e87f826\"}]",
+        "optionsJSON": "{\"darkTheme\":false,\"useMargins\":false}",
+        "version": 1,
+        "timeRestore": true,
+        "timeTo": "2023-12-31T22:59:59.999Z",
+        "timeFrom": "2022-12-31T23:00:00.000Z",
+        "refreshInterval": {
+          "pause": true,
+          "value": 0
+        },
+        "kibanaSavedObjectMeta": {
+          "searchSourceJSON": "{\"highlightAll\":true,\"version\":true,\"query\":{\"language\":\"lucene\",\"query\":\"*\"},\"filter\":[]}"
+        }
+      },
+      "references": [
+        {
+          "name": "2:panel_2",
+          "type": "visualization",
+          "id": "72758cc0-767f-11e7-96d8-d552783a81ea"
+        },
+        {
+          "name": "4:panel_4",
+          "type": "visualization",
+          "id": "3f27cfa0-767e-11e7-96d8-d552783a81ea"
+        },
+        {
+          "name": "5:panel_5",
+          "type": "visualization",
+          "id": "01db8510-767e-11e7-96d8-d552783a81ea"
+        },
+        {
+          "name": "6:panel_6",
+          "type": "visualization",
+          "id": "c38c7b10-767e-11e7-96d8-d552783a81ea"
+        },
+        {
+          "name": "7:panel_7",
+          "type": "visualization",
+          "id": "27124db0-767d-11e7-96d8-d552783a81ea"
+        },
+        {
+          "name": "8:panel_8",
+          "type": "visualization",
+          "id": "612a40e0-7680-11e7-96d8-d552783a81ea"
+        },
+        {
+          "name": "9:panel_9",
+          "type": "visualization",
+          "id": "88274790-76a0-11e7-ad66-3727018695b6"
+        },
+        {
+          "name": "11:panel_11",
+          "type": "visualization",
+          "id": "c54c0380-02a6-11e8-a003-559b113855b3"
+        },
+        {
+          "name": "13:panel_13",
+          "type": "visualization",
+          "id": "3b627540-04ff-11e8-a003-559b113855b3"
+        },
+        {
+          "name": "14:panel_14",
+          "type": "visualization",
+          "id": "acfcb600-059c-11e8-a003-559b113855b3"
+        },
+        {
+          "name": "15:panel_15",
+          "type": "visualization",
+          "id": "38732a40-050f-11e8-a003-559b113855b3"
+        },
+        {
+          "name": "18:panel_18",
+          "type": "visualization",
+          "id": "911d6a90-0cdd-11e8-a003-559b113855b3"
+        },
+        {
+          "name": "19:panel_19",
+          "type": "visualization",
+          "id": "2c97f1b0-1bc6-11e8-906f-7d3955a630ef"
+        },
+        {
+          "name": "20:panel_20",
+          "type": "visualization",
+          "id": "c066b0d0-dcef-11e8-9fb0-afce77e57c35"
+        },
+        {
+          "name": "23:panel_23",
+          "type": "visualization",
+          "id": "1f8878b0-b458-11e9-8339-63cd4d0c5d94"
+        },
+        {
+          "name": "24:panel_24",
+          "type": "visualization",
+          "id": "9aeb18b0-4950-11e8-8b86-bb7a3fff158c"
+        },
+        {
+          "name": "e32cf96c-c0f1-4b6c-a3c7-5f66e3006a3e:panel_e32cf96c-c0f1-4b6c-a3c7-5f66e3006a3e",
+          "type": "visualization",
+          "id": "f53d6e50-3150-11ea-b38b-9559528de40d"
+        },
+        {
+          "name": "fab2d0c2-c77f-45b6-9eb5-89faef39287f:panel_fab2d0c2-c77f-45b6-9eb5-89faef39287f",
+          "type": "visualization",
+          "id": "f29939e0-df71-11ed-8ce4-61ee0b8a2f58"
+        },
+        {
+          "name": "21c06491-c9f5-4b1e-88cb-fb02c1543726:panel_21c06491-c9f5-4b1e-88cb-fb02c1543726",
+          "type": "visualization",
+          "id": "095fb880-df71-11ed-8ce4-61ee0b8a2f58"
+        },
+        {
+          "name": "aa1a3fc6-7e16-43e5-b8b6-33b4e1baf3d1:panel_aa1a3fc6-7e16-43e5-b8b6-33b4e1baf3d1",
+          "type": "visualization",
+          "id": "42dafde0-df71-11ed-8ce4-61ee0b8a2f58"
+        },
+        {
+          "name": "01e18040-1d55-46ad-8ddd-6291cbf83209:panel_01e18040-1d55-46ad-8ddd-6291cbf83209",
+          "type": "visualization",
+          "id": "7bcdd960-df71-11ed-8ce4-61ee0b8a2f58"
+        },
+        {
+          "name": "20307e50-463d-42e1-acbf-93a44e87f826:panel_20307e50-463d-42e1-acbf-93a44e87f826",
+          "type": "visualization",
+          "id": "382c9580-df7f-11ed-8ce4-61ee0b8a2f58"
+        },
+        {
+          "id": "b9f60840-f6c2-11ec-871c-618dc17b393f",
+          "type": "tag",
+          "name": "tag-b9f60840-f6c2-11ec-871c-618dc17b393f"
+        },
+        {
+          "id": "04a3d150-e025-11ed-8ce4-61ee0b8a2f58",
+          "type": "tag",
+          "name": "tag-04a3d150-e025-11ed-8ce4-61ee0b8a2f58"
+        }
+      ],
+      "migrationVersion": {
+        "dashboard": "7.14.0"
+      },
+      "coreMigrationVersion": "7.14.1"
+    },
+    {
+      "id": "72758cc0-767f-11e7-96d8-d552783a81ea",
+      "type": "visualization",
+      "namespaces": [
+        "formation-ezpaarse"
+      ],
+      "updated_at": "2023-04-20T11:42:18.075Z",
+      "version": "WzEzNDMxNTAsMTFd",
+      "attributes": {
+        "title": "bibcnrs-*: Table consultations par plateformes",
+        "visState": "{\"title\":\"bibcnrs-*: Table consultations par plateformes\",\"type\":\"table\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"params\":{\"customLabel\":\"Nombre de consultations\"},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"params\":{\"field\":\"platform_name\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":100,\"otherBucket\":true,\"otherBucketLabel\":\"Other\",\"missingBucket\":true,\"missingBucketLabel\":\"Missing\",\"customLabel\":\"Plateformes\"},\"schema\":\"bucket\"}],\"params\":{\"perPage\":10,\"showPartialRows\":false,\"sort\":{\"columnIndex\":null,\"direction\":null},\"showTotal\":true,\"totalFunc\":\"sum\",\"showToolbar\":true,\"showMetricsAtAllLevels\":false,\"percentageCol\":\"\"}}",
+        "uiStateJSON": "{}",
+        "description": "",
+        "version": 1,
+        "kibanaSavedObjectMeta": {
+          "searchSourceJSON": "{\"query\":{\"query\":\"\",\"language\":\"kuery\"},\"filter\":[],\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.index\"}"
+        }
+      },
+      "references": [
+        {
+          "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
+          "type": "index-pattern",
+          "id": "bibcnrs-*"
+        }
+      ],
+      "migrationVersion": {
+        "visualization": "7.14.0"
+      },
+      "coreMigrationVersion": "7.14.1"
+    },
+    {
+      "id": "3f27cfa0-767e-11e7-96d8-d552783a81ea",
+      "type": "visualization",
+      "namespaces": [
+        "formation-ezpaarse"
+      ],
+      "updated_at": "2023-04-20T11:42:18.075Z",
+      "version": "WzEzNDMxNTEsMTFd",
+      "attributes": {
+        "title": "bibcnrs-*: Camembert Consultations par Rtype",
+        "visState": "{\"title\":\"bibcnrs-*: Camembert Consultations par Rtype\",\"type\":\"pie\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"params\":{},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"params\":{\"field\":\"rtype\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":20,\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":true,\"missingBucketLabel\":\"Missing\",\"customLabel\":\"non renseigné\"},\"schema\":\"segment\"}],\"params\":{\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"top\",\"isDonut\":true,\"type\":\"pie\",\"labels\":{\"show\":true,\"values\":true,\"last_level\":true,\"truncate\":100,\"position\":\"inside\"},\"dimensions\":{\"metric\":{\"accessor\":1,\"format\":{\"id\":\"number\"},\"params\":{},\"aggType\":\"count\"},\"buckets\":[{\"accessor\":0,\"format\":{\"id\":\"terms\",\"params\":{\"id\":\"string\",\"otherBucketLabel\":\"Other\",\"missingBucketLabel\":\"Missing\"}},\"params\":{},\"aggType\":\"terms\"}]},\"palette\":{\"type\":\"palette\",\"name\":\"kibana_palette\"},\"distinctColors\":true,\"nestedLegend\":false}}",
+        "uiStateJSON": "{\"vis\":{\"legendOpen\":false}}",
+        "description": "",
+        "version": 1,
+        "kibanaSavedObjectMeta": {
+          "searchSourceJSON": "{\"query\":{\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true,\"default_field\":\"*\"}},\"language\":\"lucene\"},\"filter\":[],\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.index\"}"
+        }
+      },
+      "references": [
+        {
+          "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
+          "type": "index-pattern",
+          "id": "bibcnrs-*"
+        }
+      ],
+      "migrationVersion": {
+        "visualization": "7.14.0"
+      },
+      "coreMigrationVersion": "7.14.1"
+    },
+    {
+      "id": "01db8510-767e-11e7-96d8-d552783a81ea",
+      "type": "visualization",
+      "namespaces": [
+        "formation-ezpaarse"
+      ],
+      "updated_at": "2023-04-20T12:23:06.595Z",
+      "version": "WzEzNDMzODksMTFd",
+      "attributes": {
+        "title": "Top 10 des consultations par titres",
+        "visState": "{\"title\":\"Top 10 des consultations par titres\",\"type\":\"table\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"params\":{\"customLabel\":\"Nombre de consultations\"},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"params\":{\"field\":\"publication_title\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":500,\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":true,\"missingBucketLabel\":\"non renseigné\",\"customLabel\":\"Titre de publication\"},\"schema\":\"bucket\"},{\"id\":\"3\",\"enabled\":true,\"type\":\"terms\",\"params\":{\"field\":\"print_identifier\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":10,\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":false,\"missingBucketLabel\":\"non renseigné\"},\"schema\":\"bucket\"},{\"id\":\"4\",\"enabled\":true,\"type\":\"terms\",\"params\":{\"field\":\"online_identifier\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":10,\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":false,\"missingBucketLabel\":\"non renseigné\"},\"schema\":\"bucket\"}],\"params\":{\"perPage\":21,\"showPartialRows\":false,\"showTotal\":false,\"sort\":{\"columnIndex\":null,\"direction\":null},\"totalFunc\":\"sum\",\"showMetricsAtAllLevels\":false,\"showToolbar\":true,\"percentageCol\":\"\"}}",
+        "uiStateJSON": "{}",
+        "description": "",
+        "version": 1,
+        "kibanaSavedObjectMeta": {
+          "searchSourceJSON": "{\"query\":{\"language\":\"lucene\",\"query\":{\"query_string\":{\"analyze_wildcard\":true,\"default_field\":\"*\",\"query\":\"*\"}}},\"filter\":[],\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.index\"}"
+        }
+      },
+      "references": [
+        {
+          "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
+          "type": "index-pattern",
+          "id": "bibcnrs-*"
+        }
+      ],
+      "migrationVersion": {
+        "visualization": "7.14.0"
+      },
+      "coreMigrationVersion": "7.14.1"
+    },
+    {
+      "id": "c38c7b10-767e-11e7-96d8-d552783a81ea",
+      "type": "visualization",
+      "namespaces": [
+        "formation-ezpaarse"
+      ],
+      "updated_at": "2023-04-20T11:42:18.075Z",
+      "version": "WzEzNDMxNTMsMTFd",
+      "attributes": {
+        "title": "bibcnrs-*:Camembert consultations par format mime",
+        "visState": "{\"title\":\"bibcnrs-*:Camembert consultations par format mime\",\"type\":\"pie\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"params\":{},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"params\":{\"field\":\"mime\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":10,\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\"},\"schema\":\"segment\"}],\"params\":{\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"top\",\"isDonut\":true,\"type\":\"pie\",\"labels\":{\"show\":true,\"values\":true,\"last_level\":true,\"truncate\":100,\"position\":\"inside\"},\"dimensions\":{\"metric\":{\"accessor\":1,\"format\":{\"id\":\"number\"},\"params\":{},\"aggType\":\"count\"},\"buckets\":[{\"accessor\":0,\"format\":{\"id\":\"terms\",\"params\":{\"id\":\"string\",\"otherBucketLabel\":\"Other\",\"missingBucketLabel\":\"Missing\"}},\"params\":{},\"aggType\":\"terms\"}]},\"palette\":{\"type\":\"palette\",\"name\":\"kibana_palette\"},\"distinctColors\":true,\"nestedLegend\":false}}",
+        "uiStateJSON": "{\"vis\":{\"legendOpen\":true}}",
+        "description": "",
+        "version": 1,
+        "kibanaSavedObjectMeta": {
+          "searchSourceJSON": "{\"query\":{\"query\":\"*\",\"language\":\"lucene\"},\"filter\":[],\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.index\"}"
+        }
+      },
+      "references": [
+        {
+          "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
+          "type": "index-pattern",
+          "id": "bibcnrs-*"
+        }
+      ],
+      "migrationVersion": {
+        "visualization": "7.14.0"
+      },
+      "coreMigrationVersion": "7.14.1"
+    },
+    {
+      "id": "27124db0-767d-11e7-96d8-d552783a81ea",
+      "type": "visualization",
+      "namespaces": [
+        "formation-ezpaarse"
+      ],
+      "updated_at": "2023-04-20T11:42:18.075Z",
+      "version": "WzEzNDMxNTQsMTFd",
+      "attributes": {
+        "title": "bibcnrs-*:metrics bibcnrs",
+        "visState": "{\"title\":\"bibcnrs-*:metrics bibcnrs\",\"type\":\"metric\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"params\":{\"customLabel\":\"Consultations\"},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"min\",\"params\":{\"field\":\"datetime\",\"customLabel\":\"Période du\"},\"schema\":\"metric\"},{\"id\":\"4\",\"enabled\":true,\"type\":\"max\",\"params\":{\"field\":\"datetime\",\"customLabel\":\"au\"},\"schema\":\"metric\"},{\"id\":\"5\",\"enabled\":true,\"type\":\"cardinality\",\"params\":{\"field\":\"unit\",\"customLabel\":\"Unités\"},\"schema\":\"metric\"},{\"id\":\"6\",\"enabled\":true,\"type\":\"cardinality\",\"params\":{\"field\":\"user\",\"customLabel\":\"Ayant_droits \"},\"schema\":\"metric\"},{\"id\":\"7\",\"enabled\":true,\"type\":\"cardinality\",\"params\":{\"field\":\"portal\",\"customLabel\":\"Portails\"},\"schema\":\"metric\"}],\"params\":{\"metric\":{\"percentageMode\":false,\"useRanges\":false,\"colorSchema\":\"Green to Red\",\"metricColorMode\":\"None\",\"colorsRange\":[{\"type\":\"range\",\"from\":0,\"to\":10000}],\"labels\":{\"show\":true},\"invertColors\":false,\"style\":{\"bgFill\":\"#000\",\"bgColor\":false,\"labelColor\":false,\"subText\":\"\",\"fontSize\":15}},\"dimensions\":{\"metrics\":[{\"type\":\"vis_dimension\",\"accessor\":0,\"format\":{\"id\":\"number\",\"params\":{}}},{\"type\":\"vis_dimension\",\"accessor\":1,\"format\":{\"id\":\"date\",\"params\":{\"pattern\":\"D, MMM YYYY \"}}},{\"type\":\"vis_dimension\",\"accessor\":2,\"format\":{\"id\":\"date\",\"params\":{\"pattern\":\"D, MMM YYYY \"}}},{\"type\":\"vis_dimension\",\"accessor\":3,\"format\":{\"id\":\"number\",\"params\":{}}},{\"type\":\"vis_dimension\",\"accessor\":4,\"format\":{\"id\":\"number\",\"params\":{}}},{\"type\":\"vis_dimension\",\"accessor\":5,\"format\":{\"id\":\"number\",\"params\":{}}}]},\"addTooltip\":true,\"addLegend\":false,\"type\":\"metric\"}}",
+        "uiStateJSON": "{}",
+        "description": "",
+        "version": 1,
+        "kibanaSavedObjectMeta": {
+          "searchSourceJSON": "{\"query\":{\"query\":\"*\",\"language\":\"lucene\"},\"filter\":[],\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.index\"}"
+        }
+      },
+      "references": [
+        {
+          "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
+          "type": "index-pattern",
+          "id": "bibcnrs-*"
+        }
+      ],
+      "migrationVersion": {
+        "visualization": "7.14.0"
+      },
+      "coreMigrationVersion": "7.14.1"
+    },
+    {
+      "id": "612a40e0-7680-11e7-96d8-d552783a81ea",
+      "type": "visualization",
+      "namespaces": [
+        "formation-ezpaarse"
+      ],
+      "updated_at": "2023-04-21T12:15:51.941Z",
+      "version": "WzEzNDU3MzMsMTFd",
+      "attributes": {
+        "title": "bibcnrs-*: histogramme consultations ",
+        "visState": "{\"title\":\"bibcnrs-*: histogramme consultations \",\"type\":\"histogram\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"params\":{},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"date_histogram\",\"params\":{\"field\":\"datetime\",\"timeRange\":{\"from\":\"2022-12-31T23:00:00.000Z\",\"to\":\"2023-12-31T22:59:59.999Z\"},\"useNormalizedEsInterval\":true,\"scaleMetricValues\":true,\"interval\":\"M\",\"used_interval\":\"1M\",\"drop_partials\":false,\"min_doc_count\":1,\"extended_bounds\":{}},\"schema\":\"segment\"}],\"params\":{\"addLegend\":true,\"addTimeMarker\":true,\"addTooltip\":true,\"categoryAxes\":[{\"id\":\"CategoryAxis-1\",\"labels\":{\"show\":true,\"truncate\":100,\"filter\":true},\"position\":\"bottom\",\"scale\":{\"type\":\"linear\"},\"show\":true,\"style\":{},\"title\":{\"text\":\"datetime per day\"},\"type\":\"category\"}],\"defaultYExtents\":false,\"drawLinesBetweenPoints\":true,\"grid\":{\"categoryLines\":false,\"style\":{\"color\":\"#eee\"},\"valueAxis\":\"ValueAxis-1\"},\"interpolate\":\"linear\",\"legendPosition\":\"top\",\"radiusRatio\":9,\"scale\":\"linear\",\"seriesParams\":[{\"data\":{\"id\":\"1\",\"label\":\"Count\"},\"drawLinesBetweenPoints\":true,\"mode\":\"stacked\",\"show\":\"true\",\"showCircles\":true,\"type\":\"histogram\",\"valueAxis\":\"ValueAxis-1\"}],\"setYExtents\":false,\"showCircles\":true,\"times\":[],\"valueAxes\":[{\"id\":\"ValueAxis-1\",\"labels\":{\"filter\":false,\"rotate\":0,\"show\":true,\"truncate\":100},\"name\":\"LeftAxis-1\",\"position\":\"left\",\"scale\":{\"mode\":\"normal\",\"type\":\"linear\"},\"show\":true,\"style\":{},\"title\":{\"text\":\"Count\"},\"type\":\"value\"}],\"type\":\"histogram\",\"labels\":{\"show\":true},\"thresholdLine\":{\"show\":false,\"value\":10,\"width\":1,\"style\":\"full\",\"color\":\"#34130C\"},\"dimensions\":{\"x\":{\"accessor\":0,\"format\":{\"id\":\"date\",\"params\":{\"pattern\":\"DD-MM-YYYY\"}},\"params\":{\"date\":true,\"interval\":\"P1M\",\"format\":\"DD-MM-YYYY\",\"bounds\":{\"min\":\"2021-01-24T16:24:17.986Z\",\"max\":\"2021-01-26T10:04:57.047Z\"}},\"aggType\":\"date_histogram\"},\"y\":[{\"accessor\":2,\"format\":{\"id\":\"number\"},\"params\":{},\"aggType\":\"count\"}],\"series\":[{\"accessor\":1,\"format\":{\"id\":\"terms\",\"params\":{\"id\":\"string\",\"otherBucketLabel\":\"Other\",\"missingBucketLabel\":\"Missing\"}},\"params\":{},\"aggType\":\"terms\"}]},\"palette\":{\"type\":\"palette\",\"name\":\"kibana_palette\"},\"isVislibVis\":true,\"detailedTooltip\":true}}",
+        "uiStateJSON": "{}",
+        "description": "",
+        "version": 1,
+        "kibanaSavedObjectMeta": {
+          "searchSourceJSON": "{\"query\":{\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true,\"default_field\":\"*\"}},\"language\":\"lucene\"},\"filter\":[],\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.index\"}"
+        }
+      },
+      "references": [
+        {
+          "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
+          "type": "index-pattern",
+          "id": "bibcnrs-*"
+        }
+      ],
+      "migrationVersion": {
+        "visualization": "7.14.0"
+      },
+      "coreMigrationVersion": "7.14.1"
+    },
+    {
+      "id": "88274790-76a0-11e7-ad66-3727018695b6",
+      "type": "visualization",
+      "namespaces": [
+        "formation-ezpaarse"
+      ],
+      "updated_at": "2023-04-20T11:42:18.075Z",
+      "version": "WzEzNDMxNTYsMTFd",
+      "attributes": {
+        "title": "bibcnrs-*: Table consultations par instituts",
+        "visState": "{\"title\":\"bibcnrs-*: Table consultations par instituts\",\"type\":\"table\",\"params\":{\"perPage\":11,\"showPartialRows\":false,\"sort\":{\"columnIndex\":null,\"direction\":null},\"showTotal\":true,\"totalFunc\":\"sum\",\"showMetricsAtAllLevels\":false,\"percentageCol\":\"\",\"dimensions\":{\"metrics\":[{\"accessor\":1,\"format\":{\"id\":\"number\"},\"params\":{},\"aggType\":\"count\"}],\"buckets\":[{\"accessor\":0,\"format\":{\"id\":\"terms\",\"params\":{\"id\":\"string\",\"otherBucketLabel\":\"Other\",\"missingBucketLabel\":\"Missing\"}},\"params\":{},\"aggType\":\"terms\"}]},\"showToolbar\":true},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"Nombre de consultations\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"portal\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":15,\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\",\"customLabel\":\"bibcnrs portal\"}}]}",
+        "uiStateJSON": "{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}}",
+        "description": "",
+        "version": 1,
+        "kibanaSavedObjectMeta": {
+          "searchSourceJSON": "{\"query\":{\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true,\"default_field\":\"*\"}},\"language\":\"lucene\"},\"filter\":[],\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.index\"}"
+        }
+      },
+      "references": [
+        {
+          "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
+          "type": "index-pattern",
+          "id": "bibcnrs-*"
+        }
+      ],
+      "migrationVersion": {
+        "visualization": "7.14.0"
+      },
+      "coreMigrationVersion": "7.14.1"
+    },
+    {
+      "id": "c54c0380-02a6-11e8-a003-559b113855b3",
+      "type": "visualization",
+      "namespaces": [
+        "formation-ezpaarse"
+      ],
+      "updated_at": "2023-04-20T11:42:18.075Z",
+      "version": "WzEzNDMxNTgsMTFd",
+      "attributes": {
+        "title": "bibcnrs-*: Table des Editeurs",
+        "visState": "{\"title\":\"bibcnrs-*: Table des Editeurs\",\"type\":\"table\",\"params\":{\"perPage\":10,\"showMeticsAtAllLevels\":false,\"showPartialRows\":false,\"showTotal\":false,\"sort\":{\"columnIndex\":null,\"direction\":null},\"totalFunc\":\"sum\",\"showToolbar\":true},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"Nombre de consultations\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"publisher_name\",\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":true,\"missingBucketLabel\":\"non renseigné\",\"size\":100,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Editeurs\"}}]}",
+        "uiStateJSON": "{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}}",
+        "description": "",
+        "version": 1,
+        "kibanaSavedObjectMeta": {
+          "searchSourceJSON": "{\"query\":{\"language\":\"lucene\",\"query\":{\"query_string\":{\"analyze_wildcard\":true,\"default_field\":\"*\",\"query\":\"*\"}}},\"filter\":[],\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.index\"}"
+        }
+      },
+      "references": [
+        {
+          "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
+          "type": "index-pattern",
+          "id": "bibcnrs-*"
+        }
+      ],
+      "migrationVersion": {
+        "visualization": "7.14.0"
+      },
+      "coreMigrationVersion": "7.14.1"
+    },
+    {
+      "id": "3b627540-04ff-11e8-a003-559b113855b3",
+      "type": "visualization",
+      "namespaces": [
+        "formation-ezpaarse"
+      ],
+      "updated_at": "2023-04-20T11:42:18.075Z",
+      "version": "WzEzNDMxNjAsMTFd",
+      "attributes": {
+        "title": "bibcnrs-*:recherche sur un Département Scientifique",
+        "visState": "{\"title\":\"bibcnrs-*:recherche sur un Département Scientifique\",\"type\":\"input_control_vis\",\"params\":{\"controls\":[{\"id\":\"1517233632645\",\"fieldName\":\"department\",\"label\":\"Recherche sur un département Scientifique\",\"type\":\"list\",\"options\":{\"type\":\"terms\",\"multiselect\":true,\"size\":50,\"order\":\"desc\"},\"indexPatternRefName\":\"control_0_index_pattern\"}],\"updateFiltersOnChange\":false},\"aggs\":[]}",
+        "uiStateJSON": "{}",
+        "description": "",
+        "version": 1,
+        "kibanaSavedObjectMeta": {
+          "searchSourceJSON": "{}"
+        }
+      },
+      "references": [
+        {
+          "name": "control_0_index_pattern",
+          "type": "index-pattern",
+          "id": "bibcnrs-*"
+        }
+      ],
+      "migrationVersion": {
+        "visualization": "7.14.0"
+      },
+      "coreMigrationVersion": "7.14.1"
+    },
+    {
+      "id": "acfcb600-059c-11e8-a003-559b113855b3",
+      "type": "visualization",
+      "namespaces": [
+        "formation-ezpaarse"
+      ],
+      "updated_at": "2023-04-20T11:42:18.075Z",
+      "version": "WzEzNDMxNjEsMTFd",
+      "attributes": {
+        "title": "bibcnrs-*:recherche sur un portail",
+        "visState": "{\"title\":\"bibcnrs-*:recherche sur un portail\",\"type\":\"input_control_vis\",\"params\":{\"controls\":[{\"id\":\"1517233567775\",\"fieldName\":\"portal\",\"label\":\"recherche sur un portail\",\"type\":\"list\",\"options\":{\"type\":\"terms\",\"multiselect\":true,\"size\":10,\"order\":\"desc\"},\"indexPatternRefName\":\"control_0_index_pattern\"}],\"updateFiltersOnChange\":false,\"useTimeFilter\":false,\"pinFilters\":false},\"aggs\":[]}",
+        "uiStateJSON": "{}",
+        "description": "",
+        "version": 1,
+        "kibanaSavedObjectMeta": {
+          "searchSourceJSON": "{\"query\":{\"query\":\"\",\"language\":\"kuery\"},\"filter\":[]}"
+        }
+      },
+      "references": [
+        {
+          "name": "control_0_index_pattern",
+          "type": "index-pattern",
+          "id": "bibcnrs-*"
+        }
+      ],
+      "migrationVersion": {
+        "visualization": "7.14.0"
+      },
+      "coreMigrationVersion": "7.14.1"
+    },
+    {
+      "id": "38732a40-050f-11e8-a003-559b113855b3",
+      "type": "visualization",
+      "namespaces": [
+        "formation-ezpaarse"
+      ],
+      "updated_at": "2023-04-20T11:42:18.075Z",
+      "version": "WzEzNDMxNjIsMTFd",
+      "attributes": {
+        "title": "bibcnrs-*:recherche sur une unité",
+        "visState": "{\"title\":\"bibcnrs-*:recherche sur une unité\",\"type\":\"input_control_vis\",\"params\":{\"controls\":[{\"id\":\"1517242299447\",\"fieldName\":\"unit\",\"label\":\"recherche sur une unité\",\"type\":\"list\",\"options\":{\"type\":\"terms\",\"multiselect\":true,\"size\":1000,\"order\":\"desc\"},\"indexPatternRefName\":\"control_0_index_pattern\"}],\"updateFiltersOnChange\":false},\"aggs\":[]}",
+        "uiStateJSON": "{}",
+        "description": "",
+        "version": 1,
+        "kibanaSavedObjectMeta": {
+          "searchSourceJSON": "{}"
+        }
+      },
+      "references": [
+        {
+          "name": "control_0_index_pattern",
+          "type": "index-pattern",
+          "id": "bibcnrs-*"
+        }
+      ],
+      "migrationVersion": {
+        "visualization": "7.14.0"
+      },
+      "coreMigrationVersion": "7.14.1"
+    },
+    {
+      "id": "911d6a90-0cdd-11e8-a003-559b113855b3",
+      "type": "visualization",
+      "namespaces": [
+        "formation-ezpaarse"
+      ],
+      "updated_at": "2023-04-20T12:24:38.768Z",
+      "version": "WzEzNDM0MDksMTFd",
+      "attributes": {
+        "title": "bibcnrs-*:table des unités et départements",
+        "visState": "{\"title\":\"bibcnrs-*:table des unités et départements\",\"type\":\"table\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"params\":{},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"params\":{\"field\":\"unit\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":2000,\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":true,\"missingBucketLabel\":\"inconnue\",\"customLabel\":\"Unité\"},\"schema\":\"bucket\"},{\"id\":\"3\",\"enabled\":true,\"type\":\"terms\",\"params\":{\"field\":\"department\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":5,\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":true,\"missingBucketLabel\":\"inconnu\",\"customLabel\":\"Département Scientifique\"},\"schema\":\"bucket\"}],\"params\":{\"perPage\":21,\"showPartialRows\":false,\"sort\":{\"columnIndex\":null,\"direction\":null},\"showTotal\":false,\"totalFunc\":\"sum\",\"showToolbar\":true,\"showMetricsAtAllLevels\":false,\"percentageCol\":\"\"}}",
+        "uiStateJSON": "{}",
+        "description": "",
+        "version": 1,
+        "kibanaSavedObjectMeta": {
+          "searchSourceJSON": "{\"query\":{\"query\":\"\",\"language\":\"lucene\"},\"filter\":[],\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.index\"}"
+        }
+      },
+      "references": [
+        {
+          "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
+          "type": "index-pattern",
+          "id": "bibcnrs-*"
+        }
+      ],
+      "migrationVersion": {
+        "visualization": "7.14.0"
+      },
+      "coreMigrationVersion": "7.14.1"
+    },
+    {
+      "id": "2c97f1b0-1bc6-11e8-906f-7d3955a630ef",
+      "type": "visualization",
+      "namespaces": [
+        "formation-ezpaarse"
+      ],
+      "updated_at": "2023-04-20T11:42:18.075Z",
+      "version": "WzEzNDMxNjUsMTFd",
+      "attributes": {
+        "title": "bibcnrs-*: sections",
+        "visState": "{\"title\":\"bibcnrs-*: sections\",\"type\":\"pie\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"params\":{},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"params\":{\"field\":\"section\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":5,\"otherBucket\":true,\"otherBucketLabel\":\"Other\",\"missingBucket\":true,\"missingBucketLabel\":\"NON RENSEIGNE\"},\"schema\":\"segment\"}],\"params\":{\"type\":\"pie\",\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"top\",\"isDonut\":true,\"labels\":{\"show\":true,\"values\":true,\"last_level\":true,\"truncate\":100,\"position\":\"inside\"},\"dimensions\":{\"metric\":{\"accessor\":1,\"format\":{\"id\":\"number\"},\"params\":{},\"aggType\":\"count\"},\"buckets\":[{\"accessor\":0,\"format\":{\"id\":\"terms\",\"params\":{\"id\":\"string\",\"otherBucketLabel\":\"Other\",\"missingBucketLabel\":\"NON RENSEIGNE\"}},\"params\":{},\"aggType\":\"terms\"}]},\"palette\":{\"type\":\"palette\",\"name\":\"kibana_palette\"},\"distinctColors\":true,\"nestedLegend\":false}}",
+        "uiStateJSON": "{\"vis\":{\"colors\":{\"CNRS\":\"#447EBC\",\"OTHER\":\"#F9934E\",\"Missing\":\"#E24D42\",\"UNKNOWN\":\"#BF1B00\",\"NON RENSEIGNE\":\"#7EB26D\"},\"legendOpen\":true}}",
+        "description": "",
+        "version": 1,
+        "kibanaSavedObjectMeta": {
+          "searchSourceJSON": "{\"query\":{\"query\":\"\",\"language\":\"lucene\"},\"filter\":[],\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.index\"}"
+        }
+      },
+      "references": [
+        {
+          "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
+          "type": "index-pattern",
+          "id": "bibcnrs-*"
+        }
+      ],
+      "migrationVersion": {
+        "visualization": "7.14.0"
+      },
+      "coreMigrationVersion": "7.14.1"
+    },
+    {
+      "id": "c066b0d0-dcef-11e8-9fb0-afce77e57c35",
+      "type": "visualization",
+      "namespaces": [
+        "formation-ezpaarse"
+      ],
+      "updated_at": "2023-04-20T11:42:18.075Z",
+      "version": "WzEzNDMxNjYsMTFd",
+      "attributes": {
+        "title": "bibcnrs-*:top 10 année de publication",
+        "visState": "{\"title\":\"bibcnrs-*:top 10 année de publication\",\"type\":\"pie\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"params\":{},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"params\":{\"field\":\"publication_date\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":12,\"otherBucket\":true,\"otherBucketLabel\":\"Other\",\"missingBucket\":true,\"missingBucketLabel\":\"non renseigné\"},\"schema\":\"segment\"}],\"params\":{\"type\":\"pie\",\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"top\",\"isDonut\":true,\"labels\":{\"show\":true,\"values\":true,\"last_level\":true,\"truncate\":100,\"position\":\"inside\"},\"palette\":{\"type\":\"palette\",\"name\":\"kibana_palette\"},\"distinctColors\":true,\"nestedLegend\":false}}",
+        "uiStateJSON": "{\"vis\":{\"legendOpen\":true}}",
+        "description": "",
+        "version": 1,
+        "kibanaSavedObjectMeta": {
+          "searchSourceJSON": "{\"query\":{\"query\":\"\",\"language\":\"kuery\"},\"filter\":[],\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.index\"}"
+        }
+      },
+      "references": [
+        {
+          "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
+          "type": "index-pattern",
+          "id": "bibcnrs-*"
+        }
+      ],
+      "migrationVersion": {
+        "visualization": "7.14.0"
+      },
+      "coreMigrationVersion": "7.14.1"
+    },
+    {
+      "id": "1f8878b0-b458-11e9-8339-63cd4d0c5d94",
+      "type": "visualization",
+      "namespaces": [
+        "formation-ezpaarse"
+      ],
+      "updated_at": "2023-04-20T11:42:18.075Z",
+      "version": "WzEzNDMxNjcsMTFd",
+      "attributes": {
+        "title": "bibcnrs-*:table titres article",
+        "visState": "{\"title\":\"bibcnrs-*:table titres article\",\"type\":\"table\",\"params\":{\"perPage\":21,\"showPartialRows\":false,\"showMetricsAtAllLevels\":false,\"sort\":{\"columnIndex\":null,\"direction\":null},\"showTotal\":false,\"totalFunc\":\"sum\",\"dimensions\":{\"metrics\":[{\"accessor\":1,\"format\":{\"id\":\"number\"},\"params\":{},\"aggType\":\"count\"}],\"buckets\":[{\"accessor\":0,\"format\":{\"id\":\"terms\",\"params\":{\"id\":\"string\",\"otherBucketLabel\":\"Other\",\"missingBucketLabel\":\"Missing\"}},\"params\":{},\"aggType\":\"terms\"}]},\"percentageCol\":\"\",\"showToolbar\":true},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"title\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":21,\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":true,\"missingBucketLabel\":\"Missing\",\"customLabel\":\"Titre article\"}}]}",
+        "uiStateJSON": "{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}}",
+        "description": "",
+        "version": 1,
+        "kibanaSavedObjectMeta": {
+          "searchSourceJSON": "{\"query\":{\"query\":\"\",\"language\":\"lucene\"},\"filter\":[],\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.index\"}"
+        }
+      },
+      "references": [
+        {
+          "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
+          "type": "index-pattern",
+          "id": "bibcnrs-*"
+        }
+      ],
+      "migrationVersion": {
+        "visualization": "7.14.0"
+      },
+      "coreMigrationVersion": "7.14.1"
+    },
+    {
+      "id": "9aeb18b0-4950-11e8-8b86-bb7a3fff158c",
+      "type": "visualization",
+      "namespaces": [
+        "formation-ezpaarse"
+      ],
+      "updated_at": "2023-04-20T11:42:18.075Z",
+      "version": "WzEzNDMxNjgsMTFd",
+      "attributes": {
+        "title": "bibcnrs-*: report DOI exist or not",
+        "visState": "{\"title\":\"bibcnrs-*: report DOI exist or not\",\"type\":\"pie\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"params\":{},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"filters\",\"params\":{\"filters\":[{\"input\":{\"query\":\"_exists_:doi\",\"language\":\"lucene\"},\"label\":\"avec DOI\"},{\"input\":{\"query\":\"!_exists_:doi\",\"language\":\"lucene\"},\"label\":\"sans DOI\"}]},\"schema\":\"segment\"}],\"params\":{\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"top\",\"isDonut\":true,\"type\":\"pie\",\"labels\":{\"show\":true,\"values\":true,\"last_level\":true,\"truncate\":100,\"position\":\"inside\"},\"dimensions\":{\"metric\":{\"accessor\":1,\"format\":{\"id\":\"number\"},\"params\":{},\"aggType\":\"count\"},\"buckets\":[{\"accessor\":0,\"format\":{},\"params\":{},\"aggType\":\"filters\"}]},\"palette\":{\"type\":\"palette\",\"name\":\"kibana_palette\"},\"distinctColors\":true,\"nestedLegend\":false}}",
+        "uiStateJSON": "{\"vis\":{\"colors\":{\"ARTICLE\":\"#BF1B00\",\"HTML\":\"#2F575E\",\"PDF\":\"#70DBED\",\"avec DOI\":\"#64B0C8\",\"sans DOI\":\"#BF1B00\",\"with DOI\":\"#6ED0E0\",\"without DOI\":\"#E24D42\"},\"legendOpen\":true}}",
+        "description": "",
+        "version": 1,
+        "kibanaSavedObjectMeta": {
+          "searchSourceJSON": "{\"query\":{\"query\":\"*\",\"language\":\"lucene\"},\"filter\":[{\"meta\":{\"type\":\"phrase\",\"key\":\"rtype\",\"value\":\"ARTICLE\",\"params\":{\"query\":\"ARTICLE\",\"type\":\"phrase\"},\"disabled\":false,\"negate\":false,\"alias\":null,\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.filter[0].meta.index\"},\"query\":{\"match\":{\"rtype\":{\"query\":\"ARTICLE\",\"type\":\"phrase\"}}},\"$state\":{\"store\":\"appState\"}},{\"meta\":{\"type\":\"phrases\",\"key\":\"mime\",\"value\":\"HTML, PDF\",\"params\":[\"HTML\",\"PDF\"],\"negate\":false,\"disabled\":false,\"alias\":null,\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.filter[1].meta.index\"},\"query\":{\"bool\":{\"should\":[{\"match_phrase\":{\"mime\":\"HTML\"}},{\"match_phrase\":{\"mime\":\"PDF\"}}],\"minimum_should_match\":1}},\"$state\":{\"store\":\"appState\"}}],\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.index\"}"
+        }
+      },
+      "references": [
+        {
+          "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
+          "type": "index-pattern",
+          "id": "bibcnrs-*"
+        },
+        {
+          "name": "kibanaSavedObjectMeta.searchSourceJSON.filter[0].meta.index",
+          "type": "index-pattern",
+          "id": "bibcnrs-*"
+        },
+        {
+          "name": "kibanaSavedObjectMeta.searchSourceJSON.filter[1].meta.index",
+          "type": "index-pattern",
+          "id": "bibcnrs-*"
+        }
+      ],
+      "migrationVersion": {
+        "visualization": "7.14.0"
+      },
+      "coreMigrationVersion": "7.14.1"
+    },
+    {
+      "id": "f53d6e50-3150-11ea-b38b-9559528de40d",
+      "type": "visualization",
+      "namespaces": [
+        "formation-ezpaarse"
+      ],
+      "updated_at": "2023-04-20T11:42:18.075Z",
+      "version": "WzEzNDMxNjksMTFd",
+      "attributes": {
+        "title": "bibcnrs-*: TB BibCNRS ",
+        "visState": "{\"title\":\"bibcnrs-*: TB BibCNRS \",\"type\":\"markdown\",\"aggs\":[],\"params\":{\"markdown\":\"### Tableau de bord BIBCNRS \\nCe rapport  est destiné à montrer les consultations d'articles en PDF ou HTML des 10 instituts du CNRS. \\n[![ezMESURE](https://raw.githubusercontent.com/ezpaarse-project/ezpaarse-project.github.io/master/ezmesure/static/images/logo-ezMESURE-350.png)](https://ezmesure.couperin.org/)\\n\\n\\n[![BIBCNRS](https://raw.githubusercontent.com/ezpaarse-project/ezpaarse-project.github.io/master/ezmesure/static/images/bibcnrs-logo-150.png)](https://bib.cnrs.fr/)\\n\\n### Depuis juillet 2021, la plateforme Web of Science a évolué techniquement et ne permet plus une analyse des logs d'accès avec ezPAARSE.\\nLa plupart des requêtes se font sur une API de manière silencieuse pour le parseur. Pour connaitre les usages de la plateforme, il faut consulter le tableau DR COUNTER 5  \\\"Total item Investigation\\\" dans l'espace \\\"éditeur\\\" en filtrer à la plateforme Web of Science.  \",\"openLinksInNewTab\":false,\"fontSize\":12}}",
+        "uiStateJSON": "{}",
+        "description": "",
+        "version": 1,
+        "kibanaSavedObjectMeta": {
+          "searchSourceJSON": "{\"query\":{\"query\":{\"query_string\":{\"query\":\"*\"}},\"language\":\"lucene\"},\"filter\":[]}"
+        }
+      },
+      "references": [],
+      "migrationVersion": {
+        "visualization": "7.14.0"
+      },
+      "coreMigrationVersion": "7.14.1"
+    },
+    {
+      "id": "f29939e0-df71-11ed-8ce4-61ee0b8a2f58",
+      "type": "visualization",
+      "namespaces": [
+        "formation-ezpaarse"
+      ],
+      "updated_at": "2023-04-20T11:53:21.281Z",
+      "version": "WzEzNDMyOTgsMTFd",
+      "attributes": {
+        "title": "bibcnrs-*: Camembert OA Statuts",
+        "visState": "{\"title\":\"bibcnrs-*: Camembert OA Statuts\",\"type\":\"pie\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"params\":{},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"params\":{\"field\":\"oa_status\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":20,\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":true,\"missingBucketLabel\":\"Missing\",\"customLabel\":\"OA statuts\"},\"schema\":\"segment\"}],\"params\":{\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"top\",\"isDonut\":true,\"type\":\"pie\",\"labels\":{\"show\":true,\"values\":true,\"last_level\":true,\"truncate\":100,\"position\":\"inside\"},\"dimensions\":{\"metric\":{\"accessor\":1,\"format\":{\"id\":\"number\"},\"params\":{},\"aggType\":\"count\"},\"buckets\":[{\"accessor\":0,\"format\":{\"id\":\"terms\",\"params\":{\"id\":\"string\",\"otherBucketLabel\":\"Other\",\"missingBucketLabel\":\"Missing\"}},\"params\":{},\"aggType\":\"terms\"}]},\"palette\":{\"type\":\"palette\",\"name\":\"kibana_palette\"},\"distinctColors\":true,\"nestedLegend\":false}}",
+        "uiStateJSON": "{\"vis\":{\"legendOpen\":true}}",
+        "description": "",
+        "version": 1,
+        "kibanaSavedObjectMeta": {
+          "searchSourceJSON": "{\"query\":{\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true,\"default_field\":\"*\"}},\"language\":\"lucene\"},\"filter\":[],\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.index\"}"
+        }
+      },
+      "references": [
+        {
+          "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
+          "type": "index-pattern",
+          "id": "bibcnrs-*"
+        }
+      ],
+      "migrationVersion": {
+        "visualization": "7.14.0"
+      },
+      "coreMigrationVersion": "7.14.1"
+    },
+    {
+      "id": "095fb880-df71-11ed-8ce4-61ee0b8a2f58",
+      "type": "visualization",
+      "namespaces": [
+        "formation-ezpaarse"
+      ],
+      "updated_at": "2023-04-20T11:46:49.995Z",
+      "version": "WzEzNDMyMDMsMTFd",
+      "attributes": {
+        "title": "bibcnrs-*: Camembert article is OA",
+        "visState": "{\"title\":\"bibcnrs-*: Camembert article is OA\",\"type\":\"pie\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"params\":{},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"params\":{\"field\":\"is_oa\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":20,\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":true,\"missingBucketLabel\":\"Missing\",\"customLabel\":\"non renseigné\"},\"schema\":\"segment\"}],\"params\":{\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"top\",\"isDonut\":true,\"type\":\"pie\",\"labels\":{\"show\":true,\"values\":true,\"last_level\":true,\"truncate\":100,\"position\":\"inside\"},\"dimensions\":{\"metric\":{\"accessor\":1,\"format\":{\"id\":\"number\"},\"params\":{},\"aggType\":\"count\"},\"buckets\":[{\"accessor\":0,\"format\":{\"id\":\"terms\",\"params\":{\"id\":\"string\",\"otherBucketLabel\":\"Other\",\"missingBucketLabel\":\"Missing\"}},\"params\":{},\"aggType\":\"terms\"}]},\"palette\":{\"type\":\"palette\",\"name\":\"kibana_palette\"},\"distinctColors\":true,\"nestedLegend\":false}}",
+        "uiStateJSON": "{\"vis\":{\"legendOpen\":true}}",
+        "description": "",
+        "version": 1,
+        "kibanaSavedObjectMeta": {
+          "searchSourceJSON": "{\"query\":{\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true,\"default_field\":\"*\"}},\"language\":\"lucene\"},\"filter\":[],\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.index\"}"
+        }
+      },
+      "references": [
+        {
+          "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
+          "type": "index-pattern",
+          "id": "bibcnrs-*"
+        }
+      ],
+      "migrationVersion": {
+        "visualization": "7.14.0"
+      },
+      "coreMigrationVersion": "7.14.1"
+    },
+    {
+      "id": "42dafde0-df71-11ed-8ce4-61ee0b8a2f58",
+      "type": "visualization",
+      "namespaces": [
+        "formation-ezpaarse"
+      ],
+      "updated_at": "2023-04-20T11:48:26.435Z",
+      "version": "WzEzNDMyMjYsMTFd",
+      "attributes": {
+        "title": "bibcnrs-*: Camembert journal is in doaj",
+        "visState": "{\"title\":\"bibcnrs-*: Camembert journal is in doaj\",\"type\":\"pie\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"params\":{},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"params\":{\"field\":\"journal_is_in_doaj\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":20,\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":true,\"missingBucketLabel\":\"Missing\",\"customLabel\":\"Journal is in doaj\"},\"schema\":\"segment\"}],\"params\":{\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"top\",\"isDonut\":true,\"type\":\"pie\",\"labels\":{\"show\":true,\"values\":true,\"last_level\":true,\"truncate\":100,\"position\":\"inside\"},\"dimensions\":{\"metric\":{\"accessor\":1,\"format\":{\"id\":\"number\"},\"params\":{},\"aggType\":\"count\"},\"buckets\":[{\"accessor\":0,\"format\":{\"id\":\"terms\",\"params\":{\"id\":\"string\",\"otherBucketLabel\":\"Other\",\"missingBucketLabel\":\"Missing\"}},\"params\":{},\"aggType\":\"terms\"}]},\"palette\":{\"type\":\"palette\",\"name\":\"kibana_palette\"},\"distinctColors\":true,\"nestedLegend\":false}}",
+        "uiStateJSON": "{\"vis\":{\"legendOpen\":true}}",
+        "description": "",
+        "version": 1,
+        "kibanaSavedObjectMeta": {
+          "searchSourceJSON": "{\"query\":{\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true,\"default_field\":\"*\"}},\"language\":\"lucene\"},\"filter\":[],\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.index\"}"
+        }
+      },
+      "references": [
+        {
+          "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
+          "type": "index-pattern",
+          "id": "bibcnrs-*"
+        }
+      ],
+      "migrationVersion": {
+        "visualization": "7.14.0"
+      },
+      "coreMigrationVersion": "7.14.1"
+    },
+    {
+      "id": "7bcdd960-df71-11ed-8ce4-61ee0b8a2f58",
+      "type": "visualization",
+      "namespaces": [
+        "formation-ezpaarse"
+      ],
+      "updated_at": "2023-04-20T11:50:01.979Z",
+      "version": "WzEzNDMyNTgsMTFd",
+      "attributes": {
+        "title": "bibcnrs-*: Camembert Journal is OA",
+        "visState": "{\"title\":\"bibcnrs-*: Camembert Journal is OA\",\"type\":\"pie\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"params\":{},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"params\":{\"field\":\"journal_is_oa\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":20,\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":true,\"missingBucketLabel\":\"Missing\",\"customLabel\":\"Journal is oa\"},\"schema\":\"segment\"}],\"params\":{\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"top\",\"isDonut\":true,\"type\":\"pie\",\"labels\":{\"show\":true,\"values\":true,\"last_level\":true,\"truncate\":100,\"position\":\"inside\"},\"dimensions\":{\"metric\":{\"accessor\":1,\"format\":{\"id\":\"number\"},\"params\":{},\"aggType\":\"count\"},\"buckets\":[{\"accessor\":0,\"format\":{\"id\":\"terms\",\"params\":{\"id\":\"string\",\"otherBucketLabel\":\"Other\",\"missingBucketLabel\":\"Missing\"}},\"params\":{},\"aggType\":\"terms\"}]},\"palette\":{\"type\":\"palette\",\"name\":\"kibana_palette\"},\"distinctColors\":true,\"nestedLegend\":false}}",
+        "uiStateJSON": "{\"vis\":{\"legendOpen\":true}}",
+        "description": "",
+        "version": 1,
+        "kibanaSavedObjectMeta": {
+          "searchSourceJSON": "{\"query\":{\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true,\"default_field\":\"*\"}},\"language\":\"lucene\"},\"filter\":[],\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.index\"}"
+        }
+      },
+      "references": [
+        {
+          "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
+          "type": "index-pattern",
+          "id": "bibcnrs-*"
+        }
+      ],
+      "migrationVersion": {
+        "visualization": "7.14.0"
+      },
+      "coreMigrationVersion": "7.14.1"
+    },
+    {
+      "id": "382c9580-df7f-11ed-8ce4-61ee0b8a2f58",
+      "type": "visualization",
+      "namespaces": [
+        "formation-ezpaarse"
+      ],
+      "updated_at": "2023-04-20T13:28:21.467Z",
+      "version": "WzEzNDM4MzYsMTFd",
+      "attributes": {
+        "title": "bibcnrs-*:table des requêtes des DOI et la MAJ d'info OA",
+        "visState": "{\"title\":\"bibcnrs-*:table des requêtes des DOI et la MAJ d'info OA\",\"type\":\"table\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"params\":{},\"schema\":\"metric\"},{\"id\":\"4\",\"enabled\":true,\"type\":\"terms\",\"params\":{\"field\":\"doi\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":5,\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\",\"customLabel\":\"DOI\"},\"schema\":\"bucket\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"params\":{\"field\":\"oa_request_date\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":2000,\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":false,\"missingBucketLabel\":\"inconnue\",\"customLabel\":\"Date de la requête à ezUNPAYWALL\"},\"schema\":\"bucket\"},{\"id\":\"3\",\"enabled\":true,\"type\":\"terms\",\"params\":{\"field\":\"oa_updated\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":1,\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\",\"customLabel\":\"Date de mise à jour de l'information Open Access\"},\"schema\":\"bucket\"}],\"params\":{\"perPage\":21,\"showPartialRows\":false,\"sort\":{\"columnIndex\":null,\"direction\":null},\"showTotal\":false,\"totalFunc\":\"sum\",\"showToolbar\":true,\"showMetricsAtAllLevels\":false,\"percentageCol\":\"\"}}",
+        "uiStateJSON": "{\"vis\":{\"params\":{\"colWidth\":[{\"colIndex\":2,\"width\":377}]}}}",
+        "description": "",
+        "version": 1,
+        "kibanaSavedObjectMeta": {
+          "searchSourceJSON": "{\"query\":{\"query\":\"\",\"language\":\"lucene\"},\"filter\":[],\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.index\"}"
+        }
+      },
+      "references": [
+        {
+          "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
+          "type": "index-pattern",
+          "id": "bibcnrs-*"
+        }
+      ],
+      "migrationVersion": {
+        "visualization": "7.14.0"
+      },
+      "coreMigrationVersion": "7.14.1"
+    },
+    {
+      "id": "b9f60840-f6c2-11ec-871c-618dc17b393f",
+      "type": "tag",
+      "namespaces": [
+        "formation-ezpaarse"
+      ],
+      "updated_at": "2022-07-13T09:30:48.742Z",
+      "version": "WzExODA1OTMsMTBd",
+      "attributes": {
+        "name": "validé",
+        "description": "",
+        "color": "#07db57"
+      },
+      "references": [],
+      "coreMigrationVersion": "7.14.1"
+    },
+    {
+      "id": "04a3d150-e025-11ed-8ce4-61ee0b8a2f58",
+      "type": "tag",
+      "namespaces": [
+        "formation-ezpaarse"
+      ],
+      "updated_at": "2023-04-21T09:15:11.464Z",
+      "version": "WzEzNDUzNzMsMTFd",
+      "attributes": {
+        "name": "bibcnrs",
+        "description": "",
+        "color": "#1614e3"
+      },
+      "references": [],
+      "coreMigrationVersion": "7.14.1"
+    },
+    {
+      "id": "bibcnrs-*",
+      "type": "index-pattern",
+      "namespaces": [
+        "formation-ezpaarse"
+      ],
+      "updated_at": "2023-04-20T11:42:18.075Z",
+      "version": "WzEzNDMxNDksMTFd",
+      "attributes": {
+        "notExpandable": true,
+        "fieldFormatMap": "{\"date\":{\"id\":\"date\",\"params\":{\"pattern\":\"Do MMMM YYYY\"}},\"datetime\":{\"id\":\"date\",\"params\":{\"pattern\":\"D, MMM YYYY \"}}}",
+        "timeFieldName": "datetime",
+        "title": "bibcnrs-*",
+        "fields": "[]",
+        "runtimeFieldMap": "{}",
+        "fieldAttrs": "{\"rtype\":{\"count\":1}}",
+        "typeMeta": "{}"
+      },
+      "references": [],
+      "migrationVersion": {
+        "index-pattern": "7.11.0"
+      },
+      "coreMigrationVersion": "7.14.1"
+    }
+  ]
+}
