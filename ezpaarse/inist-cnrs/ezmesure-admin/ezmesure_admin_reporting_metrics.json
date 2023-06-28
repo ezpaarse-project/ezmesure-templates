@@ -1,0 +1,229 @@
+{
+  "version": "7.14.1",
+  "objects": [
+    {
+      "id": "b01dff40-8e17-11eb-8139-2d9f91b04e27",
+      "type": "dashboard",
+      "namespaces": [
+        "ezmesure-admin"
+      ],
+      "updated_at": "2021-03-30T13:43:47.143Z",
+      "version": "WzExNzg1MDUsMTBd",
+      "attributes": {
+        "title": "Reporting - Metrics",
+        "hits": 0,
+        "description": "",
+        "panelsJSON": "[{\"version\":\"7.4.2\",\"type\":\"visualization\",\"gridData\":{\"x\":0,\"y\":0,\"w\":14,\"h\":7,\"i\":\"fe271306-e584-4fe5-985c-20c870e05596\"},\"panelIndex\":\"fe271306-e584-4fe5-985c-20c870e05596\",\"embeddableConfig\":{\"enhancements\":{}},\"panelRefName\":\"panel_fe271306-e584-4fe5-985c-20c870e05596\"},{\"version\":\"7.4.2\",\"type\":\"visualization\",\"gridData\":{\"x\":14,\"y\":0,\"w\":16,\"h\":7,\"i\":\"787caaa9-4867-4e9d-8468-f710e318ae9b\"},\"panelIndex\":\"787caaa9-4867-4e9d-8468-f710e318ae9b\",\"embeddableConfig\":{\"enhancements\":{}},\"panelRefName\":\"panel_787caaa9-4867-4e9d-8468-f710e318ae9b\"},{\"version\":\"7.4.2\",\"type\":\"visualization\",\"gridData\":{\"x\":30,\"y\":0,\"w\":18,\"h\":7,\"i\":\"60dfd0ef-b6fd-4f0f-a27f-bb50862c2731\"},\"panelIndex\":\"60dfd0ef-b6fd-4f0f-a27f-bb50862c2731\",\"embeddableConfig\":{\"enhancements\":{}},\"panelRefName\":\"panel_60dfd0ef-b6fd-4f0f-a27f-bb50862c2731\"},{\"version\":\"7.4.2\",\"type\":\"visualization\",\"gridData\":{\"x\":0,\"y\":7,\"w\":17,\"h\":28,\"i\":\"3e89303a-52f8-4f6d-a51b-b95a1fa5eec1\"},\"panelIndex\":\"3e89303a-52f8-4f6d-a51b-b95a1fa5eec1\",\"embeddableConfig\":{\"enhancements\":{}},\"panelRefName\":\"panel_3e89303a-52f8-4f6d-a51b-b95a1fa5eec1\"}]",
+        "optionsJSON": "{\"hidePanelTitles\":false,\"useMargins\":true}",
+        "version": 1,
+        "timeRestore": false,
+        "kibanaSavedObjectMeta": {
+          "searchSourceJSON": "{\"query\":{\"language\":\"kuery\",\"query\":\"\"},\"filter\":[]}"
+        }
+      },
+      "references": [
+        {
+          "name": "fe271306-e584-4fe5-985c-20c870e05596:panel_fe271306-e584-4fe5-985c-20c870e05596",
+          "type": "visualization",
+          "id": "7de6b600-9099-11eb-8139-2d9f91b04e27"
+        },
+        {
+          "name": "787caaa9-4867-4e9d-8468-f710e318ae9b:panel_787caaa9-4867-4e9d-8468-f710e318ae9b",
+          "type": "visualization",
+          "id": "8caf8ad0-909a-11eb-8139-2d9f91b04e27"
+        },
+        {
+          "name": "60dfd0ef-b6fd-4f0f-a27f-bb50862c2731:panel_60dfd0ef-b6fd-4f0f-a27f-bb50862c2731",
+          "type": "visualization",
+          "id": "b3bf4400-915b-11eb-8139-2d9f91b04e27"
+        },
+        {
+          "name": "3e89303a-52f8-4f6d-a51b-b95a1fa5eec1:panel_3e89303a-52f8-4f6d-a51b-b95a1fa5eec1",
+          "type": "visualization",
+          "id": "6b71ac90-915d-11eb-8139-2d9f91b04e27"
+        }
+      ],
+      "migrationVersion": {
+        "dashboard": "7.14.0"
+      },
+      "coreMigrationVersion": "7.14.1"
+    },
+    {
+      "id": "7de6b600-9099-11eb-8139-2d9f91b04e27",
+      "type": "visualization",
+      "namespaces": [
+        "ezmesure-admin"
+      ],
+      "updated_at": "2021-03-29T14:17:28.160Z",
+      "version": "WzExNzg0OTksMTBd",
+      "attributes": {
+        "title": "Reporting - actions sur les tâches",
+        "visState": "{\"aggs\":[{\"enabled\":true,\"id\":\"1\",\"params\":{\"customBucket\":{\"enabled\":true,\"id\":\"1-bucket\",\"params\":{\"filters\":[{\"input\":{\"language\":\"kuery\",\"query\":\"action : \\\"reporting/store\\\" \"},\"label\":\"\"}]},\"schema\":\"bucketAgg\",\"type\":\"filters\"},\"customLabel\":\"Tâches créées\",\"customMetric\":{\"enabled\":true,\"id\":\"1-metric\",\"params\":{\"customLabel\":\"\"},\"schema\":\"metricAgg\",\"type\":\"count\"}},\"schema\":\"metric\",\"type\":\"sum_bucket\"},{\"enabled\":true,\"id\":\"2\",\"params\":{\"customBucket\":{\"enabled\":true,\"id\":\"2-bucket\",\"params\":{\"filters\":[{\"input\":{\"language\":\"kuery\",\"query\":\"action : \\\"reporting/update\\\" \"},\"label\":\"\"}]},\"schema\":\"bucketAgg\",\"type\":\"filters\"},\"customLabel\":\"Tâches mises à jour\",\"customMetric\":{\"enabled\":true,\"id\":\"2-metric\",\"params\":{},\"schema\":\"metricAgg\",\"type\":\"count\"}},\"schema\":\"metric\",\"type\":\"sum_bucket\"},{\"enabled\":true,\"id\":\"3\",\"params\":{\"customBucket\":{\"enabled\":true,\"id\":\"3-bucket\",\"params\":{\"filters\":[{\"input\":{\"language\":\"kuery\",\"query\":\"action : \\\"reporting/delete\\\" \"},\"label\":\"\"}]},\"schema\":\"bucketAgg\",\"type\":\"filters\"},\"customLabel\":\"Tâches supprimées\",\"customMetric\":{\"enabled\":true,\"id\":\"3-metric\",\"params\":{},\"schema\":\"metricAgg\",\"type\":\"count\"}},\"schema\":\"metric\",\"type\":\"sum_bucket\"}],\"params\":{\"addLegend\":false,\"addTooltip\":true,\"dimensions\":{\"metrics\":[{\"accessor\":0,\"format\":{\"id\":\"number\",\"params\":{}},\"type\":\"vis_dimension\"},{\"accessor\":1,\"format\":{\"id\":\"number\",\"params\":{}},\"type\":\"vis_dimension\"}]},\"metric\":{\"colorSchema\":\"Green to Red\",\"colorsRange\":[{\"from\":0,\"to\":10000,\"type\":\"range\"}],\"invertColors\":false,\"labels\":{\"show\":true},\"metricColorMode\":\"None\",\"percentageMode\":false,\"style\":{\"bgColor\":false,\"bgFill\":\"#000\",\"fontSize\":60,\"labelColor\":false,\"subText\":\"\"},\"useRanges\":false},\"type\":\"metric\"},\"title\":\"Reporting - actions sur les tâches\",\"type\":\"metric\"}",
+        "uiStateJSON": "{}",
+        "description": "",
+        "version": 1,
+        "kibanaSavedObjectMeta": {
+          "searchSourceJSON": "{\"query\":{\"query\":\"\",\"language\":\"kuery\"},\"filter\":[],\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.index\"}"
+        }
+      },
+      "references": [
+        {
+          "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
+          "type": "index-pattern",
+          "id": "35c64e40-8e18-11eb-8139-2d9f91b04e27"
+        }
+      ],
+      "migrationVersion": {
+        "visualization": "7.14.0"
+      },
+      "coreMigrationVersion": "7.14.1"
+    },
+    {
+      "id": "8caf8ad0-909a-11eb-8139-2d9f91b04e27",
+      "type": "visualization",
+      "namespaces": [
+        "ezmesure-admin"
+      ],
+      "updated_at": "2021-03-29T14:25:02.461Z",
+      "version": "WzExNzg1MDAsMTBd",
+      "attributes": {
+        "title": "Reporting - statuts de tâches",
+        "visState": "{\"aggs\":[{\"enabled\":true,\"id\":\"1\",\"params\":{\"customBucket\":{\"enabled\":true,\"id\":\"1-bucket\",\"params\":{\"filters\":[{\"input\":{\"language\":\"kuery\",\"query\":\"status : \\\"completed\\\" \"},\"label\":\"\"}]},\"schema\":\"bucketAgg\",\"type\":\"filters\"},\"customLabel\":\"Tâches envoyées\",\"customMetric\":{\"enabled\":true,\"id\":\"1-metric\",\"params\":{},\"schema\":\"metricAgg\",\"type\":\"count\"}},\"schema\":\"metric\",\"type\":\"sum_bucket\"},{\"enabled\":true,\"id\":\"2\",\"params\":{\"customBucket\":{\"enabled\":true,\"id\":\"2-bucket\",\"params\":{\"filters\":[{\"input\":{\"language\":\"kuery\",\"query\":\"status : \\\"ongoing\\\" \"},\"label\":\"\"}]},\"schema\":\"bucketAgg\",\"type\":\"filters\"},\"customLabel\":\"Tâches en cours\",\"customMetric\":{\"enabled\":true,\"id\":\"2-metric\",\"params\":{},\"schema\":\"metricAgg\",\"type\":\"count\"}},\"schema\":\"metric\",\"type\":\"sum_bucket\"},{\"enabled\":true,\"id\":\"3\",\"params\":{\"customBucket\":{\"enabled\":true,\"id\":\"3-bucket\",\"params\":{\"filters\":[{\"input\":{\"language\":\"kuery\",\"query\":\"status : \\\"error\\\" \"},\"label\":\"\"}]},\"schema\":\"bucketAgg\",\"type\":\"filters\"},\"customLabel\":\"Tâches en erreur\",\"customMetric\":{\"enabled\":true,\"id\":\"3-metric\",\"params\":{},\"schema\":\"metricAgg\",\"type\":\"count\"}},\"schema\":\"metric\",\"type\":\"sum_bucket\"}],\"params\":{\"addLegend\":false,\"addTooltip\":true,\"dimensions\":{\"metrics\":[{\"accessor\":0,\"format\":{\"id\":\"number\",\"params\":{}},\"type\":\"vis_dimension\"},{\"accessor\":1,\"format\":{\"id\":\"number\",\"params\":{}},\"type\":\"vis_dimension\"}]},\"metric\":{\"colorSchema\":\"Green to Red\",\"colorsRange\":[{\"from\":0,\"to\":10000,\"type\":\"range\"}],\"invertColors\":false,\"labels\":{\"show\":true},\"metricColorMode\":\"None\",\"percentageMode\":false,\"style\":{\"bgColor\":false,\"bgFill\":\"#000\",\"fontSize\":60,\"labelColor\":false,\"subText\":\"\"},\"useRanges\":false},\"type\":\"metric\"},\"title\":\"Reporting - statuts de tâches\",\"type\":\"metric\"}",
+        "uiStateJSON": "{}",
+        "description": "",
+        "version": 1,
+        "kibanaSavedObjectMeta": {
+          "searchSourceJSON": "{\"query\":{\"query\":\"\",\"language\":\"kuery\"},\"filter\":[],\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.index\"}"
+        }
+      },
+      "references": [
+        {
+          "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
+          "type": "index-pattern",
+          "id": "495dcee0-909a-11eb-8139-2d9f91b04e27"
+        }
+      ],
+      "migrationVersion": {
+        "visualization": "7.14.0"
+      },
+      "coreMigrationVersion": "7.14.1"
+    },
+    {
+      "id": "b3bf4400-915b-11eb-8139-2d9f91b04e27",
+      "type": "visualization",
+      "namespaces": [
+        "ezmesure-admin"
+      ],
+      "updated_at": "2021-03-30T13:27:40.864Z",
+      "version": "WzExNzg1MDQsMTBd",
+      "attributes": {
+        "title": "Reporting - tâches optimisées ou non pour impression",
+        "visState": "{\"aggs\":[{\"enabled\":true,\"id\":\"1\",\"params\":{\"customBucket\":{\"enabled\":true,\"id\":\"1-bucket\",\"params\":{\"filters\":[{\"input\":{\"language\":\"kuery\",\"query\":\"print : true\"},\"label\":\"\"}]},\"schema\":\"bucketAgg\",\"type\":\"filters\"},\"customLabel\":\"Tâches optimisées pour impression\",\"customMetric\":{\"enabled\":true,\"id\":\"1-metric\",\"params\":{},\"schema\":\"metricAgg\",\"type\":\"count\"}},\"schema\":\"metric\",\"type\":\"sum_bucket\"},{\"enabled\":true,\"id\":\"2\",\"params\":{\"customBucket\":{\"enabled\":true,\"id\":\"2-bucket\",\"params\":{\"filters\":[{\"input\":{\"language\":\"kuery\",\"query\":\"print : false\"},\"label\":\"\"}]},\"schema\":\"bucketAgg\",\"type\":\"filters\"},\"customLabel\":\"Tâches non optimisées pour impression\",\"customMetric\":{\"enabled\":true,\"id\":\"2-metric\",\"params\":{},\"schema\":\"metricAgg\",\"type\":\"count\"}},\"schema\":\"metric\",\"type\":\"sum_bucket\"}],\"params\":{\"addLegend\":false,\"addTooltip\":true,\"dimensions\":{\"metrics\":[{\"accessor\":0,\"format\":{\"id\":\"number\",\"params\":{}},\"type\":\"vis_dimension\"},{\"accessor\":1,\"format\":{\"id\":\"number\",\"params\":{}},\"type\":\"vis_dimension\"}]},\"metric\":{\"colorSchema\":\"Green to Red\",\"colorsRange\":[{\"from\":0,\"to\":10000,\"type\":\"range\"}],\"invertColors\":false,\"labels\":{\"show\":true},\"metricColorMode\":\"None\",\"percentageMode\":false,\"style\":{\"bgColor\":false,\"bgFill\":\"#000\",\"fontSize\":60,\"labelColor\":false,\"subText\":\"\"},\"useRanges\":false},\"type\":\"metric\"},\"title\":\"Reporting - tâches optimisées ou non pour impression\",\"type\":\"metric\"}",
+        "uiStateJSON": "{}",
+        "description": "",
+        "version": 1,
+        "kibanaSavedObjectMeta": {
+          "searchSourceJSON": "{\"query\":{\"query\":\"\",\"language\":\"kuery\"},\"filter\":[],\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.index\"}"
+        }
+      },
+      "references": [
+        {
+          "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
+          "type": "index-pattern",
+          "id": "eaac20f0-9098-11eb-8139-2d9f91b04e27"
+        }
+      ],
+      "migrationVersion": {
+        "visualization": "7.14.0"
+      },
+      "coreMigrationVersion": "7.14.1"
+    },
+    {
+      "id": "6b71ac90-915d-11eb-8139-2d9f91b04e27",
+      "type": "visualization",
+      "namespaces": [
+        "ezmesure-admin"
+      ],
+      "updated_at": "2021-03-31T12:39:44.214Z",
+      "version": "WzExNzg1MTAsMTBd",
+      "attributes": {
+        "title": "Reporting - nombre de rapports par espace",
+        "visState": "{\"aggs\":[{\"enabled\":true,\"id\":\"1\",\"params\":{\"customBucket\":{\"enabled\":true,\"id\":\"1-bucket\",\"params\":{\"filters\":[{\"input\":{\"language\":\"kuery\",\"query\":\"space :* \"},\"label\":\"\"}]},\"schema\":\"bucketAgg\",\"type\":\"filters\"},\"customLabel\":\"Nombre de rapports\",\"customMetric\":{\"enabled\":true,\"id\":\"1-metric\",\"params\":{},\"schema\":\"metricAgg\",\"type\":\"count\"}},\"schema\":\"metric\",\"type\":\"sum_bucket\"},{\"enabled\":true,\"id\":\"2\",\"params\":{\"customLabel\":\"Espaces\",\"field\":\"space\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\",\"order\":\"desc\",\"orderBy\":\"_key\",\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"size\":1000},\"schema\":\"bucket\",\"type\":\"terms\"}],\"params\":{\"dimensions\":{\"buckets\":[{\"accessor\":0,\"aggType\":\"terms\",\"format\":{\"id\":\"terms\",\"params\":{\"id\":\"string\",\"missingBucketLabel\":\"Missing\",\"otherBucketLabel\":\"Other\"}},\"params\":{}}],\"metrics\":[{\"accessor\":1,\"aggType\":\"sum_bucket\",\"format\":{\"id\":\"number\"},\"params\":{}}]},\"perPage\":10,\"percentageCol\":\"\",\"showMetricsAtAllLevels\":true,\"showPartialRows\":false,\"showTotal\":true,\"sort\":{\"columnIndex\":null,\"direction\":null},\"totalFunc\":\"sum\",\"showToolbar\":true},\"title\":\"Reporting - nombre de rapports par espace\",\"type\":\"table\"}",
+        "uiStateJSON": "{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}}",
+        "description": "",
+        "version": 1,
+        "kibanaSavedObjectMeta": {
+          "searchSourceJSON": "{\"query\":{\"language\":\"kuery\",\"query\":\"\"},\"filter\":[],\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.index\"}"
+        }
+      },
+      "references": [
+        {
+          "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
+          "type": "index-pattern",
+          "id": "eaac20f0-9098-11eb-8139-2d9f91b04e27"
+        }
+      ],
+      "migrationVersion": {
+        "visualization": "7.14.0"
+      },
+      "coreMigrationVersion": "7.14.1"
+    },
+    {
+      "id": "35c64e40-8e18-11eb-8139-2d9f91b04e27",
+      "type": "index-pattern",
+      "namespaces": [
+        "ezmesure-admin"
+      ],
+      "updated_at": "2021-03-26T09:47:00.983Z",
+      "version": "WzExNzg0OTQsMTBd",
+      "attributes": {
+        "title": ".ezreporting-activity",
+        "timeFieldName": "datetime",
+        "fields": "[{\"name\":\"_id\",\"type\":\"string\",\"esTypes\":[\"_id\"],\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":false},{\"name\":\"_index\",\"type\":\"string\",\"esTypes\":[\"_index\"],\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":false},{\"name\":\"_score\",\"type\":\"number\",\"count\":0,\"scripted\":false,\"searchable\":false,\"aggregatable\":false,\"readFromDocValues\":false},{\"name\":\"_source\",\"type\":\"_source\",\"esTypes\":[\"_source\"],\"count\":0,\"scripted\":false,\"searchable\":false,\"aggregatable\":false,\"readFromDocValues\":false},{\"name\":\"_type\",\"type\":\"string\",\"esTypes\":[\"_type\"],\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":false},{\"name\":\"action\",\"type\":\"string\",\"esTypes\":[\"keyword\"],\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"datetime\",\"type\":\"date\",\"esTypes\":[\"date\"],\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"index\",\"type\":\"string\",\"esTypes\":[\"keyword\"],\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"metadata.broadcasted\",\"type\":\"date\",\"esTypes\":[\"date\"],\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"metadata.dashboardName\",\"type\":\"string\",\"esTypes\":[\"keyword\"],\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"metadata.space\",\"type\":\"string\",\"esTypes\":[\"keyword\"],\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"request.method\",\"type\":\"string\",\"esTypes\":[\"keyword\"],\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"request.query.nostore\",\"type\":\"string\",\"esTypes\":[\"keyword\"],\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"request.query.user\",\"type\":\"string\",\"esTypes\":[\"keyword\"],\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"request.remoteIP\",\"type\":\"string\",\"esTypes\":[\"keyword\"],\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"request.url\",\"type\":\"string\",\"esTypes\":[\"keyword\"],\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"request.userAgent\",\"type\":\"string\",\"esTypes\":[\"keyword\"],\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"response.body\",\"type\":\"string\",\"esTypes\":[\"keyword\"],\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"response.status\",\"type\":\"number\",\"esTypes\":[\"integer\"],\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"responseTime\",\"type\":\"number\",\"esTypes\":[\"integer\"],\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"taskId\",\"type\":\"string\",\"esTypes\":[\"keyword\"],\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"user.idp\",\"type\":\"string\",\"esTypes\":[\"keyword\"],\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"user.name\",\"type\":\"string\",\"esTypes\":[\"keyword\"],\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"user.roles\",\"type\":\"string\",\"esTypes\":[\"keyword\"],\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true}]"
+      },
+      "references": [],
+      "migrationVersion": {
+        "index-pattern": "7.11.0"
+      },
+      "coreMigrationVersion": "7.14.1"
+    },
+    {
+      "id": "495dcee0-909a-11eb-8139-2d9f91b04e27",
+      "type": "index-pattern",
+      "namespaces": [
+        "ezmesure-admin"
+      ],
+      "updated_at": "2021-08-12T13:16:56.360Z",
+      "version": "WzExNzkwMzQsMTBd",
+      "attributes": {
+        "title": ".ezreporting-history",
+        "timeFieldName": "startTime",
+        "fields": "[{\"name\":\"_id\",\"type\":\"string\",\"esTypes\":[\"_id\"],\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":false},{\"name\":\"_index\",\"type\":\"string\",\"esTypes\":[\"_index\"],\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":false},{\"name\":\"_score\",\"type\":\"number\",\"count\":0,\"scripted\":false,\"searchable\":false,\"aggregatable\":false,\"readFromDocValues\":false},{\"name\":\"_source\",\"type\":\"_source\",\"esTypes\":[\"_source\"],\"count\":0,\"scripted\":false,\"searchable\":false,\"aggregatable\":false,\"readFromDocValues\":false},{\"name\":\"_type\",\"type\":\"string\",\"esTypes\":[\"_type\"],\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":false},{\"name\":\"createdAt\",\"type\":\"date\",\"esTypes\":[\"date\"],\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"data.date\",\"type\":\"date\",\"esTypes\":[\"date\"],\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"data.message\",\"type\":\"string\",\"esTypes\":[\"keyword\"],\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"data.status\",\"type\":\"string\",\"esTypes\":[\"keyword\"],\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"endTime\",\"type\":\"date\",\"esTypes\":[\"date\"],\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"executionTime\",\"type\":\"number\",\"esTypes\":[\"integer\"],\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"logs.date\",\"type\":\"date\",\"esTypes\":[\"date\"],\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"logs.message\",\"type\":\"string\",\"esTypes\":[\"keyword\"],\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"logs.type\",\"type\":\"string\",\"esTypes\":[\"keyword\"],\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"startTime\",\"type\":\"date\",\"esTypes\":[\"date\"],\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"status\",\"type\":\"string\",\"esTypes\":[\"keyword\"],\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"taskId\",\"type\":\"string\",\"esTypes\":[\"keyword\"],\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true}]"
+      },
+      "references": [],
+      "migrationVersion": {
+        "index-pattern": "7.11.0"
+      },
+      "coreMigrationVersion": "7.14.1"
+    },
+    {
+      "id": "eaac20f0-9098-11eb-8139-2d9f91b04e27",
+      "type": "index-pattern",
+      "namespaces": [
+        "ezmesure-admin"
+      ],
+      "updated_at": "2021-03-29T14:13:22.348Z",
+      "version": "WzExNzg1MDEsMTBd",
+      "attributes": {
+        "title": ".ezreporting",
+        "timeFieldName": "createdAt",
+        "fields": "[{\"name\":\"_id\",\"type\":\"string\",\"esTypes\":[\"_id\"],\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":false},{\"name\":\"_index\",\"type\":\"string\",\"esTypes\":[\"_index\"],\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":false},{\"name\":\"_score\",\"type\":\"number\",\"count\":0,\"scripted\":false,\"searchable\":false,\"aggregatable\":false,\"readFromDocValues\":false},{\"name\":\"_source\",\"type\":\"_source\",\"esTypes\":[\"_source\"],\"count\":0,\"scripted\":false,\"searchable\":false,\"aggregatable\":false,\"readFromDocValues\":false},{\"name\":\"_type\",\"type\":\"string\",\"esTypes\":[\"_type\"],\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":false},{\"name\":\"createdAt\",\"type\":\"date\",\"esTypes\":[\"date\"],\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"dashboardId\",\"type\":\"string\",\"esTypes\":[\"keyword\"],\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"emails\",\"type\":\"string\",\"esTypes\":[\"keyword\"],\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"frequency\",\"type\":\"string\",\"esTypes\":[\"keyword\"],\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"image\",\"type\":\"boolean\",\"esTypes\":[\"boolean\"],\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"print\",\"type\":\"boolean\",\"esTypes\":[\"boolean\"],\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"runAt\",\"type\":\"date\",\"esTypes\":[\"date\"],\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"sentAt\",\"type\":\"date\",\"esTypes\":[\"date\"],\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"space\",\"type\":\"string\",\"esTypes\":[\"keyword\"],\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"updatedAt\",\"type\":\"date\",\"esTypes\":[\"date\"],\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true}]"
+      },
+      "references": [],
+      "migrationVersion": {
+        "index-pattern": "7.11.0"
+      },
+      "coreMigrationVersion": "7.14.1"
+    }
+  ]
+}

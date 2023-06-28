@@ -1,0 +1,325 @@
+{
+  "version": "7.14.1",
+  "objects": [
+    {
+      "id": "4cc8c680-fbcc-11ed-8ce4-61ee0b8a2f58",
+      "type": "dashboard",
+      "namespaces": [
+        "istex"
+      ],
+      "updated_at": "2023-06-27T06:38:33.496Z",
+      "version": "WzE0ODQwNTgsMTFd",
+      "attributes": {
+        "title": "istex-*:TB_corpus_JR1 Springer 2021 (Editeur)",
+        "hits": 0,
+        "description": "Demande Editeur\nreporting editeur validé par Pascale et Claude le 27/06/2023",
+        "panelsJSON": "[{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"h\":16,\"i\":\"8\",\"w\":33,\"x\":0,\"y\":21},\"panelIndex\":\"8\",\"embeddableConfig\":{\"enhancements\":{}},\"title\":\"istex-*:TB_externe_metrics\",\"panelRefName\":\"panel_8\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"h\":149,\"i\":\"20\",\"w\":48,\"x\":0,\"y\":37},\"panelIndex\":\"20\",\"embeddableConfig\":{\"enhancements\":{}},\"panelRefName\":\"panel_20\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"h\":21,\"i\":\"4241fe8b-4047-4cc8-9f40-6b9a7cccd4b6\",\"w\":48,\"x\":0,\"y\":0},\"panelIndex\":\"4241fe8b-4047-4cc8-9f40-6b9a7cccd4b6\",\"embeddableConfig\":{\"enhancements\":{}},\"panelRefName\":\"panel_4241fe8b-4047-4cc8-9f40-6b9a7cccd4b6\"},{\"version\":\"7.14.1\",\"type\":\"lens\",\"gridData\":{\"h\":16,\"i\":\"ecefbe71-25d2-45c5-b473-3b07f0cc7d41\",\"w\":15,\"x\":33,\"y\":21},\"panelIndex\":\"ecefbe71-25d2-45c5-b473-3b07f0cc7d41\",\"embeddableConfig\":{\"attributes\":{\"references\":[{\"id\":\"istex_*\",\"name\":\"indexpattern-datasource-current-indexpattern\",\"type\":\"index-pattern\"},{\"id\":\"istex_*\",\"name\":\"indexpattern-datasource-layer-f063d15e-88d6-4a7e-8c1b-075ed2c8a3e2\",\"type\":\"index-pattern\"}],\"state\":{\"datasourceStates\":{\"indexpattern\":{\"layers\":{\"f063d15e-88d6-4a7e-8c1b-075ed2c8a3e2\":{\"columnOrder\":[\"f81fcd36-eab0-4884-b6bd-40c0fe7d833e\",\"19817aca-c499-42eb-8875-fa3a84e4f393\",\"19817aca-c499-42eb-8875-fa3a84e4f393X0\"],\"columns\":{\"19817aca-c499-42eb-8875-fa3a84e4f393\":{\"dataType\":\"number\",\"isBucketed\":false,\"label\":\"count()\",\"operationType\":\"formula\",\"params\":{\"formula\":\"count()\",\"isFormulaBroken\":false},\"references\":[\"19817aca-c499-42eb-8875-fa3a84e4f393X0\"],\"scale\":\"ratio\"},\"19817aca-c499-42eb-8875-fa3a84e4f393X0\":{\"customLabel\":true,\"dataType\":\"number\",\"isBucketed\":false,\"label\":\"Part of count()\",\"operationType\":\"count\",\"scale\":\"ratio\",\"sourceField\":\"Records\"},\"f81fcd36-eab0-4884-b6bd-40c0fe7d833e\":{\"dataType\":\"string\",\"isBucketed\":true,\"label\":\"Top values of publisher_name\",\"operationType\":\"terms\",\"params\":{\"missingBucket\":false,\"orderBy\":{\"fallback\":true,\"type\":\"alphabetical\"},\"orderDirection\":\"asc\",\"otherBucket\":true,\"size\":5},\"scale\":\"ordinal\",\"sourceField\":\"publisher_name\"}},\"incompleteColumns\":{}}}}},\"filters\":[],\"query\":{\"language\":\"lucene\",\"query\":\"*\"},\"visualization\":{\"layers\":[{\"categoryDisplay\":\"default\",\"groups\":[\"f81fcd36-eab0-4884-b6bd-40c0fe7d833e\"],\"layerId\":\"f063d15e-88d6-4a7e-8c1b-075ed2c8a3e2\",\"legendDisplay\":\"show\",\"legendPosition\":\"left\",\"metric\":\"19817aca-c499-42eb-8875-fa3a84e4f393\",\"nestedLegend\":false,\"numberDisplay\":\"percent\"}],\"shape\":\"donut\"}},\"title\":\"\",\"type\":\"lens\",\"visualizationType\":\"lnsPie\"},\"enhancements\":{},\"hidePanelTitles\":false},\"title\":\"Répartition entre les 2 corpus éditeur Springer\"}]",
+        "optionsJSON": "{\"darkTheme\":false,\"hidePanelTitles\":false,\"useMargins\":false}",
+        "version": 1,
+        "timeRestore": true,
+        "timeTo": "2021-12-31T22:59:59.999Z",
+        "timeFrom": "2020-12-31T23:00:00.000Z",
+        "refreshInterval": {
+          "pause": true,
+          "value": 0
+        },
+        "kibanaSavedObjectMeta": {
+          "searchSourceJSON": "{\"highlightAll\":true,\"version\":true,\"query\":{\"language\":\"lucene\",\"query\":\"*\"},\"filter\":[{\"$state\":{\"store\":\"appState\"},\"meta\":{\"alias\":null,\"disabled\":false,\"key\":\"mime\",\"negate\":false,\"params\":{\"query\":\"PDF\"},\"type\":\"phrase\",\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.filter[0].meta.index\"},\"query\":{\"match\":{\"mime\":{\"query\":\"PDF\",\"type\":\"phrase\"}}}},{\"$state\":{\"store\":\"appState\"},\"meta\":{\"alias\":null,\"disabled\":false,\"key\":\"istex_rtype\",\"negate\":false,\"params\":{\"query\":\"fulltext\"},\"type\":\"phrase\",\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.filter[1].meta.index\"},\"query\":{\"match\":{\"istex_rtype\":{\"query\":\"fulltext\",\"type\":\"phrase\"}}}},{\"$state\":{\"store\":\"appState\"},\"meta\":{\"alias\":null,\"disabled\":false,\"key\":\"publisher_name\",\"negate\":false,\"params\":[\"springer-ebooks\",\"springer-journals\",\"springer-polit-sci\"],\"type\":\"phrases\",\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.filter[2].meta.index\"},\"query\":{\"bool\":{\"minimum_should_match\":1,\"should\":[{\"match_phrase\":{\"publisher_name\":\"springer-ebooks\"}},{\"match_phrase\":{\"publisher_name\":\"springer-journals\"}},{\"match_phrase\":{\"publisher_name\":\"springer-polit-sci\"}}]}}}]}"
+        }
+      },
+      "references": [
+        {
+          "name": "kibanaSavedObjectMeta.searchSourceJSON.filter[0].meta.index",
+          "type": "index-pattern",
+          "id": "istex_*"
+        },
+        {
+          "name": "kibanaSavedObjectMeta.searchSourceJSON.filter[1].meta.index",
+          "type": "index-pattern",
+          "id": "istex_*"
+        },
+        {
+          "name": "kibanaSavedObjectMeta.searchSourceJSON.filter[2].meta.index",
+          "type": "index-pattern",
+          "id": "istex_*"
+        },
+        {
+          "name": "8:panel_8",
+          "type": "visualization",
+          "id": "e966db40-bb1c-11e7-8582-c934a5fc8e67"
+        },
+        {
+          "name": "20:panel_20",
+          "type": "visualization",
+          "id": "3e6a2000-1713-11e8-906f-7d3955a630ef"
+        },
+        {
+          "name": "4241fe8b-4047-4cc8-9f40-6b9a7cccd4b6:panel_4241fe8b-4047-4cc8-9f40-6b9a7cccd4b6",
+          "type": "visualization",
+          "id": "768db500-c721-11ed-8ce4-61ee0b8a2f58"
+        },
+        {
+          "id": "istex_*",
+          "name": "ecefbe71-25d2-45c5-b473-3b07f0cc7d41:indexpattern-datasource-current-indexpattern",
+          "type": "index-pattern"
+        },
+        {
+          "id": "istex_*",
+          "name": "ecefbe71-25d2-45c5-b473-3b07f0cc7d41:indexpattern-datasource-layer-f063d15e-88d6-4a7e-8c1b-075ed2c8a3e2",
+          "type": "index-pattern"
+        },
+        {
+          "id": "b9f60840-f6c2-11ec-871c-618dc17b393f",
+          "type": "tag",
+          "name": "tag-b9f60840-f6c2-11ec-871c-618dc17b393f"
+        },
+        {
+          "id": "98aac780-14b1-11ee-8ce4-61ee0b8a2f58",
+          "type": "tag",
+          "name": "tag-98aac780-14b1-11ee-8ce4-61ee0b8a2f58"
+        },
+        {
+          "id": "9114a400-14b1-11ee-8ce4-61ee0b8a2f58",
+          "type": "tag",
+          "name": "tag-9114a400-14b1-11ee-8ce4-61ee0b8a2f58"
+        },
+        {
+          "id": "3a692730-14b5-11ee-8ce4-61ee0b8a2f58",
+          "type": "tag",
+          "name": "tag-3a692730-14b5-11ee-8ce4-61ee0b8a2f58"
+        }
+      ],
+      "migrationVersion": {
+        "dashboard": "7.14.0"
+      },
+      "coreMigrationVersion": "7.14.1"
+    },
+    {
+      "id": "istex_*",
+      "type": "index-pattern",
+      "namespaces": [
+        "istex"
+      ],
+      "updated_at": "2023-03-20T08:20:05.484Z",
+      "version": "WzEyNTQwODksMTBd",
+      "attributes": {
+        "notExpandable": true,
+        "fieldFormatMap": "{\"date\":{\"id\":\"date\",\"params\":{\"pattern\":\"Do MMMM  YYYY\"}},\"datetime\":{\"id\":\"date\",\"params\":{\"pattern\":\"D, MMM  YYYY \"}}}",
+        "timeFieldName": "datetime",
+        "title": "istex_*",
+        "fields": "[]",
+        "runtimeFieldMap": "{}",
+        "fieldAttrs": "{\"host\":{\"count\":8},\"rtype\":{\"count\":3},\"istex_bundle_size\":{\"count\":3},\"geoip-country\":{\"count\":1},\"mime\":{\"count\":2},\"url\":{\"count\":1}}",
+        "typeMeta": "{}"
+      },
+      "references": [],
+      "migrationVersion": {
+        "index-pattern": "7.11.0"
+      },
+      "coreMigrationVersion": "7.14.1"
+    },
+    {
+      "id": "e966db40-bb1c-11e7-8582-c934a5fc8e67",
+      "type": "visualization",
+      "namespaces": [
+        "istex"
+      ],
+      "updated_at": "2023-05-26T13:48:20.902Z",
+      "version": "WzE0MTY4MDAsMTFd",
+      "attributes": {
+        "title": "istex-*:TB_externe_metrics",
+        "visState": "{\"title\":\"istex-*:TB_externe_metrics\",\"type\":\"metric\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"params\":{\"customLabel\":\"accès à la plateforme\"},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"cardinality\",\"params\":{\"field\":\"owner\",\"customLabel\":\"Nombre d'établissements différents\"},\"schema\":\"metric\"},{\"id\":\"4\",\"enabled\":true,\"type\":\"min\",\"params\":{\"field\":\"datetime\",\"customLabel\":\"début de la période mesurée\"},\"schema\":\"metric\"},{\"id\":\"3\",\"enabled\":true,\"type\":\"max\",\"params\":{\"field\":\"datetime\",\"customLabel\":\"fin de la période mesurée\"},\"schema\":\"metric\"}],\"params\":{\"addLegend\":false,\"addTooltip\":true,\"dimensions\":{\"metrics\":[{\"accessor\":0,\"aggType\":\"count\",\"format\":{\"id\":\"number\"},\"params\":{}},{\"accessor\":1,\"aggType\":\"cardinality\",\"format\":{\"id\":\"number\"},\"params\":{}},{\"accessor\":2,\"aggType\":\"min\",\"format\":{\"id\":\"date\",\"params\":{\"pattern\":\"Do MMMM  YYYY\"}},\"params\":{}},{\"accessor\":3,\"aggType\":\"max\",\"format\":{\"id\":\"date\",\"params\":{\"pattern\":\"Do MMMM  YYYY\"}},\"params\":{}}]},\"fontSize\":\"12\",\"handleNoResults\":true,\"metric\":{\"colorSchema\":\"Green to Red\",\"colorsRange\":[{\"from\":0,\"to\":10000}],\"invertColors\":false,\"labels\":{\"show\":true},\"metricColorMode\":\"None\",\"percentageMode\":false,\"style\":{\"bgColor\":false,\"bgFill\":\"#000\",\"fontSize\":22,\"labelColor\":false,\"subText\":\"\"},\"useRanges\":false},\"type\":\"metric\"}}",
+        "uiStateJSON": "{}",
+        "description": "",
+        "version": 1,
+        "kibanaSavedObjectMeta": {
+          "searchSourceJSON": "{\"query\":{\"query\":\"*\",\"language\":\"kuery\"},\"filter\":[]}"
+        },
+        "savedSearchRefName": "search_0"
+      },
+      "references": [
+        {
+          "name": "search_0",
+          "type": "search",
+          "id": "1d3019c0-8e57-11e7-839b-cd08641c3f04"
+        }
+      ],
+      "migrationVersion": {
+        "visualization": "7.14.0"
+      },
+      "coreMigrationVersion": "7.14.1"
+    },
+    {
+      "id": "3e6a2000-1713-11e8-906f-7d3955a630ef",
+      "type": "visualization",
+      "namespaces": [
+        "istex"
+      ],
+      "updated_at": "2023-05-26T13:56:21.403Z",
+      "version": "WzE0MTY5NDcsMTFd",
+      "attributes": {
+        "title": "istex-*:TB_Corpus_JR1_titres_de_publication",
+        "visState": "{\"title\":\"istex-*:TB_Corpus_JR1_titres_de_publication\",\"type\":\"table\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"params\":{\"customLabel\":\"Consultations\"},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"params\":{\"field\":\"publication_title\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":1700,\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":false,\"missingBucketLabel\":\"Non renseigné\",\"customLabel\":\"Liste des Titres consultés par ordre décroissant\"},\"schema\":\"bucket\"}],\"params\":{\"perPage\":101,\"showPartialRows\":false,\"showTotal\":true,\"sort\":{\"columnIndex\":null,\"direction\":null},\"totalFunc\":\"sum\",\"showMetricsAtAllLevels\":false,\"showToolbar\":true,\"percentageCol\":\"\"}}",
+        "uiStateJSON": "{}",
+        "description": "",
+        "version": 1,
+        "kibanaSavedObjectMeta": {
+          "searchSourceJSON": "{\"query\":{\"language\":\"lucene\",\"query\":\"\"},\"filter\":[]}"
+        },
+        "savedSearchRefName": "search_0"
+      },
+      "references": [
+        {
+          "name": "search_0",
+          "type": "search",
+          "id": "1d3019c0-8e57-11e7-839b-cd08641c3f04"
+        }
+      ],
+      "migrationVersion": {
+        "visualization": "7.14.0"
+      },
+      "coreMigrationVersion": "7.14.1"
+    },
+    {
+      "id": "768db500-c721-11ed-8ce4-61ee0b8a2f58",
+      "type": "visualization",
+      "namespaces": [
+        "istex"
+      ],
+      "updated_at": "2023-03-20T13:18:00.459Z",
+      "version": "WzEyNTc0MzQsMTBd",
+      "attributes": {
+        "title": "istex_*: TB_Corpus_JR1_Editeur Springer",
+        "visState": "{\"title\":\"istex_*: TB_Corpus_JR1_Editeur Springer\",\"type\":\"markdown\",\"aggs\":[],\"params\":{\"markdown\":\"Ce rapport présente les consultations de type article au format PDF (JR1) du corpus ![Springer](https://bnu.hypotheses.org/files/2021/12/springer-logo.jpg) sur la plateforme![ISTEX](https://www.inist.fr/wp-content/uploads/2018/07/istex_logo.svg) analysées par \\n [![ezMESURE](https://user-images.githubusercontent.com/10154941/30215945-cac4a172-94b1-11e7-89ce-54b7134ab53b.png)](/)\",\"openLinksInNewTab\":false,\"fontSize\":19}}",
+        "uiStateJSON": "{}",
+        "description": "",
+        "version": 1,
+        "kibanaSavedObjectMeta": {
+          "searchSourceJSON": "{\"query\":{\"language\":\"lucene\",\"query\":{\"query_string\":{\"query\":\"*\"}}},\"filter\":[]}"
+        }
+      },
+      "references": [],
+      "migrationVersion": {
+        "visualization": "7.14.0"
+      },
+      "coreMigrationVersion": "7.14.1"
+    },
+    {
+      "id": "b9f60840-f6c2-11ec-871c-618dc17b393f",
+      "type": "tag",
+      "namespaces": [
+        "istex"
+      ],
+      "updated_at": "2023-03-27T15:12:07.853Z",
+      "version": "WzEyODMyNTEsMTBd",
+      "attributes": {
+        "name": "validé",
+        "description": "",
+        "color": "#07db57"
+      },
+      "references": [],
+      "coreMigrationVersion": "7.14.1"
+    },
+    {
+      "id": "98aac780-14b1-11ee-8ce4-61ee0b8a2f58",
+      "type": "tag",
+      "namespaces": [
+        "istex"
+      ],
+      "updated_at": "2023-06-27T06:12:29.818Z",
+      "version": "WzE0ODM5MzQsMTFd",
+      "attributes": {
+        "name": "reporting",
+        "description": "",
+        "color": "#d7e970"
+      },
+      "references": [],
+      "coreMigrationVersion": "7.14.1"
+    },
+    {
+      "id": "9114a400-14b1-11ee-8ce4-61ee0b8a2f58",
+      "type": "tag",
+      "namespaces": [
+        "istex"
+      ],
+      "updated_at": "2023-06-27T06:12:17.090Z",
+      "version": "WzE0ODM5MzMsMTFd",
+      "attributes": {
+        "name": "Istex",
+        "description": "",
+        "color": "#e2acd7"
+      },
+      "references": [],
+      "coreMigrationVersion": "7.14.1"
+    },
+    {
+      "id": "3a692730-14b5-11ee-8ce4-61ee0b8a2f58",
+      "type": "tag",
+      "namespaces": [
+        "istex"
+      ],
+      "updated_at": "2023-06-27T06:38:29.671Z",
+      "version": "WzE0ODQwNTYsMTFd",
+      "attributes": {
+        "name": "éditeur",
+        "description": "",
+        "color": "#51acad"
+      },
+      "references": [],
+      "coreMigrationVersion": "7.14.1"
+    },
+    {
+      "id": "1d3019c0-8e57-11e7-839b-cd08641c3f04",
+      "type": "search",
+      "namespaces": [
+        "istex"
+      ],
+      "updated_at": "2019-10-30T14:16:29.804Z",
+      "version": "WzExNzYzMjMsMTBd",
+      "attributes": {
+        "columns": [
+          "_source"
+        ],
+        "description": "",
+        "hits": 0,
+        "kibanaSavedObjectMeta": {
+          "searchSourceJSON": "{\"highlightAll\":true,\"version\":true,\"query\":{\"query\":{\"query_string\":{\"query\":\"!owner:\\\"Nouveau ? reverse proxy de l INIST (vsaccel-lb2.inist.fr)\\\" AND !owner:\\\"Poste de développement INIST (vdistex)\\\" AND istex_rtype:(fulltext OR metadata OR enrichments OR QUERY) AND status:200 AND !ua(\\\"SemrushBot\\\" OR \\\"AhrefsBot\\\" OR \\\"TwitterBot\\\" OR \\\"Yahoo! Slurp\\\" OR \\\"Applebot\\\" OR \\\"crawler\\\" OR \\\"Other\\\")\",\"analyze_wildcard\":true,\"default_field\":\"*\"}},\"language\":\"lucene\"},\"filter\":[{\"$state\":{\"store\":\"appState\"},\"meta\":{\"alias\":null,\"disabled\":false,\"key\":\"owner\",\"negate\":true,\"value\":\"Adresses locales INIST\",\"type\":\"phrase\",\"params\":{\"query\":\"Adresses locales INIST\",\"type\":\"phrase\"},\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.filter[0].meta.index\"},\"query\":{\"match\":{\"owner\":{\"query\":\"Adresses locales INIST\",\"type\":\"phrase\"}}}},{\"$state\":{\"store\":\"appState\"},\"meta\":{\"alias\":null,\"disabled\":false,\"key\":\"owner\",\"negate\":true,\"value\":\"Accès externe via proxy INIST\",\"type\":\"phrase\",\"params\":{\"query\":\"Accès externe via proxy INIST\",\"type\":\"phrase\"},\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.filter[1].meta.index\"},\"query\":{\"match\":{\"owner\":{\"query\":\"Accès externe via proxy INIST\",\"type\":\"phrase\"}}}},{\"meta\":{\"negate\":true,\"disabled\":false,\"alias\":null,\"type\":\"phrase\",\"key\":\"publication_date\",\"value\":\"uuuu\",\"params\":{\"query\":\"uuuu\",\"type\":\"phrase\"},\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.filter[2].meta.index\"},\"query\":{\"match\":{\"publication_date\":{\"query\":\"uuuu\",\"type\":\"phrase\"}}},\"$state\":{\"store\":\"appState\"}}],\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.index\"}"
+        },
+        "sort": [
+          [
+            "date",
+            "desc"
+          ]
+        ],
+        "title": "istex_bsn",
+        "version": 1
+      },
+      "references": [
+        {
+          "id": "istex_*",
+          "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
+          "type": "index-pattern"
+        },
+        {
+          "id": "istex_*",
+          "name": "kibanaSavedObjectMeta.searchSourceJSON.filter[0].meta.index",
+          "type": "index-pattern"
+        },
+        {
+          "id": "istex_*",
+          "name": "kibanaSavedObjectMeta.searchSourceJSON.filter[1].meta.index",
+          "type": "index-pattern"
+        },
+        {
+          "id": "istex_*",
+          "name": "kibanaSavedObjectMeta.searchSourceJSON.filter[2].meta.index",
+          "type": "index-pattern"
+        }
+      ],
+      "migrationVersion": {
+        "search": "7.9.3"
+      },
+      "coreMigrationVersion": "7.14.1"
+    }
+  ]
+}

@@ -1,0 +1,355 @@
+{
+  "version": "7.14.1",
+  "objects": [
+    {
+      "id": "ae78b860-d933-11ed-8ce4-61ee0b8a2f58",
+      "type": "dashboard",
+      "namespaces": [
+        "istex"
+      ],
+      "updated_at": "2023-06-27T06:36:56.610Z",
+      "version": "WzE0ODQwMzgsMTFd",
+      "attributes": {
+        "title": "istex-*:Report accès Fulltext Hal 2022",
+        "hits": 0,
+        "description": "reporting HAL validé par Pascale et Claude le 27/06/2023",
+        "panelsJSON": "[{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"h\":18,\"i\":\"12\",\"w\":25,\"x\":0,\"y\":32},\"panelIndex\":\"12\",\"embeddableConfig\":{\"enhancements\":{},\"timeRange\":{\"from\":\"2020-12-31T23:00:00.000Z\",\"to\":\"2021-12-31T22:59:59.999Z\"}},\"title\":\"istex-*:histogramme d'accès au pdf par mois\",\"panelRefName\":\"panel_12\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"h\":16,\"i\":\"342c915a-6320-480b-8ad4-9f8db8a1cc6a\",\"w\":48,\"x\":0,\"y\":0},\"panelIndex\":\"342c915a-6320-480b-8ad4-9f8db8a1cc6a\",\"embeddableConfig\":{\"enhancements\":{}},\"title\":\"istex_*: report markdown Hal\",\"panelRefName\":\"panel_342c915a-6320-480b-8ad4-9f8db8a1cc6a\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"h\":16,\"i\":\"a38e4013-abd4-4800-bfba-da56548e4b26\",\"w\":25,\"x\":0,\"y\":16},\"panelIndex\":\"a38e4013-abd4-4800-bfba-da56548e4b26\",\"embeddableConfig\":{\"enhancements\":{},\"timeRange\":{\"from\":\"2020-12-31T23:00:00.000Z\",\"to\":\"2021-12-31T22:59:59.999Z\"}},\"title\":\"istex_*:metrics 2021\",\"panelRefName\":\"panel_a38e4013-abd4-4800-bfba-da56548e4b26\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"h\":16,\"i\":\"edfa08a6-2c8e-4e94-b6e4-ddccf5a0b47e\",\"w\":23,\"x\":25,\"y\":16},\"panelIndex\":\"edfa08a6-2c8e-4e94-b6e4-ddccf5a0b47e\",\"embeddableConfig\":{\"enhancements\":{},\"timeRange\":{\"from\":\"2021-12-31T23:00:00.000Z\",\"to\":\"2022-12-31T22:59:59.999Z\"}},\"title\":\"istex_*:metrics 2022\",\"panelRefName\":\"panel_edfa08a6-2c8e-4e94-b6e4-ddccf5a0b47e\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"h\":18,\"i\":\"2691bd90-ebed-461d-b349-c18398dbbf2f\",\"w\":23,\"x\":25,\"y\":32},\"panelIndex\":\"2691bd90-ebed-461d-b349-c18398dbbf2f\",\"embeddableConfig\":{\"enhancements\":{},\"timeRange\":{\"from\":\"2021-12-31T23:00:00.000Z\",\"to\":\"2022-12-31T22:59:59.999Z\"}},\"title\":\"istex-*:histogramme d'accès au pdf par mois\",\"panelRefName\":\"panel_2691bd90-ebed-461d-b349-c18398dbbf2f\"},{\"version\":\"7.14.1\",\"type\":\"lens\",\"gridData\":{\"h\":35,\"i\":\"9fdef640-0a72-4d14-a0eb-c0635d35fe59\",\"w\":23,\"x\":25,\"y\":50},\"panelIndex\":\"9fdef640-0a72-4d14-a0eb-c0635d35fe59\",\"embeddableConfig\":{\"attributes\":{\"references\":[{\"id\":\"istex_*\",\"name\":\"indexpattern-datasource-current-indexpattern\",\"type\":\"index-pattern\"},{\"id\":\"istex_*\",\"name\":\"indexpattern-datasource-layer-1275bd0a-3422-4100-8653-73673edf2441\",\"type\":\"index-pattern\"}],\"state\":{\"datasourceStates\":{\"indexpattern\":{\"layers\":{\"1275bd0a-3422-4100-8653-73673edf2441\":{\"columnOrder\":[\"04bb60a3-1e66-45a0-920a-c8deca478f88\",\"d0080733-7242-4cfb-bfa5-d8634b937bf7\"],\"columns\":{\"04bb60a3-1e66-45a0-920a-c8deca478f88\":{\"dataType\":\"string\",\"isBucketed\":true,\"label\":\"Top values of publisher_name\",\"operationType\":\"terms\",\"params\":{\"missingBucket\":false,\"orderBy\":{\"columnId\":\"d0080733-7242-4cfb-bfa5-d8634b937bf7\",\"type\":\"column\"},\"orderDirection\":\"desc\",\"otherBucket\":true,\"size\":5},\"scale\":\"ordinal\",\"sourceField\":\"publisher_name\"},\"d0080733-7242-4cfb-bfa5-d8634b937bf7\":{\"dataType\":\"number\",\"isBucketed\":false,\"label\":\"Count of records\",\"operationType\":\"count\",\"scale\":\"ratio\",\"sourceField\":\"Records\"}},\"incompleteColumns\":{}}}}},\"filters\":[],\"query\":{\"language\":\"lucene\",\"query\":\"*\"},\"visualization\":{\"layers\":[{\"categoryDisplay\":\"default\",\"groups\":[\"04bb60a3-1e66-45a0-920a-c8deca478f88\"],\"layerId\":\"1275bd0a-3422-4100-8653-73673edf2441\",\"legendDisplay\":\"default\",\"legendPosition\":\"left\",\"metric\":\"d0080733-7242-4cfb-bfa5-d8634b937bf7\",\"nestedLegend\":true,\"numberDisplay\":\"percent\"}],\"shape\":\"donut\"}},\"title\":\"\",\"type\":\"lens\",\"visualizationType\":\"lnsPie\"},\"enhancements\":{}},\"title\":\"Répartition par corpus éditeur Istex 2022\"},{\"version\":\"7.14.1\",\"type\":\"lens\",\"gridData\":{\"h\":35,\"i\":\"56963eb0-9c9b-40f7-b67f-5d79bb4d08bc\",\"w\":25,\"x\":0,\"y\":50},\"panelIndex\":\"56963eb0-9c9b-40f7-b67f-5d79bb4d08bc\",\"embeddableConfig\":{\"attributes\":{\"references\":[{\"id\":\"istex_*\",\"name\":\"indexpattern-datasource-current-indexpattern\",\"type\":\"index-pattern\"},{\"id\":\"istex_*\",\"name\":\"indexpattern-datasource-layer-e9e2c27c-909e-4d82-ab3a-9e5397d53c6d\",\"type\":\"index-pattern\"}],\"state\":{\"datasourceStates\":{\"indexpattern\":{\"layers\":{\"e9e2c27c-909e-4d82-ab3a-9e5397d53c6d\":{\"columnOrder\":[\"8d3bbcc7-8a7b-4124-becb-ce5d590ac83a\",\"ea1946de-ac3f-4804-a8f8-492d230ce3b3\"],\"columns\":{\"8d3bbcc7-8a7b-4124-becb-ce5d590ac83a\":{\"dataType\":\"string\",\"isBucketed\":true,\"label\":\"Top values of publication_title\",\"operationType\":\"terms\",\"params\":{\"missingBucket\":false,\"orderBy\":{\"columnId\":\"ea1946de-ac3f-4804-a8f8-492d230ce3b3\",\"type\":\"column\"},\"orderDirection\":\"desc\",\"otherBucket\":true,\"size\":100},\"scale\":\"ordinal\",\"sourceField\":\"publication_title\"},\"ea1946de-ac3f-4804-a8f8-492d230ce3b3\":{\"dataType\":\"number\",\"isBucketed\":false,\"label\":\"Count of records\",\"operationType\":\"count\",\"scale\":\"ratio\",\"sourceField\":\"Records\"}},\"incompleteColumns\":{}}}}},\"filters\":[],\"query\":{\"language\":\"lucene\",\"query\":\"*\"},\"visualization\":{\"columns\":[{\"columnId\":\"8d3bbcc7-8a7b-4124-becb-ce5d590ac83a\"},{\"columnId\":\"ea1946de-ac3f-4804-a8f8-492d230ce3b3\"}],\"layerId\":\"e9e2c27c-909e-4d82-ab3a-9e5397d53c6d\"}},\"title\":\"\",\"type\":\"lens\",\"visualizationType\":\"lnsDatatable\"},\"enhancements\":{}},\"title\":\"Consultations par revues 2022\"}]",
+        "optionsJSON": "{\"darkTheme\":false,\"useMargins\":false}",
+        "version": 1,
+        "timeRestore": true,
+        "timeTo": "2022-12-31T22:59:59.999Z",
+        "timeFrom": "2021-12-31T23:00:00.000Z",
+        "refreshInterval": {
+          "pause": true,
+          "value": 0
+        },
+        "kibanaSavedObjectMeta": {
+          "searchSourceJSON": "{\"highlightAll\":true,\"version\":true,\"query\":{\"language\":\"lucene\",\"query\":\"*\"},\"filter\":[{\"$state\":{\"store\":\"appState\"},\"meta\":{\"alias\":null,\"disabled\":false,\"key\":\"mime\",\"negate\":false,\"params\":{\"query\":\"PDF\"},\"type\":\"phrase\",\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.filter[0].meta.index\"},\"query\":{\"match_phrase\":{\"mime\":\"PDF\"}}},{\"$state\":{\"store\":\"appState\"},\"meta\":{\"alias\":null,\"disabled\":false,\"key\":\"istex_rtype\",\"negate\":false,\"params\":{\"query\":\"fulltext\"},\"type\":\"phrase\",\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.filter[1].meta.index\"},\"query\":{\"match_phrase\":{\"istex_rtype\":\"fulltext\"}}},{\"$state\":{\"store\":\"appState\"},\"meta\":{\"alias\":null,\"disabled\":false,\"key\":\"sid\",\"negate\":false,\"params\":{\"query\":\"hal\"},\"type\":\"phrase\",\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.filter[2].meta.index\"},\"query\":{\"match_phrase\":{\"sid\":\"hal\"}}},{\"$state\":{\"store\":\"appState\"},\"meta\":{\"alias\":null,\"disabled\":false,\"key\":\"status\",\"negate\":false,\"params\":{\"gte\":200,\"lt\":299},\"type\":\"range\",\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.filter[3].meta.index\"},\"range\":{\"status\":{\"gte\":200,\"lt\":299}}}]}"
+        }
+      },
+      "references": [
+        {
+          "name": "kibanaSavedObjectMeta.searchSourceJSON.filter[0].meta.index",
+          "type": "index-pattern",
+          "id": "istex_*"
+        },
+        {
+          "name": "kibanaSavedObjectMeta.searchSourceJSON.filter[1].meta.index",
+          "type": "index-pattern",
+          "id": "istex_*"
+        },
+        {
+          "name": "kibanaSavedObjectMeta.searchSourceJSON.filter[2].meta.index",
+          "type": "index-pattern",
+          "id": "istex_*"
+        },
+        {
+          "name": "kibanaSavedObjectMeta.searchSourceJSON.filter[3].meta.index",
+          "type": "index-pattern",
+          "id": "istex_*"
+        },
+        {
+          "name": "12:panel_12",
+          "type": "visualization",
+          "id": "8303ff70-172b-11e8-906f-7d3955a630ef"
+        },
+        {
+          "name": "342c915a-6320-480b-8ad4-9f8db8a1cc6a:panel_342c915a-6320-480b-8ad4-9f8db8a1cc6a",
+          "type": "visualization",
+          "id": "0ab7d800-8e3a-11eb-8139-2d9f91b04e27"
+        },
+        {
+          "name": "a38e4013-abd4-4800-bfba-da56548e4b26:panel_a38e4013-abd4-4800-bfba-da56548e4b26",
+          "type": "visualization",
+          "id": "6918ed70-8bf1-11e7-bd37-63f6878376e9"
+        },
+        {
+          "name": "edfa08a6-2c8e-4e94-b6e4-ddccf5a0b47e:panel_edfa08a6-2c8e-4e94-b6e4-ddccf5a0b47e",
+          "type": "visualization",
+          "id": "b9454dc0-d93e-11ed-8ce4-61ee0b8a2f58"
+        },
+        {
+          "name": "2691bd90-ebed-461d-b349-c18398dbbf2f:panel_2691bd90-ebed-461d-b349-c18398dbbf2f",
+          "type": "visualization",
+          "id": "19f33650-d93f-11ed-8ce4-61ee0b8a2f58"
+        },
+        {
+          "id": "istex_*",
+          "name": "9fdef640-0a72-4d14-a0eb-c0635d35fe59:indexpattern-datasource-current-indexpattern",
+          "type": "index-pattern"
+        },
+        {
+          "id": "istex_*",
+          "name": "9fdef640-0a72-4d14-a0eb-c0635d35fe59:indexpattern-datasource-layer-1275bd0a-3422-4100-8653-73673edf2441",
+          "type": "index-pattern"
+        },
+        {
+          "id": "istex_*",
+          "name": "56963eb0-9c9b-40f7-b67f-5d79bb4d08bc:indexpattern-datasource-current-indexpattern",
+          "type": "index-pattern"
+        },
+        {
+          "id": "istex_*",
+          "name": "56963eb0-9c9b-40f7-b67f-5d79bb4d08bc:indexpattern-datasource-layer-e9e2c27c-909e-4d82-ab3a-9e5397d53c6d",
+          "type": "index-pattern"
+        },
+        {
+          "id": "b9f60840-f6c2-11ec-871c-618dc17b393f",
+          "type": "tag",
+          "name": "tag-b9f60840-f6c2-11ec-871c-618dc17b393f"
+        },
+        {
+          "id": "98aac780-14b1-11ee-8ce4-61ee0b8a2f58",
+          "type": "tag",
+          "name": "tag-98aac780-14b1-11ee-8ce4-61ee0b8a2f58"
+        },
+        {
+          "id": "9114a400-14b1-11ee-8ce4-61ee0b8a2f58",
+          "type": "tag",
+          "name": "tag-9114a400-14b1-11ee-8ce4-61ee0b8a2f58"
+        },
+        {
+          "id": "f3756550-14b4-11ee-8ce4-61ee0b8a2f58",
+          "type": "tag",
+          "name": "tag-f3756550-14b4-11ee-8ce4-61ee0b8a2f58"
+        }
+      ],
+      "migrationVersion": {
+        "dashboard": "7.14.0"
+      },
+      "coreMigrationVersion": "7.14.1"
+    },
+    {
+      "id": "istex_*",
+      "type": "index-pattern",
+      "namespaces": [
+        "istex"
+      ],
+      "updated_at": "2023-03-20T08:20:05.484Z",
+      "version": "WzEyNTQwODksMTBd",
+      "attributes": {
+        "notExpandable": true,
+        "fieldFormatMap": "{\"date\":{\"id\":\"date\",\"params\":{\"pattern\":\"Do MMMM  YYYY\"}},\"datetime\":{\"id\":\"date\",\"params\":{\"pattern\":\"D, MMM  YYYY \"}}}",
+        "timeFieldName": "datetime",
+        "title": "istex_*",
+        "fields": "[]",
+        "runtimeFieldMap": "{}",
+        "fieldAttrs": "{\"host\":{\"count\":8},\"rtype\":{\"count\":3},\"istex_bundle_size\":{\"count\":3},\"geoip-country\":{\"count\":1},\"mime\":{\"count\":2},\"url\":{\"count\":1}}",
+        "typeMeta": "{}"
+      },
+      "references": [],
+      "migrationVersion": {
+        "index-pattern": "7.11.0"
+      },
+      "coreMigrationVersion": "7.14.1"
+    },
+    {
+      "id": "8303ff70-172b-11e8-906f-7d3955a630ef",
+      "type": "visualization",
+      "namespaces": [
+        "istex"
+      ],
+      "updated_at": "2023-03-17T06:41:32.818Z",
+      "version": "WzEyNTA5ODgsMTBd",
+      "attributes": {
+        "title": "istex-*:histogramme d'accès par mois",
+        "visState": "{\"title\":\"istex-*:histogramme d'accès par mois\",\"type\":\"histogram\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"params\":{},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"date_histogram\",\"params\":{\"field\":\"datetime\",\"timeRange\":{\"from\":\"2021-12-31T23:00:00.000Z\",\"to\":\"2022-12-31T22:59:59.999Z\"},\"useNormalizedEsInterval\":true,\"scaleMetricValues\":true,\"interval\":\"M\",\"used_interval\":\"1M\",\"drop_partials\":false,\"min_doc_count\":1,\"extended_bounds\":{}},\"schema\":\"segment\"}],\"params\":{\"type\":\"histogram\",\"grid\":{\"categoryLines\":false,\"style\":{\"color\":\"#eee\"}},\"categoryAxes\":[{\"id\":\"CategoryAxis-1\",\"type\":\"category\",\"position\":\"bottom\",\"show\":true,\"style\":{},\"scale\":{\"type\":\"linear\"},\"labels\":{\"show\":true,\"truncate\":100,\"filter\":true},\"title\":{}}],\"valueAxes\":[{\"id\":\"ValueAxis-1\",\"name\":\"LeftAxis-1\",\"type\":\"value\",\"position\":\"left\",\"show\":true,\"style\":{},\"scale\":{\"type\":\"linear\",\"mode\":\"normal\"},\"labels\":{\"show\":true,\"rotate\":0,\"filter\":false,\"truncate\":100},\"title\":{\"text\":\"Count\"}}],\"seriesParams\":[{\"show\":\"true\",\"type\":\"histogram\",\"mode\":\"stacked\",\"data\":{\"label\":\"Count\",\"id\":\"1\"},\"valueAxis\":\"ValueAxis-1\",\"drawLinesBetweenPoints\":true,\"showCircles\":true}],\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"left\",\"times\":[],\"addTimeMarker\":false,\"labels\":{\"show\":true},\"thresholdLine\":{\"show\":false,\"value\":10,\"width\":1,\"style\":\"full\",\"color\":\"#34130C\"},\"palette\":{\"type\":\"palette\",\"name\":\"kibana_palette\"},\"isVislibVis\":true,\"detailedTooltip\":true,\"radiusRatio\":0}}",
+        "uiStateJSON": "{}",
+        "description": "",
+        "version": 1,
+        "kibanaSavedObjectMeta": {
+          "searchSourceJSON": "{\"query\":{\"query\":\"\",\"language\":\"lucene\"},\"filter\":[],\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.index\"}"
+        }
+      },
+      "references": [
+        {
+          "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
+          "type": "index-pattern",
+          "id": "istex_*"
+        }
+      ],
+      "migrationVersion": {
+        "visualization": "7.14.0"
+      },
+      "coreMigrationVersion": "7.14.1"
+    },
+    {
+      "id": "0ab7d800-8e3a-11eb-8139-2d9f91b04e27",
+      "type": "visualization",
+      "namespaces": [
+        "istex"
+      ],
+      "updated_at": "2023-04-12T13:15:39.415Z",
+      "version": "WzEzMjIzOTEsMTFd",
+      "attributes": {
+        "title": "istex_*: report markdown SciencesPo",
+        "visState": "{\"title\":\"istex_*: report markdown SciencesPo\",\"type\":\"markdown\",\"aggs\":[],\"params\":{\"markdown\":\"Ce rapport est destiné à montrer les consultations d'articles au format PDF des ressources\\n![ISTEX](https://www.inist.fr/wp-content/uploads/2018/07/istex_logo.svg) analysées par [![ezMESURE](https://user-images.githubusercontent.com/10154941/30215945-cac4a172-94b1-11e7-89ce-54b7134ab53b.png)](/)  \\nà partir de  ![Hal](https://socle.univ-rennes2.fr/system/files/UHB/logoHAL.png)\",\"openLinksInNewTab\":false,\"fontSize\":23}}",
+        "uiStateJSON": "{}",
+        "description": "",
+        "version": 1,
+        "kibanaSavedObjectMeta": {
+          "searchSourceJSON": "{\"query\":{\"query\":{\"query_string\":{\"query\":\"*\"}},\"language\":\"lucene\"},\"filter\":[]}"
+        }
+      },
+      "references": [],
+      "migrationVersion": {
+        "visualization": "7.14.0"
+      },
+      "coreMigrationVersion": "7.14.1"
+    },
+    {
+      "id": "6918ed70-8bf1-11e7-bd37-63f6878376e9",
+      "type": "visualization",
+      "namespaces": [
+        "istex"
+      ],
+      "updated_at": "2023-06-26T13:19:25.452Z",
+      "version": "WzE0ODIzNzgsMTFd",
+      "attributes": {
+        "title": "istex_*:metrics",
+        "visState": "{\"title\":\"istex_*:metrics\",\"type\":\"metric\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"params\":{\"customLabel\":\"Total des accès au pdf\"},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"cardinality\",\"params\":{\"field\":\"istex-id\",\"customLabel\":\"Total des établissements de l'ESR\"},\"schema\":\"metric\"},{\"id\":\"3\",\"enabled\":true,\"type\":\"min\",\"params\":{\"field\":\"datetime\",\"customLabel\":\"Période du\"},\"schema\":\"metric\"},{\"id\":\"4\",\"enabled\":true,\"type\":\"max\",\"params\":{\"field\":\"datetime\",\"customLabel\":\"au\"},\"schema\":\"metric\"},{\"id\":\"5\",\"enabled\":true,\"type\":\"cardinality\",\"params\":{\"field\":\"owner\"},\"schema\":\"metric\"}],\"params\":{\"handleNoResults\":true,\"fontSize\":60,\"addTooltip\":true,\"addLegend\":false,\"type\":\"metric\",\"metric\":{\"percentageMode\":false,\"useRanges\":false,\"colorSchema\":\"Green to Red\",\"metricColorMode\":\"None\",\"colorsRange\":[{\"from\":0,\"to\":10000}],\"labels\":{\"show\":true},\"invertColors\":false,\"style\":{\"bgFill\":\"#000\",\"bgColor\":false,\"labelColor\":false,\"subText\":\"\",\"fontSize\":24}},\"dimensions\":{\"metrics\":[{\"accessor\":0,\"format\":{\"id\":\"number\"},\"params\":{},\"aggType\":\"count\"},{\"accessor\":1,\"format\":{\"id\":\"number\"},\"params\":{},\"aggType\":\"cardinality\"},{\"accessor\":2,\"format\":{\"id\":\"date\",\"params\":{\"pattern\":\"D, MMM  YYYY \"}},\"params\":{},\"aggType\":\"min\"},{\"accessor\":3,\"format\":{\"id\":\"date\",\"params\":{\"pattern\":\"D, MMM  YYYY \"}},\"params\":{},\"aggType\":\"max\"}]}}}",
+        "uiStateJSON": "{}",
+        "description": "",
+        "version": 1,
+        "kibanaSavedObjectMeta": {
+          "searchSourceJSON": "{\"query\":{\"query\":\"*\",\"language\":\"lucene\"},\"filter\":[],\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.index\"}"
+        }
+      },
+      "references": [
+        {
+          "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
+          "type": "index-pattern",
+          "id": "istex_*"
+        }
+      ],
+      "migrationVersion": {
+        "visualization": "7.14.0"
+      },
+      "coreMigrationVersion": "7.14.1"
+    },
+    {
+      "id": "b9454dc0-d93e-11ed-8ce4-61ee0b8a2f58",
+      "type": "visualization",
+      "namespaces": [
+        "istex"
+      ],
+      "updated_at": "2023-04-12T14:31:33.793Z",
+      "version": "WzEzMjM4MDIsMTFd",
+      "attributes": {
+        "title": "istex_*:metrics (copy 1)",
+        "visState": "{\"title\":\"istex_*:metrics\",\"type\":\"metric\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"params\":{\"customLabel\":\"Total des accès au pdf\"},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"cardinality\",\"params\":{\"field\":\"istex-id\",\"customLabel\":\"Total des établissements de l'ESR\"},\"schema\":\"metric\"},{\"id\":\"3\",\"enabled\":true,\"type\":\"min\",\"params\":{\"field\":\"datetime\",\"customLabel\":\"Période du\"},\"schema\":\"metric\"},{\"id\":\"4\",\"enabled\":true,\"type\":\"max\",\"params\":{\"field\":\"datetime\",\"customLabel\":\"au\"},\"schema\":\"metric\"}],\"params\":{\"handleNoResults\":true,\"fontSize\":60,\"addTooltip\":true,\"addLegend\":false,\"type\":\"metric\",\"metric\":{\"percentageMode\":false,\"useRanges\":false,\"colorSchema\":\"Green to Red\",\"metricColorMode\":\"None\",\"colorsRange\":[{\"from\":0,\"to\":10000}],\"labels\":{\"show\":true},\"invertColors\":false,\"style\":{\"bgFill\":\"#000\",\"bgColor\":false,\"labelColor\":false,\"subText\":\"\",\"fontSize\":24}},\"dimensions\":{\"metrics\":[{\"accessor\":0,\"format\":{\"id\":\"number\"},\"params\":{},\"aggType\":\"count\"},{\"accessor\":1,\"format\":{\"id\":\"number\"},\"params\":{},\"aggType\":\"cardinality\"},{\"accessor\":2,\"format\":{\"id\":\"date\",\"params\":{\"pattern\":\"D, MMM  YYYY \"}},\"params\":{},\"aggType\":\"min\"},{\"accessor\":3,\"format\":{\"id\":\"date\",\"params\":{\"pattern\":\"D, MMM  YYYY \"}},\"params\":{},\"aggType\":\"max\"}]}}}",
+        "uiStateJSON": "{}",
+        "description": "",
+        "version": 1,
+        "kibanaSavedObjectMeta": {
+          "searchSourceJSON": "{\"query\":{\"query\":\"*\",\"language\":\"lucene\"},\"filter\":[],\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.index\"}"
+        }
+      },
+      "references": [
+        {
+          "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
+          "type": "index-pattern",
+          "id": "istex_*"
+        }
+      ],
+      "migrationVersion": {
+        "visualization": "7.14.0"
+      },
+      "coreMigrationVersion": "7.14.1"
+    },
+    {
+      "id": "19f33650-d93f-11ed-8ce4-61ee0b8a2f58",
+      "type": "visualization",
+      "namespaces": [
+        "istex"
+      ],
+      "updated_at": "2023-04-12T14:34:15.994Z",
+      "version": "WzEzMjM4MjMsMTFd",
+      "attributes": {
+        "title": "istex-*:histogramme d'accès par mois (copy)",
+        "visState": "{\"title\":\"istex-*:histogramme d'accès par mois\",\"type\":\"histogram\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"params\":{},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"date_histogram\",\"params\":{\"field\":\"datetime\",\"timeRange\":{\"from\":\"2021-12-31T23:00:00.000Z\",\"to\":\"2022-12-31T22:59:59.999Z\"},\"useNormalizedEsInterval\":true,\"scaleMetricValues\":true,\"interval\":\"M\",\"used_interval\":\"1M\",\"drop_partials\":false,\"min_doc_count\":1,\"extended_bounds\":{}},\"schema\":\"segment\"}],\"params\":{\"type\":\"histogram\",\"grid\":{\"categoryLines\":false,\"style\":{\"color\":\"#eee\"}},\"categoryAxes\":[{\"id\":\"CategoryAxis-1\",\"type\":\"category\",\"position\":\"bottom\",\"show\":true,\"style\":{},\"scale\":{\"type\":\"linear\"},\"labels\":{\"show\":true,\"truncate\":100,\"filter\":true},\"title\":{}}],\"valueAxes\":[{\"id\":\"ValueAxis-1\",\"name\":\"LeftAxis-1\",\"type\":\"value\",\"position\":\"left\",\"show\":true,\"style\":{},\"scale\":{\"type\":\"linear\",\"mode\":\"normal\"},\"labels\":{\"show\":true,\"rotate\":0,\"filter\":false,\"truncate\":100},\"title\":{\"text\":\"Count\"}}],\"seriesParams\":[{\"show\":\"true\",\"type\":\"histogram\",\"mode\":\"stacked\",\"data\":{\"label\":\"Count\",\"id\":\"1\"},\"valueAxis\":\"ValueAxis-1\",\"drawLinesBetweenPoints\":true,\"showCircles\":true}],\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"left\",\"times\":[],\"addTimeMarker\":false,\"labels\":{\"show\":true},\"thresholdLine\":{\"show\":false,\"value\":10,\"width\":1,\"style\":\"full\",\"color\":\"#34130C\"},\"palette\":{\"type\":\"palette\",\"name\":\"kibana_palette\"},\"isVislibVis\":true,\"detailedTooltip\":true,\"radiusRatio\":0}}",
+        "uiStateJSON": "{}",
+        "description": "",
+        "version": 1,
+        "kibanaSavedObjectMeta": {
+          "searchSourceJSON": "{\"query\":{\"query\":\"\",\"language\":\"lucene\"},\"filter\":[],\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.index\"}"
+        }
+      },
+      "references": [
+        {
+          "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
+          "type": "index-pattern",
+          "id": "istex_*"
+        }
+      ],
+      "migrationVersion": {
+        "visualization": "7.14.0"
+      },
+      "coreMigrationVersion": "7.14.1"
+    },
+    {
+      "id": "b9f60840-f6c2-11ec-871c-618dc17b393f",
+      "type": "tag",
+      "namespaces": [
+        "istex"
+      ],
+      "updated_at": "2023-03-27T15:12:07.853Z",
+      "version": "WzEyODMyNTEsMTBd",
+      "attributes": {
+        "name": "validé",
+        "description": "",
+        "color": "#07db57"
+      },
+      "references": [],
+      "coreMigrationVersion": "7.14.1"
+    },
+    {
+      "id": "98aac780-14b1-11ee-8ce4-61ee0b8a2f58",
+      "type": "tag",
+      "namespaces": [
+        "istex"
+      ],
+      "updated_at": "2023-06-27T06:12:29.818Z",
+      "version": "WzE0ODM5MzQsMTFd",
+      "attributes": {
+        "name": "reporting",
+        "description": "",
+        "color": "#d7e970"
+      },
+      "references": [],
+      "coreMigrationVersion": "7.14.1"
+    },
+    {
+      "id": "9114a400-14b1-11ee-8ce4-61ee0b8a2f58",
+      "type": "tag",
+      "namespaces": [
+        "istex"
+      ],
+      "updated_at": "2023-06-27T06:12:17.090Z",
+      "version": "WzE0ODM5MzMsMTFd",
+      "attributes": {
+        "name": "Istex",
+        "description": "",
+        "color": "#e2acd7"
+      },
+      "references": [],
+      "coreMigrationVersion": "7.14.1"
+    },
+    {
+      "id": "f3756550-14b4-11ee-8ce4-61ee0b8a2f58",
+      "type": "tag",
+      "namespaces": [
+        "istex"
+      ],
+      "updated_at": "2023-06-27T06:36:30.633Z",
+      "version": "WzE0ODQwMzUsMTFd",
+      "attributes": {
+        "name": "Hal",
+        "description": "",
+        "color": "#ff9b10"
+      },
+      "references": [],
+      "coreMigrationVersion": "7.14.1"
+    }
+  ]
+}

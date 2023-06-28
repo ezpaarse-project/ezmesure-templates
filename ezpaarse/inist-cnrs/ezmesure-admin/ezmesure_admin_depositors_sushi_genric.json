@@ -1,0 +1,74 @@
+{
+  "version": "7.14.1",
+  "objects": [
+    {
+      "id": "f1bad3e0-6ee2-11ec-871c-618dc17b393f",
+      "type": "dashboard",
+      "namespaces": [
+        "ezmesure-admin"
+      ],
+      "updated_at": "2022-01-06T15:36:51.214Z",
+      "version": "WzExNzUzMjUsMTBd",
+      "attributes": {
+        "title": "depositors-sushi-generic",
+        "hits": 0,
+        "description": "",
+        "panelsJSON": "[{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":0,\"y\":0,\"w\":47,\"h\":5,\"i\":\"3b267191-7c9d-4d30-b9c4-db3763f0be11\"},\"panelIndex\":\"3b267191-7c9d-4d30-b9c4-db3763f0be11\",\"embeddableConfig\":{\"savedVis\":{\"title\":\"depositors-sushi-metrics\",\"description\":\"\",\"type\":\"metric\",\"params\":{\"addTooltip\":true,\"addLegend\":false,\"type\":\"metric\",\"metric\":{\"percentageMode\":false,\"useRanges\":false,\"colorSchema\":\"Green to Red\",\"metricColorMode\":\"None\",\"colorsRange\":[{\"from\":0,\"to\":10000}],\"labels\":{\"show\":true},\"invertColors\":false,\"style\":{\"bgFill\":\"#000\",\"bgColor\":false,\"labelColor\":false,\"subText\":\"\",\"fontSize\":20}}},\"uiState\":{},\"data\":{\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"cardinality\",\"params\":{\"field\":\"sushi.institutionId\",\"customLabel\":\"Etablissements\"},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"cardinality\",\"params\":{\"field\":\"sushi.id\",\"customLabel\":\"Demandes de moissonnage\"},\"schema\":\"metric\"},{\"id\":\"3\",\"enabled\":true,\"type\":\"cardinality\",\"params\":{\"field\":\"sushi.sushiUrl\",\"customLabel\":\"End Point sushi\"},\"schema\":\"metric\"},{\"id\":\"4\",\"enabled\":true,\"type\":\"cardinality\",\"params\":{\"field\":\"sushi.vendor\",\"customLabel\":\"Plateformes\"},\"schema\":\"metric\"}],\"searchSource\":{\"index\":\"007e0790-6edd-11ec-871c-618dc17b393f\",\"query\":{\"query\":\"\",\"language\":\"kuery\"},\"filter\":[]}}},\"enhancements\":{}}},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":0,\"y\":5,\"w\":22,\"h\":15,\"i\":\"4b1237ab-393d-4c03-8426-aa1d67b0cf84\"},\"panelIndex\":\"4b1237ab-393d-4c03-8426-aa1d67b0cf84\",\"embeddableConfig\":{\"savedVis\":{\"title\":\"depositors : table établissements\",\"description\":\"\",\"type\":\"table\",\"params\":{\"perPage\":10,\"showPartialRows\":false,\"showMetricsAtAllLevels\":false,\"showTotal\":false,\"showToolbar\":false,\"totalFunc\":\"sum\",\"percentageCol\":\"\"},\"uiState\":{\"vis\":{\"params\":{\"colWidth\":[{\"colIndex\":0,\"width\":128.25},{\"colIndex\":1,\"width\":343.9166666666667}]}}},\"data\":{\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"min\",\"params\":{\"field\":\"institution.createdAt\"},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"params\":{\"field\":\"institution.acronym\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":500,\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\"},\"schema\":\"bucket\"},{\"id\":\"4\",\"enabled\":true,\"type\":\"terms\",\"params\":{\"field\":\"institution.id\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":50,\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\"},\"schema\":\"bucket\"},{\"id\":\"3\",\"enabled\":true,\"type\":\"terms\",\"params\":{\"field\":\"institution.name\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":50,\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\"},\"schema\":\"bucket\"}],\"searchSource\":{\"index\":\"007e0790-6edd-11ec-871c-618dc17b393f\",\"query\":{\"query\":\"\",\"language\":\"kuery\"},\"filter\":[]}}},\"enhancements\":{},\"vis\":{\"params\":{\"colWidth\":[{\"colIndex\":0,\"width\":108.25},{\"colIndex\":1,\"width\":322.9166666666667},{\"colIndex\":2,\"width\":270.41666666666663}]}},\"table\":null}},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":22,\"y\":5,\"w\":19,\"h\":15,\"i\":\"4a2c978b-da57-4763-98fa-cda3b5fd6c68\"},\"panelIndex\":\"4a2c978b-da57-4763-98fa-cda3b5fd6c68\",\"embeddableConfig\":{\"savedVis\":{\"title\":\"depositors-sushi : vendor table\",\"description\":\"\",\"type\":\"table\",\"params\":{\"perPage\":10,\"showPartialRows\":false,\"showMetricsAtAllLevels\":false,\"showTotal\":false,\"showToolbar\":false,\"totalFunc\":\"sum\",\"percentageCol\":\"\"},\"uiState\":{\"vis\":{\"params\":{\"colWidth\":[{\"colIndex\":0,\"width\":200.66666666666669},{\"colIndex\":1,\"width\":374.16666666666663}]}}},\"data\":{\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"cardinality\",\"params\":{\"field\":\"sushi.id\"},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"params\":{\"field\":\"sushi.vendor\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":5,\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\"},\"schema\":\"bucket\"},{\"id\":\"3\",\"enabled\":true,\"type\":\"terms\",\"params\":{\"field\":\"sushi.institutionId\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":5,\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\"},\"schema\":\"bucket\"},{\"id\":\"4\",\"enabled\":true,\"type\":\"terms\",\"params\":{\"field\":\"sushi.package\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":5,\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\"},\"schema\":\"bucket\"}],\"searchSource\":{\"index\":\"007e0790-6edd-11ec-871c-618dc17b393f\",\"query\":{\"query\":\"\",\"language\":\"kuery\"},\"filter\":[]}}},\"enhancements\":{},\"vis\":{\"params\":{\"colWidth\":[{\"colIndex\":0,\"width\":200.66666666666669},{\"colIndex\":1,\"width\":322.16666666666663},{\"colIndex\":2,\"width\":156}]}}}},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":41,\"y\":5,\"w\":6,\"h\":15,\"i\":\"c4b67a8b-3802-4d72-a37b-bbc1ccc17698\"},\"panelIndex\":\"c4b67a8b-3802-4d72-a37b-bbc1ccc17698\",\"embeddableConfig\":{\"savedVis\":{\"title\":\"depositors-sushi : etat de connexion\",\"description\":\"\",\"type\":\"pie\",\"params\":{\"type\":\"pie\",\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"top\",\"nestedLegend\":true,\"distinctColors\":false,\"isDonut\":true,\"palette\":{\"type\":\"palette\",\"name\":\"default\"},\"labels\":{\"show\":true,\"last_level\":false,\"values\":true,\"valuesFormat\":\"percent\",\"percentDecimals\":2,\"truncate\":100,\"position\":\"default\"}},\"uiState\":{\"vis\":{\"legendOpen\":true}},\"data\":{\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"params\":{},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"params\":{\"field\":\"sushi.connection.success\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":5,\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\"},\"schema\":\"segment\"}],\"searchSource\":{\"index\":\"007e0790-6edd-11ec-871c-618dc17b393f\",\"query\":{\"query\":\"\",\"language\":\"kuery\"},\"filter\":[]}}},\"enhancements\":{}}}]",
+        "optionsJSON": "{\"useMargins\":true,\"syncColors\":true,\"hidePanelTitles\":false}",
+        "version": 1,
+        "timeRestore": false,
+        "kibanaSavedObjectMeta": {
+          "searchSourceJSON": "{\"query\":{\"query\":\"\",\"language\":\"kuery\"},\"filter\":[]}"
+        }
+      },
+      "references": [
+        {
+          "name": "3b267191-7c9d-4d30-b9c4-db3763f0be11:kibanaSavedObjectMeta.searchSourceJSON.index",
+          "type": "index-pattern",
+          "id": "007e0790-6edd-11ec-871c-618dc17b393f"
+        },
+        {
+          "name": "4b1237ab-393d-4c03-8426-aa1d67b0cf84:kibanaSavedObjectMeta.searchSourceJSON.index",
+          "type": "index-pattern",
+          "id": "007e0790-6edd-11ec-871c-618dc17b393f"
+        },
+        {
+          "name": "4a2c978b-da57-4763-98fa-cda3b5fd6c68:kibanaSavedObjectMeta.searchSourceJSON.index",
+          "type": "index-pattern",
+          "id": "007e0790-6edd-11ec-871c-618dc17b393f"
+        },
+        {
+          "name": "c4b67a8b-3802-4d72-a37b-bbc1ccc17698:kibanaSavedObjectMeta.searchSourceJSON.index",
+          "type": "index-pattern",
+          "id": "007e0790-6edd-11ec-871c-618dc17b393f"
+        }
+      ],
+      "migrationVersion": {
+        "dashboard": "7.14.0"
+      },
+      "coreMigrationVersion": "7.14.1"
+    },
+    {
+      "id": "007e0790-6edd-11ec-871c-618dc17b393f",
+      "type": "index-pattern",
+      "namespaces": [
+        "ezmesure-admin"
+      ],
+      "updated_at": "2023-01-13T07:53:32.766Z",
+      "version": "WzExODM2OTEsMTBd",
+      "attributes": {
+        "fieldAttrs": "{\"sushi.apiKey\":{\"count\":2},\"type\":{\"count\":4},\"institution.acronym\":{\"count\":1},\"institution.name\":{\"count\":1},\"institution.sushiReadySince\":{\"count\":1},\"sushi.package\":{\"count\":1}}",
+        "title": "depositors",
+        "fields": "[]",
+        "typeMeta": "{}",
+        "runtimeFieldMap": "{}",
+        "fieldFormatMap": "{\"institution.createdAt\":{\"id\":\"date\",\"params\":{\"pattern\":\"DD-MM-YYYY\"}}}"
+      },
+      "references": [],
+      "migrationVersion": {
+        "index-pattern": "7.11.0"
+      },
+      "coreMigrationVersion": "7.14.1"
+    }
+  ]
+}

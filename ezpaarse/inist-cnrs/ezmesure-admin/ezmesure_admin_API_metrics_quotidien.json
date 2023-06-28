@@ -1,0 +1,490 @@
+{
+  "version": "7.14.1",
+  "objects": [
+    {
+      "id": "abbe1670-3289-11e8-a76a-0be685332132",
+      "type": "dashboard",
+      "namespaces": [
+        "ezmesure-admin"
+      ],
+      "updated_at": "2022-02-21T12:13:49.366Z",
+      "version": "WzExNzU1NzEsMTBd",
+      "attributes": {
+        "title": "API - Metrics - quotidien",
+        "hits": 0,
+        "description": "Métriques d'utilisation de l'API ezMESURE",
+        "panelsJSON": "[{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":0,\"y\":0,\"w\":24,\"h\":8,\"i\":\"1\"},\"panelIndex\":\"1\",\"embeddableConfig\":{\"enhancements\":{}},\"panelRefName\":\"panel_1\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":24,\"y\":40,\"w\":24,\"h\":12,\"i\":\"2\"},\"panelIndex\":\"2\",\"embeddableConfig\":{\"enhancements\":{}},\"panelRefName\":\"panel_2\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":0,\"y\":40,\"w\":24,\"h\":12,\"i\":\"3\"},\"panelIndex\":\"3\",\"embeddableConfig\":{\"enhancements\":{},\"vis\":{\"legendOpen\":true}},\"panelRefName\":\"panel_3\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":24,\"y\":52,\"w\":24,\"h\":16,\"i\":\"4\"},\"panelIndex\":\"4\",\"embeddableConfig\":{\"enhancements\":{}},\"panelRefName\":\"panel_4\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":24,\"y\":24,\"w\":24,\"h\":16,\"i\":\"5\"},\"panelIndex\":\"5\",\"embeddableConfig\":{\"enhancements\":{}},\"panelRefName\":\"panel_5\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":24,\"y\":8,\"w\":24,\"h\":16,\"i\":\"6\"},\"panelIndex\":\"6\",\"embeddableConfig\":{\"vis\":{\"colors\":{\"file/list\":\"#E0752D\",\"indices/insert\":\"#629E51\",\"indices/list\":\"#962D82\"}},\"enhancements\":{}},\"panelRefName\":\"panel_6\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":0,\"y\":24,\"w\":24,\"h\":16,\"i\":\"8\"},\"panelIndex\":\"8\",\"embeddableConfig\":{\"enhancements\":{}},\"panelRefName\":\"panel_8\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":0,\"y\":8,\"w\":24,\"h\":16,\"i\":\"9\"},\"panelIndex\":\"9\",\"embeddableConfig\":{\"enhancements\":{}},\"panelRefName\":\"panel_9\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":24,\"y\":0,\"w\":24,\"h\":8,\"i\":\"10\"},\"panelIndex\":\"10\",\"embeddableConfig\":{\"enhancements\":{}},\"panelRefName\":\"panel_10\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":0,\"y\":52,\"w\":24,\"h\":16,\"i\":\"11\"},\"panelIndex\":\"11\",\"embeddableConfig\":{\"enhancements\":{}},\"panelRefName\":\"panel_11\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":0,\"y\":68,\"w\":48,\"h\":27,\"i\":\"12\"},\"panelIndex\":\"12\",\"embeddableConfig\":{\"enhancements\":{}},\"panelRefName\":\"panel_12\"},{\"version\":\"7.14.1\",\"type\":\"search\",\"gridData\":{\"x\":0,\"y\":95,\"w\":48,\"h\":19,\"i\":\"de05df41-2578-4853-92b7-d95074c20691\"},\"panelIndex\":\"de05df41-2578-4853-92b7-d95074c20691\",\"embeddableConfig\":{\"enhancements\":{}},\"panelRefName\":\"panel_de05df41-2578-4853-92b7-d95074c20691\"}]",
+        "optionsJSON": "{\"darkTheme\":false,\"hidePanelTitles\":false,\"useMargins\":true}",
+        "version": 1,
+        "timeRestore": true,
+        "timeTo": "now",
+        "timeFrom": "now-7d",
+        "refreshInterval": {
+          "pause": true,
+          "value": 0
+        },
+        "kibanaSavedObjectMeta": {
+          "searchSourceJSON": "{\"query\":{\"language\":\"lucene\",\"query\":\"\"},\"highlightAll\":true,\"version\":true,\"filter\":[]}"
+        }
+      },
+      "references": [
+        {
+          "name": "1:panel_1",
+          "type": "visualization",
+          "id": "ba10f260-3252-11e8-a76a-0be685332132"
+        },
+        {
+          "name": "2:panel_2",
+          "type": "visualization",
+          "id": "542fe720-3253-11e8-a76a-0be685332132"
+        },
+        {
+          "name": "3:panel_3",
+          "type": "visualization",
+          "id": "c0034230-3258-11e8-a76a-0be685332132"
+        },
+        {
+          "name": "4:panel_4",
+          "type": "visualization",
+          "id": "ca347860-3257-11e8-a76a-0be685332132"
+        },
+        {
+          "name": "5:panel_5",
+          "type": "visualization",
+          "id": "0b43dad0-331b-11e8-a76a-0be685332132"
+        },
+        {
+          "name": "6:panel_6",
+          "type": "visualization",
+          "id": "44d94d00-331d-11e8-a76a-0be685332132"
+        },
+        {
+          "name": "8:panel_8",
+          "type": "visualization",
+          "id": "90a666b0-37db-11e8-a76a-0be685332132"
+        },
+        {
+          "name": "9:panel_9",
+          "type": "visualization",
+          "id": "65f08700-3337-11e8-a76a-0be685332132"
+        },
+        {
+          "name": "10:panel_10",
+          "type": "visualization",
+          "id": "4902d920-47bb-11e8-8b86-bb7a3fff158c"
+        },
+        {
+          "name": "11:panel_11",
+          "type": "visualization",
+          "id": "7195dd60-47c0-11e8-8b86-bb7a3fff158c"
+        },
+        {
+          "name": "12:panel_12",
+          "type": "visualization",
+          "id": "2cd07a60-f4ad-11e8-9fb0-afce77e57c35"
+        },
+        {
+          "name": "de05df41-2578-4853-92b7-d95074c20691:panel_de05df41-2578-4853-92b7-d95074c20691",
+          "type": "search",
+          "id": "71e9fa50-4783-11ec-9880-450f6ab04ce9"
+        }
+      ],
+      "migrationVersion": {
+        "dashboard": "7.14.0"
+      },
+      "coreMigrationVersion": "7.14.1"
+    },
+    {
+      "id": "ba10f260-3252-11e8-a76a-0be685332132",
+      "type": "visualization",
+      "namespaces": [
+        "ezmesure-admin"
+      ],
+      "updated_at": "2021-12-15T15:31:08.246Z",
+      "version": "WzExNzUyMzUsMTBd",
+      "attributes": {
+        "title": "API - Métriques d'insertion",
+        "visState": "{\"title\":\"API - Métriques d'insertion\",\"type\":\"metric\",\"aggs\":[{\"id\":\"4\",\"enabled\":true,\"type\":\"count\",\"params\":{\"customLabel\":\"Actions\"},\"schema\":\"metric\"},{\"id\":\"1\",\"enabled\":true,\"type\":\"sum\",\"params\":{\"field\":\"response.body.inserted\",\"customLabel\":\"Événements insérés\"},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"sum\",\"params\":{\"field\":\"response.body.updated\",\"customLabel\":\"Événements mis à jour\"},\"schema\":\"metric\"},{\"id\":\"3\",\"enabled\":true,\"type\":\"sum\",\"params\":{\"field\":\"response.body.failed\",\"customLabel\":\"Erreurs d'insertion\"},\"schema\":\"metric\"}],\"params\":{\"addTooltip\":true,\"addLegend\":false,\"type\":\"metric\",\"metric\":{\"percentageMode\":false,\"useRanges\":false,\"colorSchema\":\"Green to Red\",\"metricColorMode\":\"None\",\"colorsRange\":[{\"from\":0,\"to\":10000}],\"labels\":{\"show\":true},\"invertColors\":false,\"style\":{\"bgFill\":\"#000\",\"bgColor\":false,\"labelColor\":false,\"subText\":\"\",\"fontSize\":20}}}}",
+        "uiStateJSON": "{}",
+        "description": "",
+        "version": 1,
+        "kibanaSavedObjectMeta": {
+          "searchSourceJSON": "{\"query\":{\"query\":\"\",\"language\":\"lucene\"},\"filter\":[],\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.index\"}"
+        }
+      },
+      "references": [
+        {
+          "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
+          "type": "index-pattern",
+          "id": "8a85ef90-31c2-11e8-a76a-0be685332132"
+        }
+      ],
+      "migrationVersion": {
+        "visualization": "7.14.0"
+      },
+      "coreMigrationVersion": "7.14.1"
+    },
+    {
+      "id": "542fe720-3253-11e8-a76a-0be685332132",
+      "type": "visualization",
+      "namespaces": [
+        "ezmesure-admin"
+      ],
+      "updated_at": "2020-08-11T10:05:10.315Z",
+      "version": "WzExNzk3ODMsMTBd",
+      "attributes": {
+        "description": "",
+        "kibanaSavedObjectMeta": {
+          "searchSourceJSON": "{\"filter\":[],\"query\":{\"query\":\"\",\"language\":\"lucene\"},\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.index\"}"
+        },
+        "title": "API - Errors",
+        "uiStateJSON": "{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}}",
+        "version": 1,
+        "visState": "{\"title\":\"API - Errors\",\"type\":\"table\",\"params\":{\"perPage\":10,\"showPartialRows\":false,\"showMeticsAtAllLevels\":false,\"sort\":{\"columnIndex\":null,\"direction\":null},\"showTotal\":false,\"totalFunc\":\"sum\",\"showToolbar\":true},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"Nombre\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"response.body.error\",\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\",\"size\":10,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Erreur\"}}]}"
+      },
+      "references": [
+        {
+          "id": "8a85ef90-31c2-11e8-a76a-0be685332132",
+          "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
+          "type": "index-pattern"
+        }
+      ],
+      "migrationVersion": {
+        "visualization": "7.14.0"
+      },
+      "coreMigrationVersion": "7.14.1"
+    },
+    {
+      "id": "c0034230-3258-11e8-a76a-0be685332132",
+      "type": "visualization",
+      "namespaces": [
+        "ezmesure-admin"
+      ],
+      "updated_at": "2020-08-11T10:05:10.315Z",
+      "version": "WzExNzk3ODQsMTBd",
+      "attributes": {
+        "description": "",
+        "kibanaSavedObjectMeta": {
+          "searchSourceJSON": "{\"filter\":[],\"query\":{\"query\":\"\",\"language\":\"lucene\"},\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.index\"}"
+        },
+        "title": "API - Statuts HTTP",
+        "uiStateJSON": "{}",
+        "version": 1,
+        "visState": "{\"title\":\"API - Statuts HTTP\",\"type\":\"pie\",\"params\":{\"type\":\"pie\",\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"top\",\"isDonut\":true,\"labels\":{\"show\":true,\"values\":true,\"last_level\":true,\"truncate\":100},\"palette\":{\"type\":\"palette\",\"name\":\"kibana_palette\"},\"distinctColors\":true},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"response.status\",\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\",\"size\":10,\"order\":\"desc\",\"orderBy\":\"1\"}}]}"
+      },
+      "references": [
+        {
+          "id": "8a85ef90-31c2-11e8-a76a-0be685332132",
+          "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
+          "type": "index-pattern"
+        }
+      ],
+      "migrationVersion": {
+        "visualization": "7.14.0"
+      },
+      "coreMigrationVersion": "7.14.1"
+    },
+    {
+      "id": "ca347860-3257-11e8-a76a-0be685332132",
+      "type": "visualization",
+      "namespaces": [
+        "ezmesure-admin"
+      ],
+      "updated_at": "2020-08-11T10:05:10.315Z",
+      "version": "WzExNzk3ODUsMTBd",
+      "attributes": {
+        "description": "",
+        "kibanaSavedObjectMeta": {
+          "searchSourceJSON": "{\"filter\":[{\"meta\":{\"negate\":true,\"disabled\":false,\"alias\":null,\"type\":\"phrase\",\"key\":\"action\",\"value\":\"indices/insert\",\"params\":{\"query\":\"indices/insert\",\"type\":\"phrase\"},\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.filter[0].meta.index\"},\"query\":{\"match\":{\"action\":{\"query\":\"indices/insert\",\"type\":\"phrase\"}}},\"$state\":{\"store\":\"appState\"}}],\"query\":{\"query\":\"\",\"language\":\"lucene\"},\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.index\"}"
+        },
+        "title": "API - Temps de réponse (hors insertions)",
+        "uiStateJSON": "{}",
+        "version": 1,
+        "visState": "{\"title\":\"API - Temps de réponse (hors insertions)\",\"type\":\"histogram\",\"params\":{\"type\":\"histogram\",\"grid\":{\"categoryLines\":false,\"style\":{\"color\":\"#eee\"}},\"categoryAxes\":[{\"id\":\"CategoryAxis-1\",\"type\":\"category\",\"position\":\"bottom\",\"show\":true,\"style\":{},\"scale\":{\"type\":\"linear\"},\"labels\":{\"show\":true,\"truncate\":100,\"filter\":true},\"title\":{}}],\"valueAxes\":[{\"id\":\"ValueAxis-1\",\"name\":\"LeftAxis-1\",\"type\":\"value\",\"position\":\"left\",\"show\":true,\"style\":{},\"scale\":{\"type\":\"linear\",\"mode\":\"normal\"},\"labels\":{\"show\":true,\"rotate\":0,\"filter\":false,\"truncate\":100},\"title\":{\"text\":\"Temps de réponse (ms)\"}}],\"seriesParams\":[{\"show\":\"true\",\"type\":\"histogram\",\"mode\":\"stacked\",\"data\":{\"label\":\"Temps de réponse (ms)\",\"id\":\"1\"},\"valueAxis\":\"ValueAxis-1\",\"drawLinesBetweenPoints\":true,\"showCircles\":true}],\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"top\",\"times\":[],\"addTimeMarker\":false,\"palette\":{\"type\":\"palette\",\"name\":\"kibana_palette\"},\"isVislibVis\":true,\"detailedTooltip\":true},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"max\",\"schema\":\"metric\",\"params\":{\"field\":\"responseTime\",\"customLabel\":\"Temps de réponse (ms)\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"date_histogram\",\"schema\":\"segment\",\"params\":{\"field\":\"datetime\",\"interval\":\"auto\",\"min_doc_count\":1,\"extended_bounds\":{}}}]}"
+      },
+      "references": [
+        {
+          "id": "8a85ef90-31c2-11e8-a76a-0be685332132",
+          "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
+          "type": "index-pattern"
+        },
+        {
+          "id": "8a85ef90-31c2-11e8-a76a-0be685332132",
+          "name": "kibanaSavedObjectMeta.searchSourceJSON.filter[0].meta.index",
+          "type": "index-pattern"
+        }
+      ],
+      "migrationVersion": {
+        "visualization": "7.14.0"
+      },
+      "coreMigrationVersion": "7.14.1"
+    },
+    {
+      "id": "0b43dad0-331b-11e8-a76a-0be685332132",
+      "type": "visualization",
+      "namespaces": [
+        "ezmesure-admin"
+      ],
+      "updated_at": "2020-08-11T10:05:10.315Z",
+      "version": "WzExNzk3ODYsMTBd",
+      "attributes": {
+        "description": "",
+        "kibanaSavedObjectMeta": {
+          "searchSourceJSON": "{}"
+        },
+        "title": "API - Vitesse d'indexation",
+        "uiStateJSON": "{}",
+        "version": 1,
+        "visState": "{\"title\":\"API - Vitesse d'indexation\",\"type\":\"metrics\",\"params\":{\"id\":\"61ca57f0-469d-11e7-af02-69e470af7417\",\"type\":\"timeseries\",\"series\":[{\"id\":\"61ca57f1-469d-11e7-af02-69e470af7417\",\"color\":\"#68BC00\",\"split_mode\":\"everything\",\"metrics\":[{\"id\":\"61ca57f2-469d-11e7-af02-69e470af7417\",\"type\":\"sum\",\"value\":\"0\",\"field\":\"response.body.total\"},{\"id\":\"c352b320-328b-11e8-9d58-31b4b9f2a1f4\",\"type\":\"sum\",\"field\":\"responseTime\"},{\"script\":\"params.total / params.took * 1000\",\"id\":\"7d475570-328b-11e8-9d58-31b4b9f2a1f4\",\"type\":\"calculation\",\"variables\":[{\"id\":\"85dcc080-328b-11e8-9d58-31b4b9f2a1f4\",\"field\":\"61ca57f2-469d-11e7-af02-69e470af7417\",\"name\":\"total\"},{\"id\":\"be89e070-328b-11e8-9d58-31b4b9f2a1f4\",\"name\":\"took\",\"field\":\"c352b320-328b-11e8-9d58-31b4b9f2a1f4\"}]}],\"seperate_axis\":0,\"axis_position\":\"right\",\"formatter\":\"number\",\"chart_type\":\"bar\",\"line_width\":1,\"point_size\":\"3\",\"fill\":\"0.5\",\"stacked\":\"none\",\"label\":\"Vitesse d'indexation\",\"value_template\":\"{{value}}/s\",\"hide_in_legend\":1,\"split_color_mode\":\"gradient\"}],\"time_field\":\"datetime\",\"index_pattern\":\".ezmesure-metrics\",\"interval\":\"auto\",\"axis_position\":\"left\",\"axis_formatter\":\"number\",\"show_legend\":1,\"show_grid\":1,\"background_color_rules\":[{\"id\":\"49432eb0-328c-11e8-9d58-31b4b9f2a1f4\"}],\"bar_color_rules\":[{\"id\":\"4a90e460-328c-11e8-9d58-31b4b9f2a1f4\"}],\"gauge_color_rules\":[{\"id\":\"4b0020f0-328c-11e8-9d58-31b4b9f2a1f4\"}],\"gauge_width\":10,\"gauge_inner_width\":10,\"gauge_style\":\"half\",\"legend_position\":\"bottom\",\"filter\":{\"query\":\"action:\\\"indices/insert\\\"\",\"language\":\"lucene\"},\"use_kibana_indexes\":false},\"aggs\":[]}"
+      },
+      "references": [],
+      "migrationVersion": {
+        "visualization": "7.14.0"
+      },
+      "coreMigrationVersion": "7.14.1"
+    },
+    {
+      "id": "44d94d00-331d-11e8-a76a-0be685332132",
+      "type": "visualization",
+      "namespaces": [
+        "ezmesure-admin"
+      ],
+      "updated_at": "2020-08-11T10:05:10.315Z",
+      "version": "WzExNzk3ODcsMTBd",
+      "attributes": {
+        "description": "",
+        "kibanaSavedObjectMeta": {
+          "searchSourceJSON": "{\"filter\":[],\"query\":{\"query\":\"\",\"language\":\"lucene\"},\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.index\"}"
+        },
+        "title": "API - Actions",
+        "uiStateJSON": "{}",
+        "version": 1,
+        "visState": "{\"title\":\"API - Actions\",\"type\":\"histogram\",\"params\":{\"type\":\"histogram\",\"grid\":{\"categoryLines\":false,\"style\":{\"color\":\"#eee\"}},\"categoryAxes\":[{\"id\":\"CategoryAxis-1\",\"type\":\"category\",\"position\":\"bottom\",\"show\":true,\"style\":{},\"scale\":{\"type\":\"linear\"},\"labels\":{\"show\":true,\"truncate\":100,\"filter\":true},\"title\":{}}],\"valueAxes\":[{\"id\":\"ValueAxis-1\",\"name\":\"LeftAxis-1\",\"type\":\"value\",\"position\":\"left\",\"show\":true,\"style\":{},\"scale\":{\"type\":\"linear\",\"mode\":\"normal\"},\"labels\":{\"show\":true,\"rotate\":0,\"filter\":false,\"truncate\":100},\"title\":{\"text\":\"Nombre d'actions\"}}],\"seriesParams\":[{\"show\":\"true\",\"type\":\"histogram\",\"mode\":\"stacked\",\"data\":{\"label\":\"Nombre d'actions\",\"id\":\"1\"},\"valueAxis\":\"ValueAxis-1\",\"drawLinesBetweenPoints\":true,\"showCircles\":true}],\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"times\":[],\"addTimeMarker\":false,\"palette\":{\"type\":\"palette\",\"name\":\"kibana_palette\"},\"isVislibVis\":true,\"detailedTooltip\":true},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"Nombre d'actions\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"date_histogram\",\"schema\":\"segment\",\"params\":{\"field\":\"datetime\",\"interval\":\"auto\",\"min_doc_count\":1,\"extended_bounds\":{}}},{\"id\":\"3\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"group\",\"params\":{\"field\":\"action\",\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\",\"size\":10,\"order\":\"desc\",\"orderBy\":\"1\"}}]}"
+      },
+      "references": [
+        {
+          "id": "8a85ef90-31c2-11e8-a76a-0be685332132",
+          "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
+          "type": "index-pattern"
+        }
+      ],
+      "migrationVersion": {
+        "visualization": "7.14.0"
+      },
+      "coreMigrationVersion": "7.14.1"
+    },
+    {
+      "id": "90a666b0-37db-11e8-a76a-0be685332132",
+      "type": "visualization",
+      "namespaces": [
+        "ezmesure-admin"
+      ],
+      "updated_at": "2020-08-26T07:11:00.557Z",
+      "version": "WzExNzk4MzYsMTBd",
+      "attributes": {
+        "title": "API - Top insertions index",
+        "visState": "{\"title\":\"API - Top insertions index\",\"type\":\"horizontal_bar\",\"params\":{\"type\":\"histogram\",\"grid\":{\"categoryLines\":false,\"style\":{\"color\":\"#eee\"}},\"categoryAxes\":[{\"id\":\"CategoryAxis-1\",\"type\":\"category\",\"position\":\"left\",\"show\":true,\"style\":{},\"scale\":{\"type\":\"linear\"},\"labels\":{\"show\":true,\"rotate\":0,\"filter\":false,\"truncate\":200},\"title\":{}}],\"valueAxes\":[{\"id\":\"ValueAxis-1\",\"name\":\"BottomAxis-1\",\"type\":\"value\",\"position\":\"bottom\",\"show\":true,\"style\":{},\"scale\":{\"type\":\"linear\",\"mode\":\"normal\",\"defaultYExtents\":false,\"setYExtents\":false},\"labels\":{\"show\":true,\"rotate\":75,\"filter\":true,\"truncate\":100},\"title\":{\"text\":\"Total chargé\"}}],\"seriesParams\":[{\"show\":true,\"type\":\"histogram\",\"mode\":\"normal\",\"data\":{\"label\":\"Total chargé\",\"id\":\"1\"},\"valueAxis\":\"ValueAxis-1\",\"drawLinesBetweenPoints\":true,\"showCircles\":true}],\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"top\",\"times\":[],\"addTimeMarker\":false,\"labels\":{},\"dimensions\":{\"x\":{\"accessor\":0,\"format\":{\"id\":\"terms\",\"params\":{\"id\":\"string\",\"otherBucketLabel\":\"Other\",\"missingBucketLabel\":\"Missing\"}},\"params\":{},\"aggType\":\"terms\"},\"y\":[{\"accessor\":1,\"format\":{\"id\":\"number\"},\"params\":{},\"aggType\":\"sum\"}]},\"palette\":{\"type\":\"palette\",\"name\":\"kibana_palette\"},\"isVislibVis\":true,\"detailedTooltip\":true},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"sum\",\"schema\":\"metric\",\"params\":{\"field\":\"response.body.total\",\"customLabel\":\"Total chargé\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"index\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":10,\"otherBucket\":true,\"otherBucketLabel\":\"Autres\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\",\"customLabel\":\"Index\"}}]}",
+        "uiStateJSON": "{}",
+        "description": "",
+        "version": 1,
+        "kibanaSavedObjectMeta": {
+          "searchSourceJSON": "{\"filter\":[{\"meta\":{\"negate\":false,\"disabled\":false,\"alias\":null,\"type\":\"phrase\",\"key\":\"action\",\"value\":\"indices/insert\",\"params\":{\"query\":\"indices/insert\"},\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.filter[0].meta.index\"},\"query\":{\"match\":{\"action\":{\"query\":\"indices/insert\",\"type\":\"phrase\"}}},\"$state\":{\"store\":\"appState\"}}],\"query\":{\"query\":\"\",\"language\":\"lucene\"},\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.index\"}"
+        }
+      },
+      "references": [
+        {
+          "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
+          "type": "index-pattern",
+          "id": "8a85ef90-31c2-11e8-a76a-0be685332132"
+        },
+        {
+          "name": "kibanaSavedObjectMeta.searchSourceJSON.filter[0].meta.index",
+          "type": "index-pattern",
+          "id": "8a85ef90-31c2-11e8-a76a-0be685332132"
+        }
+      ],
+      "migrationVersion": {
+        "visualization": "7.14.0"
+      },
+      "coreMigrationVersion": "7.14.1"
+    },
+    {
+      "id": "65f08700-3337-11e8-a76a-0be685332132",
+      "type": "visualization",
+      "namespaces": [
+        "ezmesure-admin"
+      ],
+      "updated_at": "2020-08-11T10:05:10.315Z",
+      "version": "WzExNzk3ODgsMTBd",
+      "attributes": {
+        "description": "",
+        "kibanaSavedObjectMeta": {
+          "searchSourceJSON": "{\"filter\":[],\"query\":{\"query\":\"\",\"language\":\"lucene\"},\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.index\"}"
+        },
+        "title": "API - Top utilisateurs",
+        "uiStateJSON": "{}",
+        "version": 1,
+        "visState": "{\"title\":\"API - Top utilisateurs\",\"type\":\"horizontal_bar\",\"params\":{\"type\":\"histogram\",\"grid\":{\"categoryLines\":false,\"style\":{\"color\":\"#eee\"}},\"categoryAxes\":[{\"id\":\"CategoryAxis-1\",\"type\":\"category\",\"position\":\"left\",\"show\":true,\"style\":{},\"scale\":{\"type\":\"linear\"},\"labels\":{\"show\":true,\"rotate\":0,\"filter\":false,\"truncate\":200},\"title\":{}}],\"valueAxes\":[{\"id\":\"ValueAxis-1\",\"name\":\"LeftAxis-1\",\"type\":\"value\",\"position\":\"bottom\",\"show\":true,\"style\":{},\"scale\":{\"type\":\"linear\",\"mode\":\"normal\"},\"labels\":{\"show\":true,\"rotate\":75,\"filter\":true,\"truncate\":100},\"title\":{\"text\":\"Total chargé\"}}],\"seriesParams\":[{\"show\":true,\"type\":\"histogram\",\"mode\":\"normal\",\"data\":{\"label\":\"Total chargé\",\"id\":\"1\"},\"valueAxis\":\"ValueAxis-1\",\"drawLinesBetweenPoints\":true,\"showCircles\":true}],\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"top\",\"times\":[],\"addTimeMarker\":false,\"palette\":{\"type\":\"palette\",\"name\":\"kibana_palette\"},\"isVislibVis\":true,\"detailedTooltip\":true},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"sum\",\"schema\":\"metric\",\"params\":{\"field\":\"response.body.total\",\"customLabel\":\"Total chargé\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"user.name\",\"size\":20,\"order\":\"desc\",\"orderBy\":\"1\",\"otherBucket\":true,\"otherBucketLabel\":\"Autres\",\"missingBucket\":true,\"missingBucketLabel\":\"Non renseigné\",\"customLabel\":\"Utilisateurs\"}}]}"
+      },
+      "references": [
+        {
+          "id": "8a85ef90-31c2-11e8-a76a-0be685332132",
+          "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
+          "type": "index-pattern"
+        }
+      ],
+      "migrationVersion": {
+        "visualization": "7.14.0"
+      },
+      "coreMigrationVersion": "7.14.1"
+    },
+    {
+      "id": "4902d920-47bb-11e8-8b86-bb7a3fff158c",
+      "type": "visualization",
+      "namespaces": [
+        "ezmesure-admin"
+      ],
+      "updated_at": "2020-08-11T10:05:10.315Z",
+      "version": "WzExNzk3ODksMTBd",
+      "attributes": {
+        "description": "",
+        "kibanaSavedObjectMeta": {
+          "searchSourceJSON": "{\"filter\":[],\"query\":{\"language\":\"lucene\",\"query\":\"\"},\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.index\"}"
+        },
+        "title": "API - Période",
+        "uiStateJSON": "{}",
+        "version": 1,
+        "visState": "{\"title\":\"API - Période\",\"type\":\"metric\",\"params\":{\"addLegend\":false,\"addTooltip\":true,\"metric\":{\"colorSchema\":\"Green to Red\",\"colorsRange\":[{\"from\":0,\"to\":10000}],\"invertColors\":false,\"labels\":{\"show\":true},\"metricColorMode\":\"None\",\"percentageMode\":false,\"style\":{\"bgColor\":false,\"bgFill\":\"#000\",\"fontSize\":12,\"labelColor\":false,\"subText\":\"\"},\"useRanges\":false},\"type\":\"metric\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"min\",\"schema\":\"metric\",\"params\":{\"field\":\"datetime\",\"customLabel\":\"Début période\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"max\",\"schema\":\"metric\",\"params\":{\"field\":\"datetime\",\"customLabel\":\"Fin période\"}}]}"
+      },
+      "references": [
+        {
+          "id": "8a85ef90-31c2-11e8-a76a-0be685332132",
+          "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
+          "type": "index-pattern"
+        }
+      ],
+      "migrationVersion": {
+        "visualization": "7.14.0"
+      },
+      "coreMigrationVersion": "7.14.1"
+    },
+    {
+      "id": "7195dd60-47c0-11e8-8b86-bb7a3fff158c",
+      "type": "visualization",
+      "namespaces": [
+        "ezmesure-admin"
+      ],
+      "updated_at": "2020-08-11T10:05:10.315Z",
+      "version": "WzExNzk3OTAsMTBd",
+      "attributes": {
+        "description": "",
+        "kibanaSavedObjectMeta": {
+          "searchSourceJSON": "{\"filter\":[],\"query\":{\"query\":\"\",\"language\":\"lucene\"},\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.index\"}"
+        },
+        "title": "API - IDP",
+        "uiStateJSON": "{}",
+        "version": 1,
+        "visState": "{\"title\":\"API - IDP\",\"type\":\"horizontal_bar\",\"params\":{\"type\":\"histogram\",\"grid\":{\"categoryLines\":false,\"style\":{\"color\":\"#eee\"}},\"categoryAxes\":[{\"id\":\"CategoryAxis-1\",\"type\":\"category\",\"position\":\"left\",\"show\":true,\"style\":{},\"scale\":{\"type\":\"linear\"},\"labels\":{\"show\":true,\"rotate\":0,\"filter\":false,\"truncate\":200},\"title\":{}}],\"valueAxes\":[{\"id\":\"ValueAxis-1\",\"name\":\"LeftAxis-1\",\"type\":\"value\",\"position\":\"bottom\",\"show\":true,\"style\":{},\"scale\":{\"type\":\"linear\",\"mode\":\"normal\"},\"labels\":{\"show\":true,\"rotate\":75,\"filter\":true,\"truncate\":100},\"title\":{\"text\":\"Count\"}}],\"seriesParams\":[{\"show\":true,\"type\":\"histogram\",\"mode\":\"normal\",\"data\":{\"label\":\"Count\",\"id\":\"1\"},\"valueAxis\":\"ValueAxis-1\",\"drawLinesBetweenPoints\":true,\"showCircles\":true}],\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"times\":[],\"addTimeMarker\":false,\"palette\":{\"type\":\"palette\",\"name\":\"kibana_palette\"},\"isVislibVis\":true,\"detailedTooltip\":true},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"user.idp\",\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\",\"size\":10,\"order\":\"desc\",\"orderBy\":\"1\"}}]}"
+      },
+      "references": [
+        {
+          "id": "8a85ef90-31c2-11e8-a76a-0be685332132",
+          "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
+          "type": "index-pattern"
+        }
+      ],
+      "migrationVersion": {
+        "visualization": "7.14.0"
+      },
+      "coreMigrationVersion": "7.14.1"
+    },
+    {
+      "id": "2cd07a60-f4ad-11e8-9fb0-afce77e57c35",
+      "type": "visualization",
+      "namespaces": [
+        "ezmesure-admin"
+      ],
+      "updated_at": "2020-08-11T10:05:10.315Z",
+      "version": "WzExNzk3OTEsMTBd",
+      "attributes": {
+        "description": "",
+        "kibanaSavedObjectMeta": {
+          "searchSourceJSON": "{\"query\":{\"query\":\"\",\"language\":\"kuery\"},\"filter\":[],\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.index\"}"
+        },
+        "title": "api-actions par utilisateurs",
+        "uiStateJSON": "{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}}",
+        "version": 1,
+        "visState": "{\"title\":\"api-actions par utilisateurs\",\"type\":\"table\",\"params\":{\"perPage\":20,\"showPartialRows\":false,\"showMetricsAtAllLevels\":false,\"sort\":{\"columnIndex\":null,\"direction\":null},\"showTotal\":true,\"totalFunc\":\"count\",\"percentageCol\":\"\",\"dimensions\":{\"metrics\":[{\"accessor\":1,\"format\":{\"id\":\"number\"},\"params\":{},\"aggType\":\"count\"}],\"buckets\":[{\"accessor\":0,\"format\":{\"id\":\"terms\",\"params\":{\"id\":\"string\",\"otherBucketLabel\":\"Other\",\"missingBucketLabel\":\"Missing\"}},\"params\":{},\"aggType\":\"terms\"}]},\"showToolbar\":true},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"user.name\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":40,\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\",\"customLabel\":\"utilisateurs\"}}]}"
+      },
+      "references": [
+        {
+          "id": "8a85ef90-31c2-11e8-a76a-0be685332132",
+          "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
+          "type": "index-pattern"
+        }
+      ],
+      "migrationVersion": {
+        "visualization": "7.14.0"
+      },
+      "coreMigrationVersion": "7.14.1"
+    },
+    {
+      "id": "71e9fa50-4783-11ec-9880-450f6ab04ce9",
+      "type": "search",
+      "namespaces": [
+        "ezmesure-admin"
+      ],
+      "updated_at": "2021-11-17T08:50:41.909Z",
+      "version": "WzExNzM2NTksMTBd",
+      "attributes": {
+        "title": "API metrics",
+        "description": "",
+        "hits": 0,
+        "columns": [
+          "_source"
+        ],
+        "sort": [
+          [
+            "datetime",
+            "desc"
+          ]
+        ],
+        "version": 1,
+        "kibanaSavedObjectMeta": {
+          "searchSourceJSON": "{\"highlightAll\":true,\"version\":true,\"query\":{\"query\":\"\",\"language\":\"kuery\"},\"filter\":[],\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.index\"}"
+        }
+      },
+      "references": [
+        {
+          "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
+          "type": "index-pattern",
+          "id": "8a85ef90-31c2-11e8-a76a-0be685332132"
+        }
+      ],
+      "migrationVersion": {
+        "search": "7.9.3"
+      },
+      "coreMigrationVersion": "7.14.1"
+    },
+    {
+      "id": "8a85ef90-31c2-11e8-a76a-0be685332132",
+      "type": "index-pattern",
+      "namespaces": [
+        "ezmesure-admin"
+      ],
+      "updated_at": "2020-08-11T10:05:10.315Z",
+      "version": "WzExNzk3ODIsMTBd",
+      "attributes": {
+        "fieldFormatMap": "{\"datetime\":{\"id\":\"date\",\"params\":{\"pattern\":\"DD-MM-YYYY\"}}}",
+        "fields": "[{\"name\":\"_id\",\"type\":\"string\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":false},{\"name\":\"_index\",\"type\":\"string\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":false},{\"name\":\"_score\",\"type\":\"number\",\"count\":0,\"scripted\":false,\"searchable\":false,\"aggregatable\":false,\"readFromDocValues\":false},{\"name\":\"_source\",\"type\":\"_source\",\"count\":0,\"scripted\":false,\"searchable\":false,\"aggregatable\":false,\"readFromDocValues\":false},{\"name\":\"_type\",\"type\":\"string\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":false},{\"name\":\"action\",\"type\":\"string\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"datetime\",\"type\":\"date\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"index\",\"type\":\"string\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"request.method\",\"type\":\"string\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"request.query.nostore\",\"type\":\"string\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"request.remoteIP\",\"type\":\"string\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"request.url\",\"type\":\"string\",\"count\":1,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"request.user\",\"type\":\"string\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"request.userAgent\",\"type\":\"string\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"response.body.acknowledged\",\"type\":\"boolean\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"response.body.error\",\"type\":\"string\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"response.body.errors\",\"type\":\"string\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"response.body.failed\",\"type\":\"number\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"response.body.inserted\",\"type\":\"number\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"response.body.total\",\"type\":\"number\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"response.body.updated\",\"type\":\"number\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"response.status\",\"type\":\"number\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"responseTime\",\"type\":\"number\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"user.idp\",\"type\":\"string\",\"count\":2,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"user.name\",\"type\":\"string\",\"count\":1,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"user.roles\",\"type\":\"string\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true}]",
+        "timeFieldName": "datetime",
+        "title": ".ezmesure-metrics"
+      },
+      "references": [],
+      "migrationVersion": {
+        "index-pattern": "7.11.0"
+      },
+      "coreMigrationVersion": "7.14.1"
+    }
+  ]
+}
