@@ -1,0 +1,1390 @@
+{
+  "version": "7.14.1",
+  "objects": [
+    {
+      "id": "25f54ef0-deaf-11ed-8ce4-61ee0b8a2f58",
+      "type": "dashboard",
+      "namespaces": [
+        "negociations-publisher"
+      ],
+      "updated_at": "2023-12-14T11:28:11.813Z",
+      "version": "WzE4OTM5MjEsMTdd",
+      "attributes": {
+        "title": "publisher * Brill Tableau TR > Requests COUNTER 5 SUSHI V1.1",
+        "hits": 0,
+        "description": "Tableau de bord Brill Collex collec IEDO & REligion in the Graeco-Roman World>\"Master Title Reports\"V1.1 ",
+        "panelsJSON": "[{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"h\":16,\"i\":\"f008f235-6bc5-43d5-98d9-9e0364035ab4\",\"w\":20,\"x\":0,\"y\":0},\"panelIndex\":\"f008f235-6bc5-43d5-98d9-9e0364035ab4\",\"embeddableConfig\":{\"enhancements\":{}},\"panelRefName\":\"panel_f008f235-6bc5-43d5-98d9-9e0364035ab4\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"h\":16,\"i\":\"e76cbb57-e7e4-40a7-b531-fcd5c2c43233\",\"w\":8,\"x\":20,\"y\":0},\"panelIndex\":\"e76cbb57-e7e4-40a7-b531-fcd5c2c43233\",\"embeddableConfig\":{\"enhancements\":{},\"table\":null,\"vis\":{\"legendOpen\":false}},\"panelRefName\":\"panel_e76cbb57-e7e4-40a7-b531-fcd5c2c43233\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"h\":16,\"i\":\"d9a69ead-e5d1-48d2-863f-28c28b8242ca\",\"w\":20,\"x\":28,\"y\":0},\"panelIndex\":\"d9a69ead-e5d1-48d2-863f-28c28b8242ca\",\"embeddableConfig\":{\"enhancements\":{}},\"panelRefName\":\"panel_d9a69ead-e5d1-48d2-863f-28c28b8242ca\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"h\":6,\"i\":\"2618df8f-d280-4cf7-9ddf-0e3f3eec487f\",\"w\":48,\"x\":0,\"y\":16},\"panelIndex\":\"2618df8f-d280-4cf7-9ddf-0e3f3eec487f\",\"embeddableConfig\":{\"enhancements\":{}},\"panelRefName\":\"panel_2618df8f-d280-4cf7-9ddf-0e3f3eec487f\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"h\":15,\"i\":\"7d933306-d81c-4067-943c-eef83f9beb3e\",\"w\":12,\"x\":0,\"y\":34},\"panelIndex\":\"7d933306-d81c-4067-943c-eef83f9beb3e\",\"embeddableConfig\":{\"enhancements\":{},\"vis\":{\"legendOpen\":true}},\"panelRefName\":\"panel_7d933306-d81c-4067-943c-eef83f9beb3e\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"h\":15,\"i\":\"0e6cb719-6486-4620-ac58-bc97a537b26e\",\"w\":12,\"x\":12,\"y\":34},\"panelIndex\":\"0e6cb719-6486-4620-ac58-bc97a537b26e\",\"embeddableConfig\":{\"enhancements\":{},\"table\":null,\"vis\":{\"colors\":{\"Controlled\":\"#c5b79c\",\"OA_Gold\":\"#ddca73\",\"__missing__\":\"#b0c9e0\"},\"legendOpen\":true}},\"panelRefName\":\"panel_0e6cb719-6486-4620-ac58-bc97a537b26e\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"h\":15,\"i\":\"63f6f6b9-b029-47d3-b589-16fc9069ee85\",\"w\":12,\"x\":24,\"y\":34},\"panelIndex\":\"63f6f6b9-b029-47d3-b589-16fc9069ee85\",\"embeddableConfig\":{\"enhancements\":{},\"table\":null,\"vis\":{\"colors\":{\"Article\":\"#8dccbb\",\"Chapter\":\"#b87f72\",\"Other\":\"#d5b2ab\",\"__missing__\":\"#b0c9e0\"},\"legendOpen\":true}},\"panelRefName\":\"panel_63f6f6b9-b029-47d3-b589-16fc9069ee85\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"h\":15,\"i\":\"ac7146ca-995b-4db1-8fb2-3aff7696e423\",\"w\":12,\"x\":36,\"y\":34},\"panelIndex\":\"ac7146ca-995b-4db1-8fb2-3aff7696e423\",\"embeddableConfig\":{\"enhancements\":{},\"table\":null,\"vis\":{\"colors\":{\"Book\":\"#e09e64\",\"Journal\":\"#b6a0d0\",\"Newspaper_or_Newsletter\":\"#9170b8\",\"Report\":\"#aa6556\",\"__missing__\":\"#b0c9e0\"},\"legendOpen\":true}},\"panelRefName\":\"panel_ac7146ca-995b-4db1-8fb2-3aff7696e423\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"h\":21,\"i\":\"68215572-6855-4ee7-9a6a-b8d9cadd344a\",\"w\":48,\"x\":0,\"y\":49},\"panelIndex\":\"68215572-6855-4ee7-9a6a-b8d9cadd344a\",\"embeddableConfig\":{\"enhancements\":{},\"table\":null,\"vis\":{\"colors\":{\"INS2I\":\"#447EBC\",\"INSB-INEE\":\"#71c0aa\",\"Tout BibCNRS\":\"#6092c0\"},\"legendOpen\":true}},\"panelRefName\":\"panel_68215572-6855-4ee7-9a6a-b8d9cadd344a\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"h\":22,\"i\":\"72a798cf-4d2b-4498-a59b-3927e5cf530f\",\"w\":11,\"x\":0,\"y\":70},\"panelIndex\":\"72a798cf-4d2b-4498-a59b-3927e5cf530f\",\"embeddableConfig\":{\"enhancements\":{},\"vis\":{\"params\":{\"colWidth\":[{\"colIndex\":0,\"width\":266}]}}},\"panelRefName\":\"panel_72a798cf-4d2b-4498-a59b-3927e5cf530f\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"h\":22,\"i\":\"eb3fb3c9-5859-4ebf-ae64-b9058d428fd5\",\"w\":13,\"x\":11,\"y\":70},\"panelIndex\":\"eb3fb3c9-5859-4ebf-ae64-b9058d428fd5\",\"embeddableConfig\":{\"enhancements\":{},\"table\":null,\"vis\":{\"params\":{\"colWidth\":[{\"colIndex\":0,\"width\":346.5}]}}},\"panelRefName\":\"panel_eb3fb3c9-5859-4ebf-ae64-b9058d428fd5\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"h\":22,\"i\":\"b9bb56e2-3f2b-45ba-81ff-100223ca82f5\",\"w\":14,\"x\":24,\"y\":70},\"panelIndex\":\"b9bb56e2-3f2b-45ba-81ff-100223ca82f5\",\"embeddableConfig\":{\"enhancements\":{},\"table\":null,\"vis\":{\"params\":{\"colWidth\":[{\"colIndex\":0,\"width\":385}]}}},\"panelRefName\":\"panel_b9bb56e2-3f2b-45ba-81ff-100223ca82f5\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"h\":7,\"i\":\"b14987c6-8897-4ae1-9b6c-d6b2c23cb93c\",\"w\":10,\"x\":38,\"y\":70},\"panelIndex\":\"b14987c6-8897-4ae1-9b6c-d6b2c23cb93c\",\"embeddableConfig\":{\"enhancements\":{}},\"panelRefName\":\"panel_b14987c6-8897-4ae1-9b6c-d6b2c23cb93c\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"h\":15,\"i\":\"8fedf0e7-f7e1-42a8-8225-32561663c8be\",\"w\":10,\"x\":38,\"y\":77},\"panelIndex\":\"8fedf0e7-f7e1-42a8-8225-32561663c8be\",\"embeddableConfig\":{\"enhancements\":{},\"vis\":{\"legendOpen\":false}},\"panelRefName\":\"panel_8fedf0e7-f7e1-42a8-8225-32561663c8be\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"h\":69,\"i\":\"4d491187-78a3-473c-8178-e070361ba4a6\",\"w\":48,\"x\":0,\"y\":107},\"panelIndex\":\"4d491187-78a3-473c-8178-e070361ba4a6\",\"embeddableConfig\":{\"enhancements\":{},\"vis\":{\"params\":{\"sort\":{\"columnIndex\":0,\"direction\":\"asc\"}}}},\"panelRefName\":\"panel_4d491187-78a3-473c-8178-e070361ba4a6\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"h\":18,\"i\":\"9f8ba5c9-0f1c-4e88-9e6a-3f358ae537c3\",\"w\":11,\"x\":0,\"y\":176},\"panelIndex\":\"9f8ba5c9-0f1c-4e88-9e6a-3f358ae537c3\",\"embeddableConfig\":{\"enhancements\":{}},\"panelRefName\":\"panel_9f8ba5c9-0f1c-4e88-9e6a-3f358ae537c3\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"h\":18,\"i\":\"6c97ccba-249f-4927-b912-3d81a26e3db1\",\"w\":37,\"x\":11,\"y\":176},\"panelIndex\":\"6c97ccba-249f-4927-b912-3d81a26e3db1\",\"embeddableConfig\":{\"enhancements\":{},\"vis\":{\"legendOpen\":false}},\"panelRefName\":\"panel_6c97ccba-249f-4927-b912-3d81a26e3db1\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"h\":48,\"i\":\"14242e24-8381-49b5-b069-355f99946950\",\"w\":24,\"x\":0,\"y\":194},\"panelIndex\":\"14242e24-8381-49b5-b069-355f99946950\",\"embeddableConfig\":{\"enhancements\":{}},\"panelRefName\":\"panel_14242e24-8381-49b5-b069-355f99946950\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"h\":48,\"i\":\"3a71830b-5d61-489e-a18c-16a8a78fa2da\",\"w\":24,\"x\":24,\"y\":194},\"panelIndex\":\"3a71830b-5d61-489e-a18c-16a8a78fa2da\",\"embeddableConfig\":{\"enhancements\":{}},\"panelRefName\":\"panel_3a71830b-5d61-489e-a18c-16a8a78fa2da\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"h\":15,\"i\":\"60b4a033-65b0-4c52-981d-823713fb0d1d\",\"w\":24,\"x\":0,\"y\":92},\"panelIndex\":\"60b4a033-65b0-4c52-981d-823713fb0d1d\",\"embeddableConfig\":{\"enhancements\":{}},\"panelRefName\":\"panel_60b4a033-65b0-4c52-981d-823713fb0d1d\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":0,\"y\":28,\"w\":48,\"h\":6,\"i\":\"13ca39b6-0d76-4c32-9a91-cd1eb01fd410\"},\"panelIndex\":\"13ca39b6-0d76-4c32-9a91-cd1eb01fd410\",\"embeddableConfig\":{\"enhancements\":{},\"timeRange\":{\"from\":\"2020-12-17T13:35:53.875Z\",\"to\":\"2022-01-08T08:53:39.001Z\"}},\"panelRefName\":\"panel_13ca39b6-0d76-4c32-9a91-cd1eb01fd410\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":0,\"y\":22,\"w\":48,\"h\":6,\"i\":\"ebd6b055-27b7-4469-b8ca-fd39a5f8791e\"},\"panelIndex\":\"ebd6b055-27b7-4469-b8ca-fd39a5f8791e\",\"embeddableConfig\":{\"enhancements\":{},\"timeRange\":{\"from\":\"2021-12-17T13:35:53.875Z\",\"to\":\"2023-01-08T08:53:39.001Z\"}},\"panelRefName\":\"panel_ebd6b055-27b7-4469-b8ca-fd39a5f8791e\"}]",
+        "optionsJSON": "{\"hidePanelTitles\":false,\"syncColors\":true,\"useMargins\":true}",
+        "version": 1,
+        "timeRestore": true,
+        "timeTo": "now",
+        "timeFrom": "2018-01-01T13:35:53.875Z",
+        "refreshInterval": {
+          "pause": true,
+          "value": 0
+        },
+        "kibanaSavedObjectMeta": {
+          "searchSourceJSON": "{\"query\":{\"query\":\"\",\"language\":\"kuery\"},\"filter\":[{\"$state\":{\"store\":\"appState\"},\"meta\":{\"alias\":null,\"disabled\":false,\"key\":\"Report_Header.Report_ID\",\"negate\":false,\"params\":{\"query\":\"TR\"},\"type\":\"phrase\",\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.filter[0].meta.index\"},\"query\":{\"match_phrase\":{\"Report_Header.Report_ID\":\"TR\"}}},{\"$state\":{\"store\":\"appState\"},\"meta\":{\"alias\":\"Collex-Persée_Brill_collec IEDO\",\"disabled\":false,\"key\":\"query\",\"negate\":false,\"type\":\"custom\",\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.filter[1].meta.index\"},\"query\":{\"bool\":{\"minimum_should_match\":1,\"should\":[{\"match_phrase\":{\"Title\":\"Etymological Dictionary of the Armenian Inherited Lexicon\"}},{\"match_phrase\":{\"Title\":\"Etymological Dictionary of the Baltic Inherited Lexicon\"}},{\"match_phrase\":{\"Title\":\"Etymological Dictionary of Proto-Celtic\"}},{\"match_phrase\":{\"Title\":\"Old Frisian Etymological Dictionary\"}},{\"match_phrase\":{\"Title\":\"Etymological Dictionary of Proto-Germanic\"}},{\"match_phrase\":{\"Title\":\"Etymological Dictionary of Greek\"}},{\"match_phrase\":{\"Title\":\"Etymological Dictionary of the Hittite Inherited Lexicon\"}},{\"match_phrase\":{\"Title\":\"Etymological Dictionary of the Iranian Verb\"}},{\"match_phrase\":{\"Title\":\"Etymological Dictionary of Latin\"}},{\"match_phrase\":{\"Title\":\"Cuneiform Luvian Lexicon\"}},{\"match_phrase\":{\"Title\":\"Reconstructing Proto-Nostratic\"}},{\"match_phrase\":{\"Title\":\"Etymological Dictionary of the Slavic Inherited Lexicon\"}},{\"match_phrase\":{\"Title\":\"Etymological Dictionary of Tocharian B\"}},{\"match_phrase\":{\"Title\":\"Materials for an Etymological Database of North Lechitic Dialects\"}},{\"match_phrase\":{\"Title\":\"Lithuanian Etymological Dictionary\"}}]}}},{\"$state\":{\"store\":\"appState\"},\"meta\":{\"alias\":null,\"disabled\":true,\"key\":\"Publisher\",\"negate\":false,\"params\":{\"query\":\"Bril\"},\"type\":\"phrase\",\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.filter[2].meta.index\"},\"query\":{\"match_phrase\":{\"Publisher\":\"Bril\"}}},{\"$state\":{\"store\":\"appState\"},\"meta\":{\"alias\":\"Collex-Persée_Brill_Religion Graeco Roman World\",\"disabled\":true,\"key\":\"query\",\"negate\":false,\"type\":\"custom\",\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.filter[3].meta.index\"},\"query\":{\"bool\":{\"minimum_should_match\":1,\"should\":[{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004296077\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004296688\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004296091\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004296695\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004296107\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004296701\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004296008\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004296121\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004296138\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004296718\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004296725\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004296732\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004301665\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004296145\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004301511\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004296152\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004296169\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004293724\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004296176\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004294738\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004294745\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004294752\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004294769\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004294776\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004294783\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004294790\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004296183\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004296190\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004294806\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004294813\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004294820\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004296213\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004296237\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004294844\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004294851\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004294868\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004294875\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004294882\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004296244\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004294899\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004296251\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004296268\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004294905\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004294912\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004294929\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004294950\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004296275\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004296282\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004296305\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004296312\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004296329\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004294967\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004294974\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004294981\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004294998\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004295001\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004295018\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004295032\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004295063\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004295070\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004301344\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004296336\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004295087\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004295094\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004295100\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004301351\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004295117\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004295124\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004295131\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004295148\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004295155\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004295162\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004295179\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004295186\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004293809\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004294721\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004295193\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004295209\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004295223\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004296114\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004296350\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004296374\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004295247\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004295261\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004295278\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004295285\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004295292\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004301672\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004295308\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004295315\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004295322\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004296404\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004295339\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004301689\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004295346\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004295353\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004295360\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004296411\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004296428\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004295377\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004295407\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004295414\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004295421\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004295438\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004295452\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004295469\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004295476\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004295483\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004295490\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004295506\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004295513\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004295520\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004295537\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004296435\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004296442\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004295544\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004295551\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004295568\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004295575\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004295599\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004295605\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004295612\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004295629\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004295636\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004295643\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004295650\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004295667\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004295674\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004296459\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004295681\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004296466\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004295698\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004295704\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004295711\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004295728\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004295735\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004296473\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004296480\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004296497\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004296503\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004296510\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004296527\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004296534\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004296541\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004301375\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004296558\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004296565\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004296640\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004295742\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004296657\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004295759\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004295766\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004297548\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004296664\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004295773\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004301412\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004296671\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004295780\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004295797\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004301429\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004276772\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004276789\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004283442\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004295803\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004295810\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004295827\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004301436\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004283831\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004295834\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004295841\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004283466\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004295858\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004283473\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004283459\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004295865\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004283817\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004295872\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004301443\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004295889\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004295896\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004301467\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004298064\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004295902\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004301481\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004295919\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004295926\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004301498\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004295933\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789047400400\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004295940\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004301504\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004295957\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004295964\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004301696\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789047412762\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789047416111\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004295971\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004295988\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789047412328\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789047405801\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/ej.9789004173170.i-516\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789047406747\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789047406907\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789047407966\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789047415855\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789047408277\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/ej.9789004152588.i-750\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/ej.9789004154209.i-562\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/ej.9789004144453.i-363\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/ej.9789004163706.i-342\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/ej.9789004163713.i-379\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/ej.9789004131415.I-381\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/ej.9789004167353.i-396\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/ej.9789004132931.i-486\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/ej.9789004170452.i-292\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/ej.9789004175037.i-222\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/ej.9789004179042.i-676\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/ej.9789004178137.i-286\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789047441656\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/ej.9789004188822.i-364\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/ej.9789004194533.i-182\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/ej.9789004204904.i-594\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004210912\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004216235\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004256309\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004256903\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004262089\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004263246\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004278271\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004270121\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004299047\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004319196\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004330238\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004369009\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004370845\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004381346\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004385030\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004390751\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004413900\"}},{\"match_phrase\":{\"Item_ID.DOI\":\"10.1163/9789004416390\"}}]}}},{\"$state\":{\"store\":\"appState\"},\"meta\":{\"alias\":null,\"disabled\":true,\"key\":\"Platform\",\"negate\":false,\"params\":{\"query\":\"Brill\"},\"type\":\"phrase\",\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.filter[4].meta.index\"},\"query\":{\"match_phrase\":{\"Platform\":\"Brill\"}}},{\"meta\":{\"type\":\"phrase\",\"key\":\"Metric_Type\",\"params\":{\"query\":\"Total_Item_Investigations\"},\"disabled\":true,\"negate\":false,\"alias\":null,\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.filter[5].meta.index\"},\"query\":{\"match_phrase\":{\"Metric_Type\":\"Total_Item_Investigations\"}},\"$state\":{\"store\":\"appState\"}},{\"meta\":{\"type\":\"phrase\",\"key\":\"Metric_Type\",\"params\":{\"query\":\"Total_Item_Requests\"},\"disabled\":true,\"negate\":false,\"alias\":null,\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.filter[6].meta.index\"},\"query\":{\"match_phrase\":{\"Metric_Type\":\"Total_Item_Requests\"}},\"$state\":{\"store\":\"appState\"}}]}"
+        }
+      },
+      "references": [
+        {
+          "name": "kibanaSavedObjectMeta.searchSourceJSON.filter[0].meta.index",
+          "type": "index-pattern",
+          "id": "88c6d1e0-902e-11ed-bde4-c52eac763bff"
+        },
+        {
+          "name": "kibanaSavedObjectMeta.searchSourceJSON.filter[1].meta.index",
+          "type": "index-pattern",
+          "id": "88c6d1e0-902e-11ed-bde4-c52eac763bff"
+        },
+        {
+          "name": "kibanaSavedObjectMeta.searchSourceJSON.filter[2].meta.index",
+          "type": "index-pattern",
+          "id": "88c6d1e0-902e-11ed-bde4-c52eac763bff"
+        },
+        {
+          "name": "kibanaSavedObjectMeta.searchSourceJSON.filter[3].meta.index",
+          "type": "index-pattern",
+          "id": "88c6d1e0-902e-11ed-bde4-c52eac763bff"
+        },
+        {
+          "name": "kibanaSavedObjectMeta.searchSourceJSON.filter[4].meta.index",
+          "type": "index-pattern",
+          "id": "88c6d1e0-902e-11ed-bde4-c52eac763bff"
+        },
+        {
+          "name": "kibanaSavedObjectMeta.searchSourceJSON.filter[5].meta.index",
+          "type": "index-pattern",
+          "id": "88c6d1e0-902e-11ed-bde4-c52eac763bff"
+        },
+        {
+          "name": "kibanaSavedObjectMeta.searchSourceJSON.filter[6].meta.index",
+          "type": "index-pattern",
+          "id": "88c6d1e0-902e-11ed-bde4-c52eac763bff"
+        },
+        {
+          "name": "f008f235-6bc5-43d5-98d9-9e0364035ab4:panel_f008f235-6bc5-43d5-98d9-9e0364035ab4",
+          "type": "visualization",
+          "id": "a009b980-6930-11ea-aee7-1390afa1201f"
+        },
+        {
+          "name": "e76cbb57-e7e4-40a7-b531-fcd5c2c43233:panel_e76cbb57-e7e4-40a7-b531-fcd5c2c43233",
+          "type": "visualization",
+          "id": "e8e9e890-cc7b-11ec-871c-618dc17b393f"
+        },
+        {
+          "name": "d9a69ead-e5d1-48d2-863f-28c28b8242ca:panel_d9a69ead-e5d1-48d2-863f-28c28b8242ca",
+          "type": "visualization",
+          "id": "0d9887b0-6fb0-11ec-86a7-b9a4e2d97448"
+        },
+        {
+          "name": "2618df8f-d280-4cf7-9ddf-0e3f3eec487f:panel_2618df8f-d280-4cf7-9ddf-0e3f3eec487f",
+          "type": "visualization",
+          "id": "e40e5da0-6923-11ea-aee7-1390afa1201f"
+        },
+        {
+          "name": "7d933306-d81c-4067-943c-eef83f9beb3e:panel_7d933306-d81c-4067-943c-eef83f9beb3e",
+          "type": "visualization",
+          "id": "080a58f0-fe99-11ec-871c-618dc17b393f"
+        },
+        {
+          "name": "0e6cb719-6486-4620-ac58-bc97a537b26e:panel_0e6cb719-6486-4620-ac58-bc97a537b26e",
+          "type": "visualization",
+          "id": "39dd8a70-6ab0-11ea-b91b-ed0c74470245"
+        },
+        {
+          "name": "63f6f6b9-b029-47d3-b589-16fc9069ee85:panel_63f6f6b9-b029-47d3-b589-16fc9069ee85",
+          "type": "visualization",
+          "id": "736d4370-6f9a-11ec-86a7-b9a4e2d97448"
+        },
+        {
+          "name": "ac7146ca-995b-4db1-8fb2-3aff7696e423:panel_ac7146ca-995b-4db1-8fb2-3aff7696e423",
+          "type": "visualization",
+          "id": "3c6b1460-6f9a-11ec-86a7-b9a4e2d97448"
+        },
+        {
+          "name": "68215572-6855-4ee7-9a6a-b8d9cadd344a:panel_68215572-6855-4ee7-9a6a-b8d9cadd344a",
+          "type": "visualization",
+          "id": "0b0a1ce0-6925-11ea-aee7-1390afa1201f"
+        },
+        {
+          "name": "72a798cf-4d2b-4498-a59b-3927e5cf530f:panel_72a798cf-4d2b-4498-a59b-3927e5cf530f",
+          "type": "visualization",
+          "id": "dfdfa9a0-c276-11ed-8ce4-61ee0b8a2f58"
+        },
+        {
+          "name": "eb3fb3c9-5859-4ebf-ae64-b9058d428fd5:panel_eb3fb3c9-5859-4ebf-ae64-b9058d428fd5",
+          "type": "visualization",
+          "id": "5fe522a0-6925-11ea-aee7-1390afa1201f"
+        },
+        {
+          "name": "b9bb56e2-3f2b-45ba-81ff-100223ca82f5:panel_b9bb56e2-3f2b-45ba-81ff-100223ca82f5",
+          "type": "visualization",
+          "id": "bf4e87d0-6eba-11ec-86a7-b9a4e2d97448"
+        },
+        {
+          "name": "b14987c6-8897-4ae1-9b6c-d6b2c23cb93c:panel_b14987c6-8897-4ae1-9b6c-d6b2c23cb93c",
+          "type": "visualization",
+          "id": "61d6dbf0-d500-11ec-871c-618dc17b393f"
+        },
+        {
+          "name": "8fedf0e7-f7e1-42a8-8225-32561663c8be:panel_8fedf0e7-f7e1-42a8-8225-32561663c8be",
+          "type": "visualization",
+          "id": "91c723f0-7f93-11ec-86a7-b9a4e2d97448"
+        },
+        {
+          "name": "4d491187-78a3-473c-8178-e070361ba4a6:panel_4d491187-78a3-473c-8178-e070361ba4a6",
+          "type": "visualization",
+          "id": "a61f2e70-6eda-11ec-86a7-b9a4e2d97448"
+        },
+        {
+          "name": "9f8ba5c9-0f1c-4e88-9e6a-3f358ae537c3:panel_9f8ba5c9-0f1c-4e88-9e6a-3f358ae537c3",
+          "type": "visualization",
+          "id": "61d6dbf0-d500-11ec-871c-618dc17b393f"
+        },
+        {
+          "name": "6c97ccba-249f-4927-b912-3d81a26e3db1:panel_6c97ccba-249f-4927-b912-3d81a26e3db1",
+          "type": "visualization",
+          "id": "1f360ed0-6ab6-11ea-b10b-85809d7a573e"
+        },
+        {
+          "name": "14242e24-8381-49b5-b069-355f99946950:panel_14242e24-8381-49b5-b069-355f99946950",
+          "type": "visualization",
+          "id": "4352b7d0-7f92-11ec-86a7-b9a4e2d97448"
+        },
+        {
+          "name": "3a71830b-5d61-489e-a18c-16a8a78fa2da:panel_3a71830b-5d61-489e-a18c-16a8a78fa2da",
+          "type": "visualization",
+          "id": "925a4220-8015-11ec-86a7-b9a4e2d97448"
+        },
+        {
+          "name": "60b4a033-65b0-4c52-981d-823713fb0d1d:panel_60b4a033-65b0-4c52-981d-823713fb0d1d",
+          "type": "visualization",
+          "id": "8292c6d0-d2ba-11ec-871c-618dc17b393f"
+        },
+        {
+          "name": "13ca39b6-0d76-4c32-9a91-cd1eb01fd410:panel_13ca39b6-0d76-4c32-9a91-cd1eb01fd410",
+          "type": "visualization",
+          "id": "7389ca60-4b24-11ee-8ce4-61ee0b8a2f58"
+        },
+        {
+          "name": "ebd6b055-27b7-4469-b8ca-fd39a5f8791e:panel_ebd6b055-27b7-4469-b8ca-fd39a5f8791e",
+          "type": "visualization",
+          "id": "7a07b6e0-6c30-11ee-96a6-b958f711fdf2"
+        },
+        {
+          "id": "035deca0-dd2c-11ed-8ce4-61ee0b8a2f58",
+          "type": "tag",
+          "name": "tag-035deca0-dd2c-11ed-8ce4-61ee0b8a2f58"
+        },
+        {
+          "id": "1595df20-deaf-11ed-8ce4-61ee0b8a2f58",
+          "type": "tag",
+          "name": "tag-1595df20-deaf-11ed-8ce4-61ee0b8a2f58"
+        },
+        {
+          "id": "d7ce4480-9a73-11ee-b461-95ba0aa9c81f",
+          "type": "tag",
+          "name": "tag-d7ce4480-9a73-11ee-b461-95ba0aa9c81f"
+        }
+      ],
+      "migrationVersion": {
+        "dashboard": "7.14.0"
+      },
+      "coreMigrationVersion": "7.14.1"
+    },
+    {
+      "id": "88c6d1e0-902e-11ed-bde4-c52eac763bff",
+      "type": "index-pattern",
+      "namespaces": [
+        "negociations-publisher"
+      ],
+      "updated_at": "2023-01-09T15:01:45.603Z",
+      "version": "WzE4ODI0NzQsMTVd",
+      "attributes": {
+        "fieldAttrs": "{}",
+        "title": "*-publisher",
+        "timeFieldName": "X_Date_Month",
+        "fields": "[]",
+        "typeMeta": "{}",
+        "runtimeFieldMap": "{}"
+      },
+      "references": [],
+      "migrationVersion": {
+        "index-pattern": "7.11.0"
+      },
+      "coreMigrationVersion": "7.14.1"
+    },
+    {
+      "id": "a009b980-6930-11ea-aee7-1390afa1201f",
+      "type": "visualization",
+      "namespaces": [
+        "negociations-publisher"
+      ],
+      "updated_at": "2023-05-22T09:24:32.985Z",
+      "version": "WzE4ODM4NTksMTVd",
+      "attributes": {
+        "description": "Accueil du tableau de bord. Présentation rapide et logos.",
+        "kibanaSavedObjectMeta": {
+          "searchSourceJSON": "{\"query\":{\"query\":\"\",\"language\":\"kuery\"},\"filter\":[]}"
+        },
+        "title": "publisher : en-tete-texte",
+        "uiStateJSON": "{}",
+        "version": 1,
+        "visState": "{\"title\":\"publisher : en-tete-texte\",\"type\":\"markdown\",\"aggs\":[],\"params\":{\"markdown\":\"### Rapport COUNTER 5  \\nCe rapport est destiné à montrer les données d'usage des ressources électroniques.\\nLes données proviennent des rapports COUNTER 5 fournis par les éditeurs scientifiques chargés dans ezMESURE publisher.\\n\\n[![ezMESURE](https://raw.githubusercontent.com/ezpaarse-project/ezpaarse-project.github.io/master/ezmesure/static/images/logo-ezMESURE-350.png)](https://ezmesure.couperin.org/)\\n[![COUNTER5](https://raw.githubusercontent.com/ezpaarse-project/ezpaarse-project.github.io/master/ezmesure/static/images/COUNTER%205%20LOGO%20200.png)](https://www.projectcounter.org/code-of-practice-five-sections/abstract/)\\n\\nPour consulter la documentation COUNTER 5, cliquer sur le logo ci-dessus.\\n\\n**&darr;** Des aides complémentaires sont disponibles tout en bas de la page pour guider la prise en main de ce tableau **&darr;**\\n\\n\",\"openLinksInNewTab\":false,\"fontSize\":12}}"
+      },
+      "references": [
+        {
+          "id": "fe8ed6a0-d767-11ec-871c-618dc17b393f",
+          "name": "tag-ref-fe8ed6a0-d767-11ec-871c-618dc17b393f",
+          "type": "tag"
+        },
+        {
+          "id": "37d769b0-d75c-11ec-871c-618dc17b393f",
+          "name": "tag-ref-37d769b0-d75c-11ec-871c-618dc17b393f",
+          "type": "tag"
+        },
+        {
+          "id": "c82e05c0-d769-11ec-871c-618dc17b393f",
+          "name": "tag-ref-c82e05c0-d769-11ec-871c-618dc17b393f",
+          "type": "tag"
+        },
+        {
+          "id": "43a82140-d76a-11ec-871c-618dc17b393f",
+          "name": "tag-ref-43a82140-d76a-11ec-871c-618dc17b393f",
+          "type": "tag"
+        },
+        {
+          "id": "24096260-fea0-11ec-871c-618dc17b393f",
+          "name": "tag-ref-24096260-fea0-11ec-871c-618dc17b393f",
+          "type": "tag"
+        }
+      ],
+      "migrationVersion": {
+        "visualization": "7.14.0"
+      },
+      "coreMigrationVersion": "7.14.1"
+    },
+    {
+      "id": "e8e9e890-cc7b-11ec-871c-618dc17b393f",
+      "type": "visualization",
+      "namespaces": [
+        "negociations-publisher"
+      ],
+      "updated_at": "2023-05-22T09:24:32.985Z",
+      "version": "WzE4ODM4NjAsMTVd",
+      "attributes": {
+        "description": "Comptage des éléments de rapports selon le type de rapport",
+        "kibanaSavedObjectMeta": {
+          "searchSourceJSON": "{\"query\":{\"language\":\"kuery\",\"query\":\"\"},\"filter\":[],\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.index\"}"
+        },
+        "title": "publisher : report_type-circulaire",
+        "uiStateJSON": "{\"vis\":{\"legendOpen\":false}}",
+        "version": 1,
+        "visState": "{\"title\":\"publisher : report_type-circulaire\",\"type\":\"pie\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"sum\",\"params\":{\"field\":\"Count\",\"customLabel\":\"Éléments de rapport\"},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"params\":{\"field\":\"Report_Header.Report_ID\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":10,\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":true,\"missingBucketLabel\":\"Non renseigné\"},\"schema\":\"segment\"}],\"params\":{\"addLegend\":false,\"addTooltip\":true,\"dimensions\":{\"buckets\":[{\"accessor\":0,\"aggType\":\"terms\",\"format\":{\"id\":\"terms\",\"params\":{\"id\":\"string\",\"missingBucketLabel\":\"Missing\",\"otherBucketLabel\":\"Other\"}},\"params\":{}}],\"metric\":{\"accessor\":1,\"aggType\":\"count\",\"format\":{\"id\":\"number\"},\"params\":{}}},\"isDonut\":true,\"labels\":{\"last_level\":true,\"show\":true,\"truncate\":100,\"values\":true,\"percentDecimals\":2,\"position\":\"inside\"},\"legendPosition\":\"top\",\"type\":\"pie\",\"palette\":{\"type\":\"palette\",\"name\":\"status\"},\"distinctColors\":true,\"nestedLegend\":false}}"
+      },
+      "references": [
+        {
+          "id": "88c6d1e0-902e-11ed-bde4-c52eac763bff",
+          "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
+          "type": "index-pattern"
+        },
+        {
+          "id": "fe8ed6a0-d767-11ec-871c-618dc17b393f",
+          "name": "tag-ref-fe8ed6a0-d767-11ec-871c-618dc17b393f",
+          "type": "tag"
+        },
+        {
+          "id": "37d769b0-d75c-11ec-871c-618dc17b393f",
+          "name": "tag-ref-37d769b0-d75c-11ec-871c-618dc17b393f",
+          "type": "tag"
+        },
+        {
+          "id": "c82e05c0-d769-11ec-871c-618dc17b393f",
+          "name": "tag-ref-c82e05c0-d769-11ec-871c-618dc17b393f",
+          "type": "tag"
+        },
+        {
+          "id": "43a82140-d76a-11ec-871c-618dc17b393f",
+          "name": "tag-ref-43a82140-d76a-11ec-871c-618dc17b393f",
+          "type": "tag"
+        },
+        {
+          "id": "24096260-fea0-11ec-871c-618dc17b393f",
+          "name": "tag-ref-24096260-fea0-11ec-871c-618dc17b393f",
+          "type": "tag"
+        }
+      ],
+      "migrationVersion": {
+        "visualization": "7.14.0"
+      },
+      "coreMigrationVersion": "7.14.1"
+    },
+    {
+      "id": "0d9887b0-6fb0-11ec-86a7-b9a4e2d97448",
+      "type": "visualization",
+      "namespaces": [
+        "negociations-publisher"
+      ],
+      "updated_at": "2023-06-29T08:52:06.711Z",
+      "version": "WzE4ODQyMzEsMTVd",
+      "attributes": {
+        "description": "Affichage du type de métrique COUNTER : la taille du texte est proportionnelle au nombre d'éléments de rapport indexé pour chaque type",
+        "kibanaSavedObjectMeta": {
+          "searchSourceJSON": "{\"query\":{\"query\":\"\",\"language\":\"kuery\"},\"filter\":[],\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.index\"}"
+        },
+        "title": "publisher : metric_type-nuage",
+        "uiStateJSON": "{}",
+        "version": 1,
+        "visState": "{\"title\":\"publisher : metric_type-nuage\",\"type\":\"tagcloud\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"sum\",\"params\":{\"field\":\"Count\",\"customLabel\":\"Éléments de rapport\"},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"params\":{\"field\":\"Metric_Type\",\"orderBy\":\"_key\",\"order\":\"asc\",\"size\":25,\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":true,\"missingBucketLabel\":\"(Non renseigné)\",\"customLabel\":\"Metric_Type\"},\"schema\":\"segment\"}],\"params\":{\"scale\":\"linear\",\"orientation\":\"single\",\"minFontSize\":18,\"maxFontSize\":40,\"showLabel\":false,\"palette\":{\"type\":\"palette\",\"name\":\"default\"}}}"
+      },
+      "references": [
+        {
+          "id": "88c6d1e0-902e-11ed-bde4-c52eac763bff",
+          "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
+          "type": "index-pattern"
+        },
+        {
+          "id": "fe8ed6a0-d767-11ec-871c-618dc17b393f",
+          "name": "tag-ref-fe8ed6a0-d767-11ec-871c-618dc17b393f",
+          "type": "tag"
+        },
+        {
+          "id": "37d769b0-d75c-11ec-871c-618dc17b393f",
+          "name": "tag-ref-37d769b0-d75c-11ec-871c-618dc17b393f",
+          "type": "tag"
+        },
+        {
+          "id": "c82e05c0-d769-11ec-871c-618dc17b393f",
+          "name": "tag-ref-c82e05c0-d769-11ec-871c-618dc17b393f",
+          "type": "tag"
+        },
+        {
+          "id": "43a82140-d76a-11ec-871c-618dc17b393f",
+          "name": "tag-ref-43a82140-d76a-11ec-871c-618dc17b393f",
+          "type": "tag"
+        },
+        {
+          "id": "24096260-fea0-11ec-871c-618dc17b393f",
+          "name": "tag-ref-24096260-fea0-11ec-871c-618dc17b393f",
+          "type": "tag"
+        }
+      ],
+      "migrationVersion": {
+        "visualization": "7.14.0"
+      },
+      "coreMigrationVersion": "7.14.1"
+    },
+    {
+      "id": "e40e5da0-6923-11ea-aee7-1390afa1201f",
+      "type": "visualization",
+      "namespaces": [
+        "negociations-publisher"
+      ],
+      "updated_at": "2023-11-03T14:45:48.106Z",
+      "version": "WzE4OTE2MjMsMTVd",
+      "attributes": {
+        "title": "publisher : indicateurs-généraux-titles",
+        "visState": "{\"title\":\"publisher : indicateurs-généraux-titles\",\"type\":\"metric\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"sum\",\"params\":{\"field\":\"Count\",\"customLabel\":\"éléments de rapport\"},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"cardinality\",\"params\":{\"field\":\"Platform\",\"customLabel\":\"plateformes\"},\"schema\":\"metric\"},{\"id\":\"9\",\"enabled\":true,\"type\":\"cardinality\",\"params\":{\"field\":\"Item_ID.Print_ISSN\",\"customLabel\":\"revues (p-ISSN)\"},\"schema\":\"metric\"},{\"id\":\"4\",\"enabled\":true,\"type\":\"cardinality\",\"params\":{\"field\":\"Item_ID.Online_ISSN\",\"customLabel\":\"revues (e-ISSN)\"},\"schema\":\"metric\"},{\"id\":\"5\",\"enabled\":true,\"type\":\"cardinality\",\"params\":{\"field\":\"Item_ID.ISBN\",\"customLabel\":\"monographies (ISBN)\"},\"schema\":\"metric\"},{\"id\":\"6\",\"enabled\":true,\"type\":\"min\",\"params\":{\"field\":\"X_Date_Month\",\"customLabel\":\"période de\"},\"schema\":\"metric\"},{\"id\":\"7\",\"enabled\":true,\"type\":\"max\",\"params\":{\"field\":\"X_Date_Month\",\"customLabel\":\"à\"},\"schema\":\"metric\"},{\"id\":\"8\",\"enabled\":true,\"type\":\"cardinality\",\"params\":{\"field\":\"_index\",\"customLabel\":\"index établissement\"},\"schema\":\"metric\"}],\"params\":{\"metric\":{\"percentageMode\":false,\"useRanges\":false,\"colorSchema\":\"Green to Red\",\"metricColorMode\":\"None\",\"colorsRange\":[{\"type\":\"range\",\"from\":0,\"to\":10000}],\"labels\":{\"show\":true},\"invertColors\":false,\"style\":{\"bgFill\":\"#000\",\"bgColor\":false,\"labelColor\":false,\"subText\":\"\",\"fontSize\":25}},\"dimensions\":{\"metrics\":[{\"type\":\"vis_dimension\",\"accessor\":0,\"format\":{\"id\":\"number\",\"params\":{}}},{\"type\":\"vis_dimension\",\"accessor\":1,\"format\":{\"id\":\"number\",\"params\":{}}},{\"type\":\"vis_dimension\",\"accessor\":2,\"format\":{\"id\":\"number\",\"params\":{}}},{\"type\":\"vis_dimension\",\"accessor\":3,\"format\":{\"id\":\"number\",\"params\":{}}},{\"type\":\"vis_dimension\",\"accessor\":4,\"format\":{\"id\":\"number\",\"params\":{}}},{\"type\":\"vis_dimension\",\"accessor\":5,\"format\":{\"id\":\"date\",\"params\":{}}},{\"type\":\"vis_dimension\",\"accessor\":6,\"format\":{\"id\":\"date\",\"params\":{}}}]},\"addTooltip\":true,\"addLegend\":false,\"type\":\"metric\"}}",
+        "uiStateJSON": "{}",
+        "description": "Indicateurs généraux pertinents pour les rapports concernant les titres (TR)",
+        "version": 1,
+        "kibanaSavedObjectMeta": {
+          "searchSourceJSON": "{\"query\":{\"query\":\"\",\"language\":\"kuery\"},\"filter\":[],\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.index\"}"
+        }
+      },
+      "references": [
+        {
+          "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
+          "type": "index-pattern",
+          "id": "88c6d1e0-902e-11ed-bde4-c52eac763bff"
+        },
+        {
+          "id": "fe8ed6a0-d767-11ec-871c-618dc17b393f",
+          "type": "tag",
+          "name": "tag-fe8ed6a0-d767-11ec-871c-618dc17b393f"
+        },
+        {
+          "id": "43a82140-d76a-11ec-871c-618dc17b393f",
+          "type": "tag",
+          "name": "tag-43a82140-d76a-11ec-871c-618dc17b393f"
+        },
+        {
+          "id": "24096260-fea0-11ec-871c-618dc17b393f",
+          "type": "tag",
+          "name": "tag-24096260-fea0-11ec-871c-618dc17b393f"
+        }
+      ],
+      "migrationVersion": {
+        "visualization": "7.14.0"
+      },
+      "coreMigrationVersion": "7.14.1"
+    },
+    {
+      "id": "080a58f0-fe99-11ec-871c-618dc17b393f",
+      "type": "visualization",
+      "namespaces": [
+        "negociations-publisher"
+      ],
+      "updated_at": "2023-05-22T09:24:32.985Z",
+      "version": "WzE4ODM4NjEsMTVd",
+      "attributes": {
+        "description": "Comptage des éléments de rapports par type d'accès (Regular ou TDM)",
+        "kibanaSavedObjectMeta": {
+          "searchSourceJSON": "{\"query\":{\"language\":\"kuery\",\"query\":\"\"},\"filter\":[],\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.index\"}"
+        },
+        "title": "publisher : access_method-circulaire",
+        "uiStateJSON": "{\"vis\":{\"legendOpen\":true}}",
+        "version": 1,
+        "visState": "{\"title\":\"publisher : access_method-circulaire\",\"type\":\"pie\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"sum\",\"params\":{\"field\":\"Count\",\"customLabel\":\"Éléments de rapport\"},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"params\":{\"field\":\"Access_Method\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":20,\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":true,\"missingBucketLabel\":\"Non renseigné\"},\"schema\":\"segment\"}],\"params\":{\"addLegend\":true,\"addTooltip\":true,\"dimensions\":{\"buckets\":[{\"accessor\":0,\"aggType\":\"terms\",\"format\":{\"id\":\"terms\",\"params\":{\"id\":\"string\",\"missingBucketLabel\":\"Missing\",\"otherBucketLabel\":\"Other\"}},\"params\":{}}],\"metric\":{\"accessor\":1,\"aggType\":\"count\",\"format\":{\"id\":\"number\"},\"params\":{}}},\"isDonut\":true,\"labels\":{\"last_level\":true,\"show\":true,\"truncate\":100,\"values\":true,\"percentDecimals\":2,\"position\":\"inside\"},\"legendPosition\":\"top\",\"type\":\"pie\",\"palette\":{\"type\":\"palette\",\"name\":\"complimentary\"},\"distinctColors\":true,\"nestedLegend\":false}}"
+      },
+      "references": [
+        {
+          "id": "88c6d1e0-902e-11ed-bde4-c52eac763bff",
+          "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
+          "type": "index-pattern"
+        },
+        {
+          "id": "37d769b0-d75c-11ec-871c-618dc17b393f",
+          "name": "tag-37d769b0-d75c-11ec-871c-618dc17b393f",
+          "type": "tag"
+        },
+        {
+          "id": "fe8ed6a0-d767-11ec-871c-618dc17b393f",
+          "name": "tag-fe8ed6a0-d767-11ec-871c-618dc17b393f",
+          "type": "tag"
+        },
+        {
+          "id": "24096260-fea0-11ec-871c-618dc17b393f",
+          "name": "tag-24096260-fea0-11ec-871c-618dc17b393f",
+          "type": "tag"
+        }
+      ],
+      "migrationVersion": {
+        "visualization": "7.14.0"
+      },
+      "coreMigrationVersion": "7.14.1"
+    },
+    {
+      "id": "39dd8a70-6ab0-11ea-b91b-ed0c74470245",
+      "type": "visualization",
+      "namespaces": [
+        "negociations-publisher"
+      ],
+      "updated_at": "2023-04-04T08:26:24.797Z",
+      "version": "WzE4ODMyMjYsMTVd",
+      "attributes": {
+        "description": "Comptage des éléments de rapports par type d'accès (Controlled/OA_Gold)",
+        "uiStateJSON": "{\"vis\":{\"legendOpen\":true}}",
+        "title": "publisher : access_type-circulaire",
+        "version": 1,
+        "kibanaSavedObjectMeta": {
+          "searchSourceJSON": "{\"query\":{\"language\":\"kuery\",\"query\":\"\"},\"filter\":[],\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.index\"}"
+        },
+        "visState": "{\"title\":\"publisher : access_type-circulaire\",\"type\":\"pie\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"sum\",\"params\":{\"field\":\"Count\",\"customLabel\":\"Éléments de rapport\"},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"params\":{\"field\":\"Access_Type\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":5,\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":true,\"missingBucketLabel\":\"Non renseigné\"},\"schema\":\"segment\"}],\"params\":{\"addLegend\":true,\"addTooltip\":true,\"dimensions\":{\"buckets\":[{\"accessor\":0,\"aggType\":\"terms\",\"format\":{\"id\":\"terms\",\"params\":{\"id\":\"string\",\"missingBucketLabel\":\"Missing\",\"otherBucketLabel\":\"Other\"}},\"params\":{}}],\"metric\":{\"accessor\":1,\"aggType\":\"count\",\"format\":{\"id\":\"number\"},\"params\":{}}},\"isDonut\":true,\"labels\":{\"last_level\":true,\"show\":true,\"truncate\":100,\"values\":true,\"percentDecimals\":2,\"position\":\"inside\"},\"legendPosition\":\"top\",\"type\":\"pie\",\"palette\":{\"type\":\"palette\",\"name\":\"complimentary\"},\"distinctColors\":true,\"nestedLegend\":false}}"
+      },
+      "references": [
+        {
+          "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
+          "id": "88c6d1e0-902e-11ed-bde4-c52eac763bff",
+          "type": "index-pattern"
+        },
+        {
+          "name": "tag-ref-fe8ed6a0-d767-11ec-871c-618dc17b393f",
+          "id": "fe8ed6a0-d767-11ec-871c-618dc17b393f",
+          "type": "tag"
+        },
+        {
+          "name": "tag-ref-43a82140-d76a-11ec-871c-618dc17b393f",
+          "id": "43a82140-d76a-11ec-871c-618dc17b393f",
+          "type": "tag"
+        },
+        {
+          "name": "tag-ref-24096260-fea0-11ec-871c-618dc17b393f",
+          "id": "24096260-fea0-11ec-871c-618dc17b393f",
+          "type": "tag"
+        }
+      ],
+      "migrationVersion": {
+        "visualization": "7.14.0"
+      },
+      "coreMigrationVersion": "7.14.1"
+    },
+    {
+      "id": "736d4370-6f9a-11ec-86a7-b9a4e2d97448",
+      "type": "visualization",
+      "namespaces": [
+        "negociations-publisher"
+      ],
+      "updated_at": "2023-05-22T09:24:32.985Z",
+      "version": "WzE4ODM4NjMsMTVd",
+      "attributes": {
+        "description": "Comptage des éléments de rapports par type de ressource \"enfant\" (Article / Book / Chapter). Pour le type \"parent\", voir \"data_type\".",
+        "kibanaSavedObjectMeta": {
+          "searchSourceJSON": "{\"query\":{\"language\":\"kuery\",\"query\":\"\"},\"filter\":[],\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.index\"}"
+        },
+        "title": "publisher : section_type-circulaire",
+        "uiStateJSON": "{}",
+        "version": 1,
+        "visState": "{\"title\":\"publisher : section_type-circulaire\",\"type\":\"pie\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"sum\",\"params\":{\"field\":\"Count\",\"customLabel\":\"Éléments de rapport\"},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"params\":{\"field\":\"Section_Type\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":20,\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":true,\"missingBucketLabel\":\"Non renseigné\"},\"schema\":\"segment\"}],\"params\":{\"addLegend\":true,\"addTooltip\":true,\"dimensions\":{\"buckets\":[{\"accessor\":0,\"aggType\":\"terms\",\"format\":{\"id\":\"terms\",\"params\":{\"id\":\"string\",\"missingBucketLabel\":\"Missing\",\"otherBucketLabel\":\"Other\"}},\"params\":{}}],\"metric\":{\"accessor\":1,\"aggType\":\"count\",\"format\":{\"id\":\"number\"},\"params\":{}}},\"isDonut\":true,\"labels\":{\"last_level\":true,\"show\":true,\"truncate\":100,\"values\":true,\"percentDecimals\":2,\"position\":\"inside\"},\"legendPosition\":\"top\",\"type\":\"pie\",\"palette\":{\"type\":\"palette\",\"name\":\"complimentary\"},\"distinctColors\":true,\"nestedLegend\":false}}"
+      },
+      "references": [
+        {
+          "id": "88c6d1e0-902e-11ed-bde4-c52eac763bff",
+          "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
+          "type": "index-pattern"
+        },
+        {
+          "id": "fe8ed6a0-d767-11ec-871c-618dc17b393f",
+          "name": "tag-ref-fe8ed6a0-d767-11ec-871c-618dc17b393f",
+          "type": "tag"
+        },
+        {
+          "id": "43a82140-d76a-11ec-871c-618dc17b393f",
+          "name": "tag-ref-43a82140-d76a-11ec-871c-618dc17b393f",
+          "type": "tag"
+        },
+        {
+          "id": "24096260-fea0-11ec-871c-618dc17b393f",
+          "name": "tag-ref-24096260-fea0-11ec-871c-618dc17b393f",
+          "type": "tag"
+        }
+      ],
+      "migrationVersion": {
+        "visualization": "7.14.0"
+      },
+      "coreMigrationVersion": "7.14.1"
+    },
+    {
+      "id": "3c6b1460-6f9a-11ec-86a7-b9a4e2d97448",
+      "type": "visualization",
+      "namespaces": [
+        "negociations-publisher"
+      ],
+      "updated_at": "2023-05-22T09:24:32.985Z",
+      "version": "WzE4ODM4NjIsMTVd",
+      "attributes": {
+        "description": "Comptage des éléments de rapports par type de contenu \"parent\". Pour le type \"enfant\", voir \"section_type\"",
+        "kibanaSavedObjectMeta": {
+          "searchSourceJSON": "{\"query\":{\"language\":\"kuery\",\"query\":\"\"},\"filter\":[],\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.index\"}"
+        },
+        "title": "publisher : data_type-circulaire",
+        "uiStateJSON": "{\"vis\":{\"legendOpen\":true}}",
+        "version": 1,
+        "visState": "{\"title\":\"publisher : data_type-circulaire\",\"type\":\"pie\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"sum\",\"params\":{\"field\":\"Count\",\"customLabel\":\"Éléments de rapport\"},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"params\":{\"field\":\"Data_Type\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":20,\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":true,\"missingBucketLabel\":\"Non renseigné\"},\"schema\":\"segment\"}],\"params\":{\"addLegend\":true,\"addTooltip\":true,\"dimensions\":{\"buckets\":[{\"accessor\":0,\"aggType\":\"terms\",\"format\":{\"id\":\"terms\",\"params\":{\"id\":\"string\",\"missingBucketLabel\":\"Missing\",\"otherBucketLabel\":\"Other\"}},\"params\":{}}],\"metric\":{\"accessor\":1,\"aggType\":\"count\",\"format\":{\"id\":\"number\"},\"params\":{}}},\"isDonut\":true,\"labels\":{\"last_level\":true,\"show\":true,\"truncate\":100,\"values\":true,\"percentDecimals\":2,\"position\":\"inside\"},\"legendPosition\":\"top\",\"type\":\"pie\",\"palette\":{\"type\":\"palette\",\"name\":\"complimentary\"},\"distinctColors\":true,\"nestedLegend\":false}}"
+      },
+      "references": [
+        {
+          "id": "88c6d1e0-902e-11ed-bde4-c52eac763bff",
+          "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
+          "type": "index-pattern"
+        },
+        {
+          "id": "fe8ed6a0-d767-11ec-871c-618dc17b393f",
+          "name": "tag-ref-fe8ed6a0-d767-11ec-871c-618dc17b393f",
+          "type": "tag"
+        },
+        {
+          "id": "37d769b0-d75c-11ec-871c-618dc17b393f",
+          "name": "tag-ref-37d769b0-d75c-11ec-871c-618dc17b393f",
+          "type": "tag"
+        },
+        {
+          "id": "c82e05c0-d769-11ec-871c-618dc17b393f",
+          "name": "tag-ref-c82e05c0-d769-11ec-871c-618dc17b393f",
+          "type": "tag"
+        },
+        {
+          "id": "43a82140-d76a-11ec-871c-618dc17b393f",
+          "name": "tag-ref-43a82140-d76a-11ec-871c-618dc17b393f",
+          "type": "tag"
+        },
+        {
+          "id": "24096260-fea0-11ec-871c-618dc17b393f",
+          "name": "tag-ref-24096260-fea0-11ec-871c-618dc17b393f",
+          "type": "tag"
+        }
+      ],
+      "migrationVersion": {
+        "visualization": "7.14.0"
+      },
+      "coreMigrationVersion": "7.14.1"
+    },
+    {
+      "id": "0b0a1ce0-6925-11ea-aee7-1390afa1201f",
+      "type": "visualization",
+      "namespaces": [
+        "negociations-publisher"
+      ],
+      "updated_at": "2023-05-23T06:50:55.232Z",
+      "version": "WzE4ODM4ODQsMTVd",
+      "attributes": {
+        "title": "publisher : chronologie-mois-histo",
+        "visState": "{\"title\":\"publisher : chronologie-mois-histo\",\"type\":\"histogram\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"sum\",\"params\":{\"field\":\"Count\",\"customLabel\":\"Éléments de rapport\"},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"date_histogram\",\"params\":{\"field\":\"X_Date_Month\",\"timeRange\":{\"from\":\"2021-12-30T23:21:30.981Z\",\"to\":\"2022-12-31T22:30:00.000Z\"},\"useNormalizedEsInterval\":true,\"scaleMetricValues\":true,\"interval\":\"M\",\"used_interval\":\"1M\",\"drop_partials\":false,\"min_doc_count\":1,\"extended_bounds\":{},\"customLabel\":\"Chronologie (mois)\"},\"schema\":\"segment\"},{\"id\":\"3\",\"enabled\":true,\"type\":\"terms\",\"params\":{\"field\":\"_index\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":25,\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\"},\"schema\":\"group\"},{\"id\":\"4\",\"enabled\":false,\"type\":\"terms\",\"params\":{\"field\":\"Access_Type\",\"orderBy\":\"1\",\"order\":\"asc\",\"size\":5,\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":true,\"missingBucketLabel\":\"Non communiqué\"},\"schema\":\"group\"}],\"params\":{\"type\":\"histogram\",\"grid\":{\"categoryLines\":false},\"categoryAxes\":[{\"id\":\"CategoryAxis-1\",\"type\":\"category\",\"position\":\"bottom\",\"show\":true,\"style\":{},\"scale\":{\"type\":\"linear\"},\"labels\":{\"show\":true,\"filter\":true,\"truncate\":100},\"title\":{}}],\"valueAxes\":[{\"id\":\"ValueAxis-1\",\"name\":\"LeftAxis-1\",\"type\":\"value\",\"position\":\"left\",\"show\":true,\"style\":{},\"scale\":{\"type\":\"linear\",\"mode\":\"normal\"},\"labels\":{\"show\":true,\"rotate\":0,\"filter\":false,\"truncate\":100},\"title\":{\"text\":\"Éléments de rapport\"}}],\"seriesParams\":[{\"show\":\"true\",\"type\":\"histogram\",\"mode\":\"stacked\",\"data\":{\"label\":\"Éléments de rapport\",\"id\":\"1\"},\"valueAxis\":\"ValueAxis-1\",\"drawLinesBetweenPoints\":true,\"showCircles\":true}],\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"times\":[],\"addTimeMarker\":false,\"labels\":{\"show\":true},\"thresholdLine\":{\"show\":false,\"value\":10,\"width\":1,\"style\":\"full\",\"color\":\"#34130C\"},\"dimensions\":{\"x\":{\"accessor\":0,\"format\":{\"id\":\"date\",\"params\":{\"pattern\":\"YYYY-MM-DD\"}},\"params\":{\"date\":true,\"interval\":\"P1M\",\"format\":\"YYYY-MM-DD\",\"bounds\":{\"min\":\"2018-12-27T16:37:47.443Z\",\"max\":\"2020-01-04T05:24:04.193Z\"}},\"aggType\":\"date_histogram\"},\"y\":[{\"accessor\":2,\"format\":{\"id\":\"number\"},\"params\":{},\"aggType\":\"sum\"}],\"series\":[{\"accessor\":1,\"format\":{\"id\":\"terms\",\"params\":{\"id\":\"string\",\"otherBucketLabel\":\"Other\",\"missingBucketLabel\":\"Missing\"}},\"params\":{},\"aggType\":\"terms\"}]},\"palette\":{\"type\":\"palette\",\"name\":\"default\"},\"isVislibVis\":true,\"detailedTooltip\":true,\"radiusRatio\":0}}",
+        "uiStateJSON": "{}",
+        "description": "Comptage des éléments de rapports par mois et par profil (en option).",
+        "version": 1,
+        "kibanaSavedObjectMeta": {
+          "searchSourceJSON": "{\"query\":{\"query\":\"\",\"language\":\"kuery\"},\"filter\":[],\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.index\"}"
+        }
+      },
+      "references": [
+        {
+          "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
+          "type": "index-pattern",
+          "id": "88c6d1e0-902e-11ed-bde4-c52eac763bff"
+        },
+        {
+          "id": "fe8ed6a0-d767-11ec-871c-618dc17b393f",
+          "type": "tag",
+          "name": "tag-fe8ed6a0-d767-11ec-871c-618dc17b393f"
+        },
+        {
+          "id": "37d769b0-d75c-11ec-871c-618dc17b393f",
+          "type": "tag",
+          "name": "tag-37d769b0-d75c-11ec-871c-618dc17b393f"
+        },
+        {
+          "id": "c82e05c0-d769-11ec-871c-618dc17b393f",
+          "type": "tag",
+          "name": "tag-c82e05c0-d769-11ec-871c-618dc17b393f"
+        },
+        {
+          "id": "43a82140-d76a-11ec-871c-618dc17b393f",
+          "type": "tag",
+          "name": "tag-43a82140-d76a-11ec-871c-618dc17b393f"
+        },
+        {
+          "id": "24096260-fea0-11ec-871c-618dc17b393f",
+          "type": "tag",
+          "name": "tag-24096260-fea0-11ec-871c-618dc17b393f"
+        }
+      ],
+      "migrationVersion": {
+        "visualization": "7.14.0"
+      },
+      "coreMigrationVersion": "7.14.1"
+    },
+    {
+      "id": "dfdfa9a0-c276-11ed-8ce4-61ee0b8a2f58",
+      "type": "visualization",
+      "namespaces": [
+        "negociations-publisher"
+      ],
+      "updated_at": "2023-04-07T12:13:42.271Z",
+      "version": "WzE4ODMyNDYsMTVd",
+      "attributes": {
+        "title": "publisher : index table",
+        "visState": "{\"title\":\"publisher : index table\",\"type\":\"table\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"sum\",\"params\":{\"field\":\"Count\",\"customLabel\":\"éléments de rapport\"},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"params\":{\"field\":\"_index\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":100,\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\",\"customLabel\":\"Index établissement\"},\"schema\":\"bucket\"}],\"params\":{\"perPage\":10,\"showPartialRows\":false,\"showMetricsAtAllLevels\":false,\"sort\":{\"columnIndex\":null,\"direction\":null},\"showTotal\":false,\"totalFunc\":\"sum\",\"percentageCol\":\"\",\"dimensions\":{\"metrics\":[{\"accessor\":1,\"format\":{\"id\":\"number\"},\"params\":{},\"aggType\":\"sum\"}],\"buckets\":[{\"accessor\":0,\"format\":{\"id\":\"terms\",\"params\":{\"id\":\"string\",\"otherBucketLabel\":\"Other\",\"missingBucketLabel\":\"Missing\"}},\"params\":{},\"aggType\":\"terms\"}]},\"showToolbar\":true}}",
+        "uiStateJSON": "{}",
+        "description": "Comptage des éléments de rapports par index établissement",
+        "version": 1,
+        "kibanaSavedObjectMeta": {
+          "searchSourceJSON": "{\"query\":{\"query\":\"\",\"language\":\"kuery\"},\"filter\":[],\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.index\"}"
+        }
+      },
+      "references": [
+        {
+          "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
+          "type": "index-pattern",
+          "id": "88c6d1e0-902e-11ed-bde4-c52eac763bff"
+        },
+        {
+          "id": "fe8ed6a0-d767-11ec-871c-618dc17b393f",
+          "type": "tag",
+          "name": "tag-fe8ed6a0-d767-11ec-871c-618dc17b393f"
+        },
+        {
+          "id": "37d769b0-d75c-11ec-871c-618dc17b393f",
+          "type": "tag",
+          "name": "tag-37d769b0-d75c-11ec-871c-618dc17b393f"
+        },
+        {
+          "id": "c82e05c0-d769-11ec-871c-618dc17b393f",
+          "type": "tag",
+          "name": "tag-c82e05c0-d769-11ec-871c-618dc17b393f"
+        },
+        {
+          "id": "43a82140-d76a-11ec-871c-618dc17b393f",
+          "type": "tag",
+          "name": "tag-43a82140-d76a-11ec-871c-618dc17b393f"
+        },
+        {
+          "id": "24096260-fea0-11ec-871c-618dc17b393f",
+          "type": "tag",
+          "name": "tag-24096260-fea0-11ec-871c-618dc17b393f"
+        }
+      ],
+      "migrationVersion": {
+        "visualization": "7.14.0"
+      },
+      "coreMigrationVersion": "7.14.1"
+    },
+    {
+      "id": "5fe522a0-6925-11ea-aee7-1390afa1201f",
+      "type": "visualization",
+      "namespaces": [
+        "negociations-publisher"
+      ],
+      "updated_at": "2023-06-29T08:52:06.711Z",
+      "version": "WzE4ODQyMjksMTVd",
+      "attributes": {
+        "description": "Comptage des éléments de rapports par plateforme.",
+        "kibanaSavedObjectMeta": {
+          "searchSourceJSON": "{\"query\":{\"query\":\"\",\"language\":\"kuery\"},\"filter\":[],\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.index\"}"
+        },
+        "title": "publisher : plateformes-table",
+        "uiStateJSON": "{}",
+        "version": 1,
+        "visState": "{\"title\":\"publisher : plateformes-table\",\"type\":\"table\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"sum\",\"params\":{\"field\":\"Count\",\"customLabel\":\"éléments de rapport\"},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"params\":{\"field\":\"Platform\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":49,\"otherBucket\":true,\"otherBucketLabel\":\"autres plateformes\",\"missingBucket\":true,\"missingBucketLabel\":\"-\",\"customLabel\":\"Plateforme\"},\"schema\":\"bucket\"}],\"params\":{\"perPage\":10,\"showPartialRows\":false,\"showMetricsAtAllLevels\":false,\"sort\":{\"columnIndex\":null,\"direction\":null},\"showTotal\":false,\"totalFunc\":\"sum\",\"percentageCol\":\"\",\"dimensions\":{\"metrics\":[{\"accessor\":1,\"format\":{\"id\":\"number\"},\"params\":{},\"aggType\":\"sum\"}],\"buckets\":[{\"accessor\":0,\"format\":{\"id\":\"terms\",\"params\":{\"id\":\"string\",\"otherBucketLabel\":\"Other\",\"missingBucketLabel\":\"Missing\"}},\"params\":{},\"aggType\":\"terms\"}]},\"showToolbar\":true}}"
+      },
+      "references": [
+        {
+          "id": "88c6d1e0-902e-11ed-bde4-c52eac763bff",
+          "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
+          "type": "index-pattern"
+        },
+        {
+          "id": "fe8ed6a0-d767-11ec-871c-618dc17b393f",
+          "name": "tag-ref-fe8ed6a0-d767-11ec-871c-618dc17b393f",
+          "type": "tag"
+        },
+        {
+          "id": "37d769b0-d75c-11ec-871c-618dc17b393f",
+          "name": "tag-ref-37d769b0-d75c-11ec-871c-618dc17b393f",
+          "type": "tag"
+        },
+        {
+          "id": "c82e05c0-d769-11ec-871c-618dc17b393f",
+          "name": "tag-ref-c82e05c0-d769-11ec-871c-618dc17b393f",
+          "type": "tag"
+        },
+        {
+          "id": "43a82140-d76a-11ec-871c-618dc17b393f",
+          "name": "tag-ref-43a82140-d76a-11ec-871c-618dc17b393f",
+          "type": "tag"
+        },
+        {
+          "id": "24096260-fea0-11ec-871c-618dc17b393f",
+          "name": "tag-ref-24096260-fea0-11ec-871c-618dc17b393f",
+          "type": "tag"
+        }
+      ],
+      "migrationVersion": {
+        "visualization": "7.14.0"
+      },
+      "coreMigrationVersion": "7.14.1"
+    },
+    {
+      "id": "bf4e87d0-6eba-11ec-86a7-b9a4e2d97448",
+      "type": "visualization",
+      "namespaces": [
+        "negociations-publisher"
+      ],
+      "updated_at": "2023-06-29T08:52:06.711Z",
+      "version": "WzE4ODQyMzAsMTVd",
+      "attributes": {
+        "description": "Comptage des éléments de rapports par éditeur (top 150)",
+        "kibanaSavedObjectMeta": {
+          "searchSourceJSON": "{\"query\":{\"language\":\"kuery\",\"query\":\"\"},\"filter\":[],\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.index\"}"
+        },
+        "title": "publisher : editeurs-table-top-150",
+        "uiStateJSON": "{}",
+        "version": 1,
+        "visState": "{\"title\":\"publisher : editeurs-table-top-150\",\"type\":\"table\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"sum\",\"params\":{\"field\":\"Count\",\"customLabel\":\"éléments de rapport\"},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"params\":{\"field\":\"Publisher\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":149,\"otherBucket\":true,\"otherBucketLabel\":\"autres éditeurs\",\"missingBucket\":true,\"missingBucketLabel\":\"-\",\"customLabel\":\"Éditeur\"},\"schema\":\"bucket\"}],\"params\":{\"perPage\":10,\"showPartialRows\":false,\"showMetricsAtAllLevels\":false,\"sort\":{\"columnIndex\":null,\"direction\":null},\"showTotal\":false,\"totalFunc\":\"sum\",\"percentageCol\":\"\",\"dimensions\":{\"metrics\":[{\"accessor\":1,\"format\":{\"id\":\"number\"},\"params\":{},\"aggType\":\"sum\"}],\"buckets\":[{\"accessor\":0,\"format\":{\"id\":\"terms\",\"params\":{\"id\":\"string\",\"otherBucketLabel\":\"Other\",\"missingBucketLabel\":\"Missing\"}},\"params\":{},\"aggType\":\"terms\"}]},\"showToolbar\":true}}"
+      },
+      "references": [
+        {
+          "id": "88c6d1e0-902e-11ed-bde4-c52eac763bff",
+          "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
+          "type": "index-pattern"
+        },
+        {
+          "id": "fe8ed6a0-d767-11ec-871c-618dc17b393f",
+          "name": "tag-ref-fe8ed6a0-d767-11ec-871c-618dc17b393f",
+          "type": "tag"
+        },
+        {
+          "id": "37d769b0-d75c-11ec-871c-618dc17b393f",
+          "name": "tag-ref-37d769b0-d75c-11ec-871c-618dc17b393f",
+          "type": "tag"
+        },
+        {
+          "id": "43a82140-d76a-11ec-871c-618dc17b393f",
+          "name": "tag-ref-43a82140-d76a-11ec-871c-618dc17b393f",
+          "type": "tag"
+        },
+        {
+          "id": "24096260-fea0-11ec-871c-618dc17b393f",
+          "name": "tag-ref-24096260-fea0-11ec-871c-618dc17b393f",
+          "type": "tag"
+        }
+      ],
+      "migrationVersion": {
+        "visualization": "7.14.0"
+      },
+      "coreMigrationVersion": "7.14.1"
+    },
+    {
+      "id": "61d6dbf0-d500-11ec-871c-618dc17b393f",
+      "type": "visualization",
+      "namespaces": [
+        "negociations-publisher"
+      ],
+      "updated_at": "2023-05-22T09:24:32.985Z",
+      "version": "WzE4ODM4NjQsMTVd",
+      "attributes": {
+        "description": "Sélecteur d'années de publications (YOP). NB : \"0001\" = non renseigné ; \"9999\" = à paraître / avant-première / online first",
+        "kibanaSavedObjectMeta": {
+          "searchSourceJSON": "{\"query\":{\"query\":\"\",\"language\":\"kuery\"},\"filter\":[]}"
+        },
+        "title": "publisher : annees-publication-yop-selecteur",
+        "uiStateJSON": "{}",
+        "version": 1,
+        "visState": "{\"title\":\"publisher : annees-publication-yop-selecteur\",\"type\":\"input_control_vis\",\"aggs\":[],\"params\":{\"controls\":[{\"id\":\"1641463148286\",\"fieldName\":\"YOP\",\"parent\":\"\",\"label\":\"YOP = années de publication (plusieurs choix possibles)\",\"type\":\"list\",\"options\":{\"type\":\"terms\",\"multiselect\":true,\"dynamicOptions\":true,\"size\":5,\"order\":\"desc\"},\"indexPatternRefName\":\"control_0_index_pattern\"}],\"updateFiltersOnChange\":true,\"useTimeFilter\":false,\"pinFilters\":false}}"
+      },
+      "references": [
+        {
+          "id": "88c6d1e0-902e-11ed-bde4-c52eac763bff",
+          "name": "control_0_index_pattern",
+          "type": "index-pattern"
+        },
+        {
+          "id": "fe8ed6a0-d767-11ec-871c-618dc17b393f",
+          "name": "tag-ref-fe8ed6a0-d767-11ec-871c-618dc17b393f",
+          "type": "tag"
+        },
+        {
+          "id": "43a82140-d76a-11ec-871c-618dc17b393f",
+          "name": "tag-ref-43a82140-d76a-11ec-871c-618dc17b393f",
+          "type": "tag"
+        },
+        {
+          "id": "24096260-fea0-11ec-871c-618dc17b393f",
+          "name": "tag-ref-24096260-fea0-11ec-871c-618dc17b393f",
+          "type": "tag"
+        }
+      ],
+      "migrationVersion": {
+        "visualization": "7.14.0"
+      },
+      "coreMigrationVersion": "7.14.1"
+    },
+    {
+      "id": "91c723f0-7f93-11ec-86a7-b9a4e2d97448",
+      "type": "visualization",
+      "namespaces": [
+        "negociations-publisher"
+      ],
+      "updated_at": "2023-06-29T08:52:06.711Z",
+      "version": "WzE4ODQyMzUsMTVd",
+      "attributes": {
+        "description": "Comptage des éléments de rapports par année de publication (YOP = year of publication). NB : \"0001\" = non renseigné ; \"9999\" = à paraître.",
+        "kibanaSavedObjectMeta": {
+          "searchSourceJSON": "{\"query\":{\"language\":\"kuery\",\"query\":\"\"},\"filter\":[],\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.index\"}"
+        },
+        "title": "publisher : annees-publication-yop-circulaire",
+        "uiStateJSON": "{\"vis\":{\"legendOpen\":false}}",
+        "version": 1,
+        "visState": "{\"title\":\"publisher : annees-publication-yop-circulaire\",\"type\":\"pie\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"sum\",\"params\":{\"field\":\"Count\",\"customLabel\":\"Éléments de rapport\"},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"params\":{\"field\":\"YOP\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":50,\"otherBucket\":true,\"otherBucketLabel\":\"[ autres YOP ]\",\"missingBucket\":true,\"missingBucketLabel\":\"Non renseigné\",\"customLabel\":\"Year of publication (YOP)\"},\"schema\":\"segment\"}],\"params\":{\"addLegend\":false,\"addTooltip\":true,\"dimensions\":{\"buckets\":[{\"accessor\":0,\"aggType\":\"terms\",\"format\":{\"id\":\"terms\",\"params\":{\"id\":\"string\",\"missingBucketLabel\":\"Missing\",\"otherBucketLabel\":\"Other\"}},\"params\":{}}],\"metric\":{\"accessor\":1,\"aggType\":\"count\",\"format\":{\"id\":\"number\"},\"params\":{}}},\"isDonut\":true,\"labels\":{\"last_level\":true,\"show\":true,\"truncate\":100,\"values\":true,\"percentDecimals\":2,\"position\":\"inside\"},\"legendPosition\":\"right\",\"type\":\"pie\",\"palette\":{\"type\":\"palette\",\"name\":\"default\"},\"distinctColors\":true,\"nestedLegend\":false}}"
+      },
+      "references": [
+        {
+          "id": "88c6d1e0-902e-11ed-bde4-c52eac763bff",
+          "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
+          "type": "index-pattern"
+        },
+        {
+          "id": "fe8ed6a0-d767-11ec-871c-618dc17b393f",
+          "name": "tag-ref-fe8ed6a0-d767-11ec-871c-618dc17b393f",
+          "type": "tag"
+        },
+        {
+          "id": "43a82140-d76a-11ec-871c-618dc17b393f",
+          "name": "tag-ref-43a82140-d76a-11ec-871c-618dc17b393f",
+          "type": "tag"
+        },
+        {
+          "id": "24096260-fea0-11ec-871c-618dc17b393f",
+          "name": "tag-ref-24096260-fea0-11ec-871c-618dc17b393f",
+          "type": "tag"
+        }
+      ],
+      "migrationVersion": {
+        "visualization": "7.14.0"
+      },
+      "coreMigrationVersion": "7.14.1"
+    },
+    {
+      "id": "a61f2e70-6eda-11ec-86a7-b9a4e2d97448",
+      "type": "visualization",
+      "namespaces": [
+        "negociations-publisher"
+      ],
+      "updated_at": "2023-06-29T08:52:06.711Z",
+      "version": "WzE4ODQyNDAsMTVd",
+      "attributes": {
+        "description": "Comptage des éléments de rapports des titres (top 1000)",
+        "kibanaSavedObjectMeta": {
+          "searchSourceJSON": "{\"query\":{\"language\":\"kuery\",\"query\":\"\"},\"filter\":[],\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.index\"}"
+        },
+        "title": "publisher : top-1000-titres-table",
+        "uiStateJSON": "{}",
+        "version": 1,
+        "visState": "{\"title\":\"publisher : top-1000-titres-table\",\"type\":\"table\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"sum\",\"params\":{\"field\":\"Count\",\"customLabel\":\"éléments de rapport\"},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"params\":{\"field\":\"Title\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":1000,\"otherBucket\":false,\"otherBucketLabel\":\"[ titre(s) hors du top 1000 ]\",\"missingBucket\":false,\"missingBucketLabel\":\"-\",\"customLabel\":\"Titre\"},\"schema\":\"bucket\"},{\"id\":\"3\",\"enabled\":true,\"type\":\"terms\",\"params\":{\"field\":\"Item_ID.Online_ISSN\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":500,\"otherBucket\":false,\"otherBucketLabel\":\"[ autres eISSN ]\",\"missingBucket\":true,\"missingBucketLabel\":\"-\",\"customLabel\":\"Online ISSN\"},\"schema\":\"bucket\"},{\"id\":\"4\",\"enabled\":true,\"type\":\"terms\",\"params\":{\"field\":\"Item_ID.Print_ISSN\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":500,\"otherBucket\":false,\"otherBucketLabel\":\"[ autres ISSN ]\",\"missingBucket\":true,\"missingBucketLabel\":\"-\",\"customLabel\":\"Print ISSN\"},\"schema\":\"bucket\"},{\"id\":\"6\",\"enabled\":true,\"type\":\"terms\",\"params\":{\"field\":\"Item_ID.ISBN\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":500,\"otherBucket\":false,\"otherBucketLabel\":\"[ autres ISBN ]\",\"missingBucket\":true,\"missingBucketLabel\":\"-\",\"customLabel\":\"ISBN\"},\"schema\":\"bucket\"}],\"params\":{\"dimensions\":{\"buckets\":[{\"accessor\":0,\"aggType\":\"terms\",\"format\":{\"id\":\"terms\",\"params\":{\"id\":\"string\",\"missingBucketLabel\":\"Missing\",\"otherBucketLabel\":\"Other\"}},\"params\":{}},{\"accessor\":1,\"aggType\":\"terms\",\"format\":{\"id\":\"terms\",\"params\":{\"id\":\"string\",\"missingBucketLabel\":\"Missing\",\"otherBucketLabel\":\"Other\"}},\"params\":{}},{\"accessor\":2,\"aggType\":\"terms\",\"format\":{\"id\":\"terms\",\"params\":{\"id\":\"string\",\"missingBucketLabel\":\"Missing\",\"otherBucketLabel\":\"Other\"}},\"params\":{}}],\"metrics\":[{\"accessor\":3,\"aggType\":\"sum\",\"format\":{\"id\":\"number\"},\"params\":{}}]},\"perPage\":50,\"percentageCol\":\"éléments de rapport\",\"showMetricsAtAllLevels\":false,\"showPartialRows\":false,\"showToolbar\":true,\"showTotal\":false,\"sort\":{\"columnIndex\":null,\"direction\":null},\"totalFunc\":\"sum\"}}"
+      },
+      "references": [
+        {
+          "id": "88c6d1e0-902e-11ed-bde4-c52eac763bff",
+          "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
+          "type": "index-pattern"
+        },
+        {
+          "id": "fe8ed6a0-d767-11ec-871c-618dc17b393f",
+          "name": "tag-fe8ed6a0-d767-11ec-871c-618dc17b393f",
+          "type": "tag"
+        },
+        {
+          "id": "c8d8cf40-d76a-11ec-871c-618dc17b393f",
+          "name": "tag-c8d8cf40-d76a-11ec-871c-618dc17b393f",
+          "type": "tag"
+        },
+        {
+          "id": "43a82140-d76a-11ec-871c-618dc17b393f",
+          "name": "tag-43a82140-d76a-11ec-871c-618dc17b393f",
+          "type": "tag"
+        },
+        {
+          "id": "f3be36b0-d769-11ec-871c-618dc17b393f",
+          "name": "tag-f3be36b0-d769-11ec-871c-618dc17b393f",
+          "type": "tag"
+        }
+      ],
+      "migrationVersion": {
+        "visualization": "7.14.0"
+      },
+      "coreMigrationVersion": "7.14.1"
+    },
+    {
+      "id": "1f360ed0-6ab6-11ea-b10b-85809d7a573e",
+      "type": "visualization",
+      "namespaces": [
+        "negociations-publisher"
+      ],
+      "updated_at": "2023-05-22T09:24:32.985Z",
+      "version": "WzE4ODM4NjUsMTVd",
+      "attributes": {
+        "description": "Comptage des éléments de rapports par année de publication (YOP = year of publication). NB : \"0001\" = non renseigné ; \"9999\" = à paraître.",
+        "kibanaSavedObjectMeta": {
+          "searchSourceJSON": "{\"query\":{\"query\":\"\",\"language\":\"kuery\"},\"filter\":[],\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.index\"}"
+        },
+        "title": "publisher : annees-publication-yop-histo-h",
+        "uiStateJSON": "{}",
+        "version": 1,
+        "visState": "{\"title\":\"publisher : annees-publication-yop-histo-h\",\"type\":\"histogram\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"sum\",\"params\":{\"field\":\"Count\",\"customLabel\":\"Éléments de rapport\"},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"params\":{\"field\":\"YOP\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":50,\"otherBucket\":true,\"otherBucketLabel\":\"[ autres YOP ]\",\"missingBucket\":true,\"missingBucketLabel\":\"Non renseigné\",\"customLabel\":\"Year of publication (YOP)\"},\"schema\":\"segment\"}],\"params\":{\"type\":\"histogram\",\"grid\":{\"categoryLines\":true,\"valueAxis\":\"ValueAxis-1\"},\"categoryAxes\":[{\"id\":\"CategoryAxis-1\",\"type\":\"category\",\"position\":\"bottom\",\"show\":true,\"style\":{},\"scale\":{\"type\":\"linear\"},\"labels\":{\"show\":true,\"filter\":true,\"truncate\":100},\"title\":{}}],\"valueAxes\":[{\"id\":\"ValueAxis-1\",\"name\":\"LeftAxis-1\",\"type\":\"value\",\"position\":\"left\",\"show\":true,\"style\":{},\"scale\":{\"type\":\"linear\",\"mode\":\"normal\"},\"labels\":{\"show\":true,\"rotate\":0,\"filter\":false,\"truncate\":100},\"title\":{\"text\":\"Éléments de rapport\"}}],\"seriesParams\":[{\"show\":\"true\",\"type\":\"histogram\",\"mode\":\"stacked\",\"data\":{\"label\":\"Éléments de rapport\",\"id\":\"1\"},\"valueAxis\":\"ValueAxis-1\",\"drawLinesBetweenPoints\":true,\"showCircles\":true}],\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"times\":[],\"addTimeMarker\":false,\"labels\":{\"show\":true},\"thresholdLine\":{\"show\":false,\"value\":10,\"width\":1,\"style\":\"full\",\"color\":\"#34130C\"},\"dimensions\":{\"x\":{\"accessor\":0,\"format\":{\"id\":\"terms\",\"params\":{\"id\":\"string\",\"otherBucketLabel\":\"Other\",\"missingBucketLabel\":\"Missing\"}},\"params\":{},\"aggType\":\"terms\"},\"y\":[{\"accessor\":1,\"format\":{\"id\":\"number\"},\"params\":{},\"aggType\":\"sum\"}]},\"palette\":{\"type\":\"palette\",\"name\":\"kibana_palette\"},\"isVislibVis\":true,\"detailedTooltip\":true,\"radiusRatio\":0}}"
+      },
+      "references": [
+        {
+          "id": "88c6d1e0-902e-11ed-bde4-c52eac763bff",
+          "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
+          "type": "index-pattern"
+        },
+        {
+          "id": "fe8ed6a0-d767-11ec-871c-618dc17b393f",
+          "name": "tag-ref-fe8ed6a0-d767-11ec-871c-618dc17b393f",
+          "type": "tag"
+        },
+        {
+          "id": "43a82140-d76a-11ec-871c-618dc17b393f",
+          "name": "tag-ref-43a82140-d76a-11ec-871c-618dc17b393f",
+          "type": "tag"
+        },
+        {
+          "id": "24096260-fea0-11ec-871c-618dc17b393f",
+          "name": "tag-ref-24096260-fea0-11ec-871c-618dc17b393f",
+          "type": "tag"
+        }
+      ],
+      "migrationVersion": {
+        "visualization": "7.14.0"
+      },
+      "coreMigrationVersion": "7.14.1"
+    },
+    {
+      "id": "4352b7d0-7f92-11ec-86a7-b9a4e2d97448",
+      "type": "visualization",
+      "namespaces": [
+        "negociations-publisher"
+      ],
+      "updated_at": "2023-05-22T09:24:32.985Z",
+      "version": "WzE4ODM4NjYsMTVd",
+      "attributes": {
+        "description": "Vademecum pour la lecture des données Counter dans le tableau de bord TR générique.",
+        "kibanaSavedObjectMeta": {
+          "searchSourceJSON": "{\"query\":{\"query\":\"\",\"language\":\"kuery\"},\"filter\":[]}"
+        },
+        "title": "publisher : guide-tableau-TR-texte",
+        "uiStateJSON": "{}",
+        "version": 1,
+        "visState": "{\"title\":\"publisher : guide-tableau-TR-texte\",\"type\":\"markdown\",\"aggs\":[],\"params\":{\"markdown\":\"### Comment lire ce tableau de bord ?\\n\\nLe tableau de bord applique un **filtre par défaut sur le type de rapport `TR` : `Title Report` et sur le type de métrique `Total_Item_Requests`**. Il est donc particulièrement adapté à l'étude des usages pour les revues et monographies.\\n\\nLa métrique `Total_Item_Requests` a été retenue ici car elle donne une bonne vue d'ensemble des consultations de texte intégral et assure la continuité avec les rapports issus de la version 4 de COUNTER.\\n\\nCe tableau de bord est pensé pour répondre à des questions générales d'analyse des usages :\\n- À combien de `Total_Item_Requests` s'élèvent les usages de ces ressources par les utilisateurs ?\\n- Quels volumes de `Total_Item_Requests` réalisent mes différentes communautés d'utilisateurs (s'il y en a plusieurs) ?\\n- Quelle est la part des revues dans ces usages par rapport à celle des monographies ?\\n- Quelle est la part d'*open access* dans le total des usages ?\\n- Quelles sont les plateformes qui cumulent le plus de `Total_Item_Requests` ?\\n- Quels sont les titres qui cumulent le plus de `Total_Item_Requests` ?\\n- Quelles sont les années de publication (`YOP`) les plus consultées ?\\n\\nLe tableau est donc structuré par étages, en prenant ces questions de la plus globale à la plus fine.\\n\\nIl est néanmoins possible de filtrer un ou plusieurs de ces critères pour répondre à des questions plus précises encore.\\n\\n----\\n\\nNB 1 : L'appellation **`éléments de rapport`** utilisée dans les visualisations est celle définie par COUNTER pour qualifier les différents types d'usages comptabilisés dans les différents rapports, selon le type de ressource. En anglais : `report item`. Dans ce tableau, il correspond donc aux `Total_Item_Requests`comptabilisés dans les `TR`.\\n\\nNB 2 : Le ***symbole (i)*** présent à côté du titre de chaque visualisation permet (en le survolant) d'afficher des **infobulles**. Chaque infobulle précise la finalité de la visualisation en question et peut également fournir des compléments d'information. \\nExemples : \\n- Années de publication (`YOP`) : `0001`= non renseigné ; `9999`= à paraître, en avant-première (*online first*).\\n- `Data_Type` et `Section_Type`, pour indiquer leur relation parent > enfant.\\n\\nNB 3 : Certains champs comportent des **valeurs manquantes**, sous la forme `Non renseigné` dans les graphiques et `-` dans les tables. Cela est indépendant de notre volonté et est dû au fait que les rapports fournis par les éditeurs ne sont pas toujours exemplaires. Les rapports éditeurs peuvent effectivement comporter des lacunes, même sur des métadonnées de première importance, ex : `Access_Type`, `Data_Type` ou `YOP` (Year Of Publication). Nous invitons les utilisateurs à bien tenir compte de ces limitations lors des filtrages, pour ne pas fausser ou biaiser les analyses. \\n\\nNB 4 : En modifiant les filtres par défaut présents en haut du tableau, il est possible d'étudier un autre type de rapport (`DR`, `IR`,`PR`) ou un autre type de métrique (`Unique_Item_Requests`, `No_Licence`, etc.). Nous attirons néanmoins l'attention sur le fait que ce tableau orienté `TR` n'est pas forcément adapté pour examiner les autres types de rapport. Des tableaux spécifiques aux autres types de rapports seront construits ultérieurement. \\n\\nNB 5 : Nous recommandons aux utilisateurs de **ne pas supprimer les filtres par défaut**, car faire apparaître au même niveau tous les types de rapports et tous les types de métrique introduirait énormément de doublons et rendrait le tableau cacophonique.\\n\\nNB 6 : Pour créer facilement un filtre sur une liste de titres précise, nous vous recommandons d'utiliser notre outil [**csv2kib**](https://ezpaarse-project.github.io/csv2kib/).\\n\\nNB 7 : Zoom recommandé pour affichage sur écran d'ordinateur portable : 80%-90%.\",\"openLinksInNewTab\":false,\"fontSize\":12}}"
+      },
+      "references": [
+        {
+          "id": "fe8ed6a0-d767-11ec-871c-618dc17b393f",
+          "name": "tag-ref-fe8ed6a0-d767-11ec-871c-618dc17b393f",
+          "type": "tag"
+        },
+        {
+          "id": "43a82140-d76a-11ec-871c-618dc17b393f",
+          "name": "tag-ref-43a82140-d76a-11ec-871c-618dc17b393f",
+          "type": "tag"
+        }
+      ],
+      "migrationVersion": {
+        "visualization": "7.14.0"
+      },
+      "coreMigrationVersion": "7.14.1"
+    },
+    {
+      "id": "925a4220-8015-11ec-86a7-b9a4e2d97448",
+      "type": "visualization",
+      "namespaces": [
+        "negociations-publisher"
+      ],
+      "updated_at": "2023-05-22T09:24:32.985Z",
+      "version": "WzE4ODM4NjcsMTVd",
+      "attributes": {
+        "description": "Vademecum pour le filtrage dans les tableaux de bord.",
+        "kibanaSavedObjectMeta": {
+          "searchSourceJSON": "{\"query\":{\"query\":\"\",\"language\":\"kuery\"},\"filter\":[]}"
+        },
+        "title": "publisher : guide-filtrage-texte",
+        "uiStateJSON": "{}",
+        "version": 1,
+        "visState": "{\"title\":\"publisher : guide-filtrage-texte\",\"type\":\"markdown\",\"aggs\":[],\"params\":{\"markdown\":\"### Comment filtrer les résultats ?\\n\\nPar défaut, un tableau de bord affiche l'ensemble des résultats disponibles dans l'index. Compte tenu de l'ampleur de l'index, mener une recherche consiste souvent à filtrer les résultats plutôt qu'à les parcourir. \\n\\nPour ce faire, plusieurs méthodes : \\n\\n---\\n\\n#### Au clic \\nLe filtrage au clic repose sur les **symboles (+) et (-)**. Pour les faire apparaître, il suffit de survoler une valeur dans une table, de cliquer sur un segment de graphique ou sur un item de légende. Cliquer sur l'un ou l'autre de ces symboles active des filtrages différents, qui s'appliquent à l'ensemble du tableau :\\n- **(+)** &rarr; Conserver dans le tableau **uniquement les résultats qui déclarent la valeur choisie** = exclure les résultats qui ne déclarent pas cette valeur. *Attention : le (+) ne permet pas de sélection multiple dans le même champ.*\\n\\n- **(-)** &rarr; Conserver dans le tableau **uniquement les résultats qui ne déclarent pas la valeur choisie** = exclure les résultats qui déclarent cette valeur. *Précision : le (-) permet de garder plusieurs valeurs d'un même champ.*\\n\\n---\\n#### Avec les sélecteurs\\n\\nLes sélecteurs sont les petites barres de recherches portant l'inscription `Select` ainsi qu'une flèche invitant à les déplier. Ces modules ont une fonction de **facettes**. Ils permettent de filtrer sur une ou plusieurs valeurs du champ indiqué.\\n\\nPour utiliser les sélecteurs de manière efficace, il est recommandé de **saisir les premières lettres ou les premiers termes** de la valeur recherchée pour obtenir une liste de suggestion, puis de **cliquer sur le résultat voulu** dans la liste. Le tableau de bord s'actualisera automatiquement. L'opération est **répétable**, pour une sélection multiple.\\n\\n>*Note 1 : Les sélecteurs sont **sensibles à la casse** et attendent des termes exacts.*\\n\\n>*Note 2 : Il est parfois nécessaire d'**attendre quelques secondes** pour obtenir la liste de suggestion.*\\n\\n>*Note 3 : Les sélecteurs **ne retournent pas les données manquantes** (`missing`).*\\n\\n---\\n\\n#### Avec des requêtes (*pour les utilisateurs avancés*)\\n\\n*Une aide spécifique sera rédigée ultérieurement.*\",\"openLinksInNewTab\":false,\"fontSize\":12}}"
+      },
+      "references": [
+        {
+          "id": "fe8ed6a0-d767-11ec-871c-618dc17b393f",
+          "name": "tag-ref-fe8ed6a0-d767-11ec-871c-618dc17b393f",
+          "type": "tag"
+        },
+        {
+          "id": "37d769b0-d75c-11ec-871c-618dc17b393f",
+          "name": "tag-ref-37d769b0-d75c-11ec-871c-618dc17b393f",
+          "type": "tag"
+        },
+        {
+          "id": "c82e05c0-d769-11ec-871c-618dc17b393f",
+          "name": "tag-ref-c82e05c0-d769-11ec-871c-618dc17b393f",
+          "type": "tag"
+        },
+        {
+          "id": "43a82140-d76a-11ec-871c-618dc17b393f",
+          "name": "tag-ref-43a82140-d76a-11ec-871c-618dc17b393f",
+          "type": "tag"
+        },
+        {
+          "id": "24096260-fea0-11ec-871c-618dc17b393f",
+          "name": "tag-ref-24096260-fea0-11ec-871c-618dc17b393f",
+          "type": "tag"
+        }
+      ],
+      "migrationVersion": {
+        "visualization": "7.14.0"
+      },
+      "coreMigrationVersion": "7.14.1"
+    },
+    {
+      "id": "8292c6d0-d2ba-11ec-871c-618dc17b393f",
+      "type": "visualization",
+      "namespaces": [
+        "negociations-publisher"
+      ],
+      "updated_at": "2023-04-04T08:26:24.772Z",
+      "version": "WzE4ODMyMTksMTVd",
+      "attributes": {
+        "description": "Comptage des éléments de rapports des bases de données (top 1000)",
+        "uiStateJSON": "{}",
+        "title": "publisher : top-1000-databases-table",
+        "version": 1,
+        "kibanaSavedObjectMeta": {
+          "searchSourceJSON": "{\"query\":{\"language\":\"kuery\",\"query\":\"\"},\"filter\":[],\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.index\"}"
+        },
+        "visState": "{\"title\":\"publisher : top-1000-databases-table\",\"type\":\"table\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"sum\",\"params\":{\"field\":\"Count\",\"customLabel\":\"éléments de rapport\"},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"params\":{\"field\":\"Database\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":1000,\"otherBucket\":false,\"otherBucketLabel\":\"[ titre(s) hors du top 1000 ]\",\"missingBucket\":false,\"missingBucketLabel\":\"-\",\"customLabel\":\"Base\"},\"schema\":\"bucket\"}],\"params\":{\"dimensions\":{\"buckets\":[{\"accessor\":0,\"aggType\":\"terms\",\"format\":{\"id\":\"terms\",\"params\":{\"id\":\"string\",\"missingBucketLabel\":\"Missing\",\"otherBucketLabel\":\"Other\"}},\"params\":{}},{\"accessor\":1,\"aggType\":\"terms\",\"format\":{\"id\":\"terms\",\"params\":{\"id\":\"string\",\"missingBucketLabel\":\"Missing\",\"otherBucketLabel\":\"Other\"}},\"params\":{}},{\"accessor\":2,\"aggType\":\"terms\",\"format\":{\"id\":\"terms\",\"params\":{\"id\":\"string\",\"missingBucketLabel\":\"Missing\",\"otherBucketLabel\":\"Other\"}},\"params\":{}}],\"metrics\":[{\"accessor\":3,\"aggType\":\"sum\",\"format\":{\"id\":\"number\"},\"params\":{}}]},\"perPage\":50,\"percentageCol\":\"éléments de rapport\",\"showMetricsAtAllLevels\":false,\"showPartialRows\":false,\"showToolbar\":true,\"showTotal\":false,\"sort\":{\"columnIndex\":null,\"direction\":null},\"totalFunc\":\"sum\"}}"
+      },
+      "references": [
+        {
+          "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
+          "id": "88c6d1e0-902e-11ed-bde4-c52eac763bff",
+          "type": "index-pattern"
+        },
+        {
+          "name": "tag-37d769b0-d75c-11ec-871c-618dc17b393f",
+          "id": "37d769b0-d75c-11ec-871c-618dc17b393f",
+          "type": "tag"
+        },
+        {
+          "name": "tag-c8d8cf40-d76a-11ec-871c-618dc17b393f",
+          "id": "c8d8cf40-d76a-11ec-871c-618dc17b393f",
+          "type": "tag"
+        }
+      ],
+      "migrationVersion": {
+        "visualization": "7.14.0"
+      },
+      "coreMigrationVersion": "7.14.1"
+    },
+    {
+      "id": "7389ca60-4b24-11ee-8ce4-61ee0b8a2f58",
+      "type": "visualization",
+      "namespaces": [
+        "negociations-publisher"
+      ],
+      "updated_at": "2023-09-04T13:10:42.441Z",
+      "version": "WzE4ODQ3NjAsMTVd",
+      "attributes": {
+        "title": "publisher : indicateurs-généraux-titles (copy 3)",
+        "visState": "{\"title\":\"publisher : indicateurs-généraux-titles\",\"type\":\"metric\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"sum\",\"params\":{\"field\":\"Count\",\"customLabel\":\"éléments de rapport\"},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"cardinality\",\"params\":{\"field\":\"Platform\",\"customLabel\":\"plateformes\"},\"schema\":\"metric\"},{\"id\":\"4\",\"enabled\":true,\"type\":\"cardinality\",\"params\":{\"field\":\"Item_ID.Online_ISSN\",\"customLabel\":\"revues (ISSN)\"},\"schema\":\"metric\"},{\"id\":\"5\",\"enabled\":true,\"type\":\"cardinality\",\"params\":{\"field\":\"Item_ID.ISBN\",\"customLabel\":\"monographies (ISBN)\"},\"schema\":\"metric\"},{\"id\":\"6\",\"enabled\":true,\"type\":\"min\",\"params\":{\"field\":\"X_Date_Month\",\"customLabel\":\"période de\"},\"schema\":\"metric\"},{\"id\":\"7\",\"enabled\":true,\"type\":\"max\",\"params\":{\"field\":\"X_Date_Month\",\"customLabel\":\"à\"},\"schema\":\"metric\"},{\"id\":\"8\",\"enabled\":true,\"type\":\"cardinality\",\"params\":{\"field\":\"_index\",\"customLabel\":\"index établissement\"},\"schema\":\"metric\"}],\"params\":{\"metric\":{\"percentageMode\":false,\"useRanges\":false,\"colorSchema\":\"Green to Red\",\"metricColorMode\":\"None\",\"colorsRange\":[{\"type\":\"range\",\"from\":0,\"to\":10000}],\"labels\":{\"show\":true},\"invertColors\":false,\"style\":{\"bgFill\":\"#000\",\"bgColor\":false,\"labelColor\":false,\"subText\":\"\",\"fontSize\":25}},\"dimensions\":{\"metrics\":[{\"type\":\"vis_dimension\",\"accessor\":0,\"format\":{\"id\":\"number\",\"params\":{}}},{\"type\":\"vis_dimension\",\"accessor\":1,\"format\":{\"id\":\"number\",\"params\":{}}},{\"type\":\"vis_dimension\",\"accessor\":2,\"format\":{\"id\":\"number\",\"params\":{}}},{\"type\":\"vis_dimension\",\"accessor\":3,\"format\":{\"id\":\"number\",\"params\":{}}},{\"type\":\"vis_dimension\",\"accessor\":4,\"format\":{\"id\":\"number\",\"params\":{}}},{\"type\":\"vis_dimension\",\"accessor\":5,\"format\":{\"id\":\"date\",\"params\":{}}},{\"type\":\"vis_dimension\",\"accessor\":6,\"format\":{\"id\":\"date\",\"params\":{}}}]},\"addTooltip\":true,\"addLegend\":false,\"type\":\"metric\"}}",
+        "uiStateJSON": "{}",
+        "description": "Indicateurs généraux pertinents pour les rapports concernant les titres (TR)",
+        "version": 1,
+        "kibanaSavedObjectMeta": {
+          "searchSourceJSON": "{\"query\":{\"query\":\"\",\"language\":\"kuery\"},\"filter\":[],\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.index\"}"
+        }
+      },
+      "references": [
+        {
+          "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
+          "type": "index-pattern",
+          "id": "88c6d1e0-902e-11ed-bde4-c52eac763bff"
+        },
+        {
+          "id": "fe8ed6a0-d767-11ec-871c-618dc17b393f",
+          "type": "tag",
+          "name": "tag-fe8ed6a0-d767-11ec-871c-618dc17b393f"
+        },
+        {
+          "id": "43a82140-d76a-11ec-871c-618dc17b393f",
+          "type": "tag",
+          "name": "tag-43a82140-d76a-11ec-871c-618dc17b393f"
+        },
+        {
+          "id": "24096260-fea0-11ec-871c-618dc17b393f",
+          "type": "tag",
+          "name": "tag-24096260-fea0-11ec-871c-618dc17b393f"
+        }
+      ],
+      "migrationVersion": {
+        "visualization": "7.14.0"
+      },
+      "coreMigrationVersion": "7.14.1"
+    },
+    {
+      "id": "7a07b6e0-6c30-11ee-96a6-b958f711fdf2",
+      "type": "visualization",
+      "namespaces": [
+        "negociations-publisher"
+      ],
+      "updated_at": "2023-10-16T14:30:31.024Z",
+      "version": "WzE4ODgwODIsMTVd",
+      "attributes": {
+        "title": "publisher : indicateurs-généraux-titles (copy 10)",
+        "visState": "{\"title\":\"publisher : indicateurs-généraux-titles (copy 10)\",\"type\":\"metric\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"sum\",\"params\":{\"field\":\"Count\",\"customLabel\":\"éléments de rapport\"},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"cardinality\",\"params\":{\"field\":\"Platform\",\"customLabel\":\"plateformes\"},\"schema\":\"metric\"},{\"id\":\"4\",\"enabled\":true,\"type\":\"cardinality\",\"params\":{\"field\":\"Item_ID.Online_ISSN\",\"customLabel\":\"revues (ISSN)\"},\"schema\":\"metric\"},{\"id\":\"5\",\"enabled\":true,\"type\":\"cardinality\",\"params\":{\"field\":\"Item_ID.ISBN\",\"customLabel\":\"monographies (ISBN)\"},\"schema\":\"metric\"},{\"id\":\"6\",\"enabled\":true,\"type\":\"min\",\"params\":{\"field\":\"X_Date_Month\",\"customLabel\":\"période de\"},\"schema\":\"metric\"},{\"id\":\"7\",\"enabled\":true,\"type\":\"max\",\"params\":{\"field\":\"X_Date_Month\",\"customLabel\":\"à\"},\"schema\":\"metric\"},{\"id\":\"8\",\"enabled\":true,\"type\":\"cardinality\",\"params\":{\"field\":\"_index\",\"customLabel\":\"index établissement\"},\"schema\":\"metric\"}],\"params\":{\"metric\":{\"percentageMode\":false,\"useRanges\":false,\"colorSchema\":\"Green to Red\",\"metricColorMode\":\"None\",\"colorsRange\":[{\"type\":\"range\",\"from\":0,\"to\":10000}],\"labels\":{\"show\":true},\"invertColors\":false,\"style\":{\"bgFill\":\"#000\",\"bgColor\":false,\"labelColor\":false,\"subText\":\"\",\"fontSize\":25}},\"dimensions\":{\"metrics\":[{\"type\":\"vis_dimension\",\"accessor\":0,\"format\":{\"id\":\"number\",\"params\":{}}},{\"type\":\"vis_dimension\",\"accessor\":1,\"format\":{\"id\":\"number\",\"params\":{}}},{\"type\":\"vis_dimension\",\"accessor\":2,\"format\":{\"id\":\"number\",\"params\":{}}},{\"type\":\"vis_dimension\",\"accessor\":3,\"format\":{\"id\":\"number\",\"params\":{}}},{\"type\":\"vis_dimension\",\"accessor\":4,\"format\":{\"id\":\"number\",\"params\":{}}},{\"type\":\"vis_dimension\",\"accessor\":5,\"format\":{\"id\":\"date\",\"params\":{}}},{\"type\":\"vis_dimension\",\"accessor\":6,\"format\":{\"id\":\"date\",\"params\":{}}}]},\"addTooltip\":true,\"addLegend\":false,\"type\":\"metric\"}}",
+        "uiStateJSON": "{}",
+        "description": "Indicateurs généraux pertinents pour les rapports concernant les titres (TR)",
+        "version": 1,
+        "kibanaSavedObjectMeta": {
+          "searchSourceJSON": "{\"query\":{\"query\":\"\",\"language\":\"kuery\"},\"filter\":[],\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.index\"}"
+        }
+      },
+      "references": [
+        {
+          "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
+          "type": "index-pattern",
+          "id": "88c6d1e0-902e-11ed-bde4-c52eac763bff"
+        },
+        {
+          "id": "fe8ed6a0-d767-11ec-871c-618dc17b393f",
+          "type": "tag",
+          "name": "tag-fe8ed6a0-d767-11ec-871c-618dc17b393f"
+        },
+        {
+          "id": "43a82140-d76a-11ec-871c-618dc17b393f",
+          "type": "tag",
+          "name": "tag-43a82140-d76a-11ec-871c-618dc17b393f"
+        },
+        {
+          "id": "24096260-fea0-11ec-871c-618dc17b393f",
+          "type": "tag",
+          "name": "tag-24096260-fea0-11ec-871c-618dc17b393f"
+        }
+      ],
+      "migrationVersion": {
+        "visualization": "7.14.0"
+      },
+      "coreMigrationVersion": "7.14.1"
+    },
+    {
+      "id": "035deca0-dd2c-11ed-8ce4-61ee0b8a2f58",
+      "type": "tag",
+      "namespaces": [
+        "negociations-publisher"
+      ],
+      "updated_at": "2023-04-17T14:27:42.322Z",
+      "version": "WzE4ODMzODEsMTVd",
+      "attributes": {
+        "name": "Collex",
+        "description": "",
+        "color": "#d28040"
+      },
+      "references": [],
+      "coreMigrationVersion": "7.14.1"
+    },
+    {
+      "id": "1595df20-deaf-11ed-8ce4-61ee0b8a2f58",
+      "type": "tag",
+      "namespaces": [
+        "negociations-publisher"
+      ],
+      "updated_at": "2023-04-19T12:38:28.118Z",
+      "version": "WzE4ODM0NzYsMTVd",
+      "attributes": {
+        "name": "Brill",
+        "description": "",
+        "color": "#e84a70"
+      },
+      "references": [],
+      "coreMigrationVersion": "7.14.1"
+    },
+    {
+      "id": "d7ce4480-9a73-11ee-b461-95ba0aa9c81f",
+      "type": "tag",
+      "namespaces": [
+        "negociations-publisher"
+      ],
+      "updated_at": "2023-12-14T11:28:02.763Z",
+      "version": "WzE4OTM5MTksMTdd",
+      "attributes": {
+        "name": "IEDO",
+        "description": "",
+        "color": "#7710bc"
+      },
+      "references": [],
+      "coreMigrationVersion": "7.14.1"
+    },
+    {
+      "id": "fe8ed6a0-d767-11ec-871c-618dc17b393f",
+      "type": "tag",
+      "namespaces": [
+        "negociations-publisher"
+      ],
+      "updated_at": "2023-06-29T08:52:06.711Z",
+      "version": "WzE4ODQyNDEsMTVd",
+      "attributes": {
+        "color": "#b0f458",
+        "description": "ID Master Title Report + Total_Item_Requests",
+        "name": "TR:TIR"
+      },
+      "references": [],
+      "coreMigrationVersion": "7.14.1"
+    },
+    {
+      "id": "37d769b0-d75c-11ec-871c-618dc17b393f",
+      "type": "tag",
+      "namespaces": [
+        "negociations-publisher"
+      ],
+      "updated_at": "2023-06-29T08:52:06.711Z",
+      "version": "WzE4ODQyNDUsMTVd",
+      "attributes": {
+        "color": "#0062b1",
+        "description": "ID Master Database Report + Total Item Investigations",
+        "name": "DR:TII"
+      },
+      "references": [],
+      "coreMigrationVersion": "7.14.1"
+    },
+    {
+      "id": "c82e05c0-d769-11ec-871c-618dc17b393f",
+      "type": "tag",
+      "namespaces": [
+        "negociations-publisher"
+      ],
+      "updated_at": "2023-06-29T08:52:06.711Z",
+      "version": "WzE4ODQyNDYsMTVd",
+      "attributes": {
+        "color": "#ffcc00",
+        "description": "ID Master Platform Reports + Searches_Platform",
+        "name": "PR:SP"
+      },
+      "references": [],
+      "coreMigrationVersion": "7.14.1"
+    },
+    {
+      "id": "43a82140-d76a-11ec-871c-618dc17b393f",
+      "type": "tag",
+      "namespaces": [
+        "negociations-publisher"
+      ],
+      "updated_at": "2023-06-29T08:52:06.711Z",
+      "version": "WzE4ODQyNDcsMTVd",
+      "attributes": {
+        "color": "#ba0000",
+        "description": "ID Master Title Reports + No_License",
+        "name": "TR:NL"
+      },
+      "references": [],
+      "coreMigrationVersion": "7.14.1"
+    },
+    {
+      "id": "24096260-fea0-11ec-871c-618dc17b393f",
+      "type": "tag",
+      "namespaces": [
+        "negociations-publisher"
+      ],
+      "updated_at": "2023-06-29T08:52:06.711Z",
+      "version": "WzE4ODQyNDgsMTVd",
+      "attributes": {
+        "color": "#CA8EAE",
+        "description": "ID Master Item Report + Unique Item Requests",
+        "name": "IR:UIR"
+      },
+      "references": [],
+      "coreMigrationVersion": "7.14.1"
+    },
+    {
+      "id": "c8d8cf40-d76a-11ec-871c-618dc17b393f",
+      "type": "tag",
+      "namespaces": [
+        "negociations-publisher"
+      ],
+      "updated_at": "2023-06-29T08:52:06.711Z",
+      "version": "WzE4ODQyNDksMTVd",
+      "attributes": {
+        "color": "#242e33",
+        "description": "ID Matrices Rapports indexés",
+        "name": "MX:R"
+      },
+      "references": [],
+      "coreMigrationVersion": "7.14.1"
+    },
+    {
+      "id": "f3be36b0-d769-11ec-871c-618dc17b393f",
+      "type": "tag",
+      "namespaces": [
+        "negociations-publisher"
+      ],
+      "updated_at": "2023-06-29T08:52:06.711Z",
+      "version": "WzE4ODQyNTAsMTVd",
+      "attributes": {
+        "color": "#c9ffb8",
+        "description": "ID Master Title Reports + Total_Item_Investigations",
+        "name": "TR:TII"
+      },
+      "references": [],
+      "coreMigrationVersion": "7.14.1"
+    }
+  ]
+}
