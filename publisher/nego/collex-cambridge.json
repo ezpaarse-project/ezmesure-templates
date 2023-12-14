@@ -7,13 +7,13 @@
       "namespaces": [
         "negociations-publisher"
       ],
-      "updated_at": "2023-08-25T10:53:40.055Z",
-      "version": "WzE1ODE0NjgsMTFd",
+      "updated_at": "2023-12-14T11:25:48.907Z",
+      "version": "WzE4OTM5MDQsMTdd",
       "attributes": {
-        "title": "publisher * Cambridge Tableau TR > Requests COUNTER 5 SUSHI V1.1",
+        "title": "publisher * Cambridge Tableau TR > Requests COUNTER 5 SUSHI V1.1_CollEx-Persée",
         "hits": 0,
-        "description": "Tableau de bord Cambridge \"Master Title Reports\" et \"Total_Item_Requests\". V1.1 ",
-        "panelsJSON": "[{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"h\":16,\"i\":\"f008f235-6bc5-43d5-98d9-9e0364035ab4\",\"w\":20,\"x\":0,\"y\":0},\"panelIndex\":\"f008f235-6bc5-43d5-98d9-9e0364035ab4\",\"embeddableConfig\":{\"enhancements\":{}},\"panelRefName\":\"panel_f008f235-6bc5-43d5-98d9-9e0364035ab4\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"h\":16,\"i\":\"e76cbb57-e7e4-40a7-b531-fcd5c2c43233\",\"w\":8,\"x\":20,\"y\":0},\"panelIndex\":\"e76cbb57-e7e4-40a7-b531-fcd5c2c43233\",\"embeddableConfig\":{\"enhancements\":{},\"table\":null,\"vis\":{\"legendOpen\":false}},\"panelRefName\":\"panel_e76cbb57-e7e4-40a7-b531-fcd5c2c43233\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"h\":16,\"i\":\"d9a69ead-e5d1-48d2-863f-28c28b8242ca\",\"w\":20,\"x\":28,\"y\":0},\"panelIndex\":\"d9a69ead-e5d1-48d2-863f-28c28b8242ca\",\"embeddableConfig\":{\"enhancements\":{}},\"panelRefName\":\"panel_d9a69ead-e5d1-48d2-863f-28c28b8242ca\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"h\":6,\"i\":\"2618df8f-d280-4cf7-9ddf-0e3f3eec487f\",\"w\":48,\"x\":0,\"y\":16},\"panelIndex\":\"2618df8f-d280-4cf7-9ddf-0e3f3eec487f\",\"embeddableConfig\":{\"enhancements\":{}},\"panelRefName\":\"panel_2618df8f-d280-4cf7-9ddf-0e3f3eec487f\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"h\":15,\"i\":\"7d933306-d81c-4067-943c-eef83f9beb3e\",\"w\":12,\"x\":0,\"y\":22},\"panelIndex\":\"7d933306-d81c-4067-943c-eef83f9beb3e\",\"embeddableConfig\":{\"enhancements\":{},\"vis\":{\"legendOpen\":true}},\"panelRefName\":\"panel_7d933306-d81c-4067-943c-eef83f9beb3e\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"h\":15,\"i\":\"0e6cb719-6486-4620-ac58-bc97a537b26e\",\"w\":12,\"x\":12,\"y\":22},\"panelIndex\":\"0e6cb719-6486-4620-ac58-bc97a537b26e\",\"embeddableConfig\":{\"enhancements\":{},\"table\":null,\"vis\":{\"colors\":{\"Controlled\":\"#c5b79c\",\"OA_Gold\":\"#ddca73\",\"__missing__\":\"#b0c9e0\"},\"legendOpen\":true}},\"panelRefName\":\"panel_0e6cb719-6486-4620-ac58-bc97a537b26e\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"h\":15,\"i\":\"63f6f6b9-b029-47d3-b589-16fc9069ee85\",\"w\":12,\"x\":24,\"y\":22},\"panelIndex\":\"63f6f6b9-b029-47d3-b589-16fc9069ee85\",\"embeddableConfig\":{\"enhancements\":{},\"table\":null,\"vis\":{\"colors\":{\"Article\":\"#8dccbb\",\"Chapter\":\"#b87f72\",\"Other\":\"#d5b2ab\",\"__missing__\":\"#b0c9e0\"},\"legendOpen\":true}},\"panelRefName\":\"panel_63f6f6b9-b029-47d3-b589-16fc9069ee85\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"h\":15,\"i\":\"ac7146ca-995b-4db1-8fb2-3aff7696e423\",\"w\":12,\"x\":36,\"y\":22},\"panelIndex\":\"ac7146ca-995b-4db1-8fb2-3aff7696e423\",\"embeddableConfig\":{\"enhancements\":{},\"table\":null,\"vis\":{\"colors\":{\"Book\":\"#e09e64\",\"Journal\":\"#b6a0d0\",\"Newspaper_or_Newsletter\":\"#9170b8\",\"Report\":\"#aa6556\",\"__missing__\":\"#b0c9e0\"},\"legendOpen\":true}},\"panelRefName\":\"panel_ac7146ca-995b-4db1-8fb2-3aff7696e423\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"h\":21,\"i\":\"68215572-6855-4ee7-9a6a-b8d9cadd344a\",\"w\":48,\"x\":0,\"y\":37},\"panelIndex\":\"68215572-6855-4ee7-9a6a-b8d9cadd344a\",\"embeddableConfig\":{\"enhancements\":{},\"table\":null,\"vis\":{\"colors\":{\"INS2I\":\"#447EBC\",\"INSB-INEE\":\"#71c0aa\",\"Tout BibCNRS\":\"#6092c0\"},\"legendOpen\":true}},\"panelRefName\":\"panel_68215572-6855-4ee7-9a6a-b8d9cadd344a\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"h\":22,\"i\":\"72a798cf-4d2b-4498-a59b-3927e5cf530f\",\"w\":11,\"x\":0,\"y\":58},\"panelIndex\":\"72a798cf-4d2b-4498-a59b-3927e5cf530f\",\"embeddableConfig\":{\"enhancements\":{},\"vis\":{\"params\":{\"colWidth\":[{\"colIndex\":0,\"width\":266}]}}},\"panelRefName\":\"panel_72a798cf-4d2b-4498-a59b-3927e5cf530f\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"h\":22,\"i\":\"eb3fb3c9-5859-4ebf-ae64-b9058d428fd5\",\"w\":13,\"x\":11,\"y\":58},\"panelIndex\":\"eb3fb3c9-5859-4ebf-ae64-b9058d428fd5\",\"embeddableConfig\":{\"enhancements\":{},\"table\":null,\"vis\":{\"params\":{\"colWidth\":[{\"colIndex\":0,\"width\":346.5}]}}},\"panelRefName\":\"panel_eb3fb3c9-5859-4ebf-ae64-b9058d428fd5\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"h\":22,\"i\":\"b9bb56e2-3f2b-45ba-81ff-100223ca82f5\",\"w\":14,\"x\":24,\"y\":58},\"panelIndex\":\"b9bb56e2-3f2b-45ba-81ff-100223ca82f5\",\"embeddableConfig\":{\"enhancements\":{},\"table\":null,\"vis\":{\"params\":{\"colWidth\":[{\"colIndex\":0,\"width\":385}]}}},\"panelRefName\":\"panel_b9bb56e2-3f2b-45ba-81ff-100223ca82f5\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"h\":7,\"i\":\"b14987c6-8897-4ae1-9b6c-d6b2c23cb93c\",\"w\":10,\"x\":38,\"y\":58},\"panelIndex\":\"b14987c6-8897-4ae1-9b6c-d6b2c23cb93c\",\"embeddableConfig\":{\"enhancements\":{}},\"panelRefName\":\"panel_b14987c6-8897-4ae1-9b6c-d6b2c23cb93c\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"h\":15,\"i\":\"8fedf0e7-f7e1-42a8-8225-32561663c8be\",\"w\":10,\"x\":38,\"y\":65},\"panelIndex\":\"8fedf0e7-f7e1-42a8-8225-32561663c8be\",\"embeddableConfig\":{\"enhancements\":{},\"vis\":{\"legendOpen\":false}},\"panelRefName\":\"panel_8fedf0e7-f7e1-42a8-8225-32561663c8be\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"h\":69,\"i\":\"4d491187-78a3-473c-8178-e070361ba4a6\",\"w\":48,\"x\":0,\"y\":80},\"panelIndex\":\"4d491187-78a3-473c-8178-e070361ba4a6\",\"embeddableConfig\":{\"enhancements\":{},\"table\":null,\"vis\":{\"params\":{\"colWidth\":[{\"colIndex\":0,\"width\":427.5}],\"sort\":{\"columnIndex\":4,\"direction\":\"desc\"}}}},\"panelRefName\":\"panel_4d491187-78a3-473c-8178-e070361ba4a6\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"h\":18,\"i\":\"9f8ba5c9-0f1c-4e88-9e6a-3f358ae537c3\",\"w\":11,\"x\":0,\"y\":149},\"panelIndex\":\"9f8ba5c9-0f1c-4e88-9e6a-3f358ae537c3\",\"embeddableConfig\":{\"enhancements\":{}},\"panelRefName\":\"panel_9f8ba5c9-0f1c-4e88-9e6a-3f358ae537c3\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"h\":18,\"i\":\"6c97ccba-249f-4927-b912-3d81a26e3db1\",\"w\":37,\"x\":11,\"y\":149},\"panelIndex\":\"6c97ccba-249f-4927-b912-3d81a26e3db1\",\"embeddableConfig\":{\"enhancements\":{},\"vis\":{\"legendOpen\":false}},\"panelRefName\":\"panel_6c97ccba-249f-4927-b912-3d81a26e3db1\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"h\":48,\"i\":\"14242e24-8381-49b5-b069-355f99946950\",\"w\":24,\"x\":0,\"y\":167},\"panelIndex\":\"14242e24-8381-49b5-b069-355f99946950\",\"embeddableConfig\":{\"enhancements\":{}},\"panelRefName\":\"panel_14242e24-8381-49b5-b069-355f99946950\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"h\":48,\"i\":\"3a71830b-5d61-489e-a18c-16a8a78fa2da\",\"w\":24,\"x\":24,\"y\":167},\"panelIndex\":\"3a71830b-5d61-489e-a18c-16a8a78fa2da\",\"embeddableConfig\":{\"enhancements\":{}},\"panelRefName\":\"panel_3a71830b-5d61-489e-a18c-16a8a78fa2da\"}]",
+        "description": "Tableau de bord Cambridge \"Master Title Reports\" et \"Total_Item_Requests\". V1.1 _ CollEx-Persée Sc. Po.",
+        "panelsJSON": "[{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"h\":16,\"i\":\"f008f235-6bc5-43d5-98d9-9e0364035ab4\",\"w\":20,\"x\":0,\"y\":0},\"panelIndex\":\"f008f235-6bc5-43d5-98d9-9e0364035ab4\",\"embeddableConfig\":{\"enhancements\":{}},\"panelRefName\":\"panel_f008f235-6bc5-43d5-98d9-9e0364035ab4\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"h\":16,\"i\":\"e76cbb57-e7e4-40a7-b531-fcd5c2c43233\",\"w\":8,\"x\":20,\"y\":0},\"panelIndex\":\"e76cbb57-e7e4-40a7-b531-fcd5c2c43233\",\"embeddableConfig\":{\"enhancements\":{},\"table\":null,\"vis\":{\"legendOpen\":false}},\"panelRefName\":\"panel_e76cbb57-e7e4-40a7-b531-fcd5c2c43233\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"h\":16,\"i\":\"d9a69ead-e5d1-48d2-863f-28c28b8242ca\",\"w\":20,\"x\":28,\"y\":0},\"panelIndex\":\"d9a69ead-e5d1-48d2-863f-28c28b8242ca\",\"embeddableConfig\":{\"enhancements\":{}},\"panelRefName\":\"panel_d9a69ead-e5d1-48d2-863f-28c28b8242ca\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"h\":6,\"i\":\"2618df8f-d280-4cf7-9ddf-0e3f3eec487f\",\"w\":48,\"x\":0,\"y\":16},\"panelIndex\":\"2618df8f-d280-4cf7-9ddf-0e3f3eec487f\",\"embeddableConfig\":{\"enhancements\":{}},\"panelRefName\":\"panel_2618df8f-d280-4cf7-9ddf-0e3f3eec487f\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"h\":15,\"i\":\"7d933306-d81c-4067-943c-eef83f9beb3e\",\"w\":12,\"x\":0,\"y\":28},\"panelIndex\":\"7d933306-d81c-4067-943c-eef83f9beb3e\",\"embeddableConfig\":{\"enhancements\":{},\"vis\":{\"legendOpen\":true}},\"panelRefName\":\"panel_7d933306-d81c-4067-943c-eef83f9beb3e\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"h\":15,\"i\":\"0e6cb719-6486-4620-ac58-bc97a537b26e\",\"w\":12,\"x\":12,\"y\":28},\"panelIndex\":\"0e6cb719-6486-4620-ac58-bc97a537b26e\",\"embeddableConfig\":{\"enhancements\":{},\"table\":null,\"vis\":{\"colors\":{\"Controlled\":\"#c5b79c\",\"OA_Gold\":\"#ddca73\",\"__missing__\":\"#b0c9e0\"},\"legendOpen\":true}},\"panelRefName\":\"panel_0e6cb719-6486-4620-ac58-bc97a537b26e\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"h\":15,\"i\":\"63f6f6b9-b029-47d3-b589-16fc9069ee85\",\"w\":12,\"x\":24,\"y\":28},\"panelIndex\":\"63f6f6b9-b029-47d3-b589-16fc9069ee85\",\"embeddableConfig\":{\"enhancements\":{},\"table\":null,\"vis\":{\"colors\":{\"Article\":\"#8dccbb\",\"Chapter\":\"#b87f72\",\"Other\":\"#d5b2ab\",\"__missing__\":\"#b0c9e0\"},\"legendOpen\":true}},\"panelRefName\":\"panel_63f6f6b9-b029-47d3-b589-16fc9069ee85\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"h\":15,\"i\":\"ac7146ca-995b-4db1-8fb2-3aff7696e423\",\"w\":12,\"x\":36,\"y\":28},\"panelIndex\":\"ac7146ca-995b-4db1-8fb2-3aff7696e423\",\"embeddableConfig\":{\"enhancements\":{},\"table\":null,\"vis\":{\"colors\":{\"Book\":\"#e09e64\",\"Journal\":\"#b6a0d0\",\"Newspaper_or_Newsletter\":\"#9170b8\",\"Report\":\"#aa6556\",\"__missing__\":\"#b0c9e0\"},\"legendOpen\":true}},\"panelRefName\":\"panel_ac7146ca-995b-4db1-8fb2-3aff7696e423\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"h\":21,\"i\":\"68215572-6855-4ee7-9a6a-b8d9cadd344a\",\"w\":48,\"x\":0,\"y\":43},\"panelIndex\":\"68215572-6855-4ee7-9a6a-b8d9cadd344a\",\"embeddableConfig\":{\"enhancements\":{},\"table\":null,\"vis\":{\"colors\":{\"INS2I\":\"#447EBC\",\"INSB-INEE\":\"#71c0aa\",\"Tout BibCNRS\":\"#6092c0\"},\"legendOpen\":true}},\"panelRefName\":\"panel_68215572-6855-4ee7-9a6a-b8d9cadd344a\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"h\":22,\"i\":\"72a798cf-4d2b-4498-a59b-3927e5cf530f\",\"w\":11,\"x\":0,\"y\":64},\"panelIndex\":\"72a798cf-4d2b-4498-a59b-3927e5cf530f\",\"embeddableConfig\":{\"enhancements\":{},\"vis\":{\"params\":{\"colWidth\":[{\"colIndex\":0,\"width\":266}]}}},\"panelRefName\":\"panel_72a798cf-4d2b-4498-a59b-3927e5cf530f\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"h\":22,\"i\":\"eb3fb3c9-5859-4ebf-ae64-b9058d428fd5\",\"w\":13,\"x\":11,\"y\":64},\"panelIndex\":\"eb3fb3c9-5859-4ebf-ae64-b9058d428fd5\",\"embeddableConfig\":{\"enhancements\":{},\"table\":null,\"vis\":{\"params\":{\"colWidth\":[{\"colIndex\":0,\"width\":346.5}]}}},\"panelRefName\":\"panel_eb3fb3c9-5859-4ebf-ae64-b9058d428fd5\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"h\":22,\"i\":\"b9bb56e2-3f2b-45ba-81ff-100223ca82f5\",\"w\":14,\"x\":24,\"y\":64},\"panelIndex\":\"b9bb56e2-3f2b-45ba-81ff-100223ca82f5\",\"embeddableConfig\":{\"enhancements\":{},\"table\":null,\"vis\":{\"params\":{\"colWidth\":[{\"colIndex\":0,\"width\":385}]}}},\"panelRefName\":\"panel_b9bb56e2-3f2b-45ba-81ff-100223ca82f5\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"h\":7,\"i\":\"b14987c6-8897-4ae1-9b6c-d6b2c23cb93c\",\"w\":10,\"x\":38,\"y\":64},\"panelIndex\":\"b14987c6-8897-4ae1-9b6c-d6b2c23cb93c\",\"embeddableConfig\":{\"enhancements\":{}},\"panelRefName\":\"panel_b14987c6-8897-4ae1-9b6c-d6b2c23cb93c\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"h\":15,\"i\":\"8fedf0e7-f7e1-42a8-8225-32561663c8be\",\"w\":10,\"x\":38,\"y\":71},\"panelIndex\":\"8fedf0e7-f7e1-42a8-8225-32561663c8be\",\"embeddableConfig\":{\"enhancements\":{},\"vis\":{\"legendOpen\":false}},\"panelRefName\":\"panel_8fedf0e7-f7e1-42a8-8225-32561663c8be\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"h\":69,\"i\":\"4d491187-78a3-473c-8178-e070361ba4a6\",\"w\":48,\"x\":0,\"y\":86},\"panelIndex\":\"4d491187-78a3-473c-8178-e070361ba4a6\",\"embeddableConfig\":{\"enhancements\":{},\"table\":null,\"vis\":{\"params\":{\"colWidth\":[{\"colIndex\":0,\"width\":427.5}],\"sort\":{\"columnIndex\":4,\"direction\":\"desc\"}}}},\"panelRefName\":\"panel_4d491187-78a3-473c-8178-e070361ba4a6\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"h\":18,\"i\":\"9f8ba5c9-0f1c-4e88-9e6a-3f358ae537c3\",\"w\":11,\"x\":0,\"y\":155},\"panelIndex\":\"9f8ba5c9-0f1c-4e88-9e6a-3f358ae537c3\",\"embeddableConfig\":{\"enhancements\":{}},\"panelRefName\":\"panel_9f8ba5c9-0f1c-4e88-9e6a-3f358ae537c3\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"h\":18,\"i\":\"6c97ccba-249f-4927-b912-3d81a26e3db1\",\"w\":37,\"x\":11,\"y\":155},\"panelIndex\":\"6c97ccba-249f-4927-b912-3d81a26e3db1\",\"embeddableConfig\":{\"enhancements\":{},\"vis\":{\"legendOpen\":false}},\"panelRefName\":\"panel_6c97ccba-249f-4927-b912-3d81a26e3db1\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"h\":48,\"i\":\"14242e24-8381-49b5-b069-355f99946950\",\"w\":24,\"x\":0,\"y\":173},\"panelIndex\":\"14242e24-8381-49b5-b069-355f99946950\",\"embeddableConfig\":{\"enhancements\":{}},\"panelRefName\":\"panel_14242e24-8381-49b5-b069-355f99946950\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"h\":48,\"i\":\"3a71830b-5d61-489e-a18c-16a8a78fa2da\",\"w\":24,\"x\":24,\"y\":173},\"panelIndex\":\"3a71830b-5d61-489e-a18c-16a8a78fa2da\",\"embeddableConfig\":{\"enhancements\":{}},\"panelRefName\":\"panel_3a71830b-5d61-489e-a18c-16a8a78fa2da\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":0,\"y\":22,\"w\":48,\"h\":6,\"i\":\"2e139877-f538-4586-b1d9-961800d92363\"},\"panelIndex\":\"2e139877-f538-4586-b1d9-961800d92363\",\"embeddableConfig\":{\"enhancements\":{},\"timeRange\":{\"from\":\"2020-12-17T13:35:53.875Z\",\"to\":\"2022-01-16T08:53:39.001Z\"}},\"panelRefName\":\"panel_2e139877-f538-4586-b1d9-961800d92363\"}]",
         "optionsJSON": "{\"hidePanelTitles\":false,\"syncColors\":true,\"useMargins\":true}",
         "version": 1,
         "timeRestore": true,
@@ -24,7 +24,7 @@
           "value": 0
         },
         "kibanaSavedObjectMeta": {
-          "searchSourceJSON": "{\"query\":{\"language\":\"kuery\",\"query\":\"\"},\"filter\":[{\"$state\":{\"store\":\"appState\"},\"meta\":{\"alias\":null,\"disabled\":false,\"key\":\"Report_Header.Report_ID\",\"negate\":false,\"params\":{\"query\":\"TR\"},\"type\":\"phrase\",\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.filter[0].meta.index\"},\"query\":{\"match_phrase\":{\"Report_Header.Report_ID\":\"TR\"}}},{\"$state\":{\"store\":\"appState\"},\"meta\":{\"alias\":null,\"disabled\":false,\"key\":\"Metric_Type\",\"negate\":false,\"params\":{\"query\":\"Total_Item_Requests\"},\"type\":\"phrase\",\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.filter[1].meta.index\"},\"query\":{\"match_phrase\":{\"Metric_Type\":\"Total_Item_Requests\"}}},{\"$state\":{\"store\":\"appState\"},\"meta\":{\"alias\":null,\"disabled\":false,\"key\":\"Platform\",\"negate\":false,\"params\":{\"query\":\"Cambridge Core\"},\"type\":\"phrase\",\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.filter[2].meta.index\"},\"query\":{\"match_phrase\":{\"Platform\":\"Cambridge Core\"}}},{\"$state\":{\"store\":\"appState\"},\"meta\":{\"alias\":\"Collex-Persée_Cambridge University Presse_Sciences politiques\",\"disabled\":false,\"key\":\"query\",\"negate\":false,\"type\":\"custom\",\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.filter[3].meta.index\"},\"query\":{\"bool\":{\"minimum_should_match\":1,\"should\":[{\"match_phrase\":{\"Title\":\"Justice in International Law\"}},{\"match_phrase\":{\"Title\":\"Global Norms with a Local Face\"}},{\"match_phrase\":{\"Title\":\"The Role of ‘Experts' in International and European DecisionMaking Processes\"}},{\"match_phrase\":{\"Title\":\"The Economics of Violence\"}},{\"match_phrase\":{\"Title\":\"Conceptual and Contextual Perspectives on the Modern Law of Treaties\"}},{\"match_phrase\":{\"Title\":\"Tallinn Manual 2.0 on the International Law Applicable to Cyber Operations\"}},{\"match_phrase\":{\"Title\":\"The South China Sea\"}},{\"match_phrase\":{\"Title\":\"State Responsibility\"}},{\"match_phrase\":{\"Title\":\"Diplomacy and the Making of World Politics\"}},{\"match_phrase\":{\"Title\":\"Narrative and the Making of US National Security\"}},{\"match_phrase\":{\"Title\":\"Foreign Investment and the Environment in International Law\"}},{\"match_phrase\":{\"Title\":\"Emotions in International Politics\"}},{\"match_phrase\":{\"Title\":\"How Dictatorships Work\"}},{\"match_phrase\":{\"Title\":\"The Europeanization of Politics\"}},{\"match_phrase\":{\"Title\":\"Cyber Mercenaries\"}},{\"match_phrase\":{\"Title\":\"Globalisation and Governance\"}},{\"match_phrase\":{\"Title\":\"Soft War\"}},{\"match_phrase\":{\"Title\":\"State Formations\"}},{\"match_phrase\":{\"Title\":\"A Republican Europe of States\"}},{\"match_phrase\":{\"Title\":\"Strengthening Electoral Integrity\"}},{\"match_phrase\":{\"Title\":\"Max Weber and International Relations\"}},{\"match_phrase\":{\"Title\":\"Hierarchies in World Politics\"}},{\"match_phrase\":{\"Title\":\"FacetoFace Diplomacy\"}},{\"match_phrase\":{\"Title\":\"Islam, Authoritarianism, and Underdevelopment\"}},{\"match_phrase\":{\"Title\":\"World Ordering\"}},{\"match_phrase\":{\"Title\":\"Organizing Against Democracy\"}},{\"match_phrase\":{\"Title\":\"The Cambridge Handbook of Immunities and International Law\"}},{\"match_phrase\":{\"Title\":\"Commentary on the Second Geneva Convention\"}},{\"match_phrase\":{\"Title\":\"Varieties of Democracy\"}},{\"match_phrase\":{\"Title\":\"Multilevel Democracy\"}},{\"match_phrase\":{\"Title\":\"Activists Forever?\"}},{\"match_phrase\":{\"Title\":\"The Prevention Principle in International Environmental Law\"}},{\"match_phrase\":{\"Title\":\"Hooked\"}},{\"match_phrase\":{\"Title\":\"Civil War in Syria\"}},{\"match_phrase\":{\"Title\":\"Legitimacy and International Courts\"}},{\"match_phrase\":{\"Title\":\"Cultural Backlash\"}},{\"match_phrase\":{\"Title\":\"Life after Dictatorship\"}},{\"match_phrase\":{\"Title\":\"Reasoning of State\"}},{\"match_phrase\":{\"Title\":\"When Movements Become Parties\"}},{\"match_phrase\":{\"Title\":\"1989\"}},{\"match_phrase\":{\"Title\":\"Global International Society\"}},{\"match_phrase\":{\"Title\":\"Globalization Matters\"}},{\"match_phrase\":{\"Title\":\"Transforming Gender Citizenship\"}},{\"match_phrase\":{\"Title\":\"China's Strategic Multilateralism\"}},{\"match_phrase\":{\"Title\":\"Europe's Burden\"}},{\"match_phrase\":{\"Title\":\"In Search of Good Energy Policy\"}},{\"match_phrase\":{\"Title\":\"Practice Theory and International Relations\"}},{\"match_phrase\":{\"Title\":\"Power in Peacekeeping\"}},{\"match_phrase\":{\"Title\":\"The Rise and Fall of Political Orders\"}},{\"match_phrase\":{\"Title\":\"Cultural Evolution\"}},{\"match_phrase\":{\"Title\":\"Street Citizens\"}},{\"match_phrase\":{\"Title\":\"The Crisis behind the Eurocrisis\"}},{\"match_phrase\":{\"Title\":\"The Internal Market and the Future of European Integration\"}},{\"match_phrase\":{\"Title\":\"Constitutional Identity in a Europe of Multilevel Constitutionalism\"}},{\"match_phrase\":{\"Title\":\"European Party Politics in Times of Crisis\"}},{\"match_phrase\":{\"Title\":\"Environmental Rights\"}},{\"match_phrase\":{\"Title\":\"The Historical Roots of Political Violence\"}},{\"match_phrase\":{\"Title\":\"Power Diffusion and Democracy\"}},{\"match_phrase\":{\"Title\":\"Warning about War\"}},{\"match_phrase\":{\"Title\":\"Student Revolt in 1968\"}},{\"match_phrase\":{\"Title\":\"Culture and Order in World Politics\"}},{\"match_phrase\":{\"Title\":\"EU Law in Populist Times\"}},{\"match_phrase\":{\"Title\":\"Selling War and Peace\"}},{\"match_phrase\":{\"Title\":\"The Politics of Institutional Weakness in Latin America\"}},{\"match_phrase\":{\"Title\":\"On Nuclear Weapons: Denuclearization, Demilitarization and Disarmament\"}},{\"match_phrase\":{\"Title\":\"Cyber Operations and International Law\"}},{\"match_phrase\":{\"Title\":\"Private Governance and Public Authority\"}},{\"match_phrase\":{\"Title\":\"Hyperactive Governance\"}},{\"match_phrase\":{\"Title\":\"Population and Politics\"}},{\"match_phrase\":{\"Title\":\"Migration and Integration\"}},{\"match_phrase\":{\"Title\":\"Political Survival and Sovereignty in International Relations\"}},{\"match_phrase\":{\"Title\":\"Mobilising International Law for 'Global Justice'\"}},{\"match_phrase\":{\"Title\":\"Transnational Cosmopolitanism\"}},{\"match_phrase\":{\"Title\":\"Anatomies of Revolution\"}},{\"match_phrase\":{\"Title\":\"Food or War\"}},{\"match_phrase\":{\"Title\":\"Ukraine and Russia\"}},{\"match_phrase\":{\"Title\":\"The Culture of Military Organizations\"}},{\"match_phrase\":{\"Title\":\"The Struggle Over Borders\"}},{\"match_phrase\":{\"Title\":\"Central and Southeast European Politics since 1989\"}},{\"match_phrase\":{\"Title\":\"Who Wants What?\"}},{\"match_phrase\":{\"Title\":\"The Art of Political Control in China\"}},{\"match_phrase\":{\"Title\":\"The Making of Global International Relations\"}},{\"match_phrase\":{\"Title\":\"Revolution and Reaction\"}},{\"match_phrase\":{\"Title\":\"Can America Govern Itself?\"}},{\"match_phrase\":{\"Title\":\"The Transformation of Europe\"}},{\"match_phrase\":{\"Title\":\"Anthropocene Encounters: New Directions in Green Political Thinking\"}},{\"match_phrase\":{\"Title\":\"Hybrid Regimes within Democracies\"}},{\"match_phrase\":{\"Title\":\"The Analogy between States and International Organizations\"}},{\"match_phrase\":{\"Title\":\"Electoral Politics in Africa since 1990\"}},{\"match_phrase\":{\"Title\":\"Russia Against the Rest\"}},{\"match_phrase\":{\"Title\":\"Beyond Human Rights\"}},{\"match_phrase\":{\"Title\":\"Global Historical Sociology\"}},{\"match_phrase\":{\"Title\":\"The United Nations, Peace and Security\"}},{\"match_phrase\":{\"Title\":\"International Law and New Wars\"}},{\"match_phrase\":{\"Title\":\"Principles of Conflict Economics\"}},{\"match_phrase\":{\"Title\":\"Where Did the Revolution Go?\"}},{\"match_phrase\":{\"Title\":\"The Ideology of Failed States\"}},{\"match_phrase\":{\"Title\":\"To Govern China\"}},{\"match_phrase\":{\"Title\":\"International Negotiation\"}},{\"match_phrase\":{\"Title\":\"Europe and the Decline of Social Democracy in Britain: From Attlee to Brexit\"}},{\"match_phrase\":{\"Title\":\"French Scientific and Cultural Diplomacy\"}},{\"match_phrase\":{\"Title\":\"Handling Climate Displacement\"}},{\"match_phrase\":{\"Title\":\"Alien Citizens\"}},{\"match_phrase\":{\"Title\":\"Climate Change and Ocean Governance\"}},{\"match_phrase\":{\"Title\":\"Crises of Democracy\"}},{\"match_phrase\":{\"Title\":\"How Negotiations End\"}},{\"match_phrase\":{\"Title\":\"Professional Networks in Transnational Governance\"}},{\"match_phrase\":{\"Title\":\"Promoting Democracy, Reinforcing Authoritarianism\"}},{\"match_phrase\":{\"Title\":\"Restraint in International Politics\"}},{\"match_phrase\":{\"Title\":\"Sovereignty in China\"}},{\"match_phrase\":{\"Title\":\"The Cambridge Handbook of Disaster Risk Reduction and International Law\"}},{\"match_phrase\":{\"Title\":\"Conservative Parties and the Birth of Democracy\"}},{\"match_phrase\":{\"Title\":\"The Future of Economic and Social Rights\"}},{\"match_phrase\":{\"Title\":\"The Future of International Economic Integration\"}},{\"match_phrase\":{\"Title\":\"The Politics of the Core Leader in China\"}},{\"match_phrase\":{\"Title\":\"Why America Loses Wars\"}},{\"match_phrase\":{\"Title\":\"In the Shadow of the Cold War\"}},{\"match_phrase\":{\"Title\":\"Saudi Arabia in Transition\"}},{\"match_phrase\":{\"Title\":\"Comparative Perspectives on Social Movements\"}},{\"match_phrase\":{\"Title\":\"The Global Cold War\"}},{\"match_phrase\":{\"Title\":\"West European Politics in the Age of Globalization\"}},{\"match_phrase\":{\"Title\":\"The Politics of Collective Violence\"}},{\"match_phrase\":{\"Title\":\"The Retreat of the State\"}},{\"match_phrase\":{\"Title\":\"Populist Radical Right Parties in Europe\"}},{\"match_phrase\":{\"Title\":\"Regimes of Inequality\"}}]}}}]}"
+          "searchSourceJSON": "{\"query\":{\"query\":\"\",\"language\":\"kuery\"},\"filter\":[{\"$state\":{\"store\":\"appState\"},\"meta\":{\"alias\":null,\"disabled\":false,\"key\":\"Report_Header.Report_ID\",\"negate\":false,\"params\":{\"query\":\"TR\"},\"type\":\"phrase\",\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.filter[0].meta.index\"},\"query\":{\"match_phrase\":{\"Report_Header.Report_ID\":\"TR\"}}},{\"$state\":{\"store\":\"appState\"},\"meta\":{\"alias\":null,\"disabled\":false,\"key\":\"Platform\",\"negate\":false,\"params\":{\"query\":\"Cambridge Core\"},\"type\":\"phrase\",\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.filter[1].meta.index\"},\"query\":{\"match_phrase\":{\"Platform\":\"Cambridge Core\"}}},{\"$state\":{\"store\":\"appState\"},\"meta\":{\"alias\":\"Collex-Persée_Cambridge University Presse_Sciences politiques\",\"disabled\":false,\"key\":\"query\",\"negate\":false,\"type\":\"custom\",\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.filter[2].meta.index\"},\"query\":{\"bool\":{\"minimum_should_match\":1,\"should\":[{\"match_phrase\":{\"Title\":\"Justice in International Law\"}},{\"match_phrase\":{\"Title\":\"Global Norms with a Local Face\"}},{\"match_phrase\":{\"Title\":\"The Role of ‘Experts' in International and European DecisionMaking Processes\"}},{\"match_phrase\":{\"Title\":\"The Economics of Violence\"}},{\"match_phrase\":{\"Title\":\"Conceptual and Contextual Perspectives on the Modern Law of Treaties\"}},{\"match_phrase\":{\"Title\":\"Tallinn Manual 2.0 on the International Law Applicable to Cyber Operations\"}},{\"match_phrase\":{\"Title\":\"The South China Sea\"}},{\"match_phrase\":{\"Title\":\"State Responsibility\"}},{\"match_phrase\":{\"Title\":\"Diplomacy and the Making of World Politics\"}},{\"match_phrase\":{\"Title\":\"Narrative and the Making of US National Security\"}},{\"match_phrase\":{\"Title\":\"Foreign Investment and the Environment in International Law\"}},{\"match_phrase\":{\"Title\":\"Emotions in International Politics\"}},{\"match_phrase\":{\"Title\":\"How Dictatorships Work\"}},{\"match_phrase\":{\"Title\":\"The Europeanization of Politics\"}},{\"match_phrase\":{\"Title\":\"Cyber Mercenaries\"}},{\"match_phrase\":{\"Title\":\"Globalisation and Governance\"}},{\"match_phrase\":{\"Title\":\"Soft War\"}},{\"match_phrase\":{\"Title\":\"State Formations\"}},{\"match_phrase\":{\"Title\":\"A Republican Europe of States\"}},{\"match_phrase\":{\"Title\":\"Strengthening Electoral Integrity\"}},{\"match_phrase\":{\"Title\":\"Max Weber and International Relations\"}},{\"match_phrase\":{\"Title\":\"Hierarchies in World Politics\"}},{\"match_phrase\":{\"Title\":\"FacetoFace Diplomacy\"}},{\"match_phrase\":{\"Title\":\"Islam, Authoritarianism, and Underdevelopment\"}},{\"match_phrase\":{\"Title\":\"World Ordering\"}},{\"match_phrase\":{\"Title\":\"Organizing Against Democracy\"}},{\"match_phrase\":{\"Title\":\"The Cambridge Handbook of Immunities and International Law\"}},{\"match_phrase\":{\"Title\":\"Commentary on the Second Geneva Convention\"}},{\"match_phrase\":{\"Title\":\"Varieties of Democracy\"}},{\"match_phrase\":{\"Title\":\"Multilevel Democracy\"}},{\"match_phrase\":{\"Title\":\"Activists Forever?\"}},{\"match_phrase\":{\"Title\":\"The Prevention Principle in International Environmental Law\"}},{\"match_phrase\":{\"Title\":\"Hooked\"}},{\"match_phrase\":{\"Title\":\"Civil War in Syria\"}},{\"match_phrase\":{\"Title\":\"Legitimacy and International Courts\"}},{\"match_phrase\":{\"Title\":\"Cultural Backlash\"}},{\"match_phrase\":{\"Title\":\"Life after Dictatorship\"}},{\"match_phrase\":{\"Title\":\"Reasoning of State\"}},{\"match_phrase\":{\"Title\":\"When Movements Become Parties\"}},{\"match_phrase\":{\"Title\":\"1989\"}},{\"match_phrase\":{\"Title\":\"Global International Society\"}},{\"match_phrase\":{\"Title\":\"Globalization Matters\"}},{\"match_phrase\":{\"Title\":\"Transforming Gender Citizenship\"}},{\"match_phrase\":{\"Title\":\"China's Strategic Multilateralism\"}},{\"match_phrase\":{\"Title\":\"Europe's Burden\"}},{\"match_phrase\":{\"Title\":\"In Search of Good Energy Policy\"}},{\"match_phrase\":{\"Title\":\"Practice Theory and International Relations\"}},{\"match_phrase\":{\"Title\":\"Power in Peacekeeping\"}},{\"match_phrase\":{\"Title\":\"The Rise and Fall of Political Orders\"}},{\"match_phrase\":{\"Title\":\"Cultural Evolution\"}},{\"match_phrase\":{\"Title\":\"Street Citizens\"}},{\"match_phrase\":{\"Title\":\"The Crisis behind the Eurocrisis\"}},{\"match_phrase\":{\"Title\":\"The Internal Market and the Future of European Integration\"}},{\"match_phrase\":{\"Title\":\"Constitutional Identity in a Europe of Multilevel Constitutionalism\"}},{\"match_phrase\":{\"Title\":\"European Party Politics in Times of Crisis\"}},{\"match_phrase\":{\"Title\":\"Environmental Rights\"}},{\"match_phrase\":{\"Title\":\"The Historical Roots of Political Violence\"}},{\"match_phrase\":{\"Title\":\"Power Diffusion and Democracy\"}},{\"match_phrase\":{\"Title\":\"Warning about War\"}},{\"match_phrase\":{\"Title\":\"Student Revolt in 1968\"}},{\"match_phrase\":{\"Title\":\"Culture and Order in World Politics\"}},{\"match_phrase\":{\"Title\":\"EU Law in Populist Times\"}},{\"match_phrase\":{\"Title\":\"Selling War and Peace\"}},{\"match_phrase\":{\"Title\":\"The Politics of Institutional Weakness in Latin America\"}},{\"match_phrase\":{\"Title\":\"On Nuclear Weapons: Denuclearization, Demilitarization and Disarmament\"}},{\"match_phrase\":{\"Title\":\"Cyber Operations and International Law\"}},{\"match_phrase\":{\"Title\":\"Private Governance and Public Authority\"}},{\"match_phrase\":{\"Title\":\"Hyperactive Governance\"}},{\"match_phrase\":{\"Title\":\"Population and Politics\"}},{\"match_phrase\":{\"Title\":\"Migration and Integration\"}},{\"match_phrase\":{\"Title\":\"Political Survival and Sovereignty in International Relations\"}},{\"match_phrase\":{\"Title\":\"Mobilising International Law for 'Global Justice'\"}},{\"match_phrase\":{\"Title\":\"Transnational Cosmopolitanism\"}},{\"match_phrase\":{\"Title\":\"Anatomies of Revolution\"}},{\"match_phrase\":{\"Title\":\"Food or War\"}},{\"match_phrase\":{\"Title\":\"Ukraine and Russia\"}},{\"match_phrase\":{\"Title\":\"The Culture of Military Organizations\"}},{\"match_phrase\":{\"Title\":\"The Struggle Over Borders\"}},{\"match_phrase\":{\"Title\":\"Central and Southeast European Politics since 1989\"}},{\"match_phrase\":{\"Title\":\"Who Wants What?\"}},{\"match_phrase\":{\"Title\":\"The Art of Political Control in China\"}},{\"match_phrase\":{\"Title\":\"The Making of Global International Relations\"}},{\"match_phrase\":{\"Title\":\"Revolution and Reaction\"}},{\"match_phrase\":{\"Title\":\"Can America Govern Itself?\"}},{\"match_phrase\":{\"Title\":\"The Transformation of Europe\"}},{\"match_phrase\":{\"Title\":\"Anthropocene Encounters: New Directions in Green Political Thinking\"}},{\"match_phrase\":{\"Title\":\"Hybrid Regimes within Democracies\"}},{\"match_phrase\":{\"Title\":\"The Analogy between States and International Organizations\"}},{\"match_phrase\":{\"Title\":\"Electoral Politics in Africa since 1990\"}},{\"match_phrase\":{\"Title\":\"Russia Against the Rest\"}},{\"match_phrase\":{\"Title\":\"Beyond Human Rights\"}},{\"match_phrase\":{\"Title\":\"Global Historical Sociology\"}},{\"match_phrase\":{\"Title\":\"The United Nations, Peace and Security\"}},{\"match_phrase\":{\"Title\":\"International Law and New Wars\"}},{\"match_phrase\":{\"Title\":\"Principles of Conflict Economics\"}},{\"match_phrase\":{\"Title\":\"Where Did the Revolution Go?\"}},{\"match_phrase\":{\"Title\":\"The Ideology of Failed States\"}},{\"match_phrase\":{\"Title\":\"To Govern China\"}},{\"match_phrase\":{\"Title\":\"International Negotiation\"}},{\"match_phrase\":{\"Title\":\"Europe and the Decline of Social Democracy in Britain: From Attlee to Brexit\"}},{\"match_phrase\":{\"Title\":\"French Scientific and Cultural Diplomacy\"}},{\"match_phrase\":{\"Title\":\"Handling Climate Displacement\"}},{\"match_phrase\":{\"Title\":\"Alien Citizens\"}},{\"match_phrase\":{\"Title\":\"Climate Change and Ocean Governance\"}},{\"match_phrase\":{\"Title\":\"Crises of Democracy\"}},{\"match_phrase\":{\"Title\":\"How Negotiations End\"}},{\"match_phrase\":{\"Title\":\"Professional Networks in Transnational Governance\"}},{\"match_phrase\":{\"Title\":\"Promoting Democracy, Reinforcing Authoritarianism\"}},{\"match_phrase\":{\"Title\":\"Restraint in International Politics\"}},{\"match_phrase\":{\"Title\":\"Sovereignty in China\"}},{\"match_phrase\":{\"Title\":\"The Cambridge Handbook of Disaster Risk Reduction and International Law\"}},{\"match_phrase\":{\"Title\":\"Conservative Parties and the Birth of Democracy\"}},{\"match_phrase\":{\"Title\":\"The Future of Economic and Social Rights\"}},{\"match_phrase\":{\"Title\":\"The Future of International Economic Integration\"}},{\"match_phrase\":{\"Title\":\"The Politics of the Core Leader in China\"}},{\"match_phrase\":{\"Title\":\"Why America Loses Wars\"}},{\"match_phrase\":{\"Title\":\"In the Shadow of the Cold War\"}},{\"match_phrase\":{\"Title\":\"Saudi Arabia in Transition\"}},{\"match_phrase\":{\"Title\":\"Comparative Perspectives on Social Movements\"}},{\"match_phrase\":{\"Title\":\"The Global Cold War\"}},{\"match_phrase\":{\"Title\":\"West European Politics in the Age of Globalization\"}},{\"match_phrase\":{\"Title\":\"The Politics of Collective Violence\"}},{\"match_phrase\":{\"Title\":\"The Retreat of the State\"}},{\"match_phrase\":{\"Title\":\"Populist Radical Right Parties in Europe\"}},{\"match_phrase\":{\"Title\":\"Regimes of Inequality\"}}]}}},{\"meta\":{\"type\":\"phrase\",\"key\":\"Metric_Type\",\"params\":{\"query\":\"Total_Item_Requests\"},\"disabled\":true,\"negate\":false,\"alias\":null,\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.filter[3].meta.index\"},\"query\":{\"match_phrase\":{\"Metric_Type\":\"Total_Item_Requests\"}},\"$state\":{\"store\":\"appState\"}},{\"meta\":{\"type\":\"phrase\",\"key\":\"Metric_Type\",\"params\":{\"query\":\"Total_Item_Investigations\"},\"disabled\":false,\"negate\":false,\"alias\":null,\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.filter[4].meta.index\"},\"query\":{\"match_phrase\":{\"Metric_Type\":\"Total_Item_Investigations\"}},\"$state\":{\"store\":\"appState\"}}]}"
         }
       },
       "references": [
@@ -45,6 +45,11 @@
         },
         {
           "name": "kibanaSavedObjectMeta.searchSourceJSON.filter[3].meta.index",
+          "type": "index-pattern",
+          "id": "88c6d1e0-902e-11ed-bde4-c52eac763bff"
+        },
+        {
+          "name": "kibanaSavedObjectMeta.searchSourceJSON.filter[4].meta.index",
           "type": "index-pattern",
           "id": "88c6d1e0-902e-11ed-bde4-c52eac763bff"
         },
@@ -144,9 +149,9 @@
           "id": "925a4220-8015-11ec-86a7-b9a4e2d97448"
         },
         {
-          "id": "e53bb030-9024-11ed-bde4-c52eac763bff",
-          "type": "tag",
-          "name": "tag-e53bb030-9024-11ed-bde4-c52eac763bff"
+          "name": "2e139877-f538-4586-b1d9-961800d92363:panel_2e139877-f538-4586-b1d9-961800d92363",
+          "type": "visualization",
+          "id": "7fd6d350-4b31-11ee-8ce4-61ee0b8a2f58"
         },
         {
           "id": "035deca0-dd2c-11ed-8ce4-61ee0b8a2f58",
@@ -171,7 +176,7 @@
         "negociations-publisher"
       ],
       "updated_at": "2023-01-09T15:01:45.603Z",
-      "version": "WzExODM0NTAsMTBd",
+      "version": "WzE4ODI0NzQsMTVd",
       "attributes": {
         "fieldAttrs": "{}",
         "title": "*-publisher",
@@ -193,7 +198,7 @@
         "negociations-publisher"
       ],
       "updated_at": "2023-05-22T09:24:32.985Z",
-      "version": "WzE0MDAxMTAsMTFd",
+      "version": "WzE4ODM4NTksMTVd",
       "attributes": {
         "description": "Accueil du tableau de bord. Présentation rapide et logos.",
         "kibanaSavedObjectMeta": {
@@ -243,7 +248,7 @@
         "negociations-publisher"
       ],
       "updated_at": "2023-05-22T09:24:32.985Z",
-      "version": "WzE0MDAxMTEsMTFd",
+      "version": "WzE4ODM4NjAsMTVd",
       "attributes": {
         "description": "Comptage des éléments de rapports selon le type de rapport",
         "kibanaSavedObjectMeta": {
@@ -298,7 +303,7 @@
         "negociations-publisher"
       ],
       "updated_at": "2023-06-29T08:52:06.711Z",
-      "version": "WzE0OTE3NDksMTFd",
+      "version": "WzE4ODQyMzEsMTVd",
       "attributes": {
         "description": "Affichage du type de métrique COUNTER : la taille du texte est proportionnelle au nombre d'éléments de rapport indexé pour chaque type",
         "kibanaSavedObjectMeta": {
@@ -352,11 +357,11 @@
       "namespaces": [
         "negociations-publisher"
       ],
-      "updated_at": "2023-05-23T06:55:40.001Z",
-      "version": "WzE0MDMwODMsMTFd",
+      "updated_at": "2023-11-03T14:45:48.106Z",
+      "version": "WzE4OTE2MjMsMTVd",
       "attributes": {
         "title": "publisher : indicateurs-généraux-titles",
-        "visState": "{\"title\":\"publisher : indicateurs-généraux-titles\",\"type\":\"metric\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"sum\",\"params\":{\"field\":\"Count\",\"customLabel\":\"éléments de rapport\"},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"cardinality\",\"params\":{\"field\":\"Platform\",\"customLabel\":\"plateformes\"},\"schema\":\"metric\"},{\"id\":\"4\",\"enabled\":true,\"type\":\"cardinality\",\"params\":{\"field\":\"Item_ID.Online_ISSN\",\"customLabel\":\"revues (ISSN)\"},\"schema\":\"metric\"},{\"id\":\"5\",\"enabled\":true,\"type\":\"cardinality\",\"params\":{\"field\":\"Item_ID.ISBN\",\"customLabel\":\"monographies (ISBN)\"},\"schema\":\"metric\"},{\"id\":\"6\",\"enabled\":true,\"type\":\"min\",\"params\":{\"field\":\"X_Date_Month\",\"customLabel\":\"période de\"},\"schema\":\"metric\"},{\"id\":\"7\",\"enabled\":true,\"type\":\"max\",\"params\":{\"field\":\"X_Date_Month\",\"customLabel\":\"à\"},\"schema\":\"metric\"},{\"id\":\"8\",\"enabled\":true,\"type\":\"cardinality\",\"params\":{\"field\":\"_index\",\"customLabel\":\"index établissement\"},\"schema\":\"metric\"}],\"params\":{\"metric\":{\"percentageMode\":false,\"useRanges\":false,\"colorSchema\":\"Green to Red\",\"metricColorMode\":\"None\",\"colorsRange\":[{\"type\":\"range\",\"from\":0,\"to\":10000}],\"labels\":{\"show\":true},\"invertColors\":false,\"style\":{\"bgFill\":\"#000\",\"bgColor\":false,\"labelColor\":false,\"subText\":\"\",\"fontSize\":25}},\"dimensions\":{\"metrics\":[{\"type\":\"vis_dimension\",\"accessor\":0,\"format\":{\"id\":\"number\",\"params\":{}}},{\"type\":\"vis_dimension\",\"accessor\":1,\"format\":{\"id\":\"number\",\"params\":{}}},{\"type\":\"vis_dimension\",\"accessor\":2,\"format\":{\"id\":\"number\",\"params\":{}}},{\"type\":\"vis_dimension\",\"accessor\":3,\"format\":{\"id\":\"number\",\"params\":{}}},{\"type\":\"vis_dimension\",\"accessor\":4,\"format\":{\"id\":\"number\",\"params\":{}}},{\"type\":\"vis_dimension\",\"accessor\":5,\"format\":{\"id\":\"date\",\"params\":{}}},{\"type\":\"vis_dimension\",\"accessor\":6,\"format\":{\"id\":\"date\",\"params\":{}}}]},\"addTooltip\":true,\"addLegend\":false,\"type\":\"metric\"}}",
+        "visState": "{\"title\":\"publisher : indicateurs-généraux-titles\",\"type\":\"metric\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"sum\",\"params\":{\"field\":\"Count\",\"customLabel\":\"éléments de rapport\"},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"cardinality\",\"params\":{\"field\":\"Platform\",\"customLabel\":\"plateformes\"},\"schema\":\"metric\"},{\"id\":\"9\",\"enabled\":true,\"type\":\"cardinality\",\"params\":{\"field\":\"Item_ID.Print_ISSN\",\"customLabel\":\"revues (p-ISSN)\"},\"schema\":\"metric\"},{\"id\":\"4\",\"enabled\":true,\"type\":\"cardinality\",\"params\":{\"field\":\"Item_ID.Online_ISSN\",\"customLabel\":\"revues (e-ISSN)\"},\"schema\":\"metric\"},{\"id\":\"5\",\"enabled\":true,\"type\":\"cardinality\",\"params\":{\"field\":\"Item_ID.ISBN\",\"customLabel\":\"monographies (ISBN)\"},\"schema\":\"metric\"},{\"id\":\"6\",\"enabled\":true,\"type\":\"min\",\"params\":{\"field\":\"X_Date_Month\",\"customLabel\":\"période de\"},\"schema\":\"metric\"},{\"id\":\"7\",\"enabled\":true,\"type\":\"max\",\"params\":{\"field\":\"X_Date_Month\",\"customLabel\":\"à\"},\"schema\":\"metric\"},{\"id\":\"8\",\"enabled\":true,\"type\":\"cardinality\",\"params\":{\"field\":\"_index\",\"customLabel\":\"index établissement\"},\"schema\":\"metric\"}],\"params\":{\"metric\":{\"percentageMode\":false,\"useRanges\":false,\"colorSchema\":\"Green to Red\",\"metricColorMode\":\"None\",\"colorsRange\":[{\"type\":\"range\",\"from\":0,\"to\":10000}],\"labels\":{\"show\":true},\"invertColors\":false,\"style\":{\"bgFill\":\"#000\",\"bgColor\":false,\"labelColor\":false,\"subText\":\"\",\"fontSize\":25}},\"dimensions\":{\"metrics\":[{\"type\":\"vis_dimension\",\"accessor\":0,\"format\":{\"id\":\"number\",\"params\":{}}},{\"type\":\"vis_dimension\",\"accessor\":1,\"format\":{\"id\":\"number\",\"params\":{}}},{\"type\":\"vis_dimension\",\"accessor\":2,\"format\":{\"id\":\"number\",\"params\":{}}},{\"type\":\"vis_dimension\",\"accessor\":3,\"format\":{\"id\":\"number\",\"params\":{}}},{\"type\":\"vis_dimension\",\"accessor\":4,\"format\":{\"id\":\"number\",\"params\":{}}},{\"type\":\"vis_dimension\",\"accessor\":5,\"format\":{\"id\":\"date\",\"params\":{}}},{\"type\":\"vis_dimension\",\"accessor\":6,\"format\":{\"id\":\"date\",\"params\":{}}}]},\"addTooltip\":true,\"addLegend\":false,\"type\":\"metric\"}}",
         "uiStateJSON": "{}",
         "description": "Indicateurs généraux pertinents pour les rapports concernant les titres (TR)",
         "version": 1,
@@ -398,7 +403,7 @@
         "negociations-publisher"
       ],
       "updated_at": "2023-05-22T09:24:32.985Z",
-      "version": "WzE0MDAxMTMsMTFd",
+      "version": "WzE4ODM4NjEsMTVd",
       "attributes": {
         "description": "Comptage des éléments de rapports par type d'accès (Regular ou TDM)",
         "kibanaSavedObjectMeta": {
@@ -443,7 +448,7 @@
         "negociations-publisher"
       ],
       "updated_at": "2023-04-04T08:26:24.797Z",
-      "version": "WzEzMDUwODAsMTFd",
+      "version": "WzE4ODMyMjYsMTVd",
       "attributes": {
         "description": "Comptage des éléments de rapports par type d'accès (Controlled/OA_Gold)",
         "uiStateJSON": "{\"vis\":{\"legendOpen\":true}}",
@@ -488,7 +493,7 @@
         "negociations-publisher"
       ],
       "updated_at": "2023-05-22T09:24:32.985Z",
-      "version": "WzE0MDAxMTUsMTFd",
+      "version": "WzE4ODM4NjMsMTVd",
       "attributes": {
         "description": "Comptage des éléments de rapports par type de ressource \"enfant\" (Article / Book / Chapter). Pour le type \"parent\", voir \"data_type\".",
         "kibanaSavedObjectMeta": {
@@ -533,7 +538,7 @@
         "negociations-publisher"
       ],
       "updated_at": "2023-05-22T09:24:32.985Z",
-      "version": "WzE0MDAxMTQsMTFd",
+      "version": "WzE4ODM4NjIsMTVd",
       "attributes": {
         "description": "Comptage des éléments de rapports par type de contenu \"parent\". Pour le type \"enfant\", voir \"section_type\"",
         "kibanaSavedObjectMeta": {
@@ -588,7 +593,7 @@
         "negociations-publisher"
       ],
       "updated_at": "2023-05-23T06:50:55.232Z",
-      "version": "WzE0MDMwMzMsMTFd",
+      "version": "WzE4ODM4ODQsMTVd",
       "attributes": {
         "title": "publisher : chronologie-mois-histo",
         "visState": "{\"title\":\"publisher : chronologie-mois-histo\",\"type\":\"histogram\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"sum\",\"params\":{\"field\":\"Count\",\"customLabel\":\"Éléments de rapport\"},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"date_histogram\",\"params\":{\"field\":\"X_Date_Month\",\"timeRange\":{\"from\":\"2021-12-30T23:21:30.981Z\",\"to\":\"2022-12-31T22:30:00.000Z\"},\"useNormalizedEsInterval\":true,\"scaleMetricValues\":true,\"interval\":\"M\",\"used_interval\":\"1M\",\"drop_partials\":false,\"min_doc_count\":1,\"extended_bounds\":{},\"customLabel\":\"Chronologie (mois)\"},\"schema\":\"segment\"},{\"id\":\"3\",\"enabled\":true,\"type\":\"terms\",\"params\":{\"field\":\"_index\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":25,\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\"},\"schema\":\"group\"},{\"id\":\"4\",\"enabled\":false,\"type\":\"terms\",\"params\":{\"field\":\"Access_Type\",\"orderBy\":\"1\",\"order\":\"asc\",\"size\":5,\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":true,\"missingBucketLabel\":\"Non communiqué\"},\"schema\":\"group\"}],\"params\":{\"type\":\"histogram\",\"grid\":{\"categoryLines\":false},\"categoryAxes\":[{\"id\":\"CategoryAxis-1\",\"type\":\"category\",\"position\":\"bottom\",\"show\":true,\"style\":{},\"scale\":{\"type\":\"linear\"},\"labels\":{\"show\":true,\"filter\":true,\"truncate\":100},\"title\":{}}],\"valueAxes\":[{\"id\":\"ValueAxis-1\",\"name\":\"LeftAxis-1\",\"type\":\"value\",\"position\":\"left\",\"show\":true,\"style\":{},\"scale\":{\"type\":\"linear\",\"mode\":\"normal\"},\"labels\":{\"show\":true,\"rotate\":0,\"filter\":false,\"truncate\":100},\"title\":{\"text\":\"Éléments de rapport\"}}],\"seriesParams\":[{\"show\":\"true\",\"type\":\"histogram\",\"mode\":\"stacked\",\"data\":{\"label\":\"Éléments de rapport\",\"id\":\"1\"},\"valueAxis\":\"ValueAxis-1\",\"drawLinesBetweenPoints\":true,\"showCircles\":true}],\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"times\":[],\"addTimeMarker\":false,\"labels\":{\"show\":true},\"thresholdLine\":{\"show\":false,\"value\":10,\"width\":1,\"style\":\"full\",\"color\":\"#34130C\"},\"dimensions\":{\"x\":{\"accessor\":0,\"format\":{\"id\":\"date\",\"params\":{\"pattern\":\"YYYY-MM-DD\"}},\"params\":{\"date\":true,\"interval\":\"P1M\",\"format\":\"YYYY-MM-DD\",\"bounds\":{\"min\":\"2018-12-27T16:37:47.443Z\",\"max\":\"2020-01-04T05:24:04.193Z\"}},\"aggType\":\"date_histogram\"},\"y\":[{\"accessor\":2,\"format\":{\"id\":\"number\"},\"params\":{},\"aggType\":\"sum\"}],\"series\":[{\"accessor\":1,\"format\":{\"id\":\"terms\",\"params\":{\"id\":\"string\",\"otherBucketLabel\":\"Other\",\"missingBucketLabel\":\"Missing\"}},\"params\":{},\"aggType\":\"terms\"}]},\"palette\":{\"type\":\"palette\",\"name\":\"default\"},\"isVislibVis\":true,\"detailedTooltip\":true,\"radiusRatio\":0}}",
@@ -643,7 +648,7 @@
         "negociations-publisher"
       ],
       "updated_at": "2023-04-07T12:13:42.271Z",
-      "version": "WzEzMTQ0MjMsMTFd",
+      "version": "WzE4ODMyNDYsMTVd",
       "attributes": {
         "title": "publisher : index table",
         "visState": "{\"title\":\"publisher : index table\",\"type\":\"table\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"sum\",\"params\":{\"field\":\"Count\",\"customLabel\":\"éléments de rapport\"},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"params\":{\"field\":\"_index\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":100,\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\",\"customLabel\":\"Index établissement\"},\"schema\":\"bucket\"}],\"params\":{\"perPage\":10,\"showPartialRows\":false,\"showMetricsAtAllLevels\":false,\"sort\":{\"columnIndex\":null,\"direction\":null},\"showTotal\":false,\"totalFunc\":\"sum\",\"percentageCol\":\"\",\"dimensions\":{\"metrics\":[{\"accessor\":1,\"format\":{\"id\":\"number\"},\"params\":{},\"aggType\":\"sum\"}],\"buckets\":[{\"accessor\":0,\"format\":{\"id\":\"terms\",\"params\":{\"id\":\"string\",\"otherBucketLabel\":\"Other\",\"missingBucketLabel\":\"Missing\"}},\"params\":{},\"aggType\":\"terms\"}]},\"showToolbar\":true}}",
@@ -698,7 +703,7 @@
         "negociations-publisher"
       ],
       "updated_at": "2023-06-29T08:52:06.711Z",
-      "version": "WzE0OTE3NDcsMTFd",
+      "version": "WzE4ODQyMjksMTVd",
       "attributes": {
         "description": "Comptage des éléments de rapports par plateforme.",
         "kibanaSavedObjectMeta": {
@@ -753,7 +758,7 @@
         "negociations-publisher"
       ],
       "updated_at": "2023-06-29T08:52:06.711Z",
-      "version": "WzE0OTE3NDgsMTFd",
+      "version": "WzE4ODQyMzAsMTVd",
       "attributes": {
         "description": "Comptage des éléments de rapports par éditeur (top 150)",
         "kibanaSavedObjectMeta": {
@@ -803,7 +808,7 @@
         "negociations-publisher"
       ],
       "updated_at": "2023-05-22T09:24:32.985Z",
-      "version": "WzE0MDAxMTksMTFd",
+      "version": "WzE4ODM4NjQsMTVd",
       "attributes": {
         "description": "Sélecteur d'années de publications (YOP). NB : \"0001\" = non renseigné ; \"9999\" = à paraître / avant-première / online first",
         "kibanaSavedObjectMeta": {
@@ -848,7 +853,7 @@
         "negociations-publisher"
       ],
       "updated_at": "2023-06-29T08:52:06.711Z",
-      "version": "WzE0OTE3NTMsMTFd",
+      "version": "WzE4ODQyMzUsMTVd",
       "attributes": {
         "description": "Comptage des éléments de rapports par année de publication (YOP = year of publication). NB : \"0001\" = non renseigné ; \"9999\" = à paraître.",
         "kibanaSavedObjectMeta": {
@@ -893,7 +898,7 @@
         "negociations-publisher"
       ],
       "updated_at": "2023-06-29T08:52:06.711Z",
-      "version": "WzE0OTE3NTgsMTFd",
+      "version": "WzE4ODQyNDAsMTVd",
       "attributes": {
         "description": "Comptage des éléments de rapports des titres (top 1000)",
         "kibanaSavedObjectMeta": {
@@ -943,7 +948,7 @@
         "negociations-publisher"
       ],
       "updated_at": "2023-05-22T09:24:32.985Z",
-      "version": "WzE0MDAxMjIsMTFd",
+      "version": "WzE4ODM4NjUsMTVd",
       "attributes": {
         "description": "Comptage des éléments de rapports par année de publication (YOP = year of publication). NB : \"0001\" = non renseigné ; \"9999\" = à paraître.",
         "kibanaSavedObjectMeta": {
@@ -988,7 +993,7 @@
         "negociations-publisher"
       ],
       "updated_at": "2023-05-22T09:24:32.985Z",
-      "version": "WzE0MDAxMjMsMTFd",
+      "version": "WzE4ODM4NjYsMTVd",
       "attributes": {
         "description": "Vademecum pour la lecture des données Counter dans le tableau de bord TR générique.",
         "kibanaSavedObjectMeta": {
@@ -1023,7 +1028,7 @@
         "negociations-publisher"
       ],
       "updated_at": "2023-05-22T09:24:32.985Z",
-      "version": "WzE0MDAxMjQsMTFd",
+      "version": "WzE4ODM4NjcsMTVd",
       "attributes": {
         "description": "Vademecum pour le filtrage dans les tableaux de bord.",
         "kibanaSavedObjectMeta": {
@@ -1067,19 +1072,48 @@
       "coreMigrationVersion": "7.14.1"
     },
     {
-      "id": "e53bb030-9024-11ed-bde4-c52eac763bff",
-      "type": "tag",
+      "id": "7fd6d350-4b31-11ee-8ce4-61ee0b8a2f58",
+      "type": "visualization",
       "namespaces": [
         "negociations-publisher"
       ],
-      "updated_at": "2023-01-09T15:02:46.145Z",
-      "version": "WzExODM0NTQsMTBd",
+      "updated_at": "2023-09-04T14:44:06.538Z",
+      "version": "WzE4ODQ3NjMsMTVd",
       "attributes": {
-        "name": "negociation",
-        "description": "",
-        "color": "#de0105"
+        "title": "publisher : indicateurs-généraux-titles (copy 6)",
+        "visState": "{\"title\":\"publisher : indicateurs-généraux-titles\",\"type\":\"metric\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"sum\",\"params\":{\"field\":\"Count\",\"customLabel\":\"éléments de rapport\"},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"cardinality\",\"params\":{\"field\":\"Platform\",\"customLabel\":\"plateformes\"},\"schema\":\"metric\"},{\"id\":\"4\",\"enabled\":true,\"type\":\"cardinality\",\"params\":{\"field\":\"Item_ID.Online_ISSN\",\"customLabel\":\"revues (ISSN)\"},\"schema\":\"metric\"},{\"id\":\"5\",\"enabled\":true,\"type\":\"cardinality\",\"params\":{\"field\":\"Item_ID.ISBN\",\"customLabel\":\"monographies (ISBN)\"},\"schema\":\"metric\"},{\"id\":\"6\",\"enabled\":true,\"type\":\"min\",\"params\":{\"field\":\"X_Date_Month\",\"customLabel\":\"période de\"},\"schema\":\"metric\"},{\"id\":\"7\",\"enabled\":true,\"type\":\"max\",\"params\":{\"field\":\"X_Date_Month\",\"customLabel\":\"à\"},\"schema\":\"metric\"},{\"id\":\"8\",\"enabled\":true,\"type\":\"cardinality\",\"params\":{\"field\":\"_index\",\"customLabel\":\"index établissement\"},\"schema\":\"metric\"}],\"params\":{\"metric\":{\"percentageMode\":false,\"useRanges\":false,\"colorSchema\":\"Green to Red\",\"metricColorMode\":\"None\",\"colorsRange\":[{\"type\":\"range\",\"from\":0,\"to\":10000}],\"labels\":{\"show\":true},\"invertColors\":false,\"style\":{\"bgFill\":\"#000\",\"bgColor\":false,\"labelColor\":false,\"subText\":\"\",\"fontSize\":25}},\"dimensions\":{\"metrics\":[{\"type\":\"vis_dimension\",\"accessor\":0,\"format\":{\"id\":\"number\",\"params\":{}}},{\"type\":\"vis_dimension\",\"accessor\":1,\"format\":{\"id\":\"number\",\"params\":{}}},{\"type\":\"vis_dimension\",\"accessor\":2,\"format\":{\"id\":\"number\",\"params\":{}}},{\"type\":\"vis_dimension\",\"accessor\":3,\"format\":{\"id\":\"number\",\"params\":{}}},{\"type\":\"vis_dimension\",\"accessor\":4,\"format\":{\"id\":\"number\",\"params\":{}}},{\"type\":\"vis_dimension\",\"accessor\":5,\"format\":{\"id\":\"date\",\"params\":{}}},{\"type\":\"vis_dimension\",\"accessor\":6,\"format\":{\"id\":\"date\",\"params\":{}}}]},\"addTooltip\":true,\"addLegend\":false,\"type\":\"metric\"}}",
+        "uiStateJSON": "{}",
+        "description": "Indicateurs généraux pertinents pour les rapports concernant les titres (TR)",
+        "version": 1,
+        "kibanaSavedObjectMeta": {
+          "searchSourceJSON": "{\"query\":{\"query\":\"\",\"language\":\"kuery\"},\"filter\":[],\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.index\"}"
+        }
       },
-      "references": [],
+      "references": [
+        {
+          "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
+          "type": "index-pattern",
+          "id": "88c6d1e0-902e-11ed-bde4-c52eac763bff"
+        },
+        {
+          "id": "fe8ed6a0-d767-11ec-871c-618dc17b393f",
+          "type": "tag",
+          "name": "tag-fe8ed6a0-d767-11ec-871c-618dc17b393f"
+        },
+        {
+          "id": "43a82140-d76a-11ec-871c-618dc17b393f",
+          "type": "tag",
+          "name": "tag-43a82140-d76a-11ec-871c-618dc17b393f"
+        },
+        {
+          "id": "24096260-fea0-11ec-871c-618dc17b393f",
+          "type": "tag",
+          "name": "tag-24096260-fea0-11ec-871c-618dc17b393f"
+        }
+      ],
+      "migrationVersion": {
+        "visualization": "7.14.0"
+      },
       "coreMigrationVersion": "7.14.1"
     },
     {
@@ -1089,7 +1123,7 @@
         "negociations-publisher"
       ],
       "updated_at": "2023-04-17T14:27:42.322Z",
-      "version": "WzEzMzMzMzMsMTFd",
+      "version": "WzE4ODMzODEsMTVd",
       "attributes": {
         "name": "Collex",
         "description": "",
@@ -1105,7 +1139,7 @@
         "negociations-publisher"
       ],
       "updated_at": "2023-04-19T13:00:43.791Z",
-      "version": "WzEzNDAzNzgsMTFd",
+      "version": "WzE4ODM0NzcsMTVd",
       "attributes": {
         "name": "cambridge",
         "description": "",
@@ -1121,7 +1155,7 @@
         "negociations-publisher"
       ],
       "updated_at": "2023-06-29T08:52:06.711Z",
-      "version": "WzE0OTE3NTksMTFd",
+      "version": "WzE4ODQyNDEsMTVd",
       "attributes": {
         "color": "#b0f458",
         "description": "ID Master Title Report + Total_Item_Requests",
@@ -1137,7 +1171,7 @@
         "negociations-publisher"
       ],
       "updated_at": "2023-06-29T08:52:06.711Z",
-      "version": "WzE0OTE3NjMsMTFd",
+      "version": "WzE4ODQyNDUsMTVd",
       "attributes": {
         "color": "#0062b1",
         "description": "ID Master Database Report + Total Item Investigations",
@@ -1153,7 +1187,7 @@
         "negociations-publisher"
       ],
       "updated_at": "2023-06-29T08:52:06.711Z",
-      "version": "WzE0OTE3NjQsMTFd",
+      "version": "WzE4ODQyNDYsMTVd",
       "attributes": {
         "color": "#ffcc00",
         "description": "ID Master Platform Reports + Searches_Platform",
@@ -1169,7 +1203,7 @@
         "negociations-publisher"
       ],
       "updated_at": "2023-06-29T08:52:06.711Z",
-      "version": "WzE0OTE3NjUsMTFd",
+      "version": "WzE4ODQyNDcsMTVd",
       "attributes": {
         "color": "#ba0000",
         "description": "ID Master Title Reports + No_License",
@@ -1185,7 +1219,7 @@
         "negociations-publisher"
       ],
       "updated_at": "2023-06-29T08:52:06.711Z",
-      "version": "WzE0OTE3NjYsMTFd",
+      "version": "WzE4ODQyNDgsMTVd",
       "attributes": {
         "color": "#CA8EAE",
         "description": "ID Master Item Report + Unique Item Requests",
@@ -1201,7 +1235,7 @@
         "negociations-publisher"
       ],
       "updated_at": "2023-06-29T08:52:06.711Z",
-      "version": "WzE0OTE3NjcsMTFd",
+      "version": "WzE4ODQyNDksMTVd",
       "attributes": {
         "color": "#242e33",
         "description": "ID Matrices Rapports indexés",
@@ -1217,7 +1251,7 @@
         "negociations-publisher"
       ],
       "updated_at": "2023-06-29T08:52:06.711Z",
-      "version": "WzE0OTE3NjgsMTFd",
+      "version": "WzE4ODQyNTAsMTVd",
       "attributes": {
         "color": "#c9ffb8",
         "description": "ID Master Title Reports + Total_Item_Investigations",
