@@ -17,7 +17,7 @@
         "optionsJSON": "{\"useMargins\":true,\"hidePanelTitles\":false}",
         "version": 1,
         "timeRestore": true,
-        "timeTo": "2022-01-31T10:14:02.492Z",
+        "timeTo": "now-1y/y",
         "timeFrom": "now-1y/y",
         "refreshInterval": {
           "pause": true,
