@@ -2,36 +2,41 @@
   "version": "7.14.1",
   "objects": [
     {
-      "id": "4559d580-4738-11ee-a310-553397681ae4",
+      "id": "f279cdb0-cff5-11ee-8cd1-99c529ab88cc",
       "type": "dashboard",
       "namespaces": [
-        "b-bibcnrs"
+        "cnrs"
       ],
-      "updated_at": "2023-10-02T08:53:32.068Z",
-      "version": "WzExMDY0NSwxNV0=",
+      "updated_at": "2024-02-20T13:42:53.713Z",
+      "version": "WzIwODE3ODEsMTdd",
       "attributes": {
-        "title": "bibcnrs-*: Tableau de bord des consultations de 2023  enrichissement ezUNPAYWALL OA enrich CNRS",
+        "title": "bibcnrs-*: Tableau de bord des consultations de 2024  enrichissement ezUNPAYWALL OA enrich CNRS",
         "hits": 0,
         "description": "Consultation des usages du portail BIBCNRS des éditeurs scientifiques par les logs traités dans ezPAARSE et enrichissement ezUNPAYWALL OA enrich CNRS",
         "panelsJSON": "[{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":0,\"y\":86,\"w\":24,\"h\":27,\"i\":\"2\"},\"panelIndex\":\"2\",\"embeddableConfig\":{\"params\":{\"sort\":{\"columnIndex\":1,\"direction\":\"asc\"}},\"vis\":{\"params\":{\"sort\":{\"columnIndex\":1,\"direction\":\"desc\"}}},\"enhancements\":{}},\"panelRefName\":\"panel_2\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":0,\"y\":65,\"w\":12,\"h\":21,\"i\":\"4\"},\"panelIndex\":\"4\",\"embeddableConfig\":{\"enhancements\":{},\"vis\":{\"legendOpen\":true}},\"panelRefName\":\"panel_4\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":0,\"y\":113,\"w\":26,\"h\":45,\"i\":\"5\"},\"panelIndex\":\"5\",\"embeddableConfig\":{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":3,\"direction\":\"desc\"}}},\"enhancements\":{},\"table\":null},\"panelRefName\":\"panel_5\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":12,\"y\":65,\"w\":11,\"h\":21,\"i\":\"6\"},\"panelIndex\":\"6\",\"embeddableConfig\":{\"colors\":{\"HTML\":\"#64B0C8\"},\"vis\":{\"colors\":{\"HTML\":\"#64B0C8\",\"PDF\":\"#BF1B00\"},\"legendOpen\":true},\"enhancements\":{}},\"panelRefName\":\"panel_6\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":24,\"y\":0,\"w\":24,\"h\":29,\"i\":\"7\"},\"panelIndex\":\"7\",\"embeddableConfig\":{\"enhancements\":{}},\"panelRefName\":\"panel_7\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":0,\"y\":39,\"w\":36,\"h\":26,\"i\":\"8\"},\"panelIndex\":\"8\",\"embeddableConfig\":{\"enhancements\":{},\"vis\":{\"colors\":{\"Count\":\"#65C5DB\"}}},\"panelRefName\":\"panel_8\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":36,\"y\":39,\"w\":12,\"h\":26,\"i\":\"9\"},\"panelIndex\":\"9\",\"embeddableConfig\":{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}},\"enhancements\":{}},\"panelRefName\":\"panel_9\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":24,\"y\":86,\"w\":24,\"h\":27,\"i\":\"11\"},\"panelIndex\":\"11\",\"embeddableConfig\":{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}},\"enhancements\":{}},\"panelRefName\":\"panel_11\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":24,\"y\":158,\"w\":24,\"h\":9,\"i\":\"13\"},\"panelIndex\":\"13\",\"embeddableConfig\":{\"enhancements\":{}},\"panelRefName\":\"panel_13\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":0,\"y\":29,\"w\":48,\"h\":10,\"i\":\"14\"},\"panelIndex\":\"14\",\"embeddableConfig\":{\"enhancements\":{}},\"panelRefName\":\"panel_14\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":0,\"y\":158,\"w\":24,\"h\":9,\"i\":\"15\"},\"panelIndex\":\"15\",\"embeddableConfig\":{\"enhancements\":{}},\"panelRefName\":\"panel_15\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":39,\"y\":185,\"w\":9,\"h\":17,\"i\":\"19\"},\"panelIndex\":\"19\",\"embeddableConfig\":{\"enhancements\":{},\"vis\":{\"colors\":{\"CNRS\":\"#447EBC\",\"OTHER\":\"#F9934E\",\"Missing\":\"#E24D42\",\"UNKNOWN\":\"#BF1B00\",\"NON RENSEIGNE\":\"#7EB26D\"},\"legendOpen\":true}},\"panelRefName\":\"panel_19\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":36,\"y\":65,\"w\":12,\"h\":21,\"i\":\"20\"},\"panelIndex\":\"20\",\"embeddableConfig\":{\"enhancements\":{},\"vis\":{\"legendOpen\":true,\"colors\":{\"__missing__\":\"#BF1B00\"}}},\"panelRefName\":\"panel_20\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":26,\"y\":113,\"w\":22,\"h\":45,\"i\":\"23\"},\"panelIndex\":\"23\",\"embeddableConfig\":{\"enhancements\":{},\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null},\"colWidth\":[{\"colIndex\":0,\"width\":732.5}]}},\"table\":null},\"panelRefName\":\"panel_23\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":23,\"y\":65,\"w\":13,\"h\":21,\"i\":\"24\"},\"panelIndex\":\"24\",\"embeddableConfig\":{\"enhancements\":{},\"vis\":{\"colors\":{\"ARTICLE\":\"#BF1B00\",\"PDF\":\"#70DBED\",\"HTML\":\"#2F575E\",\"with DOI\":\"#447EBC\",\"without DOI\":\"#F29191\",\"sans DOI\":\"#BF1B00\"},\"legendOpen\":true}},\"panelRefName\":\"panel_24\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":0,\"y\":0,\"w\":24,\"h\":29,\"i\":\"e32cf96c-c0f1-4b6c-a3c7-5f66e3006a3e\"},\"panelIndex\":\"e32cf96c-c0f1-4b6c-a3c7-5f66e3006a3e\",\"embeddableConfig\":{\"enhancements\":{}},\"panelRefName\":\"panel_e32cf96c-c0f1-4b6c-a3c7-5f66e3006a3e\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":0,\"y\":167,\"w\":29,\"h\":35,\"i\":\"4de40445-1415-4db6-a65e-5e67e0ad1a75\"},\"panelIndex\":\"4de40445-1415-4db6-a65e-5e67e0ad1a75\",\"embeddableConfig\":{\"enhancements\":{},\"vis\":{\"params\":{\"colWidth\":[{\"colIndex\":0,\"width\":111.28571428571428},{\"colIndex\":1,\"width\":83.7857142857143},{\"colIndex\":2,\"width\":501.7857142857143},{\"colIndex\":3,\"width\":103.28571428571428},{\"colIndex\":4,\"width\":121.95238095238096},{\"colIndex\":5,\"width\":117.95238095238096},{\"colIndex\":6,\"width\":178.95238095238096}],\"sort\":{\"columnIndex\":6,\"direction\":\"desc\"}}},\"table\":null},\"panelRefName\":\"panel_4de40445-1415-4db6-a65e-5e67e0ad1a75\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":29,\"y\":167,\"w\":10,\"h\":35,\"i\":\"63faf434-571d-4a73-9bd3-26b6aade7e33\"},\"panelIndex\":\"63faf434-571d-4a73-9bd3-26b6aade7e33\",\"embeddableConfig\":{\"enhancements\":{}},\"panelRefName\":\"panel_63faf434-571d-4a73-9bd3-26b6aade7e33\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":39,\"y\":167,\"w\":9,\"h\":18,\"i\":\"86311b41-da45-4189-9def-d7c60dfc992c\"},\"panelIndex\":\"86311b41-da45-4189-9def-d7c60dfc992c\",\"embeddableConfig\":{\"vis\":{\"legendOpen\":false},\"enhancements\":{}},\"panelRefName\":\"panel_86311b41-da45-4189-9def-d7c60dfc992c\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":0,\"y\":202,\"w\":12,\"h\":20,\"i\":\"fab2d0c2-c77f-45b6-9eb5-89faef39287f\"},\"panelIndex\":\"fab2d0c2-c77f-45b6-9eb5-89faef39287f\",\"embeddableConfig\":{\"vis\":{\"legendOpen\":true,\"colors\":{\"__missing__\":\"#AEA2E0\",\"closed\":\"#F9E2D2\",\"green\":\"#508642\",\"gold\":\"#EAB839\",\"bronze\":\"#890F02\",\"hybrid\":\"#F9934E\"}},\"table\":null,\"enhancements\":{}},\"panelRefName\":\"panel_fab2d0c2-c77f-45b6-9eb5-89faef39287f\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":12,\"y\":202,\"w\":11,\"h\":20,\"i\":\"21c06491-c9f5-4b1e-88cb-fb02c1543726\"},\"panelIndex\":\"21c06491-c9f5-4b1e-88cb-fb02c1543726\",\"embeddableConfig\":{\"vis\":{\"legendOpen\":true,\"colors\":{\"false\":\"#BF1B00\",\"true\":\"#64B0C8\",\"__missing__\":\"#AEA2E0\"}},\"table\":null,\"enhancements\":{}},\"panelRefName\":\"panel_21c06491-c9f5-4b1e-88cb-fb02c1543726\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":23,\"y\":202,\"w\":13,\"h\":20,\"i\":\"aa1a3fc6-7e16-43e5-b8b6-33b4e1baf3d1\"},\"panelIndex\":\"aa1a3fc6-7e16-43e5-b8b6-33b4e1baf3d1\",\"embeddableConfig\":{\"vis\":{\"legendOpen\":true,\"colors\":{\"true\":\"#64B0C8\",\"false\":\"#BF1B00\",\"__missing__\":\"#AEA2E0\"}},\"table\":null,\"enhancements\":{}},\"panelRefName\":\"panel_aa1a3fc6-7e16-43e5-b8b6-33b4e1baf3d1\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":36,\"y\":202,\"w\":12,\"h\":20,\"i\":\"01e18040-1d55-46ad-8ddd-6291cbf83209\"},\"panelIndex\":\"01e18040-1d55-46ad-8ddd-6291cbf83209\",\"embeddableConfig\":{\"vis\":{\"legendOpen\":true,\"colors\":{\"__missing__\":\"#AEA2E0\",\"false\":\"#BF1B00\",\"true\":\"#64B0C8\"}},\"table\":null,\"enhancements\":{}},\"panelRefName\":\"panel_01e18040-1d55-46ad-8ddd-6291cbf83209\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":0,\"y\":222,\"w\":48,\"h\":44,\"i\":\"20307e50-463d-42e1-acbf-93a44e87f826\"},\"panelIndex\":\"20307e50-463d-42e1-acbf-93a44e87f826\",\"embeddableConfig\":{\"vis\":{\"params\":{\"colWidth\":[{\"colIndex\":2,\"width\":377}],\"sort\":{\"columnIndex\":3,\"direction\":\"desc\"}}},\"enhancements\":{}},\"panelRefName\":\"panel_20307e50-463d-42e1-acbf-93a44e87f826\"}]",
         "optionsJSON": "{\"darkTheme\":false,\"useMargins\":false}",
         "version": 1,
         "timeRestore": true,
-        "timeTo": "2023-12-31T22:59:59.999Z",
-        "timeFrom": "2022-12-31T23:00:00.000Z",
+        "timeTo": "2024-12-31T22:59:59.999Z",
+        "timeFrom": "2023-12-31T23:00:00.000Z",
         "refreshInterval": {
           "pause": true,
           "value": 0
         },
         "kibanaSavedObjectMeta": {
-          "searchSourceJSON": "{\"highlightAll\":true,\"version\":true,\"query\":{\"language\":\"lucene\",\"query\":\"*\"},\"filter\":[{\"meta\":{\"type\":\"phrase\",\"key\":\"rtype\",\"params\":{\"query\":\"ARTICLE\"},\"disabled\":false,\"negate\":false,\"alias\":null,\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.filter[0].meta.index\"},\"query\":{\"match_phrase\":{\"rtype\":\"ARTICLE\"}},\"$state\":{\"store\":\"appState\"}}]}"
+          "searchSourceJSON": "{\"highlightAll\":true,\"version\":true,\"query\":{\"language\":\"lucene\",\"query\":\"*\"},\"filter\":[{\"meta\":{\"type\":\"phrase\",\"key\":\"rtype\",\"params\":{\"query\":\"ARTICLE\"},\"disabled\":false,\"negate\":false,\"alias\":null,\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.filter[0].meta.index\"},\"query\":{\"match_phrase\":{\"rtype\":\"ARTICLE\"}},\"$state\":{\"store\":\"appState\"}},{\"query\":{\"bool\":{\"must\":[{\"query_string\":{\"query\":\"_exists_:doi\",\"analyze_wildcard\":true,\"time_zone\":\"Europe/Paris\"}}],\"filter\":[],\"should\":[],\"must_not\":[]}},\"meta\":{\"alias\":\"avec DOI\",\"type\":\"custom\",\"key\":\"query\",\"value\":\"{\\\"bool\\\":{\\\"must\\\":[{\\\"query_string\\\":{\\\"query\\\":\\\"_exists_:doi\\\",\\\"analyze_wildcard\\\":true,\\\"time_zone\\\":\\\"Europe/Paris\\\"}}],\\\"filter\\\":[],\\\"should\\\":[],\\\"must_not\\\":[]}}\",\"disabled\":false,\"negate\":false,\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.filter[1].meta.index\"},\"$state\":{\"store\":\"appState\"}}]}"
         }
       },
       "references": [
         {
           "name": "kibanaSavedObjectMeta.searchSourceJSON.filter[0].meta.index",
           "type": "index-pattern",
-          "id": "0ac2a050-45ad-11ee-a310-553397681ae4"
+          "id": "bibcnrs-*"
+        },
+        {
+          "name": "kibanaSavedObjectMeta.searchSourceJSON.filter[1].meta.index",
+          "type": "index-pattern",
+          "id": "bibcnrs-*"
         },
         {
           "name": "2:panel_2",
@@ -170,21 +175,22 @@
       "coreMigrationVersion": "7.14.1"
     },
     {
-      "id": "0ac2a050-45ad-11ee-a310-553397681ae4",
+      "id": "bibcnrs-*",
       "type": "index-pattern",
       "namespaces": [
-        "b-bibcnrs"
+        "cnrs"
       ],
-      "updated_at": "2023-08-28T14:13:44.956Z",
-      "version": "WzEwNjMzNSwxNF0=",
+      "updated_at": "2024-02-13T14:38:30.986Z",
+      "version": "WzIwNzM4NTEsMTdd",
       "attributes": {
-        "fieldAttrs": "{}",
-        "title": "b-bibcnrs-enrich-*",
+        "notExpandable": true,
+        "fieldFormatMap": "{\"date\":{\"id\":\"date\",\"params\":{\"pattern\":\"Do MMMM YYYY\"}},\"datetime\":{\"id\":\"date\",\"params\":{\"pattern\":\"D, MMM YYYY \"}}}",
         "timeFieldName": "datetime",
+        "title": "bibcnrs-*",
         "fields": "[]",
-        "typeMeta": "{}",
         "runtimeFieldMap": "{}",
-        "fieldFormatMap": "{\"datetime\":{\"id\":\"date\",\"params\":{\"pattern\":\"DD-MM-YYYY\"}}}"
+        "fieldAttrs": "{\"rtype\":{\"count\":2},\"datetime\":{\"count\":1},\"doi\":{\"count\":4},\"platform_name\":{\"count\":2},\"unitid\":{\"count\":1},\"unit\":{\"count\":1},\"subject\":{\"count\":1},\"oa_request_date\":{\"count\":2},\"oa_updated\":{\"count\":1},\"is_oa\":{\"count\":1}}",
+        "typeMeta": "{}"
       },
       "references": [],
       "migrationVersion": {
@@ -196,10 +202,10 @@
       "id": "72758cc0-767f-11e7-96d8-d552783a81ea",
       "type": "visualization",
       "namespaces": [
-        "b-bibcnrs"
+        "cnrs"
       ],
-      "updated_at": "2023-09-01T12:36:22.020Z",
-      "version": "WzEwODM1OCwxNV0=",
+      "updated_at": "2023-10-02T09:00:08.354Z",
+      "version": "WzIwNjkyNTEsMTdd",
       "attributes": {
         "title": "bibcnrs-*: Table consultations par plateformes",
         "visState": "{\"title\":\"bibcnrs-*: Table consultations par plateformes\",\"type\":\"table\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"params\":{\"customLabel\":\"Nombre de consultations\"},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"params\":{\"field\":\"platform_name\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":100,\"otherBucket\":true,\"otherBucketLabel\":\"Other\",\"missingBucket\":true,\"missingBucketLabel\":\"Missing\",\"customLabel\":\"Plateformes\"},\"schema\":\"bucket\"}],\"params\":{\"perPage\":10,\"showPartialRows\":false,\"sort\":{\"columnIndex\":null,\"direction\":null},\"showTotal\":true,\"totalFunc\":\"sum\",\"showToolbar\":true,\"showMetricsAtAllLevels\":false,\"percentageCol\":\"\"}}",
@@ -214,7 +220,7 @@
         {
           "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
           "type": "index-pattern",
-          "id": "0ac2a050-45ad-11ee-a310-553397681ae4"
+          "id": "bibcnrs-*"
         }
       ],
       "migrationVersion": {
@@ -226,10 +232,10 @@
       "id": "3f27cfa0-767e-11e7-96d8-d552783a81ea",
       "type": "visualization",
       "namespaces": [
-        "b-bibcnrs"
+        "cnrs"
       ],
-      "updated_at": "2023-09-01T12:36:22.020Z",
-      "version": "WzEwODM1OSwxNV0=",
+      "updated_at": "2023-10-02T09:00:08.354Z",
+      "version": "WzIwNjkyNTIsMTdd",
       "attributes": {
         "title": "bibcnrs-*: Camembert Consultations par Rtype",
         "visState": "{\"title\":\"bibcnrs-*: Camembert Consultations par Rtype\",\"type\":\"pie\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"params\":{},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"params\":{\"field\":\"rtype\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":20,\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":true,\"missingBucketLabel\":\"Missing\",\"customLabel\":\"non renseigné\"},\"schema\":\"segment\"}],\"params\":{\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"top\",\"isDonut\":true,\"type\":\"pie\",\"labels\":{\"show\":true,\"values\":true,\"last_level\":true,\"truncate\":100,\"position\":\"inside\"},\"dimensions\":{\"metric\":{\"accessor\":1,\"format\":{\"id\":\"number\"},\"params\":{},\"aggType\":\"count\"},\"buckets\":[{\"accessor\":0,\"format\":{\"id\":\"terms\",\"params\":{\"id\":\"string\",\"otherBucketLabel\":\"Other\",\"missingBucketLabel\":\"Missing\"}},\"params\":{},\"aggType\":\"terms\"}]},\"palette\":{\"type\":\"palette\",\"name\":\"kibana_palette\"},\"distinctColors\":true,\"nestedLegend\":false}}",
@@ -244,7 +250,7 @@
         {
           "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
           "type": "index-pattern",
-          "id": "0ac2a050-45ad-11ee-a310-553397681ae4"
+          "id": "bibcnrs-*"
         }
       ],
       "migrationVersion": {
@@ -256,10 +262,10 @@
       "id": "01db8510-767e-11e7-96d8-d552783a81ea",
       "type": "visualization",
       "namespaces": [
-        "b-bibcnrs"
+        "cnrs"
       ],
-      "updated_at": "2023-09-01T12:36:22.020Z",
-      "version": "WzEwODM2MCwxNV0=",
+      "updated_at": "2023-10-02T09:00:08.354Z",
+      "version": "WzIwNjkyNTMsMTdd",
       "attributes": {
         "title": "Top 10 des consultations par titres",
         "visState": "{\"title\":\"Top 10 des consultations par titres\",\"type\":\"table\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"params\":{\"customLabel\":\"Nombre de consultations\"},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"params\":{\"field\":\"publication_title\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":500,\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":true,\"missingBucketLabel\":\"non renseigné\",\"customLabel\":\"Titre de publication\"},\"schema\":\"bucket\"},{\"id\":\"3\",\"enabled\":true,\"type\":\"terms\",\"params\":{\"field\":\"print_identifier\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":10,\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":false,\"missingBucketLabel\":\"non renseigné\"},\"schema\":\"bucket\"},{\"id\":\"4\",\"enabled\":true,\"type\":\"terms\",\"params\":{\"field\":\"online_identifier\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":10,\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":false,\"missingBucketLabel\":\"non renseigné\"},\"schema\":\"bucket\"}],\"params\":{\"perPage\":21,\"showPartialRows\":false,\"showTotal\":false,\"sort\":{\"columnIndex\":null,\"direction\":null},\"totalFunc\":\"sum\",\"showMetricsAtAllLevels\":false,\"showToolbar\":true,\"percentageCol\":\"\"}}",
@@ -274,7 +280,7 @@
         {
           "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
           "type": "index-pattern",
-          "id": "0ac2a050-45ad-11ee-a310-553397681ae4"
+          "id": "bibcnrs-*"
         }
       ],
       "migrationVersion": {
@@ -286,10 +292,10 @@
       "id": "c38c7b10-767e-11e7-96d8-d552783a81ea",
       "type": "visualization",
       "namespaces": [
-        "b-bibcnrs"
+        "cnrs"
       ],
-      "updated_at": "2023-09-01T12:36:22.020Z",
-      "version": "WzEwODM2MSwxNV0=",
+      "updated_at": "2023-10-02T09:00:08.354Z",
+      "version": "WzIwNjkyNTQsMTdd",
       "attributes": {
         "title": "bibcnrs-*:Camembert consultations par format mime",
         "visState": "{\"title\":\"bibcnrs-*:Camembert consultations par format mime\",\"type\":\"pie\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"params\":{},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"params\":{\"field\":\"mime\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":10,\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\"},\"schema\":\"segment\"}],\"params\":{\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"top\",\"isDonut\":true,\"type\":\"pie\",\"labels\":{\"show\":true,\"values\":true,\"last_level\":true,\"truncate\":100,\"position\":\"inside\"},\"dimensions\":{\"metric\":{\"accessor\":1,\"format\":{\"id\":\"number\"},\"params\":{},\"aggType\":\"count\"},\"buckets\":[{\"accessor\":0,\"format\":{\"id\":\"terms\",\"params\":{\"id\":\"string\",\"otherBucketLabel\":\"Other\",\"missingBucketLabel\":\"Missing\"}},\"params\":{},\"aggType\":\"terms\"}]},\"palette\":{\"type\":\"palette\",\"name\":\"kibana_palette\"},\"distinctColors\":true,\"nestedLegend\":false}}",
@@ -304,7 +310,7 @@
         {
           "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
           "type": "index-pattern",
-          "id": "0ac2a050-45ad-11ee-a310-553397681ae4"
+          "id": "bibcnrs-*"
         }
       ],
       "migrationVersion": {
@@ -316,10 +322,10 @@
       "id": "27124db0-767d-11e7-96d8-d552783a81ea",
       "type": "visualization",
       "namespaces": [
-        "b-bibcnrs"
+        "cnrs"
       ],
-      "updated_at": "2023-09-01T12:36:22.020Z",
-      "version": "WzEwODM2MiwxNV0=",
+      "updated_at": "2023-10-02T09:00:08.354Z",
+      "version": "WzIwNjkyNTUsMTdd",
       "attributes": {
         "title": "bibcnrs-*:metrics bibcnrs",
         "visState": "{\"title\":\"bibcnrs-*:metrics bibcnrs\",\"type\":\"metric\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"params\":{\"customLabel\":\"Consultations\"},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"min\",\"params\":{\"field\":\"datetime\",\"customLabel\":\"Période du\"},\"schema\":\"metric\"},{\"id\":\"4\",\"enabled\":true,\"type\":\"max\",\"params\":{\"field\":\"datetime\",\"customLabel\":\"au\"},\"schema\":\"metric\"},{\"id\":\"5\",\"enabled\":true,\"type\":\"cardinality\",\"params\":{\"field\":\"unit\",\"customLabel\":\"Unités\"},\"schema\":\"metric\"},{\"id\":\"6\",\"enabled\":true,\"type\":\"cardinality\",\"params\":{\"field\":\"user\",\"customLabel\":\"Ayant_droits \"},\"schema\":\"metric\"},{\"id\":\"7\",\"enabled\":true,\"type\":\"cardinality\",\"params\":{\"field\":\"portal\",\"customLabel\":\"Portails\"},\"schema\":\"metric\"}],\"params\":{\"metric\":{\"percentageMode\":false,\"useRanges\":false,\"colorSchema\":\"Green to Red\",\"metricColorMode\":\"None\",\"colorsRange\":[{\"type\":\"range\",\"from\":0,\"to\":10000}],\"labels\":{\"show\":true},\"invertColors\":false,\"style\":{\"bgFill\":\"#000\",\"bgColor\":false,\"labelColor\":false,\"subText\":\"\",\"fontSize\":15}},\"dimensions\":{\"metrics\":[{\"type\":\"vis_dimension\",\"accessor\":0,\"format\":{\"id\":\"number\",\"params\":{}}},{\"type\":\"vis_dimension\",\"accessor\":1,\"format\":{\"id\":\"date\",\"params\":{\"pattern\":\"D, MMM YYYY \"}}},{\"type\":\"vis_dimension\",\"accessor\":2,\"format\":{\"id\":\"date\",\"params\":{\"pattern\":\"D, MMM YYYY \"}}},{\"type\":\"vis_dimension\",\"accessor\":3,\"format\":{\"id\":\"number\",\"params\":{}}},{\"type\":\"vis_dimension\",\"accessor\":4,\"format\":{\"id\":\"number\",\"params\":{}}},{\"type\":\"vis_dimension\",\"accessor\":5,\"format\":{\"id\":\"number\",\"params\":{}}}]},\"addTooltip\":true,\"addLegend\":false,\"type\":\"metric\"}}",
@@ -334,7 +340,7 @@
         {
           "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
           "type": "index-pattern",
-          "id": "0ac2a050-45ad-11ee-a310-553397681ae4"
+          "id": "bibcnrs-*"
         }
       ],
       "migrationVersion": {
@@ -346,10 +352,10 @@
       "id": "612a40e0-7680-11e7-96d8-d552783a81ea",
       "type": "visualization",
       "namespaces": [
-        "b-bibcnrs"
+        "cnrs"
       ],
-      "updated_at": "2023-09-01T12:36:22.020Z",
-      "version": "WzEwODM2MywxNV0=",
+      "updated_at": "2023-10-02T09:00:08.354Z",
+      "version": "WzIwNjkyNTYsMTdd",
       "attributes": {
         "title": "bibcnrs-*: histogramme consultations ",
         "visState": "{\"title\":\"bibcnrs-*: histogramme consultations \",\"type\":\"histogram\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"params\":{},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"date_histogram\",\"params\":{\"field\":\"datetime\",\"timeRange\":{\"from\":\"2022-12-31T23:00:00.000Z\",\"to\":\"2023-12-31T22:59:59.999Z\"},\"useNormalizedEsInterval\":true,\"scaleMetricValues\":true,\"interval\":\"M\",\"used_interval\":\"1M\",\"drop_partials\":false,\"min_doc_count\":1,\"extended_bounds\":{}},\"schema\":\"segment\"}],\"params\":{\"addLegend\":true,\"addTimeMarker\":true,\"addTooltip\":true,\"categoryAxes\":[{\"id\":\"CategoryAxis-1\",\"labels\":{\"show\":true,\"truncate\":100,\"filter\":true},\"position\":\"bottom\",\"scale\":{\"type\":\"linear\"},\"show\":true,\"style\":{},\"title\":{\"text\":\"datetime per day\"},\"type\":\"category\"}],\"defaultYExtents\":false,\"drawLinesBetweenPoints\":true,\"grid\":{\"categoryLines\":false,\"style\":{\"color\":\"#eee\"},\"valueAxis\":\"ValueAxis-1\"},\"interpolate\":\"linear\",\"legendPosition\":\"top\",\"radiusRatio\":9,\"scale\":\"linear\",\"seriesParams\":[{\"data\":{\"id\":\"1\",\"label\":\"Count\"},\"drawLinesBetweenPoints\":true,\"mode\":\"stacked\",\"show\":\"true\",\"showCircles\":true,\"type\":\"histogram\",\"valueAxis\":\"ValueAxis-1\"}],\"setYExtents\":false,\"showCircles\":true,\"times\":[],\"valueAxes\":[{\"id\":\"ValueAxis-1\",\"labels\":{\"filter\":false,\"rotate\":0,\"show\":true,\"truncate\":100},\"name\":\"LeftAxis-1\",\"position\":\"left\",\"scale\":{\"mode\":\"normal\",\"type\":\"linear\"},\"show\":true,\"style\":{},\"title\":{\"text\":\"Count\"},\"type\":\"value\"}],\"type\":\"histogram\",\"labels\":{\"show\":true},\"thresholdLine\":{\"show\":false,\"value\":10,\"width\":1,\"style\":\"full\",\"color\":\"#34130C\"},\"dimensions\":{\"x\":{\"accessor\":0,\"format\":{\"id\":\"date\",\"params\":{\"pattern\":\"DD-MM-YYYY\"}},\"params\":{\"date\":true,\"interval\":\"P1M\",\"format\":\"DD-MM-YYYY\",\"bounds\":{\"min\":\"2021-01-24T16:24:17.986Z\",\"max\":\"2021-01-26T10:04:57.047Z\"}},\"aggType\":\"date_histogram\"},\"y\":[{\"accessor\":2,\"format\":{\"id\":\"number\"},\"params\":{},\"aggType\":\"count\"}],\"series\":[{\"accessor\":1,\"format\":{\"id\":\"terms\",\"params\":{\"id\":\"string\",\"otherBucketLabel\":\"Other\",\"missingBucketLabel\":\"Missing\"}},\"params\":{},\"aggType\":\"terms\"}]},\"palette\":{\"type\":\"palette\",\"name\":\"kibana_palette\"},\"isVislibVis\":true,\"detailedTooltip\":true}}",
@@ -364,7 +370,7 @@
         {
           "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
           "type": "index-pattern",
-          "id": "0ac2a050-45ad-11ee-a310-553397681ae4"
+          "id": "bibcnrs-*"
         }
       ],
       "migrationVersion": {
@@ -376,10 +382,10 @@
       "id": "88274790-76a0-11e7-ad66-3727018695b6",
       "type": "visualization",
       "namespaces": [
-        "b-bibcnrs"
+        "cnrs"
       ],
-      "updated_at": "2023-09-01T12:36:22.020Z",
-      "version": "WzEwODM2NCwxNV0=",
+      "updated_at": "2023-10-02T09:00:08.354Z",
+      "version": "WzIwNjkyNTcsMTdd",
       "attributes": {
         "title": "bibcnrs-*: Table consultations par instituts",
         "visState": "{\"title\":\"bibcnrs-*: Table consultations par instituts\",\"type\":\"table\",\"params\":{\"perPage\":11,\"showPartialRows\":false,\"sort\":{\"columnIndex\":null,\"direction\":null},\"showTotal\":true,\"totalFunc\":\"sum\",\"showMetricsAtAllLevels\":false,\"percentageCol\":\"\",\"dimensions\":{\"metrics\":[{\"accessor\":1,\"format\":{\"id\":\"number\"},\"params\":{},\"aggType\":\"count\"}],\"buckets\":[{\"accessor\":0,\"format\":{\"id\":\"terms\",\"params\":{\"id\":\"string\",\"otherBucketLabel\":\"Other\",\"missingBucketLabel\":\"Missing\"}},\"params\":{},\"aggType\":\"terms\"}]},\"showToolbar\":true},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"Nombre de consultations\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"portal\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":15,\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\",\"customLabel\":\"bibcnrs portal\"}}]}",
@@ -394,7 +400,7 @@
         {
           "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
           "type": "index-pattern",
-          "id": "0ac2a050-45ad-11ee-a310-553397681ae4"
+          "id": "bibcnrs-*"
         }
       ],
       "migrationVersion": {
@@ -406,10 +412,10 @@
       "id": "c54c0380-02a6-11e8-a003-559b113855b3",
       "type": "visualization",
       "namespaces": [
-        "b-bibcnrs"
+        "cnrs"
       ],
-      "updated_at": "2023-09-01T12:36:22.020Z",
-      "version": "WzEwODM2NSwxNV0=",
+      "updated_at": "2023-10-02T09:00:08.354Z",
+      "version": "WzIwNjkyNTgsMTdd",
       "attributes": {
         "title": "bibcnrs-*: Table des Editeurs",
         "visState": "{\"title\":\"bibcnrs-*: Table des Editeurs\",\"type\":\"table\",\"params\":{\"perPage\":10,\"showMeticsAtAllLevels\":false,\"showPartialRows\":false,\"showTotal\":false,\"sort\":{\"columnIndex\":null,\"direction\":null},\"totalFunc\":\"sum\",\"showToolbar\":true},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"Nombre de consultations\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"publisher_name\",\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":true,\"missingBucketLabel\":\"non renseigné\",\"size\":100,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Editeurs\"}}]}",
@@ -424,7 +430,7 @@
         {
           "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
           "type": "index-pattern",
-          "id": "0ac2a050-45ad-11ee-a310-553397681ae4"
+          "id": "bibcnrs-*"
         }
       ],
       "migrationVersion": {
@@ -436,10 +442,10 @@
       "id": "3b627540-04ff-11e8-a003-559b113855b3",
       "type": "visualization",
       "namespaces": [
-        "b-bibcnrs"
+        "cnrs"
       ],
-      "updated_at": "2023-09-01T12:36:22.020Z",
-      "version": "WzEwODM2NiwxNV0=",
+      "updated_at": "2023-10-02T09:00:08.354Z",
+      "version": "WzIwNjkyNTksMTdd",
       "attributes": {
         "title": "bibcnrs-*:recherche sur un Département Scientifique",
         "visState": "{\"title\":\"bibcnrs-*:recherche sur un Département Scientifique\",\"type\":\"input_control_vis\",\"params\":{\"controls\":[{\"id\":\"1517233632645\",\"fieldName\":\"department\",\"label\":\"Recherche sur un département Scientifique\",\"type\":\"list\",\"options\":{\"type\":\"terms\",\"multiselect\":true,\"size\":50,\"order\":\"desc\"},\"indexPatternRefName\":\"control_0_index_pattern\"}],\"updateFiltersOnChange\":false},\"aggs\":[]}",
@@ -454,7 +460,7 @@
         {
           "name": "control_0_index_pattern",
           "type": "index-pattern",
-          "id": "0ac2a050-45ad-11ee-a310-553397681ae4"
+          "id": "bibcnrs-*"
         }
       ],
       "migrationVersion": {
@@ -466,10 +472,10 @@
       "id": "acfcb600-059c-11e8-a003-559b113855b3",
       "type": "visualization",
       "namespaces": [
-        "b-bibcnrs"
+        "cnrs"
       ],
-      "updated_at": "2023-09-01T12:36:22.020Z",
-      "version": "WzEwODM2NywxNV0=",
+      "updated_at": "2023-10-02T09:00:08.354Z",
+      "version": "WzIwNjkyNjAsMTdd",
       "attributes": {
         "title": "bibcnrs-*:recherche sur un portail",
         "visState": "{\"title\":\"bibcnrs-*:recherche sur un portail\",\"type\":\"input_control_vis\",\"params\":{\"controls\":[{\"id\":\"1517233567775\",\"fieldName\":\"portal\",\"label\":\"recherche sur un portail\",\"type\":\"list\",\"options\":{\"type\":\"terms\",\"multiselect\":true,\"size\":10,\"order\":\"desc\"},\"indexPatternRefName\":\"control_0_index_pattern\"}],\"updateFiltersOnChange\":false,\"useTimeFilter\":false,\"pinFilters\":false},\"aggs\":[]}",
@@ -484,7 +490,7 @@
         {
           "name": "control_0_index_pattern",
           "type": "index-pattern",
-          "id": "0ac2a050-45ad-11ee-a310-553397681ae4"
+          "id": "bibcnrs-*"
         }
       ],
       "migrationVersion": {
@@ -496,10 +502,10 @@
       "id": "38732a40-050f-11e8-a003-559b113855b3",
       "type": "visualization",
       "namespaces": [
-        "b-bibcnrs"
+        "cnrs"
       ],
-      "updated_at": "2023-09-01T12:36:22.020Z",
-      "version": "WzEwODM2OCwxNV0=",
+      "updated_at": "2023-10-02T09:00:08.354Z",
+      "version": "WzIwNjkyNjEsMTdd",
       "attributes": {
         "title": "bibcnrs-*:recherche sur une unité",
         "visState": "{\"title\":\"bibcnrs-*:recherche sur une unité\",\"type\":\"input_control_vis\",\"params\":{\"controls\":[{\"id\":\"1517242299447\",\"fieldName\":\"unit\",\"label\":\"recherche sur une unité\",\"type\":\"list\",\"options\":{\"type\":\"terms\",\"multiselect\":true,\"size\":1000,\"order\":\"desc\"},\"indexPatternRefName\":\"control_0_index_pattern\"}],\"updateFiltersOnChange\":false},\"aggs\":[]}",
@@ -514,7 +520,7 @@
         {
           "name": "control_0_index_pattern",
           "type": "index-pattern",
-          "id": "0ac2a050-45ad-11ee-a310-553397681ae4"
+          "id": "bibcnrs-*"
         }
       ],
       "migrationVersion": {
@@ -526,10 +532,10 @@
       "id": "2c97f1b0-1bc6-11e8-906f-7d3955a630ef",
       "type": "visualization",
       "namespaces": [
-        "b-bibcnrs"
+        "cnrs"
       ],
-      "updated_at": "2023-09-01T12:36:22.020Z",
-      "version": "WzEwODM3MCwxNV0=",
+      "updated_at": "2023-10-02T09:00:08.354Z",
+      "version": "WzIwNjkyNjIsMTdd",
       "attributes": {
         "title": "bibcnrs-*: sections",
         "visState": "{\"title\":\"bibcnrs-*: sections\",\"type\":\"pie\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"params\":{},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"params\":{\"field\":\"section\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":5,\"otherBucket\":true,\"otherBucketLabel\":\"Other\",\"missingBucket\":true,\"missingBucketLabel\":\"NON RENSEIGNE\"},\"schema\":\"segment\"}],\"params\":{\"type\":\"pie\",\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"top\",\"isDonut\":true,\"labels\":{\"show\":true,\"values\":true,\"last_level\":true,\"truncate\":100,\"position\":\"inside\"},\"dimensions\":{\"metric\":{\"accessor\":1,\"format\":{\"id\":\"number\"},\"params\":{},\"aggType\":\"count\"},\"buckets\":[{\"accessor\":0,\"format\":{\"id\":\"terms\",\"params\":{\"id\":\"string\",\"otherBucketLabel\":\"Other\",\"missingBucketLabel\":\"NON RENSEIGNE\"}},\"params\":{},\"aggType\":\"terms\"}]},\"palette\":{\"type\":\"palette\",\"name\":\"kibana_palette\"},\"distinctColors\":true,\"nestedLegend\":false}}",
@@ -544,7 +550,7 @@
         {
           "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
           "type": "index-pattern",
-          "id": "0ac2a050-45ad-11ee-a310-553397681ae4"
+          "id": "bibcnrs-*"
         }
       ],
       "migrationVersion": {
@@ -556,10 +562,10 @@
       "id": "c066b0d0-dcef-11e8-9fb0-afce77e57c35",
       "type": "visualization",
       "namespaces": [
-        "b-bibcnrs"
+        "cnrs"
       ],
-      "updated_at": "2023-09-01T12:36:22.020Z",
-      "version": "WzEwODM3MSwxNV0=",
+      "updated_at": "2023-10-02T09:00:08.354Z",
+      "version": "WzIwNjkyNjMsMTdd",
       "attributes": {
         "title": "bibcnrs-*:top 10 année de publication",
         "visState": "{\"title\":\"bibcnrs-*:top 10 année de publication\",\"type\":\"pie\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"params\":{},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"params\":{\"field\":\"publication_date\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":12,\"otherBucket\":true,\"otherBucketLabel\":\"Other\",\"missingBucket\":true,\"missingBucketLabel\":\"non renseigné\"},\"schema\":\"segment\"}],\"params\":{\"type\":\"pie\",\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"top\",\"isDonut\":true,\"labels\":{\"show\":true,\"values\":true,\"last_level\":true,\"truncate\":100,\"position\":\"inside\"},\"palette\":{\"type\":\"palette\",\"name\":\"kibana_palette\"},\"distinctColors\":true,\"nestedLegend\":false}}",
@@ -574,7 +580,7 @@
         {
           "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
           "type": "index-pattern",
-          "id": "0ac2a050-45ad-11ee-a310-553397681ae4"
+          "id": "bibcnrs-*"
         }
       ],
       "migrationVersion": {
@@ -586,10 +592,10 @@
       "id": "1f8878b0-b458-11e9-8339-63cd4d0c5d94",
       "type": "visualization",
       "namespaces": [
-        "b-bibcnrs"
+        "cnrs"
       ],
-      "updated_at": "2023-09-01T12:36:22.020Z",
-      "version": "WzEwODM3MiwxNV0=",
+      "updated_at": "2023-10-02T09:00:08.354Z",
+      "version": "WzIwNjkyNjQsMTdd",
       "attributes": {
         "title": "bibcnrs-*:table titres article",
         "visState": "{\"title\":\"bibcnrs-*:table titres article\",\"type\":\"table\",\"params\":{\"perPage\":21,\"showPartialRows\":false,\"showMetricsAtAllLevels\":false,\"sort\":{\"columnIndex\":null,\"direction\":null},\"showTotal\":false,\"totalFunc\":\"sum\",\"dimensions\":{\"metrics\":[{\"accessor\":1,\"format\":{\"id\":\"number\"},\"params\":{},\"aggType\":\"count\"}],\"buckets\":[{\"accessor\":0,\"format\":{\"id\":\"terms\",\"params\":{\"id\":\"string\",\"otherBucketLabel\":\"Other\",\"missingBucketLabel\":\"Missing\"}},\"params\":{},\"aggType\":\"terms\"}]},\"percentageCol\":\"\",\"showToolbar\":true},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"title\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":21,\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":true,\"missingBucketLabel\":\"Missing\",\"customLabel\":\"Titre article\"}}]}",
@@ -604,7 +610,7 @@
         {
           "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
           "type": "index-pattern",
-          "id": "0ac2a050-45ad-11ee-a310-553397681ae4"
+          "id": "bibcnrs-*"
         }
       ],
       "migrationVersion": {
@@ -616,10 +622,10 @@
       "id": "9aeb18b0-4950-11e8-8b86-bb7a3fff158c",
       "type": "visualization",
       "namespaces": [
-        "b-bibcnrs"
+        "cnrs"
       ],
-      "updated_at": "2023-09-01T12:36:22.020Z",
-      "version": "WzEwODM3MywxNV0=",
+      "updated_at": "2023-10-02T09:00:08.354Z",
+      "version": "WzIwNjkyNjUsMTdd",
       "attributes": {
         "title": "bibcnrs-*: report DOI exist or not",
         "visState": "{\"title\":\"bibcnrs-*: report DOI exist or not\",\"type\":\"pie\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"params\":{},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"filters\",\"params\":{\"filters\":[{\"input\":{\"query\":\"_exists_:doi\",\"language\":\"lucene\"},\"label\":\"avec DOI\"},{\"input\":{\"query\":\"!_exists_:doi\",\"language\":\"lucene\"},\"label\":\"sans DOI\"}]},\"schema\":\"segment\"}],\"params\":{\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"top\",\"isDonut\":true,\"type\":\"pie\",\"labels\":{\"show\":true,\"values\":true,\"last_level\":true,\"truncate\":100,\"position\":\"inside\"},\"dimensions\":{\"metric\":{\"accessor\":1,\"format\":{\"id\":\"number\"},\"params\":{},\"aggType\":\"count\"},\"buckets\":[{\"accessor\":0,\"format\":{},\"params\":{},\"aggType\":\"filters\"}]},\"palette\":{\"type\":\"palette\",\"name\":\"kibana_palette\"},\"distinctColors\":true,\"nestedLegend\":false}}",
@@ -634,17 +640,17 @@
         {
           "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
           "type": "index-pattern",
-          "id": "0ac2a050-45ad-11ee-a310-553397681ae4"
+          "id": "bibcnrs-*"
         },
         {
           "name": "kibanaSavedObjectMeta.searchSourceJSON.filter[0].meta.index",
           "type": "index-pattern",
-          "id": "0ac2a050-45ad-11ee-a310-553397681ae4"
+          "id": "bibcnrs-*"
         },
         {
           "name": "kibanaSavedObjectMeta.searchSourceJSON.filter[1].meta.index",
           "type": "index-pattern",
-          "id": "0ac2a050-45ad-11ee-a310-553397681ae4"
+          "id": "bibcnrs-*"
         }
       ],
       "migrationVersion": {
@@ -656,10 +662,10 @@
       "id": "f53d6e50-3150-11ea-b38b-9559528de40d",
       "type": "visualization",
       "namespaces": [
-        "b-bibcnrs"
+        "cnrs"
       ],
-      "updated_at": "2023-09-01T12:36:22.020Z",
-      "version": "WzEwODM3NCwxNV0=",
+      "updated_at": "2023-10-02T09:00:08.354Z",
+      "version": "WzIwNjkyNjYsMTdd",
       "attributes": {
         "title": "bibcnrs-*: TB BibCNRS ",
         "visState": "{\"title\":\"bibcnrs-*: TB BibCNRS \",\"type\":\"markdown\",\"aggs\":[],\"params\":{\"markdown\":\"### Tableau de bord BIBCNRS \\nCe rapport  est destiné à montrer les consultations d'articles en PDF ou HTML des 10 instituts du CNRS. \\n[![ezMESURE](https://raw.githubusercontent.com/ezpaarse-project/ezpaarse-project.github.io/master/ezmesure/static/images/logo-ezMESURE-350.png)](https://ezmesure.couperin.org/)\\n\\n\\n[![BIBCNRS](https://raw.githubusercontent.com/ezpaarse-project/ezpaarse-project.github.io/master/ezmesure/static/images/bibcnrs-logo-150.png)](https://bib.cnrs.fr/)\\n\\n### Depuis juillet 2021, la plateforme Web of Science a évolué techniquement et ne permet plus une analyse des logs d'accès avec ezPAARSE.\\nLa plupart des requêtes se font sur une API de manière silencieuse pour le parseur. Pour connaitre les usages de la plateforme, il faut consulter le tableau DR COUNTER 5  \\\"Total item Investigation\\\" dans l'espace \\\"éditeur\\\" en filtrer à la plateforme Web of Science.  \",\"openLinksInNewTab\":false,\"fontSize\":12}}",
@@ -680,10 +686,10 @@
       "id": "05267de0-c91e-11e7-9cae-dfe474bc5da1",
       "type": "visualization",
       "namespaces": [
-        "b-bibcnrs"
+        "cnrs"
       ],
-      "updated_at": "2023-08-31T12:42:51.332Z",
-      "version": "WzEwODExMiwxNV0=",
+      "updated_at": "2023-10-02T09:00:08.354Z",
+      "version": "WzIwNjkyNjcsMTdd",
       "attributes": {
         "title": "bibcnrs-*: report_Top 10 consultations par laboratoires",
         "visState": "{\"title\":\"bibcnrs-*: report_Top 10 consultations par laboratoires\",\"type\":\"table\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"params\":{\"customLabel\":\"Nombre de consultations\"},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"params\":{\"field\":\"unit\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":10000,\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\",\"customLabel\":\"Laboratoire\"},\"schema\":\"bucket\"},{\"id\":\"5\",\"enabled\":true,\"type\":\"terms\",\"params\":{\"field\":\"cnrsData.sigleUnite\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":5,\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\",\"customLabel\":\"Sigle\"},\"schema\":\"bucket\"},{\"id\":\"3\",\"enabled\":true,\"type\":\"terms\",\"params\":{\"field\":\"cnrsData.intituleUnite\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":5000,\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\",\"customLabel\":\"Nom\"},\"schema\":\"bucket\"},{\"id\":\"4\",\"enabled\":true,\"type\":\"terms\",\"params\":{\"field\":\"cnrsData.effectifUnite\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":5000,\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\",\"customLabel\":\"Effectifs\"},\"schema\":\"bucket\"},{\"id\":\"6\",\"enabled\":true,\"type\":\"terms\",\"params\":{\"field\":\"cnrsData.personnels_CH\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":5000,\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\",\"customLabel\":\"Chercheurs\"},\"schema\":\"bucket\"},{\"id\":\"7\",\"enabled\":true,\"type\":\"terms\",\"params\":{\"field\":\"cnrsData.personnels_IT\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":5000,\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\",\"customLabel\":\"ITA\"},\"schema\":\"bucket\"}],\"params\":{\"perPage\":10,\"showPartialRows\":false,\"sort\":{\"columnIndex\":null,\"direction\":null},\"showTotal\":false,\"totalFunc\":\"sum\",\"showToolbar\":true,\"showMetricsAtAllLevels\":false,\"percentageCol\":\"\"}}",
@@ -698,7 +704,7 @@
         {
           "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
           "type": "index-pattern",
-          "id": "0ac2a050-45ad-11ee-a310-553397681ae4"
+          "id": "bibcnrs-*"
         },
         {
           "id": "0569a600-4736-11ee-a310-553397681ae4",
@@ -720,10 +726,10 @@
       "id": "ad702cb0-47fa-11ee-a310-553397681ae4",
       "type": "visualization",
       "namespaces": [
-        "b-bibcnrs"
+        "cnrs"
       ],
-      "updated_at": "2023-08-31T12:34:07.232Z",
-      "version": "WzEwODA0MiwxNV0=",
+      "updated_at": "2023-10-02T09:00:08.354Z",
+      "version": "WzIwNjkyNjgsMTdd",
       "attributes": {
         "title": "b-bibcnrs-enrich-*: top 10 consultation laboratoires pourcentage",
         "visState": "{\"title\":\"b-bibcnrs-enrich-*: top 10 consultation laboratoires pourcentage\",\"type\":\"pie\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"params\":{},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"params\":{\"field\":\"cnrsData.intituleUnite\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":10,\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\"},\"schema\":\"segment\"}],\"params\":{\"type\":\"pie\",\"addTooltip\":true,\"addLegend\":false,\"legendPosition\":\"right\",\"nestedLegend\":false,\"distinctColors\":true,\"isDonut\":true,\"palette\":{\"type\":\"palette\",\"name\":\"default\"},\"labels\":{\"show\":true,\"last_level\":true,\"values\":true,\"valuesFormat\":\"percent\",\"percentDecimals\":2,\"truncate\":100,\"position\":\"inside\"},\"row\":true}}",
@@ -738,7 +744,7 @@
         {
           "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
           "type": "index-pattern",
-          "id": "0ac2a050-45ad-11ee-a310-553397681ae4"
+          "id": "bibcnrs-*"
         },
         {
           "id": "0569a600-4736-11ee-a310-553397681ae4",
@@ -760,10 +766,10 @@
       "id": "c88d8260-4735-11ee-a310-553397681ae4",
       "type": "visualization",
       "namespaces": [
-        "b-bibcnrs"
+        "cnrs"
       ],
-      "updated_at": "2023-08-30T13:04:41.904Z",
-      "version": "WzEwNzM5NiwxNV0=",
+      "updated_at": "2023-10-02T09:00:08.354Z",
+      "version": "WzIwNjkyNjksMTdd",
       "attributes": {
         "title": "b-bibcnrs-enrich-* : délégations libellés",
         "visState": "{\"title\":\"b-bibcnrs-enrich-* : délégations libellés\",\"type\":\"pie\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"params\":{},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"params\":{\"field\":\"cnrsData.delegationRegionaleLibelle\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":34,\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\"},\"schema\":\"segment\"}],\"params\":{\"type\":\"pie\",\"addTooltip\":true,\"addLegend\":false,\"legendPosition\":\"right\",\"nestedLegend\":false,\"distinctColors\":false,\"isDonut\":true,\"palette\":{\"type\":\"palette\",\"name\":\"default\"},\"labels\":{\"show\":true,\"last_level\":false,\"values\":true,\"valuesFormat\":\"percent\",\"percentDecimals\":2,\"truncate\":100,\"position\":\"default\"}}}",
@@ -778,7 +784,7 @@
         {
           "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
           "type": "index-pattern",
-          "id": "0ac2a050-45ad-11ee-a310-553397681ae4"
+          "id": "bibcnrs-*"
         }
       ],
       "migrationVersion": {
@@ -790,10 +796,10 @@
       "id": "f29939e0-df71-11ed-8ce4-61ee0b8a2f58",
       "type": "visualization",
       "namespaces": [
-        "b-bibcnrs"
+        "cnrs"
       ],
-      "updated_at": "2023-09-01T12:36:22.020Z",
-      "version": "WzEwODM3NSwxNV0=",
+      "updated_at": "2023-10-02T09:00:08.354Z",
+      "version": "WzIwNjkyNzAsMTdd",
       "attributes": {
         "title": "bibcnrs-*: Camembert OA Statuts",
         "visState": "{\"title\":\"bibcnrs-*: Camembert OA Statuts\",\"type\":\"pie\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"params\":{},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"params\":{\"field\":\"oa_status\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":20,\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":true,\"missingBucketLabel\":\"Missing\",\"customLabel\":\"OA statuts\"},\"schema\":\"segment\"}],\"params\":{\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"top\",\"isDonut\":true,\"type\":\"pie\",\"labels\":{\"show\":true,\"values\":true,\"last_level\":true,\"truncate\":100,\"position\":\"inside\"},\"dimensions\":{\"metric\":{\"accessor\":1,\"format\":{\"id\":\"number\"},\"params\":{},\"aggType\":\"count\"},\"buckets\":[{\"accessor\":0,\"format\":{\"id\":\"terms\",\"params\":{\"id\":\"string\",\"otherBucketLabel\":\"Other\",\"missingBucketLabel\":\"Missing\"}},\"params\":{},\"aggType\":\"terms\"}]},\"palette\":{\"type\":\"palette\",\"name\":\"kibana_palette\"},\"distinctColors\":true,\"nestedLegend\":false}}",
@@ -808,7 +814,7 @@
         {
           "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
           "type": "index-pattern",
-          "id": "0ac2a050-45ad-11ee-a310-553397681ae4"
+          "id": "bibcnrs-*"
         }
       ],
       "migrationVersion": {
@@ -820,10 +826,10 @@
       "id": "095fb880-df71-11ed-8ce4-61ee0b8a2f58",
       "type": "visualization",
       "namespaces": [
-        "b-bibcnrs"
+        "cnrs"
       ],
-      "updated_at": "2023-09-01T12:36:22.020Z",
-      "version": "WzEwODM3NiwxNV0=",
+      "updated_at": "2023-10-02T09:00:08.354Z",
+      "version": "WzIwNjkyNzEsMTdd",
       "attributes": {
         "title": "bibcnrs-*: Camembert article is OA",
         "visState": "{\"title\":\"bibcnrs-*: Camembert article is OA\",\"type\":\"pie\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"params\":{},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"params\":{\"field\":\"is_oa\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":20,\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":true,\"missingBucketLabel\":\"Missing\",\"customLabel\":\"non renseigné\"},\"schema\":\"segment\"}],\"params\":{\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"top\",\"isDonut\":true,\"type\":\"pie\",\"labels\":{\"show\":true,\"values\":true,\"last_level\":true,\"truncate\":100,\"position\":\"inside\"},\"dimensions\":{\"metric\":{\"accessor\":1,\"format\":{\"id\":\"number\"},\"params\":{},\"aggType\":\"count\"},\"buckets\":[{\"accessor\":0,\"format\":{\"id\":\"terms\",\"params\":{\"id\":\"string\",\"otherBucketLabel\":\"Other\",\"missingBucketLabel\":\"Missing\"}},\"params\":{},\"aggType\":\"terms\"}]},\"palette\":{\"type\":\"palette\",\"name\":\"kibana_palette\"},\"distinctColors\":true,\"nestedLegend\":false}}",
@@ -838,7 +844,7 @@
         {
           "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
           "type": "index-pattern",
-          "id": "0ac2a050-45ad-11ee-a310-553397681ae4"
+          "id": "bibcnrs-*"
         }
       ],
       "migrationVersion": {
@@ -850,10 +856,10 @@
       "id": "42dafde0-df71-11ed-8ce4-61ee0b8a2f58",
       "type": "visualization",
       "namespaces": [
-        "b-bibcnrs"
+        "cnrs"
       ],
-      "updated_at": "2023-09-01T12:36:22.020Z",
-      "version": "WzEwODM3NywxNV0=",
+      "updated_at": "2023-10-02T09:00:08.354Z",
+      "version": "WzIwNjkyNzIsMTdd",
       "attributes": {
         "title": "bibcnrs-*: Camembert journal is in doaj",
         "visState": "{\"title\":\"bibcnrs-*: Camembert journal is in doaj\",\"type\":\"pie\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"params\":{},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"params\":{\"field\":\"journal_is_in_doaj\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":20,\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":true,\"missingBucketLabel\":\"Missing\",\"customLabel\":\"Journal is in doaj\"},\"schema\":\"segment\"}],\"params\":{\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"top\",\"isDonut\":true,\"type\":\"pie\",\"labels\":{\"show\":true,\"values\":true,\"last_level\":true,\"truncate\":100,\"position\":\"inside\"},\"dimensions\":{\"metric\":{\"accessor\":1,\"format\":{\"id\":\"number\"},\"params\":{},\"aggType\":\"count\"},\"buckets\":[{\"accessor\":0,\"format\":{\"id\":\"terms\",\"params\":{\"id\":\"string\",\"otherBucketLabel\":\"Other\",\"missingBucketLabel\":\"Missing\"}},\"params\":{},\"aggType\":\"terms\"}]},\"palette\":{\"type\":\"palette\",\"name\":\"kibana_palette\"},\"distinctColors\":true,\"nestedLegend\":false}}",
@@ -868,7 +874,7 @@
         {
           "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
           "type": "index-pattern",
-          "id": "0ac2a050-45ad-11ee-a310-553397681ae4"
+          "id": "bibcnrs-*"
         }
       ],
       "migrationVersion": {
@@ -880,10 +886,10 @@
       "id": "7bcdd960-df71-11ed-8ce4-61ee0b8a2f58",
       "type": "visualization",
       "namespaces": [
-        "b-bibcnrs"
+        "cnrs"
       ],
-      "updated_at": "2023-09-01T12:36:22.020Z",
-      "version": "WzEwODM3OCwxNV0=",
+      "updated_at": "2023-10-02T09:00:08.354Z",
+      "version": "WzIwNjkyNzMsMTdd",
       "attributes": {
         "title": "bibcnrs-*: Camembert Journal is OA",
         "visState": "{\"title\":\"bibcnrs-*: Camembert Journal is OA\",\"type\":\"pie\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"params\":{},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"params\":{\"field\":\"journal_is_oa\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":20,\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":true,\"missingBucketLabel\":\"Missing\",\"customLabel\":\"Journal is oa\"},\"schema\":\"segment\"}],\"params\":{\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"top\",\"isDonut\":true,\"type\":\"pie\",\"labels\":{\"show\":true,\"values\":true,\"last_level\":true,\"truncate\":100,\"position\":\"inside\"},\"dimensions\":{\"metric\":{\"accessor\":1,\"format\":{\"id\":\"number\"},\"params\":{},\"aggType\":\"count\"},\"buckets\":[{\"accessor\":0,\"format\":{\"id\":\"terms\",\"params\":{\"id\":\"string\",\"otherBucketLabel\":\"Other\",\"missingBucketLabel\":\"Missing\"}},\"params\":{},\"aggType\":\"terms\"}]},\"palette\":{\"type\":\"palette\",\"name\":\"kibana_palette\"},\"distinctColors\":true,\"nestedLegend\":false}}",
@@ -898,7 +904,7 @@
         {
           "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
           "type": "index-pattern",
-          "id": "0ac2a050-45ad-11ee-a310-553397681ae4"
+          "id": "bibcnrs-*"
         }
       ],
       "migrationVersion": {
@@ -910,10 +916,10 @@
       "id": "382c9580-df7f-11ed-8ce4-61ee0b8a2f58",
       "type": "visualization",
       "namespaces": [
-        "b-bibcnrs"
+        "cnrs"
       ],
-      "updated_at": "2023-09-01T12:36:22.020Z",
-      "version": "WzEwODM3OSwxNV0=",
+      "updated_at": "2023-10-02T09:00:08.354Z",
+      "version": "WzIwNjkyNzQsMTdd",
       "attributes": {
         "title": "bibcnrs-*:table des requêtes des DOI et la MAJ d'info OA",
         "visState": "{\"title\":\"bibcnrs-*:table des requêtes des DOI et la MAJ d'info OA\",\"type\":\"table\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"params\":{},\"schema\":\"metric\"},{\"id\":\"4\",\"enabled\":true,\"type\":\"terms\",\"params\":{\"field\":\"doi\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":5,\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\",\"customLabel\":\"DOI\"},\"schema\":\"bucket\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"params\":{\"field\":\"oa_request_date\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":2000,\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":false,\"missingBucketLabel\":\"inconnue\",\"customLabel\":\"Date de la requête à ezUNPAYWALL\"},\"schema\":\"bucket\"},{\"id\":\"3\",\"enabled\":true,\"type\":\"terms\",\"params\":{\"field\":\"oa_updated\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":1,\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\",\"customLabel\":\"Date de mise à jour de l'information Open Access\"},\"schema\":\"bucket\"}],\"params\":{\"perPage\":21,\"showPartialRows\":false,\"sort\":{\"columnIndex\":null,\"direction\":null},\"showTotal\":false,\"totalFunc\":\"sum\",\"showToolbar\":true,\"showMetricsAtAllLevels\":false,\"percentageCol\":\"\"}}",
@@ -928,7 +934,7 @@
         {
           "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
           "type": "index-pattern",
-          "id": "0ac2a050-45ad-11ee-a310-553397681ae4"
+          "id": "bibcnrs-*"
         }
       ],
       "migrationVersion": {
@@ -940,10 +946,10 @@
       "id": "04a3d150-e025-11ed-8ce4-61ee0b8a2f58",
       "type": "tag",
       "namespaces": [
-        "b-bibcnrs"
+        "cnrs"
       ],
-      "updated_at": "2023-09-01T12:36:22.020Z",
-      "version": "WzEwODM4MSwxNV0=",
+      "updated_at": "2023-10-02T09:00:08.354Z",
+      "version": "WzIwNjkyNzUsMTdd",
       "attributes": {
         "name": "bibcnrs",
         "description": "",
@@ -956,10 +962,10 @@
       "id": "07d141c0-6101-11ee-a310-553397681ae4",
       "type": "tag",
       "namespaces": [
-        "b-bibcnrs"
+        "cnrs"
       ],
-      "updated_at": "2023-10-02T08:52:34.943Z",
-      "version": "WzExMDYyMywxNV0=",
+      "updated_at": "2023-10-02T09:00:08.354Z",
+      "version": "WzIwNjkyNzYsMTdd",
       "attributes": {
         "name": "enrich CNRS",
         "description": "",
@@ -972,10 +978,10 @@
       "id": "0569a600-4736-11ee-a310-553397681ae4",
       "type": "tag",
       "namespaces": [
-        "b-bibcnrs"
+        "cnrs"
       ],
-      "updated_at": "2023-08-30T13:06:23.979Z",
-      "version": "WzEwNzQwOSwxNV0=",
+      "updated_at": "2023-10-02T09:00:08.354Z",
+      "version": "WzIwNjkyNzcsMTdd",
       "attributes": {
         "name": "reseda",
         "description": "",
