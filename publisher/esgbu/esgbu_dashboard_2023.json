@@ -7,8 +7,8 @@
       "namespaces": [
         "formation-publisher"
       ],
-      "updated_at": "2024-03-12T10:37:44.134Z",
-      "version": "WzIxNTMzNTQsMTdd",
+      "updated_at": "2024-04-08T07:59:29.013Z",
+      "version": "WzIyMzI2MDAsMTdd",
       "attributes": {
         "title": "publisher : ESGBU données année 2023",
         "hits": 0,
@@ -17,8 +17,8 @@
         "optionsJSON": "{\"useMargins\":true,\"syncColors\":false,\"hidePanelTitles\":false}",
         "version": 1,
         "timeRestore": true,
-        "timeTo": "now-2M",
-        "timeFrom": "now-1y/y",
+        "timeTo": "2023-12-31T08:59:08.873Z",
+        "timeFrom": "2022-12-30T23:00:00.000Z",
         "refreshInterval": {
           "pause": true,
           "value": 0
@@ -1560,11 +1560,11 @@
       "namespaces": [
         "formation-publisher"
       ],
-      "updated_at": "2024-03-12T10:32:31.996Z",
-      "version": "WzIxNTMxMzksMTdd",
+      "updated_at": "2024-03-20T13:08:26.334Z",
+      "version": "WzIxNzU2NzUsMTdd",
       "attributes": {
         "title": "publisher : ESGBU profils-table présence",
-        "visState": "{\"title\":\"publisher : ESGBU profils-table présence\",\"type\":\"table\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"cardinality\",\"params\":{\"field\":\"X_Package\",\"customLabel\":\"Présence\"},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"params\":{\"field\":\"X_Tags\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":20,\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\",\"customLabel\":\"Profil/Compte/Site/Antenne/Fonds\"},\"schema\":\"bucket\"}],\"params\":{\"perPage\":20,\"showPartialRows\":false,\"showMetricsAtAllLevels\":false,\"sort\":{\"columnIndex\":null,\"direction\":null},\"showTotal\":true,\"totalFunc\":\"sum\",\"percentageCol\":\"\",\"dimensions\":{\"metrics\":[{\"accessor\":1,\"format\":{\"id\":\"number\"},\"params\":{},\"aggType\":\"sum\"}],\"buckets\":[{\"accessor\":0,\"format\":{\"id\":\"terms\",\"params\":{\"id\":\"string\",\"otherBucketLabel\":\"Other\",\"missingBucketLabel\":\"Missing\"}},\"params\":{},\"aggType\":\"terms\"}]},\"showToolbar\":true}}",
+        "visState": "{\"title\":\"publisher : ESGBU profils-table présence\",\"type\":\"table\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"cardinality\",\"params\":{\"field\":\"X_Tags\",\"customLabel\":\"Présence\"},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"params\":{\"field\":\"X_Tags\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":20,\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\",\"customLabel\":\"Profil/Compte/Site/Antenne/Fonds\"},\"schema\":\"bucket\"}],\"params\":{\"perPage\":20,\"showPartialRows\":false,\"showMetricsAtAllLevels\":false,\"sort\":{\"columnIndex\":null,\"direction\":null},\"showTotal\":true,\"totalFunc\":\"sum\",\"percentageCol\":\"\",\"dimensions\":{\"metrics\":[{\"accessor\":1,\"format\":{\"id\":\"number\"},\"params\":{},\"aggType\":\"sum\"}],\"buckets\":[{\"accessor\":0,\"format\":{\"id\":\"terms\",\"params\":{\"id\":\"string\",\"otherBucketLabel\":\"Other\",\"missingBucketLabel\":\"Missing\"}},\"params\":{},\"aggType\":\"terms\"}]},\"showToolbar\":true}}",
         "uiStateJSON": "{}",
         "description": "Table des profils/comptes de l'établissement ",
         "version": 1,
