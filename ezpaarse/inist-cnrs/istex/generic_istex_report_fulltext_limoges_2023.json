@@ -2,22 +2,22 @@
   "version": "7.14.1",
   "objects": [
     {
-      "id": "828f70b0-1428-11ee-8ce4-61ee0b8a2f58",
+      "id": "48768650-b38a-11ee-b461-95ba0aa9c81f",
       "type": "dashboard",
       "namespaces": [
         "istex"
       ],
-      "updated_at": "2023-06-27T06:39:39.593Z",
-      "version": "WzE0ODQwNzAsMTFd",
+      "updated_at": "2024-01-15T09:41:39.774Z",
+      "version": "WzIwNzY4NjMsMTdd",
       "attributes": {
-        "title": "istex-*:Report Fulltext Univ Limoges 2023 (1)",
+        "title": "istex-*:Report Fulltext Univ Limoges 2023 ",
         "hits": 0,
         "description": "reporting pdf universités validé par Pascale et Claude  27/06/20223",
         "panelsJSON": "[{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"h\":20,\"i\":\"12\",\"w\":48,\"x\":0,\"y\":40},\"panelIndex\":\"12\",\"embeddableConfig\":{\"enhancements\":{}},\"panelRefName\":\"panel_12\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"h\":25,\"i\":\"d26cd519-2799-47f5-afaf-5852b80f7660\",\"w\":48,\"x\":0,\"y\":0},\"panelIndex\":\"d26cd519-2799-47f5-afaf-5852b80f7660\",\"embeddableConfig\":{\"enhancements\":{}},\"panelRefName\":\"panel_d26cd519-2799-47f5-afaf-5852b80f7660\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"h\":15,\"i\":\"d5b299ec-beac-4251-9b05-1eed37f48a80\",\"w\":48,\"x\":0,\"y\":25},\"panelIndex\":\"d5b299ec-beac-4251-9b05-1eed37f48a80\",\"embeddableConfig\":{\"enhancements\":{}},\"panelRefName\":\"panel_d5b299ec-beac-4251-9b05-1eed37f48a80\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"h\":37,\"i\":\"0277566d-f077-4e2f-914a-39c13fd774cc\",\"w\":22,\"x\":0,\"y\":60},\"panelIndex\":\"0277566d-f077-4e2f-914a-39c13fd774cc\",\"embeddableConfig\":{\"enhancements\":{}},\"panelRefName\":\"panel_0277566d-f077-4e2f-914a-39c13fd774cc\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"h\":37,\"i\":\"41baaa2c-3ebf-4f9e-9a17-1735cef4693e\",\"w\":26,\"x\":22,\"y\":60},\"panelIndex\":\"41baaa2c-3ebf-4f9e-9a17-1735cef4693e\",\"embeddableConfig\":{\"enhancements\":{},\"vis\":{\"legendOpen\":true}},\"panelRefName\":\"panel_41baaa2c-3ebf-4f9e-9a17-1735cef4693e\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"h\":68,\"i\":\"12a3ad7b-3551-4724-9480-28025eba3c28\",\"w\":48,\"x\":0,\"y\":97},\"panelIndex\":\"12a3ad7b-3551-4724-9480-28025eba3c28\",\"embeddableConfig\":{\"enhancements\":{}},\"panelRefName\":\"panel_12a3ad7b-3551-4724-9480-28025eba3c28\"}]",
         "optionsJSON": "{\"darkTheme\":false,\"useMargins\":false}",
         "version": 1,
         "timeRestore": true,
-        "timeTo": "2023-06-30T21:59:59.999Z",
+        "timeTo": "2023-12-31T22:59:59.999Z",
         "timeFrom": "2022-12-31T23:00:00.000Z",
         "refreshInterval": {
           "pause": true,
@@ -105,8 +105,8 @@
       "namespaces": [
         "istex"
       ],
-      "updated_at": "2023-03-20T08:20:05.484Z",
-      "version": "WzEyNTQwODksMTBd",
+      "updated_at": "2024-02-07T09:00:53.678Z",
+      "version": "WzIwNzM2NzIsMTdd",
       "attributes": {
         "notExpandable": true,
         "fieldFormatMap": "{\"date\":{\"id\":\"date\",\"params\":{\"pattern\":\"Do MMMM  YYYY\"}},\"datetime\":{\"id\":\"date\",\"params\":{\"pattern\":\"D, MMM  YYYY \"}}}",
@@ -114,7 +114,7 @@
         "title": "istex_*",
         "fields": "[]",
         "runtimeFieldMap": "{}",
-        "fieldAttrs": "{\"host\":{\"count\":8},\"rtype\":{\"count\":3},\"istex_bundle_size\":{\"count\":3},\"geoip-country\":{\"count\":1},\"mime\":{\"count\":2},\"url\":{\"count\":1}}",
+        "fieldAttrs": "{\"host\":{\"count\":9},\"rtype\":{\"count\":5},\"istex_bundle_size\":{\"count\":3},\"geoip-country\":{\"count\":1},\"mime\":{\"count\":2},\"url\":{\"count\":1},\"istex-id\":{\"count\":7},\"owner\":{\"count\":4},\"sid\":{\"count\":2}}",
         "typeMeta": "{}"
       },
       "references": [],
@@ -130,7 +130,7 @@
         "istex"
       ],
       "updated_at": "2023-03-17T06:41:32.818Z",
-      "version": "WzEyNTA5ODgsMTBd",
+      "version": "WzIwNjE4MDMsMTdd",
       "attributes": {
         "title": "istex-*:histogramme d'accès par mois",
         "visState": "{\"title\":\"istex-*:histogramme d'accès par mois\",\"type\":\"histogram\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"params\":{},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"date_histogram\",\"params\":{\"field\":\"datetime\",\"timeRange\":{\"from\":\"2021-12-31T23:00:00.000Z\",\"to\":\"2022-12-31T22:59:59.999Z\"},\"useNormalizedEsInterval\":true,\"scaleMetricValues\":true,\"interval\":\"M\",\"used_interval\":\"1M\",\"drop_partials\":false,\"min_doc_count\":1,\"extended_bounds\":{}},\"schema\":\"segment\"}],\"params\":{\"type\":\"histogram\",\"grid\":{\"categoryLines\":false,\"style\":{\"color\":\"#eee\"}},\"categoryAxes\":[{\"id\":\"CategoryAxis-1\",\"type\":\"category\",\"position\":\"bottom\",\"show\":true,\"style\":{},\"scale\":{\"type\":\"linear\"},\"labels\":{\"show\":true,\"truncate\":100,\"filter\":true},\"title\":{}}],\"valueAxes\":[{\"id\":\"ValueAxis-1\",\"name\":\"LeftAxis-1\",\"type\":\"value\",\"position\":\"left\",\"show\":true,\"style\":{},\"scale\":{\"type\":\"linear\",\"mode\":\"normal\"},\"labels\":{\"show\":true,\"rotate\":0,\"filter\":false,\"truncate\":100},\"title\":{\"text\":\"Count\"}}],\"seriesParams\":[{\"show\":\"true\",\"type\":\"histogram\",\"mode\":\"stacked\",\"data\":{\"label\":\"Count\",\"id\":\"1\"},\"valueAxis\":\"ValueAxis-1\",\"drawLinesBetweenPoints\":true,\"showCircles\":true}],\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"left\",\"times\":[],\"addTimeMarker\":false,\"labels\":{\"show\":true},\"thresholdLine\":{\"show\":false,\"value\":10,\"width\":1,\"style\":\"full\",\"color\":\"#34130C\"},\"palette\":{\"type\":\"palette\",\"name\":\"kibana_palette\"},\"isVislibVis\":true,\"detailedTooltip\":true,\"radiusRatio\":0}}",
@@ -160,7 +160,7 @@
         "istex"
       ],
       "updated_at": "2022-03-24T16:19:22.997Z",
-      "version": "WzExNzU3NDksMTBd",
+      "version": "WzIwNTYxMzMsMTdd",
       "attributes": {
         "title": "istex_*: report markdown Univ Limoges",
         "visState": "{\"title\":\"istex_*: report markdown Univ Limoges\",\"type\":\"markdown\",\"aggs\":[],\"params\":{\"markdown\":\"Ce rapport est destiné à montrer les consultations d'articles en PDF de ![univ Limoges](https://uniondesetudiantsexiles.org/wp-content/uploads/2020/06/Capture-d%E2%80%99%C3%A9cran-2020-06-18-%C3%A0-16.18.24.png)\\n\\n aux ressources   ![ISTEX](https://www.inist.fr/wp-content/uploads/2018/07/istex_logo.svg) analysées par [![ezMESURE](https://user-images.githubusercontent.com/10154941/30215945-cac4a172-94b1-11e7-89ce-54b7134ab53b.png)](/)\",\"openLinksInNewTab\":false,\"fontSize\":23}}",
@@ -183,8 +183,8 @@
       "namespaces": [
         "istex"
       ],
-      "updated_at": "2023-04-12T13:32:47.178Z",
-      "version": "WzEzMjI3MzMsMTFd",
+      "updated_at": "2024-01-22T10:11:06.935Z",
+      "version": "WzIwNzcwMDAsMTdd",
       "attributes": {
         "title": "istex-*: report metric ",
         "visState": "{\"title\":\"istex-*: report metric \",\"type\":\"metric\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"params\":{\"customLabel\":\"accès à la plateforme sur\"},\"schema\":\"metric\"},{\"id\":\"4\",\"enabled\":true,\"type\":\"cardinality\",\"params\":{\"field\":\"publisher_name\",\"customLabel\":\"Corpus\"},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"min\",\"params\":{\"field\":\"datetime\",\"customLabel\":\"Début de période\"},\"schema\":\"metric\"},{\"id\":\"3\",\"enabled\":true,\"type\":\"max\",\"params\":{\"field\":\"datetime\",\"customLabel\":\"Fin de période\"},\"schema\":\"metric\"}],\"params\":{\"handleNoResults\":true,\"fontSize\":\"30\",\"addTooltip\":true,\"addLegend\":false,\"type\":\"metric\",\"metric\":{\"percentageMode\":false,\"useRanges\":false,\"colorSchema\":\"Green to Red\",\"metricColorMode\":\"None\",\"colorsRange\":[{\"from\":0,\"to\":10000}],\"labels\":{\"show\":true},\"invertColors\":false,\"style\":{\"bgFill\":\"#000\",\"bgColor\":false,\"labelColor\":false,\"subText\":\"\",\"fontSize\":20}},\"dimensions\":{\"metrics\":[{\"accessor\":0,\"format\":{\"id\":\"number\"},\"params\":{},\"aggType\":\"count\"},{\"accessor\":1,\"format\":{\"id\":\"number\"},\"params\":{},\"aggType\":\"cardinality\"},{\"accessor\":2,\"format\":{\"id\":\"date\",\"params\":{\"pattern\":\"D, MMM  YYYY \"}},\"params\":{},\"aggType\":\"min\"},{\"accessor\":3,\"format\":{\"id\":\"date\",\"params\":{\"pattern\":\"D, MMM  YYYY \"}},\"params\":{},\"aggType\":\"max\"}]}}}",
@@ -192,7 +192,7 @@
         "description": "",
         "version": 1,
         "kibanaSavedObjectMeta": {
-          "searchSourceJSON": "{\"query\":{\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true,\"default_field\":\"*\"}},\"language\":\"lucene\"},\"filter\":[],\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.index\"}"
+          "searchSourceJSON": "{\"query\":{\"query\":\"*\",\"language\":\"lucene\"},\"filter\":[],\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.index\"}"
         }
       },
       "references": [
@@ -214,7 +214,7 @@
         "istex"
       ],
       "updated_at": "2022-09-27T12:17:27.391Z",
-      "version": "WzExODE0NTMsMTBd",
+      "version": "WzIwNjI4NTIsMTdd",
       "attributes": {
         "title": "istex-*: report table éditeurs",
         "visState": "{\"title\":\"istex-*: report table éditeurs\",\"type\":\"table\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"params\":{\"customLabel\":\"Consultations\"},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"params\":{\"field\":\"publisher_name\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":50,\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\",\"customLabel\":\"Corpus\"},\"schema\":\"bucket\"}],\"params\":{\"perPage\":40,\"showPartialRows\":false,\"sort\":{\"columnIndex\":null,\"direction\":null},\"showTotal\":true,\"totalFunc\":\"sum\",\"showMetricsAtAllLevels\":false,\"percentageCol\":\"\",\"showToolbar\":true}}",
@@ -243,8 +243,8 @@
       "namespaces": [
         "istex"
       ],
-      "updated_at": "2021-12-20T16:23:14.031Z",
-      "version": "WzExNzUzMDEsMTBd",
+      "updated_at": "2024-02-22T15:08:47.190Z",
+      "version": "WzIwODk5NTUsMTdd",
       "attributes": {
         "title": "istex-*: répartition éditeurs ",
         "visState": "{\"title\":\"istex-*: répartition éditeurs \",\"type\":\"pie\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"params\":{},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"params\":{\"field\":\"publisher_name\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":50,\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\"},\"schema\":\"segment\"}],\"params\":{\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"left\",\"isDonut\":true,\"type\":\"pie\",\"labels\":{\"show\":true,\"values\":true,\"last_level\":true,\"truncate\":100},\"palette\":{\"type\":\"palette\",\"name\":\"kibana_palette\"},\"distinctColors\":true,\"nestedLegend\":false}}",
@@ -273,16 +273,16 @@
       "namespaces": [
         "istex"
       ],
-      "updated_at": "2023-04-12T14:15:28.499Z",
-      "version": "WzEzMjM1NzgsMTFd",
+      "updated_at": "2024-01-24T09:13:58.849Z",
+      "version": "WzIwNzMyNzgsMTdd",
       "attributes": {
         "title": "istex-*:Titres de publication et éditeurs",
-        "visState": "{\"title\":\"istex-*:Titres de publication et éditeurs\",\"type\":\"table\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"params\":{},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"params\":{\"field\":\"publication_title\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":5000,\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":true,\"missingBucketLabel\":\"Missing\",\"customLabel\":\"Titres de publication\"},\"schema\":\"bucket\"},{\"id\":\"3\",\"enabled\":true,\"type\":\"terms\",\"params\":{\"field\":\"publisher_name\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":5,\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\",\"customLabel\":\"Editeur\"},\"schema\":\"bucket\"}],\"params\":{\"perPage\":40,\"showPartialRows\":false,\"showMetricsAtAllLevels\":false,\"sort\":{\"columnIndex\":null,\"direction\":null},\"showTotal\":false,\"totalFunc\":\"sum\",\"percentageCol\":\"\",\"dimensions\":{\"metrics\":[{\"accessor\":2,\"format\":{\"id\":\"number\"},\"params\":{},\"aggType\":\"count\"}],\"buckets\":[{\"accessor\":0,\"format\":{\"id\":\"terms\",\"params\":{\"id\":\"string\",\"otherBucketLabel\":\"Other\",\"missingBucketLabel\":\"Missing\"}},\"params\":{},\"aggType\":\"terms\"},{\"accessor\":1,\"format\":{\"id\":\"terms\",\"params\":{\"id\":\"string\",\"otherBucketLabel\":\"Other\",\"missingBucketLabel\":\"Missing\"}},\"params\":{},\"aggType\":\"terms\"}]},\"showToolbar\":true}}",
+        "visState": "{\"title\":\"istex-*:Titres de publication et éditeurs\",\"type\":\"table\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"params\":{},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"params\":{\"field\":\"publication_title\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":5000,\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":true,\"missingBucketLabel\":\"Missing\",\"customLabel\":\"Titres de publication\"},\"schema\":\"bucket\"},{\"id\":\"3\",\"enabled\":true,\"type\":\"terms\",\"params\":{\"field\":\"publisher_name\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":30,\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\",\"customLabel\":\"Editeur\"},\"schema\":\"bucket\"}],\"params\":{\"dimensions\":{\"buckets\":[{\"accessor\":0,\"aggType\":\"terms\",\"format\":{\"id\":\"terms\",\"params\":{\"id\":\"string\",\"missingBucketLabel\":\"Missing\",\"otherBucketLabel\":\"Other\"}},\"params\":{}},{\"accessor\":1,\"aggType\":\"terms\",\"format\":{\"id\":\"terms\",\"params\":{\"id\":\"string\",\"missingBucketLabel\":\"Missing\",\"otherBucketLabel\":\"Other\"}},\"params\":{}}],\"metrics\":[{\"accessor\":2,\"aggType\":\"count\",\"format\":{\"id\":\"number\"},\"params\":{}}]},\"perPage\":40,\"percentageCol\":\"\",\"showMetricsAtAllLevels\":false,\"showPartialRows\":false,\"showToolbar\":true,\"showTotal\":false,\"sort\":{\"columnIndex\":null,\"direction\":null},\"totalFunc\":\"sum\"}}",
         "uiStateJSON": "{}",
         "description": "",
         "version": 1,
         "kibanaSavedObjectMeta": {
-          "searchSourceJSON": "{\"query\":{\"query\":\"\",\"language\":\"kuery\"},\"filter\":[],\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.index\"}"
+          "searchSourceJSON": "{\"query\":{\"language\":\"kuery\",\"query\":\"\"},\"filter\":[],\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.index\"}"
         }
       },
       "references": [
@@ -303,8 +303,8 @@
       "namespaces": [
         "istex"
       ],
-      "updated_at": "2023-03-27T15:12:07.853Z",
-      "version": "WzEyODMyNTEsMTBd",
+      "updated_at": "2023-09-11T06:59:04.647Z",
+      "version": "WzIwNzI0ODQsMTdd",
       "attributes": {
         "name": "validé",
         "description": "",
@@ -320,7 +320,7 @@
         "istex"
       ],
       "updated_at": "2023-06-27T06:12:29.818Z",
-      "version": "WzE0ODM5MzQsMTFd",
+      "version": "WzIwNjUyNDcsMTdd",
       "attributes": {
         "name": "reporting",
         "description": "",
@@ -336,7 +336,7 @@
         "istex"
       ],
       "updated_at": "2023-06-27T06:12:17.090Z",
-      "version": "WzE0ODM5MzMsMTFd",
+      "version": "WzIwNjUyNDgsMTdd",
       "attributes": {
         "name": "Istex",
         "description": "",
@@ -352,7 +352,7 @@
         "istex"
       ],
       "updated_at": "2023-06-27T06:39:35.054Z",
-      "version": "WzE0ODQwNjgsMTFd",
+      "version": "WzIwNjUyNTYsMTdd",
       "attributes": {
         "name": "université",
         "description": "",

@@ -8,7 +8,7 @@
         "istex"
       ],
       "updated_at": "2023-06-27T06:38:33.496Z",
-      "version": "WzE0ODQwNTgsMTFd",
+      "version": "WzIwNjUyNTIsMTdd",
       "attributes": {
         "title": "istex-*:TB_corpus_JR1 Springer 2021 (Editeur)",
         "hits": 0,
@@ -100,8 +100,8 @@
       "namespaces": [
         "istex"
       ],
-      "updated_at": "2023-03-20T08:20:05.484Z",
-      "version": "WzEyNTQwODksMTBd",
+      "updated_at": "2024-02-07T09:00:53.678Z",
+      "version": "WzIwNzM2NzIsMTdd",
       "attributes": {
         "notExpandable": true,
         "fieldFormatMap": "{\"date\":{\"id\":\"date\",\"params\":{\"pattern\":\"Do MMMM  YYYY\"}},\"datetime\":{\"id\":\"date\",\"params\":{\"pattern\":\"D, MMM  YYYY \"}}}",
@@ -109,7 +109,7 @@
         "title": "istex_*",
         "fields": "[]",
         "runtimeFieldMap": "{}",
-        "fieldAttrs": "{\"host\":{\"count\":8},\"rtype\":{\"count\":3},\"istex_bundle_size\":{\"count\":3},\"geoip-country\":{\"count\":1},\"mime\":{\"count\":2},\"url\":{\"count\":1}}",
+        "fieldAttrs": "{\"host\":{\"count\":9},\"rtype\":{\"count\":5},\"istex_bundle_size\":{\"count\":3},\"geoip-country\":{\"count\":1},\"mime\":{\"count\":2},\"url\":{\"count\":1},\"istex-id\":{\"count\":7},\"owner\":{\"count\":4},\"sid\":{\"count\":2}}",
         "typeMeta": "{}"
       },
       "references": [],
@@ -125,7 +125,7 @@
         "istex"
       ],
       "updated_at": "2023-05-26T13:48:20.902Z",
-      "version": "WzE0MTY4MDAsMTFd",
+      "version": "WzIwNjQ5ODYsMTdd",
       "attributes": {
         "title": "istex-*:TB_externe_metrics",
         "visState": "{\"title\":\"istex-*:TB_externe_metrics\",\"type\":\"metric\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"params\":{\"customLabel\":\"accès à la plateforme\"},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"cardinality\",\"params\":{\"field\":\"owner\",\"customLabel\":\"Nombre d'établissements différents\"},\"schema\":\"metric\"},{\"id\":\"4\",\"enabled\":true,\"type\":\"min\",\"params\":{\"field\":\"datetime\",\"customLabel\":\"début de la période mesurée\"},\"schema\":\"metric\"},{\"id\":\"3\",\"enabled\":true,\"type\":\"max\",\"params\":{\"field\":\"datetime\",\"customLabel\":\"fin de la période mesurée\"},\"schema\":\"metric\"}],\"params\":{\"addLegend\":false,\"addTooltip\":true,\"dimensions\":{\"metrics\":[{\"accessor\":0,\"aggType\":\"count\",\"format\":{\"id\":\"number\"},\"params\":{}},{\"accessor\":1,\"aggType\":\"cardinality\",\"format\":{\"id\":\"number\"},\"params\":{}},{\"accessor\":2,\"aggType\":\"min\",\"format\":{\"id\":\"date\",\"params\":{\"pattern\":\"Do MMMM  YYYY\"}},\"params\":{}},{\"accessor\":3,\"aggType\":\"max\",\"format\":{\"id\":\"date\",\"params\":{\"pattern\":\"Do MMMM  YYYY\"}},\"params\":{}}]},\"fontSize\":\"12\",\"handleNoResults\":true,\"metric\":{\"colorSchema\":\"Green to Red\",\"colorsRange\":[{\"from\":0,\"to\":10000}],\"invertColors\":false,\"labels\":{\"show\":true},\"metricColorMode\":\"None\",\"percentageMode\":false,\"style\":{\"bgColor\":false,\"bgFill\":\"#000\",\"fontSize\":22,\"labelColor\":false,\"subText\":\"\"},\"useRanges\":false},\"type\":\"metric\"}}",
@@ -156,7 +156,7 @@
         "istex"
       ],
       "updated_at": "2023-05-26T13:56:21.403Z",
-      "version": "WzE0MTY5NDcsMTFd",
+      "version": "WzIwNjQ5ODcsMTdd",
       "attributes": {
         "title": "istex-*:TB_Corpus_JR1_titres_de_publication",
         "visState": "{\"title\":\"istex-*:TB_Corpus_JR1_titres_de_publication\",\"type\":\"table\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"params\":{\"customLabel\":\"Consultations\"},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"params\":{\"field\":\"publication_title\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":1700,\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":false,\"missingBucketLabel\":\"Non renseigné\",\"customLabel\":\"Liste des Titres consultés par ordre décroissant\"},\"schema\":\"bucket\"}],\"params\":{\"perPage\":101,\"showPartialRows\":false,\"showTotal\":true,\"sort\":{\"columnIndex\":null,\"direction\":null},\"totalFunc\":\"sum\",\"showMetricsAtAllLevels\":false,\"showToolbar\":true,\"percentageCol\":\"\"}}",
@@ -187,7 +187,7 @@
         "istex"
       ],
       "updated_at": "2023-03-20T13:18:00.459Z",
-      "version": "WzEyNTc0MzQsMTBd",
+      "version": "WzIwNjE4NTMsMTdd",
       "attributes": {
         "title": "istex_*: TB_Corpus_JR1_Editeur Springer",
         "visState": "{\"title\":\"istex_*: TB_Corpus_JR1_Editeur Springer\",\"type\":\"markdown\",\"aggs\":[],\"params\":{\"markdown\":\"Ce rapport présente les consultations de type article au format PDF (JR1) du corpus ![Springer](https://bnu.hypotheses.org/files/2021/12/springer-logo.jpg) sur la plateforme![ISTEX](https://www.inist.fr/wp-content/uploads/2018/07/istex_logo.svg) analysées par \\n [![ezMESURE](https://user-images.githubusercontent.com/10154941/30215945-cac4a172-94b1-11e7-89ce-54b7134ab53b.png)](/)\",\"openLinksInNewTab\":false,\"fontSize\":19}}",
@@ -210,8 +210,8 @@
       "namespaces": [
         "istex"
       ],
-      "updated_at": "2023-03-27T15:12:07.853Z",
-      "version": "WzEyODMyNTEsMTBd",
+      "updated_at": "2023-09-11T06:59:04.647Z",
+      "version": "WzIwNzI0ODQsMTdd",
       "attributes": {
         "name": "validé",
         "description": "",
@@ -227,7 +227,7 @@
         "istex"
       ],
       "updated_at": "2023-06-27T06:12:29.818Z",
-      "version": "WzE0ODM5MzQsMTFd",
+      "version": "WzIwNjUyNDcsMTdd",
       "attributes": {
         "name": "reporting",
         "description": "",
@@ -243,7 +243,7 @@
         "istex"
       ],
       "updated_at": "2023-06-27T06:12:17.090Z",
-      "version": "WzE0ODM5MzMsMTFd",
+      "version": "WzIwNjUyNDgsMTdd",
       "attributes": {
         "name": "Istex",
         "description": "",
@@ -259,7 +259,7 @@
         "istex"
       ],
       "updated_at": "2023-06-27T06:38:29.671Z",
-      "version": "WzE0ODQwNTYsMTFd",
+      "version": "WzIwNjUyNTMsMTdd",
       "attributes": {
         "name": "éditeur",
         "description": "",
@@ -275,7 +275,7 @@
         "istex"
       ],
       "updated_at": "2019-10-30T14:16:29.804Z",
-      "version": "WzExNzYzMjMsMTBd",
+      "version": "WzIwNTY2NTIsMTdd",
       "attributes": {
         "columns": [
           "_source"

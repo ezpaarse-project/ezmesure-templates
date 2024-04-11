@@ -8,7 +8,7 @@
         "istex"
       ],
       "updated_at": "2023-06-27T06:36:56.610Z",
-      "version": "WzE0ODQwMzgsMTFd",
+      "version": "WzIwNjUyNTAsMTdd",
       "attributes": {
         "title": "istex-*:Report accès Fulltext Hal 2022",
         "hits": 0,
@@ -125,8 +125,8 @@
       "namespaces": [
         "istex"
       ],
-      "updated_at": "2023-03-20T08:20:05.484Z",
-      "version": "WzEyNTQwODksMTBd",
+      "updated_at": "2024-02-07T09:00:53.678Z",
+      "version": "WzIwNzM2NzIsMTdd",
       "attributes": {
         "notExpandable": true,
         "fieldFormatMap": "{\"date\":{\"id\":\"date\",\"params\":{\"pattern\":\"Do MMMM  YYYY\"}},\"datetime\":{\"id\":\"date\",\"params\":{\"pattern\":\"D, MMM  YYYY \"}}}",
@@ -134,7 +134,7 @@
         "title": "istex_*",
         "fields": "[]",
         "runtimeFieldMap": "{}",
-        "fieldAttrs": "{\"host\":{\"count\":8},\"rtype\":{\"count\":3},\"istex_bundle_size\":{\"count\":3},\"geoip-country\":{\"count\":1},\"mime\":{\"count\":2},\"url\":{\"count\":1}}",
+        "fieldAttrs": "{\"host\":{\"count\":9},\"rtype\":{\"count\":5},\"istex_bundle_size\":{\"count\":3},\"geoip-country\":{\"count\":1},\"mime\":{\"count\":2},\"url\":{\"count\":1},\"istex-id\":{\"count\":7},\"owner\":{\"count\":4},\"sid\":{\"count\":2}}",
         "typeMeta": "{}"
       },
       "references": [],
@@ -150,7 +150,7 @@
         "istex"
       ],
       "updated_at": "2023-03-17T06:41:32.818Z",
-      "version": "WzEyNTA5ODgsMTBd",
+      "version": "WzIwNjE4MDMsMTdd",
       "attributes": {
         "title": "istex-*:histogramme d'accès par mois",
         "visState": "{\"title\":\"istex-*:histogramme d'accès par mois\",\"type\":\"histogram\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"params\":{},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"date_histogram\",\"params\":{\"field\":\"datetime\",\"timeRange\":{\"from\":\"2021-12-31T23:00:00.000Z\",\"to\":\"2022-12-31T22:59:59.999Z\"},\"useNormalizedEsInterval\":true,\"scaleMetricValues\":true,\"interval\":\"M\",\"used_interval\":\"1M\",\"drop_partials\":false,\"min_doc_count\":1,\"extended_bounds\":{}},\"schema\":\"segment\"}],\"params\":{\"type\":\"histogram\",\"grid\":{\"categoryLines\":false,\"style\":{\"color\":\"#eee\"}},\"categoryAxes\":[{\"id\":\"CategoryAxis-1\",\"type\":\"category\",\"position\":\"bottom\",\"show\":true,\"style\":{},\"scale\":{\"type\":\"linear\"},\"labels\":{\"show\":true,\"truncate\":100,\"filter\":true},\"title\":{}}],\"valueAxes\":[{\"id\":\"ValueAxis-1\",\"name\":\"LeftAxis-1\",\"type\":\"value\",\"position\":\"left\",\"show\":true,\"style\":{},\"scale\":{\"type\":\"linear\",\"mode\":\"normal\"},\"labels\":{\"show\":true,\"rotate\":0,\"filter\":false,\"truncate\":100},\"title\":{\"text\":\"Count\"}}],\"seriesParams\":[{\"show\":\"true\",\"type\":\"histogram\",\"mode\":\"stacked\",\"data\":{\"label\":\"Count\",\"id\":\"1\"},\"valueAxis\":\"ValueAxis-1\",\"drawLinesBetweenPoints\":true,\"showCircles\":true}],\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"left\",\"times\":[],\"addTimeMarker\":false,\"labels\":{\"show\":true},\"thresholdLine\":{\"show\":false,\"value\":10,\"width\":1,\"style\":\"full\",\"color\":\"#34130C\"},\"palette\":{\"type\":\"palette\",\"name\":\"kibana_palette\"},\"isVislibVis\":true,\"detailedTooltip\":true,\"radiusRatio\":0}}",
@@ -179,11 +179,11 @@
       "namespaces": [
         "istex"
       ],
-      "updated_at": "2023-04-12T13:15:39.415Z",
-      "version": "WzEzMjIzOTEsMTFd",
+      "updated_at": "2024-03-25T14:07:48.967Z",
+      "version": "WzIxODk1MzMsMTdd",
       "attributes": {
         "title": "istex_*: report markdown SciencesPo",
-        "visState": "{\"title\":\"istex_*: report markdown SciencesPo\",\"type\":\"markdown\",\"aggs\":[],\"params\":{\"markdown\":\"Ce rapport est destiné à montrer les consultations d'articles au format PDF des ressources\\n![ISTEX](https://www.inist.fr/wp-content/uploads/2018/07/istex_logo.svg) analysées par [![ezMESURE](https://user-images.githubusercontent.com/10154941/30215945-cac4a172-94b1-11e7-89ce-54b7134ab53b.png)](/)  \\nà partir de  ![Hal](https://socle.univ-rennes2.fr/system/files/UHB/logoHAL.png)\",\"openLinksInNewTab\":false,\"fontSize\":23}}",
+        "visState": "{\"title\":\"istex_*: report markdown SciencesPo\",\"type\":\"markdown\",\"aggs\":[],\"params\":{\"markdown\":\"Ce rapport est destiné à montrer les consultations d'articles au format PDF de ![Sciences-po](https://www.babelio.com/users/AVT_Sciences-po_6229.jpeg) aux ressources\\n![ISTEX](https://www.inist.fr/wp-content/uploads/2018/07/istex_logo.svg) analysées par [![ezMESURE](https://user-images.githubusercontent.com/10154941/30215945-cac4a172-94b1-11e7-89ce-54b7134ab53b.png)](/) \",\"openLinksInNewTab\":false,\"fontSize\":23}}",
         "uiStateJSON": "{}",
         "description": "",
         "version": 1,
@@ -203,11 +203,11 @@
       "namespaces": [
         "istex"
       ],
-      "updated_at": "2023-06-26T13:19:25.452Z",
-      "version": "WzE0ODIzNzgsMTFd",
+      "updated_at": "2024-02-07T08:57:33.701Z",
+      "version": "WzIwNzM2NzAsMTdd",
       "attributes": {
         "title": "istex_*:metrics",
-        "visState": "{\"title\":\"istex_*:metrics\",\"type\":\"metric\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"params\":{\"customLabel\":\"Total des accès au pdf\"},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"cardinality\",\"params\":{\"field\":\"istex-id\",\"customLabel\":\"Total des établissements de l'ESR\"},\"schema\":\"metric\"},{\"id\":\"3\",\"enabled\":true,\"type\":\"min\",\"params\":{\"field\":\"datetime\",\"customLabel\":\"Période du\"},\"schema\":\"metric\"},{\"id\":\"4\",\"enabled\":true,\"type\":\"max\",\"params\":{\"field\":\"datetime\",\"customLabel\":\"au\"},\"schema\":\"metric\"},{\"id\":\"5\",\"enabled\":true,\"type\":\"cardinality\",\"params\":{\"field\":\"owner\"},\"schema\":\"metric\"}],\"params\":{\"handleNoResults\":true,\"fontSize\":60,\"addTooltip\":true,\"addLegend\":false,\"type\":\"metric\",\"metric\":{\"percentageMode\":false,\"useRanges\":false,\"colorSchema\":\"Green to Red\",\"metricColorMode\":\"None\",\"colorsRange\":[{\"from\":0,\"to\":10000}],\"labels\":{\"show\":true},\"invertColors\":false,\"style\":{\"bgFill\":\"#000\",\"bgColor\":false,\"labelColor\":false,\"subText\":\"\",\"fontSize\":24}},\"dimensions\":{\"metrics\":[{\"accessor\":0,\"format\":{\"id\":\"number\"},\"params\":{},\"aggType\":\"count\"},{\"accessor\":1,\"format\":{\"id\":\"number\"},\"params\":{},\"aggType\":\"cardinality\"},{\"accessor\":2,\"format\":{\"id\":\"date\",\"params\":{\"pattern\":\"D, MMM  YYYY \"}},\"params\":{},\"aggType\":\"min\"},{\"accessor\":3,\"format\":{\"id\":\"date\",\"params\":{\"pattern\":\"D, MMM  YYYY \"}},\"params\":{},\"aggType\":\"max\"}]}}}",
+        "visState": "{\"title\":\"istex_*:metrics\",\"type\":\"metric\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"params\":{\"customLabel\":\"Total des accès à la plateforme\"},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"cardinality\",\"params\":{\"field\":\"istex-id\",\"customLabel\":\"Total des établissements de l'ESR\"},\"schema\":\"metric\"},{\"id\":\"3\",\"enabled\":true,\"type\":\"min\",\"params\":{\"field\":\"datetime\",\"customLabel\":\"Période du\"},\"schema\":\"metric\"},{\"id\":\"4\",\"enabled\":true,\"type\":\"max\",\"params\":{\"field\":\"datetime\",\"customLabel\":\"au\"},\"schema\":\"metric\"},{\"id\":\"5\",\"enabled\":true,\"type\":\"cardinality\",\"params\":{\"field\":\"owner\"},\"schema\":\"metric\"}],\"params\":{\"handleNoResults\":true,\"fontSize\":60,\"addTooltip\":true,\"addLegend\":false,\"type\":\"metric\",\"metric\":{\"percentageMode\":false,\"useRanges\":false,\"colorSchema\":\"Green to Red\",\"metricColorMode\":\"None\",\"colorsRange\":[{\"from\":0,\"to\":10000}],\"labels\":{\"show\":true},\"invertColors\":false,\"style\":{\"bgFill\":\"#000\",\"bgColor\":false,\"labelColor\":false,\"subText\":\"\",\"fontSize\":24}},\"dimensions\":{\"metrics\":[{\"accessor\":0,\"format\":{\"id\":\"number\"},\"params\":{},\"aggType\":\"count\"},{\"accessor\":1,\"format\":{\"id\":\"number\"},\"params\":{},\"aggType\":\"cardinality\"},{\"accessor\":2,\"format\":{\"id\":\"date\",\"params\":{\"pattern\":\"D, MMM  YYYY \"}},\"params\":{},\"aggType\":\"min\"},{\"accessor\":3,\"format\":{\"id\":\"date\",\"params\":{\"pattern\":\"D, MMM  YYYY \"}},\"params\":{},\"aggType\":\"max\"}]}}}",
         "uiStateJSON": "{}",
         "description": "",
         "version": 1,
@@ -234,7 +234,7 @@
         "istex"
       ],
       "updated_at": "2023-04-12T14:31:33.793Z",
-      "version": "WzEzMjM4MDIsMTFd",
+      "version": "WzIwNjQ0MDcsMTdd",
       "attributes": {
         "title": "istex_*:metrics (copy 1)",
         "visState": "{\"title\":\"istex_*:metrics\",\"type\":\"metric\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"params\":{\"customLabel\":\"Total des accès au pdf\"},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"cardinality\",\"params\":{\"field\":\"istex-id\",\"customLabel\":\"Total des établissements de l'ESR\"},\"schema\":\"metric\"},{\"id\":\"3\",\"enabled\":true,\"type\":\"min\",\"params\":{\"field\":\"datetime\",\"customLabel\":\"Période du\"},\"schema\":\"metric\"},{\"id\":\"4\",\"enabled\":true,\"type\":\"max\",\"params\":{\"field\":\"datetime\",\"customLabel\":\"au\"},\"schema\":\"metric\"}],\"params\":{\"handleNoResults\":true,\"fontSize\":60,\"addTooltip\":true,\"addLegend\":false,\"type\":\"metric\",\"metric\":{\"percentageMode\":false,\"useRanges\":false,\"colorSchema\":\"Green to Red\",\"metricColorMode\":\"None\",\"colorsRange\":[{\"from\":0,\"to\":10000}],\"labels\":{\"show\":true},\"invertColors\":false,\"style\":{\"bgFill\":\"#000\",\"bgColor\":false,\"labelColor\":false,\"subText\":\"\",\"fontSize\":24}},\"dimensions\":{\"metrics\":[{\"accessor\":0,\"format\":{\"id\":\"number\"},\"params\":{},\"aggType\":\"count\"},{\"accessor\":1,\"format\":{\"id\":\"number\"},\"params\":{},\"aggType\":\"cardinality\"},{\"accessor\":2,\"format\":{\"id\":\"date\",\"params\":{\"pattern\":\"D, MMM  YYYY \"}},\"params\":{},\"aggType\":\"min\"},{\"accessor\":3,\"format\":{\"id\":\"date\",\"params\":{\"pattern\":\"D, MMM  YYYY \"}},\"params\":{},\"aggType\":\"max\"}]}}}",
@@ -264,7 +264,7 @@
         "istex"
       ],
       "updated_at": "2023-04-12T14:34:15.994Z",
-      "version": "WzEzMjM4MjMsMTFd",
+      "version": "WzIwNjQ0MDgsMTdd",
       "attributes": {
         "title": "istex-*:histogramme d'accès par mois (copy)",
         "visState": "{\"title\":\"istex-*:histogramme d'accès par mois\",\"type\":\"histogram\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"params\":{},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"date_histogram\",\"params\":{\"field\":\"datetime\",\"timeRange\":{\"from\":\"2021-12-31T23:00:00.000Z\",\"to\":\"2022-12-31T22:59:59.999Z\"},\"useNormalizedEsInterval\":true,\"scaleMetricValues\":true,\"interval\":\"M\",\"used_interval\":\"1M\",\"drop_partials\":false,\"min_doc_count\":1,\"extended_bounds\":{}},\"schema\":\"segment\"}],\"params\":{\"type\":\"histogram\",\"grid\":{\"categoryLines\":false,\"style\":{\"color\":\"#eee\"}},\"categoryAxes\":[{\"id\":\"CategoryAxis-1\",\"type\":\"category\",\"position\":\"bottom\",\"show\":true,\"style\":{},\"scale\":{\"type\":\"linear\"},\"labels\":{\"show\":true,\"truncate\":100,\"filter\":true},\"title\":{}}],\"valueAxes\":[{\"id\":\"ValueAxis-1\",\"name\":\"LeftAxis-1\",\"type\":\"value\",\"position\":\"left\",\"show\":true,\"style\":{},\"scale\":{\"type\":\"linear\",\"mode\":\"normal\"},\"labels\":{\"show\":true,\"rotate\":0,\"filter\":false,\"truncate\":100},\"title\":{\"text\":\"Count\"}}],\"seriesParams\":[{\"show\":\"true\",\"type\":\"histogram\",\"mode\":\"stacked\",\"data\":{\"label\":\"Count\",\"id\":\"1\"},\"valueAxis\":\"ValueAxis-1\",\"drawLinesBetweenPoints\":true,\"showCircles\":true}],\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"left\",\"times\":[],\"addTimeMarker\":false,\"labels\":{\"show\":true},\"thresholdLine\":{\"show\":false,\"value\":10,\"width\":1,\"style\":\"full\",\"color\":\"#34130C\"},\"palette\":{\"type\":\"palette\",\"name\":\"kibana_palette\"},\"isVislibVis\":true,\"detailedTooltip\":true,\"radiusRatio\":0}}",
@@ -293,8 +293,8 @@
       "namespaces": [
         "istex"
       ],
-      "updated_at": "2023-03-27T15:12:07.853Z",
-      "version": "WzEyODMyNTEsMTBd",
+      "updated_at": "2023-09-11T06:59:04.647Z",
+      "version": "WzIwNzI0ODQsMTdd",
       "attributes": {
         "name": "validé",
         "description": "",
@@ -310,7 +310,7 @@
         "istex"
       ],
       "updated_at": "2023-06-27T06:12:29.818Z",
-      "version": "WzE0ODM5MzQsMTFd",
+      "version": "WzIwNjUyNDcsMTdd",
       "attributes": {
         "name": "reporting",
         "description": "",
@@ -326,7 +326,7 @@
         "istex"
       ],
       "updated_at": "2023-06-27T06:12:17.090Z",
-      "version": "WzE0ODM5MzMsMTFd",
+      "version": "WzIwNjUyNDgsMTdd",
       "attributes": {
         "name": "Istex",
         "description": "",
@@ -342,7 +342,7 @@
         "istex"
       ],
       "updated_at": "2023-06-27T06:36:30.633Z",
-      "version": "WzE0ODQwMzUsMTFd",
+      "version": "WzIwNjUyNDksMTdd",
       "attributes": {
         "name": "Hal",
         "description": "",
