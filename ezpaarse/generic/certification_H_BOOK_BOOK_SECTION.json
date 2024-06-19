@@ -7,18 +7,18 @@
       "namespaces": [
         "formation-ezpaarse"
       ],
-      "updated_at": "2023-07-12T08:49:50.120Z",
-      "version": "WzE1MzEyMTIsMTFd",
+      "updated_at": "2024-06-19T11:51:53.163Z",
+      "version": "WzI2ODA1MzgsMTdd",
       "attributes": {
         "title": "*: tableau de bord d'aide à la certification H BOOK BOOK_SECTION",
         "hits": 0,
-        "description": "tableau de bord générique d'aide à la certification H BOOK BOOK SECTION des plateformes editeurs dans ezPAARSE mis à jour le 12/07/2023",
+        "description": "tableau de bord générique d'aide à la certification H BOOK BOOK SECTION des plateformes editeurs dans ezPAARSE mis à jour le 20/06/2024",
         "panelsJSON": "[{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":0,\"y\":0,\"w\":24,\"h\":19,\"i\":\"5d0f5c20-7511-4793-8ffb-88dbbcb8b084\"},\"panelIndex\":\"5d0f5c20-7511-4793-8ffb-88dbbcb8b084\",\"embeddableConfig\":{\"enhancements\":{}},\"panelRefName\":\"panel_5d0f5c20-7511-4793-8ffb-88dbbcb8b084\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":24,\"y\":0,\"w\":24,\"h\":19,\"i\":\"1ded3c5e-0a39-40a9-9439-6bafab81f4a5\"},\"panelIndex\":\"1ded3c5e-0a39-40a9-9439-6bafab81f4a5\",\"embeddableConfig\":{\"enhancements\":{}},\"panelRefName\":\"panel_1ded3c5e-0a39-40a9-9439-6bafab81f4a5\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":30,\"y\":19,\"w\":18,\"h\":16,\"i\":\"a6958c89-be1e-4298-a192-cc5d4bd21f3f\"},\"panelIndex\":\"a6958c89-be1e-4298-a192-cc5d4bd21f3f\",\"embeddableConfig\":{\"enhancements\":{},\"vis\":{\"legendOpen\":true,\"colors\":{\"PDF\":\"#BF1B00\"}},\"table\":null},\"panelRefName\":\"panel_a6958c89-be1e-4298-a192-cc5d4bd21f3f\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":0,\"y\":19,\"w\":15,\"h\":16,\"i\":\"53f94ee6-c768-48ae-bece-bced9371f148\"},\"panelIndex\":\"53f94ee6-c768-48ae-bece-bced9371f148\",\"embeddableConfig\":{\"enhancements\":{},\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}},\"panelRefName\":\"panel_53f94ee6-c768-48ae-bece-bced9371f148\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":15,\"y\":19,\"w\":15,\"h\":16,\"i\":\"bc673e6a-8041-4d1d-8ef5-424bbced208d\"},\"panelIndex\":\"bc673e6a-8041-4d1d-8ef5-424bbced208d\",\"embeddableConfig\":{\"enhancements\":{},\"vis\":{\"legendOpen\":true,\"colors\":{\"ARTICLE\":\"#1F78C1\"}}},\"panelRefName\":\"panel_bc673e6a-8041-4d1d-8ef5-424bbced208d\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":0,\"y\":35,\"w\":24,\"h\":25,\"i\":\"07d23c29-5158-4115-8ece-aff244d9eff1\"},\"panelIndex\":\"07d23c29-5158-4115-8ece-aff244d9eff1\",\"embeddableConfig\":{\"enhancements\":{},\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}},\"panelRefName\":\"panel_07d23c29-5158-4115-8ece-aff244d9eff1\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":24,\"y\":35,\"w\":24,\"h\":25,\"i\":\"d83a7640-72a3-4898-9179-c477f1c03578\"},\"panelIndex\":\"d83a7640-72a3-4898-9179-c477f1c03578\",\"embeddableConfig\":{\"enhancements\":{},\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}},\"panelRefName\":\"panel_d83a7640-72a3-4898-9179-c477f1c03578\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":0,\"y\":60,\"w\":48,\"h\":26,\"i\":\"6efc40fc-5efa-4426-9757-4bb3db2b677b\"},\"panelIndex\":\"6efc40fc-5efa-4426-9757-4bb3db2b677b\",\"embeddableConfig\":{\"enhancements\":{}},\"panelRefName\":\"panel_6efc40fc-5efa-4426-9757-4bb3db2b677b\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":0,\"y\":86,\"w\":24,\"h\":16,\"i\":\"49c07a3d-4856-4e7c-94bc-5a3d59c0ad26\"},\"panelIndex\":\"49c07a3d-4856-4e7c-94bc-5a3d59c0ad26\",\"embeddableConfig\":{\"enhancements\":{},\"vis\":{\"legendOpen\":true,\"colors\":{\"sans DOI\":\"#EF843C\"}},\"table\":null},\"panelRefName\":\"panel_49c07a3d-4856-4e7c-94bc-5a3d59c0ad26\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":24,\"y\":86,\"w\":24,\"h\":16,\"i\":\"be451048-94f6-4c9a-a8ec-6ed0d281e06a\"},\"panelIndex\":\"be451048-94f6-4c9a-a8ec-6ed0d281e06a\",\"embeddableConfig\":{\"enhancements\":{},\"vis\":{\"colors\":{\"avec titre de publication\":\"#447EBC\",\"sans titre de publication\":\"#E24D42\",\"sans publication_title\":\"#EF843C\"},\"legendOpen\":true},\"table\":null},\"panelRefName\":\"panel_be451048-94f6-4c9a-a8ec-6ed0d281e06a\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":0,\"y\":102,\"w\":24,\"h\":15,\"i\":\"ca056714-c118-4fd6-abbd-7a5d7ee52f1c\"},\"panelIndex\":\"ca056714-c118-4fd6-abbd-7a5d7ee52f1c\",\"embeddableConfig\":{\"enhancements\":{},\"vis\":{\"colors\":{\"avec titre de publication\":\"#447EBC\",\"sans titre de publication\":\"#E24D42\",\"avec Online identifier ISSN ISBN\":\"#447EBC\",\"sans Online identifier ISSN ISBN\":\"#E24D42\",\"avec Print identifier ISSN ISBN\":\"#447EBC\",\"sans Print identifier ISSN ISBN\":\"#E24D42\",\"sans print_identifier (ISSN or ISBN)\":\"#EF843C\"},\"legendOpen\":true}},\"panelRefName\":\"panel_ca056714-c118-4fd6-abbd-7a5d7ee52f1c\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":24,\"y\":102,\"w\":24,\"h\":15,\"i\":\"8b0f1de6-8596-463f-960b-4f831417a1d6\"},\"panelIndex\":\"8b0f1de6-8596-463f-960b-4f831417a1d6\",\"embeddableConfig\":{\"enhancements\":{},\"vis\":{\"colors\":{\"avec titre de publication\":\"#447EBC\",\"sans titre de publication\":\"#E24D42\",\"avec Online identifier ISSN ISBN\":\"#447EBC\",\"sans Online identifier ISSN ISBN\":\"#E24D42\",\"sans Online identifier (ISSN or ISBN)\":\"#EF843C\"},\"legendOpen\":true},\"table\":null},\"panelRefName\":\"panel_8b0f1de6-8596-463f-960b-4f831417a1d6\"}]",
         "optionsJSON": "{\"useMargins\":true,\"hidePanelTitles\":false}",
         "version": 1,
         "timeRestore": true,
-        "timeTo": "now-1y/y",
-        "timeFrom": "now-1y/y",
+        "timeTo": "2023-12-31T10:14:02.492Z",
+        "timeFrom": "2022-12-31T23:00:00.000Z",
         "refreshInterval": {
           "pause": true,
           "value": 0
@@ -99,14 +99,19 @@
           "id": "c730b330-ba36-11eb-8139-2d9f91b04e27"
         },
         {
+          "id": "471b0be0-2088-11ee-8ce4-61ee0b8a2f58",
+          "type": "tag",
+          "name": "tag-471b0be0-2088-11ee-8ce4-61ee0b8a2f58"
+        },
+        {
           "id": "b9f60840-f6c2-11ec-871c-618dc17b393f",
           "type": "tag",
           "name": "tag-b9f60840-f6c2-11ec-871c-618dc17b393f"
         },
         {
-          "id": "471b0be0-2088-11ee-8ce4-61ee0b8a2f58",
+          "id": "f2d9a600-2e31-11ef-b86a-fb4acd467871",
           "type": "tag",
-          "name": "tag-471b0be0-2088-11ee-8ce4-61ee0b8a2f58"
+          "name": "tag-f2d9a600-2e31-11ef-b86a-fb4acd467871"
         }
       ],
       "migrationVersion": {
@@ -121,7 +126,7 @@
         "formation-ezpaarse"
       ],
       "updated_at": "2022-07-13T09:26:32.503Z",
-      "version": "WzExODA1NzAsMTBd",
+      "version": "WzI2NDQ3OTEsMTdd",
       "attributes": {
         "fieldAttrs": "{}",
         "title": "bibcnrs-*",
@@ -143,7 +148,7 @@
         "formation-ezpaarse"
       ],
       "updated_at": "2022-07-13T09:30:51.671Z",
-      "version": "WzExODA1NzIsMTBd",
+      "version": "WzI2NDQ3OTIsMTdd",
       "attributes": {
         "description": "",
         "kibanaSavedObjectMeta": {
@@ -152,7 +157,7 @@
         "title": "*: certification présentation",
         "uiStateJSON": "{}",
         "version": 1,
-        "visState": "{\"title\":\"*: certification présentation\",\"type\":\"markdown\",\"params\":{\"markdown\":\"![ezMESURE](https://raw.githubusercontent.com/ezpaarse-project/ezpaarse-project.github.io/master/ezmesure/static/images/logo-ezMESURE-350.png)\\n## Tableau de bord d'aide à la  Certification H \\nLes informations contenues dans ce tableau de bord vont vous aider à certifier H les plateformes éditeurs auquelles vous êtes abonnés.\\n\\nRappel: \\n  -  [C'est quoi la certification H ?](https://blog.readmetrics.org/2017/06/certification-h-et-p-des-plateformes-traitees-dans-ezpaarse) .\\n -  [Procédure de certification H et P dans analogIST](https://blog.readmetrics.org/2021/05/tutoriels-nouvelle-procedure-facile-de-certification-h-et-p-dans-analogist) .\\n \\n N'hésitez pas à consulter le blog ezPAARSE pour d'autres informations (tutos, FAQ, Supports mutualisés) (https://blog.readmetrics.org/)\\n\\nL'équipe ezTEAM.\",\"openLinksInNewTab\":false,\"fontSize\":12},\"aggs\":[]}"
+        "visState": "{\"title\":\"*: certification présentation\",\"type\":\"markdown\",\"params\":{\"markdown\":\"![ezMESURE](https://raw.githubusercontent.com/ezpaarse-project/ezpaarse-project.github.io/master/ezmesure/static/images/logo-ezMESURE-350.png)\\n## Tableau de bord d'aide à la  Certification H \\nLes informations contenues dans ce tableau de bord vont vous aider à certifier H les plateformes éditeurs auquelles vous êtes abonnés.\\n\\nRappel: \\n  -  [C'est quoi la certification H ?](https://blog.ezpaarse.org/2017/06/certification-h-et-p-des-plateformes-traitees-dans-ezpaarse) .\\n -  [Procédure de certification H et P dans analogIST](https://blog.ezpaarse.org/2021/05/tutoriels-nouvelle-procedure-facile-de-certification-h-et-p-dans-analogist) .\\n \\n N'hésitez pas à consulter le blog ezPAARSE pour d'autres informations (tutos, FAQ, Supports mutualisés) (https://blog.ezpaarse.org/)\\n\\nL'équipe ezTEAM.\",\"openLinksInNewTab\":false,\"fontSize\":12},\"aggs\":[]}"
       },
       "references": [],
       "migrationVersion": {
@@ -167,7 +172,7 @@
         "formation-ezpaarse"
       ],
       "updated_at": "2022-07-13T09:30:51.671Z",
-      "version": "WzExODA1NzMsMTBd",
+      "version": "WzI2NDQ3OTMsMTdd",
       "attributes": {
         "title": "* :  certification metrics",
         "visState": "{\"title\":\"* :  certification metrics\",\"type\":\"metric\",\"params\":{\"metric\":{\"percentageMode\":false,\"useRanges\":false,\"colorSchema\":\"Green to Red\",\"metricColorMode\":\"None\",\"colorsRange\":[{\"type\":\"range\",\"from\":0,\"to\":10000}],\"labels\":{\"show\":true},\"invertColors\":false,\"style\":{\"bgFill\":\"#000\",\"bgColor\":false,\"labelColor\":false,\"subText\":\"\",\"fontSize\":22}},\"dimensions\":{\"metrics\":[{\"type\":\"vis_dimension\",\"accessor\":0,\"format\":{\"id\":\"number\",\"params\":{}}},{\"type\":\"vis_dimension\",\"accessor\":1,\"format\":{\"id\":\"date\",\"params\":{\"pattern\":\"MMM D, YYYY \"}}},{\"type\":\"vis_dimension\",\"accessor\":2,\"format\":{\"id\":\"date\",\"params\":{\"pattern\":\"MMM D, YYYY \"}}}]},\"addTooltip\":true,\"addLegend\":false,\"type\":\"metric\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"Accesses\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"min\",\"schema\":\"metric\",\"params\":{\"field\":\"datetime\",\"customLabel\":\"Start Date\"}},{\"id\":\"3\",\"enabled\":true,\"type\":\"max\",\"schema\":\"metric\",\"params\":{\"field\":\"datetime\",\"customLabel\":\"End date\"}}]}",
@@ -197,7 +202,7 @@
         "formation-ezpaarse"
       ],
       "updated_at": "2022-07-13T09:30:51.671Z",
-      "version": "WzExODA1NzQsMTBd",
+      "version": "WzI2NDQ3OTQsMTdd",
       "attributes": {
         "title": "*: certification top 10 mime",
         "visState": "{\"title\":\"*: certification top 10 mime\",\"type\":\"pie\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"params\":{},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"params\":{\"field\":\"mime\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":10,\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\"},\"schema\":\"segment\"}],\"params\":{\"type\":\"pie\",\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"isDonut\":true,\"labels\":{\"show\":true,\"values\":true,\"last_level\":true,\"truncate\":100,\"position\":\"inside\"},\"dimensions\":{\"metric\":{\"accessor\":1,\"format\":{\"id\":\"number\"},\"params\":{},\"aggType\":\"count\"},\"buckets\":[{\"accessor\":0,\"format\":{\"id\":\"terms\",\"params\":{\"id\":\"string\",\"otherBucketLabel\":\"Other\",\"missingBucketLabel\":\"Missing\"}},\"params\":{},\"aggType\":\"terms\"}]},\"palette\":{\"type\":\"palette\",\"name\":\"kibana_palette\"},\"distinctColors\":true,\"nestedLegend\":false}}",
@@ -227,7 +232,7 @@
         "formation-ezpaarse"
       ],
       "updated_at": "2022-07-13T09:30:51.671Z",
-      "version": "WzExODA1NzUsMTBd",
+      "version": "WzI2NDQ3OTUsMTdd",
       "attributes": {
         "description": "",
         "kibanaSavedObjectMeta": {
@@ -257,7 +262,7 @@
         "formation-ezpaarse"
       ],
       "updated_at": "2022-07-13T09:30:51.671Z",
-      "version": "WzExODA1NzYsMTBd",
+      "version": "WzI2NDQ3OTYsMTdd",
       "attributes": {
         "title": "*: certification top 10 rtype",
         "visState": "{\"title\":\"*: certification top 10 rtype\",\"type\":\"pie\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"params\":{},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"params\":{\"field\":\"rtype\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":10,\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\"},\"schema\":\"segment\"}],\"params\":{\"type\":\"pie\",\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"isDonut\":true,\"labels\":{\"show\":true,\"values\":true,\"last_level\":true,\"truncate\":100,\"position\":\"inside\"},\"dimensions\":{\"metric\":{\"accessor\":1,\"format\":{\"id\":\"number\"},\"params\":{},\"aggType\":\"count\"},\"buckets\":[{\"accessor\":0,\"format\":{\"id\":\"terms\",\"params\":{\"id\":\"string\",\"otherBucketLabel\":\"Other\",\"missingBucketLabel\":\"Missing\"}},\"params\":{},\"aggType\":\"terms\"}]},\"palette\":{\"type\":\"palette\",\"name\":\"kibana_palette\"},\"distinctColors\":true,\"nestedLegend\":false}}",
@@ -287,7 +292,7 @@
         "formation-ezpaarse"
       ],
       "updated_at": "2022-07-13T09:30:51.671Z",
-      "version": "WzExODA1NzcsMTBd",
+      "version": "WzI2NDQ3OTcsMTdd",
       "attributes": {
         "title": "*: certification table des plateformes",
         "visState": "{\"title\":\"*: certification table des plateformes\",\"type\":\"table\",\"params\":{\"dimensions\":{\"metrics\":[{\"accessor\":1,\"format\":{\"id\":\"number\"},\"params\":{},\"aggType\":\"count\"}],\"buckets\":[{\"accessor\":0,\"format\":{\"id\":\"terms\",\"params\":{\"id\":\"string\",\"otherBucketLabel\":\"Other\",\"missingBucketLabel\":\"Missing\"}},\"params\":{},\"aggType\":\"terms\"}]},\"perPage\":20,\"percentageCol\":\"\",\"showMetricsAtAllLevels\":false,\"showPartialRows\":false,\"showTotal\":true,\"sort\":{\"columnIndex\":3,\"direction\":\"desc\"},\"totalFunc\":\"sum\",\"showToolbar\":true},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"platform_name\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":950,\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":true,\"missingBucketLabel\":\"Missing\",\"customLabel\":\"Platform Name\"}}]}",
@@ -317,7 +322,7 @@
         "formation-ezpaarse"
       ],
       "updated_at": "2022-07-13T09:30:51.671Z",
-      "version": "WzExODA1NzgsMTBd",
+      "version": "WzI2NDQ3OTgsMTdd",
       "attributes": {
         "title": "*: certification table des Editeurs",
         "visState": "{\"title\":\"*: certification table des Editeurs\",\"type\":\"table\",\"params\":{\"dimensions\":{\"metrics\":[{\"accessor\":1,\"format\":{\"id\":\"number\"},\"params\":{},\"aggType\":\"count\"}],\"buckets\":[{\"accessor\":0,\"format\":{\"id\":\"terms\",\"params\":{\"id\":\"string\",\"otherBucketLabel\":\"Other\",\"missingBucketLabel\":\"Missing\"}},\"params\":{},\"aggType\":\"terms\"}]},\"perPage\":20,\"percentageCol\":\"\",\"showMetricsAtAllLevels\":false,\"showPartialRows\":false,\"showTotal\":true,\"sort\":{\"columnIndex\":3,\"direction\":\"desc\"},\"totalFunc\":\"sum\",\"showToolbar\":true},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"publisher_name\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":950,\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":true,\"missingBucketLabel\":\"Missing\",\"customLabel\":\"Publisher Name\"}}]}",
@@ -347,7 +352,7 @@
         "formation-ezpaarse"
       ],
       "updated_at": "2022-07-13T09:30:51.671Z",
-      "version": "WzExODA1NzksMTBd",
+      "version": "WzI2NDQ3OTksMTdd",
       "attributes": {
         "title": "*: certification table des titres de publication avec Print et Online identifier",
         "visState": "{\"title\":\"*: certification table des titres de publication avec Print et Online identifier\",\"type\":\"table\",\"params\":{\"perPage\":20,\"showPartialRows\":false,\"showMetricsAtAllLevels\":false,\"sort\":{\"columnIndex\":3,\"direction\":\"desc\"},\"showTotal\":true,\"totalFunc\":\"sum\",\"percentageCol\":\"\",\"dimensions\":{\"metrics\":[{\"accessor\":3,\"format\":{\"id\":\"number\"},\"params\":{},\"aggType\":\"count\"}],\"buckets\":[{\"accessor\":0,\"format\":{\"id\":\"terms\",\"params\":{\"id\":\"string\",\"otherBucketLabel\":\"Other\",\"missingBucketLabel\":\"Missing\"}},\"params\":{},\"aggType\":\"terms\"},{\"accessor\":1,\"format\":{\"id\":\"terms\",\"params\":{\"id\":\"string\",\"otherBucketLabel\":\"Other\",\"missingBucketLabel\":\"Missing\"}},\"params\":{},\"aggType\":\"terms\"},{\"accessor\":2,\"format\":{\"id\":\"terms\",\"params\":{\"id\":\"string\",\"otherBucketLabel\":\"Other\",\"missingBucketLabel\":\"Missing\"}},\"params\":{},\"aggType\":\"terms\"}]},\"showToolbar\":true},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"publication_title\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":950,\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":true,\"missingBucketLabel\":\"Missing\",\"customLabel\":\"Publication Title\"}},{\"id\":\"3\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"print_identifier\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":5,\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":true,\"missingBucketLabel\":\"Missing\",\"customLabel\":\"Print Identifier (ISSN or ISBN)\"}},{\"id\":\"4\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"online_identifier\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":5,\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":true,\"missingBucketLabel\":\"Missing\",\"customLabel\":\"Online Identifier (e-ISSN or e-ISBN)\"}}]}",
@@ -377,7 +382,7 @@
         "formation-ezpaarse"
       ],
       "updated_at": "2022-07-13T09:30:51.671Z",
-      "version": "WzExODA1ODAsMTBd",
+      "version": "WzI2NDQ4MDAsMTdd",
       "attributes": {
         "title": "*: certification DOI exists or not",
         "visState": "{\"title\":\"*: certification DOI exists or not\",\"type\":\"pie\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"params\":{},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"filters\",\"params\":{\"filters\":[{\"input\":{\"query\":\"_exists_:doi\",\"language\":\"lucene\"},\"label\":\"avec DOI\"},{\"input\":{\"language\":\"lucene\",\"query\":\"!_exists_:doi\"},\"label\":\"sans DOI\"}]},\"schema\":\"segment\"}],\"params\":{\"addLegend\":true,\"addTooltip\":true,\"dimensions\":{\"metric\":{\"accessor\":1,\"format\":{\"id\":\"number\"},\"params\":{},\"aggType\":\"count\"},\"buckets\":[{\"accessor\":0,\"format\":{},\"params\":{},\"aggType\":\"filters\"}]},\"isDonut\":true,\"labels\":{\"last_level\":true,\"show\":true,\"truncate\":100,\"values\":true,\"position\":\"inside\"},\"legendPosition\":\"right\",\"type\":\"pie\",\"palette\":{\"type\":\"palette\",\"name\":\"kibana_palette\"},\"distinctColors\":true,\"nestedLegend\":false}}",
@@ -407,7 +412,7 @@
         "formation-ezpaarse"
       ],
       "updated_at": "2022-07-13T09:30:51.671Z",
-      "version": "WzExODA1ODEsMTBd",
+      "version": "WzI2NDQ4MDEsMTdd",
       "attributes": {
         "title": "*: certification avec titre de publication",
         "visState": "{\"title\":\"*: certification avec titre de publication\",\"type\":\"pie\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"params\":{},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"filters\",\"params\":{\"filters\":[{\"input\":{\"query\":\"_exists_:publication_title\",\"language\":\"lucene\"},\"label\":\"avec publication title\"},{\"input\":{\"query\":\"!_exists_:publication_title\",\"language\":\"lucene\"},\"label\":\"sans publication_title\"}]},\"schema\":\"segment\"}],\"params\":{\"addLegend\":true,\"addTooltip\":true,\"dimensions\":{\"metric\":{\"accessor\":1,\"format\":{\"id\":\"number\"},\"params\":{},\"aggType\":\"count\"},\"buckets\":[{\"accessor\":0,\"format\":{},\"params\":{},\"aggType\":\"filters\"}]},\"isDonut\":true,\"labels\":{\"last_level\":true,\"show\":true,\"truncate\":100,\"values\":true,\"position\":\"inside\"},\"legendPosition\":\"right\",\"type\":\"pie\",\"palette\":{\"type\":\"palette\",\"name\":\"kibana_palette\"},\"distinctColors\":true,\"nestedLegend\":false}}",
@@ -437,7 +442,7 @@
         "formation-ezpaarse"
       ],
       "updated_at": "2022-07-13T09:30:51.671Z",
-      "version": "WzExODA1ODIsMTBd",
+      "version": "WzI2NDQ4MDIsMTdd",
       "attributes": {
         "title": "*: certification avec Print identifier ISSN ISBN",
         "visState": "{\"title\":\"*: certification avec Print identifier ISSN ISBN\",\"type\":\"pie\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"params\":{},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"filters\",\"params\":{\"filters\":[{\"input\":{\"query\":\"_exists_:print_identifier\",\"language\":\"lucene\"},\"label\":\"avec print identifier (ISSN or ISBN)\"},{\"input\":{\"query\":\"!_exists_:print_identifier\",\"language\":\"lucene\"},\"label\":\"sans print_identifier (ISSN or ISBN)\"}]},\"schema\":\"segment\"}],\"params\":{\"addLegend\":true,\"addTooltip\":true,\"dimensions\":{\"metric\":{\"accessor\":1,\"format\":{\"id\":\"number\"},\"params\":{},\"aggType\":\"count\"},\"buckets\":[{\"accessor\":0,\"format\":{},\"params\":{},\"aggType\":\"filters\"}]},\"isDonut\":true,\"labels\":{\"last_level\":true,\"show\":true,\"truncate\":100,\"values\":true,\"position\":\"inside\"},\"legendPosition\":\"right\",\"type\":\"pie\",\"palette\":{\"type\":\"palette\",\"name\":\"kibana_palette\"},\"distinctColors\":true,\"nestedLegend\":false}}",
@@ -467,7 +472,7 @@
         "formation-ezpaarse"
       ],
       "updated_at": "2022-07-13T09:30:51.671Z",
-      "version": "WzExODA1ODMsMTBd",
+      "version": "WzI2NDQ4MDMsMTdd",
       "attributes": {
         "title": "*: certification avec Online identifier ISSN ISBN",
         "visState": "{\"title\":\"*: certification avec Online identifier ISSN ISBN\",\"type\":\"pie\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"params\":{},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"filters\",\"params\":{\"filters\":[{\"input\":{\"query\":\"_exists_:online_identifier\",\"language\":\"lucene\"},\"label\":\"avec Online identifier (ISSN or ISBN)\"},{\"input\":{\"query\":\"!_exists_:online_identifier\",\"language\":\"lucene\"},\"label\":\"sans Online identifier (ISSN or ISBN)\"}]},\"schema\":\"segment\"}],\"params\":{\"addLegend\":true,\"addTooltip\":true,\"dimensions\":{\"metric\":{\"accessor\":1,\"format\":{\"id\":\"number\"},\"params\":{},\"aggType\":\"count\"},\"buckets\":[{\"accessor\":0,\"format\":{},\"params\":{},\"aggType\":\"filters\"}]},\"isDonut\":true,\"labels\":{\"last_level\":true,\"show\":true,\"truncate\":100,\"values\":true,\"position\":\"inside\"},\"legendPosition\":\"right\",\"type\":\"pie\",\"palette\":{\"type\":\"palette\",\"name\":\"kibana_palette\"},\"distinctColors\":true,\"nestedLegend\":false}}",
@@ -491,13 +496,29 @@
       "coreMigrationVersion": "7.14.1"
     },
     {
+      "id": "471b0be0-2088-11ee-8ce4-61ee0b8a2f58",
+      "type": "tag",
+      "namespaces": [
+        "formation-ezpaarse"
+      ],
+      "updated_at": "2023-07-12T07:46:57.570Z",
+      "version": "WzI2NDMxMzUsMTdd",
+      "attributes": {
+        "name": "certification",
+        "description": "",
+        "color": "#E7664C"
+      },
+      "references": [],
+      "coreMigrationVersion": "7.14.1"
+    },
+    {
       "id": "b9f60840-f6c2-11ec-871c-618dc17b393f",
       "type": "tag",
       "namespaces": [
         "formation-ezpaarse"
       ],
       "updated_at": "2022-07-13T09:30:48.742Z",
-      "version": "WzExODA1OTMsMTBd",
+      "version": "WzI2NDQ4MTIsMTdd",
       "attributes": {
         "name": "validé",
         "description": "",
@@ -507,15 +528,15 @@
       "coreMigrationVersion": "7.14.1"
     },
     {
-      "id": "471b0be0-2088-11ee-8ce4-61ee0b8a2f58",
+      "id": "f2d9a600-2e31-11ef-b86a-fb4acd467871",
       "type": "tag",
       "namespaces": [
         "formation-ezpaarse"
       ],
-      "updated_at": "2023-07-12T07:46:57.570Z",
-      "version": "WzE1MzAyOTAsMTFd",
+      "updated_at": "2024-06-19T11:49:13.443Z",
+      "version": "WzI2ODA0ODQsMTdd",
       "attributes": {
-        "name": "certification",
+        "name": "generique",
         "description": "",
         "color": "#E7664C"
       },
