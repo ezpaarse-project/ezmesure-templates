@@ -17,8 +17,8 @@
         "optionsJSON": "{\"hidePanelTitles\":false,\"useMargins\":true,\"syncColors\":true}",
         "version": 1,
         "timeRestore": true,
-        "timeTo": "now-6M",
-        "timeFrom": "now-1y",
+        "timeTo": "now-1y/y",
+        "timeFrom": "now-1y/y",
         "refreshInterval": {
           "pause": true,
           "value": 0
