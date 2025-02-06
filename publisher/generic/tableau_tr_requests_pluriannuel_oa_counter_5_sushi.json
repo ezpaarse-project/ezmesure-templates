@@ -7,12 +7,12 @@
       "namespaces": [
         "formation-publisher"
       ],
-      "updated_at": "2024-09-05T13:10:10.202Z",
-      "version": "WzMwNjQ5NTksMTdd",
+      "updated_at": "2025-02-06T13:37:13.301Z",
+      "version": "WzM4ODYxMjUsMThd",
       "attributes": {
         "title": "publisher * Tableau TR > Requests COUNTER 5 - Evolution pluriannuelle access_type (OA_Gold, Controlled) 2019-2022 Elsevier et Springer",
         "hits": 0,
-        "description": "Evolution pluriannuelle access_type (OA_Gold, Controlled) 2019-2022 Elsevier et Springer mis à jour le 14/06/2024",
+        "description": "Evolution pluriannuelle access_type (OA_Gold, Controlled) 2019-2022 Elsevier et Springer ",
         "panelsJSON": "[{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":0,\"y\":0,\"w\":12,\"h\":19,\"i\":\"de37cc67-adec-4465-bbc0-057a1bbb0414\"},\"panelIndex\":\"de37cc67-adec-4465-bbc0-057a1bbb0414\",\"embeddableConfig\":{\"enhancements\":{}},\"panelRefName\":\"panel_de37cc67-adec-4465-bbc0-057a1bbb0414\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":12,\"y\":0,\"w\":14,\"h\":19,\"i\":\"eb3fb3c9-5859-4ebf-ae64-b9058d428fd5\"},\"panelIndex\":\"eb3fb3c9-5859-4ebf-ae64-b9058d428fd5\",\"embeddableConfig\":{\"enhancements\":{},\"vis\":{\"params\":{\"colWidth\":[{\"colIndex\":0,\"width\":160.5},{\"colIndex\":1,\"width\":217.25}]}},\"table\":null},\"panelRefName\":\"panel_eb3fb3c9-5859-4ebf-ae64-b9058d428fd5\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":26,\"y\":0,\"w\":10,\"h\":19,\"i\":\"b9bb56e2-3f2b-45ba-81ff-100223ca82f5\"},\"panelIndex\":\"b9bb56e2-3f2b-45ba-81ff-100223ca82f5\",\"embeddableConfig\":{\"vis\":{\"params\":{\"colWidth\":[{\"colIndex\":0,\"width\":260}]}},\"table\":null,\"enhancements\":{}},\"panelRefName\":\"panel_b9bb56e2-3f2b-45ba-81ff-100223ca82f5\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":36,\"y\":0,\"w\":12,\"h\":19,\"i\":\"d9a69ead-e5d1-48d2-863f-28c28b8242ca\"},\"panelIndex\":\"d9a69ead-e5d1-48d2-863f-28c28b8242ca\",\"embeddableConfig\":{\"enhancements\":{}},\"panelRefName\":\"panel_d9a69ead-e5d1-48d2-863f-28c28b8242ca\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":0,\"y\":19,\"w\":48,\"h\":4,\"i\":\"e804dfeb-b8a1-46df-bd78-68dab5d92545\"},\"panelIndex\":\"e804dfeb-b8a1-46df-bd78-68dab5d92545\",\"embeddableConfig\":{\"enhancements\":{}},\"panelRefName\":\"panel_e804dfeb-b8a1-46df-bd78-68dab5d92545\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":0,\"y\":23,\"w\":48,\"h\":19,\"i\":\"29655072-e1e1-4915-ac39-51b9d244bade\"},\"panelIndex\":\"29655072-e1e1-4915-ac39-51b9d244bade\",\"embeddableConfig\":{\"vis\":{\"colors\":{\"Controlled\":\"#6092c0\",\"OA_Gold\":\"#e4d48f\",\"Controlled - ScienceDirect licensed content\":\"#6092c0\",\"Controlled - SpringerLink\":\"#95b7d5\",\"OA_Gold - ScienceDirect licensed content\":\"#d6bf57\",\"OA_Gold - SpringerLink\":\"#ebdfab\"}},\"enhancements\":{},\"timeRange\":{\"from\":\"2018-12-30T23:21:30.981Z\",\"to\":\"2022-12-31T22:30:00.000Z\"},\"table\":null},\"panelRefName\":\"panel_29655072-e1e1-4915-ac39-51b9d244bade\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":0,\"y\":42,\"w\":12,\"h\":16,\"i\":\"73425a19-69b5-4ca0-bf0a-ec13c1f258a6\"},\"panelIndex\":\"73425a19-69b5-4ca0-bf0a-ec13c1f258a6\",\"embeddableConfig\":{\"vis\":{\"legendOpen\":true,\"colors\":{\"OA_Gold\":\"#d6bf57\"}},\"timeRange\":{\"from\":\"2018-12-30T23:21:30.981Z\",\"to\":\"2019-12-31T22:30:00.000Z\"},\"enhancements\":{}},\"panelRefName\":\"panel_73425a19-69b5-4ca0-bf0a-ec13c1f258a6\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":12,\"y\":42,\"w\":12,\"h\":16,\"i\":\"2f8898ba-8713-43de-a037-8cd4839ae052\"},\"panelIndex\":\"2f8898ba-8713-43de-a037-8cd4839ae052\",\"embeddableConfig\":{\"vis\":{\"legendOpen\":true,\"colors\":{\"OA_Gold\":\"#d6bf57\"}},\"timeRange\":{\"from\":\"2019-12-30T23:21:30.981Z\",\"to\":\"2020-12-31T22:30:00.000Z\"},\"enhancements\":{}},\"panelRefName\":\"panel_2f8898ba-8713-43de-a037-8cd4839ae052\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":24,\"y\":42,\"w\":12,\"h\":16,\"i\":\"1b972205-ac14-4f2c-9cb1-5cd46aa2b7ea\"},\"panelIndex\":\"1b972205-ac14-4f2c-9cb1-5cd46aa2b7ea\",\"embeddableConfig\":{\"vis\":{\"legendOpen\":true,\"colors\":{\"OA_Gold\":\"#d6bf57\"}},\"timeRange\":{\"from\":\"2020-12-30T23:21:30.981Z\",\"to\":\"2021-12-31T22:30:00.000Z\"},\"enhancements\":{}},\"panelRefName\":\"panel_1b972205-ac14-4f2c-9cb1-5cd46aa2b7ea\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":36,\"y\":42,\"w\":12,\"h\":16,\"i\":\"c562d63c-2131-45d7-8a41-e05029ca586a\"},\"panelIndex\":\"c562d63c-2131-45d7-8a41-e05029ca586a\",\"embeddableConfig\":{\"vis\":{\"legendOpen\":true,\"colors\":{\"OA_Gold\":\"#d6bf57\",\"Controlled\":\"#6092c0\"}},\"timeRange\":{\"from\":\"2021-12-30T23:21:30.981Z\",\"to\":\"2022-12-31T22:30:00.000Z\"},\"enhancements\":{}},\"panelRefName\":\"panel_c562d63c-2131-45d7-8a41-e05029ca586a\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":0,\"y\":58,\"w\":12,\"h\":15,\"i\":\"4b10b9ff-51a6-4889-bcac-194618bf3e5a\"},\"panelIndex\":\"4b10b9ff-51a6-4889-bcac-194618bf3e5a\",\"embeddableConfig\":{\"timeRange\":{\"from\":\"2018-12-30T23:21:30.981Z\",\"to\":\"2019-12-31T22:30:00.000Z\"},\"enhancements\":{}},\"panelRefName\":\"panel_4b10b9ff-51a6-4889-bcac-194618bf3e5a\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":12,\"y\":58,\"w\":12,\"h\":15,\"i\":\"01677a2b-2993-4f25-b934-f09a6eabd4cd\"},\"panelIndex\":\"01677a2b-2993-4f25-b934-f09a6eabd4cd\",\"embeddableConfig\":{\"timeRange\":{\"from\":\"2019-12-30T23:21:30.981Z\",\"to\":\"2020-12-31T22:30:00.000Z\"},\"enhancements\":{}},\"panelRefName\":\"panel_01677a2b-2993-4f25-b934-f09a6eabd4cd\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":24,\"y\":58,\"w\":12,\"h\":15,\"i\":\"157e8fcf-33e2-4bb9-9323-3f163f5f0d6d\"},\"panelIndex\":\"157e8fcf-33e2-4bb9-9323-3f163f5f0d6d\",\"embeddableConfig\":{\"timeRange\":{\"from\":\"2020-12-30T23:21:30.981Z\",\"to\":\"2021-12-31T22:30:00.000Z\"},\"enhancements\":{}},\"panelRefName\":\"panel_157e8fcf-33e2-4bb9-9323-3f163f5f0d6d\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":36,\"y\":58,\"w\":12,\"h\":15,\"i\":\"8fedf0e7-f7e1-42a8-8225-32561663c8be\"},\"panelIndex\":\"8fedf0e7-f7e1-42a8-8225-32561663c8be\",\"embeddableConfig\":{\"enhancements\":{},\"vis\":{\"legendOpen\":false},\"timeRange\":{\"from\":\"2021-12-30T23:21:30.981Z\",\"to\":\"2022-12-31T22:30:00.000Z\"}},\"panelRefName\":\"panel_8fedf0e7-f7e1-42a8-8225-32561663c8be\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":0,\"y\":73,\"w\":48,\"h\":4,\"i\":\"ac5d571a-86e7-43bf-8216-f2b1b94fa2ef\"},\"panelIndex\":\"ac5d571a-86e7-43bf-8216-f2b1b94fa2ef\",\"embeddableConfig\":{\"enhancements\":{}},\"panelRefName\":\"panel_ac5d571a-86e7-43bf-8216-f2b1b94fa2ef\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":0,\"y\":77,\"w\":48,\"h\":7,\"i\":\"2618df8f-d280-4cf7-9ddf-0e3f3eec487f\"},\"panelIndex\":\"2618df8f-d280-4cf7-9ddf-0e3f3eec487f\",\"embeddableConfig\":{\"enhancements\":{}},\"panelRefName\":\"panel_2618df8f-d280-4cf7-9ddf-0e3f3eec487f\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":0,\"y\":84,\"w\":39,\"h\":22,\"i\":\"68215572-6855-4ee7-9a6a-b8d9cadd344a\"},\"panelIndex\":\"68215572-6855-4ee7-9a6a-b8d9cadd344a\",\"embeddableConfig\":{\"vis\":{\"colors\":{\"INS2I\":\"#447EBC\",\"Tout BibCNRS\":\"#6092c0\",\"INSB-INEE\":\"#71c0aa\"},\"legendOpen\":true},\"enhancements\":{},\"table\":null},\"panelRefName\":\"panel_68215572-6855-4ee7-9a6a-b8d9cadd344a\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":39,\"y\":84,\"w\":9,\"h\":22,\"i\":\"52326cf8-a01a-4637-bced-b7b91d40efdd\"},\"panelIndex\":\"52326cf8-a01a-4637-bced-b7b91d40efdd\",\"embeddableConfig\":{\"enhancements\":{},\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null},\"colWidth\":[{\"colIndex\":0,\"width\":229.5}]}},\"table\":null},\"panelRefName\":\"panel_52326cf8-a01a-4637-bced-b7b91d40efdd\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":0,\"y\":106,\"w\":48,\"h\":68,\"i\":\"0332f8da-8399-4633-8409-3e12cdbf62b6\"},\"panelIndex\":\"0332f8da-8399-4633-8409-3e12cdbf62b6\",\"embeddableConfig\":{\"enhancements\":{}},\"panelRefName\":\"panel_0332f8da-8399-4633-8409-3e12cdbf62b6\"}]",
         "optionsJSON": "{\"hidePanelTitles\":false,\"useMargins\":true,\"syncColors\":true}",
         "version": 1,
@@ -181,7 +181,7 @@
         "formation-publisher"
       ],
       "updated_at": "2024-04-16T06:13:00.243Z",
-      "version": "WzI5NzE4OTMsMTdd",
+      "version": "WzM4MzE5OTIsMThd",
       "attributes": {
         "fieldAttrs": "{\"Report_Header.Institution_ID.Proprietary\":{\"count\":1},\"Report_Header.Institution_Name\":{\"count\":2},\"Report_Header.Release\":{\"count\":1}}",
         "title": "b-bibcnrs-publisher*",
@@ -203,7 +203,7 @@
         "formation-publisher"
       ],
       "updated_at": "2024-09-05T13:10:10.202Z",
-      "version": "WzMwNjQ5NjAsMTdd",
+      "version": "WzM4NDAxMzgsMThd",
       "attributes": {
         "title": "publisher : en-tete-texte sans aide",
         "visState": "{\"title\":\"publisher : en-tete-texte sans aide\",\"type\":\"markdown\",\"aggs\":[],\"params\":{\"markdown\":\"### Rapport COUNTER 5  \\nCe rapport est destiné à montrer les données d'usage des ressources électroniques.\\nLes données proviennent des rapports COUNTER 5 fournis par les éditeurs scientifiques chargés dans ezMESURE publisher.\\n\\n[![ezMESURE](https://raw.githubusercontent.com/ezpaarse-project/ezpaarse-project.github.io/master/ezmesure/static/images/logo-ezMESURE-350.png)](https://ezmesure.couperin.org/)\\n[![COUNTER5](https://raw.githubusercontent.com/ezpaarse-project/ezpaarse-project.github.io/master/ezmesure/static/images/COUNTER%205%20LOGO%20200.png)](https://cop5.projectcounter.org/en/5.1/)\\n\\nPour consulter la documentation COUNTER 5, cliquer sur le logo ci-dessus.\\n\\n\\n\",\"openLinksInNewTab\":false,\"fontSize\":12}}",
@@ -252,11 +252,11 @@
       "namespaces": [
         "formation-publisher"
       ],
-      "updated_at": "2024-09-05T13:37:55.435Z",
-      "version": "WzMwNjU0ODgsMTdd",
+      "updated_at": "2025-02-06T09:14:24.589Z",
+      "version": "WzM4ODIxMzAsMThd",
       "attributes": {
         "title": "publisher : plateformes-table",
-        "visState": "{\"title\":\"publisher : plateformes-table\",\"type\":\"table\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"sum\",\"params\":{\"field\":\"Count\",\"customLabel\":\"éléments de rapport\"},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"params\":{\"field\":\"Platform\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":49,\"otherBucket\":true,\"otherBucketLabel\":\"autres plateformes\",\"missingBucket\":true,\"missingBucketLabel\":\"-\",\"customLabel\":\"Plateforme\"},\"schema\":\"bucket\"},{\"id\":\"3\",\"enabled\":true,\"type\":\"terms\",\"params\":{\"field\":\"X_Endpoint_Name\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":5,\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":true,\"missingBucketLabel\":\"non renseigné\",\"customLabel\":\"Point d'accès ezCOUNTER\"},\"schema\":\"bucket\"}],\"params\":{\"perPage\":10,\"showPartialRows\":false,\"showMetricsAtAllLevels\":false,\"sort\":{\"columnIndex\":null,\"direction\":null},\"showTotal\":false,\"totalFunc\":\"sum\",\"percentageCol\":\"\",\"dimensions\":{\"metrics\":[{\"accessor\":1,\"format\":{\"id\":\"number\"},\"params\":{},\"aggType\":\"sum\"}],\"buckets\":[{\"accessor\":0,\"format\":{\"id\":\"terms\",\"params\":{\"id\":\"string\",\"otherBucketLabel\":\"Other\",\"missingBucketLabel\":\"Missing\"}},\"params\":{},\"aggType\":\"terms\"}]},\"showToolbar\":true}}",
+        "visState": "{\"title\":\"publisher : plateformes-table\",\"type\":\"table\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"sum\",\"params\":{\"field\":\"Count\",\"customLabel\":\"éléments de rapport\"},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"params\":{\"field\":\"Platform\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":49,\"otherBucket\":true,\"otherBucketLabel\":\"autres plateformes\",\"missingBucket\":true,\"missingBucketLabel\":\"-\",\"customLabel\":\"Plateforme\"},\"schema\":\"bucket\"},{\"id\":\"3\",\"enabled\":true,\"type\":\"terms\",\"params\":{\"field\":\"X_Endpoint_Name\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":5,\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":true,\"missingBucketLabel\":\"non renseigné\",\"customLabel\":\"Point d'accès ezCOUNTER\"},\"schema\":\"bucket\"}],\"params\":{\"perPage\":10,\"showPartialRows\":false,\"showMetricsAtAllLevels\":false,\"sort\":{\"columnIndex\":null,\"direction\":null},\"showTotal\":true,\"totalFunc\":\"sum\",\"percentageCol\":\"\",\"dimensions\":{\"metrics\":[{\"accessor\":1,\"format\":{\"id\":\"number\"},\"params\":{},\"aggType\":\"sum\"}],\"buckets\":[{\"accessor\":0,\"format\":{\"id\":\"terms\",\"params\":{\"id\":\"string\",\"otherBucketLabel\":\"Other\",\"missingBucketLabel\":\"Missing\"}},\"params\":{},\"aggType\":\"terms\"}]},\"showToolbar\":true}}",
         "uiStateJSON": "{}",
         "description": "Comptage des éléments de rapports par plateforme.",
         "version": 1,
@@ -308,7 +308,7 @@
         "formation-publisher"
       ],
       "updated_at": "2024-09-05T13:10:10.207Z",
-      "version": "WzMwNjQ5OTUsMTdd",
+      "version": "WzM4MzQ4NTAsMThd",
       "attributes": {
         "description": "Comptage des éléments de rapports par éditeur (top 150)",
         "kibanaSavedObjectMeta": {
@@ -358,7 +358,7 @@
         "formation-publisher"
       ],
       "updated_at": "2024-09-05T13:10:10.207Z",
-      "version": "WzMwNjQ5ODYsMTdd",
+      "version": "WzM4MzQ4NDIsMThd",
       "attributes": {
         "description": "Affichage du type de métrique COUNTER : la taille du texte est proportionnelle au nombre d'éléments de rapport indexé pour chaque type",
         "kibanaSavedObjectMeta": {
@@ -413,7 +413,7 @@
         "formation-publisher"
       ],
       "updated_at": "2024-09-05T13:10:10.202Z",
-      "version": "WzMwNjQ5NjQsMTdd",
+      "version": "WzM4NDAxMzksMThd",
       "attributes": {
         "title": "publisher : Evolution pluriannuelle",
         "visState": "{\"title\":\"publisher : Evolution pluriannuelle\",\"type\":\"markdown\",\"aggs\":[],\"params\":{\"markdown\":\"# Evolution pluriannuelle\\n\\n\\n\",\"openLinksInNewTab\":false,\"fontSize\":12}}",
@@ -463,7 +463,7 @@
         "formation-publisher"
       ],
       "updated_at": "2024-09-05T13:10:10.202Z",
-      "version": "WzMwNjQ5NjUsMTdd",
+      "version": "WzM4NDAxNDAsMThd",
       "attributes": {
         "title": "publisher : chronologie-mois-histo acces type",
         "visState": "{\"title\":\"publisher : chronologie-mois-histo acces type\",\"type\":\"histogram\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"sum\",\"params\":{\"field\":\"Count\",\"customLabel\":\"Éléments de rapport\"},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"date_histogram\",\"params\":{\"field\":\"X_Date_Month\",\"timeRange\":{\"from\":\"2021-12-30T23:21:30.981Z\",\"to\":\"2022-12-31T22:30:00.000Z\"},\"useNormalizedEsInterval\":true,\"scaleMetricValues\":true,\"interval\":\"y\",\"used_interval\":\"1y\",\"drop_partials\":false,\"min_doc_count\":1,\"extended_bounds\":{},\"customLabel\":\"Chronologie (mois)\"},\"schema\":\"segment\"},{\"id\":\"3\",\"enabled\":true,\"type\":\"terms\",\"params\":{\"field\":\"Access_Type\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":25,\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\"},\"schema\":\"group\"},{\"id\":\"4\",\"enabled\":true,\"type\":\"terms\",\"params\":{\"field\":\"Platform\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":5,\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\"},\"schema\":\"group\"}],\"params\":{\"type\":\"histogram\",\"grid\":{\"categoryLines\":false},\"categoryAxes\":[{\"id\":\"CategoryAxis-1\",\"type\":\"category\",\"position\":\"top\",\"show\":true,\"style\":{},\"scale\":{\"type\":\"linear\"},\"labels\":{\"show\":true,\"filter\":true,\"truncate\":100},\"title\":{}}],\"valueAxes\":[{\"id\":\"ValueAxis-1\",\"name\":\"LeftAxis-1\",\"type\":\"value\",\"show\":true,\"style\":{},\"scale\":{\"type\":\"linear\",\"mode\":\"normal\"},\"labels\":{\"show\":true,\"rotate\":0,\"filter\":false,\"truncate\":100},\"title\":{\"text\":\"Éléments de rapport\"},\"position\":\"left\"}],\"seriesParams\":[{\"show\":\"true\",\"type\":\"histogram\",\"mode\":\"normal\",\"data\":{\"label\":\"Éléments de rapport\",\"id\":\"1\"},\"valueAxis\":\"ValueAxis-1\",\"drawLinesBetweenPoints\":true,\"showCircles\":true}],\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"top\",\"times\":[],\"addTimeMarker\":false,\"labels\":{\"show\":true},\"thresholdLine\":{\"show\":false,\"value\":10,\"width\":1,\"style\":\"full\",\"color\":\"#34130C\"},\"dimensions\":{\"x\":{\"accessor\":0,\"format\":{\"id\":\"date\",\"params\":{\"pattern\":\"YYYY-MM-DD\"}},\"params\":{\"date\":true,\"interval\":\"P1M\",\"format\":\"YYYY-MM-DD\",\"bounds\":{\"min\":\"2018-12-27T16:37:47.443Z\",\"max\":\"2020-01-04T05:24:04.193Z\"}},\"aggType\":\"date_histogram\"},\"y\":[{\"accessor\":2,\"format\":{\"id\":\"number\"},\"params\":{},\"aggType\":\"sum\"}],\"series\":[{\"accessor\":1,\"format\":{\"id\":\"terms\",\"params\":{\"id\":\"string\",\"otherBucketLabel\":\"Other\",\"missingBucketLabel\":\"Missing\"}},\"params\":{},\"aggType\":\"terms\"}]},\"palette\":{\"type\":\"palette\",\"name\":\"default\"},\"isVislibVis\":true,\"detailedTooltip\":true,\"radiusRatio\":0}}",
@@ -498,7 +498,7 @@
         "formation-publisher"
       ],
       "updated_at": "2024-09-05T13:10:10.202Z",
-      "version": "WzMwNjQ5NjYsMTdd",
+      "version": "WzM4NDAxNDEsMThd",
       "attributes": {
         "title": "publisher : acces type-circulaire",
         "visState": "{\"title\":\"publisher : acces type-circulaire\",\"type\":\"pie\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"sum\",\"params\":{\"field\":\"Count\",\"customLabel\":\"Éléments de rapport\"},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"params\":{\"field\":\"Access_Type\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":20,\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":true,\"missingBucketLabel\":\"Non renseigné\"},\"schema\":\"segment\"}],\"params\":{\"addLegend\":true,\"addTooltip\":true,\"dimensions\":{\"buckets\":[{\"accessor\":0,\"aggType\":\"terms\",\"format\":{\"id\":\"terms\",\"params\":{\"id\":\"string\",\"missingBucketLabel\":\"Missing\",\"otherBucketLabel\":\"Other\"}},\"params\":{}}],\"metric\":{\"accessor\":1,\"aggType\":\"count\",\"format\":{\"id\":\"number\"},\"params\":{}}},\"isDonut\":true,\"labels\":{\"last_level\":true,\"show\":true,\"truncate\":100,\"values\":true,\"percentDecimals\":2,\"position\":\"inside\"},\"legendPosition\":\"top\",\"type\":\"pie\",\"palette\":{\"type\":\"palette\",\"name\":\"complimentary\"},\"distinctColors\":true,\"nestedLegend\":false}}",
@@ -533,7 +533,7 @@
         "formation-publisher"
       ],
       "updated_at": "2024-09-05T13:10:10.207Z",
-      "version": "WzMwNjQ5OTcsMTdd",
+      "version": "WzM4MzQ4NTIsMThd",
       "attributes": {
         "description": "Comptage des éléments de rapports par année de publication (YOP = year of publication). NB : \"0001\" = non renseigné ; \"9999\" = à paraître.",
         "kibanaSavedObjectMeta": {
@@ -578,7 +578,7 @@
         "formation-publisher"
       ],
       "updated_at": "2024-09-05T13:10:10.202Z",
-      "version": "WzMwNjQ5NjgsMTdd",
+      "version": "WzM4NDAxNDIsMThd",
       "attributes": {
         "title": "publisher : Dernière année complète",
         "visState": "{\"title\":\"publisher : Dernière année complète\",\"type\":\"markdown\",\"aggs\":[],\"params\":{\"markdown\":\"# Dernière année complète\\n\\n\\n\",\"openLinksInNewTab\":false,\"fontSize\":12}}",
@@ -628,7 +628,7 @@
         "formation-publisher"
       ],
       "updated_at": "2024-09-05T13:10:10.207Z",
-      "version": "WzMwNjQ5ODcsMTdd",
+      "version": "WzM4MzQ4NDMsMThd",
       "attributes": {
         "description": "Indicateurs généraux pertinents pour les rapports concernant les titres (TR)",
         "kibanaSavedObjectMeta": {
@@ -673,7 +673,7 @@
         "formation-publisher"
       ],
       "updated_at": "2024-09-05T13:10:10.207Z",
-      "version": "WzMwNjQ5OTIsMTdd",
+      "version": "WzM4MzQ4NDgsMThd",
       "attributes": {
         "title": "publisher : chronologie-mois-histo",
         "visState": "{\"title\":\"publisher : chronologie-mois-histo\",\"type\":\"histogram\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"sum\",\"params\":{\"field\":\"Count\",\"customLabel\":\"Éléments de rapport\"},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"date_histogram\",\"params\":{\"field\":\"X_Date_Month\",\"timeRange\":{\"from\":\"now-1y/y\",\"to\":\"now-6M\"},\"useNormalizedEsInterval\":true,\"scaleMetricValues\":true,\"interval\":\"M\",\"used_interval\":\"1M\",\"drop_partials\":false,\"min_doc_count\":1,\"extended_bounds\":{},\"customLabel\":\"Chronologie (mois)\"},\"schema\":\"segment\"},{\"id\":\"3\",\"enabled\":true,\"type\":\"terms\",\"params\":{\"field\":\"X_Package\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":25,\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":true,\"missingBucketLabel\":\"Missing\"},\"schema\":\"group\"},{\"id\":\"4\",\"enabled\":false,\"type\":\"terms\",\"params\":{\"field\":\"Access_Type\",\"orderBy\":\"1\",\"order\":\"asc\",\"size\":5,\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":true,\"missingBucketLabel\":\"Non communiqué\"},\"schema\":\"group\"}],\"params\":{\"type\":\"histogram\",\"grid\":{\"categoryLines\":false},\"categoryAxes\":[{\"id\":\"CategoryAxis-1\",\"type\":\"category\",\"position\":\"bottom\",\"show\":true,\"style\":{},\"scale\":{\"type\":\"linear\"},\"labels\":{\"show\":true,\"filter\":true,\"truncate\":100},\"title\":{}}],\"valueAxes\":[{\"id\":\"ValueAxis-1\",\"name\":\"LeftAxis-1\",\"type\":\"value\",\"position\":\"left\",\"show\":true,\"style\":{},\"scale\":{\"type\":\"linear\",\"mode\":\"normal\"},\"labels\":{\"show\":true,\"rotate\":0,\"filter\":false,\"truncate\":100},\"title\":{\"text\":\"Éléments de rapport\"}}],\"seriesParams\":[{\"show\":\"true\",\"type\":\"histogram\",\"mode\":\"stacked\",\"data\":{\"label\":\"Éléments de rapport\",\"id\":\"1\"},\"valueAxis\":\"ValueAxis-1\",\"drawLinesBetweenPoints\":true,\"showCircles\":true}],\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"times\":[],\"addTimeMarker\":false,\"labels\":{\"show\":true},\"thresholdLine\":{\"show\":false,\"value\":10,\"width\":1,\"style\":\"full\",\"color\":\"#34130C\"},\"dimensions\":{\"x\":{\"accessor\":0,\"format\":{\"id\":\"date\",\"params\":{\"pattern\":\"YYYY-MM-DD\"}},\"params\":{\"date\":true,\"interval\":\"P1M\",\"format\":\"YYYY-MM-DD\",\"bounds\":{\"min\":\"2018-12-27T16:37:47.443Z\",\"max\":\"2020-01-04T05:24:04.193Z\"}},\"aggType\":\"date_histogram\"},\"y\":[{\"accessor\":2,\"format\":{\"id\":\"number\"},\"params\":{},\"aggType\":\"sum\"}],\"series\":[{\"accessor\":1,\"format\":{\"id\":\"terms\",\"params\":{\"id\":\"string\",\"otherBucketLabel\":\"Other\",\"missingBucketLabel\":\"Missing\"}},\"params\":{},\"aggType\":\"terms\"}]},\"palette\":{\"type\":\"palette\",\"name\":\"default\"},\"isVislibVis\":true,\"detailedTooltip\":true,\"radiusRatio\":0}}",
@@ -728,7 +728,7 @@
         "formation-publisher"
       ],
       "updated_at": "2024-09-05T13:10:10.207Z",
-      "version": "WzMwNjQ5OTMsMTdd",
+      "version": "WzM4MzQ4NDksMThd",
       "attributes": {
         "title": "publisher : profils-table",
         "visState": "{\"title\":\"publisher : profils-table\",\"type\":\"table\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"sum\",\"params\":{\"field\":\"Count\",\"customLabel\":\"éléments de rapport\"},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"params\":{\"field\":\"X_Package\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":20,\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":true,\"missingBucketLabel\":\"Missing\",\"customLabel\":\"Profil/Compte/Fonds/Antenne\"},\"schema\":\"bucket\"}],\"params\":{\"perPage\":10,\"showPartialRows\":false,\"showMetricsAtAllLevels\":false,\"sort\":{\"columnIndex\":null,\"direction\":null},\"showTotal\":false,\"totalFunc\":\"sum\",\"percentageCol\":\"\",\"dimensions\":{\"metrics\":[{\"accessor\":1,\"format\":{\"id\":\"number\"},\"params\":{},\"aggType\":\"sum\"}],\"buckets\":[{\"accessor\":0,\"format\":{\"id\":\"terms\",\"params\":{\"id\":\"string\",\"otherBucketLabel\":\"Other\",\"missingBucketLabel\":\"Missing\"}},\"params\":{},\"aggType\":\"terms\"}]},\"showToolbar\":true}}",
@@ -783,7 +783,7 @@
         "formation-publisher"
       ],
       "updated_at": "2024-09-05T13:10:10.207Z",
-      "version": "WzMwNjQ5OTgsMTdd",
+      "version": "WzM4MzQ4NTMsMThd",
       "attributes": {
         "title": "publisher : top-1000-titres-table",
         "visState": "{\"title\":\"publisher : top-1000-titres-table\",\"type\":\"table\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"sum\",\"params\":{\"field\":\"Count\",\"customLabel\":\"éléments de rapport\"},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"params\":{\"field\":\"Title\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":1000,\"otherBucket\":false,\"otherBucketLabel\":\"[ titre(s) hors du top 1000 ]\",\"missingBucket\":false,\"missingBucketLabel\":\"-\",\"customLabel\":\"Titre\"},\"schema\":\"bucket\"},{\"id\":\"3\",\"enabled\":true,\"type\":\"terms\",\"params\":{\"field\":\"Item_ID.Online_ISSN\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":500,\"otherBucket\":false,\"otherBucketLabel\":\"[ autres eISSN ]\",\"missingBucket\":true,\"missingBucketLabel\":\"-\",\"customLabel\":\"Online ISSN\"},\"schema\":\"bucket\"},{\"id\":\"4\",\"enabled\":true,\"type\":\"terms\",\"params\":{\"field\":\"Item_ID.Print_ISSN\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":500,\"otherBucket\":false,\"otherBucketLabel\":\"[ autres ISSN ]\",\"missingBucket\":true,\"missingBucketLabel\":\"-\",\"customLabel\":\"Print ISSN\"},\"schema\":\"bucket\"},{\"id\":\"6\",\"enabled\":true,\"type\":\"terms\",\"params\":{\"field\":\"Item_ID.ISBN\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":500,\"otherBucket\":false,\"otherBucketLabel\":\"[ autres ISBN ]\",\"missingBucket\":true,\"missingBucketLabel\":\"-\",\"customLabel\":\"ISBN\"},\"schema\":\"bucket\"},{\"id\":\"7\",\"enabled\":true,\"type\":\"terms\",\"params\":{\"field\":\"Platform\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":5,\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":true,\"missingBucketLabel\":\"Missing\",\"customLabel\":\"Plateforme\"},\"schema\":\"bucket\"}],\"params\":{\"dimensions\":{\"buckets\":[{\"accessor\":0,\"aggType\":\"terms\",\"format\":{\"id\":\"terms\",\"params\":{\"id\":\"string\",\"missingBucketLabel\":\"Missing\",\"otherBucketLabel\":\"Other\"}},\"params\":{}},{\"accessor\":1,\"aggType\":\"terms\",\"format\":{\"id\":\"terms\",\"params\":{\"id\":\"string\",\"missingBucketLabel\":\"Missing\",\"otherBucketLabel\":\"Other\"}},\"params\":{}},{\"accessor\":2,\"aggType\":\"terms\",\"format\":{\"id\":\"terms\",\"params\":{\"id\":\"string\",\"missingBucketLabel\":\"Missing\",\"otherBucketLabel\":\"Other\"}},\"params\":{}}],\"metrics\":[{\"accessor\":3,\"aggType\":\"sum\",\"format\":{\"id\":\"number\"},\"params\":{}}]},\"perPage\":50,\"percentageCol\":\"éléments de rapport\",\"showMetricsAtAllLevels\":false,\"showPartialRows\":false,\"showToolbar\":true,\"showTotal\":false,\"sort\":{\"columnIndex\":null,\"direction\":null},\"totalFunc\":\"sum\"}}",
@@ -833,7 +833,7 @@
         "formation-publisher"
       ],
       "updated_at": "2024-09-05T13:10:10.202Z",
-      "version": "WzMwNjQ5NzMsMTdd",
+      "version": "WzM4NDAxNDMsMThd",
       "attributes": {
         "name": "OA",
         "description": "",
@@ -849,7 +849,7 @@
         "formation-publisher"
       ],
       "updated_at": "2024-09-05T13:10:10.207Z",
-      "version": "WzMwNjUwMDIsMTdd",
+      "version": "WzM4MzQ4NTcsMThd",
       "attributes": {
         "color": "#b0f458",
         "description": "ID Master Title Report + Total_Item_Requests",
@@ -865,7 +865,7 @@
         "formation-publisher"
       ],
       "updated_at": "2024-09-05T13:13:12.464Z",
-      "version": "WzMwNjUwODcsMTdd",
+      "version": "WzM4MzQ4OTcsMThd",
       "attributes": {
         "color": "#01752a",
         "description": "Statut pour les dashboards uniquement",
@@ -881,7 +881,7 @@
         "formation-publisher"
       ],
       "updated_at": "2024-09-05T13:13:12.464Z",
-      "version": "WzMwNjUwODgsMTdd",
+      "version": "WzM4MzQ4OTgsMThd",
       "attributes": {
         "name": "générique",
         "description": "",
@@ -897,7 +897,7 @@
         "formation-publisher"
       ],
       "updated_at": "2024-09-05T13:10:10.207Z",
-      "version": "WzMwNjUwMDUsMTdd",
+      "version": "WzM4MzQ4NTgsMThd",
       "attributes": {
         "color": "#0062b1",
         "description": "ID Master Database Report + Total Item Investigations",
@@ -913,7 +913,7 @@
         "formation-publisher"
       ],
       "updated_at": "2024-09-05T13:10:10.207Z",
-      "version": "WzMwNjUwMDYsMTdd",
+      "version": "WzM4MzQ4NTksMThd",
       "attributes": {
         "color": "#ffcc00",
         "description": "ID Master Platform Reports + Searches_Platform",
@@ -929,7 +929,7 @@
         "formation-publisher"
       ],
       "updated_at": "2024-09-05T13:10:10.207Z",
-      "version": "WzMwNjUwMDcsMTdd",
+      "version": "WzM4MzQ4NjAsMThd",
       "attributes": {
         "color": "#ba0000",
         "description": "ID Master Title Reports + No_License",
@@ -945,7 +945,7 @@
         "formation-publisher"
       ],
       "updated_at": "2024-09-05T13:10:10.207Z",
-      "version": "WzMwNjUwMDgsMTdd",
+      "version": "WzM4MzQ4NjEsMThd",
       "attributes": {
         "color": "#CA8EAE",
         "description": "ID Master Item Report + Unique Item Requests",
@@ -961,7 +961,7 @@
         "formation-publisher"
       ],
       "updated_at": "2024-09-05T13:10:10.207Z",
-      "version": "WzMwNjUwMDksMTdd",
+      "version": "WzM4MzQ4NjIsMThd",
       "attributes": {
         "color": "#242e33",
         "description": "ID Matrices Rapports indexés",
@@ -977,7 +977,7 @@
         "formation-publisher"
       ],
       "updated_at": "2024-09-05T13:10:10.207Z",
-      "version": "WzMwNjUwMTAsMTdd",
+      "version": "WzM4MzQ4NjMsMThd",
       "attributes": {
         "color": "#c9ffb8",
         "description": "ID Master Title Reports + Total_Item_Investigations",
