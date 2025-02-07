@@ -7,111 +7,111 @@
       "namespaces": [
         "formation-ezpaarse"
       ],
-      "updated_at": "2024-06-19T11:51:00.746Z",
-      "version": "WzI2ODA1MTcsMTdd",
+      "updated_at": "2025-02-07T12:51:32.288Z",
+      "version": "WzM5MjA5MzMsMThd",
       "attributes": {
-        "title": "*: tableau de bord d'aide à la certification H ARTICLE",
+        "description": "tableau de bord générique d'aide à la certification H ARTICLE des plateformes éditeurs dans ezPAARSE",
         "hits": 0,
-        "description": "tableau de bord générique d'aide à la certification H ARTICLE des plateformes editeurs dans ezPAARSE mis à jour le 20/06/2024",
-        "panelsJSON": "[{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":0,\"y\":0,\"w\":24,\"h\":19,\"i\":\"5d0f5c20-7511-4793-8ffb-88dbbcb8b084\"},\"panelIndex\":\"5d0f5c20-7511-4793-8ffb-88dbbcb8b084\",\"embeddableConfig\":{\"enhancements\":{}},\"panelRefName\":\"panel_5d0f5c20-7511-4793-8ffb-88dbbcb8b084\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":24,\"y\":0,\"w\":24,\"h\":19,\"i\":\"1ded3c5e-0a39-40a9-9439-6bafab81f4a5\"},\"panelIndex\":\"1ded3c5e-0a39-40a9-9439-6bafab81f4a5\",\"embeddableConfig\":{\"enhancements\":{}},\"panelRefName\":\"panel_1ded3c5e-0a39-40a9-9439-6bafab81f4a5\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":30,\"y\":19,\"w\":18,\"h\":16,\"i\":\"a6958c89-be1e-4298-a192-cc5d4bd21f3f\"},\"panelIndex\":\"a6958c89-be1e-4298-a192-cc5d4bd21f3f\",\"embeddableConfig\":{\"enhancements\":{},\"vis\":{\"legendOpen\":true,\"colors\":{\"PDF\":\"#BF1B00\"}},\"table\":null},\"panelRefName\":\"panel_a6958c89-be1e-4298-a192-cc5d4bd21f3f\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":0,\"y\":19,\"w\":15,\"h\":16,\"i\":\"53f94ee6-c768-48ae-bece-bced9371f148\"},\"panelIndex\":\"53f94ee6-c768-48ae-bece-bced9371f148\",\"embeddableConfig\":{\"enhancements\":{},\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}},\"panelRefName\":\"panel_53f94ee6-c768-48ae-bece-bced9371f148\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":15,\"y\":19,\"w\":15,\"h\":16,\"i\":\"bc673e6a-8041-4d1d-8ef5-424bbced208d\"},\"panelIndex\":\"bc673e6a-8041-4d1d-8ef5-424bbced208d\",\"embeddableConfig\":{\"enhancements\":{},\"vis\":{\"legendOpen\":true,\"colors\":{\"ARTICLE\":\"#1F78C1\"}}},\"panelRefName\":\"panel_bc673e6a-8041-4d1d-8ef5-424bbced208d\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":0,\"y\":35,\"w\":24,\"h\":25,\"i\":\"07d23c29-5158-4115-8ece-aff244d9eff1\"},\"panelIndex\":\"07d23c29-5158-4115-8ece-aff244d9eff1\",\"embeddableConfig\":{\"enhancements\":{},\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}},\"panelRefName\":\"panel_07d23c29-5158-4115-8ece-aff244d9eff1\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":24,\"y\":35,\"w\":24,\"h\":25,\"i\":\"d83a7640-72a3-4898-9179-c477f1c03578\"},\"panelIndex\":\"d83a7640-72a3-4898-9179-c477f1c03578\",\"embeddableConfig\":{\"enhancements\":{},\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}},\"panelRefName\":\"panel_d83a7640-72a3-4898-9179-c477f1c03578\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":0,\"y\":60,\"w\":48,\"h\":26,\"i\":\"6efc40fc-5efa-4426-9757-4bb3db2b677b\"},\"panelIndex\":\"6efc40fc-5efa-4426-9757-4bb3db2b677b\",\"embeddableConfig\":{\"enhancements\":{}},\"panelRefName\":\"panel_6efc40fc-5efa-4426-9757-4bb3db2b677b\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":0,\"y\":86,\"w\":24,\"h\":16,\"i\":\"49c07a3d-4856-4e7c-94bc-5a3d59c0ad26\"},\"panelIndex\":\"49c07a3d-4856-4e7c-94bc-5a3d59c0ad26\",\"embeddableConfig\":{\"enhancements\":{},\"vis\":{\"legendOpen\":true,\"colors\":{\"sans DOI\":\"#EF843C\"}},\"table\":null},\"panelRefName\":\"panel_49c07a3d-4856-4e7c-94bc-5a3d59c0ad26\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":24,\"y\":86,\"w\":24,\"h\":16,\"i\":\"be451048-94f6-4c9a-a8ec-6ed0d281e06a\"},\"panelIndex\":\"be451048-94f6-4c9a-a8ec-6ed0d281e06a\",\"embeddableConfig\":{\"enhancements\":{},\"vis\":{\"colors\":{\"avec titre de publication\":\"#447EBC\",\"sans titre de publication\":\"#E24D42\",\"sans publication_title\":\"#EF843C\"},\"legendOpen\":true},\"table\":null},\"panelRefName\":\"panel_be451048-94f6-4c9a-a8ec-6ed0d281e06a\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":0,\"y\":102,\"w\":24,\"h\":15,\"i\":\"ca056714-c118-4fd6-abbd-7a5d7ee52f1c\"},\"panelIndex\":\"ca056714-c118-4fd6-abbd-7a5d7ee52f1c\",\"embeddableConfig\":{\"enhancements\":{},\"vis\":{\"colors\":{\"avec titre de publication\":\"#447EBC\",\"sans titre de publication\":\"#E24D42\",\"avec Online identifier ISSN ISBN\":\"#447EBC\",\"sans Online identifier ISSN ISBN\":\"#E24D42\",\"avec Print identifier ISSN ISBN\":\"#447EBC\",\"sans Print identifier ISSN ISBN\":\"#E24D42\",\"sans print_identifier (ISSN or ISBN)\":\"#EF843C\"},\"legendOpen\":true}},\"panelRefName\":\"panel_ca056714-c118-4fd6-abbd-7a5d7ee52f1c\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":24,\"y\":102,\"w\":24,\"h\":15,\"i\":\"8b0f1de6-8596-463f-960b-4f831417a1d6\"},\"panelIndex\":\"8b0f1de6-8596-463f-960b-4f831417a1d6\",\"embeddableConfig\":{\"enhancements\":{},\"vis\":{\"colors\":{\"avec titre de publication\":\"#447EBC\",\"sans titre de publication\":\"#E24D42\",\"avec Online identifier ISSN ISBN\":\"#447EBC\",\"sans Online identifier ISSN ISBN\":\"#E24D42\",\"sans Online identifier (ISSN or ISBN)\":\"#EF843C\"},\"legendOpen\":true},\"table\":null},\"panelRefName\":\"panel_8b0f1de6-8596-463f-960b-4f831417a1d6\"}]",
+        "kibanaSavedObjectMeta": {
+          "searchSourceJSON": "{\"query\":{\"query\":\"\",\"language\":\"kuery\"},\"filter\":[{\"meta\":{\"type\":\"phrase\",\"key\":\"rtype\",\"params\":{\"query\":\"ARTICLE\"},\"disabled\":false,\"negate\":false,\"alias\":null,\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.filter[0].meta.index\"},\"query\":{\"match\":{\"rtype\":{\"query\":\"ARTICLE\",\"type\":\"phrase\"}}},\"$state\":{\"store\":\"appState\"}},{\"meta\":{\"type\":\"phrases\",\"key\":\"mime\",\"params\":[\"HTML\",\"PDF\"],\"alias\":null,\"negate\":false,\"disabled\":false,\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.filter[1].meta.index\"},\"query\":{\"bool\":{\"should\":[{\"match_phrase\":{\"mime\":\"HTML\"}},{\"match_phrase\":{\"mime\":\"PDF\"}}],\"minimum_should_match\":1}},\"$state\":{\"store\":\"appState\"}}]}"
+        },
         "optionsJSON": "{\"useMargins\":true,\"hidePanelTitles\":false}",
-        "version": 1,
-        "timeRestore": true,
-        "timeTo": "2023-12-31T10:14:02.492Z",
-        "timeFrom": "2022-12-31T23:00:00.000Z",
+        "panelsJSON": "[{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":0,\"y\":0,\"w\":24,\"h\":19,\"i\":\"5d0f5c20-7511-4793-8ffb-88dbbcb8b084\"},\"panelIndex\":\"5d0f5c20-7511-4793-8ffb-88dbbcb8b084\",\"embeddableConfig\":{\"enhancements\":{}},\"panelRefName\":\"panel_5d0f5c20-7511-4793-8ffb-88dbbcb8b084\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":24,\"y\":0,\"w\":24,\"h\":19,\"i\":\"1ded3c5e-0a39-40a9-9439-6bafab81f4a5\"},\"panelIndex\":\"1ded3c5e-0a39-40a9-9439-6bafab81f4a5\",\"embeddableConfig\":{\"enhancements\":{}},\"panelRefName\":\"panel_1ded3c5e-0a39-40a9-9439-6bafab81f4a5\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":30,\"y\":19,\"w\":18,\"h\":16,\"i\":\"a6958c89-be1e-4298-a192-cc5d4bd21f3f\"},\"panelIndex\":\"a6958c89-be1e-4298-a192-cc5d4bd21f3f\",\"embeddableConfig\":{\"enhancements\":{},\"vis\":{\"legendOpen\":true,\"colors\":{\"PDF\":\"#BF1B00\"}},\"table\":null},\"panelRefName\":\"panel_a6958c89-be1e-4298-a192-cc5d4bd21f3f\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":0,\"y\":19,\"w\":15,\"h\":16,\"i\":\"53f94ee6-c768-48ae-bece-bced9371f148\"},\"panelIndex\":\"53f94ee6-c768-48ae-bece-bced9371f148\",\"embeddableConfig\":{\"enhancements\":{},\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}},\"panelRefName\":\"panel_53f94ee6-c768-48ae-bece-bced9371f148\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":15,\"y\":19,\"w\":15,\"h\":16,\"i\":\"bc673e6a-8041-4d1d-8ef5-424bbced208d\"},\"panelIndex\":\"bc673e6a-8041-4d1d-8ef5-424bbced208d\",\"embeddableConfig\":{\"enhancements\":{},\"vis\":{\"legendOpen\":true,\"colors\":{\"ARTICLE\":\"#1F78C1\"}}},\"panelRefName\":\"panel_bc673e6a-8041-4d1d-8ef5-424bbced208d\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":0,\"y\":35,\"w\":24,\"h\":25,\"i\":\"07d23c29-5158-4115-8ece-aff244d9eff1\"},\"panelIndex\":\"07d23c29-5158-4115-8ece-aff244d9eff1\",\"embeddableConfig\":{\"enhancements\":{},\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}},\"panelRefName\":\"panel_07d23c29-5158-4115-8ece-aff244d9eff1\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":24,\"y\":35,\"w\":24,\"h\":25,\"i\":\"d83a7640-72a3-4898-9179-c477f1c03578\"},\"panelIndex\":\"d83a7640-72a3-4898-9179-c477f1c03578\",\"embeddableConfig\":{\"enhancements\":{},\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}},\"panelRefName\":\"panel_d83a7640-72a3-4898-9179-c477f1c03578\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":0,\"y\":60,\"w\":48,\"h\":26,\"i\":\"6efc40fc-5efa-4426-9757-4bb3db2b677b\"},\"panelIndex\":\"6efc40fc-5efa-4426-9757-4bb3db2b677b\",\"embeddableConfig\":{\"enhancements\":{}},\"panelRefName\":\"panel_6efc40fc-5efa-4426-9757-4bb3db2b677b\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":0,\"y\":86,\"w\":24,\"h\":16,\"i\":\"49c07a3d-4856-4e7c-94bc-5a3d59c0ad26\"},\"panelIndex\":\"49c07a3d-4856-4e7c-94bc-5a3d59c0ad26\",\"embeddableConfig\":{\"enhancements\":{},\"vis\":{\"legendOpen\":true,\"colors\":{\"sans DOI\":\"#EF843C\"}},\"table\":null},\"panelRefName\":\"panel_49c07a3d-4856-4e7c-94bc-5a3d59c0ad26\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":24,\"y\":86,\"w\":24,\"h\":16,\"i\":\"be451048-94f6-4c9a-a8ec-6ed0d281e06a\"},\"panelIndex\":\"be451048-94f6-4c9a-a8ec-6ed0d281e06a\",\"embeddableConfig\":{\"enhancements\":{},\"vis\":{\"colors\":{\"avec titre de publication\":\"#447EBC\",\"sans titre de publication\":\"#E24D42\",\"sans publication_title\":\"#EF843C\"},\"legendOpen\":true},\"table\":null},\"panelRefName\":\"panel_be451048-94f6-4c9a-a8ec-6ed0d281e06a\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":0,\"y\":102,\"w\":24,\"h\":15,\"i\":\"ca056714-c118-4fd6-abbd-7a5d7ee52f1c\"},\"panelIndex\":\"ca056714-c118-4fd6-abbd-7a5d7ee52f1c\",\"embeddableConfig\":{\"enhancements\":{},\"vis\":{\"colors\":{\"avec titre de publication\":\"#447EBC\",\"sans titre de publication\":\"#E24D42\",\"avec Online identifier ISSN ISBN\":\"#447EBC\",\"sans Online identifier ISSN ISBN\":\"#E24D42\",\"avec Print identifier ISSN ISBN\":\"#447EBC\",\"sans Print identifier ISSN ISBN\":\"#E24D42\",\"sans print_identifier (ISSN or ISBN)\":\"#EF843C\"},\"legendOpen\":true}},\"panelRefName\":\"panel_ca056714-c118-4fd6-abbd-7a5d7ee52f1c\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":24,\"y\":102,\"w\":24,\"h\":15,\"i\":\"8b0f1de6-8596-463f-960b-4f831417a1d6\"},\"panelIndex\":\"8b0f1de6-8596-463f-960b-4f831417a1d6\",\"embeddableConfig\":{\"enhancements\":{},\"vis\":{\"colors\":{\"avec titre de publication\":\"#447EBC\",\"sans titre de publication\":\"#E24D42\",\"avec Online identifier ISSN ISBN\":\"#447EBC\",\"sans Online identifier ISSN ISBN\":\"#E24D42\",\"sans Online identifier (ISSN or ISBN)\":\"#EF843C\"},\"legendOpen\":true},\"table\":null},\"panelRefName\":\"panel_8b0f1de6-8596-463f-960b-4f831417a1d6\"}]",
         "refreshInterval": {
           "pause": true,
           "value": 0
         },
-        "kibanaSavedObjectMeta": {
-          "searchSourceJSON": "{\"query\":{\"query\":\"\",\"language\":\"kuery\"},\"filter\":[{\"meta\":{\"type\":\"phrase\",\"key\":\"rtype\",\"params\":{\"query\":\"ARTICLE\"},\"disabled\":false,\"negate\":false,\"alias\":null,\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.filter[0].meta.index\"},\"query\":{\"match\":{\"rtype\":{\"query\":\"ARTICLE\",\"type\":\"phrase\"}}},\"$state\":{\"store\":\"appState\"}},{\"meta\":{\"type\":\"phrases\",\"key\":\"mime\",\"params\":[\"HTML\",\"PDF\"],\"alias\":null,\"negate\":false,\"disabled\":false,\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.filter[1].meta.index\"},\"query\":{\"bool\":{\"should\":[{\"match_phrase\":{\"mime\":\"HTML\"}},{\"match_phrase\":{\"mime\":\"PDF\"}}],\"minimum_should_match\":1}},\"$state\":{\"store\":\"appState\"}}]}"
-        }
+        "timeFrom": "2022-12-31T23:00:00.000Z",
+        "timeRestore": true,
+        "timeTo": "2023-12-31T10:14:02.492Z",
+        "title": "*: tableau de bord d'aide à la certification H ARTICLE",
+        "version": 1
       },
       "references": [
         {
+          "id": "d4db7ac0-e551-11ef-aaa0-fb75009c2a28",
           "name": "kibanaSavedObjectMeta.searchSourceJSON.filter[0].meta.index",
-          "type": "index-pattern",
-          "id": "e2147830-028d-11ed-871c-618dc17b393f"
+          "type": "index-pattern"
         },
         {
+          "id": "d4db7ac0-e551-11ef-aaa0-fb75009c2a28",
           "name": "kibanaSavedObjectMeta.searchSourceJSON.filter[1].meta.index",
-          "type": "index-pattern",
-          "id": "e2147830-028d-11ed-871c-618dc17b393f"
+          "type": "index-pattern"
         },
         {
+          "id": "84b0ace0-ba3b-11eb-8139-2d9f91b04e27",
           "name": "5d0f5c20-7511-4793-8ffb-88dbbcb8b084:panel_5d0f5c20-7511-4793-8ffb-88dbbcb8b084",
-          "type": "visualization",
-          "id": "84b0ace0-ba3b-11eb-8139-2d9f91b04e27"
+          "type": "visualization"
         },
         {
+          "id": "4247cf50-ba04-11eb-8139-2d9f91b04e27",
           "name": "1ded3c5e-0a39-40a9-9439-6bafab81f4a5:panel_1ded3c5e-0a39-40a9-9439-6bafab81f4a5",
-          "type": "visualization",
-          "id": "4247cf50-ba04-11eb-8139-2d9f91b04e27"
+          "type": "visualization"
         },
         {
+          "id": "044c0380-ba07-11eb-8139-2d9f91b04e27",
           "name": "a6958c89-be1e-4298-a192-cc5d4bd21f3f:panel_a6958c89-be1e-4298-a192-cc5d4bd21f3f",
-          "type": "visualization",
-          "id": "044c0380-ba07-11eb-8139-2d9f91b04e27"
+          "type": "visualization"
         },
         {
+          "id": "4cd1eb60-ba39-11eb-8139-2d9f91b04e27",
           "name": "53f94ee6-c768-48ae-bece-bced9371f148:panel_53f94ee6-c768-48ae-bece-bced9371f148",
-          "type": "visualization",
-          "id": "4cd1eb60-ba39-11eb-8139-2d9f91b04e27"
+          "type": "visualization"
         },
         {
+          "id": "eb749bb0-ba06-11eb-8139-2d9f91b04e27",
           "name": "bc673e6a-8041-4d1d-8ef5-424bbced208d:panel_bc673e6a-8041-4d1d-8ef5-424bbced208d",
-          "type": "visualization",
-          "id": "eb749bb0-ba06-11eb-8139-2d9f91b04e27"
+          "type": "visualization"
         },
         {
+          "id": "78a86990-ba38-11eb-8139-2d9f91b04e27",
           "name": "07d23c29-5158-4115-8ece-aff244d9eff1:panel_07d23c29-5158-4115-8ece-aff244d9eff1",
-          "type": "visualization",
-          "id": "78a86990-ba38-11eb-8139-2d9f91b04e27"
+          "type": "visualization"
         },
         {
+          "id": "4b69ec60-ba38-11eb-8139-2d9f91b04e27",
           "name": "d83a7640-72a3-4898-9179-c477f1c03578:panel_d83a7640-72a3-4898-9179-c477f1c03578",
-          "type": "visualization",
-          "id": "4b69ec60-ba38-11eb-8139-2d9f91b04e27"
+          "type": "visualization"
         },
         {
+          "id": "0e599960-ba38-11eb-8139-2d9f91b04e27",
           "name": "6efc40fc-5efa-4426-9757-4bb3db2b677b:panel_6efc40fc-5efa-4426-9757-4bb3db2b677b",
-          "type": "visualization",
-          "id": "0e599960-ba38-11eb-8139-2d9f91b04e27"
+          "type": "visualization"
         },
         {
+          "id": "e3633110-ba2f-11eb-8139-2d9f91b04e27",
           "name": "49c07a3d-4856-4e7c-94bc-5a3d59c0ad26:panel_49c07a3d-4856-4e7c-94bc-5a3d59c0ad26",
-          "type": "visualization",
-          "id": "e3633110-ba2f-11eb-8139-2d9f91b04e27"
+          "type": "visualization"
         },
         {
+          "id": "b2cb19e0-ba35-11eb-8139-2d9f91b04e27",
           "name": "be451048-94f6-4c9a-a8ec-6ed0d281e06a:panel_be451048-94f6-4c9a-a8ec-6ed0d281e06a",
-          "type": "visualization",
-          "id": "b2cb19e0-ba35-11eb-8139-2d9f91b04e27"
+          "type": "visualization"
         },
         {
+          "id": "0cfc96e0-ba37-11eb-8139-2d9f91b04e27",
           "name": "ca056714-c118-4fd6-abbd-7a5d7ee52f1c:panel_ca056714-c118-4fd6-abbd-7a5d7ee52f1c",
-          "type": "visualization",
-          "id": "0cfc96e0-ba37-11eb-8139-2d9f91b04e27"
+          "type": "visualization"
         },
         {
+          "id": "c730b330-ba36-11eb-8139-2d9f91b04e27",
           "name": "8b0f1de6-8596-463f-960b-4f831417a1d6:panel_8b0f1de6-8596-463f-960b-4f831417a1d6",
-          "type": "visualization",
-          "id": "c730b330-ba36-11eb-8139-2d9f91b04e27"
+          "type": "visualization"
         },
         {
           "id": "b9f60840-f6c2-11ec-871c-618dc17b393f",
-          "type": "tag",
-          "name": "tag-b9f60840-f6c2-11ec-871c-618dc17b393f"
+          "name": "tag-b9f60840-f6c2-11ec-871c-618dc17b393f",
+          "type": "tag"
         },
         {
           "id": "f2d9a600-2e31-11ef-b86a-fb4acd467871",
-          "type": "tag",
-          "name": "tag-f2d9a600-2e31-11ef-b86a-fb4acd467871"
+          "name": "tag-f2d9a600-2e31-11ef-b86a-fb4acd467871",
+          "type": "tag"
         },
         {
           "id": "471b0be0-2088-11ee-8ce4-61ee0b8a2f58",
-          "type": "tag",
-          "name": "tag-471b0be0-2088-11ee-8ce4-61ee0b8a2f58"
+          "name": "tag-471b0be0-2088-11ee-8ce4-61ee0b8a2f58",
+          "type": "tag"
         }
       ],
       "migrationVersion": {
@@ -120,20 +120,20 @@
       "coreMigrationVersion": "7.14.1"
     },
     {
-      "id": "e2147830-028d-11ed-871c-618dc17b393f",
+      "id": "d4db7ac0-e551-11ef-aaa0-fb75009c2a28",
       "type": "index-pattern",
       "namespaces": [
         "formation-ezpaarse"
       ],
-      "updated_at": "2022-07-13T09:26:32.503Z",
-      "version": "WzI2NDQ3OTEsMTdd",
+      "updated_at": "2025-02-07T12:51:32.288Z",
+      "version": "WzM5MjA5NDMsMThd",
       "attributes": {
         "fieldAttrs": "{}",
-        "title": "bibcnrs-*",
-        "timeFieldName": "datetime",
         "fields": "[]",
-        "typeMeta": "{}",
-        "runtimeFieldMap": "{}"
+        "runtimeFieldMap": "{}",
+        "timeFieldName": "datetime",
+        "title": "b-cnrs-bibcnrs-ezpaarse*",
+        "typeMeta": "{}"
       },
       "references": [],
       "migrationVersion": {
@@ -147,8 +147,8 @@
       "namespaces": [
         "formation-ezpaarse"
       ],
-      "updated_at": "2022-07-13T09:30:51.671Z",
-      "version": "WzI2NDQ3OTIsMTdd",
+      "updated_at": "2025-02-07T12:51:32.288Z",
+      "version": "WzM5MjA4NjcsMThd",
       "attributes": {
         "description": "",
         "kibanaSavedObjectMeta": {
@@ -157,7 +157,7 @@
         "title": "*: certification présentation",
         "uiStateJSON": "{}",
         "version": 1,
-        "visState": "{\"title\":\"*: certification présentation\",\"type\":\"markdown\",\"params\":{\"markdown\":\"![ezMESURE](https://raw.githubusercontent.com/ezpaarse-project/ezpaarse-project.github.io/master/ezmesure/static/images/logo-ezMESURE-350.png)\\n## Tableau de bord d'aide à la  Certification H \\nLes informations contenues dans ce tableau de bord vont vous aider à certifier H les plateformes éditeurs auquelles vous êtes abonnés.\\n\\nRappel: \\n  -  [C'est quoi la certification H ?](https://blog.readmetrics.org/2017/06/certification-h-et-p-des-plateformes-traitees-dans-ezpaarse) .\\n -  [Procédure de certification H et P dans analogIST](https://blog.readmetrics.org/2021/05/tutoriels-nouvelle-procedure-facile-de-certification-h-et-p-dans-analogist) .\\n \\n N'hésitez pas à consulter le blog ezPAARSE pour d'autres informations (tutos, FAQ, Supports mutualisés) (https://blog.readmetrics.org/)\\n\\nL'équipe ezTEAM.\",\"openLinksInNewTab\":false,\"fontSize\":12},\"aggs\":[]}"
+        "visState": "{\"title\":\"*: certification présentation\",\"type\":\"markdown\",\"params\":{\"markdown\":\"![ezMESURE](https://raw.githubusercontent.com/ezpaarse-project/ezpaarse-project.github.io/master/ezmesure/static/images/logo-ezMESURE-350.png)\\n## Tableau de bord d'aide à la  Certification H \\nLes informations contenues dans ce tableau de bord vont vous aider à certifier H les plateformes éditeurs auquelles vous êtes abonnés.\\n\\nRappel: \\n  -  [C'est quoi la certification H ?](https://blog.ezpaarse.org/2017/06/certification-h-et-p-des-plateformes-traitees-dans-ezpaarse) .\\n -  [Procédure de certification H et P dans analogIST](https://blog.ezpaarse.org/2021/05/tutoriels-nouvelle-procedure-facile-de-certification-h-et-p-dans-analogist) .\\n \\n N'hésitez pas à consulter le blog ezPAARSE pour d'autres informations (tutos, FAQ, Supports mutualisés) (https://blog.ezpaarse.org/)\\n\\nL'équipe ezTEAM.\",\"openLinksInNewTab\":false,\"fontSize\":12},\"aggs\":[]}"
       },
       "references": [],
       "migrationVersion": {
@@ -171,23 +171,23 @@
       "namespaces": [
         "formation-ezpaarse"
       ],
-      "updated_at": "2022-07-13T09:30:51.671Z",
-      "version": "WzI2NDQ3OTMsMTdd",
+      "updated_at": "2025-02-07T12:51:32.288Z",
+      "version": "WzM5MjA4NjgsMThd",
       "attributes": {
-        "title": "* :  certification metrics",
-        "visState": "{\"title\":\"* :  certification metrics\",\"type\":\"metric\",\"params\":{\"metric\":{\"percentageMode\":false,\"useRanges\":false,\"colorSchema\":\"Green to Red\",\"metricColorMode\":\"None\",\"colorsRange\":[{\"type\":\"range\",\"from\":0,\"to\":10000}],\"labels\":{\"show\":true},\"invertColors\":false,\"style\":{\"bgFill\":\"#000\",\"bgColor\":false,\"labelColor\":false,\"subText\":\"\",\"fontSize\":22}},\"dimensions\":{\"metrics\":[{\"type\":\"vis_dimension\",\"accessor\":0,\"format\":{\"id\":\"number\",\"params\":{}}},{\"type\":\"vis_dimension\",\"accessor\":1,\"format\":{\"id\":\"date\",\"params\":{\"pattern\":\"MMM D, YYYY \"}}},{\"type\":\"vis_dimension\",\"accessor\":2,\"format\":{\"id\":\"date\",\"params\":{\"pattern\":\"MMM D, YYYY \"}}}]},\"addTooltip\":true,\"addLegend\":false,\"type\":\"metric\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"Accesses\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"min\",\"schema\":\"metric\",\"params\":{\"field\":\"datetime\",\"customLabel\":\"Start Date\"}},{\"id\":\"3\",\"enabled\":true,\"type\":\"max\",\"schema\":\"metric\",\"params\":{\"field\":\"datetime\",\"customLabel\":\"End date\"}}]}",
-        "uiStateJSON": "{}",
         "description": "",
-        "version": 1,
         "kibanaSavedObjectMeta": {
           "searchSourceJSON": "{\"query\":{\"language\":\"kuery\",\"query\":\"\"},\"filter\":[],\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.index\"}"
-        }
+        },
+        "title": "* :  certification metrics",
+        "uiStateJSON": "{}",
+        "version": 1,
+        "visState": "{\"title\":\"* :  certification metrics\",\"type\":\"metric\",\"params\":{\"metric\":{\"percentageMode\":false,\"useRanges\":false,\"colorSchema\":\"Green to Red\",\"metricColorMode\":\"None\",\"colorsRange\":[{\"type\":\"range\",\"from\":0,\"to\":10000}],\"labels\":{\"show\":true},\"invertColors\":false,\"style\":{\"bgFill\":\"#000\",\"bgColor\":false,\"labelColor\":false,\"subText\":\"\",\"fontSize\":22}},\"dimensions\":{\"metrics\":[{\"type\":\"vis_dimension\",\"accessor\":0,\"format\":{\"id\":\"number\",\"params\":{}}},{\"type\":\"vis_dimension\",\"accessor\":1,\"format\":{\"id\":\"date\",\"params\":{\"pattern\":\"MMM D, YYYY \"}}},{\"type\":\"vis_dimension\",\"accessor\":2,\"format\":{\"id\":\"date\",\"params\":{\"pattern\":\"MMM D, YYYY \"}}}]},\"addTooltip\":true,\"addLegend\":false,\"type\":\"metric\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"Accesses\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"min\",\"schema\":\"metric\",\"params\":{\"field\":\"datetime\",\"customLabel\":\"Start Date\"}},{\"id\":\"3\",\"enabled\":true,\"type\":\"max\",\"schema\":\"metric\",\"params\":{\"field\":\"datetime\",\"customLabel\":\"End date\"}}]}"
       },
       "references": [
         {
+          "id": "d4db7ac0-e551-11ef-aaa0-fb75009c2a28",
           "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
-          "type": "index-pattern",
-          "id": "e2147830-028d-11ed-871c-618dc17b393f"
+          "type": "index-pattern"
         }
       ],
       "migrationVersion": {
@@ -201,23 +201,23 @@
       "namespaces": [
         "formation-ezpaarse"
       ],
-      "updated_at": "2022-07-13T09:30:51.671Z",
-      "version": "WzI2NDQ3OTQsMTdd",
+      "updated_at": "2025-02-07T12:51:32.288Z",
+      "version": "WzM5MjA4NTQsMThd",
       "attributes": {
-        "title": "*: certification top 10 mime",
-        "visState": "{\"title\":\"*: certification top 10 mime\",\"type\":\"pie\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"params\":{},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"params\":{\"field\":\"mime\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":10,\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\"},\"schema\":\"segment\"}],\"params\":{\"type\":\"pie\",\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"isDonut\":true,\"labels\":{\"show\":true,\"values\":true,\"last_level\":true,\"truncate\":100,\"position\":\"inside\"},\"dimensions\":{\"metric\":{\"accessor\":1,\"format\":{\"id\":\"number\"},\"params\":{},\"aggType\":\"count\"},\"buckets\":[{\"accessor\":0,\"format\":{\"id\":\"terms\",\"params\":{\"id\":\"string\",\"otherBucketLabel\":\"Other\",\"missingBucketLabel\":\"Missing\"}},\"params\":{},\"aggType\":\"terms\"}]},\"palette\":{\"type\":\"palette\",\"name\":\"kibana_palette\"},\"distinctColors\":true,\"nestedLegend\":false}}",
-        "uiStateJSON": "{\"vis\":{\"legendOpen\":true}}",
         "description": "",
-        "version": 1,
         "kibanaSavedObjectMeta": {
           "searchSourceJSON": "{\"query\":{\"query\":\"\",\"language\":\"kuery\"},\"filter\":[],\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.index\"}"
-        }
+        },
+        "title": "*: certification top 10 mime",
+        "uiStateJSON": "{\"vis\":{\"legendOpen\":true}}",
+        "version": 1,
+        "visState": "{\"title\":\"*: certification top 10 mime\",\"type\":\"pie\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"params\":{},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"params\":{\"field\":\"mime\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":10,\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\"},\"schema\":\"segment\"}],\"params\":{\"type\":\"pie\",\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"isDonut\":true,\"labels\":{\"show\":true,\"values\":true,\"last_level\":true,\"truncate\":100,\"position\":\"inside\"},\"dimensions\":{\"metric\":{\"accessor\":1,\"format\":{\"id\":\"number\"},\"params\":{},\"aggType\":\"count\"},\"buckets\":[{\"accessor\":0,\"format\":{\"id\":\"terms\",\"params\":{\"id\":\"string\",\"otherBucketLabel\":\"Other\",\"missingBucketLabel\":\"Missing\"}},\"params\":{},\"aggType\":\"terms\"}]},\"palette\":{\"type\":\"palette\",\"name\":\"kibana_palette\"},\"distinctColors\":true,\"nestedLegend\":false}}"
       },
       "references": [
         {
+          "id": "d4db7ac0-e551-11ef-aaa0-fb75009c2a28",
           "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
-          "type": "index-pattern",
-          "id": "e2147830-028d-11ed-871c-618dc17b393f"
+          "type": "index-pattern"
         }
       ],
       "migrationVersion": {
@@ -231,8 +231,8 @@
       "namespaces": [
         "formation-ezpaarse"
       ],
-      "updated_at": "2022-07-13T09:30:51.671Z",
-      "version": "WzI2NDQ3OTUsMTdd",
+      "updated_at": "2025-02-07T12:51:32.288Z",
+      "version": "WzM5MjA4NjksMThd",
       "attributes": {
         "description": "",
         "kibanaSavedObjectMeta": {
@@ -245,7 +245,7 @@
       },
       "references": [
         {
-          "id": "e2147830-028d-11ed-871c-618dc17b393f",
+          "id": "d4db7ac0-e551-11ef-aaa0-fb75009c2a28",
           "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
           "type": "index-pattern"
         }
@@ -261,23 +261,23 @@
       "namespaces": [
         "formation-ezpaarse"
       ],
-      "updated_at": "2022-07-13T09:30:51.671Z",
-      "version": "WzI2NDQ3OTYsMTdd",
+      "updated_at": "2025-02-07T12:51:32.288Z",
+      "version": "WzM5MjA4NzAsMThd",
       "attributes": {
-        "title": "*: certification top 10 rtype",
-        "visState": "{\"title\":\"*: certification top 10 rtype\",\"type\":\"pie\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"params\":{},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"params\":{\"field\":\"rtype\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":10,\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\"},\"schema\":\"segment\"}],\"params\":{\"type\":\"pie\",\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"isDonut\":true,\"labels\":{\"show\":true,\"values\":true,\"last_level\":true,\"truncate\":100,\"position\":\"inside\"},\"dimensions\":{\"metric\":{\"accessor\":1,\"format\":{\"id\":\"number\"},\"params\":{},\"aggType\":\"count\"},\"buckets\":[{\"accessor\":0,\"format\":{\"id\":\"terms\",\"params\":{\"id\":\"string\",\"otherBucketLabel\":\"Other\",\"missingBucketLabel\":\"Missing\"}},\"params\":{},\"aggType\":\"terms\"}]},\"palette\":{\"type\":\"palette\",\"name\":\"kibana_palette\"},\"distinctColors\":true,\"nestedLegend\":false}}",
-        "uiStateJSON": "{\"vis\":{\"legendOpen\":true}}",
         "description": "",
-        "version": 1,
         "kibanaSavedObjectMeta": {
           "searchSourceJSON": "{\"query\":{\"query\":\"\",\"language\":\"kuery\"},\"filter\":[],\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.index\"}"
-        }
+        },
+        "title": "*: certification top 10 rtype",
+        "uiStateJSON": "{\"vis\":{\"legendOpen\":true}}",
+        "version": 1,
+        "visState": "{\"title\":\"*: certification top 10 rtype\",\"type\":\"pie\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"params\":{},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"params\":{\"field\":\"rtype\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":10,\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\"},\"schema\":\"segment\"}],\"params\":{\"type\":\"pie\",\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"isDonut\":true,\"labels\":{\"show\":true,\"values\":true,\"last_level\":true,\"truncate\":100,\"position\":\"inside\"},\"dimensions\":{\"metric\":{\"accessor\":1,\"format\":{\"id\":\"number\"},\"params\":{},\"aggType\":\"count\"},\"buckets\":[{\"accessor\":0,\"format\":{\"id\":\"terms\",\"params\":{\"id\":\"string\",\"otherBucketLabel\":\"Other\",\"missingBucketLabel\":\"Missing\"}},\"params\":{},\"aggType\":\"terms\"}]},\"palette\":{\"type\":\"palette\",\"name\":\"kibana_palette\"},\"distinctColors\":true,\"nestedLegend\":false}}"
       },
       "references": [
         {
+          "id": "d4db7ac0-e551-11ef-aaa0-fb75009c2a28",
           "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
-          "type": "index-pattern",
-          "id": "e2147830-028d-11ed-871c-618dc17b393f"
+          "type": "index-pattern"
         }
       ],
       "migrationVersion": {
@@ -291,23 +291,23 @@
       "namespaces": [
         "formation-ezpaarse"
       ],
-      "updated_at": "2022-07-13T09:30:51.671Z",
-      "version": "WzI2NDQ3OTcsMTdd",
+      "updated_at": "2025-02-07T12:51:32.288Z",
+      "version": "WzM5MjA4NzEsMThd",
       "attributes": {
-        "title": "*: certification table des plateformes",
-        "visState": "{\"title\":\"*: certification table des plateformes\",\"type\":\"table\",\"params\":{\"dimensions\":{\"metrics\":[{\"accessor\":1,\"format\":{\"id\":\"number\"},\"params\":{},\"aggType\":\"count\"}],\"buckets\":[{\"accessor\":0,\"format\":{\"id\":\"terms\",\"params\":{\"id\":\"string\",\"otherBucketLabel\":\"Other\",\"missingBucketLabel\":\"Missing\"}},\"params\":{},\"aggType\":\"terms\"}]},\"perPage\":20,\"percentageCol\":\"\",\"showMetricsAtAllLevels\":false,\"showPartialRows\":false,\"showTotal\":true,\"sort\":{\"columnIndex\":3,\"direction\":\"desc\"},\"totalFunc\":\"sum\",\"showToolbar\":true},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"platform_name\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":950,\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":true,\"missingBucketLabel\":\"Missing\",\"customLabel\":\"Platform Name\"}}]}",
-        "uiStateJSON": "{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":3,\"direction\":\"desc\"}}}}",
         "description": "",
-        "version": 1,
         "kibanaSavedObjectMeta": {
           "searchSourceJSON": "{\"query\":{\"language\":\"lucene\",\"query\":\"\"},\"filter\":[],\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.index\"}"
-        }
+        },
+        "title": "*: certification table des plateformes",
+        "uiStateJSON": "{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":3,\"direction\":\"desc\"}}}}",
+        "version": 1,
+        "visState": "{\"title\":\"*: certification table des plateformes\",\"type\":\"table\",\"params\":{\"dimensions\":{\"metrics\":[{\"accessor\":1,\"format\":{\"id\":\"number\"},\"params\":{},\"aggType\":\"count\"}],\"buckets\":[{\"accessor\":0,\"format\":{\"id\":\"terms\",\"params\":{\"id\":\"string\",\"otherBucketLabel\":\"Other\",\"missingBucketLabel\":\"Missing\"}},\"params\":{},\"aggType\":\"terms\"}]},\"perPage\":20,\"percentageCol\":\"\",\"showMetricsAtAllLevels\":false,\"showPartialRows\":false,\"showTotal\":true,\"sort\":{\"columnIndex\":3,\"direction\":\"desc\"},\"totalFunc\":\"sum\",\"showToolbar\":true},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"platform_name\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":950,\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":true,\"missingBucketLabel\":\"Missing\",\"customLabel\":\"Platform Name\"}}]}"
       },
       "references": [
         {
+          "id": "d4db7ac0-e551-11ef-aaa0-fb75009c2a28",
           "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
-          "type": "index-pattern",
-          "id": "e2147830-028d-11ed-871c-618dc17b393f"
+          "type": "index-pattern"
         }
       ],
       "migrationVersion": {
@@ -321,23 +321,23 @@
       "namespaces": [
         "formation-ezpaarse"
       ],
-      "updated_at": "2022-07-13T09:30:51.671Z",
-      "version": "WzI2NDQ3OTgsMTdd",
+      "updated_at": "2025-02-07T12:51:32.288Z",
+      "version": "WzM5MjA4NzIsMThd",
       "attributes": {
-        "title": "*: certification table des Editeurs",
-        "visState": "{\"title\":\"*: certification table des Editeurs\",\"type\":\"table\",\"params\":{\"dimensions\":{\"metrics\":[{\"accessor\":1,\"format\":{\"id\":\"number\"},\"params\":{},\"aggType\":\"count\"}],\"buckets\":[{\"accessor\":0,\"format\":{\"id\":\"terms\",\"params\":{\"id\":\"string\",\"otherBucketLabel\":\"Other\",\"missingBucketLabel\":\"Missing\"}},\"params\":{},\"aggType\":\"terms\"}]},\"perPage\":20,\"percentageCol\":\"\",\"showMetricsAtAllLevels\":false,\"showPartialRows\":false,\"showTotal\":true,\"sort\":{\"columnIndex\":3,\"direction\":\"desc\"},\"totalFunc\":\"sum\",\"showToolbar\":true},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"publisher_name\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":950,\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":true,\"missingBucketLabel\":\"Missing\",\"customLabel\":\"Publisher Name\"}}]}",
-        "uiStateJSON": "{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":3,\"direction\":\"desc\"}}}}",
         "description": "",
-        "version": 1,
         "kibanaSavedObjectMeta": {
           "searchSourceJSON": "{\"query\":{\"language\":\"lucene\",\"query\":\"\"},\"filter\":[],\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.index\"}"
-        }
+        },
+        "title": "*: certification table des Editeurs",
+        "uiStateJSON": "{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":3,\"direction\":\"desc\"}}}}",
+        "version": 1,
+        "visState": "{\"title\":\"*: certification table des Editeurs\",\"type\":\"table\",\"params\":{\"dimensions\":{\"metrics\":[{\"accessor\":1,\"format\":{\"id\":\"number\"},\"params\":{},\"aggType\":\"count\"}],\"buckets\":[{\"accessor\":0,\"format\":{\"id\":\"terms\",\"params\":{\"id\":\"string\",\"otherBucketLabel\":\"Other\",\"missingBucketLabel\":\"Missing\"}},\"params\":{},\"aggType\":\"terms\"}]},\"perPage\":20,\"percentageCol\":\"\",\"showMetricsAtAllLevels\":false,\"showPartialRows\":false,\"showTotal\":true,\"sort\":{\"columnIndex\":3,\"direction\":\"desc\"},\"totalFunc\":\"sum\",\"showToolbar\":true},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"publisher_name\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":950,\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":true,\"missingBucketLabel\":\"Missing\",\"customLabel\":\"Publisher Name\"}}]}"
       },
       "references": [
         {
+          "id": "d4db7ac0-e551-11ef-aaa0-fb75009c2a28",
           "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
-          "type": "index-pattern",
-          "id": "e2147830-028d-11ed-871c-618dc17b393f"
+          "type": "index-pattern"
         }
       ],
       "migrationVersion": {
@@ -351,23 +351,23 @@
       "namespaces": [
         "formation-ezpaarse"
       ],
-      "updated_at": "2022-07-13T09:30:51.671Z",
-      "version": "WzI2NDQ3OTksMTdd",
+      "updated_at": "2025-02-07T12:51:32.288Z",
+      "version": "WzM5MjA4NjUsMThd",
       "attributes": {
-        "title": "*: certification table des titres de publication avec Print et Online identifier",
-        "visState": "{\"title\":\"*: certification table des titres de publication avec Print et Online identifier\",\"type\":\"table\",\"params\":{\"perPage\":20,\"showPartialRows\":false,\"showMetricsAtAllLevels\":false,\"sort\":{\"columnIndex\":3,\"direction\":\"desc\"},\"showTotal\":true,\"totalFunc\":\"sum\",\"percentageCol\":\"\",\"dimensions\":{\"metrics\":[{\"accessor\":3,\"format\":{\"id\":\"number\"},\"params\":{},\"aggType\":\"count\"}],\"buckets\":[{\"accessor\":0,\"format\":{\"id\":\"terms\",\"params\":{\"id\":\"string\",\"otherBucketLabel\":\"Other\",\"missingBucketLabel\":\"Missing\"}},\"params\":{},\"aggType\":\"terms\"},{\"accessor\":1,\"format\":{\"id\":\"terms\",\"params\":{\"id\":\"string\",\"otherBucketLabel\":\"Other\",\"missingBucketLabel\":\"Missing\"}},\"params\":{},\"aggType\":\"terms\"},{\"accessor\":2,\"format\":{\"id\":\"terms\",\"params\":{\"id\":\"string\",\"otherBucketLabel\":\"Other\",\"missingBucketLabel\":\"Missing\"}},\"params\":{},\"aggType\":\"terms\"}]},\"showToolbar\":true},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"publication_title\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":950,\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":true,\"missingBucketLabel\":\"Missing\",\"customLabel\":\"Publication Title\"}},{\"id\":\"3\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"print_identifier\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":5,\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":true,\"missingBucketLabel\":\"Missing\",\"customLabel\":\"Print Identifier (ISSN or ISBN)\"}},{\"id\":\"4\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"online_identifier\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":5,\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":true,\"missingBucketLabel\":\"Missing\",\"customLabel\":\"Online Identifier (e-ISSN or e-ISBN)\"}}]}",
-        "uiStateJSON": "{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":3,\"direction\":\"desc\"}}}}",
         "description": "",
-        "version": 1,
         "kibanaSavedObjectMeta": {
           "searchSourceJSON": "{\"query\":{\"query\":\"\",\"language\":\"lucene\"},\"filter\":[],\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.index\"}"
-        }
+        },
+        "title": "*: certification table des titres de publication avec Print et Online identifier",
+        "uiStateJSON": "{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":3,\"direction\":\"desc\"}}}}",
+        "version": 1,
+        "visState": "{\"title\":\"*: certification table des titres de publication avec Print et Online identifier\",\"type\":\"table\",\"params\":{\"perPage\":20,\"showPartialRows\":false,\"showMetricsAtAllLevels\":false,\"sort\":{\"columnIndex\":3,\"direction\":\"desc\"},\"showTotal\":true,\"totalFunc\":\"sum\",\"percentageCol\":\"\",\"dimensions\":{\"metrics\":[{\"accessor\":3,\"format\":{\"id\":\"number\"},\"params\":{},\"aggType\":\"count\"}],\"buckets\":[{\"accessor\":0,\"format\":{\"id\":\"terms\",\"params\":{\"id\":\"string\",\"otherBucketLabel\":\"Other\",\"missingBucketLabel\":\"Missing\"}},\"params\":{},\"aggType\":\"terms\"},{\"accessor\":1,\"format\":{\"id\":\"terms\",\"params\":{\"id\":\"string\",\"otherBucketLabel\":\"Other\",\"missingBucketLabel\":\"Missing\"}},\"params\":{},\"aggType\":\"terms\"},{\"accessor\":2,\"format\":{\"id\":\"terms\",\"params\":{\"id\":\"string\",\"otherBucketLabel\":\"Other\",\"missingBucketLabel\":\"Missing\"}},\"params\":{},\"aggType\":\"terms\"}]},\"showToolbar\":true},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"publication_title\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":950,\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":true,\"missingBucketLabel\":\"Missing\",\"customLabel\":\"Publication Title\"}},{\"id\":\"3\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"print_identifier\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":5,\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":true,\"missingBucketLabel\":\"Missing\",\"customLabel\":\"Print Identifier (ISSN or ISBN)\"}},{\"id\":\"4\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"online_identifier\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":5,\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":true,\"missingBucketLabel\":\"Missing\",\"customLabel\":\"Online Identifier (e-ISSN or e-ISBN)\"}}]}"
       },
       "references": [
         {
+          "id": "d4db7ac0-e551-11ef-aaa0-fb75009c2a28",
           "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
-          "type": "index-pattern",
-          "id": "e2147830-028d-11ed-871c-618dc17b393f"
+          "type": "index-pattern"
         }
       ],
       "migrationVersion": {
@@ -381,23 +381,23 @@
       "namespaces": [
         "formation-ezpaarse"
       ],
-      "updated_at": "2022-07-13T09:30:51.671Z",
-      "version": "WzI2NDQ4MDAsMTdd",
+      "updated_at": "2025-02-07T12:51:32.288Z",
+      "version": "WzM5MjA4NzMsMThd",
       "attributes": {
-        "title": "*: certification DOI exists or not",
-        "visState": "{\"title\":\"*: certification DOI exists or not\",\"type\":\"pie\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"params\":{},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"filters\",\"params\":{\"filters\":[{\"input\":{\"query\":\"_exists_:doi\",\"language\":\"lucene\"},\"label\":\"avec DOI\"},{\"input\":{\"language\":\"lucene\",\"query\":\"!_exists_:doi\"},\"label\":\"sans DOI\"}]},\"schema\":\"segment\"}],\"params\":{\"addLegend\":true,\"addTooltip\":true,\"dimensions\":{\"metric\":{\"accessor\":1,\"format\":{\"id\":\"number\"},\"params\":{},\"aggType\":\"count\"},\"buckets\":[{\"accessor\":0,\"format\":{},\"params\":{},\"aggType\":\"filters\"}]},\"isDonut\":true,\"labels\":{\"last_level\":true,\"show\":true,\"truncate\":100,\"values\":true,\"position\":\"inside\"},\"legendPosition\":\"right\",\"type\":\"pie\",\"palette\":{\"type\":\"palette\",\"name\":\"kibana_palette\"},\"distinctColors\":true,\"nestedLegend\":false}}",
-        "uiStateJSON": "{\"vis\":{\"legendOpen\":true}}",
         "description": "",
-        "version": 1,
         "kibanaSavedObjectMeta": {
           "searchSourceJSON": "{\"query\":{\"query\":\"\",\"language\":\"lucene\"},\"filter\":[],\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.index\"}"
-        }
+        },
+        "title": "*: certification DOI exists or not",
+        "uiStateJSON": "{\"vis\":{\"legendOpen\":true}}",
+        "version": 1,
+        "visState": "{\"title\":\"*: certification DOI exists or not\",\"type\":\"pie\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"params\":{},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"filters\",\"params\":{\"filters\":[{\"input\":{\"query\":\"_exists_:doi\",\"language\":\"lucene\"},\"label\":\"avec DOI\"},{\"input\":{\"language\":\"lucene\",\"query\":\"!_exists_:doi\"},\"label\":\"sans DOI\"}]},\"schema\":\"segment\"}],\"params\":{\"addLegend\":true,\"addTooltip\":true,\"dimensions\":{\"metric\":{\"accessor\":1,\"format\":{\"id\":\"number\"},\"params\":{},\"aggType\":\"count\"},\"buckets\":[{\"accessor\":0,\"format\":{},\"params\":{},\"aggType\":\"filters\"}]},\"isDonut\":true,\"labels\":{\"last_level\":true,\"show\":true,\"truncate\":100,\"values\":true,\"position\":\"inside\"},\"legendPosition\":\"right\",\"type\":\"pie\",\"palette\":{\"type\":\"palette\",\"name\":\"kibana_palette\"},\"distinctColors\":true,\"nestedLegend\":false}}"
       },
       "references": [
         {
+          "id": "d4db7ac0-e551-11ef-aaa0-fb75009c2a28",
           "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
-          "type": "index-pattern",
-          "id": "e2147830-028d-11ed-871c-618dc17b393f"
+          "type": "index-pattern"
         }
       ],
       "migrationVersion": {
@@ -411,23 +411,23 @@
       "namespaces": [
         "formation-ezpaarse"
       ],
-      "updated_at": "2022-07-13T09:30:51.671Z",
-      "version": "WzI2NDQ4MDEsMTdd",
+      "updated_at": "2025-02-07T12:51:32.288Z",
+      "version": "WzM5MjA4NzQsMThd",
       "attributes": {
-        "title": "*: certification avec titre de publication",
-        "visState": "{\"title\":\"*: certification avec titre de publication\",\"type\":\"pie\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"params\":{},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"filters\",\"params\":{\"filters\":[{\"input\":{\"query\":\"_exists_:publication_title\",\"language\":\"lucene\"},\"label\":\"avec publication title\"},{\"input\":{\"query\":\"!_exists_:publication_title\",\"language\":\"lucene\"},\"label\":\"sans publication_title\"}]},\"schema\":\"segment\"}],\"params\":{\"addLegend\":true,\"addTooltip\":true,\"dimensions\":{\"metric\":{\"accessor\":1,\"format\":{\"id\":\"number\"},\"params\":{},\"aggType\":\"count\"},\"buckets\":[{\"accessor\":0,\"format\":{},\"params\":{},\"aggType\":\"filters\"}]},\"isDonut\":true,\"labels\":{\"last_level\":true,\"show\":true,\"truncate\":100,\"values\":true,\"position\":\"inside\"},\"legendPosition\":\"right\",\"type\":\"pie\",\"palette\":{\"type\":\"palette\",\"name\":\"kibana_palette\"},\"distinctColors\":true,\"nestedLegend\":false}}",
-        "uiStateJSON": "{}",
         "description": "",
-        "version": 1,
         "kibanaSavedObjectMeta": {
           "searchSourceJSON": "{\"query\":{\"query\":\"\",\"language\":\"lucene\"},\"filter\":[],\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.index\"}"
-        }
+        },
+        "title": "*: certification avec titre de publication",
+        "uiStateJSON": "{}",
+        "version": 1,
+        "visState": "{\"title\":\"*: certification avec titre de publication\",\"type\":\"pie\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"params\":{},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"filters\",\"params\":{\"filters\":[{\"input\":{\"query\":\"_exists_:publication_title\",\"language\":\"lucene\"},\"label\":\"avec publication title\"},{\"input\":{\"query\":\"!_exists_:publication_title\",\"language\":\"lucene\"},\"label\":\"sans publication_title\"}]},\"schema\":\"segment\"}],\"params\":{\"addLegend\":true,\"addTooltip\":true,\"dimensions\":{\"metric\":{\"accessor\":1,\"format\":{\"id\":\"number\"},\"params\":{},\"aggType\":\"count\"},\"buckets\":[{\"accessor\":0,\"format\":{},\"params\":{},\"aggType\":\"filters\"}]},\"isDonut\":true,\"labels\":{\"last_level\":true,\"show\":true,\"truncate\":100,\"values\":true,\"position\":\"inside\"},\"legendPosition\":\"right\",\"type\":\"pie\",\"palette\":{\"type\":\"palette\",\"name\":\"kibana_palette\"},\"distinctColors\":true,\"nestedLegend\":false}}"
       },
       "references": [
         {
+          "id": "d4db7ac0-e551-11ef-aaa0-fb75009c2a28",
           "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
-          "type": "index-pattern",
-          "id": "e2147830-028d-11ed-871c-618dc17b393f"
+          "type": "index-pattern"
         }
       ],
       "migrationVersion": {
@@ -441,23 +441,23 @@
       "namespaces": [
         "formation-ezpaarse"
       ],
-      "updated_at": "2022-07-13T09:30:51.671Z",
-      "version": "WzI2NDQ4MDIsMTdd",
+      "updated_at": "2025-02-07T12:51:32.288Z",
+      "version": "WzM5MjA4NjQsMThd",
       "attributes": {
-        "title": "*: certification avec Print identifier ISSN ISBN",
-        "visState": "{\"title\":\"*: certification avec Print identifier ISSN ISBN\",\"type\":\"pie\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"params\":{},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"filters\",\"params\":{\"filters\":[{\"input\":{\"query\":\"_exists_:print_identifier\",\"language\":\"lucene\"},\"label\":\"avec print identifier (ISSN or ISBN)\"},{\"input\":{\"query\":\"!_exists_:print_identifier\",\"language\":\"lucene\"},\"label\":\"sans print_identifier (ISSN or ISBN)\"}]},\"schema\":\"segment\"}],\"params\":{\"addLegend\":true,\"addTooltip\":true,\"dimensions\":{\"metric\":{\"accessor\":1,\"format\":{\"id\":\"number\"},\"params\":{},\"aggType\":\"count\"},\"buckets\":[{\"accessor\":0,\"format\":{},\"params\":{},\"aggType\":\"filters\"}]},\"isDonut\":true,\"labels\":{\"last_level\":true,\"show\":true,\"truncate\":100,\"values\":true,\"position\":\"inside\"},\"legendPosition\":\"right\",\"type\":\"pie\",\"palette\":{\"type\":\"palette\",\"name\":\"kibana_palette\"},\"distinctColors\":true,\"nestedLegend\":false}}",
-        "uiStateJSON": "{\"vis\":{\"colors\":{\"avec titre de publication\":\"#447EBC\",\"sans titre de publication\":\"#E24D42\",\"avec Online identifier ISSN ISBN\":\"#447EBC\",\"sans Online identifier ISSN ISBN\":\"#E24D42\",\"avec Print identifier ISSN ISBN\":\"#447EBC\",\"sans Print identifier ISSN ISBN\":\"#E24D42\"},\"legendOpen\":true}}",
         "description": "",
-        "version": 1,
         "kibanaSavedObjectMeta": {
           "searchSourceJSON": "{\"query\":{\"query\":\"\",\"language\":\"lucene\"},\"filter\":[],\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.index\"}"
-        }
+        },
+        "title": "*: certification avec Print identifier ISSN ISBN",
+        "uiStateJSON": "{\"vis\":{\"colors\":{\"avec titre de publication\":\"#447EBC\",\"sans titre de publication\":\"#E24D42\",\"avec Online identifier ISSN ISBN\":\"#447EBC\",\"sans Online identifier ISSN ISBN\":\"#E24D42\",\"avec Print identifier ISSN ISBN\":\"#447EBC\",\"sans Print identifier ISSN ISBN\":\"#E24D42\"},\"legendOpen\":true}}",
+        "version": 1,
+        "visState": "{\"title\":\"*: certification avec Print identifier ISSN ISBN\",\"type\":\"pie\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"params\":{},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"filters\",\"params\":{\"filters\":[{\"input\":{\"query\":\"_exists_:print_identifier\",\"language\":\"lucene\"},\"label\":\"avec print identifier (ISSN or ISBN)\"},{\"input\":{\"query\":\"!_exists_:print_identifier\",\"language\":\"lucene\"},\"label\":\"sans print_identifier (ISSN or ISBN)\"}]},\"schema\":\"segment\"}],\"params\":{\"addLegend\":true,\"addTooltip\":true,\"dimensions\":{\"metric\":{\"accessor\":1,\"format\":{\"id\":\"number\"},\"params\":{},\"aggType\":\"count\"},\"buckets\":[{\"accessor\":0,\"format\":{},\"params\":{},\"aggType\":\"filters\"}]},\"isDonut\":true,\"labels\":{\"last_level\":true,\"show\":true,\"truncate\":100,\"values\":true,\"position\":\"inside\"},\"legendPosition\":\"right\",\"type\":\"pie\",\"palette\":{\"type\":\"palette\",\"name\":\"kibana_palette\"},\"distinctColors\":true,\"nestedLegend\":false}}"
       },
       "references": [
         {
+          "id": "d4db7ac0-e551-11ef-aaa0-fb75009c2a28",
           "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
-          "type": "index-pattern",
-          "id": "e2147830-028d-11ed-871c-618dc17b393f"
+          "type": "index-pattern"
         }
       ],
       "migrationVersion": {
@@ -471,23 +471,23 @@
       "namespaces": [
         "formation-ezpaarse"
       ],
-      "updated_at": "2022-07-13T09:30:51.671Z",
-      "version": "WzI2NDQ4MDMsMTdd",
+      "updated_at": "2025-02-07T12:51:32.288Z",
+      "version": "WzM5MjA4NzUsMThd",
       "attributes": {
-        "title": "*: certification avec Online identifier ISSN ISBN",
-        "visState": "{\"title\":\"*: certification avec Online identifier ISSN ISBN\",\"type\":\"pie\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"params\":{},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"filters\",\"params\":{\"filters\":[{\"input\":{\"query\":\"_exists_:online_identifier\",\"language\":\"lucene\"},\"label\":\"avec Online identifier (ISSN or ISBN)\"},{\"input\":{\"query\":\"!_exists_:online_identifier\",\"language\":\"lucene\"},\"label\":\"sans Online identifier (ISSN or ISBN)\"}]},\"schema\":\"segment\"}],\"params\":{\"addLegend\":true,\"addTooltip\":true,\"dimensions\":{\"metric\":{\"accessor\":1,\"format\":{\"id\":\"number\"},\"params\":{},\"aggType\":\"count\"},\"buckets\":[{\"accessor\":0,\"format\":{},\"params\":{},\"aggType\":\"filters\"}]},\"isDonut\":true,\"labels\":{\"last_level\":true,\"show\":true,\"truncate\":100,\"values\":true,\"position\":\"inside\"},\"legendPosition\":\"right\",\"type\":\"pie\",\"palette\":{\"type\":\"palette\",\"name\":\"kibana_palette\"},\"distinctColors\":true,\"nestedLegend\":false}}",
-        "uiStateJSON": "{\"vis\":{\"colors\":{\"avec titre de publication\":\"#447EBC\",\"sans titre de publication\":\"#E24D42\",\"avec Online identifier ISSN ISBN\":\"#447EBC\",\"sans Online identifier ISSN ISBN\":\"#E24D42\"},\"legendOpen\":true}}",
         "description": "",
-        "version": 1,
         "kibanaSavedObjectMeta": {
           "searchSourceJSON": "{\"query\":{\"query\":\"\",\"language\":\"lucene\"},\"filter\":[],\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.index\"}"
-        }
+        },
+        "title": "*: certification avec Online identifier ISSN ISBN",
+        "uiStateJSON": "{\"vis\":{\"colors\":{\"avec titre de publication\":\"#447EBC\",\"sans titre de publication\":\"#E24D42\",\"avec Online identifier ISSN ISBN\":\"#447EBC\",\"sans Online identifier ISSN ISBN\":\"#E24D42\"},\"legendOpen\":true}}",
+        "version": 1,
+        "visState": "{\"title\":\"*: certification avec Online identifier ISSN ISBN\",\"type\":\"pie\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"params\":{},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"filters\",\"params\":{\"filters\":[{\"input\":{\"query\":\"_exists_:online_identifier\",\"language\":\"lucene\"},\"label\":\"avec Online identifier (ISSN or ISBN)\"},{\"input\":{\"query\":\"!_exists_:online_identifier\",\"language\":\"lucene\"},\"label\":\"sans Online identifier (ISSN or ISBN)\"}]},\"schema\":\"segment\"}],\"params\":{\"addLegend\":true,\"addTooltip\":true,\"dimensions\":{\"metric\":{\"accessor\":1,\"format\":{\"id\":\"number\"},\"params\":{},\"aggType\":\"count\"},\"buckets\":[{\"accessor\":0,\"format\":{},\"params\":{},\"aggType\":\"filters\"}]},\"isDonut\":true,\"labels\":{\"last_level\":true,\"show\":true,\"truncate\":100,\"values\":true,\"position\":\"inside\"},\"legendPosition\":\"right\",\"type\":\"pie\",\"palette\":{\"type\":\"palette\",\"name\":\"kibana_palette\"},\"distinctColors\":true,\"nestedLegend\":false}}"
       },
       "references": [
         {
+          "id": "d4db7ac0-e551-11ef-aaa0-fb75009c2a28",
           "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
-          "type": "index-pattern",
-          "id": "e2147830-028d-11ed-871c-618dc17b393f"
+          "type": "index-pattern"
         }
       ],
       "migrationVersion": {
@@ -501,12 +501,12 @@
       "namespaces": [
         "formation-ezpaarse"
       ],
-      "updated_at": "2022-07-13T09:30:48.742Z",
-      "version": "WzI2NDQ4MTIsMTdd",
+      "updated_at": "2025-02-07T12:51:32.288Z",
+      "version": "WzM5MjA4NzcsMThd",
       "attributes": {
-        "name": "validé",
+        "color": "#07db57",
         "description": "",
-        "color": "#07db57"
+        "name": "validé"
       },
       "references": [],
       "coreMigrationVersion": "7.14.1"
@@ -517,12 +517,12 @@
       "namespaces": [
         "formation-ezpaarse"
       ],
-      "updated_at": "2024-06-19T11:49:13.443Z",
-      "version": "WzI2ODA0ODQsMTdd",
+      "updated_at": "2025-02-07T12:51:32.288Z",
+      "version": "WzM5MjA4NzgsMThd",
       "attributes": {
-        "name": "générique",
+        "color": "#E7664C",
         "description": "",
-        "color": "#E7664C"
+        "name": "generique"
       },
       "references": [],
       "coreMigrationVersion": "7.14.1"
@@ -533,12 +533,12 @@
       "namespaces": [
         "formation-ezpaarse"
       ],
-      "updated_at": "2023-07-12T07:46:57.570Z",
-      "version": "WzI2NDMxMzUsMTdd",
+      "updated_at": "2025-02-07T12:51:32.288Z",
+      "version": "WzM5MjA4NzYsMThd",
       "attributes": {
-        "name": "certification",
+        "color": "#E7664C",
         "description": "",
-        "color": "#E7664C"
+        "name": "certification"
       },
       "references": [],
       "coreMigrationVersion": "7.14.1"
