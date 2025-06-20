@@ -7,8 +7,8 @@
       "namespaces": [
         "istex"
       ],
-      "updated_at": "2025-06-20T11:20:11.496Z",
-      "version": "WzEzODk4NzMsNF0=",
+      "updated_at": "2025-06-20T11:40:29.311Z",
+      "version": "WzEzOTAxMzksNF0=",
       "attributes": {
         "title": "istex-*:istex-generic",
         "hits": 0,
@@ -24,25 +24,10 @@
           "value": 0
         },
         "kibanaSavedObjectMeta": {
-          "searchSourceJSON": "{\"query\":{\"query\":\"*\",\"language\":\"lucene\"},\"filter\":[{\"meta\":{\"params\":{\"gte\":200,\"lt\":299},\"alias\":null,\"negate\":false,\"disabled\":false,\"type\":\"range\",\"key\":\"status\",\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.filter[0].meta.index\"},\"range\":{\"status\":{\"gte\":200,\"lt\":299}},\"$state\":{\"store\":\"appState\"}},{\"meta\":{\"alias\":null,\"negate\":false,\"disabled\":false,\"type\":\"phrase\",\"key\":\"mime\",\"params\":{\"query\":\"PDF\"},\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.filter[1].meta.index\"},\"query\":{\"match_phrase\":{\"mime\":\"PDF\"}},\"$state\":{\"store\":\"appState\"}},{\"meta\":{\"alias\":null,\"negate\":false,\"disabled\":false,\"type\":\"phrase\",\"key\":\"istex_rtype\",\"params\":{\"query\":\"fulltext\"},\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.filter[2].meta.index\"},\"query\":{\"match_phrase\":{\"istex_rtype\":\"fulltext\"}},\"$state\":{\"store\":\"appState\"}}]}"
+          "searchSourceJSON": "{\"query\":{\"query\":\"*\",\"language\":\"lucene\"},\"filter\":[]}"
         }
       },
       "references": [
-        {
-          "name": "kibanaSavedObjectMeta.searchSourceJSON.filter[0].meta.index",
-          "type": "index-pattern",
-          "id": "a5c73130-a26b-11ef-83ba-f3a1d08225ea"
-        },
-        {
-          "name": "kibanaSavedObjectMeta.searchSourceJSON.filter[1].meta.index",
-          "type": "index-pattern",
-          "id": "0111fa00-ab0b-11ef-836d-d36da0a72ca3"
-        },
-        {
-          "name": "kibanaSavedObjectMeta.searchSourceJSON.filter[2].meta.index",
-          "type": "index-pattern",
-          "id": "0111fa00-ab0b-11ef-836d-d36da0a72ca3"
-        },
         {
           "name": "7d670cad-c78b-422d-87eb-6c122acbf0df:panel_7d670cad-c78b-422d-87eb-6c122acbf0df",
           "type": "visualization",
@@ -141,46 +126,6 @@
       ],
       "migrationVersion": {
         "dashboard": "7.14.0"
-      },
-      "coreMigrationVersion": "7.14.1"
-    },
-    {
-      "id": "a5c73130-a26b-11ef-83ba-f3a1d08225ea",
-      "type": "index-pattern",
-      "namespaces": [
-        "istex"
-      ],
-      "updated_at": "2025-06-13T07:10:29.638Z",
-      "version": "WzEzODIxMDIsNF0=",
-      "attributes": {
-        "timeFieldName": "datetime",
-        "title": "z-istex-ezpaarse-*",
-        "runtimeFieldMap": "{}",
-        "fieldAttrs": "{\"istex_rtype\":{\"count\":1},\"sid\":{\"count\":1},\"url\":{\"count\":1},\"istex_bundle_size\":{\"count\":2},\"mime\":{\"count\":1},\"owner\":{\"count\":4},\"auth\":{\"count\":1},\"istex-id\":{\"count\":1},\"abes-id\":{\"count\":6},\"access_type\":{\"count\":5},\"oa_status\":{\"count\":3},\"institutionName\":{\"count\":3},\"publication_date\":{\"count\":5},\"publisher_name\":{\"count\":1},\"referer\":{\"count\":1},\"status\":{\"count\":3},\"ua\":{\"count\":1},\"print_identifier\":{\"count\":3},\"doi\":{\"count\":1},\"datetime\":{\"count\":1},\"host\":{\"count\":2}}",
-        "typeMeta": "{}",
-        "fields": "[]"
-      },
-      "references": [],
-      "migrationVersion": {
-        "index-pattern": "7.11.0"
-      },
-      "coreMigrationVersion": "7.14.1"
-    },
-    {
-      "id": "0111fa00-ab0b-11ef-836d-d36da0a72ca3",
-      "type": "index-pattern",
-      "namespaces": [
-        "istex"
-      ],
-      "updated_at": "2024-11-25T08:55:22.275Z",
-      "version": "WzEzNzY5NjgsNF0=",
-      "attributes": {
-        "title": "istex*",
-        "timeFieldName": "datetime"
-      },
-      "references": [],
-      "migrationVersion": {
-        "index-pattern": "7.11.0"
       },
       "coreMigrationVersion": "7.14.1"
     },
@@ -747,6 +692,24 @@
         "name": "université"
       },
       "references": [],
+      "coreMigrationVersion": "7.14.1"
+    },
+    {
+      "id": "0111fa00-ab0b-11ef-836d-d36da0a72ca3",
+      "type": "index-pattern",
+      "namespaces": [
+        "istex"
+      ],
+      "updated_at": "2024-11-25T08:55:22.275Z",
+      "version": "WzEzNzY5NjgsNF0=",
+      "attributes": {
+        "title": "istex*",
+        "timeFieldName": "datetime"
+      },
+      "references": [],
+      "migrationVersion": {
+        "index-pattern": "7.11.0"
+      },
       "coreMigrationVersion": "7.14.1"
     }
   ]
