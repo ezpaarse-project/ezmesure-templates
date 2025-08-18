@@ -7,8 +7,8 @@
       "namespaces": [
         "bienvenue-ezpaarse"
       ],
-      "updated_at": "2024-04-12T11:52:03.067Z",
-      "version": "WzIyNzE5NTUsMTdd",
+      "updated_at": "2025-01-21T15:01:02.669Z",
+      "version": "WzE2ODIxNDIsOF0=",
       "attributes": {
         "title": "Bienvenue_ezPAARSE",
         "hits": 0,
@@ -44,11 +44,11 @@
       "namespaces": [
         "bienvenue-ezpaarse"
       ],
-      "updated_at": "2024-04-12T12:02:17.099Z",
-      "version": "WzIyNzIxMjAsMTdd",
+      "updated_at": "2025-08-14T13:34:53.600Z",
+      "version": "WzE2ODg4NTYsOF0=",
       "attributes": {
         "title": "Bienvenue_ezpaarse",
-        "visState": "{\"title\":\"Bienvenue_ezpaarse\",\"type\":\"markdown\",\"aggs\":[],\"params\":{\"markdown\":\"![ezMESURE](https://raw.githubusercontent.com/ezpaarse-project/ezpaarse-project.github.io/master/ezmesure/static/images/logo-ezMESURE-350.png)\\n## Bienvenue sur ezMESURE espace \\\"ezPAARSE\\\"\\n\\nVous êtes ici dans l'espace de bienvenue de type “ezPAARSE”. Cet espace de démonstration est basé sur des données de test générées pour un mois (juin 2019) par un traitement réel ezPAARSE sur des fichiers de logs réels, dont les données ont été complètement anonymisées, et qui peuvent être considérées comme celles d’un établissement réaliste.\\n\\nCet espace d’accueil permet de vous familiariser avec le dispositif ezMESURE, quand il expose et met en forme des données d’usage générées localement par un traitement ezPAARSE http://demo.ezpaarse.org/ \\n\\nezPAARSE est installé par chaque établissement qui le souhaite pour traiter les fichiers logs de son serveur proxy, par lequel transitent des utilisateurs quand ils accèdent à des ressources numériques sous abonnement. \\n\\nVous n'avez probablement encore accès à aucune donnée ezPAARSE, mais vous pouvez accéder ici à un [tableau de bord générique d’exemple.](https://ezmesure.couperin.org/kibana/s/bienvenue-ezpaarse/goto/a3ad4e8c3c0da7dcea316106c6c38d80)\\n \\n[![tableau générique ezpaarse d'exemple](https://raw.githubusercontent.com/ezpaarse-project/ezpaarse-project.github.io/master/ezmesure/static/images/tableau%20de%20bord%20g%C3%A9n%C3%A9rique%20donn%C3%A9es%20ezPAARSE%20exemple%202019%20taille%20600.png)\\n\\nCe tableau donne à voir ce que vous pourrez visualiser une fois les données ezPaarse de votre établissement déposées dans ezMesure.\\n\\nSi vous souhaitez installer et utiliser ezPaarse dans votre établissement, il vous faudra désigner [un·e correspondant·e technique](https://blog.readmetrics.org/2022/02/correspondants-ezmesure-votre-nouveau-role/)  qui sera impliqué·e dans la mise en place de l’instance locale d’ezPAARSE et de ses mises à jour, l’automatisation des traitements et les chargements dans ezMESURE.\\nVous retrouvez toutes les informations depuis notre site principal ReadMetrics ainsi que sur notre blog régulièrement alimenté.\\n\\n\\nL'équipe ezTEAM.\\n\\n\\n\\n\\n\\n\\n\",\"fontSize\":12,\"openLinksInNewTab\":true}}",
+        "visState": "{\"title\":\"Bienvenue_ezpaarse\",\"type\":\"markdown\",\"aggs\":[],\"params\":{\"markdown\":\"![ezMESURE](https://raw.githubusercontent.com/ezpaarse-project/ezpaarse-project.github.io/master/ezmesure/static/images/logo-ezMESURE-350.png)\\n## Bienvenue sur ezMESURE espace \\\"ezPAARSE\\\"\\n\\nVous êtes ici dans l'espace de bienvenue de type “ezPAARSE”. Cet espace de démonstration est basé sur des données de test générées pour un mois (juin 2019) par un traitement réel ezPAARSE sur des fichiers de logs réels, dont les données ont été complètement anonymisées, et qui peuvent être considérées comme celles d’un établissement réaliste.\\n\\nCet espace d’accueil permet de vous familiariser avec le dispositif ezMESURE, quand il expose et met en forme des données d’usage générées localement par un traitement ezPAARSE http://demo.ezpaarse.org/ \\n\\nezPAARSE est installé par chaque établissement qui le souhaite pour traiter les fichiers logs de son serveur proxy, par lequel transitent des utilisateurs quand ils accèdent à des ressources numériques sous abonnement. \\n\\nVous n'avez probablement encore accès à aucune donnée ezPAARSE, mais vous pouvez accéder ici à un [tableau de bord générique d’exemple.](https://ezmesure.couperin.org/kibana/s/bienvenue-ezpaarse/app/dashboards#/view/generic:fbb90fc0-ca2a-11ed-8ce4-61ee0b8a2f58)\\n \\n[![tableau générique ezpaarse d'exemple](https://raw.githubusercontent.com/ezpaarse-project/ezpaarse-project.github.io/master/ezmesure/static/images/tableau%20de%20bord%20g%C3%A9n%C3%A9rique%20donn%C3%A9es%20ezPAARSE%20exemple%202019%20taille%20600.png)\\n\\nCe tableau donne à voir ce que vous pourrez visualiser une fois les données ezPaarse de votre établissement déposées dans ezMesure.\\n\\nSi vous souhaitez installer et utiliser ezPaarse dans votre établissement, il vous faudra désigner [un·e correspondant·e technique](https://blog.readmetrics.org/2022/02/correspondants-ezmesure-votre-nouveau-role/)  qui sera impliqué·e dans la mise en place de l’instance locale d’ezPAARSE et de ses mises à jour, l’automatisation des traitements et les chargements dans ezMESURE.\\nVous retrouvez toutes les informations depuis notre site principal ReadMetrics ainsi que sur notre blog régulièrement alimenté.\\n\\n\\nL'équipe ezTEAM.\\n\\n\\n\\n\\n\\n\\n\",\"fontSize\":12,\"openLinksInNewTab\":true}}",
         "uiStateJSON": "{}",
         "description": "",
         "version": 1,
@@ -74,8 +74,8 @@
       "namespaces": [
         "bienvenue-ezpaarse"
       ],
-      "updated_at": "2024-03-01T10:45:24.705Z",
-      "version": "WzIxMTg4OTMsMTdd",
+      "updated_at": "2025-02-07T12:59:34.665Z",
+      "version": "WzE2NzQyNDYsOF0=",
       "attributes": {
         "name": "validé",
         "description": "",
