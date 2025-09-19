@@ -1,0 +1,639 @@
+{
+  "version": "7.14.1",
+  "objects": [
+    {
+      "id": "77a7c270-41e3-11f0-98b5-6fd4cf3fbaf0",
+      "type": "dashboard",
+      "namespaces": [
+        "inist-cnrs-portails"
+      ],
+      "updated_at": "2025-09-10T09:21:11.181Z",
+      "version": "WzE5MjQyMDEsOF0=",
+      "attributes": {
+        "title": "Click and Read : generic établissement partenaire",
+        "hits": 0,
+        "description": "Tableau générique des consultations générées via l'extension Click and Read pour chaque établissement partenaire",
+        "panelsJSON": "[{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":0,\"y\":0,\"w\":48,\"h\":12,\"i\":\"6ae74c61-5eae-4207-bb5e-e92fe2553d08\"},\"panelIndex\":\"6ae74c61-5eae-4207-bb5e-e92fe2553d08\",\"embeddableConfig\":{\"enhancements\":{}},\"panelRefName\":\"panel_6ae74c61-5eae-4207-bb5e-e92fe2553d08\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":0,\"y\":12,\"w\":48,\"h\":4,\"i\":\"7652bfa2-82de-43ec-ad36-5acb390e5a47\"},\"panelIndex\":\"7652bfa2-82de-43ec-ad36-5acb390e5a47\",\"embeddableConfig\":{\"enhancements\":{}},\"panelRefName\":\"panel_7652bfa2-82de-43ec-ad36-5acb390e5a47\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":0,\"y\":16,\"w\":48,\"h\":5,\"i\":\"4a1a0e88-6a80-4997-846c-4dece961fc91\"},\"panelIndex\":\"4a1a0e88-6a80-4997-846c-4dece961fc91\",\"embeddableConfig\":{\"enhancements\":{}},\"panelRefName\":\"panel_4a1a0e88-6a80-4997-846c-4dece961fc91\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":0,\"y\":21,\"w\":23,\"h\":15,\"i\":\"de80917e-26dd-4bc2-bfa3-2610ed00366b\"},\"panelIndex\":\"de80917e-26dd-4bc2-bfa3-2610ed00366b\",\"embeddableConfig\":{\"enhancements\":{}},\"panelRefName\":\"panel_de80917e-26dd-4bc2-bfa3-2610ed00366b\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":23,\"y\":21,\"w\":16,\"h\":15,\"i\":\"a098c2b6-7dcc-410f-8766-7d627efbb143\"},\"panelIndex\":\"a098c2b6-7dcc-410f-8766-7d627efbb143\",\"embeddableConfig\":{\"enhancements\":{},\"vis\":{\"params\":{\"sort\":{\"columnIndex\":2,\"direction\":\"desc\"}}},\"table\":null},\"panelRefName\":\"panel_a098c2b6-7dcc-410f-8766-7d627efbb143\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":39,\"y\":21,\"w\":9,\"h\":15,\"i\":\"b91e867c-cf82-474c-a49a-a734cd93492f\"},\"panelIndex\":\"b91e867c-cf82-474c-a49a-a734cd93492f\",\"embeddableConfig\":{\"vis\":{\"legendOpen\":false},\"enhancements\":{},\"table\":null},\"panelRefName\":\"panel_b91e867c-cf82-474c-a49a-a734cd93492f\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":0,\"y\":36,\"w\":28,\"h\":4,\"i\":\"27d27bf7-06d8-45d5-83c1-19c488964142\"},\"panelIndex\":\"27d27bf7-06d8-45d5-83c1-19c488964142\",\"embeddableConfig\":{\"enhancements\":{}},\"panelRefName\":\"panel_27d27bf7-06d8-45d5-83c1-19c488964142\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":29,\"y\":36,\"w\":19,\"h\":4,\"i\":\"f940d413-6101-465c-874b-299dac6a2cc1\"},\"panelIndex\":\"f940d413-6101-465c-874b-299dac6a2cc1\",\"embeddableConfig\":{\"enhancements\":{}},\"panelRefName\":\"panel_f940d413-6101-465c-874b-299dac6a2cc1\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":0,\"y\":40,\"w\":28,\"h\":32,\"i\":\"d5d94727-6ef4-407b-b7fb-1772dee067b0\"},\"panelIndex\":\"d5d94727-6ef4-407b-b7fb-1772dee067b0\",\"embeddableConfig\":{\"enhancements\":{},\"vis\":{\"legendOpen\":false,\"colors\":{\"UTC - UNIVERSITE DE TECHNOLOGIE DE COMPIEGNE\":\"#629E51\"}},\"table\":null},\"panelRefName\":\"panel_d5d94727-6ef4-407b-b7fb-1772dee067b0\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":29,\"y\":40,\"w\":19,\"h\":16,\"i\":\"31178696-dfa9-4e67-8190-d08828084229\"},\"panelIndex\":\"31178696-dfa9-4e67-8190-d08828084229\",\"embeddableConfig\":{\"vis\":{\"legendOpen\":false},\"enhancements\":{},\"timeRange\":{\"from\":\"now-30d/d\",\"to\":\"now\"}},\"panelRefName\":\"panel_31178696-dfa9-4e67-8190-d08828084229\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":29,\"y\":56,\"w\":19,\"h\":16,\"i\":\"b91dd4c8-1922-49e0-aaba-23a5588585bf\"},\"panelIndex\":\"b91dd4c8-1922-49e0-aaba-23a5588585bf\",\"embeddableConfig\":{\"vis\":{\"legendOpen\":false},\"enhancements\":{}},\"panelRefName\":\"panel_b91dd4c8-1922-49e0-aaba-23a5588585bf\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":0,\"y\":72,\"w\":48,\"h\":11,\"i\":\"563001db-2ee8-4930-b81e-e69414492594\"},\"panelIndex\":\"563001db-2ee8-4930-b81e-e69414492594\",\"embeddableConfig\":{\"enhancements\":{}},\"panelRefName\":\"panel_563001db-2ee8-4930-b81e-e69414492594\"}]",
+        "optionsJSON": "{\"hidePanelTitles\":false,\"useMargins\":true}",
+        "version": 1,
+        "timeRestore": true,
+        "timeTo": "now",
+        "timeFrom": "2025-01-01T11:27:31.304Z",
+        "refreshInterval": {
+          "pause": true,
+          "value": 0
+        },
+        "kibanaSavedObjectMeta": {
+          "searchSourceJSON": "{\"query\":{\"query\":\"\",\"language\":\"kuery\"},\"filter\":[{\"meta\":{\"alias\":null,\"negate\":false,\"disabled\":false,\"type\":\"phrase\",\"key\":\"sources\",\"params\":{\"query\":\"LYON 1\"},\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.filter[0].meta.index\"},\"query\":{\"match_phrase\":{\"sources\":\"LYON 1\"}},\"$state\":{\"store\":\"appState\"}}]}"
+        }
+      },
+      "references": [
+        {
+          "name": "kibanaSavedObjectMeta.searchSourceJSON.filter[0].meta.index",
+          "type": "index-pattern",
+          "id": "fe15df20-fe5b-11ef-aec9-21931cdd3536"
+        },
+        {
+          "name": "6ae74c61-5eae-4207-bb5e-e92fe2553d08:panel_6ae74c61-5eae-4207-bb5e-e92fe2553d08",
+          "type": "visualization",
+          "id": "ad11fc00-5bc4-11f0-a7e0-71248ad46314"
+        },
+        {
+          "name": "7652bfa2-82de-43ec-ad36-5acb390e5a47:panel_7652bfa2-82de-43ec-ad36-5acb390e5a47",
+          "type": "visualization",
+          "id": "60591620-41e6-11f0-98b5-6fd4cf3fbaf0"
+        },
+        {
+          "name": "4a1a0e88-6a80-4997-846c-4dece961fc91:panel_4a1a0e88-6a80-4997-846c-4dece961fc91",
+          "type": "visualization",
+          "id": "3c4ceab0-5bd9-11f0-b4e2-fb302a6d6e68"
+        },
+        {
+          "name": "de80917e-26dd-4bc2-bfa3-2610ed00366b:panel_de80917e-26dd-4bc2-bfa3-2610ed00366b",
+          "type": "visualization",
+          "id": "f4aaf960-5bd6-11f0-b4e2-fb302a6d6e68"
+        },
+        {
+          "name": "a098c2b6-7dcc-410f-8766-7d627efbb143:panel_a098c2b6-7dcc-410f-8766-7d627efbb143",
+          "type": "visualization",
+          "id": "4aed5750-5bd7-11f0-b4e2-fb302a6d6e68"
+        },
+        {
+          "name": "b91e867c-cf82-474c-a49a-a734cd93492f:panel_b91e867c-cf82-474c-a49a-a734cd93492f",
+          "type": "visualization",
+          "id": "f7e572f0-6df5-11f0-b4e2-fb302a6d6e68"
+        },
+        {
+          "name": "27d27bf7-06d8-45d5-83c1-19c488964142:panel_27d27bf7-06d8-45d5-83c1-19c488964142",
+          "type": "visualization",
+          "id": "df3b0d40-5bdb-11f0-b4e2-fb302a6d6e68"
+        },
+        {
+          "name": "f940d413-6101-465c-874b-299dac6a2cc1:panel_f940d413-6101-465c-874b-299dac6a2cc1",
+          "type": "visualization",
+          "id": "43665ac0-5bf2-11f0-b4e2-fb302a6d6e68"
+        },
+        {
+          "name": "d5d94727-6ef4-407b-b7fb-1772dee067b0:panel_d5d94727-6ef4-407b-b7fb-1772dee067b0",
+          "type": "visualization",
+          "id": "7b8d0100-41e5-11f0-98b5-6fd4cf3fbaf0"
+        },
+        {
+          "name": "31178696-dfa9-4e67-8190-d08828084229:panel_31178696-dfa9-4e67-8190-d08828084229",
+          "type": "visualization",
+          "id": "21a530e0-5bf3-11f0-b4e2-fb302a6d6e68"
+        },
+        {
+          "name": "b91dd4c8-1922-49e0-aaba-23a5588585bf:panel_b91dd4c8-1922-49e0-aaba-23a5588585bf",
+          "type": "visualization",
+          "id": "60f6d490-6e0b-11f0-b4e2-fb302a6d6e68"
+        },
+        {
+          "name": "563001db-2ee8-4930-b81e-e69414492594:panel_563001db-2ee8-4930-b81e-e69414492594",
+          "type": "visualization",
+          "id": "a23bce10-5bd7-11f0-b4e2-fb302a6d6e68"
+        },
+        {
+          "id": "65fff420-41e3-11f0-98b5-6fd4cf3fbaf0",
+          "type": "tag",
+          "name": "tag-65fff420-41e3-11f0-98b5-6fd4cf3fbaf0"
+        },
+        {
+          "id": "e2b15130-6a89-11ef-99e9-d73145b59914",
+          "type": "tag",
+          "name": "tag-e2b15130-6a89-11ef-99e9-d73145b59914"
+        },
+        {
+          "id": "b9f60840-f6c2-11ec-871c-618dc17b393f",
+          "type": "tag",
+          "name": "tag-b9f60840-f6c2-11ec-871c-618dc17b393f"
+        }
+      ],
+      "migrationVersion": {
+        "dashboard": "7.14.0"
+      },
+      "coreMigrationVersion": "7.14.1"
+    },
+    {
+      "id": "fe15df20-fe5b-11ef-aec9-21931cdd3536",
+      "type": "index-pattern",
+      "namespaces": [
+        "inist-cnrs-portails"
+      ],
+      "updated_at": "2025-03-11T10:21:17.853Z",
+      "version": "WzE5MDc2MjUsOF0=",
+      "attributes": {
+        "timeFieldName": "datetime",
+        "title": "b-cnrs-clickandread-ezpaarse-unifaccess*"
+      },
+      "references": [],
+      "migrationVersion": {
+        "index-pattern": "7.11.0"
+      },
+      "coreMigrationVersion": "7.14.1"
+    },
+    {
+      "id": "ad11fc00-5bc4-11f0-a7e0-71248ad46314",
+      "type": "visualization",
+      "namespaces": [
+        "inist-cnrs-portails"
+      ],
+      "updated_at": "2025-09-10T09:14:51.452Z",
+      "version": "WzE5MjQxODIsOF0=",
+      "attributes": {
+        "title": "C&R : Tableau de bord établissements Click & Read",
+        "visState": "{\"title\":\"C&R : Tableau de bord établissements Click & Read\",\"type\":\"markdown\",\"aggs\":[],\"params\":{\"fontSize\":12,\"markdown\":\"## Tableau de bord Click & Read établissement partenaire\\n\\n\\n[![ezMESURE](https://raw.githubusercontent.com/ezpaarse-project/ezpaarse-project.github.io/master/ezmesure/static/images/logo-ezMESURE-350.png)](https://ezmesure.couperin.org/)\\n[![CLICK&READ](https://raw.githubusercontent.com/ezpaarse-project/ezpaarse-project.github.io/master/ezmesure/static/images/logo-clickandread-petit.png)](https://clickandread.inist.fr/)\\n\\n### Ce rapport  est destiné à montrer les consultations d'articles via le bouton C&R des utilisateurs qui ont sélectionné votre établissement dans leur paramétrage de l'extension.\\n\\n### Ces statistiques concernent uniquement les utilisateurs qui ont accepté la politique de confidentialité.\\n  \\n\\n\",\"openLinksInNewTab\":false}}",
+        "uiStateJSON": "{}",
+        "description": "",
+        "version": 1,
+        "kibanaSavedObjectMeta": {
+          "searchSourceJSON": "{\"query\":{\"language\":\"lucene\",\"query\":{\"query_string\":{\"query\":\"*\"}}},\"filter\":[]}"
+        }
+      },
+      "references": [
+        {
+          "id": "65fff420-41e3-11f0-98b5-6fd4cf3fbaf0",
+          "type": "tag",
+          "name": "tag-65fff420-41e3-11f0-98b5-6fd4cf3fbaf0"
+        },
+        {
+          "id": "e2b15130-6a89-11ef-99e9-d73145b59914",
+          "type": "tag",
+          "name": "tag-e2b15130-6a89-11ef-99e9-d73145b59914"
+        }
+      ],
+      "migrationVersion": {
+        "visualization": "7.14.0"
+      },
+      "coreMigrationVersion": "7.14.1"
+    },
+    {
+      "id": "60591620-41e6-11f0-98b5-6fd4cf3fbaf0",
+      "type": "visualization",
+      "namespaces": [
+        "inist-cnrs-portails"
+      ],
+      "updated_at": "2025-09-10T09:15:05.545Z",
+      "version": "WzE5MjQxODEsOF0=",
+      "attributes": {
+        "title": "C&R : Consultations générales",
+        "visState": "{\"title\":\"C&R : Consultations générales\",\"type\":\"markdown\",\"aggs\":[],\"params\":{\"fontSize\":12,\"markdown\":\"### 1. Consultations d’articles via le bouton C&R par les utilisateurs de votre établissement :\",\"openLinksInNewTab\":false}}",
+        "uiStateJSON": "{}",
+        "description": "",
+        "version": 1,
+        "kibanaSavedObjectMeta": {
+          "searchSourceJSON": "{\"query\":{\"language\":\"kuery\",\"query\":\"\"},\"filter\":[]}"
+        }
+      },
+      "references": [
+        {
+          "id": "65fff420-41e3-11f0-98b5-6fd4cf3fbaf0",
+          "type": "tag",
+          "name": "tag-65fff420-41e3-11f0-98b5-6fd4cf3fbaf0"
+        },
+        {
+          "id": "e2b15130-6a89-11ef-99e9-d73145b59914",
+          "type": "tag",
+          "name": "tag-e2b15130-6a89-11ef-99e9-d73145b59914"
+        }
+      ],
+      "migrationVersion": {
+        "visualization": "7.14.0"
+      },
+      "coreMigrationVersion": "7.14.1"
+    },
+    {
+      "id": "3c4ceab0-5bd9-11f0-b4e2-fb302a6d6e68",
+      "type": "visualization",
+      "namespaces": [
+        "inist-cnrs-portails"
+      ],
+      "updated_at": "2025-09-10T09:15:21.763Z",
+      "version": "WzE5MjQxODMsOF0=",
+      "attributes": {
+        "title": "C&R : Nombre total d’articles consultés par vos utilisateurs, toutes sources confondues",
+        "visState": "{\"title\":\"C&R : Nombre total d’articles consultés par vos utilisateurs, toutes sources confondues\",\"type\":\"metric\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"params\":{\"customLabel\":\"Clics sur boutons C&R\"},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"min\",\"params\":{\"field\":\"datetime\",\"customLabel\":\"Date de début\"},\"schema\":\"metric\"},{\"id\":\"3\",\"enabled\":true,\"type\":\"max\",\"params\":{\"field\":\"datetime\",\"customLabel\":\"Date de fin\"},\"schema\":\"metric\"},{\"id\":\"5\",\"enabled\":false,\"type\":\"cardinality\",\"params\":{\"field\":\"journal_issn_l\"},\"schema\":\"metric\"},{\"id\":\"6\",\"enabled\":false,\"type\":\"cardinality\",\"params\":{\"field\":\"doi\"},\"schema\":\"metric\"}],\"params\":{\"metric\":{\"percentageMode\":false,\"useRanges\":false,\"colorSchema\":\"Green to Red\",\"metricColorMode\":\"None\",\"colorsRange\":[{\"type\":\"range\",\"from\":0,\"to\":10000}],\"labels\":{\"show\":true},\"invertColors\":false,\"style\":{\"bgFill\":\"#000\",\"bgColor\":false,\"labelColor\":false,\"subText\":\"\",\"fontSize\":20}},\"dimensions\":{\"metrics\":[{\"type\":\"vis_dimension\",\"accessor\":0,\"format\":{\"id\":\"number\",\"params\":{}}},{\"type\":\"vis_dimension\",\"accessor\":1,\"format\":{\"id\":\"date\",\"params\":{\"pattern\":\"DD-MM-YYYY\"}}},{\"type\":\"vis_dimension\",\"accessor\":2,\"format\":{\"id\":\"date\",\"params\":{\"pattern\":\"DD-MM-YYYY\"}}},{\"type\":\"vis_dimension\",\"accessor\":3,\"format\":{\"id\":\"number\",\"params\":{}}},{\"type\":\"vis_dimension\",\"accessor\":4,\"format\":{\"id\":\"number\",\"params\":{}}}]},\"addTooltip\":true,\"addLegend\":false,\"type\":\"metric\"}}",
+        "uiStateJSON": "{}",
+        "description": "Pour la période indiquée, nombre d’articles consultés via Click & Read par vos utilisateurs, toutes sources confondues (Unpaywall, Istex, Panist, autres établissements ...).",
+        "version": 1,
+        "kibanaSavedObjectMeta": {
+          "searchSourceJSON": "{\"query\":{\"language\":\"kuery\",\"query\":\"\"},\"filter\":[],\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.index\"}"
+        }
+      },
+      "references": [
+        {
+          "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
+          "type": "index-pattern",
+          "id": "fe15df20-fe5b-11ef-aec9-21931cdd3536"
+        },
+        {
+          "id": "65fff420-41e3-11f0-98b5-6fd4cf3fbaf0",
+          "type": "tag",
+          "name": "tag-65fff420-41e3-11f0-98b5-6fd4cf3fbaf0"
+        },
+        {
+          "id": "e2b15130-6a89-11ef-99e9-d73145b59914",
+          "type": "tag",
+          "name": "tag-e2b15130-6a89-11ef-99e9-d73145b59914"
+        }
+      ],
+      "migrationVersion": {
+        "visualization": "7.14.0"
+      },
+      "coreMigrationVersion": "7.14.1"
+    },
+    {
+      "id": "f4aaf960-5bd6-11f0-b4e2-fb302a6d6e68",
+      "type": "visualization",
+      "namespaces": [
+        "inist-cnrs-portails"
+      ],
+      "updated_at": "2025-09-10T09:15:45.564Z",
+      "version": "WzE5MjQxODQsOF0=",
+      "attributes": {
+        "title": "C&R : Nombre d'articles consultés par jour",
+        "visState": "{\"title\":\"C&R : Nombre d'articles consultés par jour\",\"type\":\"histogram\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"params\":{},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"date_histogram\",\"params\":{\"field\":\"datetime\",\"timeRange\":{\"from\":\"2025-01-01T11:27:31.304Z\",\"to\":\"now\"},\"useNormalizedEsInterval\":true,\"scaleMetricValues\":true,\"interval\":\"d\",\"used_interval\":\"1d\",\"drop_partials\":false,\"min_doc_count\":1,\"extended_bounds\":{},\"customLabel\":\"Nombre de consultations par jour\"},\"schema\":\"segment\"}],\"params\":{\"type\":\"histogram\",\"grid\":{\"categoryLines\":false},\"categoryAxes\":[{\"id\":\"CategoryAxis-1\",\"type\":\"category\",\"position\":\"bottom\",\"show\":true,\"style\":{},\"scale\":{\"type\":\"linear\"},\"labels\":{\"show\":true,\"filter\":true,\"truncate\":100},\"title\":{}}],\"valueAxes\":[{\"id\":\"ValueAxis-1\",\"name\":\"LeftAxis-1\",\"type\":\"value\",\"position\":\"left\",\"show\":true,\"style\":{},\"scale\":{\"type\":\"linear\",\"mode\":\"normal\"},\"labels\":{\"show\":true,\"rotate\":0,\"filter\":false,\"truncate\":100},\"title\":{\"text\":\"Count\"}}],\"seriesParams\":[{\"show\":\"true\",\"type\":\"histogram\",\"mode\":\"stacked\",\"data\":{\"label\":\"Count\",\"id\":\"1\"},\"valueAxis\":\"ValueAxis-1\",\"drawLinesBetweenPoints\":true,\"showCircles\":true}],\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"top\",\"times\":[],\"addTimeMarker\":false,\"labels\":{\"show\":false},\"thresholdLine\":{\"show\":false,\"value\":10,\"width\":1,\"style\":\"full\",\"color\":\"#34130C\"},\"dimensions\":{\"x\":{\"accessor\":0,\"format\":{\"id\":\"date\",\"params\":{\"pattern\":\"YYYY-MM-DD\"}},\"params\":{\"date\":true,\"interval\":\"P1D\",\"format\":\"YYYY-MM-DD\",\"bounds\":{\"min\":\"2021-03-30T20:59:44.205Z\",\"max\":\"2021-04-09T01:29:32.917Z\"}},\"aggType\":\"date_histogram\"},\"y\":[{\"accessor\":2,\"format\":{\"id\":\"number\"},\"params\":{},\"aggType\":\"count\"}],\"series\":[{\"accessor\":1,\"format\":{\"id\":\"terms\",\"params\":{\"id\":\"string\",\"otherBucketLabel\":\"Other\",\"missingBucketLabel\":\"Missing\"}},\"params\":{},\"aggType\":\"terms\"}]},\"palette\":{\"type\":\"palette\",\"name\":\"kibana_palette\"},\"isVislibVis\":true,\"detailedTooltip\":true,\"radiusRatio\":0}}",
+        "uiStateJSON": "{}",
+        "description": "Nombre d’articles consultés via Click & Read par vos utilisateurs, toutes sources confondues.",
+        "version": 1,
+        "kibanaSavedObjectMeta": {
+          "searchSourceJSON": "{\"query\":{\"query\":\"\",\"language\":\"kuery\"},\"filter\":[],\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.index\"}"
+        }
+      },
+      "references": [
+        {
+          "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
+          "type": "index-pattern",
+          "id": "fe15df20-fe5b-11ef-aec9-21931cdd3536"
+        },
+        {
+          "id": "65fff420-41e3-11f0-98b5-6fd4cf3fbaf0",
+          "type": "tag",
+          "name": "tag-65fff420-41e3-11f0-98b5-6fd4cf3fbaf0"
+        },
+        {
+          "id": "e2b15130-6a89-11ef-99e9-d73145b59914",
+          "type": "tag",
+          "name": "tag-e2b15130-6a89-11ef-99e9-d73145b59914"
+        }
+      ],
+      "migrationVersion": {
+        "visualization": "7.14.0"
+      },
+      "coreMigrationVersion": "7.14.1"
+    },
+    {
+      "id": "4aed5750-5bd7-11f0-b4e2-fb302a6d6e68",
+      "type": "visualization",
+      "namespaces": [
+        "inist-cnrs-portails"
+      ],
+      "updated_at": "2025-09-10T09:15:58.402Z",
+      "version": "WzE5MjQxODUsOF0=",
+      "attributes": {
+        "title": "C&R : Les 100 journaux les plus consultés",
+        "visState": "{\"title\":\"C&R : Les 100 journaux les plus consultés\",\"type\":\"table\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"params\":{\"customLabel\":\"Nombre de consultations\"},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"params\":{\"field\":\"journal_name\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":100,\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\",\"customLabel\":\"Nom de la revue\"},\"schema\":\"bucket\"},{\"id\":\"3\",\"enabled\":true,\"type\":\"terms\",\"params\":{\"field\":\"journal_issn_l\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":50,\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\",\"customLabel\":\"ISSN\"},\"schema\":\"bucket\"}],\"params\":{\"perPage\":10,\"showPartialRows\":false,\"showMetricsAtAllLevels\":false,\"sort\":{\"columnIndex\":null,\"direction\":null},\"showTotal\":false,\"totalFunc\":\"sum\",\"percentageCol\":\"\",\"dimensions\":{\"metrics\":[{\"accessor\":3,\"format\":{\"id\":\"number\"},\"params\":{},\"aggType\":\"count\"}],\"buckets\":[{\"accessor\":0,\"format\":{\"id\":\"terms\",\"params\":{\"id\":\"string\",\"otherBucketLabel\":\"Other\",\"missingBucketLabel\":\"Missing\"}},\"params\":{},\"aggType\":\"terms\"},{\"accessor\":1,\"format\":{\"id\":\"terms\",\"params\":{\"id\":\"string\",\"otherBucketLabel\":\"Other\",\"missingBucketLabel\":\"Missing\"}},\"params\":{},\"aggType\":\"terms\"},{\"accessor\":2,\"format\":{\"id\":\"terms\",\"params\":{\"id\":\"string\",\"otherBucketLabel\":\"Other\",\"missingBucketLabel\":\"Missing\"}},\"params\":{},\"aggType\":\"terms\"}]},\"showToolbar\":true}}",
+        "uiStateJSON": "{}",
+        "description": "Journaux les plus consultés via Click & Read par vos utilisateurs sur la période, toutes sources confondues.",
+        "version": 1,
+        "kibanaSavedObjectMeta": {
+          "searchSourceJSON": "{\"query\":{\"query\":\"\",\"language\":\"kuery\"},\"filter\":[],\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.index\"}"
+        }
+      },
+      "references": [
+        {
+          "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
+          "type": "index-pattern",
+          "id": "fe15df20-fe5b-11ef-aec9-21931cdd3536"
+        },
+        {
+          "id": "65fff420-41e3-11f0-98b5-6fd4cf3fbaf0",
+          "type": "tag",
+          "name": "tag-65fff420-41e3-11f0-98b5-6fd4cf3fbaf0"
+        },
+        {
+          "id": "e2b15130-6a89-11ef-99e9-d73145b59914",
+          "type": "tag",
+          "name": "tag-e2b15130-6a89-11ef-99e9-d73145b59914"
+        }
+      ],
+      "migrationVersion": {
+        "visualization": "7.14.0"
+      },
+      "coreMigrationVersion": "7.14.1"
+    },
+    {
+      "id": "f7e572f0-6df5-11f0-b4e2-fb302a6d6e68",
+      "type": "visualization",
+      "namespaces": [
+        "inist-cnrs-portails"
+      ],
+      "updated_at": "2025-09-10T09:16:12.519Z",
+      "version": "WzE5MjQxODYsOF0=",
+      "attributes": {
+        "title": "C&R : types d'identifiants documentaires",
+        "visState": "{\"title\":\"C&R : types d'identifiants documentaires\",\"type\":\"pie\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"params\":{},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"params\":{\"field\":\"type\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":50,\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\"},\"schema\":\"segment\"}],\"params\":{\"type\":\"pie\",\"addTooltip\":true,\"addLegend\":false,\"legendPosition\":\"right\",\"nestedLegend\":false,\"distinctColors\":false,\"isDonut\":true,\"palette\":{\"type\":\"palette\",\"name\":\"default\"},\"labels\":{\"show\":true,\"last_level\":false,\"values\":true,\"valuesFormat\":\"percent\",\"percentDecimals\":2,\"truncate\":100,\"position\":\"default\"}}}",
+        "uiStateJSON": "{\"vis\":{\"legendOpen\":false}}",
+        "description": "Types d'identifiants sur lesquels C&R a réagi pour les consultations de vos utilisateurs.",
+        "version": 1,
+        "kibanaSavedObjectMeta": {
+          "searchSourceJSON": "{\"query\":{\"query\":\"\",\"language\":\"kuery\"},\"filter\":[],\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.index\"}"
+        }
+      },
+      "references": [
+        {
+          "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
+          "type": "index-pattern",
+          "id": "fe15df20-fe5b-11ef-aec9-21931cdd3536"
+        },
+        {
+          "id": "65fff420-41e3-11f0-98b5-6fd4cf3fbaf0",
+          "type": "tag",
+          "name": "tag-65fff420-41e3-11f0-98b5-6fd4cf3fbaf0"
+        },
+        {
+          "id": "e2b15130-6a89-11ef-99e9-d73145b59914",
+          "type": "tag",
+          "name": "tag-e2b15130-6a89-11ef-99e9-d73145b59914"
+        }
+      ],
+      "migrationVersion": {
+        "visualization": "7.14.0"
+      },
+      "coreMigrationVersion": "7.14.1"
+    },
+    {
+      "id": "df3b0d40-5bdb-11f0-b4e2-fb302a6d6e68",
+      "type": "visualization",
+      "namespaces": [
+        "inist-cnrs-portails"
+      ],
+      "updated_at": "2025-09-10T09:16:28.151Z",
+      "version": "WzE5MjQxODcsOF0=",
+      "attributes": {
+        "title": "C&R : Répartition des sources",
+        "visState": "{\"title\":\"C&R : Répartition des sources\",\"type\":\"markdown\",\"aggs\":[],\"params\":{\"fontSize\":12,\"markdown\":\"### 2. Répartition des sources ayant fourni les articles à vos utilisateurs :\\n\",\"openLinksInNewTab\":false}}",
+        "uiStateJSON": "{}",
+        "description": "",
+        "version": 1,
+        "kibanaSavedObjectMeta": {
+          "searchSourceJSON": "{\"query\":{\"language\":\"kuery\",\"query\":\"\"},\"filter\":[]}"
+        }
+      },
+      "references": [
+        {
+          "id": "65fff420-41e3-11f0-98b5-6fd4cf3fbaf0",
+          "type": "tag",
+          "name": "tag-65fff420-41e3-11f0-98b5-6fd4cf3fbaf0"
+        },
+        {
+          "id": "e2b15130-6a89-11ef-99e9-d73145b59914",
+          "type": "tag",
+          "name": "tag-e2b15130-6a89-11ef-99e9-d73145b59914"
+        }
+      ],
+      "migrationVersion": {
+        "visualization": "7.14.0"
+      },
+      "coreMigrationVersion": "7.14.1"
+    },
+    {
+      "id": "43665ac0-5bf2-11f0-b4e2-fb302a6d6e68",
+      "type": "visualization",
+      "namespaces": [
+        "inist-cnrs-portails"
+      ],
+      "updated_at": "2025-09-10T09:17:14.428Z",
+      "version": "WzE5MjQxOTUsOF0=",
+      "attributes": {
+        "title": "C&R : version de l'extension",
+        "visState": "{\"title\":\"C&R : version de l'extension\",\"type\":\"markdown\",\"aggs\":[],\"params\":{\"fontSize\":12,\"markdown\":\"### 3. Version de Click & Read utilisée :\\n\",\"openLinksInNewTab\":false}}",
+        "uiStateJSON": "{}",
+        "description": "",
+        "version": 1,
+        "kibanaSavedObjectMeta": {
+          "searchSourceJSON": "{\"query\":{\"language\":\"kuery\",\"query\":\"\"},\"filter\":[]}"
+        }
+      },
+      "references": [
+        {
+          "id": "65fff420-41e3-11f0-98b5-6fd4cf3fbaf0",
+          "type": "tag",
+          "name": "tag-65fff420-41e3-11f0-98b5-6fd4cf3fbaf0"
+        },
+        {
+          "id": "e2b15130-6a89-11ef-99e9-d73145b59914",
+          "type": "tag",
+          "name": "tag-e2b15130-6a89-11ef-99e9-d73145b59914"
+        }
+      ],
+      "migrationVersion": {
+        "visualization": "7.14.0"
+      },
+      "coreMigrationVersion": "7.14.1"
+    },
+    {
+      "id": "7b8d0100-41e5-11f0-98b5-6fd4cf3fbaf0",
+      "type": "visualization",
+      "namespaces": [
+        "inist-cnrs-portails"
+      ],
+      "updated_at": "2025-09-10T09:17:02.186Z",
+      "version": "WzE5MjQxOTEsOF0=",
+      "attributes": {
+        "title": "C&R : Répartition des sources ayant fourni les articles à vos utilisateurs",
+        "visState": "{\"title\":\"C&R : Répartition des sources ayant fourni les articles à vos utilisateurs\",\"type\":\"pie\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"params\":{},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"filters\",\"params\":{\"filters\":[{\"input\":{\"query\":\"source : \\\"UNPAYWALL\\\" \",\"language\":\"kuery\"},\"label\":\"SOURCES OA\"},{\"input\":{\"query\":\"source : BIB*\",\"language\":\"kuery\"},\"label\":\"BIBCNRS\"},{\"input\":{\"query\":\"source: (ISTEX or PANIST)\",\"language\":\"kuery\"},\"label\":\"INIST\"},{\"input\":{\"query\":\"not source: (BIB* or ISTEX or PANIST or UNPAYWALL ) \",\"language\":\"kuery\"},\"label\":\"INSTITUTIONS PARTENAIRES\"}]},\"schema\":\"segment\"},{\"id\":\"3\",\"enabled\":true,\"type\":\"terms\",\"params\":{\"field\":\"source\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":100,\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\"},\"schema\":\"segment\"}],\"params\":{\"type\":\"pie\",\"addTooltip\":true,\"addLegend\":false,\"legendPosition\":\"top\",\"isDonut\":true,\"labels\":{\"show\":true,\"values\":true,\"last_level\":true,\"truncate\":100,\"position\":\"inside\",\"valuesFormat\":\"percent\"},\"dimensions\":{\"metric\":{\"accessor\":1,\"format\":{\"id\":\"number\"},\"params\":{},\"aggType\":\"count\"},\"buckets\":[{\"accessor\":0,\"format\":{\"id\":\"terms\",\"params\":{\"id\":\"string\",\"otherBucketLabel\":\"Other\",\"missingBucketLabel\":\"Missing\"}},\"params\":{},\"aggType\":\"terms\"}]},\"palette\":{\"type\":\"palette\",\"name\":\"kibana_palette\"},\"distinctColors\":true,\"nestedLegend\":true}}",
+        "uiStateJSON": "{}",
+        "description": "Pourcentage des sources ayant fourni les articles lorsque vos utilisateurs ont cliqué sur un bouton Click & Read pour y accéder. La source ayant répondu dépend de la disponibilité de l’article dans les sources interrogées par Click & Read mais également de l’ordre des sources paramétré par les utilisateurs.",
+        "version": 1,
+        "kibanaSavedObjectMeta": {
+          "searchSourceJSON": "{\"query\":{\"query\":\"\",\"language\":\"kuery\"},\"filter\":[],\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.index\"}"
+        }
+      },
+      "references": [
+        {
+          "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
+          "type": "index-pattern",
+          "id": "fe15df20-fe5b-11ef-aec9-21931cdd3536"
+        },
+        {
+          "id": "65fff420-41e3-11f0-98b5-6fd4cf3fbaf0",
+          "type": "tag",
+          "name": "tag-65fff420-41e3-11f0-98b5-6fd4cf3fbaf0"
+        },
+        {
+          "id": "e2b15130-6a89-11ef-99e9-d73145b59914",
+          "type": "tag",
+          "name": "tag-e2b15130-6a89-11ef-99e9-d73145b59914"
+        }
+      ],
+      "migrationVersion": {
+        "visualization": "7.14.0"
+      },
+      "coreMigrationVersion": "7.14.1"
+    },
+    {
+      "id": "21a530e0-5bf3-11f0-b4e2-fb302a6d6e68",
+      "type": "visualization",
+      "namespaces": [
+        "inist-cnrs-portails"
+      ],
+      "updated_at": "2025-09-10T09:17:28.023Z",
+      "version": "WzE5MjQxOTYsOF0=",
+      "attributes": {
+        "title": "C&R : version de l'extension en usage chez vos utilisateurs sur les 30 derniers jours",
+        "visState": "{\"title\":\"C&R : version de l'extension en usage chez vos utilisateurs sur les 30 derniers jours\",\"type\":\"pie\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"params\":{},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"params\":{\"field\":\"manifestVersion\",\"orderBy\":\"_key\",\"order\":\"asc\",\"size\":15,\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\"},\"schema\":\"segment\"}],\"params\":{\"type\":\"pie\",\"addTooltip\":true,\"addLegend\":false,\"legendPosition\":\"right\",\"nestedLegend\":false,\"distinctColors\":false,\"isDonut\":true,\"palette\":{\"type\":\"palette\",\"name\":\"default\"},\"labels\":{\"show\":true,\"last_level\":false,\"values\":true,\"valuesFormat\":\"percent\",\"percentDecimals\":2,\"truncate\":100,\"position\":\"default\"}}}",
+        "uiStateJSON": "{\"vis\":{\"legendOpen\":false}}",
+        "description": "Cette visualisation vous permet de vérifier que vos utilisateurs disposent de la dernière version de C&R. Une extension à jour offre plus de sécurité et permet de bénéficier des dernières fonctionnalités et des nouveaux partenaires.",
+        "version": 1,
+        "kibanaSavedObjectMeta": {
+          "searchSourceJSON": "{\"query\":{\"query\":\"\",\"language\":\"kuery\"},\"filter\":[],\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.index\"}"
+        }
+      },
+      "references": [
+        {
+          "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
+          "type": "index-pattern",
+          "id": "fe15df20-fe5b-11ef-aec9-21931cdd3536"
+        },
+        {
+          "id": "65fff420-41e3-11f0-98b5-6fd4cf3fbaf0",
+          "type": "tag",
+          "name": "tag-65fff420-41e3-11f0-98b5-6fd4cf3fbaf0"
+        },
+        {
+          "id": "e2b15130-6a89-11ef-99e9-d73145b59914",
+          "type": "tag",
+          "name": "tag-e2b15130-6a89-11ef-99e9-d73145b59914"
+        }
+      ],
+      "migrationVersion": {
+        "visualization": "7.14.0"
+      },
+      "coreMigrationVersion": "7.14.1"
+    },
+    {
+      "id": "60f6d490-6e0b-11f0-b4e2-fb302a6d6e68",
+      "type": "visualization",
+      "namespaces": [
+        "inist-cnrs-portails"
+      ],
+      "updated_at": "2025-09-10T09:17:42.019Z",
+      "version": "WzE5MjQxOTcsOF0=",
+      "attributes": {
+        "title": "C&R : Navigateur utilisé",
+        "visState": "{\"title\":\"C&R : Navigateur utilisé\",\"type\":\"pie\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"params\":{},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"params\":{\"field\":\"userAgentData.browser.name\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":15,\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\"},\"schema\":\"segment\"}],\"params\":{\"type\":\"pie\",\"addTooltip\":true,\"addLegend\":false,\"legendPosition\":\"right\",\"nestedLegend\":false,\"distinctColors\":false,\"isDonut\":true,\"palette\":{\"type\":\"palette\",\"name\":\"default\"},\"labels\":{\"show\":true,\"last_level\":false,\"values\":true,\"valuesFormat\":\"percent\",\"percentDecimals\":2,\"truncate\":100,\"position\":\"default\"}}}",
+        "uiStateJSON": "{\"vis\":{\"legendOpen\":false}}",
+        "description": "Navigateur utilisé par vos utilisateurs lorsqu'ils ont cliqué sur un bouton C&R.",
+        "version": 1,
+        "kibanaSavedObjectMeta": {
+          "searchSourceJSON": "{\"query\":{\"query\":\"\",\"language\":\"kuery\"},\"filter\":[],\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.index\"}"
+        }
+      },
+      "references": [
+        {
+          "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
+          "type": "index-pattern",
+          "id": "fe15df20-fe5b-11ef-aec9-21931cdd3536"
+        },
+        {
+          "id": "65fff420-41e3-11f0-98b5-6fd4cf3fbaf0",
+          "type": "tag",
+          "name": "tag-65fff420-41e3-11f0-98b5-6fd4cf3fbaf0"
+        },
+        {
+          "id": "e2b15130-6a89-11ef-99e9-d73145b59914",
+          "type": "tag",
+          "name": "tag-e2b15130-6a89-11ef-99e9-d73145b59914"
+        }
+      ],
+      "migrationVersion": {
+        "visualization": "7.14.0"
+      },
+      "coreMigrationVersion": "7.14.1"
+    },
+    {
+      "id": "a23bce10-5bd7-11f0-b4e2-fb302a6d6e68",
+      "type": "visualization",
+      "namespaces": [
+        "inist-cnrs-portails"
+      ],
+      "updated_at": "2025-09-10T09:18:08.158Z",
+      "version": "WzE5MjQxOTgsOF0=",
+      "attributes": {
+        "title": "C&R : Articles fournis par l'établissement",
+        "visState": "{\"title\":\"C&R : Articles fournis par l'établissement\",\"type\":\"markdown\",\"aggs\":[],\"params\":{\"fontSize\":12,\"markdown\":\"### 4. Consultations d'articles fournis par votre établissement :\\n\\nPour obtenir les statistiques concernant les consultations d'articles fournis par votre établissement, cliquez sur l'intitulé de votre établissement dans le graphique 2 ci-dessus. Dans la pop-up, décochez \\\"INSTITUTIONS PARTENAIRES\\\" puis cliquez sur APPLY.\\n\\nTous les chiffres et les graphiques se modifieront en fonction de ce filtre.\\n\\nPour revenir à la visualisation générale, supprimez le filtre \\\"source: nom de votre établissement\\\" affiché en haut à gauche de ce tableau de bord.\",\"openLinksInNewTab\":false}}",
+        "uiStateJSON": "{}",
+        "description": "",
+        "version": 1,
+        "kibanaSavedObjectMeta": {
+          "searchSourceJSON": "{\"query\":{\"language\":\"kuery\",\"query\":\"\"},\"filter\":[]}"
+        }
+      },
+      "references": [
+        {
+          "id": "65fff420-41e3-11f0-98b5-6fd4cf3fbaf0",
+          "type": "tag",
+          "name": "tag-65fff420-41e3-11f0-98b5-6fd4cf3fbaf0"
+        },
+        {
+          "id": "e2b15130-6a89-11ef-99e9-d73145b59914",
+          "type": "tag",
+          "name": "tag-e2b15130-6a89-11ef-99e9-d73145b59914"
+        }
+      ],
+      "migrationVersion": {
+        "visualization": "7.14.0"
+      },
+      "coreMigrationVersion": "7.14.1"
+    },
+    {
+      "id": "65fff420-41e3-11f0-98b5-6fd4cf3fbaf0",
+      "type": "tag",
+      "namespaces": [
+        "inist-cnrs-portails"
+      ],
+      "updated_at": "2025-06-05T08:02:17.317Z",
+      "version": "WzE5MDAyNzYsOF0=",
+      "attributes": {
+        "name": "établissement",
+        "description": "",
+        "color": "#D6BF57"
+      },
+      "references": [],
+      "coreMigrationVersion": "7.14.1"
+    },
+    {
+      "id": "e2b15130-6a89-11ef-99e9-d73145b59914",
+      "type": "tag",
+      "namespaces": [
+        "inist-cnrs-portails"
+      ],
+      "updated_at": "2025-03-11T10:21:17.853Z",
+      "version": "WzE5MDc1ODksOF0=",
+      "attributes": {
+        "color": "#5fff8a",
+        "description": "",
+        "name": "clickandread"
+      },
+      "references": [],
+      "coreMigrationVersion": "7.14.1"
+    },
+    {
+      "id": "b9f60840-f6c2-11ec-871c-618dc17b393f",
+      "type": "tag",
+      "namespaces": [
+        "inist-cnrs-portails"
+      ],
+      "updated_at": "2025-03-11T10:21:17.853Z",
+      "version": "WzE5MDc1MzIsOF0=",
+      "attributes": {
+        "color": "#07db57",
+        "description": "",
+        "name": "validé"
+      },
+      "references": [],
+      "coreMigrationVersion": "7.14.1"
+    }
+  ]
+}
