@@ -7,8 +7,8 @@
       "namespaces": [
         "inist-cnrs-portails"
       ],
-      "updated_at": "2025-09-10T09:21:11.181Z",
-      "version": "WzE5MjQyMDEsOF0=",
+      "updated_at": "2025-09-19T08:56:27.883Z",
+      "version": "WzE5ODEyODMsOF0=",
       "attributes": {
         "title": "Click and Read : generic établissement partenaire",
         "hits": 0,
@@ -24,15 +24,10 @@
           "value": 0
         },
         "kibanaSavedObjectMeta": {
-          "searchSourceJSON": "{\"query\":{\"query\":\"\",\"language\":\"kuery\"},\"filter\":[{\"meta\":{\"alias\":null,\"negate\":false,\"disabled\":false,\"type\":\"phrase\",\"key\":\"sources\",\"params\":{\"query\":\"LYON 1\"},\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.filter[0].meta.index\"},\"query\":{\"match_phrase\":{\"sources\":\"LYON 1\"}},\"$state\":{\"store\":\"appState\"}}]}"
+          "searchSourceJSON": "{\"query\":{\"query\":\"\",\"language\":\"kuery\"},\"filter\":[]}"
         }
       },
       "references": [
-        {
-          "name": "kibanaSavedObjectMeta.searchSourceJSON.filter[0].meta.index",
-          "type": "index-pattern",
-          "id": "fe15df20-fe5b-11ef-aec9-21931cdd3536"
-        },
         {
           "name": "6ae74c61-5eae-4207-bb5e-e92fe2553d08:panel_6ae74c61-5eae-4207-bb5e-e92fe2553d08",
           "type": "visualization",
