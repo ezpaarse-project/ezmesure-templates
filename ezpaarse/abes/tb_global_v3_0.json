@@ -13,7 +13,7 @@
         "title": "TB_Global_v3_0",
         "hits": 0,
         "description": "Tableau de bord Global à destination des établissements. \nEnsemble des statistiques de consultation de theses.fr concernant les pages de thèses, les téléchargements de thèses mais aussi les pages personnes et les pages organisme.\n\nannée précédente",
-        "panelsJSON": "[{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":0,\"y\":0,\"w\":24,\"h\":35,\"i\":\"a79509a1-2e88-4992-bbe4-7d0978a2636d\"},\"panelIndex\":\"a79509a1-2e88-4992-bbe4-7d0978a2636d\",\"embeddableConfig\":{\"savedVis\":{\"title\":\"\",\"description\":\"\",\"type\":\"markdown\",\"params\":{\"fontSize\":14,\"openLinksInNewTab\":true,\"markdown\":\"Bienvenue sur le tableau de bord présentant les statistiques de consultations du site theses.fr !\\n\\nCe tableau de bord est proposé par l'Abes. Il s'adresse aux établissements habilités à délivrer le doctorat et leur permet d'accéder aux statistiques de consultation des thèses de leur établissement, de les filtrer et de les comparer avec celles des autres établissements ou avec les statistiques nationales.\\n\\n**ATTENTION** : le présent tableau de bord ne permet pas de visualiser l'état de la base de données de theses.fr, mais seulement les données relatives aux pages de thèses qui ont été consultées ou aux fichiers de thèses qui ont été téléchargés.\\n\\nLes statistiques sont disponibles pour les données suivantes :\\n  - nombre de notices de thèses vues ;\\n  - nombre de thèses téléchargées en accès libre ;\\n  - nombre de thèses téléchargées sur l'intranet national ;\\n  - nombre de pages de personnes vues ;\\n  - nombre de pages d'organismes vues.\\n\\nLes pages de theses.fr peuvent être consultées :\\n- par des humains via l'interface de theses.fr (HTML) ;\\n- par des machines via une API (Json).\\n\\n**ATTENTION** : les statistiques sont complètes avec un **décalage de 10 jours** (ainsi les statistiques d'un jour n sont complètes à n+10).\\n\\n- **Accéder à la documentation du tableau de bord** : https://documentation.abes.fr/aidethesesfr/ezmesure/index.html\"},\"uiState\":{},\"data\":{\"aggs\":[],\"searchSource\":{\"query\":{\"query\":\"\",\"language\":\"kuery\"},\"filter\":[]}}},\"hidePanelTitles\":false,\"enhancements\":{}},\"title\":\"Statistisques de consultation de theses.fr\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":24,\"y\":0,\"w\":24,\"h\":9,\"i\":\"e3a63179-e9f4-415f-9e60-62e687cf0a85\"},\"panelIndex\":\"e3a63179-e9f4-415f-9e60-62e687cf0a85\",\"embeddableConfig\":{\"savedVis\":{\"title\":\"\",\"description\":\"\",\"type\":\"metric\",\"params\":{\"addTooltip\":true,\"addLegend\":false,\"type\":\"metric\",\"metric\":{\"percentageMode\":false,\"useRanges\":false,\"colorSchema\":\"Green to Red\",\"metricColorMode\":\"None\",\"colorsRange\":[{\"from\":0,\"to\":10000}],\"labels\":{\"show\":true},\"invertColors\":false,\"style\":{\"bgFill\":\"#000\",\"bgColor\":false,\"labelColor\":false,\"subText\":\"\",\"fontSize\":19}}},\"uiState\":{},\"data\":{\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"params\":{\"customLabel\":\"Nombre de consultations\"},\"schema\":\"metric\"},{\"id\":\"3\",\"enabled\":true,\"type\":\"min\",\"params\":{\"field\":\"datetime\",\"customLabel\":\"Depuis le\"},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"max\",\"params\":{\"field\":\"datetime\",\"customLabel\":\"jusqu'au\"},\"schema\":\"metric\"}],\"searchSource\":{\"index\":\"cd564590-8198-11ef-83ba-f3a1d08225ea\",\"query\":{\"query\":\"\",\"language\":\"kuery\"},\"filter\":[{\"$state\":{\"store\":\"appState\"},\"meta\":{\"alias\":null,\"disabled\":false,\"index\":\"cd564590-8198-11ef-83ba-f3a1d08225ea\",\"key\":\"rtype\",\"negate\":true,\"params\":[\"RECORD\",\"OTHER\"],\"type\":\"phrases\"},\"query\":{\"bool\":{\"minimum_should_match\":1,\"should\":[{\"match_phrase\":{\"rtype\":\"RECORD\"}},{\"match_phrase\":{\"rtype\":\"OTHER\"}}]}}}]}}},\"enhancements\":{},\"hidePanelTitles\":false},\"title\":\"evénement de consultation pour l'ensemble des établissements\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":24,\"y\":9,\"w\":24,\"h\":5,\"i\":\"7d9e89b0-ab88-4607-9d2d-8beaa2a14252\"},\"panelIndex\":\"7d9e89b0-ab88-4607-9d2d-8beaa2a14252\",\"embeddableConfig\":{\"savedVis\":{\"title\":\"\",\"description\":\"\",\"type\":\"metric\",\"params\":{\"addTooltip\":true,\"addLegend\":false,\"type\":\"metric\",\"metric\":{\"percentageMode\":false,\"useRanges\":false,\"colorSchema\":\"Green to Red\",\"metricColorMode\":\"None\",\"colorsRange\":[{\"from\":0,\"to\":10000}],\"labels\":{\"show\":true},\"invertColors\":false,\"style\":{\"bgFill\":\"#000\",\"bgColor\":false,\"labelColor\":false,\"subText\":\"\",\"fontSize\":19}}},\"uiState\":{},\"data\":{\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"params\":{\"customLabel\":\"Consultations de notices de thèses\"},\"schema\":\"metric\"}],\"searchSource\":{\"index\":\"cd564590-8198-11ef-83ba-f3a1d08225ea\",\"query\":{\"query\":\"\",\"language\":\"kuery\"},\"filter\":[{\"$state\":{\"store\":\"appState\"},\"meta\":{\"alias\":\"Notices de thèses\",\"disabled\":false,\"index\":\"cd564590-8198-11ef-83ba-f3a1d08225ea\",\"key\":\"rtype\",\"negate\":false,\"params\":{\"query\":\"ABS\"},\"type\":\"phrase\"},\"query\":{\"match_phrase\":{\"rtype\":\"ABS\"}}}]}}},\"enhancements\":{},\"hidePanelTitles\":false},\"title\":\"Dont notices de thèses\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":24,\"y\":14,\"w\":24,\"h\":6,\"i\":\"c65893a1-ad2a-4781-9dff-144f12bdf905\"},\"panelIndex\":\"c65893a1-ad2a-4781-9dff-144f12bdf905\",\"embeddableConfig\":{\"savedVis\":{\"title\":\"\",\"description\":\"\",\"type\":\"metric\",\"params\":{\"addTooltip\":true,\"addLegend\":false,\"type\":\"metric\",\"metric\":{\"percentageMode\":false,\"useRanges\":false,\"colorSchema\":\"Green to Red\",\"metricColorMode\":\"None\",\"colorsRange\":[{\"from\":0,\"to\":10000}],\"labels\":{\"show\":true},\"invertColors\":false,\"style\":{\"bgFill\":\"#000\",\"bgColor\":false,\"labelColor\":false,\"subText\":\"\",\"fontSize\":19}}},\"uiState\":{},\"data\":{\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"params\":{\"customLabel\":\"Nombre de clics sur les boutons \\\"Accès en ligne\\\" et \\\"Accès réservé\\\"\"},\"schema\":\"metric\"}],\"searchSource\":{\"index\":\"cd564590-8198-11ef-83ba-f3a1d08225ea\",\"query\":{\"query\":\"\",\"language\":\"kuery\"},\"filter\":[{\"$state\":{\"store\":\"appState\"},\"meta\":{\"alias\":\"Téléchargements de thèses\",\"disabled\":false,\"index\":\"cd564590-8198-11ef-83ba-f3a1d08225ea\",\"key\":\"rtype\",\"negate\":false,\"params\":{\"query\":\"PHD_THESIS\"},\"type\":\"phrase\"},\"query\":{\"match_phrase\":{\"rtype\":\"PHD_THESIS\"}}}]}}},\"enhancements\":{},\"hidePanelTitles\":false},\"title\":\"Dont téléchargements de thèses en accès libre et restreint\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":24,\"y\":20,\"w\":12,\"h\":8,\"i\":\"17386cf8-fade-437c-9436-772e5368679c\"},\"panelIndex\":\"17386cf8-fade-437c-9436-772e5368679c\",\"embeddableConfig\":{\"savedVis\":{\"title\":\"\",\"description\":\"\",\"type\":\"metric\",\"params\":{\"addTooltip\":true,\"addLegend\":false,\"type\":\"metric\",\"metric\":{\"percentageMode\":false,\"useRanges\":false,\"colorSchema\":\"Green to Red\",\"metricColorMode\":\"None\",\"colorsRange\":[{\"from\":0,\"to\":10000}],\"labels\":{\"show\":true},\"invertColors\":false,\"style\":{\"bgFill\":\"#000\",\"bgColor\":false,\"labelColor\":false,\"subText\":\"\",\"fontSize\":19}}},\"uiState\":{},\"data\":{\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"params\":{\"customLabel\":\"Nombre de clics sur le bouton \\\"Accès en ligne\\\"\"},\"schema\":\"metric\"}],\"searchSource\":{\"index\":\"cd564590-8198-11ef-83ba-f3a1d08225ea\",\"query\":{\"query\":\"NOT url: /api/v1/document/protected*\",\"language\":\"kuery\"},\"filter\":[{\"$state\":{\"store\":\"appState\"},\"meta\":{\"alias\":\"Téléchargements de thèses\",\"disabled\":false,\"index\":\"cd564590-8198-11ef-83ba-f3a1d08225ea\",\"key\":\"rtype\",\"negate\":false,\"params\":{\"query\":\"PHD_THESIS\"},\"type\":\"phrase\"},\"query\":{\"match_phrase\":{\"rtype\":\"PHD_THESIS\"}}}]}}},\"enhancements\":{},\"hidePanelTitles\":false},\"title\":\"Dont téléchargements de thèses en accès libre\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":36,\"y\":20,\"w\":12,\"h\":8,\"i\":\"b71ab0f2-1049-4066-8ccd-82e301542251\"},\"panelIndex\":\"b71ab0f2-1049-4066-8ccd-82e301542251\",\"embeddableConfig\":{\"savedVis\":{\"title\":\"\",\"description\":\"\",\"type\":\"metric\",\"params\":{\"addTooltip\":true,\"addLegend\":false,\"type\":\"metric\",\"metric\":{\"percentageMode\":false,\"useRanges\":false,\"colorSchema\":\"Green to Red\",\"metricColorMode\":\"None\",\"colorsRange\":[{\"from\":0,\"to\":10000}],\"labels\":{\"show\":true},\"invertColors\":false,\"style\":{\"bgFill\":\"#000\",\"bgColor\":false,\"labelColor\":false,\"subText\":\"\",\"fontSize\":19}}},\"uiState\":{},\"data\":{\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"params\":{\"customLabel\":\"Nombre de clics sur le bouton \\\"Accès réservé\\\"\"},\"schema\":\"metric\"}],\"searchSource\":{\"index\":\"cd564590-8198-11ef-83ba-f3a1d08225ea\",\"query\":{\"query\":\"url: /api/v1/document/protected*\",\"language\":\"kuery\"},\"filter\":[{\"$state\":{\"store\":\"appState\"},\"meta\":{\"alias\":\"Téléchargements de thèses\",\"disabled\":false,\"index\":\"cd564590-8198-11ef-83ba-f3a1d08225ea\",\"key\":\"rtype\",\"negate\":false,\"params\":{\"query\":\"PHD_THESIS\"},\"type\":\"phrase\"},\"query\":{\"match_phrase\":{\"rtype\":\"PHD_THESIS\"}}}]}}},\"enhancements\":{},\"hidePanelTitles\":false},\"title\":\"Dont téléchargements de thèses en accès restreint\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":24,\"y\":28,\"w\":12,\"h\":7,\"i\":\"02a9e4dd-65cd-4dae-ab3b-d3aba36a04a0\"},\"panelIndex\":\"02a9e4dd-65cd-4dae-ab3b-d3aba36a04a0\",\"embeddableConfig\":{\"hidePanelTitles\":false,\"enhancements\":{}},\"title\":\"Dont nombre de pages personne vues\",\"panelRefName\":\"panel_02a9e4dd-65cd-4dae-ab3b-d3aba36a04a0\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":36,\"y\":28,\"w\":12,\"h\":7,\"i\":\"6851759f-1014-4ebe-8e26-67ff03dbf224\"},\"panelIndex\":\"6851759f-1014-4ebe-8e26-67ff03dbf224\",\"embeddableConfig\":{\"hidePanelTitles\":false,\"enhancements\":{}},\"title\":\"Dont nombre de pages organisme vues\",\"panelRefName\":\"panel_6851759f-1014-4ebe-8e26-67ff03dbf224\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":0,\"y\":35,\"w\":10,\"h\":17,\"i\":\"5caea48c-ea44-4ebe-80d5-99d43013e2b1\"},\"panelIndex\":\"5caea48c-ea44-4ebe-80d5-99d43013e2b1\",\"embeddableConfig\":{\"enhancements\":{},\"hidePanelTitles\":false},\"title\":\"Filtrer les thèses consultées par profil de thèse\",\"panelRefName\":\"panel_5caea48c-ea44-4ebe-80d5-99d43013e2b1\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":10,\"y\":35,\"w\":20,\"h\":17,\"i\":\"ec3c8104-1e80-490e-8d81-abd11633f30b\"},\"panelIndex\":\"ec3c8104-1e80-490e-8d81-abd11633f30b\",\"embeddableConfig\":{\"enhancements\":{},\"hidePanelTitles\":false},\"title\":\"Filtrer les thèses consultées par organisme\",\"panelRefName\":\"panel_ec3c8104-1e80-490e-8d81-abd11633f30b\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":30,\"y\":35,\"w\":18,\"h\":17,\"i\":\"cea3c562-f22f-44ce-8b20-da446427b952\"},\"panelIndex\":\"cea3c562-f22f-44ce-8b20-da446427b952\",\"embeddableConfig\":{\"enhancements\":{},\"hidePanelTitles\":false},\"title\":\"Filtrer les thèses consultées par personne\",\"panelRefName\":\"panel_cea3c562-f22f-44ce-8b20-da446427b952\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":0,\"y\":52,\"w\":24,\"h\":6,\"i\":\"0f333f4e-c624-4a71-b3e0-35b7f2cf29c4\"},\"panelIndex\":\"0f333f4e-c624-4a71-b3e0-35b7f2cf29c4\",\"embeddableConfig\":{\"enhancements\":{},\"hidePanelTitles\":false},\"title\":\"Filtrer les pages organismes vues\",\"panelRefName\":\"panel_0f333f4e-c624-4a71-b3e0-35b7f2cf29c4\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":24,\"y\":52,\"w\":24,\"h\":6,\"i\":\"9ff3df40-c0e6-47d7-9d8d-97b62cd8e849\"},\"panelIndex\":\"9ff3df40-c0e6-47d7-9d8d-97b62cd8e849\",\"embeddableConfig\":{\"enhancements\":{},\"hidePanelTitles\":false},\"title\":\"Filtrer les pages personnes vues\",\"panelRefName\":\"panel_9ff3df40-c0e6-47d7-9d8d-97b62cd8e849\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":0,\"y\":58,\"w\":26,\"h\":16,\"i\":\"f5b73e56-e87b-4594-84af-e70b1e87ce76\"},\"panelIndex\":\"f5b73e56-e87b-4594-84af-e70b1e87ce76\",\"embeddableConfig\":{\"savedVis\":{\"title\":\"\",\"description\":\"\",\"type\":\"pie\",\"params\":{\"type\":\"pie\",\"addTooltip\":true,\"addLegend\":false,\"legendPosition\":\"right\",\"nestedLegend\":false,\"distinctColors\":false,\"isDonut\":true,\"palette\":{\"type\":\"palette\",\"name\":\"default\"},\"labels\":{\"show\":true,\"last_level\":false,\"values\":true,\"valuesFormat\":\"percent\",\"percentDecimals\":2,\"truncate\":100,\"position\":\"default\"}},\"uiState\":{\"vis\":{\"legendOpen\":false}},\"data\":{\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"params\":{},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"params\":{\"field\":\"statut\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":5,\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\"},\"schema\":\"segment\"}],\"searchSource\":{\"index\":\"cd564590-8198-11ef-83ba-f3a1d08225ea\",\"query\":{\"query\":\"\",\"language\":\"kuery\"},\"filter\":[{\"$state\":{\"store\":\"appState\"},\"meta\":{\"alias\":null,\"disabled\":false,\"index\":\"cd564590-8198-11ef-83ba-f3a1d08225ea\",\"key\":\"statut\",\"negate\":true,\"params\":[\"NOT_FOUND\",\"sans objet\"],\"type\":\"phrases\"},\"query\":{\"bool\":{\"minimum_should_match\":1,\"should\":[{\"match_phrase\":{\"statut\":\"NOT_FOUND\"}},{\"match_phrase\":{\"statut\":\"sans objet\"}}]}}}]}}},\"hidePanelTitles\":false,\"enhancements\":{}},\"title\":\"Statut des thèses consultées\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":26,\"y\":58,\"w\":22,\"h\":16,\"i\":\"e589f442-2f09-4e00-9bf5-c054f0ba937f\"},\"panelIndex\":\"e589f442-2f09-4e00-9bf5-c054f0ba937f\",\"embeddableConfig\":{\"savedVis\":{\"title\":\"\",\"description\":\"\",\"type\":\"pie\",\"params\":{\"type\":\"pie\",\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"nestedLegend\":false,\"distinctColors\":false,\"isDonut\":true,\"palette\":{\"type\":\"palette\",\"name\":\"default\"},\"labels\":{\"show\":true,\"last_level\":false,\"values\":true,\"valuesFormat\":\"percent\",\"percentDecimals\":2,\"truncate\":100,\"position\":\"default\"},\"row\":true},\"uiState\":{\"vis\":{\"legendOpen\":true}},\"data\":{\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"params\":{},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"filters\",\"params\":{\"filters\":[{\"input\":{\"query\":\"rtype : \\\"ABS\\\" \",\"language\":\"kuery\"},\"label\":\"Notices de thèses\"},{\"input\":{\"query\":\"rtype :\\\"BIO\\\" \",\"language\":\"kuery\"},\"label\":\"Notices de personnes\"},{\"input\":{\"query\":\"rtype : \\\"PHD_THESIS\\\" \",\"language\":\"kuery\"},\"label\":\"Téléchargements de thèses\"},{\"input\":{\"query\":\"rtype :\\\"ORGANISME\\\" \",\"language\":\"kuery\"},\"label\":\"Notices d'organismes\"}]},\"schema\":\"segment\"}],\"searchSource\":{\"index\":\"cd564590-8198-11ef-83ba-f3a1d08225ea\",\"query\":{\"query\":\"\",\"language\":\"kuery\"},\"filter\":[]}}},\"hidePanelTitles\":false,\"enhancements\":{},\"vis\":{\"legendOpen\":true},\"table\":null},\"title\":\"Typologie des pages consultées\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":0,\"y\":74,\"w\":48,\"h\":20,\"i\":\"c5b45080-7b8f-4cb5-827d-966c0fe57281\"},\"panelIndex\":\"c5b45080-7b8f-4cb5-827d-966c0fe57281\",\"embeddableConfig\":{\"savedVis\":{\"title\":\"\",\"description\":\"\",\"type\":\"histogram\",\"params\":{\"type\":\"histogram\",\"grid\":{\"categoryLines\":true,\"valueAxis\":\"ValueAxis-1\"},\"categoryAxes\":[{\"id\":\"CategoryAxis-1\",\"type\":\"category\",\"position\":\"bottom\",\"show\":true,\"scale\":{\"type\":\"linear\"},\"labels\":{\"show\":true,\"filter\":false,\"truncate\":100},\"title\":{},\"style\":{}}],\"valueAxes\":[{\"id\":\"ValueAxis-1\",\"name\":\"LeftAxis-1\",\"type\":\"value\",\"position\":\"left\",\"show\":true,\"scale\":{\"type\":\"linear\",\"mode\":\"normal\"},\"labels\":{\"show\":true,\"rotate\":0,\"filter\":true,\"truncate\":100},\"title\":{\"text\":\"Consultation\"},\"style\":{}}],\"seriesParams\":[{\"show\":true,\"type\":\"histogram\",\"mode\":\"stacked\",\"data\":{\"label\":\"Consultation\",\"id\":\"1\"},\"interpolate\":\"linear\",\"valueAxis\":\"ValueAxis-1\",\"drawLinesBetweenPoints\":true,\"lineWidth\":2,\"showCircles\":true,\"circlesRadius\":3}],\"radiusRatio\":0,\"addTooltip\":true,\"detailedTooltip\":true,\"palette\":{\"type\":\"palette\",\"name\":\"default\"},\"addLegend\":true,\"legendPosition\":\"right\",\"times\":[],\"addTimeMarker\":false,\"labels\":{\"show\":true},\"thresholdLine\":{\"show\":false,\"value\":25,\"width\":1,\"style\":\"full\",\"color\":\"#54B399\"},\"orderBucketsBySum\":false},\"uiState\":{},\"data\":{\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"params\":{\"customLabel\":\"Consultation\"},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"date_histogram\",\"params\":{\"field\":\"datetime\",\"timeRange\":{\"from\":\"now-2y\",\"to\":\"now\"},\"useNormalizedEsInterval\":true,\"scaleMetricValues\":false,\"interval\":\"M\",\"used_interval\":\"1M\",\"drop_partials\":true,\"min_doc_count\":1,\"extended_bounds\":{},\"customLabel\":\"Mois\"},\"schema\":\"segment\"}],\"searchSource\":{\"index\":\"cd564590-8198-11ef-83ba-f3a1d08225ea\",\"query\":{\"query\":\"\",\"language\":\"kuery\"},\"filter\":[]}}},\"hidePanelTitles\":false,\"enhancements\":{}},\"title\":\"Nombre de consultations par mois\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":0,\"y\":94,\"w\":48,\"h\":13,\"i\":\"ebf9ffe2-d21e-4f13-b747-22d98ea1ba77\"},\"panelIndex\":\"ebf9ffe2-d21e-4f13-b747-22d98ea1ba77\",\"embeddableConfig\":{\"enhancements\":{},\"hidePanelTitles\":false,\"vis\":{\"params\":{\"colWidth\":[{\"colIndex\":0,\"width\":134.5},{\"colIndex\":1,\"width\":210.5},{\"colIndex\":2,\"width\":299.5},{\"colIndex\":3,\"width\":157.75}]}},\"table\":null},\"title\":\"Notices de thèses soutenues les plus consultées \",\"panelRefName\":\"panel_ebf9ffe2-d21e-4f13-b747-22d98ea1ba77\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":0,\"y\":107,\"w\":48,\"h\":13,\"i\":\"aab2e083-5c59-4113-aa61-e013e998d2ef\"},\"panelIndex\":\"aab2e083-5c59-4113-aa61-e013e998d2ef\",\"embeddableConfig\":{\"enhancements\":{},\"hidePanelTitles\":false,\"vis\":{\"params\":{\"colWidth\":[{\"colIndex\":0,\"width\":134.5},{\"colIndex\":1,\"width\":210.5},{\"colIndex\":2,\"width\":299.5},{\"colIndex\":3,\"width\":157.75}]}},\"table\":null},\"title\":\"Thèses soutenues les plus téléchargées (Open Access)\",\"panelRefName\":\"panel_aab2e083-5c59-4113-aa61-e013e998d2ef\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":0,\"y\":120,\"w\":48,\"h\":13,\"i\":\"fa404ba3-1d30-41eb-9312-5cb502127850\"},\"panelIndex\":\"fa404ba3-1d30-41eb-9312-5cb502127850\",\"embeddableConfig\":{\"enhancements\":{},\"hidePanelTitles\":false,\"vis\":{\"params\":{\"colWidth\":[{\"colIndex\":0,\"width\":134.5},{\"colIndex\":1,\"width\":210.5},{\"colIndex\":2,\"width\":299.5},{\"colIndex\":3,\"width\":157.75}]}},\"table\":null},\"title\":\"Thèses soutenues les plus téléchargées (Accès sous authentification)\",\"panelRefName\":\"panel_fa404ba3-1d30-41eb-9312-5cb502127850\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":0,\"y\":133,\"w\":48,\"h\":17,\"i\":\"dbc6927e-75e0-416b-85da-4ea9bbfdc457\"},\"panelIndex\":\"dbc6927e-75e0-416b-85da-4ea9bbfdc457\",\"embeddableConfig\":{\"enhancements\":{},\"hidePanelTitles\":false,\"vis\":{\"params\":{\"colWidth\":[{\"colIndex\":0,\"width\":150.5},{\"colIndex\":2,\"width\":284.5},{\"colIndex\":1,\"width\":229},{\"colIndex\":3,\"width\":208}],\"sort\":{\"columnIndex\":5,\"direction\":\"desc\"}}},\"table\":null},\"title\":\"Notices de thèses en préparation les plus consultées \",\"panelRefName\":\"panel_dbc6927e-75e0-416b-85da-4ea9bbfdc457\"},{\"version\":\"7.14.1\",\"type\":\"lens\",\"gridData\":{\"x\":0,\"y\":150,\"w\":27,\"h\":15,\"i\":\"bd135aea-b71e-4d67-b16f-e66325345e9d\"},\"panelIndex\":\"bd135aea-b71e-4d67-b16f-e66325345e9d\",\"embeddableConfig\":{\"attributes\":{\"title\":\"\",\"type\":\"lens\",\"visualizationType\":\"lnsPie\",\"state\":{\"datasourceStates\":{\"indexpattern\":{\"layers\":{\"c3f09d62-bc2a-45d1-9062-6b825a151a9e\":{\"columns\":{\"e9ec8bb4-7bdf-418c-8ece-e3a8cc587bd2\":{\"label\":\"Top values of discipline\",\"dataType\":\"string\",\"operationType\":\"terms\",\"scale\":\"ordinal\",\"sourceField\":\"discipline\",\"isBucketed\":true,\"params\":{\"size\":100,\"orderBy\":{\"type\":\"column\",\"columnId\":\"18edee0d-c056-4e89-9fd4-4a7b073208fc\"},\"orderDirection\":\"desc\",\"otherBucket\":true,\"missingBucket\":false}},\"18edee0d-c056-4e89-9fd4-4a7b073208fc\":{\"label\":\"Count of records\",\"dataType\":\"number\",\"operationType\":\"count\",\"isBucketed\":false,\"scale\":\"ratio\",\"sourceField\":\"Records\"}},\"columnOrder\":[\"e9ec8bb4-7bdf-418c-8ece-e3a8cc587bd2\",\"18edee0d-c056-4e89-9fd4-4a7b073208fc\"],\"incompleteColumns\":{}}}}},\"visualization\":{\"shape\":\"treemap\",\"layers\":[{\"layerId\":\"c3f09d62-bc2a-45d1-9062-6b825a151a9e\",\"groups\":[\"e9ec8bb4-7bdf-418c-8ece-e3a8cc587bd2\"],\"metric\":\"18edee0d-c056-4e89-9fd4-4a7b073208fc\",\"numberDisplay\":\"percent\",\"categoryDisplay\":\"default\",\"legendDisplay\":\"default\",\"nestedLegend\":false}]},\"query\":{\"query\":\"\",\"language\":\"kuery\"},\"filters\":[{\"meta\":{\"type\":\"phrases\",\"key\":\"rtype\",\"params\":[\"PHD_THESIS\",\"ABS\"],\"alias\":null,\"negate\":false,\"disabled\":false,\"indexRefName\":\"filter-index-pattern-0\"},\"query\":{\"bool\":{\"should\":[{\"match_phrase\":{\"rtype\":\"PHD_THESIS\"}},{\"match_phrase\":{\"rtype\":\"ABS\"}}],\"minimum_should_match\":1}},\"$state\":{\"store\":\"appState\"}}]},\"references\":[{\"type\":\"index-pattern\",\"id\":\"cd564590-8198-11ef-83ba-f3a1d08225ea\",\"name\":\"indexpattern-datasource-current-indexpattern\"},{\"type\":\"index-pattern\",\"id\":\"cd564590-8198-11ef-83ba-f3a1d08225ea\",\"name\":\"indexpattern-datasource-layer-c3f09d62-bc2a-45d1-9062-6b825a151a9e\"},{\"name\":\"filter-index-pattern-0\",\"type\":\"index-pattern\",\"id\":\"cd564590-8198-11ef-83ba-f3a1d08225ea\"}]},\"hidePanelTitles\":false,\"enhancements\":{}},\"title\":\"Ventilation par disciplines des thèses consultées et téléchargées\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":27,\"y\":150,\"w\":21,\"h\":45,\"i\":\"14fe551b-85c6-46ee-b3d4-bb9cdeb0ab76\"},\"panelIndex\":\"14fe551b-85c6-46ee-b3d4-bb9cdeb0ab76\",\"embeddableConfig\":{\"savedVis\":{\"title\":\"\",\"description\":\"\",\"type\":\"tagcloud\",\"params\":{\"scale\":\"linear\",\"orientation\":\"single\",\"minFontSize\":11,\"maxFontSize\":54,\"showLabel\":true,\"palette\":{\"type\":\"palette\",\"name\":\"default\"}},\"uiState\":{},\"data\":{\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"params\":{\"customLabel\":\"Disciplines des thèses les plus consultées\"},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"params\":{\"field\":\"discipline\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":50,\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":false,\"missingBucketLabel\":\"Discipline non renseignée\",\"customLabel\":\"Nuage de Mots\"},\"schema\":\"segment\"}],\"searchSource\":{\"index\":\"cd564590-8198-11ef-83ba-f3a1d08225ea\",\"query\":{\"query\":\"\",\"language\":\"kuery\"},\"filter\":[{\"$state\":{\"store\":\"appState\"},\"meta\":{\"alias\":null,\"disabled\":false,\"index\":\"cd564590-8198-11ef-83ba-f3a1d08225ea\",\"key\":\"rtype\",\"negate\":false,\"params\":[\"ABS\",\"PHD_THESIS\"],\"type\":\"phrases\"},\"query\":{\"bool\":{\"minimum_should_match\":1,\"should\":[{\"match_phrase\":{\"rtype\":\"ABS\"}},{\"match_phrase\":{\"rtype\":\"PHD_THESIS\"}}]}}}]}}},\"hidePanelTitles\":false,\"enhancements\":{}},\"title\":\"Visualisation des disciplines des thèses les plus consultées\"},{\"version\":\"7.14.1\",\"type\":\"lens\",\"gridData\":{\"x\":0,\"y\":165,\"w\":27,\"h\":15,\"i\":\"c3ca55bc-e514-422d-99f6-2bf097ef275b\"},\"panelIndex\":\"c3ca55bc-e514-422d-99f6-2bf097ef275b\",\"embeddableConfig\":{\"attributes\":{\"title\":\"\",\"type\":\"lens\",\"visualizationType\":\"lnsPie\",\"state\":{\"datasourceStates\":{\"indexpattern\":{\"layers\":{\"c3f09d62-bc2a-45d1-9062-6b825a151a9e\":{\"columns\":{\"e9ec8bb4-7bdf-418c-8ece-e3a8cc587bd2\":{\"label\":\"Top values of discipline\",\"dataType\":\"string\",\"operationType\":\"terms\",\"scale\":\"ordinal\",\"sourceField\":\"discipline\",\"isBucketed\":true,\"params\":{\"size\":100,\"orderBy\":{\"type\":\"column\",\"columnId\":\"18edee0d-c056-4e89-9fd4-4a7b073208fc\"},\"orderDirection\":\"desc\",\"otherBucket\":true,\"missingBucket\":false}},\"18edee0d-c056-4e89-9fd4-4a7b073208fc\":{\"label\":\"Count of records\",\"dataType\":\"number\",\"operationType\":\"count\",\"isBucketed\":false,\"scale\":\"ratio\",\"sourceField\":\"Records\"}},\"columnOrder\":[\"e9ec8bb4-7bdf-418c-8ece-e3a8cc587bd2\",\"18edee0d-c056-4e89-9fd4-4a7b073208fc\"],\"incompleteColumns\":{}}}}},\"visualization\":{\"shape\":\"treemap\",\"layers\":[{\"layerId\":\"c3f09d62-bc2a-45d1-9062-6b825a151a9e\",\"groups\":[\"e9ec8bb4-7bdf-418c-8ece-e3a8cc587bd2\"],\"metric\":\"18edee0d-c056-4e89-9fd4-4a7b073208fc\",\"numberDisplay\":\"percent\",\"categoryDisplay\":\"default\",\"legendDisplay\":\"default\",\"nestedLegend\":false}]},\"query\":{\"query\":\"\",\"language\":\"kuery\"},\"filters\":[{\"meta\":{\"alias\":null,\"negate\":false,\"disabled\":false,\"type\":\"phrase\",\"key\":\"rtype\",\"params\":{\"query\":\"ABS\"},\"indexRefName\":\"filter-index-pattern-0\"},\"query\":{\"match_phrase\":{\"rtype\":\"ABS\"}},\"$state\":{\"store\":\"appState\"}}]},\"references\":[{\"type\":\"index-pattern\",\"id\":\"cd564590-8198-11ef-83ba-f3a1d08225ea\",\"name\":\"indexpattern-datasource-current-indexpattern\"},{\"type\":\"index-pattern\",\"id\":\"cd564590-8198-11ef-83ba-f3a1d08225ea\",\"name\":\"indexpattern-datasource-layer-c3f09d62-bc2a-45d1-9062-6b825a151a9e\"},{\"name\":\"filter-index-pattern-0\",\"type\":\"index-pattern\",\"id\":\"cd564590-8198-11ef-83ba-f3a1d08225ea\"}]},\"hidePanelTitles\":false,\"enhancements\":{}},\"title\":\"Ventilation par disciplines des thèses consultées\"},{\"version\":\"7.14.1\",\"type\":\"lens\",\"gridData\":{\"x\":0,\"y\":180,\"w\":27,\"h\":15,\"i\":\"e377a670-0887-4ede-9180-39ca1edf9121\"},\"panelIndex\":\"e377a670-0887-4ede-9180-39ca1edf9121\",\"embeddableConfig\":{\"attributes\":{\"title\":\"\",\"type\":\"lens\",\"visualizationType\":\"lnsPie\",\"state\":{\"datasourceStates\":{\"indexpattern\":{\"layers\":{\"c3f09d62-bc2a-45d1-9062-6b825a151a9e\":{\"columns\":{\"e9ec8bb4-7bdf-418c-8ece-e3a8cc587bd2\":{\"label\":\"Top values of discipline\",\"dataType\":\"string\",\"operationType\":\"terms\",\"scale\":\"ordinal\",\"sourceField\":\"discipline\",\"isBucketed\":true,\"params\":{\"size\":100,\"orderBy\":{\"type\":\"column\",\"columnId\":\"18edee0d-c056-4e89-9fd4-4a7b073208fc\"},\"orderDirection\":\"desc\",\"otherBucket\":true,\"missingBucket\":false}},\"18edee0d-c056-4e89-9fd4-4a7b073208fc\":{\"label\":\"Count of records\",\"dataType\":\"number\",\"operationType\":\"count\",\"isBucketed\":false,\"scale\":\"ratio\",\"sourceField\":\"Records\"}},\"columnOrder\":[\"e9ec8bb4-7bdf-418c-8ece-e3a8cc587bd2\",\"18edee0d-c056-4e89-9fd4-4a7b073208fc\"],\"incompleteColumns\":{}}}}},\"visualization\":{\"shape\":\"treemap\",\"layers\":[{\"layerId\":\"c3f09d62-bc2a-45d1-9062-6b825a151a9e\",\"groups\":[\"e9ec8bb4-7bdf-418c-8ece-e3a8cc587bd2\"],\"metric\":\"18edee0d-c056-4e89-9fd4-4a7b073208fc\",\"numberDisplay\":\"percent\",\"categoryDisplay\":\"default\",\"legendDisplay\":\"default\",\"nestedLegend\":false}]},\"query\":{\"query\":\"\",\"language\":\"kuery\"},\"filters\":[{\"meta\":{\"alias\":null,\"negate\":false,\"disabled\":false,\"type\":\"phrase\",\"key\":\"rtype\",\"params\":{\"query\":\"PHD_THESIS\"},\"indexRefName\":\"filter-index-pattern-0\"},\"query\":{\"match_phrase\":{\"rtype\":\"PHD_THESIS\"}},\"$state\":{\"store\":\"appState\"}}]},\"references\":[{\"type\":\"index-pattern\",\"id\":\"cd564590-8198-11ef-83ba-f3a1d08225ea\",\"name\":\"indexpattern-datasource-current-indexpattern\"},{\"type\":\"index-pattern\",\"id\":\"cd564590-8198-11ef-83ba-f3a1d08225ea\",\"name\":\"indexpattern-datasource-layer-c3f09d62-bc2a-45d1-9062-6b825a151a9e\"},{\"name\":\"filter-index-pattern-0\",\"type\":\"index-pattern\",\"id\":\"cd564590-8198-11ef-83ba-f3a1d08225ea\"}]},\"hidePanelTitles\":false,\"enhancements\":{}},\"title\":\"Ventilation par disciplines des thèses téléchargées\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":0,\"y\":195,\"w\":24,\"h\":15,\"i\":\"944bedca-8e6a-40e3-a0d1-2551ff1fc0bf\"},\"panelIndex\":\"944bedca-8e6a-40e3-a0d1-2551ff1fc0bf\",\"embeddableConfig\":{\"savedVis\":{\"title\":\"\",\"description\":\"\",\"type\":\"histogram\",\"params\":{\"type\":\"histogram\",\"grid\":{\"categoryLines\":false},\"categoryAxes\":[{\"id\":\"CategoryAxis-1\",\"type\":\"category\",\"position\":\"bottom\",\"show\":true,\"scale\":{\"type\":\"linear\"},\"labels\":{\"show\":true,\"filter\":true,\"truncate\":100},\"title\":{},\"style\":{}}],\"valueAxes\":[{\"id\":\"ValueAxis-1\",\"name\":\"LeftAxis-1\",\"type\":\"value\",\"position\":\"left\",\"show\":true,\"scale\":{\"type\":\"linear\",\"mode\":\"normal\"},\"labels\":{\"show\":true,\"rotate\":0,\"filter\":false,\"truncate\":100},\"title\":{\"text\":\"Nombre de consultation\"},\"style\":{}}],\"seriesParams\":[{\"show\":true,\"type\":\"histogram\",\"mode\":\"stacked\",\"data\":{\"label\":\"Nombre de consultation\",\"id\":\"1\"},\"interpolate\":\"linear\",\"valueAxis\":\"ValueAxis-1\",\"drawLinesBetweenPoints\":true,\"lineWidth\":2,\"showCircles\":true,\"circlesRadius\":3}],\"radiusRatio\":0,\"addTooltip\":true,\"detailedTooltip\":true,\"palette\":{\"type\":\"palette\",\"name\":\"default\"},\"addLegend\":true,\"legendPosition\":\"right\",\"times\":[],\"addTimeMarker\":false,\"labels\":{\"show\":false},\"thresholdLine\":{\"show\":false,\"value\":10,\"width\":1,\"style\":\"full\",\"color\":\"#E7664C\"}},\"uiState\":{},\"data\":{\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"params\":{\"customLabel\":\"Nombre de consultation\"},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"date_histogram\",\"params\":{\"field\":\"anneeSoutenance.date\",\"timeRange\":{\"from\":\"now-2y\",\"to\":\"now\"},\"useNormalizedEsInterval\":true,\"scaleMetricValues\":false,\"interval\":\"y\",\"used_interval\":\"1y\",\"drop_partials\":false,\"min_doc_count\":1,\"extended_bounds\":{},\"customLabel\":\"Année de soutenance\"},\"schema\":\"segment\"}],\"searchSource\":{\"index\":\"cd564590-8198-11ef-83ba-f3a1d08225ea\",\"query\":{\"query\":\"\",\"language\":\"kuery\"},\"filter\":[]}}},\"hidePanelTitles\":false,\"enhancements\":{}},\"title\":\"Nombre de consultations de thèses soutenues (notices et téléchargements) par année de soutenance\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":24,\"y\":195,\"w\":24,\"h\":15,\"i\":\"61636762-dd31-47f2-be0e-f8bbcec0f57e\"},\"panelIndex\":\"61636762-dd31-47f2-be0e-f8bbcec0f57e\",\"embeddableConfig\":{\"savedVis\":{\"title\":\"\",\"description\":\"\",\"type\":\"histogram\",\"params\":{\"type\":\"histogram\",\"grid\":{\"categoryLines\":false},\"categoryAxes\":[{\"id\":\"CategoryAxis-1\",\"type\":\"category\",\"position\":\"bottom\",\"show\":true,\"scale\":{\"type\":\"linear\"},\"labels\":{\"show\":true,\"filter\":true,\"truncate\":100},\"title\":{},\"style\":{}}],\"valueAxes\":[{\"id\":\"ValueAxis-1\",\"name\":\"LeftAxis-1\",\"type\":\"value\",\"position\":\"left\",\"show\":true,\"scale\":{\"type\":\"linear\",\"mode\":\"normal\"},\"labels\":{\"show\":true,\"rotate\":0,\"filter\":false,\"truncate\":100},\"title\":{\"text\":\"Nombre de consultation\"},\"style\":{}}],\"seriesParams\":[{\"show\":true,\"type\":\"histogram\",\"mode\":\"stacked\",\"data\":{\"label\":\"Nombre de consultation\",\"id\":\"1\"},\"interpolate\":\"linear\",\"valueAxis\":\"ValueAxis-1\",\"drawLinesBetweenPoints\":true,\"lineWidth\":2,\"showCircles\":true,\"circlesRadius\":3}],\"radiusRatio\":0,\"addTooltip\":true,\"detailedTooltip\":true,\"palette\":{\"type\":\"palette\",\"name\":\"default\"},\"addLegend\":true,\"legendPosition\":\"right\",\"times\":[],\"addTimeMarker\":false,\"labels\":{\"show\":false},\"thresholdLine\":{\"show\":false,\"value\":10,\"width\":1,\"style\":\"full\",\"color\":\"#E7664C\"}},\"uiState\":{},\"data\":{\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"params\":{\"customLabel\":\"Nombre de consultation\"},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"date_histogram\",\"params\":{\"field\":\"anneeInscription.date\",\"timeRange\":{\"from\":\"now-2y\",\"to\":\"now\"},\"useNormalizedEsInterval\":true,\"scaleMetricValues\":false,\"interval\":\"y\",\"used_interval\":\"1y\",\"drop_partials\":false,\"min_doc_count\":1,\"extended_bounds\":{},\"customLabel\":\"Année de soutenance\"},\"schema\":\"segment\"}],\"searchSource\":{\"index\":\"cd564590-8198-11ef-83ba-f3a1d08225ea\",\"query\":{\"query\":\"\",\"language\":\"kuery\"},\"filter\":[]}}},\"hidePanelTitles\":false,\"enhancements\":{}},\"title\":\"Nombre de consultations de thèses en préparation par année d'inscription\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":0,\"y\":210,\"w\":24,\"h\":14,\"i\":\"3fc065d4-e68f-4a5f-a4fa-b9b2dd1ba87c\"},\"panelIndex\":\"3fc065d4-e68f-4a5f-a4fa-b9b2dd1ba87c\",\"embeddableConfig\":{\"savedVis\":{\"title\":\"\",\"description\":\"\",\"type\":\"histogram\",\"params\":{\"type\":\"histogram\",\"grid\":{\"categoryLines\":false},\"categoryAxes\":[{\"id\":\"CategoryAxis-1\",\"type\":\"category\",\"position\":\"bottom\",\"show\":true,\"scale\":{\"type\":\"linear\"},\"labels\":{\"show\":true,\"filter\":true,\"truncate\":100},\"title\":{},\"style\":{}}],\"valueAxes\":[{\"id\":\"ValueAxis-1\",\"name\":\"LeftAxis-1\",\"type\":\"value\",\"position\":\"left\",\"show\":true,\"scale\":{\"type\":\"linear\",\"mode\":\"normal\"},\"labels\":{\"show\":true,\"rotate\":0,\"filter\":false,\"truncate\":100},\"title\":{\"text\":\"Nombre de consultation\"},\"style\":{}}],\"seriesParams\":[{\"show\":true,\"type\":\"histogram\",\"mode\":\"stacked\",\"data\":{\"label\":\"Nombre de consultation\",\"id\":\"1\"},\"interpolate\":\"linear\",\"valueAxis\":\"ValueAxis-1\",\"drawLinesBetweenPoints\":true,\"lineWidth\":2,\"showCircles\":true,\"circlesRadius\":3}],\"radiusRatio\":0,\"addTooltip\":true,\"detailedTooltip\":true,\"palette\":{\"type\":\"palette\",\"name\":\"default\"},\"addLegend\":true,\"legendPosition\":\"right\",\"times\":[],\"addTimeMarker\":false,\"labels\":{\"show\":false},\"thresholdLine\":{\"show\":false,\"value\":10,\"width\":1,\"style\":\"full\",\"color\":\"#E7664C\"}},\"uiState\":{},\"data\":{\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"params\":{\"customLabel\":\"Nombre de consultation\"},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"date_histogram\",\"params\":{\"field\":\"anneeSoutenance.date\",\"timeRange\":{\"from\":\"now-2y\",\"to\":\"now\"},\"useNormalizedEsInterval\":true,\"scaleMetricValues\":false,\"interval\":\"y\",\"used_interval\":\"1y\",\"drop_partials\":false,\"min_doc_count\":1,\"extended_bounds\":{},\"customLabel\":\"Année de soutenance\"},\"schema\":\"segment\"}],\"searchSource\":{\"index\":\"cd564590-8198-11ef-83ba-f3a1d08225ea\",\"query\":{\"query\":\"\",\"language\":\"kuery\"},\"filter\":[{\"$state\":{\"store\":\"appState\"},\"meta\":{\"alias\":null,\"disabled\":false,\"index\":\"cd564590-8198-11ef-83ba-f3a1d08225ea\",\"key\":\"rtype\",\"negate\":false,\"params\":{\"query\":\"PHD_THESIS\"},\"type\":\"phrase\"},\"query\":{\"match_phrase\":{\"rtype\":\"PHD_THESIS\"}}}]}}},\"hidePanelTitles\":false,\"enhancements\":{}},\"title\":\"Nombre de téléchargements de thèses par année de soutenance\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":24,\"y\":210,\"w\":24,\"h\":14,\"i\":\"c0cbb0d5-6980-4766-b0c8-21b469d61042\"},\"panelIndex\":\"c0cbb0d5-6980-4766-b0c8-21b469d61042\",\"embeddableConfig\":{\"savedVis\":{\"title\":\"\",\"description\":\"\",\"type\":\"histogram\",\"params\":{\"type\":\"histogram\",\"grid\":{\"categoryLines\":false},\"categoryAxes\":[{\"id\":\"CategoryAxis-1\",\"type\":\"category\",\"position\":\"bottom\",\"show\":true,\"scale\":{\"type\":\"linear\"},\"labels\":{\"show\":true,\"filter\":true,\"truncate\":100},\"title\":{},\"style\":{}}],\"valueAxes\":[{\"id\":\"ValueAxis-1\",\"name\":\"LeftAxis-1\",\"type\":\"value\",\"position\":\"left\",\"show\":true,\"scale\":{\"type\":\"linear\",\"mode\":\"normal\"},\"labels\":{\"show\":true,\"rotate\":0,\"filter\":false,\"truncate\":100},\"title\":{\"text\":\"Nombre de consultation\"},\"style\":{}}],\"seriesParams\":[{\"show\":true,\"type\":\"histogram\",\"mode\":\"stacked\",\"data\":{\"label\":\"Nombre de consultation\",\"id\":\"1\"},\"interpolate\":\"linear\",\"valueAxis\":\"ValueAxis-1\",\"drawLinesBetweenPoints\":true,\"lineWidth\":2,\"showCircles\":true,\"circlesRadius\":3}],\"radiusRatio\":0,\"addTooltip\":true,\"detailedTooltip\":true,\"palette\":{\"type\":\"palette\",\"name\":\"default\"},\"addLegend\":true,\"legendPosition\":\"right\",\"times\":[],\"addTimeMarker\":false,\"labels\":{\"show\":false},\"thresholdLine\":{\"show\":false,\"value\":10,\"width\":1,\"style\":\"full\",\"color\":\"#E7664C\"}},\"uiState\":{},\"data\":{\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"params\":{\"customLabel\":\"Nombre de consultation\"},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"date_histogram\",\"params\":{\"field\":\"anneeSoutenance.date\",\"timeRange\":{\"from\":\"now-2y\",\"to\":\"now\"},\"useNormalizedEsInterval\":true,\"scaleMetricValues\":false,\"interval\":\"y\",\"used_interval\":\"1y\",\"drop_partials\":false,\"min_doc_count\":1,\"extended_bounds\":{},\"customLabel\":\"Année de soutenance\"},\"schema\":\"segment\"}],\"searchSource\":{\"index\":\"cd564590-8198-11ef-83ba-f3a1d08225ea\",\"query\":{\"query\":\"\",\"language\":\"kuery\"},\"filter\":[{\"$state\":{\"store\":\"appState\"},\"meta\":{\"alias\":null,\"disabled\":false,\"index\":\"cd564590-8198-11ef-83ba-f3a1d08225ea\",\"key\":\"rtype\",\"negate\":false,\"params\":{\"query\":\"ABS\"},\"type\":\"phrase\"},\"query\":{\"match_phrase\":{\"rtype\":\"ABS\"}}}]}}},\"hidePanelTitles\":false,\"enhancements\":{}},\"title\":\"Nombre de consultation de notices de thèses par année de soutenance\"},{\"version\":\"7.14.1\",\"type\":\"lens\",\"gridData\":{\"x\":0,\"y\":224,\"w\":48,\"h\":15,\"i\":\"b2fe28d0-384a-4441-a1ad-7981d1e95197\"},\"panelIndex\":\"b2fe28d0-384a-4441-a1ad-7981d1e95197\",\"embeddableConfig\":{\"enhancements\":{},\"hidePanelTitles\":false},\"title\":\"Provenance géographique des utilisateurs qui consultent les notices de thèses\",\"panelRefName\":\"panel_b2fe28d0-384a-4441-a1ad-7981d1e95197\"},{\"version\":\"7.14.1\",\"type\":\"lens\",\"gridData\":{\"x\":0,\"y\":239,\"w\":48,\"h\":15,\"i\":\"246644b6-2d92-4be6-b782-9eace47850a1\"},\"panelIndex\":\"246644b6-2d92-4be6-b782-9eace47850a1\",\"embeddableConfig\":{\"enhancements\":{},\"hidePanelTitles\":false},\"title\":\"Provenance géographique des utilisateurs qui téléchargent les thèses en Open Access\",\"panelRefName\":\"panel_246644b6-2d92-4be6-b782-9eace47850a1\"},{\"version\":\"7.14.1\",\"type\":\"lens\",\"gridData\":{\"x\":0,\"y\":254,\"w\":48,\"h\":15,\"i\":\"efc29303-2bd0-4d63-80ee-79a71859f144\"},\"panelIndex\":\"efc29303-2bd0-4d63-80ee-79a71859f144\",\"embeddableConfig\":{\"enhancements\":{},\"hidePanelTitles\":false},\"title\":\"Provenance géographique des utilisateurs qui téléchargent les thèses en accès sous authentification\",\"panelRefName\":\"panel_efc29303-2bd0-4d63-80ee-79a71859f144\"}]",
+        "panelsJSON": "[{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":0,\"y\":0,\"w\":24,\"h\":35,\"i\":\"a79509a1-2e88-4992-bbe4-7d0978a2636d\"},\"panelIndex\":\"a79509a1-2e88-4992-bbe4-7d0978a2636d\",\"embeddableConfig\":{\"savedVis\":{\"title\":\"\",\"description\":\"\",\"type\":\"markdown\",\"params\":{\"fontSize\":14,\"openLinksInNewTab\":true,\"markdown\":\"Bienvenue sur le tableau de bord présentant les statistiques de consultations du site theses.fr !\\n\\nCe tableau de bord est proposé par l'Abes. Il s'adresse aux établissements habilités à délivrer le doctorat et leur permet d'accéder aux statistiques de consultation des thèses de leur établissement, de les filtrer et de les comparer avec celles des autres établissements ou avec les statistiques nationales.\\n\\n**ATTENTION** : le présent tableau de bord ne permet pas de visualiser l'état de la base de données de theses.fr, mais seulement les données relatives aux pages de thèses qui ont été consultées ou aux fichiers de thèses qui ont été téléchargés.\\n\\nLes statistiques sont disponibles pour les données suivantes :\\n  - nombre de notices de thèses vues ;\\n  - nombre de thèses téléchargées en accès libre ;\\n  - nombre de thèses téléchargées sur l'intranet national ;\\n  - nombre de pages de personnes vues ;\\n  - nombre de pages d'organismes vues.\\n\\nLes pages de theses.fr peuvent être consultées :\\n- par des humains via l'interface de theses.fr (HTML) ;\\n- par des machines via une API (Json).\\n\\n**ATTENTION** : les statistiques sont complètes avec un **décalage de 10 jours** (ainsi les statistiques d'un jour n sont complètes à n+10).\\n\\n- **Accéder à la documentation du tableau de bord** : https://documentation.abes.fr/aidethesesfr/ezmesure/index.html\"},\"uiState\":{},\"data\":{\"aggs\":[],\"searchSource\":{\"query\":{\"query\":\"\",\"language\":\"kuery\"},\"filter\":[]}}},\"hidePanelTitles\":false,\"enhancements\":{}},\"title\":\"Statistisques de consultation de theses.fr\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":24,\"y\":0,\"w\":24,\"h\":9,\"i\":\"e3a63179-e9f4-415f-9e60-62e687cf0a85\"},\"panelIndex\":\"e3a63179-e9f4-415f-9e60-62e687cf0a85\",\"embeddableConfig\":{\"savedVis\":{\"title\":\"\",\"description\":\"\",\"type\":\"metric\",\"params\":{\"addTooltip\":true,\"addLegend\":false,\"type\":\"metric\",\"metric\":{\"percentageMode\":false,\"useRanges\":false,\"colorSchema\":\"Green to Red\",\"metricColorMode\":\"None\",\"colorsRange\":[{\"from\":0,\"to\":10000}],\"labels\":{\"show\":true},\"invertColors\":false,\"style\":{\"bgFill\":\"#000\",\"bgColor\":false,\"labelColor\":false,\"subText\":\"\",\"fontSize\":19}}},\"uiState\":{},\"data\":{\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"params\":{\"customLabel\":\"Nombre de consultations\"},\"schema\":\"metric\"},{\"id\":\"3\",\"enabled\":true,\"type\":\"min\",\"params\":{\"field\":\"datetime\",\"customLabel\":\"Depuis le\"},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"max\",\"params\":{\"field\":\"datetime\",\"customLabel\":\"jusqu'au\"},\"schema\":\"metric\"}],\"searchSource\":{\"index\":\"c9a2bb80-240f-11f0-865c-298b326405f6\",\"query\":{\"query\":\"\",\"language\":\"kuery\"},\"filter\":[{\"$state\":{\"store\":\"appState\"},\"meta\":{\"alias\":null,\"disabled\":false,\"index\":\"c9a2bb80-240f-11f0-865c-298b326405f6\",\"key\":\"rtype\",\"negate\":true,\"params\":[\"RECORD\",\"OTHER\"],\"type\":\"phrases\"},\"query\":{\"bool\":{\"minimum_should_match\":1,\"should\":[{\"match_phrase\":{\"rtype\":\"RECORD\"}},{\"match_phrase\":{\"rtype\":\"OTHER\"}}]}}}]}}},\"enhancements\":{},\"hidePanelTitles\":false},\"title\":\"evénement de consultation pour l'ensemble des établissements\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":24,\"y\":9,\"w\":24,\"h\":5,\"i\":\"7d9e89b0-ab88-4607-9d2d-8beaa2a14252\"},\"panelIndex\":\"7d9e89b0-ab88-4607-9d2d-8beaa2a14252\",\"embeddableConfig\":{\"savedVis\":{\"title\":\"\",\"description\":\"\",\"type\":\"metric\",\"params\":{\"addTooltip\":true,\"addLegend\":false,\"type\":\"metric\",\"metric\":{\"percentageMode\":false,\"useRanges\":false,\"colorSchema\":\"Green to Red\",\"metricColorMode\":\"None\",\"colorsRange\":[{\"from\":0,\"to\":10000}],\"labels\":{\"show\":true},\"invertColors\":false,\"style\":{\"bgFill\":\"#000\",\"bgColor\":false,\"labelColor\":false,\"subText\":\"\",\"fontSize\":19}}},\"uiState\":{},\"data\":{\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"params\":{\"customLabel\":\"Consultations de notices de thèses\"},\"schema\":\"metric\"}],\"searchSource\":{\"index\":\"c9a2bb80-240f-11f0-865c-298b326405f6\",\"query\":{\"query\":\"\",\"language\":\"kuery\"},\"filter\":[{\"$state\":{\"store\":\"appState\"},\"meta\":{\"alias\":\"Notices de thèses\",\"disabled\":false,\"index\":\"c9a2bb80-240f-11f0-865c-298b326405f6\",\"key\":\"rtype\",\"negate\":false,\"params\":{\"query\":\"ABS\"},\"type\":\"phrase\"},\"query\":{\"match_phrase\":{\"rtype\":\"ABS\"}}}]}}},\"enhancements\":{},\"hidePanelTitles\":false},\"title\":\"Dont notices de thèses\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":24,\"y\":14,\"w\":24,\"h\":6,\"i\":\"c65893a1-ad2a-4781-9dff-144f12bdf905\"},\"panelIndex\":\"c65893a1-ad2a-4781-9dff-144f12bdf905\",\"embeddableConfig\":{\"savedVis\":{\"title\":\"\",\"description\":\"\",\"type\":\"metric\",\"params\":{\"addTooltip\":true,\"addLegend\":false,\"type\":\"metric\",\"metric\":{\"percentageMode\":false,\"useRanges\":false,\"colorSchema\":\"Green to Red\",\"metricColorMode\":\"None\",\"colorsRange\":[{\"from\":0,\"to\":10000}],\"labels\":{\"show\":true},\"invertColors\":false,\"style\":{\"bgFill\":\"#000\",\"bgColor\":false,\"labelColor\":false,\"subText\":\"\",\"fontSize\":19}}},\"uiState\":{},\"data\":{\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"params\":{\"customLabel\":\"Nombre de clics sur les boutons \\\"Accès en ligne\\\" et \\\"Accès réservé\\\"\"},\"schema\":\"metric\"}],\"searchSource\":{\"index\":\"c9a2bb80-240f-11f0-865c-298b326405f6\",\"query\":{\"query\":\"\",\"language\":\"kuery\"},\"filter\":[{\"$state\":{\"store\":\"appState\"},\"meta\":{\"alias\":\"Téléchargements de thèses\",\"disabled\":false,\"index\":\"c9a2bb80-240f-11f0-865c-298b326405f6\",\"key\":\"rtype\",\"negate\":false,\"params\":{\"query\":\"PHD_THESIS\"},\"type\":\"phrase\"},\"query\":{\"match_phrase\":{\"rtype\":\"PHD_THESIS\"}}}]}}},\"enhancements\":{},\"hidePanelTitles\":false},\"title\":\"Dont téléchargements de thèses en accès libre et restreint\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":24,\"y\":20,\"w\":12,\"h\":8,\"i\":\"17386cf8-fade-437c-9436-772e5368679c\"},\"panelIndex\":\"17386cf8-fade-437c-9436-772e5368679c\",\"embeddableConfig\":{\"savedVis\":{\"title\":\"\",\"description\":\"\",\"type\":\"metric\",\"params\":{\"addTooltip\":true,\"addLegend\":false,\"type\":\"metric\",\"metric\":{\"percentageMode\":false,\"useRanges\":false,\"colorSchema\":\"Green to Red\",\"metricColorMode\":\"None\",\"colorsRange\":[{\"from\":0,\"to\":10000}],\"labels\":{\"show\":true},\"invertColors\":false,\"style\":{\"bgFill\":\"#000\",\"bgColor\":false,\"labelColor\":false,\"subText\":\"\",\"fontSize\":19}}},\"uiState\":{},\"data\":{\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"params\":{\"customLabel\":\"Nombre de clics sur le bouton \\\"Accès en ligne\\\"\"},\"schema\":\"metric\"}],\"searchSource\":{\"index\":\"c9a2bb80-240f-11f0-865c-298b326405f6\",\"query\":{\"query\":\"NOT url: /api/v1/document/protected*\",\"language\":\"kuery\"},\"filter\":[{\"$state\":{\"store\":\"appState\"},\"meta\":{\"alias\":\"Téléchargements de thèses\",\"disabled\":false,\"index\":\"c9a2bb80-240f-11f0-865c-298b326405f6\",\"key\":\"rtype\",\"negate\":false,\"params\":{\"query\":\"PHD_THESIS\"},\"type\":\"phrase\"},\"query\":{\"match_phrase\":{\"rtype\":\"PHD_THESIS\"}}}]}}},\"enhancements\":{},\"hidePanelTitles\":false},\"title\":\"Dont téléchargements de thèses en accès libre\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":36,\"y\":20,\"w\":12,\"h\":8,\"i\":\"b71ab0f2-1049-4066-8ccd-82e301542251\"},\"panelIndex\":\"b71ab0f2-1049-4066-8ccd-82e301542251\",\"embeddableConfig\":{\"savedVis\":{\"title\":\"\",\"description\":\"\",\"type\":\"metric\",\"params\":{\"addTooltip\":true,\"addLegend\":false,\"type\":\"metric\",\"metric\":{\"percentageMode\":false,\"useRanges\":false,\"colorSchema\":\"Green to Red\",\"metricColorMode\":\"None\",\"colorsRange\":[{\"from\":0,\"to\":10000}],\"labels\":{\"show\":true},\"invertColors\":false,\"style\":{\"bgFill\":\"#000\",\"bgColor\":false,\"labelColor\":false,\"subText\":\"\",\"fontSize\":19}}},\"uiState\":{},\"data\":{\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"params\":{\"customLabel\":\"Nombre de clics sur le bouton \\\"Accès réservé\\\"\"},\"schema\":\"metric\"}],\"searchSource\":{\"index\":\"c9a2bb80-240f-11f0-865c-298b326405f6\",\"query\":{\"query\":\"url: /api/v1/document/protected*\",\"language\":\"kuery\"},\"filter\":[{\"$state\":{\"store\":\"appState\"},\"meta\":{\"alias\":\"Téléchargements de thèses\",\"disabled\":false,\"index\":\"c9a2bb80-240f-11f0-865c-298b326405f6\",\"key\":\"rtype\",\"negate\":false,\"params\":{\"query\":\"PHD_THESIS\"},\"type\":\"phrase\"},\"query\":{\"match_phrase\":{\"rtype\":\"PHD_THESIS\"}}}]}}},\"enhancements\":{},\"hidePanelTitles\":false},\"title\":\"Dont téléchargements de thèses en accès restreint\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":24,\"y\":28,\"w\":12,\"h\":7,\"i\":\"02a9e4dd-65cd-4dae-ab3b-d3aba36a04a0\"},\"panelIndex\":\"02a9e4dd-65cd-4dae-ab3b-d3aba36a04a0\",\"embeddableConfig\":{\"hidePanelTitles\":false,\"enhancements\":{}},\"title\":\"Dont nombre de pages personne vues\",\"panelRefName\":\"panel_02a9e4dd-65cd-4dae-ab3b-d3aba36a04a0\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":36,\"y\":28,\"w\":12,\"h\":7,\"i\":\"6851759f-1014-4ebe-8e26-67ff03dbf224\"},\"panelIndex\":\"6851759f-1014-4ebe-8e26-67ff03dbf224\",\"embeddableConfig\":{\"hidePanelTitles\":false,\"enhancements\":{}},\"title\":\"Dont nombre de pages organisme vues\",\"panelRefName\":\"panel_6851759f-1014-4ebe-8e26-67ff03dbf224\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":0,\"y\":35,\"w\":10,\"h\":17,\"i\":\"5caea48c-ea44-4ebe-80d5-99d43013e2b1\"},\"panelIndex\":\"5caea48c-ea44-4ebe-80d5-99d43013e2b1\",\"embeddableConfig\":{\"enhancements\":{},\"hidePanelTitles\":false},\"title\":\"Filtrer les thèses consultées par profil de thèse\",\"panelRefName\":\"panel_5caea48c-ea44-4ebe-80d5-99d43013e2b1\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":10,\"y\":35,\"w\":20,\"h\":17,\"i\":\"ec3c8104-1e80-490e-8d81-abd11633f30b\"},\"panelIndex\":\"ec3c8104-1e80-490e-8d81-abd11633f30b\",\"embeddableConfig\":{\"enhancements\":{},\"hidePanelTitles\":false},\"title\":\"Filtrer les thèses consultées par organisme\",\"panelRefName\":\"panel_ec3c8104-1e80-490e-8d81-abd11633f30b\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":30,\"y\":35,\"w\":18,\"h\":17,\"i\":\"cea3c562-f22f-44ce-8b20-da446427b952\"},\"panelIndex\":\"cea3c562-f22f-44ce-8b20-da446427b952\",\"embeddableConfig\":{\"enhancements\":{},\"hidePanelTitles\":false},\"title\":\"Filtrer les thèses consultées par personne\",\"panelRefName\":\"panel_cea3c562-f22f-44ce-8b20-da446427b952\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":0,\"y\":52,\"w\":24,\"h\":6,\"i\":\"0f333f4e-c624-4a71-b3e0-35b7f2cf29c4\"},\"panelIndex\":\"0f333f4e-c624-4a71-b3e0-35b7f2cf29c4\",\"embeddableConfig\":{\"enhancements\":{},\"hidePanelTitles\":false},\"title\":\"Filtrer les pages organismes vues\",\"panelRefName\":\"panel_0f333f4e-c624-4a71-b3e0-35b7f2cf29c4\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":24,\"y\":52,\"w\":24,\"h\":6,\"i\":\"9ff3df40-c0e6-47d7-9d8d-97b62cd8e849\"},\"panelIndex\":\"9ff3df40-c0e6-47d7-9d8d-97b62cd8e849\",\"embeddableConfig\":{\"enhancements\":{},\"hidePanelTitles\":false},\"title\":\"Filtrer les pages personnes vues\",\"panelRefName\":\"panel_9ff3df40-c0e6-47d7-9d8d-97b62cd8e849\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":0,\"y\":58,\"w\":26,\"h\":16,\"i\":\"f5b73e56-e87b-4594-84af-e70b1e87ce76\"},\"panelIndex\":\"f5b73e56-e87b-4594-84af-e70b1e87ce76\",\"embeddableConfig\":{\"savedVis\":{\"title\":\"\",\"description\":\"\",\"type\":\"pie\",\"params\":{\"type\":\"pie\",\"addTooltip\":true,\"addLegend\":false,\"legendPosition\":\"right\",\"nestedLegend\":false,\"distinctColors\":false,\"isDonut\":true,\"palette\":{\"type\":\"palette\",\"name\":\"default\"},\"labels\":{\"show\":true,\"last_level\":false,\"values\":true,\"valuesFormat\":\"percent\",\"percentDecimals\":2,\"truncate\":100,\"position\":\"default\"}},\"uiState\":{\"vis\":{\"legendOpen\":false}},\"data\":{\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"params\":{},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"params\":{\"field\":\"statut\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":5,\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\"},\"schema\":\"segment\"}],\"searchSource\":{\"index\":\"c9a2bb80-240f-11f0-865c-298b326405f6\",\"query\":{\"query\":\"\",\"language\":\"kuery\"},\"filter\":[{\"$state\":{\"store\":\"appState\"},\"meta\":{\"alias\":null,\"disabled\":false,\"index\":\"c9a2bb80-240f-11f0-865c-298b326405f6\",\"key\":\"statut\",\"negate\":true,\"params\":[\"NOT_FOUND\",\"sans objet\"],\"type\":\"phrases\"},\"query\":{\"bool\":{\"minimum_should_match\":1,\"should\":[{\"match_phrase\":{\"statut\":\"NOT_FOUND\"}},{\"match_phrase\":{\"statut\":\"sans objet\"}}]}}}]}}},\"hidePanelTitles\":false,\"enhancements\":{}},\"title\":\"Statut des thèses consultées\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":26,\"y\":58,\"w\":22,\"h\":16,\"i\":\"e589f442-2f09-4e00-9bf5-c054f0ba937f\"},\"panelIndex\":\"e589f442-2f09-4e00-9bf5-c054f0ba937f\",\"embeddableConfig\":{\"savedVis\":{\"title\":\"\",\"description\":\"\",\"type\":\"pie\",\"params\":{\"type\":\"pie\",\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"nestedLegend\":false,\"distinctColors\":false,\"isDonut\":true,\"palette\":{\"type\":\"palette\",\"name\":\"default\"},\"labels\":{\"show\":true,\"last_level\":false,\"values\":true,\"valuesFormat\":\"percent\",\"percentDecimals\":2,\"truncate\":100,\"position\":\"default\"},\"row\":true},\"uiState\":{\"vis\":{\"legendOpen\":true}},\"data\":{\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"params\":{},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"filters\",\"params\":{\"filters\":[{\"input\":{\"query\":\"rtype : \\\"ABS\\\" \",\"language\":\"kuery\"},\"label\":\"Notices de thèses\"},{\"input\":{\"query\":\"rtype :\\\"BIO\\\" \",\"language\":\"kuery\"},\"label\":\"Notices de personnes\"},{\"input\":{\"query\":\"rtype : \\\"PHD_THESIS\\\" \",\"language\":\"kuery\"},\"label\":\"Téléchargements de thèses\"},{\"input\":{\"query\":\"rtype :\\\"ORGANISME\\\" \",\"language\":\"kuery\"},\"label\":\"Notices d'organismes\"}]},\"schema\":\"segment\"}],\"searchSource\":{\"index\":\"c9a2bb80-240f-11f0-865c-298b326405f6\",\"query\":{\"query\":\"\",\"language\":\"kuery\"},\"filter\":[]}}},\"hidePanelTitles\":false,\"enhancements\":{},\"vis\":{\"legendOpen\":true},\"table\":null},\"title\":\"Typologie des pages consultées\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":0,\"y\":74,\"w\":48,\"h\":20,\"i\":\"c5b45080-7b8f-4cb5-827d-966c0fe57281\"},\"panelIndex\":\"c5b45080-7b8f-4cb5-827d-966c0fe57281\",\"embeddableConfig\":{\"savedVis\":{\"title\":\"\",\"description\":\"\",\"type\":\"histogram\",\"params\":{\"type\":\"histogram\",\"grid\":{\"categoryLines\":true,\"valueAxis\":\"ValueAxis-1\"},\"categoryAxes\":[{\"id\":\"CategoryAxis-1\",\"type\":\"category\",\"position\":\"bottom\",\"show\":true,\"scale\":{\"type\":\"linear\"},\"labels\":{\"show\":true,\"filter\":false,\"truncate\":100},\"title\":{},\"style\":{}}],\"valueAxes\":[{\"id\":\"ValueAxis-1\",\"name\":\"LeftAxis-1\",\"type\":\"value\",\"position\":\"left\",\"show\":true,\"scale\":{\"type\":\"linear\",\"mode\":\"normal\"},\"labels\":{\"show\":true,\"rotate\":0,\"filter\":true,\"truncate\":100},\"title\":{\"text\":\"Consultation\"},\"style\":{}}],\"seriesParams\":[{\"show\":true,\"type\":\"histogram\",\"mode\":\"stacked\",\"data\":{\"label\":\"Consultation\",\"id\":\"1\"},\"interpolate\":\"linear\",\"valueAxis\":\"ValueAxis-1\",\"drawLinesBetweenPoints\":true,\"lineWidth\":2,\"showCircles\":true,\"circlesRadius\":3}],\"radiusRatio\":0,\"addTooltip\":true,\"detailedTooltip\":true,\"palette\":{\"type\":\"palette\",\"name\":\"default\"},\"addLegend\":true,\"legendPosition\":\"right\",\"times\":[],\"addTimeMarker\":false,\"labels\":{\"show\":true},\"thresholdLine\":{\"show\":false,\"value\":25,\"width\":1,\"style\":\"full\",\"color\":\"#54B399\"},\"orderBucketsBySum\":false},\"uiState\":{},\"data\":{\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"params\":{\"customLabel\":\"Consultation\"},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"date_histogram\",\"params\":{\"field\":\"datetime\",\"timeRange\":{\"from\":\"now-2y\",\"to\":\"now\"},\"useNormalizedEsInterval\":true,\"scaleMetricValues\":false,\"interval\":\"M\",\"used_interval\":\"1M\",\"drop_partials\":true,\"min_doc_count\":1,\"extended_bounds\":{},\"customLabel\":\"Mois\"},\"schema\":\"segment\"}],\"searchSource\":{\"index\":\"c9a2bb80-240f-11f0-865c-298b326405f6\",\"query\":{\"query\":\"\",\"language\":\"kuery\"},\"filter\":[]}}},\"hidePanelTitles\":false,\"enhancements\":{}},\"title\":\"Nombre de consultations par mois\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":0,\"y\":94,\"w\":48,\"h\":13,\"i\":\"ebf9ffe2-d21e-4f13-b747-22d98ea1ba77\"},\"panelIndex\":\"ebf9ffe2-d21e-4f13-b747-22d98ea1ba77\",\"embeddableConfig\":{\"enhancements\":{},\"hidePanelTitles\":false,\"vis\":{\"params\":{\"colWidth\":[{\"colIndex\":0,\"width\":134.5},{\"colIndex\":1,\"width\":210.5},{\"colIndex\":2,\"width\":299.5},{\"colIndex\":3,\"width\":157.75}]}},\"table\":null},\"title\":\"Notices de thèses soutenues les plus consultées \",\"panelRefName\":\"panel_ebf9ffe2-d21e-4f13-b747-22d98ea1ba77\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":0,\"y\":107,\"w\":48,\"h\":13,\"i\":\"aab2e083-5c59-4113-aa61-e013e998d2ef\"},\"panelIndex\":\"aab2e083-5c59-4113-aa61-e013e998d2ef\",\"embeddableConfig\":{\"enhancements\":{},\"hidePanelTitles\":false,\"vis\":{\"params\":{\"colWidth\":[{\"colIndex\":0,\"width\":134.5},{\"colIndex\":1,\"width\":210.5},{\"colIndex\":2,\"width\":299.5},{\"colIndex\":3,\"width\":157.75}]}},\"table\":null},\"title\":\"Thèses soutenues les plus téléchargées (Open Access)\",\"panelRefName\":\"panel_aab2e083-5c59-4113-aa61-e013e998d2ef\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":0,\"y\":120,\"w\":48,\"h\":13,\"i\":\"fa404ba3-1d30-41eb-9312-5cb502127850\"},\"panelIndex\":\"fa404ba3-1d30-41eb-9312-5cb502127850\",\"embeddableConfig\":{\"enhancements\":{},\"hidePanelTitles\":false,\"vis\":{\"params\":{\"colWidth\":[{\"colIndex\":0,\"width\":134.5},{\"colIndex\":1,\"width\":210.5},{\"colIndex\":2,\"width\":299.5},{\"colIndex\":3,\"width\":157.75}]}},\"table\":null},\"title\":\"Thèses soutenues les plus téléchargées (Accès sous authentification)\",\"panelRefName\":\"panel_fa404ba3-1d30-41eb-9312-5cb502127850\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":0,\"y\":133,\"w\":48,\"h\":17,\"i\":\"dbc6927e-75e0-416b-85da-4ea9bbfdc457\"},\"panelIndex\":\"dbc6927e-75e0-416b-85da-4ea9bbfdc457\",\"embeddableConfig\":{\"enhancements\":{},\"hidePanelTitles\":false,\"vis\":{\"params\":{\"colWidth\":[{\"colIndex\":0,\"width\":150.5},{\"colIndex\":2,\"width\":284.5},{\"colIndex\":1,\"width\":229},{\"colIndex\":3,\"width\":208}],\"sort\":{\"columnIndex\":5,\"direction\":\"desc\"}}},\"table\":null},\"title\":\"Notices de thèses en préparation les plus consultées \",\"panelRefName\":\"panel_dbc6927e-75e0-416b-85da-4ea9bbfdc457\"},{\"version\":\"7.14.1\",\"type\":\"lens\",\"gridData\":{\"x\":0,\"y\":150,\"w\":27,\"h\":15,\"i\":\"bd135aea-b71e-4d67-b16f-e66325345e9d\"},\"panelIndex\":\"bd135aea-b71e-4d67-b16f-e66325345e9d\",\"embeddableConfig\":{\"attributes\":{\"title\":\"\",\"type\":\"lens\",\"visualizationType\":\"lnsPie\",\"state\":{\"datasourceStates\":{\"indexpattern\":{\"layers\":{\"c3f09d62-bc2a-45d1-9062-6b825a151a9e\":{\"columns\":{\"e9ec8bb4-7bdf-418c-8ece-e3a8cc587bd2\":{\"label\":\"Top values of discipline\",\"dataType\":\"string\",\"operationType\":\"terms\",\"scale\":\"ordinal\",\"sourceField\":\"discipline\",\"isBucketed\":true,\"params\":{\"size\":100,\"orderBy\":{\"type\":\"column\",\"columnId\":\"18edee0d-c056-4e89-9fd4-4a7b073208fc\"},\"orderDirection\":\"desc\",\"otherBucket\":true,\"missingBucket\":false}},\"18edee0d-c056-4e89-9fd4-4a7b073208fc\":{\"label\":\"Count of records\",\"dataType\":\"number\",\"operationType\":\"count\",\"isBucketed\":false,\"scale\":\"ratio\",\"sourceField\":\"Records\"}},\"columnOrder\":[\"e9ec8bb4-7bdf-418c-8ece-e3a8cc587bd2\",\"18edee0d-c056-4e89-9fd4-4a7b073208fc\"],\"incompleteColumns\":{}}}}},\"visualization\":{\"shape\":\"treemap\",\"layers\":[{\"layerId\":\"c3f09d62-bc2a-45d1-9062-6b825a151a9e\",\"groups\":[\"e9ec8bb4-7bdf-418c-8ece-e3a8cc587bd2\"],\"metric\":\"18edee0d-c056-4e89-9fd4-4a7b073208fc\",\"numberDisplay\":\"percent\",\"categoryDisplay\":\"default\",\"legendDisplay\":\"default\",\"nestedLegend\":false}]},\"query\":{\"query\":\"\",\"language\":\"kuery\"},\"filters\":[{\"meta\":{\"type\":\"phrases\",\"key\":\"rtype\",\"params\":[\"PHD_THESIS\",\"ABS\"],\"alias\":null,\"negate\":false,\"disabled\":false,\"indexRefName\":\"filter-index-pattern-0\"},\"query\":{\"bool\":{\"should\":[{\"match_phrase\":{\"rtype\":\"PHD_THESIS\"}},{\"match_phrase\":{\"rtype\":\"ABS\"}}],\"minimum_should_match\":1}},\"$state\":{\"store\":\"appState\"}}]},\"references\":[{\"type\":\"index-pattern\",\"id\":\"c9a2bb80-240f-11f0-865c-298b326405f6\",\"name\":\"indexpattern-datasource-current-indexpattern\"},{\"type\":\"index-pattern\",\"id\":\"c9a2bb80-240f-11f0-865c-298b326405f6\",\"name\":\"indexpattern-datasource-layer-c3f09d62-bc2a-45d1-9062-6b825a151a9e\"},{\"name\":\"filter-index-pattern-0\",\"type\":\"index-pattern\",\"id\":\"c9a2bb80-240f-11f0-865c-298b326405f6\"}]},\"hidePanelTitles\":false,\"enhancements\":{}},\"title\":\"Ventilation par disciplines des thèses consultées et téléchargées\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":27,\"y\":150,\"w\":21,\"h\":45,\"i\":\"14fe551b-85c6-46ee-b3d4-bb9cdeb0ab76\"},\"panelIndex\":\"14fe551b-85c6-46ee-b3d4-bb9cdeb0ab76\",\"embeddableConfig\":{\"savedVis\":{\"title\":\"\",\"description\":\"\",\"type\":\"tagcloud\",\"params\":{\"scale\":\"linear\",\"orientation\":\"single\",\"minFontSize\":11,\"maxFontSize\":54,\"showLabel\":true,\"palette\":{\"type\":\"palette\",\"name\":\"default\"}},\"uiState\":{},\"data\":{\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"params\":{\"customLabel\":\"Disciplines des thèses les plus consultées\"},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"params\":{\"field\":\"discipline\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":50,\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":false,\"missingBucketLabel\":\"Discipline non renseignée\",\"customLabel\":\"Nuage de Mots\"},\"schema\":\"segment\"}],\"searchSource\":{\"index\":\"c9a2bb80-240f-11f0-865c-298b326405f6\",\"query\":{\"query\":\"\",\"language\":\"kuery\"},\"filter\":[{\"$state\":{\"store\":\"appState\"},\"meta\":{\"alias\":null,\"disabled\":false,\"index\":\"c9a2bb80-240f-11f0-865c-298b326405f6\",\"key\":\"rtype\",\"negate\":false,\"params\":[\"ABS\",\"PHD_THESIS\"],\"type\":\"phrases\"},\"query\":{\"bool\":{\"minimum_should_match\":1,\"should\":[{\"match_phrase\":{\"rtype\":\"ABS\"}},{\"match_phrase\":{\"rtype\":\"PHD_THESIS\"}}]}}}]}}},\"hidePanelTitles\":false,\"enhancements\":{}},\"title\":\"Visualisation des disciplines des thèses les plus consultées\"},{\"version\":\"7.14.1\",\"type\":\"lens\",\"gridData\":{\"x\":0,\"y\":165,\"w\":27,\"h\":15,\"i\":\"c3ca55bc-e514-422d-99f6-2bf097ef275b\"},\"panelIndex\":\"c3ca55bc-e514-422d-99f6-2bf097ef275b\",\"embeddableConfig\":{\"attributes\":{\"title\":\"\",\"type\":\"lens\",\"visualizationType\":\"lnsPie\",\"state\":{\"datasourceStates\":{\"indexpattern\":{\"layers\":{\"c3f09d62-bc2a-45d1-9062-6b825a151a9e\":{\"columns\":{\"e9ec8bb4-7bdf-418c-8ece-e3a8cc587bd2\":{\"label\":\"Top values of discipline\",\"dataType\":\"string\",\"operationType\":\"terms\",\"scale\":\"ordinal\",\"sourceField\":\"discipline\",\"isBucketed\":true,\"params\":{\"size\":100,\"orderBy\":{\"type\":\"column\",\"columnId\":\"18edee0d-c056-4e89-9fd4-4a7b073208fc\"},\"orderDirection\":\"desc\",\"otherBucket\":true,\"missingBucket\":false}},\"18edee0d-c056-4e89-9fd4-4a7b073208fc\":{\"label\":\"Count of records\",\"dataType\":\"number\",\"operationType\":\"count\",\"isBucketed\":false,\"scale\":\"ratio\",\"sourceField\":\"Records\"}},\"columnOrder\":[\"e9ec8bb4-7bdf-418c-8ece-e3a8cc587bd2\",\"18edee0d-c056-4e89-9fd4-4a7b073208fc\"],\"incompleteColumns\":{}}}}},\"visualization\":{\"shape\":\"treemap\",\"layers\":[{\"layerId\":\"c3f09d62-bc2a-45d1-9062-6b825a151a9e\",\"groups\":[\"e9ec8bb4-7bdf-418c-8ece-e3a8cc587bd2\"],\"metric\":\"18edee0d-c056-4e89-9fd4-4a7b073208fc\",\"numberDisplay\":\"percent\",\"categoryDisplay\":\"default\",\"legendDisplay\":\"default\",\"nestedLegend\":false}]},\"query\":{\"query\":\"\",\"language\":\"kuery\"},\"filters\":[{\"meta\":{\"alias\":null,\"negate\":false,\"disabled\":false,\"type\":\"phrase\",\"key\":\"rtype\",\"params\":{\"query\":\"ABS\"},\"indexRefName\":\"filter-index-pattern-0\"},\"query\":{\"match_phrase\":{\"rtype\":\"ABS\"}},\"$state\":{\"store\":\"appState\"}}]},\"references\":[{\"type\":\"index-pattern\",\"id\":\"c9a2bb80-240f-11f0-865c-298b326405f6\",\"name\":\"indexpattern-datasource-current-indexpattern\"},{\"type\":\"index-pattern\",\"id\":\"c9a2bb80-240f-11f0-865c-298b326405f6\",\"name\":\"indexpattern-datasource-layer-c3f09d62-bc2a-45d1-9062-6b825a151a9e\"},{\"name\":\"filter-index-pattern-0\",\"type\":\"index-pattern\",\"id\":\"c9a2bb80-240f-11f0-865c-298b326405f6\"}]},\"hidePanelTitles\":false,\"enhancements\":{}},\"title\":\"Ventilation par disciplines des thèses consultées\"},{\"version\":\"7.14.1\",\"type\":\"lens\",\"gridData\":{\"x\":0,\"y\":180,\"w\":27,\"h\":15,\"i\":\"e377a670-0887-4ede-9180-39ca1edf9121\"},\"panelIndex\":\"e377a670-0887-4ede-9180-39ca1edf9121\",\"embeddableConfig\":{\"attributes\":{\"title\":\"\",\"type\":\"lens\",\"visualizationType\":\"lnsPie\",\"state\":{\"datasourceStates\":{\"indexpattern\":{\"layers\":{\"c3f09d62-bc2a-45d1-9062-6b825a151a9e\":{\"columns\":{\"e9ec8bb4-7bdf-418c-8ece-e3a8cc587bd2\":{\"label\":\"Top values of discipline\",\"dataType\":\"string\",\"operationType\":\"terms\",\"scale\":\"ordinal\",\"sourceField\":\"discipline\",\"isBucketed\":true,\"params\":{\"size\":100,\"orderBy\":{\"type\":\"column\",\"columnId\":\"18edee0d-c056-4e89-9fd4-4a7b073208fc\"},\"orderDirection\":\"desc\",\"otherBucket\":true,\"missingBucket\":false}},\"18edee0d-c056-4e89-9fd4-4a7b073208fc\":{\"label\":\"Count of records\",\"dataType\":\"number\",\"operationType\":\"count\",\"isBucketed\":false,\"scale\":\"ratio\",\"sourceField\":\"Records\"}},\"columnOrder\":[\"e9ec8bb4-7bdf-418c-8ece-e3a8cc587bd2\",\"18edee0d-c056-4e89-9fd4-4a7b073208fc\"],\"incompleteColumns\":{}}}}},\"visualization\":{\"shape\":\"treemap\",\"layers\":[{\"layerId\":\"c3f09d62-bc2a-45d1-9062-6b825a151a9e\",\"groups\":[\"e9ec8bb4-7bdf-418c-8ece-e3a8cc587bd2\"],\"metric\":\"18edee0d-c056-4e89-9fd4-4a7b073208fc\",\"numberDisplay\":\"percent\",\"categoryDisplay\":\"default\",\"legendDisplay\":\"default\",\"nestedLegend\":false}]},\"query\":{\"query\":\"\",\"language\":\"kuery\"},\"filters\":[{\"meta\":{\"alias\":null,\"negate\":false,\"disabled\":false,\"type\":\"phrase\",\"key\":\"rtype\",\"params\":{\"query\":\"PHD_THESIS\"},\"indexRefName\":\"filter-index-pattern-0\"},\"query\":{\"match_phrase\":{\"rtype\":\"PHD_THESIS\"}},\"$state\":{\"store\":\"appState\"}}]},\"references\":[{\"type\":\"index-pattern\",\"id\":\"c9a2bb80-240f-11f0-865c-298b326405f6\",\"name\":\"indexpattern-datasource-current-indexpattern\"},{\"type\":\"index-pattern\",\"id\":\"c9a2bb80-240f-11f0-865c-298b326405f6\",\"name\":\"indexpattern-datasource-layer-c3f09d62-bc2a-45d1-9062-6b825a151a9e\"},{\"name\":\"filter-index-pattern-0\",\"type\":\"index-pattern\",\"id\":\"c9a2bb80-240f-11f0-865c-298b326405f6\"}]},\"hidePanelTitles\":false,\"enhancements\":{}},\"title\":\"Ventilation par disciplines des thèses téléchargées\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":0,\"y\":195,\"w\":24,\"h\":15,\"i\":\"944bedca-8e6a-40e3-a0d1-2551ff1fc0bf\"},\"panelIndex\":\"944bedca-8e6a-40e3-a0d1-2551ff1fc0bf\",\"embeddableConfig\":{\"savedVis\":{\"title\":\"\",\"description\":\"\",\"type\":\"histogram\",\"params\":{\"type\":\"histogram\",\"grid\":{\"categoryLines\":false},\"categoryAxes\":[{\"id\":\"CategoryAxis-1\",\"type\":\"category\",\"position\":\"bottom\",\"show\":true,\"scale\":{\"type\":\"linear\"},\"labels\":{\"show\":true,\"filter\":true,\"truncate\":100},\"title\":{},\"style\":{}}],\"valueAxes\":[{\"id\":\"ValueAxis-1\",\"name\":\"LeftAxis-1\",\"type\":\"value\",\"position\":\"left\",\"show\":true,\"scale\":{\"type\":\"linear\",\"mode\":\"normal\"},\"labels\":{\"show\":true,\"rotate\":0,\"filter\":false,\"truncate\":100},\"title\":{\"text\":\"Nombre de consultation\"},\"style\":{}}],\"seriesParams\":[{\"show\":true,\"type\":\"histogram\",\"mode\":\"stacked\",\"data\":{\"label\":\"Nombre de consultation\",\"id\":\"1\"},\"interpolate\":\"linear\",\"valueAxis\":\"ValueAxis-1\",\"drawLinesBetweenPoints\":true,\"lineWidth\":2,\"showCircles\":true,\"circlesRadius\":3}],\"radiusRatio\":0,\"addTooltip\":true,\"detailedTooltip\":true,\"palette\":{\"type\":\"palette\",\"name\":\"default\"},\"addLegend\":true,\"legendPosition\":\"right\",\"times\":[],\"addTimeMarker\":false,\"labels\":{\"show\":false},\"thresholdLine\":{\"show\":false,\"value\":10,\"width\":1,\"style\":\"full\",\"color\":\"#E7664C\"}},\"uiState\":{},\"data\":{\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"params\":{\"customLabel\":\"Nombre de consultation\"},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"date_histogram\",\"params\":{\"field\":\"anneeSoutenance.date\",\"timeRange\":{\"from\":\"now-2y\",\"to\":\"now\"},\"useNormalizedEsInterval\":true,\"scaleMetricValues\":false,\"interval\":\"y\",\"used_interval\":\"1y\",\"drop_partials\":false,\"min_doc_count\":1,\"extended_bounds\":{},\"customLabel\":\"Année de soutenance\"},\"schema\":\"segment\"}],\"searchSource\":{\"index\":\"c9a2bb80-240f-11f0-865c-298b326405f6\",\"query\":{\"query\":\"\",\"language\":\"kuery\"},\"filter\":[]}}},\"hidePanelTitles\":false,\"enhancements\":{}},\"title\":\"Nombre de consultations de thèses soutenues (notices et téléchargements) par année de soutenance\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":24,\"y\":195,\"w\":24,\"h\":15,\"i\":\"61636762-dd31-47f2-be0e-f8bbcec0f57e\"},\"panelIndex\":\"61636762-dd31-47f2-be0e-f8bbcec0f57e\",\"embeddableConfig\":{\"savedVis\":{\"title\":\"\",\"description\":\"\",\"type\":\"histogram\",\"params\":{\"type\":\"histogram\",\"grid\":{\"categoryLines\":false},\"categoryAxes\":[{\"id\":\"CategoryAxis-1\",\"type\":\"category\",\"position\":\"bottom\",\"show\":true,\"scale\":{\"type\":\"linear\"},\"labels\":{\"show\":true,\"filter\":true,\"truncate\":100},\"title\":{},\"style\":{}}],\"valueAxes\":[{\"id\":\"ValueAxis-1\",\"name\":\"LeftAxis-1\",\"type\":\"value\",\"position\":\"left\",\"show\":true,\"scale\":{\"type\":\"linear\",\"mode\":\"normal\"},\"labels\":{\"show\":true,\"rotate\":0,\"filter\":false,\"truncate\":100},\"title\":{\"text\":\"Nombre de consultation\"},\"style\":{}}],\"seriesParams\":[{\"show\":true,\"type\":\"histogram\",\"mode\":\"stacked\",\"data\":{\"label\":\"Nombre de consultation\",\"id\":\"1\"},\"interpolate\":\"linear\",\"valueAxis\":\"ValueAxis-1\",\"drawLinesBetweenPoints\":true,\"lineWidth\":2,\"showCircles\":true,\"circlesRadius\":3}],\"radiusRatio\":0,\"addTooltip\":true,\"detailedTooltip\":true,\"palette\":{\"type\":\"palette\",\"name\":\"default\"},\"addLegend\":true,\"legendPosition\":\"right\",\"times\":[],\"addTimeMarker\":false,\"labels\":{\"show\":false},\"thresholdLine\":{\"show\":false,\"value\":10,\"width\":1,\"style\":\"full\",\"color\":\"#E7664C\"}},\"uiState\":{},\"data\":{\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"params\":{\"customLabel\":\"Nombre de consultation\"},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"date_histogram\",\"params\":{\"field\":\"anneeInscription.date\",\"timeRange\":{\"from\":\"now-2y\",\"to\":\"now\"},\"useNormalizedEsInterval\":true,\"scaleMetricValues\":false,\"interval\":\"y\",\"used_interval\":\"1y\",\"drop_partials\":false,\"min_doc_count\":1,\"extended_bounds\":{},\"customLabel\":\"Année de soutenance\"},\"schema\":\"segment\"}],\"searchSource\":{\"index\":\"c9a2bb80-240f-11f0-865c-298b326405f6\",\"query\":{\"query\":\"\",\"language\":\"kuery\"},\"filter\":[]}}},\"hidePanelTitles\":false,\"enhancements\":{}},\"title\":\"Nombre de consultations de thèses en préparation par année d'inscription\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":0,\"y\":210,\"w\":24,\"h\":14,\"i\":\"3fc065d4-e68f-4a5f-a4fa-b9b2dd1ba87c\"},\"panelIndex\":\"3fc065d4-e68f-4a5f-a4fa-b9b2dd1ba87c\",\"embeddableConfig\":{\"savedVis\":{\"title\":\"\",\"description\":\"\",\"type\":\"histogram\",\"params\":{\"type\":\"histogram\",\"grid\":{\"categoryLines\":false},\"categoryAxes\":[{\"id\":\"CategoryAxis-1\",\"type\":\"category\",\"position\":\"bottom\",\"show\":true,\"scale\":{\"type\":\"linear\"},\"labels\":{\"show\":true,\"filter\":true,\"truncate\":100},\"title\":{},\"style\":{}}],\"valueAxes\":[{\"id\":\"ValueAxis-1\",\"name\":\"LeftAxis-1\",\"type\":\"value\",\"position\":\"left\",\"show\":true,\"scale\":{\"type\":\"linear\",\"mode\":\"normal\"},\"labels\":{\"show\":true,\"rotate\":0,\"filter\":false,\"truncate\":100},\"title\":{\"text\":\"Nombre de consultation\"},\"style\":{}}],\"seriesParams\":[{\"show\":true,\"type\":\"histogram\",\"mode\":\"stacked\",\"data\":{\"label\":\"Nombre de consultation\",\"id\":\"1\"},\"interpolate\":\"linear\",\"valueAxis\":\"ValueAxis-1\",\"drawLinesBetweenPoints\":true,\"lineWidth\":2,\"showCircles\":true,\"circlesRadius\":3}],\"radiusRatio\":0,\"addTooltip\":true,\"detailedTooltip\":true,\"palette\":{\"type\":\"palette\",\"name\":\"default\"},\"addLegend\":true,\"legendPosition\":\"right\",\"times\":[],\"addTimeMarker\":false,\"labels\":{\"show\":false},\"thresholdLine\":{\"show\":false,\"value\":10,\"width\":1,\"style\":\"full\",\"color\":\"#E7664C\"}},\"uiState\":{},\"data\":{\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"params\":{\"customLabel\":\"Nombre de consultation\"},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"date_histogram\",\"params\":{\"field\":\"anneeSoutenance.date\",\"timeRange\":{\"from\":\"now-2y\",\"to\":\"now\"},\"useNormalizedEsInterval\":true,\"scaleMetricValues\":false,\"interval\":\"y\",\"used_interval\":\"1y\",\"drop_partials\":false,\"min_doc_count\":1,\"extended_bounds\":{},\"customLabel\":\"Année de soutenance\"},\"schema\":\"segment\"}],\"searchSource\":{\"index\":\"c9a2bb80-240f-11f0-865c-298b326405f6\",\"query\":{\"query\":\"\",\"language\":\"kuery\"},\"filter\":[{\"$state\":{\"store\":\"appState\"},\"meta\":{\"alias\":null,\"disabled\":false,\"index\":\"c9a2bb80-240f-11f0-865c-298b326405f6\",\"key\":\"rtype\",\"negate\":false,\"params\":{\"query\":\"PHD_THESIS\"},\"type\":\"phrase\"},\"query\":{\"match_phrase\":{\"rtype\":\"PHD_THESIS\"}}}]}}},\"hidePanelTitles\":false,\"enhancements\":{}},\"title\":\"Nombre de téléchargements de thèses par année de soutenance\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":24,\"y\":210,\"w\":24,\"h\":14,\"i\":\"c0cbb0d5-6980-4766-b0c8-21b469d61042\"},\"panelIndex\":\"c0cbb0d5-6980-4766-b0c8-21b469d61042\",\"embeddableConfig\":{\"savedVis\":{\"title\":\"\",\"description\":\"\",\"type\":\"histogram\",\"params\":{\"type\":\"histogram\",\"grid\":{\"categoryLines\":false},\"categoryAxes\":[{\"id\":\"CategoryAxis-1\",\"type\":\"category\",\"position\":\"bottom\",\"show\":true,\"scale\":{\"type\":\"linear\"},\"labels\":{\"show\":true,\"filter\":true,\"truncate\":100},\"title\":{},\"style\":{}}],\"valueAxes\":[{\"id\":\"ValueAxis-1\",\"name\":\"LeftAxis-1\",\"type\":\"value\",\"position\":\"left\",\"show\":true,\"scale\":{\"type\":\"linear\",\"mode\":\"normal\"},\"labels\":{\"show\":true,\"rotate\":0,\"filter\":false,\"truncate\":100},\"title\":{\"text\":\"Nombre de consultation\"},\"style\":{}}],\"seriesParams\":[{\"show\":true,\"type\":\"histogram\",\"mode\":\"stacked\",\"data\":{\"label\":\"Nombre de consultation\",\"id\":\"1\"},\"interpolate\":\"linear\",\"valueAxis\":\"ValueAxis-1\",\"drawLinesBetweenPoints\":true,\"lineWidth\":2,\"showCircles\":true,\"circlesRadius\":3}],\"radiusRatio\":0,\"addTooltip\":true,\"detailedTooltip\":true,\"palette\":{\"type\":\"palette\",\"name\":\"default\"},\"addLegend\":true,\"legendPosition\":\"right\",\"times\":[],\"addTimeMarker\":false,\"labels\":{\"show\":false},\"thresholdLine\":{\"show\":false,\"value\":10,\"width\":1,\"style\":\"full\",\"color\":\"#E7664C\"}},\"uiState\":{},\"data\":{\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"params\":{\"customLabel\":\"Nombre de consultation\"},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"date_histogram\",\"params\":{\"field\":\"anneeSoutenance.date\",\"timeRange\":{\"from\":\"now-2y\",\"to\":\"now\"},\"useNormalizedEsInterval\":true,\"scaleMetricValues\":false,\"interval\":\"y\",\"used_interval\":\"1y\",\"drop_partials\":false,\"min_doc_count\":1,\"extended_bounds\":{},\"customLabel\":\"Année de soutenance\"},\"schema\":\"segment\"}],\"searchSource\":{\"index\":\"c9a2bb80-240f-11f0-865c-298b326405f6\",\"query\":{\"query\":\"\",\"language\":\"kuery\"},\"filter\":[{\"$state\":{\"store\":\"appState\"},\"meta\":{\"alias\":null,\"disabled\":false,\"index\":\"c9a2bb80-240f-11f0-865c-298b326405f6\",\"key\":\"rtype\",\"negate\":false,\"params\":{\"query\":\"ABS\"},\"type\":\"phrase\"},\"query\":{\"match_phrase\":{\"rtype\":\"ABS\"}}}]}}},\"hidePanelTitles\":false,\"enhancements\":{}},\"title\":\"Nombre de consultation de notices de thèses par année de soutenance\"},{\"version\":\"7.14.1\",\"type\":\"lens\",\"gridData\":{\"x\":0,\"y\":224,\"w\":48,\"h\":15,\"i\":\"b2fe28d0-384a-4441-a1ad-7981d1e95197\"},\"panelIndex\":\"b2fe28d0-384a-4441-a1ad-7981d1e95197\",\"embeddableConfig\":{\"enhancements\":{},\"hidePanelTitles\":false},\"title\":\"Provenance géographique des utilisateurs qui consultent les notices de thèses\",\"panelRefName\":\"panel_b2fe28d0-384a-4441-a1ad-7981d1e95197\"},{\"version\":\"7.14.1\",\"type\":\"lens\",\"gridData\":{\"x\":0,\"y\":239,\"w\":48,\"h\":15,\"i\":\"246644b6-2d92-4be6-b782-9eace47850a1\"},\"panelIndex\":\"246644b6-2d92-4be6-b782-9eace47850a1\",\"embeddableConfig\":{\"enhancements\":{},\"hidePanelTitles\":false},\"title\":\"Provenance géographique des utilisateurs qui téléchargent les thèses en Open Access\",\"panelRefName\":\"panel_246644b6-2d92-4be6-b782-9eace47850a1\"},{\"version\":\"7.14.1\",\"type\":\"lens\",\"gridData\":{\"x\":0,\"y\":254,\"w\":48,\"h\":15,\"i\":\"efc29303-2bd0-4d63-80ee-79a71859f144\"},\"panelIndex\":\"efc29303-2bd0-4d63-80ee-79a71859f144\",\"embeddableConfig\":{\"enhancements\":{},\"hidePanelTitles\":false},\"title\":\"Provenance géographique des utilisateurs qui téléchargent les thèses en accès sous authentification\",\"panelRefName\":\"panel_efc29303-2bd0-4d63-80ee-79a71859f144\"}]",
         "optionsJSON": "{\"useMargins\":true,\"syncColors\":false,\"hidePanelTitles\":false}",
         "version": 1,
         "timeRestore": true,
@@ -31,52 +31,52 @@
         {
           "name": "e3a63179-e9f4-415f-9e60-62e687cf0a85:kibanaSavedObjectMeta.searchSourceJSON.index",
           "type": "index-pattern",
-          "id": "cd564590-8198-11ef-83ba-f3a1d08225ea"
+          "id": "c9a2bb80-240f-11f0-865c-298b326405f6"
         },
         {
           "name": "e3a63179-e9f4-415f-9e60-62e687cf0a85:kibanaSavedObjectMeta.searchSourceJSON.filter[0].meta.index",
           "type": "index-pattern",
-          "id": "cd564590-8198-11ef-83ba-f3a1d08225ea"
+          "id": "c9a2bb80-240f-11f0-865c-298b326405f6"
         },
         {
           "name": "7d9e89b0-ab88-4607-9d2d-8beaa2a14252:kibanaSavedObjectMeta.searchSourceJSON.index",
           "type": "index-pattern",
-          "id": "cd564590-8198-11ef-83ba-f3a1d08225ea"
+          "id": "c9a2bb80-240f-11f0-865c-298b326405f6"
         },
         {
           "name": "7d9e89b0-ab88-4607-9d2d-8beaa2a14252:kibanaSavedObjectMeta.searchSourceJSON.filter[0].meta.index",
           "type": "index-pattern",
-          "id": "cd564590-8198-11ef-83ba-f3a1d08225ea"
+          "id": "c9a2bb80-240f-11f0-865c-298b326405f6"
         },
         {
           "name": "c65893a1-ad2a-4781-9dff-144f12bdf905:kibanaSavedObjectMeta.searchSourceJSON.index",
           "type": "index-pattern",
-          "id": "cd564590-8198-11ef-83ba-f3a1d08225ea"
+          "id": "c9a2bb80-240f-11f0-865c-298b326405f6"
         },
         {
           "name": "c65893a1-ad2a-4781-9dff-144f12bdf905:kibanaSavedObjectMeta.searchSourceJSON.filter[0].meta.index",
           "type": "index-pattern",
-          "id": "cd564590-8198-11ef-83ba-f3a1d08225ea"
+          "id": "c9a2bb80-240f-11f0-865c-298b326405f6"
         },
         {
           "name": "17386cf8-fade-437c-9436-772e5368679c:kibanaSavedObjectMeta.searchSourceJSON.index",
           "type": "index-pattern",
-          "id": "cd564590-8198-11ef-83ba-f3a1d08225ea"
+          "id": "c9a2bb80-240f-11f0-865c-298b326405f6"
         },
         {
           "name": "17386cf8-fade-437c-9436-772e5368679c:kibanaSavedObjectMeta.searchSourceJSON.filter[0].meta.index",
           "type": "index-pattern",
-          "id": "cd564590-8198-11ef-83ba-f3a1d08225ea"
+          "id": "c9a2bb80-240f-11f0-865c-298b326405f6"
         },
         {
           "name": "b71ab0f2-1049-4066-8ccd-82e301542251:kibanaSavedObjectMeta.searchSourceJSON.index",
           "type": "index-pattern",
-          "id": "cd564590-8198-11ef-83ba-f3a1d08225ea"
+          "id": "c9a2bb80-240f-11f0-865c-298b326405f6"
         },
         {
           "name": "b71ab0f2-1049-4066-8ccd-82e301542251:kibanaSavedObjectMeta.searchSourceJSON.filter[0].meta.index",
           "type": "index-pattern",
-          "id": "cd564590-8198-11ef-83ba-f3a1d08225ea"
+          "id": "c9a2bb80-240f-11f0-865c-298b326405f6"
         },
         {
           "name": "02a9e4dd-65cd-4dae-ab3b-d3aba36a04a0:panel_02a9e4dd-65cd-4dae-ab3b-d3aba36a04a0",
@@ -116,22 +116,22 @@
         {
           "name": "f5b73e56-e87b-4594-84af-e70b1e87ce76:kibanaSavedObjectMeta.searchSourceJSON.index",
           "type": "index-pattern",
-          "id": "cd564590-8198-11ef-83ba-f3a1d08225ea"
+          "id": "c9a2bb80-240f-11f0-865c-298b326405f6"
         },
         {
           "name": "f5b73e56-e87b-4594-84af-e70b1e87ce76:kibanaSavedObjectMeta.searchSourceJSON.filter[0].meta.index",
           "type": "index-pattern",
-          "id": "cd564590-8198-11ef-83ba-f3a1d08225ea"
+          "id": "c9a2bb80-240f-11f0-865c-298b326405f6"
         },
         {
           "name": "e589f442-2f09-4e00-9bf5-c054f0ba937f:kibanaSavedObjectMeta.searchSourceJSON.index",
           "type": "index-pattern",
-          "id": "cd564590-8198-11ef-83ba-f3a1d08225ea"
+          "id": "c9a2bb80-240f-11f0-865c-298b326405f6"
         },
         {
           "name": "c5b45080-7b8f-4cb5-827d-966c0fe57281:kibanaSavedObjectMeta.searchSourceJSON.index",
           "type": "index-pattern",
-          "id": "cd564590-8198-11ef-83ba-f3a1d08225ea"
+          "id": "c9a2bb80-240f-11f0-865c-298b326405f6"
         },
         {
           "name": "ebf9ffe2-d21e-4f13-b747-22d98ea1ba77:panel_ebf9ffe2-d21e-4f13-b747-22d98ea1ba77",
@@ -155,88 +155,88 @@
         },
         {
           "type": "index-pattern",
-          "id": "cd564590-8198-11ef-83ba-f3a1d08225ea",
+          "id": "c9a2bb80-240f-11f0-865c-298b326405f6",
           "name": "bd135aea-b71e-4d67-b16f-e66325345e9d:indexpattern-datasource-current-indexpattern"
         },
         {
           "type": "index-pattern",
-          "id": "cd564590-8198-11ef-83ba-f3a1d08225ea",
+          "id": "c9a2bb80-240f-11f0-865c-298b326405f6",
           "name": "bd135aea-b71e-4d67-b16f-e66325345e9d:indexpattern-datasource-layer-c3f09d62-bc2a-45d1-9062-6b825a151a9e"
         },
         {
           "name": "bd135aea-b71e-4d67-b16f-e66325345e9d:filter-index-pattern-0",
           "type": "index-pattern",
-          "id": "cd564590-8198-11ef-83ba-f3a1d08225ea"
+          "id": "c9a2bb80-240f-11f0-865c-298b326405f6"
         },
         {
           "name": "14fe551b-85c6-46ee-b3d4-bb9cdeb0ab76:kibanaSavedObjectMeta.searchSourceJSON.index",
           "type": "index-pattern",
-          "id": "cd564590-8198-11ef-83ba-f3a1d08225ea"
+          "id": "c9a2bb80-240f-11f0-865c-298b326405f6"
         },
         {
           "name": "14fe551b-85c6-46ee-b3d4-bb9cdeb0ab76:kibanaSavedObjectMeta.searchSourceJSON.filter[0].meta.index",
           "type": "index-pattern",
-          "id": "cd564590-8198-11ef-83ba-f3a1d08225ea"
+          "id": "c9a2bb80-240f-11f0-865c-298b326405f6"
         },
         {
           "type": "index-pattern",
-          "id": "cd564590-8198-11ef-83ba-f3a1d08225ea",
+          "id": "c9a2bb80-240f-11f0-865c-298b326405f6",
           "name": "c3ca55bc-e514-422d-99f6-2bf097ef275b:indexpattern-datasource-current-indexpattern"
         },
         {
           "type": "index-pattern",
-          "id": "cd564590-8198-11ef-83ba-f3a1d08225ea",
+          "id": "c9a2bb80-240f-11f0-865c-298b326405f6",
           "name": "c3ca55bc-e514-422d-99f6-2bf097ef275b:indexpattern-datasource-layer-c3f09d62-bc2a-45d1-9062-6b825a151a9e"
         },
         {
           "name": "c3ca55bc-e514-422d-99f6-2bf097ef275b:filter-index-pattern-0",
           "type": "index-pattern",
-          "id": "cd564590-8198-11ef-83ba-f3a1d08225ea"
+          "id": "c9a2bb80-240f-11f0-865c-298b326405f6"
         },
         {
           "type": "index-pattern",
-          "id": "cd564590-8198-11ef-83ba-f3a1d08225ea",
+          "id": "c9a2bb80-240f-11f0-865c-298b326405f6",
           "name": "e377a670-0887-4ede-9180-39ca1edf9121:indexpattern-datasource-current-indexpattern"
         },
         {
           "type": "index-pattern",
-          "id": "cd564590-8198-11ef-83ba-f3a1d08225ea",
+          "id": "c9a2bb80-240f-11f0-865c-298b326405f6",
           "name": "e377a670-0887-4ede-9180-39ca1edf9121:indexpattern-datasource-layer-c3f09d62-bc2a-45d1-9062-6b825a151a9e"
         },
         {
           "name": "e377a670-0887-4ede-9180-39ca1edf9121:filter-index-pattern-0",
           "type": "index-pattern",
-          "id": "cd564590-8198-11ef-83ba-f3a1d08225ea"
+          "id": "c9a2bb80-240f-11f0-865c-298b326405f6"
         },
         {
           "name": "944bedca-8e6a-40e3-a0d1-2551ff1fc0bf:kibanaSavedObjectMeta.searchSourceJSON.index",
           "type": "index-pattern",
-          "id": "cd564590-8198-11ef-83ba-f3a1d08225ea"
+          "id": "c9a2bb80-240f-11f0-865c-298b326405f6"
         },
         {
           "name": "61636762-dd31-47f2-be0e-f8bbcec0f57e:kibanaSavedObjectMeta.searchSourceJSON.index",
           "type": "index-pattern",
-          "id": "cd564590-8198-11ef-83ba-f3a1d08225ea"
+          "id": "c9a2bb80-240f-11f0-865c-298b326405f6"
         },
         {
           "name": "3fc065d4-e68f-4a5f-a4fa-b9b2dd1ba87c:kibanaSavedObjectMeta.searchSourceJSON.index",
           "type": "index-pattern",
-          "id": "cd564590-8198-11ef-83ba-f3a1d08225ea"
+          "id": "c9a2bb80-240f-11f0-865c-298b326405f6"
         },
         {
           "name": "3fc065d4-e68f-4a5f-a4fa-b9b2dd1ba87c:kibanaSavedObjectMeta.searchSourceJSON.filter[0].meta.index",
           "type": "index-pattern",
-          "id": "cd564590-8198-11ef-83ba-f3a1d08225ea"
+          "id": "c9a2bb80-240f-11f0-865c-298b326405f6"
         },
         {
           "name": "c0cbb0d5-6980-4766-b0c8-21b469d61042:kibanaSavedObjectMeta.searchSourceJSON.index",
           "type": "index-pattern",
-          "id": "cd564590-8198-11ef-83ba-f3a1d08225ea"
+          "id": "c9a2bb80-240f-11f0-865c-298b326405f6"
         },
         {
           "name": "c0cbb0d5-6980-4766-b0c8-21b469d61042:kibanaSavedObjectMeta.searchSourceJSON.filter[0].meta.index",
           "type": "index-pattern",
-          "id": "cd564590-8198-11ef-83ba-f3a1d08225ea"
+          "id": "c9a2bb80-240f-11f0-865c-298b326405f6"
         },
         {
           "name": "b2fe28d0-384a-4441-a1ad-7981d1e95197:panel_b2fe28d0-384a-4441-a1ad-7981d1e95197",
@@ -285,7 +285,7 @@
       "coreMigrationVersion": "7.14.1"
     },
     {
-      "id": "cd564590-8198-11ef-83ba-f3a1d08225ea",
+      "id": "c9a2bb80-240f-11f0-865c-298b326405f6",
       "type": "index-pattern",
       "namespaces": [
         "z-abes-ezpaarse"
@@ -328,12 +328,12 @@
         {
           "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
           "type": "index-pattern",
-          "id": "cd564590-8198-11ef-83ba-f3a1d08225ea"
+          "id": "c9a2bb80-240f-11f0-865c-298b326405f6"
         },
         {
           "name": "kibanaSavedObjectMeta.searchSourceJSON.filter[0].meta.index",
           "type": "index-pattern",
-          "id": "cd564590-8198-11ef-83ba-f3a1d08225ea"
+          "id": "c9a2bb80-240f-11f0-865c-298b326405f6"
         },
         {
           "id": "e3268890-4376-11ef-80ef-2d115cc450b5",
@@ -373,12 +373,12 @@
         {
           "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
           "type": "index-pattern",
-          "id": "cd564590-8198-11ef-83ba-f3a1d08225ea"
+          "id": "c9a2bb80-240f-11f0-865c-298b326405f6"
         },
         {
           "name": "kibanaSavedObjectMeta.searchSourceJSON.filter[0].meta.index",
           "type": "index-pattern",
-          "id": "cd564590-8198-11ef-83ba-f3a1d08225ea"
+          "id": "c9a2bb80-240f-11f0-865c-298b326405f6"
         },
         {
           "id": "e3268890-4376-11ef-80ef-2d115cc450b5",
@@ -418,32 +418,32 @@
         {
           "name": "kibanaSavedObjectMeta.searchSourceJSON.filter[0].meta.index",
           "type": "index-pattern",
-          "id": "cd564590-8198-11ef-83ba-f3a1d08225ea"
+          "id": "c9a2bb80-240f-11f0-865c-298b326405f6"
         },
         {
           "name": "kibanaSavedObjectMeta.searchSourceJSON.filter[1].meta.index",
           "type": "index-pattern",
-          "id": "cd564590-8198-11ef-83ba-f3a1d08225ea"
+          "id": "c9a2bb80-240f-11f0-865c-298b326405f6"
         },
         {
           "name": "control_0_index_pattern",
           "type": "index-pattern",
-          "id": "cd564590-8198-11ef-83ba-f3a1d08225ea"
+          "id": "c9a2bb80-240f-11f0-865c-298b326405f6"
         },
         {
           "name": "control_1_index_pattern",
           "type": "index-pattern",
-          "id": "cd564590-8198-11ef-83ba-f3a1d08225ea"
+          "id": "c9a2bb80-240f-11f0-865c-298b326405f6"
         },
         {
           "name": "control_2_index_pattern",
           "type": "index-pattern",
-          "id": "cd564590-8198-11ef-83ba-f3a1d08225ea"
+          "id": "c9a2bb80-240f-11f0-865c-298b326405f6"
         },
         {
           "name": "control_3_index_pattern",
           "type": "index-pattern",
-          "id": "cd564590-8198-11ef-83ba-f3a1d08225ea"
+          "id": "c9a2bb80-240f-11f0-865c-298b326405f6"
         }
       ],
       "migrationVersion": {
@@ -473,37 +473,37 @@
         {
           "name": "control_0_index_pattern",
           "type": "index-pattern",
-          "id": "cd564590-8198-11ef-83ba-f3a1d08225ea"
+          "id": "c9a2bb80-240f-11f0-865c-298b326405f6"
         },
         {
           "name": "control_1_index_pattern",
           "type": "index-pattern",
-          "id": "cd564590-8198-11ef-83ba-f3a1d08225ea"
+          "id": "c9a2bb80-240f-11f0-865c-298b326405f6"
         },
         {
           "name": "control_2_index_pattern",
           "type": "index-pattern",
-          "id": "cd564590-8198-11ef-83ba-f3a1d08225ea"
+          "id": "c9a2bb80-240f-11f0-865c-298b326405f6"
         },
         {
           "name": "control_3_index_pattern",
           "type": "index-pattern",
-          "id": "cd564590-8198-11ef-83ba-f3a1d08225ea"
+          "id": "c9a2bb80-240f-11f0-865c-298b326405f6"
         },
         {
           "name": "control_4_index_pattern",
           "type": "index-pattern",
-          "id": "cd564590-8198-11ef-83ba-f3a1d08225ea"
+          "id": "c9a2bb80-240f-11f0-865c-298b326405f6"
         },
         {
           "name": "control_5_index_pattern",
           "type": "index-pattern",
-          "id": "cd564590-8198-11ef-83ba-f3a1d08225ea"
+          "id": "c9a2bb80-240f-11f0-865c-298b326405f6"
         },
         {
           "name": "control_6_index_pattern",
           "type": "index-pattern",
-          "id": "cd564590-8198-11ef-83ba-f3a1d08225ea"
+          "id": "c9a2bb80-240f-11f0-865c-298b326405f6"
         }
       ],
       "migrationVersion": {
@@ -533,52 +533,52 @@
         {
           "name": "control_0_index_pattern",
           "type": "index-pattern",
-          "id": "cd564590-8198-11ef-83ba-f3a1d08225ea"
+          "id": "c9a2bb80-240f-11f0-865c-298b326405f6"
         },
         {
           "name": "control_1_index_pattern",
           "type": "index-pattern",
-          "id": "cd564590-8198-11ef-83ba-f3a1d08225ea"
+          "id": "c9a2bb80-240f-11f0-865c-298b326405f6"
         },
         {
           "name": "control_2_index_pattern",
           "type": "index-pattern",
-          "id": "cd564590-8198-11ef-83ba-f3a1d08225ea"
+          "id": "c9a2bb80-240f-11f0-865c-298b326405f6"
         },
         {
           "name": "control_3_index_pattern",
           "type": "index-pattern",
-          "id": "cd564590-8198-11ef-83ba-f3a1d08225ea"
+          "id": "c9a2bb80-240f-11f0-865c-298b326405f6"
         },
         {
           "name": "control_4_index_pattern",
           "type": "index-pattern",
-          "id": "cd564590-8198-11ef-83ba-f3a1d08225ea"
+          "id": "c9a2bb80-240f-11f0-865c-298b326405f6"
         },
         {
           "name": "control_5_index_pattern",
           "type": "index-pattern",
-          "id": "cd564590-8198-11ef-83ba-f3a1d08225ea"
+          "id": "c9a2bb80-240f-11f0-865c-298b326405f6"
         },
         {
           "name": "control_6_index_pattern",
           "type": "index-pattern",
-          "id": "cd564590-8198-11ef-83ba-f3a1d08225ea"
+          "id": "c9a2bb80-240f-11f0-865c-298b326405f6"
         },
         {
           "name": "control_7_index_pattern",
           "type": "index-pattern",
-          "id": "cd564590-8198-11ef-83ba-f3a1d08225ea"
+          "id": "c9a2bb80-240f-11f0-865c-298b326405f6"
         },
         {
           "name": "control_8_index_pattern",
           "type": "index-pattern",
-          "id": "cd564590-8198-11ef-83ba-f3a1d08225ea"
+          "id": "c9a2bb80-240f-11f0-865c-298b326405f6"
         },
         {
           "name": "control_9_index_pattern",
           "type": "index-pattern",
-          "id": "cd564590-8198-11ef-83ba-f3a1d08225ea"
+          "id": "c9a2bb80-240f-11f0-865c-298b326405f6"
         }
       ],
       "migrationVersion": {
@@ -608,12 +608,12 @@
         {
           "name": "control_0_index_pattern",
           "type": "index-pattern",
-          "id": "cd564590-8198-11ef-83ba-f3a1d08225ea"
+          "id": "c9a2bb80-240f-11f0-865c-298b326405f6"
         },
         {
           "name": "control_1_index_pattern",
           "type": "index-pattern",
-          "id": "cd564590-8198-11ef-83ba-f3a1d08225ea"
+          "id": "c9a2bb80-240f-11f0-865c-298b326405f6"
         }
       ],
       "migrationVersion": {
@@ -643,12 +643,12 @@
         {
           "name": "control_0_index_pattern",
           "type": "index-pattern",
-          "id": "cd564590-8198-11ef-83ba-f3a1d08225ea"
+          "id": "c9a2bb80-240f-11f0-865c-298b326405f6"
         },
         {
           "name": "control_1_index_pattern",
           "type": "index-pattern",
-          "id": "cd564590-8198-11ef-83ba-f3a1d08225ea"
+          "id": "c9a2bb80-240f-11f0-865c-298b326405f6"
         }
       ],
       "migrationVersion": {
@@ -678,17 +678,17 @@
         {
           "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
           "type": "index-pattern",
-          "id": "cd564590-8198-11ef-83ba-f3a1d08225ea"
+          "id": "c9a2bb80-240f-11f0-865c-298b326405f6"
         },
         {
           "name": "kibanaSavedObjectMeta.searchSourceJSON.filter[0].meta.index",
           "type": "index-pattern",
-          "id": "cd564590-8198-11ef-83ba-f3a1d08225ea"
+          "id": "c9a2bb80-240f-11f0-865c-298b326405f6"
         },
         {
           "name": "kibanaSavedObjectMeta.searchSourceJSON.filter[1].meta.index",
           "type": "index-pattern",
-          "id": "cd564590-8198-11ef-83ba-f3a1d08225ea"
+          "id": "c9a2bb80-240f-11f0-865c-298b326405f6"
         },
         {
           "id": "e3268890-4376-11ef-80ef-2d115cc450b5",
@@ -733,17 +733,17 @@
         {
           "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
           "type": "index-pattern",
-          "id": "cd564590-8198-11ef-83ba-f3a1d08225ea"
+          "id": "c9a2bb80-240f-11f0-865c-298b326405f6"
         },
         {
           "name": "kibanaSavedObjectMeta.searchSourceJSON.filter[0].meta.index",
           "type": "index-pattern",
-          "id": "cd564590-8198-11ef-83ba-f3a1d08225ea"
+          "id": "c9a2bb80-240f-11f0-865c-298b326405f6"
         },
         {
           "name": "kibanaSavedObjectMeta.searchSourceJSON.filter[1].meta.index",
           "type": "index-pattern",
-          "id": "cd564590-8198-11ef-83ba-f3a1d08225ea"
+          "id": "c9a2bb80-240f-11f0-865c-298b326405f6"
         },
         {
           "id": "e3268890-4376-11ef-80ef-2d115cc450b5",
@@ -788,12 +788,12 @@
         {
           "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
           "type": "index-pattern",
-          "id": "cd564590-8198-11ef-83ba-f3a1d08225ea"
+          "id": "c9a2bb80-240f-11f0-865c-298b326405f6"
         },
         {
           "name": "kibanaSavedObjectMeta.searchSourceJSON.filter[0].meta.index",
           "type": "index-pattern",
-          "id": "cd564590-8198-11ef-83ba-f3a1d08225ea"
+          "id": "c9a2bb80-240f-11f0-865c-298b326405f6"
         },
         {
           "id": "e3268890-4376-11ef-80ef-2d115cc450b5",
@@ -838,12 +838,12 @@
         {
           "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
           "type": "index-pattern",
-          "id": "cd564590-8198-11ef-83ba-f3a1d08225ea"
+          "id": "c9a2bb80-240f-11f0-865c-298b326405f6"
         },
         {
           "name": "kibanaSavedObjectMeta.searchSourceJSON.filter[0].meta.index",
           "type": "index-pattern",
-          "id": "cd564590-8198-11ef-83ba-f3a1d08225ea"
+          "id": "c9a2bb80-240f-11f0-865c-298b326405f6"
         },
         {
           "id": "e3268890-4376-11ef-80ef-2d115cc450b5",
@@ -973,17 +973,17 @@
       "references": [
         {
           "name": "indexpattern-datasource-current-indexpattern",
-          "id": "cd564590-8198-11ef-83ba-f3a1d08225ea",
+          "id": "c9a2bb80-240f-11f0-865c-298b326405f6",
           "type": "index-pattern"
         },
         {
           "name": "indexpattern-datasource-layer-50e0743d-72d2-4926-a93b-1b1cee6980f3",
-          "id": "cd564590-8198-11ef-83ba-f3a1d08225ea",
+          "id": "c9a2bb80-240f-11f0-865c-298b326405f6",
           "type": "index-pattern"
         },
         {
           "name": "filter-index-pattern-0",
-          "id": "cd564590-8198-11ef-83ba-f3a1d08225ea",
+          "id": "c9a2bb80-240f-11f0-865c-298b326405f6",
           "type": "index-pattern"
         },
         {
@@ -1104,17 +1104,17 @@
       "references": [
         {
           "name": "indexpattern-datasource-current-indexpattern",
-          "id": "cd564590-8198-11ef-83ba-f3a1d08225ea",
+          "id": "c9a2bb80-240f-11f0-865c-298b326405f6",
           "type": "index-pattern"
         },
         {
           "name": "indexpattern-datasource-layer-50e0743d-72d2-4926-a93b-1b1cee6980f3",
-          "id": "cd564590-8198-11ef-83ba-f3a1d08225ea",
+          "id": "c9a2bb80-240f-11f0-865c-298b326405f6",
           "type": "index-pattern"
         },
         {
           "name": "filter-index-pattern-0",
-          "id": "cd564590-8198-11ef-83ba-f3a1d08225ea",
+          "id": "c9a2bb80-240f-11f0-865c-298b326405f6",
           "type": "index-pattern"
         },
         {
@@ -1213,12 +1213,12 @@
       "references": [
         {
           "name": "indexpattern-datasource-current-indexpattern",
-          "id": "cd564590-8198-11ef-83ba-f3a1d08225ea",
+          "id": "c9a2bb80-240f-11f0-865c-298b326405f6",
           "type": "index-pattern"
         },
         {
           "name": "indexpattern-datasource-layer-50e0743d-72d2-4926-a93b-1b1cee6980f3",
-          "id": "cd564590-8198-11ef-83ba-f3a1d08225ea",
+          "id": "c9a2bb80-240f-11f0-865c-298b326405f6",
           "type": "index-pattern"
         },
         {
