@@ -123,7 +123,7 @@
       "updated_at": "2026-01-14T07:48:05.252Z",
       "version": "WzI0MjQ3MTUsMTJd",
       "attributes": {
-        "title": "C&R : Tableau de bord établissements Click & Read",
+        "title": "C&R : Tableau de bord établissements Click & Read ezpaarse",
         "visState": "{\"title\":\"C&R : Tableau de bord établissements Click & Read\",\"type\":\"markdown\",\"aggs\":[],\"params\":{\"fontSize\":12,\"markdown\":\"## Tableau de bord Click & Read établissement partenaire\\n\\n\\n[![ezMESURE](https://raw.githubusercontent.com/ezpaarse-project/ezpaarse-project.github.io/master/ezmesure/static/images/logo-ezMESURE-350.png)](https://ezmesure.couperin.org/)\\n[![CLICK&READ](https://raw.githubusercontent.com/ezpaarse-project/ezpaarse-project.github.io/master/ezmesure/static/images/logo-clickandread-petit.png)](https://clickandread.inist.fr/)\\n\\n### Ce rapport est destiné à estimer les consultations d'articles via les demandes d'accès par le bouton C&R des utilisateurs qui ont sélectionné votre établissement dans leur paramétrage de l'extension.\\n\\n### Chaque \\\"accès\\\" indiqué dans ce tableau correspond à un clic sur un bouton C&R effectué par vos utilisateurs.\\n\\n### Ces statistiques concernent uniquement les utilisateurs qui ont accepté la politique de confidentialité.\\n  \\n\\n\",\"openLinksInNewTab\":false}}",
         "uiStateJSON": "{}",
         "description": "",
@@ -158,7 +158,7 @@
       "updated_at": "2026-01-14T07:48:05.252Z",
       "version": "WzI0MjQ3MTYsMTJd",
       "attributes": {
-        "title": "C&R : Consultations générales",
+        "title": "C&R : Consultations générales ezpaarse",
         "visState": "{\"title\":\"C&R : Consultations générales\",\"type\":\"markdown\",\"aggs\":[],\"params\":{\"fontSize\":12,\"markdown\":\"### 1. Clics sur les boutons C&R effectués par les utilisateurs de votre établissement :\",\"openLinksInNewTab\":false}}",
         "uiStateJSON": "{}",
         "description": "",
@@ -193,7 +193,7 @@
       "updated_at": "2026-01-14T07:48:05.252Z",
       "version": "WzI0MjQ3MTcsMTJd",
       "attributes": {
-        "title": "C&R : Nombre total d’articles consultés par vos utilisateurs, toutes sources confondues",
+        "title": "C&R : Nombre total d’articles consultés par vos utilisateurs, toutes sources confondues ezpaarse",
         "visState": "{\"title\":\"C&R : Nombre total d’articles consultés par vos utilisateurs, toutes sources confondues\",\"type\":\"metric\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"params\":{\"customLabel\":\"Clics sur boutons C&R\"},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"min\",\"params\":{\"field\":\"datetime\",\"customLabel\":\"Date de début\"},\"schema\":\"metric\"},{\"id\":\"3\",\"enabled\":true,\"type\":\"max\",\"params\":{\"field\":\"datetime\",\"customLabel\":\"Date de fin\"},\"schema\":\"metric\"},{\"id\":\"5\",\"enabled\":false,\"type\":\"cardinality\",\"params\":{\"field\":\"journal_issn_l\"},\"schema\":\"metric\"},{\"id\":\"6\",\"enabled\":false,\"type\":\"cardinality\",\"params\":{\"field\":\"doi\"},\"schema\":\"metric\"}],\"params\":{\"metric\":{\"percentageMode\":false,\"useRanges\":false,\"colorSchema\":\"Green to Red\",\"metricColorMode\":\"None\",\"colorsRange\":[{\"type\":\"range\",\"from\":0,\"to\":10000}],\"labels\":{\"show\":true},\"invertColors\":false,\"style\":{\"bgFill\":\"#000\",\"bgColor\":false,\"labelColor\":false,\"subText\":\"\",\"fontSize\":20}},\"dimensions\":{\"metrics\":[{\"type\":\"vis_dimension\",\"accessor\":0,\"format\":{\"id\":\"number\",\"params\":{}}},{\"type\":\"vis_dimension\",\"accessor\":1,\"format\":{\"id\":\"date\",\"params\":{\"pattern\":\"DD-MM-YYYY\"}}},{\"type\":\"vis_dimension\",\"accessor\":2,\"format\":{\"id\":\"date\",\"params\":{\"pattern\":\"DD-MM-YYYY\"}}},{\"type\":\"vis_dimension\",\"accessor\":3,\"format\":{\"id\":\"number\",\"params\":{}}},{\"type\":\"vis_dimension\",\"accessor\":4,\"format\":{\"id\":\"number\",\"params\":{}}}]},\"addTooltip\":true,\"addLegend\":false,\"type\":\"metric\"}}",
         "uiStateJSON": "{}",
         "description": "Pour la période indiquée, nombre de clics sur des boutons Click & Read par vos utilisateurs, toutes sources confondues (Unpaywall, Istex, Panist, autres établissements ...).",
@@ -233,7 +233,7 @@
       "updated_at": "2026-01-14T07:48:05.252Z",
       "version": "WzI0MjQ3MTgsMTJd",
       "attributes": {
-        "title": "C&R : Nombre d'articles consultés par jour",
+        "title": "C&R : Nombre d'articles consultés par jour ezpaarse",
         "visState": "{\"title\":\"C&R : Nombre d'articles consultés par jour\",\"type\":\"histogram\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"params\":{},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"date_histogram\",\"params\":{\"field\":\"datetime\",\"timeRange\":{\"from\":\"now-1y/d\",\"to\":\"now\"},\"useNormalizedEsInterval\":true,\"scaleMetricValues\":true,\"interval\":\"d\",\"used_interval\":\"1d\",\"drop_partials\":false,\"min_doc_count\":1,\"extended_bounds\":{},\"customLabel\":\"Nombre de consultations par jour\"},\"schema\":\"segment\"}],\"params\":{\"type\":\"histogram\",\"grid\":{\"categoryLines\":false},\"categoryAxes\":[{\"id\":\"CategoryAxis-1\",\"type\":\"category\",\"position\":\"bottom\",\"show\":true,\"style\":{},\"scale\":{\"type\":\"linear\"},\"labels\":{\"show\":true,\"filter\":true,\"truncate\":100},\"title\":{}}],\"valueAxes\":[{\"id\":\"ValueAxis-1\",\"name\":\"LeftAxis-1\",\"type\":\"value\",\"position\":\"left\",\"show\":true,\"style\":{},\"scale\":{\"type\":\"linear\",\"mode\":\"normal\"},\"labels\":{\"show\":true,\"rotate\":0,\"filter\":false,\"truncate\":100},\"title\":{\"text\":\"Count\"}}],\"seriesParams\":[{\"show\":\"true\",\"type\":\"histogram\",\"mode\":\"stacked\",\"data\":{\"label\":\"Count\",\"id\":\"1\"},\"valueAxis\":\"ValueAxis-1\",\"drawLinesBetweenPoints\":true,\"showCircles\":true}],\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"top\",\"times\":[],\"addTimeMarker\":false,\"labels\":{\"show\":false},\"thresholdLine\":{\"show\":false,\"value\":10,\"width\":1,\"style\":\"full\",\"color\":\"#34130C\"},\"dimensions\":{\"x\":{\"accessor\":0,\"format\":{\"id\":\"date\",\"params\":{\"pattern\":\"YYYY-MM-DD\"}},\"params\":{\"date\":true,\"interval\":\"P1D\",\"format\":\"YYYY-MM-DD\",\"bounds\":{\"min\":\"2021-03-30T20:59:44.205Z\",\"max\":\"2021-04-09T01:29:32.917Z\"}},\"aggType\":\"date_histogram\"},\"y\":[{\"accessor\":2,\"format\":{\"id\":\"number\"},\"params\":{},\"aggType\":\"count\"}],\"series\":[{\"accessor\":1,\"format\":{\"id\":\"terms\",\"params\":{\"id\":\"string\",\"otherBucketLabel\":\"Other\",\"missingBucketLabel\":\"Missing\"}},\"params\":{},\"aggType\":\"terms\"}]},\"palette\":{\"type\":\"palette\",\"name\":\"kibana_palette\"},\"isVislibVis\":true,\"detailedTooltip\":true,\"radiusRatio\":0}}",
         "uiStateJSON": "{}",
         "description": "Nombre de clics sur des boutons Click & Read par vos utilisateurs, toutes sources confondues.",
@@ -273,7 +273,7 @@
       "updated_at": "2026-01-15T09:40:03.767Z",
       "version": "WzI0MjU1MTIsMTJd",
       "attributes": {
-        "title": "C&R : Les 100 journaux les plus consultés",
+        "title": "C&R : Les 100 journaux les plus consultés ezpaarse",
         "visState": "{\"title\":\"C&R : Les 100 journaux les plus consultés\",\"type\":\"table\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"params\":{\"customLabel\":\"Nombre de consultations\"},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"params\":{\"field\":\"publication_title\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":100,\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\",\"customLabel\":\"Nom du journal\"},\"schema\":\"bucket\"},{\"id\":\"3\",\"enabled\":true,\"type\":\"terms\",\"params\":{\"field\":\"issnl\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":100,\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\",\"customLabel\":\"ISSN\"},\"schema\":\"bucket\"}],\"params\":{\"perPage\":10,\"showPartialRows\":false,\"showMetricsAtAllLevels\":false,\"sort\":{\"columnIndex\":null,\"direction\":null},\"showTotal\":false,\"totalFunc\":\"sum\",\"percentageCol\":\"\",\"dimensions\":{\"metrics\":[{\"accessor\":3,\"format\":{\"id\":\"number\"},\"params\":{},\"aggType\":\"count\"}],\"buckets\":[{\"accessor\":0,\"format\":{\"id\":\"terms\",\"params\":{\"id\":\"string\",\"otherBucketLabel\":\"Other\",\"missingBucketLabel\":\"Missing\"}},\"params\":{},\"aggType\":\"terms\"},{\"accessor\":1,\"format\":{\"id\":\"terms\",\"params\":{\"id\":\"string\",\"otherBucketLabel\":\"Other\",\"missingBucketLabel\":\"Missing\"}},\"params\":{},\"aggType\":\"terms\"},{\"accessor\":2,\"format\":{\"id\":\"terms\",\"params\":{\"id\":\"string\",\"otherBucketLabel\":\"Other\",\"missingBucketLabel\":\"Missing\"}},\"params\":{},\"aggType\":\"terms\"}]},\"showToolbar\":true}}",
         "uiStateJSON": "{}",
         "description": "Journaux les plus consultés via Click & Read par vos utilisateurs sur la période, toutes sources confondues.",
@@ -313,7 +313,7 @@
       "updated_at": "2026-01-14T08:26:40.504Z",
       "version": "WzI0MjUxNTIsMTJd",
       "attributes": {
-        "title": "C&R : types d'identifiants documentaires",
+        "title": "C&R : types d'identifiants documentaires ezpaarse",
         "visState": "{\"title\":\"C&R : types d'identifiants documentaires\",\"type\":\"pie\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"params\":{},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"params\":{\"field\":\"idType\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":50,\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\"},\"schema\":\"segment\"}],\"params\":{\"type\":\"pie\",\"addTooltip\":true,\"addLegend\":false,\"legendPosition\":\"right\",\"nestedLegend\":false,\"distinctColors\":false,\"isDonut\":true,\"palette\":{\"type\":\"palette\",\"name\":\"default\"},\"labels\":{\"show\":true,\"last_level\":false,\"values\":true,\"valuesFormat\":\"percent\",\"percentDecimals\":2,\"truncate\":100,\"position\":\"default\"}}}",
         "uiStateJSON": "{}",
         "description": "Types d'identifiants sur lesquels C&R a réagi pour les accès de vos utilisateurs.",
@@ -353,7 +353,7 @@
       "updated_at": "2026-01-14T07:48:05.252Z",
       "version": "WzI0MjQ3MjEsMTJd",
       "attributes": {
-        "title": "C&R : Répartition des sources",
+        "title": "C&R : Répartition des sources ezpaarse",
         "visState": "{\"title\":\"C&R : Répartition des sources\",\"type\":\"markdown\",\"aggs\":[],\"params\":{\"fontSize\":12,\"markdown\":\"### 2. Répartition des sources ayant fourni les articles à vos utilisateurs :\\n\",\"openLinksInNewTab\":false}}",
         "uiStateJSON": "{}",
         "description": "",
@@ -388,7 +388,7 @@
       "updated_at": "2026-01-14T07:48:05.252Z",
       "version": "WzI0MjQ3MjIsMTJd",
       "attributes": {
-        "title": "C&R : version de l'extension",
+        "title": "C&R : version de l'extension ezpaarse",
         "visState": "{\"title\":\"C&R : version de l'extension\",\"type\":\"markdown\",\"aggs\":[],\"params\":{\"fontSize\":12,\"markdown\":\"### 3. Version de Click & Read utilisée :\\n\",\"openLinksInNewTab\":false}}",
         "uiStateJSON": "{}",
         "description": "",
@@ -423,7 +423,7 @@
       "updated_at": "2026-01-14T07:48:05.252Z",
       "version": "WzI0MjQ3MjMsMTJd",
       "attributes": {
-        "title": "C&R : Répartition des sources ayant fourni les articles à vos utilisateurs",
+        "title": "C&R : Répartition des sources ayant fourni les articles à vos utilisateurs ezpaarse",
         "visState": "{\"title\":\"C&R : Répartition des sources ayant fourni les articles à vos utilisateurs\",\"type\":\"pie\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"params\":{},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"filters\",\"params\":{\"filters\":[{\"input\":{\"query\":\"source : \\\"UNPAYWALL\\\" \",\"language\":\"kuery\"},\"label\":\"SOURCES OA\"},{\"input\":{\"query\":\"source : BIB*\",\"language\":\"kuery\"},\"label\":\"BIBCNRS\"},{\"input\":{\"query\":\"source: (ISTEX or PANIST)\",\"language\":\"kuery\"},\"label\":\"INIST\"},{\"input\":{\"query\":\"not source: (BIB* or ISTEX or PANIST or UNPAYWALL ) \",\"language\":\"kuery\"},\"label\":\"INSTITUTIONS PARTENAIRES\"}]},\"schema\":\"segment\"},{\"id\":\"3\",\"enabled\":true,\"type\":\"terms\",\"params\":{\"field\":\"source\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":100,\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\"},\"schema\":\"segment\"}],\"params\":{\"type\":\"pie\",\"addTooltip\":true,\"addLegend\":false,\"legendPosition\":\"top\",\"isDonut\":true,\"labels\":{\"show\":true,\"values\":true,\"last_level\":true,\"truncate\":100,\"position\":\"inside\",\"valuesFormat\":\"percent\"},\"dimensions\":{\"metric\":{\"accessor\":1,\"format\":{\"id\":\"number\"},\"params\":{},\"aggType\":\"count\"},\"buckets\":[{\"accessor\":0,\"format\":{\"id\":\"terms\",\"params\":{\"id\":\"string\",\"otherBucketLabel\":\"Other\",\"missingBucketLabel\":\"Missing\"}},\"params\":{},\"aggType\":\"terms\"}]},\"palette\":{\"type\":\"palette\",\"name\":\"kibana_palette\"},\"distinctColors\":true,\"nestedLegend\":true}}",
         "uiStateJSON": "{}",
         "description": "Pourcentage des sources ayant fourni les articles lorsque vos utilisateurs ont cliqué sur un bouton Click & Read pour y accéder. La source ayant répondu dépend de la disponibilité de l’article dans les sources interrogées par Click & Read mais également de l’ordre des sources paramétré par les utilisateurs.",
@@ -463,7 +463,7 @@
       "updated_at": "2026-01-14T07:48:05.252Z",
       "version": "WzI0MjQ3MjQsMTJd",
       "attributes": {
-        "title": "C&R : version de l'extension en usage chez vos utilisateurs sur les 30 derniers jours",
+        "title": "C&R : version de l'extension en usage chez vos utilisateurs sur les 30 derniers jours ezpaarse",
         "visState": "{\"title\":\"C&R : version de l'extension en usage chez vos utilisateurs sur les 30 derniers jours\",\"type\":\"pie\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"params\":{},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"params\":{\"field\":\"manifestVersion\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":15,\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\"},\"schema\":\"segment\"}],\"params\":{\"type\":\"pie\",\"addTooltip\":true,\"addLegend\":false,\"legendPosition\":\"right\",\"nestedLegend\":false,\"distinctColors\":false,\"isDonut\":true,\"palette\":{\"type\":\"palette\",\"name\":\"default\"},\"labels\":{\"show\":true,\"last_level\":false,\"values\":true,\"valuesFormat\":\"percent\",\"percentDecimals\":2,\"truncate\":100,\"position\":\"default\"}}}",
         "uiStateJSON": "{}",
         "description": "Cette visualisation indique la version de C&R en usage chez vos utilisateurs à chaque clic sur des boutons C&R sur les 30 derniers jours (une extension à jour offre plus de sécurité et permet de bénéficier des dernières fonctionnalités et des nouveaux partenaires).",
@@ -503,7 +503,7 @@
       "updated_at": "2026-01-14T07:51:23.261Z",
       "version": "WzI0MjQ5MjYsMTJd",
       "attributes": {
-        "title": "C&R : Navigateur utilisé",
+        "title": "C&R : Navigateur utilisé ezpaarse",
         "visState": "{\"title\":\"C&R : Navigateur utilisé\",\"type\":\"pie\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"params\":{},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"params\":{\"field\":\"ua\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":15,\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\"},\"schema\":\"segment\"}],\"params\":{\"type\":\"pie\",\"addTooltip\":true,\"addLegend\":false,\"legendPosition\":\"right\",\"nestedLegend\":false,\"distinctColors\":false,\"isDonut\":true,\"palette\":{\"type\":\"palette\",\"name\":\"default\"},\"labels\":{\"show\":true,\"last_level\":false,\"values\":true,\"valuesFormat\":\"percent\",\"percentDecimals\":2,\"truncate\":100,\"position\":\"default\"}}}",
         "uiStateJSON": "{}",
         "description": "Navigateur utilisé par vos utilisateurs lorsqu'ils ont cliqué sur un bouton C&R.",
