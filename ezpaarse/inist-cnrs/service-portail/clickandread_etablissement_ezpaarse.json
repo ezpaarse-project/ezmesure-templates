@@ -2,7 +2,7 @@
   "version": "7.14.1",
   "objects": [
     {
-      "id": "generic:1c5b92d0-d670-11f0-aa9f-addaad7be40b",
+      "id": "generic:1c5b92d0-d670-11f0-aa9f-ezpaarse",
       "type": "dashboard",
       "namespaces": [
         "inist-cnrs-portails"
@@ -543,7 +543,7 @@
       "updated_at": "2026-01-14T07:48:05.252Z",
       "version": "WzI0MjQ3MjYsMTJd",
       "attributes": {
-        "title": "C&R : Articles fournis par l'établissement",
+        "title": "C&R : Articles fournis par l'établissement ezpaarse",
         "visState": "{\"title\":\"C&R : Articles fournis par l'établissement\",\"type\":\"markdown\",\"aggs\":[],\"params\":{\"fontSize\":12,\"markdown\":\"### 4. Accès aux articles fournis par votre établissement :\\n\\nPour obtenir les statistiques concernant les accès aux articles fournis par votre établissement, cliquez sur l'intitulé de votre établissement dans le graphique 2 ci-dessus. Dans la pop-up, décochez \\\"INSTITUTIONS PARTENAIRES\\\" puis cliquez sur APPLY.\\n\\nTous les chiffres et les graphiques se modifieront en fonction de ce filtre.\\n\\nPour revenir à la visualisation générale, supprimez le filtre \\\"source: nom de votre établissement\\\" affiché en haut à gauche de ce tableau de bord.\",\"openLinksInNewTab\":false}}",
         "uiStateJSON": "{}",
         "description": "",
