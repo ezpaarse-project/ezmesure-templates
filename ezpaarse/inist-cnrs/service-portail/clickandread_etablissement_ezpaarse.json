@@ -7,8 +7,8 @@
       "namespaces": [
         "inist-cnrs-portails"
       ],
-      "updated_at": "2026-01-16T14:51:18.242Z",
-      "version": "WzI2OTg1MDcsOF0=",
+      "updated_at": "2026-01-21T13:55:15.664Z",
+      "version": "WzI3NTI5NDEsOF0=",
       "attributes": {
         "title": "Click and Read : generic établissement partenaire",
         "hits": 0,
@@ -121,7 +121,7 @@
         "inist-cnrs-portails"
       ],
       "updated_at": "2026-01-15T13:17:44.785Z",
-      "version": "WzI2OTIzNjEsOF0=",
+      "version": "WzI3Mzk4MjUsOF0=",
       "attributes": {
         "title": "C&R : Tableau de bord établissements Click & Read ezpaarse",
         "visState": "{\"title\":\"C&R : Tableau de bord établissements Click & Read\",\"type\":\"markdown\",\"aggs\":[],\"params\":{\"fontSize\":12,\"markdown\":\"## Tableau de bord Click & Read établissement partenaire\\n\\n\\n[![ezMESURE](https://raw.githubusercontent.com/ezpaarse-project/ezpaarse-project.github.io/master/ezmesure/static/images/logo-ezMESURE-350.png)](https://ezmesure.couperin.org/)\\n[![CLICK&READ](https://raw.githubusercontent.com/ezpaarse-project/ezpaarse-project.github.io/master/ezmesure/static/images/logo-clickandread-petit.png)](https://clickandread.inist.fr/)\\n\\n### Ce rapport est destiné à estimer les consultations d'articles via les demandes d'accès par le bouton C&R des utilisateurs qui ont sélectionné votre établissement dans leur paramétrage de l'extension.\\n\\n### Chaque \\\"accès\\\" indiqué dans ce tableau correspond à un clic sur un bouton C&R effectué par vos utilisateurs.\\n\\n### Ces statistiques concernent uniquement les utilisateurs qui ont accepté la politique de confidentialité.\\n  \\n\\n\",\"openLinksInNewTab\":false}}",
@@ -156,7 +156,7 @@
         "inist-cnrs-portails"
       ],
       "updated_at": "2026-01-15T13:17:44.785Z",
-      "version": "WzI2OTIzNjIsOF0=",
+      "version": "WzI3Mzk4MjYsOF0=",
       "attributes": {
         "title": "C&R : Consultations générales ezpaarse",
         "visState": "{\"title\":\"C&R : Consultations générales\",\"type\":\"markdown\",\"aggs\":[],\"params\":{\"fontSize\":12,\"markdown\":\"### 1. Clics sur les boutons C&R effectués par les utilisateurs de votre établissement :\",\"openLinksInNewTab\":false}}",
@@ -191,7 +191,7 @@
         "inist-cnrs-portails"
       ],
       "updated_at": "2026-01-15T13:17:44.785Z",
-      "version": "WzI2OTIzNjMsOF0=",
+      "version": "WzI3Mzk4MjcsOF0=",
       "attributes": {
         "title": "C&R : Nombre total d’articles consultés par vos utilisateurs, toutes sources confondues ezpaarse",
         "visState": "{\"title\":\"C&R : Nombre total d’articles consultés par vos utilisateurs, toutes sources confondues\",\"type\":\"metric\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"params\":{\"customLabel\":\"Clics sur boutons C&R\"},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"min\",\"params\":{\"field\":\"datetime\",\"customLabel\":\"Date de début\"},\"schema\":\"metric\"},{\"id\":\"3\",\"enabled\":true,\"type\":\"max\",\"params\":{\"field\":\"datetime\",\"customLabel\":\"Date de fin\"},\"schema\":\"metric\"},{\"id\":\"5\",\"enabled\":false,\"type\":\"cardinality\",\"params\":{\"field\":\"journal_issn_l\"},\"schema\":\"metric\"},{\"id\":\"6\",\"enabled\":false,\"type\":\"cardinality\",\"params\":{\"field\":\"doi\"},\"schema\":\"metric\"}],\"params\":{\"metric\":{\"percentageMode\":false,\"useRanges\":false,\"colorSchema\":\"Green to Red\",\"metricColorMode\":\"None\",\"colorsRange\":[{\"type\":\"range\",\"from\":0,\"to\":10000}],\"labels\":{\"show\":true},\"invertColors\":false,\"style\":{\"bgFill\":\"#000\",\"bgColor\":false,\"labelColor\":false,\"subText\":\"\",\"fontSize\":20}},\"dimensions\":{\"metrics\":[{\"type\":\"vis_dimension\",\"accessor\":0,\"format\":{\"id\":\"number\",\"params\":{}}},{\"type\":\"vis_dimension\",\"accessor\":1,\"format\":{\"id\":\"date\",\"params\":{\"pattern\":\"DD-MM-YYYY\"}}},{\"type\":\"vis_dimension\",\"accessor\":2,\"format\":{\"id\":\"date\",\"params\":{\"pattern\":\"DD-MM-YYYY\"}}},{\"type\":\"vis_dimension\",\"accessor\":3,\"format\":{\"id\":\"number\",\"params\":{}}},{\"type\":\"vis_dimension\",\"accessor\":4,\"format\":{\"id\":\"number\",\"params\":{}}}]},\"addTooltip\":true,\"addLegend\":false,\"type\":\"metric\"}}",
@@ -231,7 +231,7 @@
         "inist-cnrs-portails"
       ],
       "updated_at": "2026-01-15T13:17:44.785Z",
-      "version": "WzI2OTIzNjQsOF0=",
+      "version": "WzI3Mzk4MjgsOF0=",
       "attributes": {
         "title": "C&R : Nombre d'articles consultés par jour ezpaarse",
         "visState": "{\"title\":\"C&R : Nombre d'articles consultés par jour\",\"type\":\"histogram\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"params\":{},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"date_histogram\",\"params\":{\"field\":\"datetime\",\"timeRange\":{\"from\":\"now-1y/d\",\"to\":\"now\"},\"useNormalizedEsInterval\":true,\"scaleMetricValues\":true,\"interval\":\"d\",\"used_interval\":\"1d\",\"drop_partials\":false,\"min_doc_count\":1,\"extended_bounds\":{},\"customLabel\":\"Nombre de consultations par jour\"},\"schema\":\"segment\"}],\"params\":{\"type\":\"histogram\",\"grid\":{\"categoryLines\":false},\"categoryAxes\":[{\"id\":\"CategoryAxis-1\",\"type\":\"category\",\"position\":\"bottom\",\"show\":true,\"style\":{},\"scale\":{\"type\":\"linear\"},\"labels\":{\"show\":true,\"filter\":true,\"truncate\":100},\"title\":{}}],\"valueAxes\":[{\"id\":\"ValueAxis-1\",\"name\":\"LeftAxis-1\",\"type\":\"value\",\"position\":\"left\",\"show\":true,\"style\":{},\"scale\":{\"type\":\"linear\",\"mode\":\"normal\"},\"labels\":{\"show\":true,\"rotate\":0,\"filter\":false,\"truncate\":100},\"title\":{\"text\":\"Count\"}}],\"seriesParams\":[{\"show\":\"true\",\"type\":\"histogram\",\"mode\":\"stacked\",\"data\":{\"label\":\"Count\",\"id\":\"1\"},\"valueAxis\":\"ValueAxis-1\",\"drawLinesBetweenPoints\":true,\"showCircles\":true}],\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"top\",\"times\":[],\"addTimeMarker\":false,\"labels\":{\"show\":false},\"thresholdLine\":{\"show\":false,\"value\":10,\"width\":1,\"style\":\"full\",\"color\":\"#34130C\"},\"dimensions\":{\"x\":{\"accessor\":0,\"format\":{\"id\":\"date\",\"params\":{\"pattern\":\"YYYY-MM-DD\"}},\"params\":{\"date\":true,\"interval\":\"P1D\",\"format\":\"YYYY-MM-DD\",\"bounds\":{\"min\":\"2021-03-30T20:59:44.205Z\",\"max\":\"2021-04-09T01:29:32.917Z\"}},\"aggType\":\"date_histogram\"},\"y\":[{\"accessor\":2,\"format\":{\"id\":\"number\"},\"params\":{},\"aggType\":\"count\"}],\"series\":[{\"accessor\":1,\"format\":{\"id\":\"terms\",\"params\":{\"id\":\"string\",\"otherBucketLabel\":\"Other\",\"missingBucketLabel\":\"Missing\"}},\"params\":{},\"aggType\":\"terms\"}]},\"palette\":{\"type\":\"palette\",\"name\":\"kibana_palette\"},\"isVislibVis\":true,\"detailedTooltip\":true,\"radiusRatio\":0}}",
@@ -271,7 +271,7 @@
         "inist-cnrs-portails"
       ],
       "updated_at": "2026-01-15T13:17:44.785Z",
-      "version": "WzI2OTIzNjUsOF0=",
+      "version": "WzI3Mzk4MjksOF0=",
       "attributes": {
         "title": "C&R : Les 100 journaux les plus consultés ezpaarse",
         "visState": "{\"title\":\"C&R : Les 100 journaux les plus consultés\",\"type\":\"table\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"params\":{\"customLabel\":\"Nombre de consultations\"},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"params\":{\"field\":\"publication_title\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":100,\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\",\"customLabel\":\"Nom du journal\"},\"schema\":\"bucket\"},{\"id\":\"3\",\"enabled\":true,\"type\":\"terms\",\"params\":{\"field\":\"issnl\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":100,\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\",\"customLabel\":\"ISSN\"},\"schema\":\"bucket\"}],\"params\":{\"perPage\":10,\"showPartialRows\":false,\"showMetricsAtAllLevels\":false,\"sort\":{\"columnIndex\":null,\"direction\":null},\"showTotal\":false,\"totalFunc\":\"sum\",\"percentageCol\":\"\",\"dimensions\":{\"metrics\":[{\"accessor\":3,\"format\":{\"id\":\"number\"},\"params\":{},\"aggType\":\"count\"}],\"buckets\":[{\"accessor\":0,\"format\":{\"id\":\"terms\",\"params\":{\"id\":\"string\",\"otherBucketLabel\":\"Other\",\"missingBucketLabel\":\"Missing\"}},\"params\":{},\"aggType\":\"terms\"},{\"accessor\":1,\"format\":{\"id\":\"terms\",\"params\":{\"id\":\"string\",\"otherBucketLabel\":\"Other\",\"missingBucketLabel\":\"Missing\"}},\"params\":{},\"aggType\":\"terms\"},{\"accessor\":2,\"format\":{\"id\":\"terms\",\"params\":{\"id\":\"string\",\"otherBucketLabel\":\"Other\",\"missingBucketLabel\":\"Missing\"}},\"params\":{},\"aggType\":\"terms\"}]},\"showToolbar\":true}}",
@@ -311,7 +311,7 @@
         "inist-cnrs-portails"
       ],
       "updated_at": "2026-01-15T13:17:44.785Z",
-      "version": "WzI2OTIzNjYsOF0=",
+      "version": "WzI3Mzk4MzAsOF0=",
       "attributes": {
         "title": "C&R : types d'identifiants documentaires ezpaarse",
         "visState": "{\"title\":\"C&R : types d'identifiants documentaires\",\"type\":\"pie\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"params\":{},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"params\":{\"field\":\"idType\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":50,\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\"},\"schema\":\"segment\"}],\"params\":{\"type\":\"pie\",\"addTooltip\":true,\"addLegend\":false,\"legendPosition\":\"right\",\"nestedLegend\":false,\"distinctColors\":false,\"isDonut\":true,\"palette\":{\"type\":\"palette\",\"name\":\"default\"},\"labels\":{\"show\":true,\"last_level\":false,\"values\":true,\"valuesFormat\":\"percent\",\"percentDecimals\":2,\"truncate\":100,\"position\":\"default\"}}}",
@@ -351,7 +351,7 @@
         "inist-cnrs-portails"
       ],
       "updated_at": "2026-01-15T13:17:44.785Z",
-      "version": "WzI2OTIzNjcsOF0=",
+      "version": "WzI3Mzk4MzEsOF0=",
       "attributes": {
         "title": "C&R : Répartition des sources ezpaarse",
         "visState": "{\"title\":\"C&R : Répartition des sources\",\"type\":\"markdown\",\"aggs\":[],\"params\":{\"fontSize\":12,\"markdown\":\"### 2. Répartition des sources ayant fourni les articles à vos utilisateurs :\\n\",\"openLinksInNewTab\":false}}",
@@ -386,7 +386,7 @@
         "inist-cnrs-portails"
       ],
       "updated_at": "2026-01-15T13:17:44.785Z",
-      "version": "WzI2OTIzNjgsOF0=",
+      "version": "WzI3Mzk4MzIsOF0=",
       "attributes": {
         "title": "C&R : version de l'extension ezpaarse",
         "visState": "{\"title\":\"C&R : version de l'extension\",\"type\":\"markdown\",\"aggs\":[],\"params\":{\"fontSize\":12,\"markdown\":\"### 3. Version de Click & Read utilisée :\\n\",\"openLinksInNewTab\":false}}",
@@ -421,7 +421,7 @@
         "inist-cnrs-portails"
       ],
       "updated_at": "2026-01-15T13:17:44.785Z",
-      "version": "WzI2OTIzNjksOF0=",
+      "version": "WzI3Mzk4MzMsOF0=",
       "attributes": {
         "title": "C&R : Répartition des sources ayant fourni les articles à vos utilisateurs ezpaarse",
         "visState": "{\"title\":\"C&R : Répartition des sources ayant fourni les articles à vos utilisateurs\",\"type\":\"pie\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"params\":{},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"filters\",\"params\":{\"filters\":[{\"input\":{\"query\":\"source : \\\"UNPAYWALL\\\" \",\"language\":\"kuery\"},\"label\":\"SOURCES OA\"},{\"input\":{\"query\":\"source : BIB*\",\"language\":\"kuery\"},\"label\":\"BIBCNRS\"},{\"input\":{\"query\":\"source: (ISTEX or PANIST)\",\"language\":\"kuery\"},\"label\":\"INIST\"},{\"input\":{\"query\":\"not source: (BIB* or ISTEX or PANIST or UNPAYWALL ) \",\"language\":\"kuery\"},\"label\":\"INSTITUTIONS PARTENAIRES\"}]},\"schema\":\"segment\"},{\"id\":\"3\",\"enabled\":true,\"type\":\"terms\",\"params\":{\"field\":\"source\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":100,\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\"},\"schema\":\"segment\"}],\"params\":{\"type\":\"pie\",\"addTooltip\":true,\"addLegend\":false,\"legendPosition\":\"top\",\"isDonut\":true,\"labels\":{\"show\":true,\"values\":true,\"last_level\":true,\"truncate\":100,\"position\":\"inside\",\"valuesFormat\":\"percent\"},\"dimensions\":{\"metric\":{\"accessor\":1,\"format\":{\"id\":\"number\"},\"params\":{},\"aggType\":\"count\"},\"buckets\":[{\"accessor\":0,\"format\":{\"id\":\"terms\",\"params\":{\"id\":\"string\",\"otherBucketLabel\":\"Other\",\"missingBucketLabel\":\"Missing\"}},\"params\":{},\"aggType\":\"terms\"}]},\"palette\":{\"type\":\"palette\",\"name\":\"kibana_palette\"},\"distinctColors\":true,\"nestedLegend\":true}}",
@@ -461,7 +461,7 @@
         "inist-cnrs-portails"
       ],
       "updated_at": "2026-01-15T13:17:44.785Z",
-      "version": "WzI2OTIzNzAsOF0=",
+      "version": "WzI3Mzk4MzQsOF0=",
       "attributes": {
         "title": "C&R : version de l'extension en usage chez vos utilisateurs sur les 30 derniers jours ezpaarse",
         "visState": "{\"title\":\"C&R : version de l'extension en usage chez vos utilisateurs sur les 30 derniers jours\",\"type\":\"pie\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"params\":{},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"params\":{\"field\":\"manifestVersion\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":15,\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\"},\"schema\":\"segment\"}],\"params\":{\"type\":\"pie\",\"addTooltip\":true,\"addLegend\":false,\"legendPosition\":\"right\",\"nestedLegend\":false,\"distinctColors\":false,\"isDonut\":true,\"palette\":{\"type\":\"palette\",\"name\":\"default\"},\"labels\":{\"show\":true,\"last_level\":false,\"values\":true,\"valuesFormat\":\"percent\",\"percentDecimals\":2,\"truncate\":100,\"position\":\"default\"}}}",
@@ -500,12 +500,12 @@
       "namespaces": [
         "inist-cnrs-portails"
       ],
-      "updated_at": "2026-01-15T13:17:44.785Z",
-      "version": "WzI2OTIzNzEsOF0=",
+      "updated_at": "2026-01-21T13:54:31.860Z",
+      "version": "WzI3NTI5MTIsOF0=",
       "attributes": {
         "title": "C&R : Navigateur utilisé ezpaarse",
-        "visState": "{\"title\":\"C&R : Navigateur utilisé\",\"type\":\"pie\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"params\":{},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"params\":{\"field\":\"ua\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":15,\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\"},\"schema\":\"segment\"}],\"params\":{\"type\":\"pie\",\"addTooltip\":true,\"addLegend\":false,\"legendPosition\":\"right\",\"nestedLegend\":false,\"distinctColors\":false,\"isDonut\":true,\"palette\":{\"type\":\"palette\",\"name\":\"default\"},\"labels\":{\"show\":true,\"last_level\":false,\"values\":true,\"valuesFormat\":\"percent\",\"percentDecimals\":2,\"truncate\":100,\"position\":\"default\"}}}",
-        "uiStateJSON": "{}",
+        "visState": "{\"title\":\"C&R : Navigateur utilisé ezpaarse\",\"type\":\"pie\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"params\":{},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"params\":{\"field\":\"user-agent-name\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":15,\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":false,\"missingBucketLabel\":\"Non renseigné\"},\"schema\":\"segment\"}],\"params\":{\"type\":\"pie\",\"addTooltip\":true,\"addLegend\":false,\"legendPosition\":\"right\",\"nestedLegend\":false,\"distinctColors\":false,\"isDonut\":true,\"palette\":{\"type\":\"palette\",\"name\":\"default\"},\"labels\":{\"show\":true,\"last_level\":false,\"values\":true,\"valuesFormat\":\"percent\",\"percentDecimals\":2,\"truncate\":100,\"position\":\"default\"}}}",
+        "uiStateJSON": "{\"vis\":{\"legendOpen\":false}}",
         "description": "Navigateur utilisé par vos utilisateurs lorsqu'ils ont cliqué sur un bouton C&R.",
         "version": 1,
         "kibanaSavedObjectMeta": {
@@ -541,7 +541,7 @@
         "inist-cnrs-portails"
       ],
       "updated_at": "2026-01-15T13:17:44.785Z",
-      "version": "WzI2OTIzNzIsOF0=",
+      "version": "WzI3Mzk4MzYsOF0=",
       "attributes": {
         "title": "C&R : Articles fournis par l'établissement ezpaarse",
         "visState": "{\"title\":\"C&R : Articles fournis par l'établissement\",\"type\":\"markdown\",\"aggs\":[],\"params\":{\"fontSize\":12,\"markdown\":\"### 4. Accès aux articles fournis par votre établissement :\\n\\nPour obtenir les statistiques concernant les accès aux articles fournis par votre établissement, cliquez sur l'intitulé de votre établissement dans le graphique 2 ci-dessus. Dans la pop-up, décochez \\\"INSTITUTIONS PARTENAIRES\\\" puis cliquez sur APPLY.\\n\\nTous les chiffres et les graphiques se modifieront en fonction de ce filtre.\\n\\nPour revenir à la visualisation générale, supprimez le filtre \\\"source: nom de votre établissement\\\" affiché en haut à gauche de ce tableau de bord.\",\"openLinksInNewTab\":false}}",
@@ -576,7 +576,7 @@
         "inist-cnrs-portails"
       ],
       "updated_at": "2026-01-15T13:18:14.181Z",
-      "version": "WzI2OTIzOTgsOF0=",
+      "version": "WzI3Mzk4MTgsOF0=",
       "attributes": {
         "name": "établissement",
         "description": "",
@@ -592,7 +592,7 @@
         "inist-cnrs-portails"
       ],
       "updated_at": "2026-01-15T13:18:14.181Z",
-      "version": "WzI2OTIzOTksOF0=",
+      "version": "WzI3Mzk4MTksOF0=",
       "attributes": {
         "color": "#5fff8a",
         "description": "",
@@ -608,7 +608,7 @@
         "inist-cnrs-portails"
       ],
       "updated_at": "2026-01-15T13:18:14.181Z",
-      "version": "WzI2OTI0MDAsOF0=",
+      "version": "WzI3Mzk4MjAsOF0=",
       "attributes": {
         "color": "#07db57",
         "description": "",
@@ -624,7 +624,7 @@
         "inist-cnrs-portails"
       ],
       "updated_at": "2026-01-15T13:18:14.181Z",
-      "version": "WzI2OTI0MDEsOF0=",
+      "version": "WzI3Mzk4MjEsOF0=",
       "attributes": {
         "color": "#E7664C",
         "description": "",
@@ -639,10 +639,10 @@
       "namespaces": [
         "inist-cnrs-portails"
       ],
-      "updated_at": "2026-01-15T12:47:14.204Z",
-      "version": "WzI2OTIwMDcsOF0=",
+      "updated_at": "2026-01-19T18:46:51.712Z",
+      "version": "WzI3NDAxNDMsOF0=",
       "attributes": {
-        "fieldAttrs": "{}",
+        "fieldAttrs": "{\"doi\":{\"count\":1},\"publication_title\":{\"count\":1},\"issnl\":{\"count\":1}}",
         "title": "b-cnrs-clickandread-ezpaarse-*",
         "timeFieldName": "datetime",
         "fields": "[]",
