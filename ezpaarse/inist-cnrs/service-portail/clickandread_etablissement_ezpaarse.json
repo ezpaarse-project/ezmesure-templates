@@ -7,13 +7,13 @@
       "namespaces": [
         "inist-cnrs-portails"
       ],
-      "updated_at": "2026-01-21T13:55:15.664Z",
-      "version": "WzI3NTI5NDEsOF0=",
+      "updated_at": "2026-01-23T10:37:34.313Z",
+      "version": "WzI3NjM4NDQsOF0=",
       "attributes": {
         "title": "Click and Read : generic établissement partenaire",
         "hits": 0,
         "description": "Tableau générique des accès aux articles générés via l'extension Click and Read pour chaque établissement partenaire",
-        "panelsJSON": "[{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":0,\"y\":0,\"w\":48,\"h\":15,\"i\":\"6ae74c61-5eae-4207-bb5e-e92fe2553d08\"},\"panelIndex\":\"6ae74c61-5eae-4207-bb5e-e92fe2553d08\",\"embeddableConfig\":{\"enhancements\":{},\"hidePanelTitles\":false},\"title\":\"C&R : Tableau de bord établissement partenaire Click & Read\",\"panelRefName\":\"panel_6ae74c61-5eae-4207-bb5e-e92fe2553d08\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":0,\"y\":15,\"w\":48,\"h\":4,\"i\":\"7652bfa2-82de-43ec-ad36-5acb390e5a47\"},\"panelIndex\":\"7652bfa2-82de-43ec-ad36-5acb390e5a47\",\"embeddableConfig\":{\"enhancements\":{},\"hidePanelTitles\":true},\"panelRefName\":\"panel_7652bfa2-82de-43ec-ad36-5acb390e5a47\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":0,\"y\":19,\"w\":48,\"h\":5,\"i\":\"4a1a0e88-6a80-4997-846c-4dece961fc91\"},\"panelIndex\":\"4a1a0e88-6a80-4997-846c-4dece961fc91\",\"embeddableConfig\":{\"enhancements\":{},\"hidePanelTitles\":false},\"title\":\"C&R : Nombre total d'accès par vos utilisateurs, toutes sources confondues\",\"panelRefName\":\"panel_4a1a0e88-6a80-4997-846c-4dece961fc91\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":0,\"y\":24,\"w\":23,\"h\":15,\"i\":\"de80917e-26dd-4bc2-bfa3-2610ed00366b\"},\"panelIndex\":\"de80917e-26dd-4bc2-bfa3-2610ed00366b\",\"embeddableConfig\":{\"enhancements\":{},\"hidePanelTitles\":false},\"title\":\"C&R : Nombre d'accès par jour\",\"panelRefName\":\"panel_de80917e-26dd-4bc2-bfa3-2610ed00366b\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":23,\"y\":24,\"w\":16,\"h\":15,\"i\":\"a098c2b6-7dcc-410f-8766-7d627efbb143\"},\"panelIndex\":\"a098c2b6-7dcc-410f-8766-7d627efbb143\",\"embeddableConfig\":{\"enhancements\":{},\"vis\":{\"params\":{\"sort\":{\"columnIndex\":2,\"direction\":\"desc\"},\"colWidth\":[{\"colIndex\":0,\"width\":269.33333333333337},{\"colIndex\":1,\"width\":141.33333333333331}]}},\"table\":null,\"hidePanelTitles\":false},\"title\":\"C&R : Les 100 journaux les plus consultés \",\"panelRefName\":\"panel_a098c2b6-7dcc-410f-8766-7d627efbb143\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":39,\"y\":24,\"w\":9,\"h\":15,\"i\":\"b91e867c-cf82-474c-a49a-a734cd93492f\"},\"panelIndex\":\"b91e867c-cf82-474c-a49a-a734cd93492f\",\"embeddableConfig\":{\"vis\":{\"legendOpen\":false},\"enhancements\":{},\"table\":null,\"hidePanelTitles\":false},\"title\":\"C&R : types d'identifiants documentaires \",\"panelRefName\":\"panel_b91e867c-cf82-474c-a49a-a734cd93492f\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":0,\"y\":39,\"w\":28,\"h\":4,\"i\":\"27d27bf7-06d8-45d5-83c1-19c488964142\"},\"panelIndex\":\"27d27bf7-06d8-45d5-83c1-19c488964142\",\"embeddableConfig\":{\"enhancements\":{},\"hidePanelTitles\":true},\"panelRefName\":\"panel_27d27bf7-06d8-45d5-83c1-19c488964142\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":29,\"y\":39,\"w\":19,\"h\":4,\"i\":\"f940d413-6101-465c-874b-299dac6a2cc1\"},\"panelIndex\":\"f940d413-6101-465c-874b-299dac6a2cc1\",\"embeddableConfig\":{\"enhancements\":{},\"hidePanelTitles\":true},\"panelRefName\":\"panel_f940d413-6101-465c-874b-299dac6a2cc1\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":0,\"y\":43,\"w\":28,\"h\":32,\"i\":\"d5d94727-6ef4-407b-b7fb-1772dee067b0\"},\"panelIndex\":\"d5d94727-6ef4-407b-b7fb-1772dee067b0\",\"embeddableConfig\":{\"enhancements\":{},\"vis\":{\"legendOpen\":false,\"colors\":{\"UTC - UNIVERSITE DE TECHNOLOGIE DE COMPIEGNE\":\"#629E51\"}},\"table\":null,\"hidePanelTitles\":false},\"title\":\"C&R : Répartition des sources ayant fourni les articles à vos utilisateurs \",\"panelRefName\":\"panel_d5d94727-6ef4-407b-b7fb-1772dee067b0\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":29,\"y\":43,\"w\":19,\"h\":16,\"i\":\"31178696-dfa9-4e67-8190-d08828084229\"},\"panelIndex\":\"31178696-dfa9-4e67-8190-d08828084229\",\"embeddableConfig\":{\"vis\":{\"legendOpen\":false},\"enhancements\":{},\"timeRange\":{\"from\":\"now-30d/d\",\"to\":\"now\"},\"hidePanelTitles\":false},\"title\":\"C&R : version de l'extension en usage chez vos utilisateurs sur les 30 derniers jours \",\"panelRefName\":\"panel_31178696-dfa9-4e67-8190-d08828084229\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":29,\"y\":59,\"w\":19,\"h\":16,\"i\":\"b91dd4c8-1922-49e0-aaba-23a5588585bf\"},\"panelIndex\":\"b91dd4c8-1922-49e0-aaba-23a5588585bf\",\"embeddableConfig\":{\"vis\":{\"legendOpen\":false},\"enhancements\":{},\"hidePanelTitles\":false},\"title\":\"C&R : Navigateur utilisé \",\"panelRefName\":\"panel_b91dd4c8-1922-49e0-aaba-23a5588585bf\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":0,\"y\":75,\"w\":48,\"h\":11,\"i\":\"563001db-2ee8-4930-b81e-e69414492594\"},\"panelIndex\":\"563001db-2ee8-4930-b81e-e69414492594\",\"embeddableConfig\":{\"enhancements\":{},\"hidePanelTitles\":true},\"panelRefName\":\"panel_563001db-2ee8-4930-b81e-e69414492594\"}]",
+        "panelsJSON": "[{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":0,\"y\":0,\"w\":48,\"h\":15,\"i\":\"6ae74c61-5eae-4207-bb5e-e92fe2553d08\"},\"panelIndex\":\"6ae74c61-5eae-4207-bb5e-e92fe2553d08\",\"embeddableConfig\":{\"enhancements\":{},\"hidePanelTitles\":false},\"title\":\"C&R : Tableau de bord établissement partenaire Click & Read\",\"panelRefName\":\"panel_6ae74c61-5eae-4207-bb5e-e92fe2553d08\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":0,\"y\":15,\"w\":48,\"h\":4,\"i\":\"7652bfa2-82de-43ec-ad36-5acb390e5a47\"},\"panelIndex\":\"7652bfa2-82de-43ec-ad36-5acb390e5a47\",\"embeddableConfig\":{\"enhancements\":{},\"hidePanelTitles\":true},\"panelRefName\":\"panel_7652bfa2-82de-43ec-ad36-5acb390e5a47\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":0,\"y\":19,\"w\":48,\"h\":5,\"i\":\"4a1a0e88-6a80-4997-846c-4dece961fc91\"},\"panelIndex\":\"4a1a0e88-6a80-4997-846c-4dece961fc91\",\"embeddableConfig\":{\"enhancements\":{},\"hidePanelTitles\":false},\"title\":\"C&R : Nombre total d'accès par vos utilisateurs, toutes sources confondues\",\"panelRefName\":\"panel_4a1a0e88-6a80-4997-846c-4dece961fc91\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":0,\"y\":24,\"w\":27,\"h\":15,\"i\":\"de80917e-26dd-4bc2-bfa3-2610ed00366b\"},\"panelIndex\":\"de80917e-26dd-4bc2-bfa3-2610ed00366b\",\"embeddableConfig\":{\"enhancements\":{},\"hidePanelTitles\":false},\"title\":\"C&R : Nombre d'accès par jour\",\"panelRefName\":\"panel_de80917e-26dd-4bc2-bfa3-2610ed00366b\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":27,\"y\":24,\"w\":21,\"h\":15,\"i\":\"a098c2b6-7dcc-410f-8766-7d627efbb143\"},\"panelIndex\":\"a098c2b6-7dcc-410f-8766-7d627efbb143\",\"embeddableConfig\":{\"enhancements\":{},\"vis\":{\"params\":{\"sort\":{\"columnIndex\":2,\"direction\":\"desc\"},\"colWidth\":[{\"colIndex\":0,\"width\":425.33333333333337},{\"colIndex\":1,\"width\":135.33333333333331}]}},\"table\":null,\"hidePanelTitles\":false},\"title\":\"C&R : Les 100 journaux les plus consultés \",\"panelRefName\":\"panel_a098c2b6-7dcc-410f-8766-7d627efbb143\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":0,\"y\":39,\"w\":27,\"h\":4,\"i\":\"27d27bf7-06d8-45d5-83c1-19c488964142\"},\"panelIndex\":\"27d27bf7-06d8-45d5-83c1-19c488964142\",\"embeddableConfig\":{\"enhancements\":{},\"hidePanelTitles\":true},\"panelRefName\":\"panel_27d27bf7-06d8-45d5-83c1-19c488964142\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":27,\"y\":39,\"w\":21,\"h\":4,\"i\":\"f940d413-6101-465c-874b-299dac6a2cc1\"},\"panelIndex\":\"f940d413-6101-465c-874b-299dac6a2cc1\",\"embeddableConfig\":{\"enhancements\":{},\"hidePanelTitles\":true},\"panelRefName\":\"panel_f940d413-6101-465c-874b-299dac6a2cc1\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":0,\"y\":43,\"w\":27,\"h\":32,\"i\":\"d5d94727-6ef4-407b-b7fb-1772dee067b0\"},\"panelIndex\":\"d5d94727-6ef4-407b-b7fb-1772dee067b0\",\"embeddableConfig\":{\"enhancements\":{},\"vis\":{\"legendOpen\":false,\"colors\":{\"UTC - UNIVERSITE DE TECHNOLOGIE DE COMPIEGNE\":\"#629E51\"}},\"table\":null,\"hidePanelTitles\":false},\"title\":\"C&R : Répartition des sources ayant fourni les articles à vos utilisateurs \",\"panelRefName\":\"panel_d5d94727-6ef4-407b-b7fb-1772dee067b0\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":27,\"y\":43,\"w\":21,\"h\":14,\"i\":\"b91e867c-cf82-474c-a49a-a734cd93492f\"},\"panelIndex\":\"b91e867c-cf82-474c-a49a-a734cd93492f\",\"embeddableConfig\":{\"vis\":{\"legendOpen\":false},\"enhancements\":{},\"table\":null,\"hidePanelTitles\":false},\"title\":\"C&R : types d'identifiants documentaires \",\"panelRefName\":\"panel_b91e867c-cf82-474c-a49a-a734cd93492f\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":27,\"y\":57,\"w\":21,\"h\":4,\"i\":\"042730c8-d5f6-4678-9b1a-c5a79cd3dbb1\"},\"panelIndex\":\"042730c8-d5f6-4678-9b1a-c5a79cd3dbb1\",\"embeddableConfig\":{\"enhancements\":{},\"hidePanelTitles\":true},\"panelRefName\":\"panel_042730c8-d5f6-4678-9b1a-c5a79cd3dbb1\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":27,\"y\":61,\"w\":21,\"h\":14,\"i\":\"b91dd4c8-1922-49e0-aaba-23a5588585bf\"},\"panelIndex\":\"b91dd4c8-1922-49e0-aaba-23a5588585bf\",\"embeddableConfig\":{\"vis\":{\"legendOpen\":false},\"enhancements\":{},\"hidePanelTitles\":false},\"title\":\"C&R : Navigateur utilisé \",\"panelRefName\":\"panel_b91dd4c8-1922-49e0-aaba-23a5588585bf\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":0,\"y\":75,\"w\":48,\"h\":11,\"i\":\"563001db-2ee8-4930-b81e-e69414492594\"},\"panelIndex\":\"563001db-2ee8-4930-b81e-e69414492594\",\"embeddableConfig\":{\"enhancements\":{},\"hidePanelTitles\":true},\"panelRefName\":\"panel_563001db-2ee8-4930-b81e-e69414492594\"}]",
         "optionsJSON": "{\"hidePanelTitles\":false,\"useMargins\":true}",
         "version": 1,
         "timeRestore": true,
@@ -54,11 +54,6 @@
           "id": "4aed5750-5bd7-11f0-b4e2-fb302a6d6e69"
         },
         {
-          "name": "b91e867c-cf82-474c-a49a-a734cd93492f:panel_b91e867c-cf82-474c-a49a-a734cd93492f",
-          "type": "visualization",
-          "id": "f7e572f0-6df5-11f0-b4e2-fb302a6d6e69"
-        },
-        {
           "name": "27d27bf7-06d8-45d5-83c1-19c488964142:panel_27d27bf7-06d8-45d5-83c1-19c488964142",
           "type": "visualization",
           "id": "df3b0d40-5bdb-11f0-b4e2-fb302a6d6e69"
@@ -74,9 +69,14 @@
           "id": "7b8d0100-41e5-11f0-98b5-6fd4cf3fbaf1"
         },
         {
-          "name": "31178696-dfa9-4e67-8190-d08828084229:panel_31178696-dfa9-4e67-8190-d08828084229",
+          "name": "b91e867c-cf82-474c-a49a-a734cd93492f:panel_b91e867c-cf82-474c-a49a-a734cd93492f",
           "type": "visualization",
-          "id": "21a530e0-5bf3-11f0-b4e2-fb302a6d6e69"
+          "id": "f7e572f0-6df5-11f0-b4e2-fb302a6d6e69"
+        },
+        {
+          "name": "042730c8-d5f6-4678-9b1a-c5a79cd3dbb1:panel_042730c8-d5f6-4678-9b1a-c5a79cd3dbb1",
+          "type": "visualization",
+          "id": "880adad0-f845-11f0-a8dd-4f7dc3968343"
         },
         {
           "name": "b91dd4c8-1922-49e0-aaba-23a5588585bf:panel_b91dd4c8-1922-49e0-aaba-23a5588585bf",
@@ -305,46 +305,6 @@
       "coreMigrationVersion": "7.14.1"
     },
     {
-      "id": "f7e572f0-6df5-11f0-b4e2-fb302a6d6e69",
-      "type": "visualization",
-      "namespaces": [
-        "inist-cnrs-portails"
-      ],
-      "updated_at": "2026-01-15T13:17:44.785Z",
-      "version": "WzI3Mzk4MzAsOF0=",
-      "attributes": {
-        "title": "C&R : types d'identifiants documentaires ezpaarse",
-        "visState": "{\"title\":\"C&R : types d'identifiants documentaires\",\"type\":\"pie\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"params\":{},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"params\":{\"field\":\"idType\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":50,\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\"},\"schema\":\"segment\"}],\"params\":{\"type\":\"pie\",\"addTooltip\":true,\"addLegend\":false,\"legendPosition\":\"right\",\"nestedLegend\":false,\"distinctColors\":false,\"isDonut\":true,\"palette\":{\"type\":\"palette\",\"name\":\"default\"},\"labels\":{\"show\":true,\"last_level\":false,\"values\":true,\"valuesFormat\":\"percent\",\"percentDecimals\":2,\"truncate\":100,\"position\":\"default\"}}}",
-        "uiStateJSON": "{}",
-        "description": "Types d'identifiants sur lesquels C&R a réagi pour les accès de vos utilisateurs.",
-        "version": 1,
-        "kibanaSavedObjectMeta": {
-          "searchSourceJSON": "{\"query\":{\"query\":\"\",\"language\":\"kuery\"},\"filter\":[],\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.index\"}"
-        }
-      },
-      "references": [
-        {
-          "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
-          "type": "index-pattern",
-          "id": "5111e090-f210-11f0-8d7b-ef9a29e7bcd0"
-        },
-        {
-          "id": "65fff420-41e3-11f0-98b5-6fd4cf3fbaf0",
-          "type": "tag",
-          "name": "tag-65fff420-41e3-11f0-98b5-6fd4cf3fbaf0"
-        },
-        {
-          "id": "e2b15130-6a89-11ef-99e9-d73145b59914",
-          "type": "tag",
-          "name": "tag-e2b15130-6a89-11ef-99e9-d73145b59914"
-        }
-      ],
-      "migrationVersion": {
-        "visualization": "7.14.0"
-      },
-      "coreMigrationVersion": "7.14.1"
-    },
-    {
       "id": "df3b0d40-5bdb-11f0-b4e2-fb302a6d6e69",
       "type": "visualization",
       "namespaces": [
@@ -385,11 +345,11 @@
       "namespaces": [
         "inist-cnrs-portails"
       ],
-      "updated_at": "2026-01-15T13:17:44.785Z",
-      "version": "WzI3Mzk4MzIsOF0=",
+      "updated_at": "2026-01-23T10:28:42.307Z",
+      "version": "WzI3NjM1MzQsOF0=",
       "attributes": {
-        "title": "C&R : version de l'extension ezpaarse",
-        "visState": "{\"title\":\"C&R : version de l'extension\",\"type\":\"markdown\",\"aggs\":[],\"params\":{\"fontSize\":12,\"markdown\":\"### 3. Version de Click & Read utilisée :\\n\",\"openLinksInNewTab\":false}}",
+        "title": "C&R : identifiants documentaires ezpaarse",
+        "visState": "{\"title\":\"C&R : identifiants documentaires ezpaarse\",\"type\":\"markdown\",\"aggs\":[],\"params\":{\"fontSize\":12,\"markdown\":\"### 3. Identifiants documentaires repérés par C&R :\\n\",\"openLinksInNewTab\":false}}",
         "uiStateJSON": "{}",
         "description": "",
         "version": 1,
@@ -455,18 +415,18 @@
       "coreMigrationVersion": "7.14.1"
     },
     {
-      "id": "21a530e0-5bf3-11f0-b4e2-fb302a6d6e69",
+      "id": "f7e572f0-6df5-11f0-b4e2-fb302a6d6e69",
       "type": "visualization",
       "namespaces": [
         "inist-cnrs-portails"
       ],
-      "updated_at": "2026-01-15T13:17:44.785Z",
-      "version": "WzI3Mzk4MzQsOF0=",
+      "updated_at": "2026-01-23T10:31:20.933Z",
+      "version": "WzI3NjM2MzksOF0=",
       "attributes": {
-        "title": "C&R : version de l'extension en usage chez vos utilisateurs sur les 30 derniers jours ezpaarse",
-        "visState": "{\"title\":\"C&R : version de l'extension en usage chez vos utilisateurs sur les 30 derniers jours\",\"type\":\"pie\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"params\":{},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"params\":{\"field\":\"manifestVersion\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":15,\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\"},\"schema\":\"segment\"}],\"params\":{\"type\":\"pie\",\"addTooltip\":true,\"addLegend\":false,\"legendPosition\":\"right\",\"nestedLegend\":false,\"distinctColors\":false,\"isDonut\":true,\"palette\":{\"type\":\"palette\",\"name\":\"default\"},\"labels\":{\"show\":true,\"last_level\":false,\"values\":true,\"valuesFormat\":\"percent\",\"percentDecimals\":2,\"truncate\":100,\"position\":\"default\"}}}",
-        "uiStateJSON": "{}",
-        "description": "Cette visualisation indique la version de C&R en usage chez vos utilisateurs à chaque clic sur des boutons C&R sur les 30 derniers jours (une extension à jour offre plus de sécurité et permet de bénéficier des dernières fonctionnalités et des nouveaux partenaires).",
+        "title": "C&R : types d'identifiants documentaires ezpaarse",
+        "visState": "{\"title\":\"C&R : types d'identifiants documentaires ezpaarse\",\"type\":\"pie\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"params\":{},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"params\":{\"field\":\"idType\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":50,\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\"},\"schema\":\"segment\"}],\"params\":{\"type\":\"pie\",\"addTooltip\":true,\"addLegend\":false,\"legendPosition\":\"right\",\"nestedLegend\":false,\"distinctColors\":false,\"isDonut\":true,\"palette\":{\"type\":\"palette\",\"name\":\"default\"},\"labels\":{\"show\":true,\"last_level\":false,\"values\":true,\"valuesFormat\":\"percent\",\"percentDecimals\":2,\"truncate\":100,\"position\":\"default\"}}}",
+        "uiStateJSON": "{\"vis\":{\"legendOpen\":false}}",
+        "description": "Types d'identifiants sur lesquels C&R a réagi pour les accès de vos utilisateurs sur la période indiquée.",
         "version": 1,
         "kibanaSavedObjectMeta": {
           "searchSourceJSON": "{\"query\":{\"query\":\"\",\"language\":\"kuery\"},\"filter\":[],\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.index\"}"
@@ -495,18 +455,53 @@
       "coreMigrationVersion": "7.14.1"
     },
     {
+      "id": "880adad0-f845-11f0-a8dd-4f7dc3968343",
+      "type": "visualization",
+      "namespaces": [
+        "inist-cnrs-portails"
+      ],
+      "updated_at": "2026-01-23T10:33:18.495Z",
+      "version": "WzI3NjM3MjMsOF0=",
+      "attributes": {
+        "title": "C&R : navigateurs utilisés ezpaarse",
+        "visState": "{\"title\":\"C&R : navigateurs utilisés ezpaarse\",\"type\":\"markdown\",\"aggs\":[],\"params\":{\"fontSize\":12,\"markdown\":\"### 4. Navigateurs utilisés avec C&R :\\n\",\"openLinksInNewTab\":false}}",
+        "uiStateJSON": "{}",
+        "description": "",
+        "version": 1,
+        "kibanaSavedObjectMeta": {
+          "searchSourceJSON": "{\"query\":{\"language\":\"kuery\",\"query\":\"\"},\"filter\":[]}"
+        }
+      },
+      "references": [
+        {
+          "id": "65fff420-41e3-11f0-98b5-6fd4cf3fbaf0",
+          "type": "tag",
+          "name": "tag-65fff420-41e3-11f0-98b5-6fd4cf3fbaf0"
+        },
+        {
+          "id": "e2b15130-6a89-11ef-99e9-d73145b59914",
+          "type": "tag",
+          "name": "tag-e2b15130-6a89-11ef-99e9-d73145b59914"
+        }
+      ],
+      "migrationVersion": {
+        "visualization": "7.14.0"
+      },
+      "coreMigrationVersion": "7.14.1"
+    },
+    {
       "id": "60f6d490-6e0b-11f0-b4e2-fb302a6d6e69",
       "type": "visualization",
       "namespaces": [
         "inist-cnrs-portails"
       ],
-      "updated_at": "2026-01-21T13:54:31.860Z",
-      "version": "WzI3NTI5MTIsOF0=",
+      "updated_at": "2026-01-23T10:31:51.737Z",
+      "version": "WzI3NjM2NjEsOF0=",
       "attributes": {
         "title": "C&R : Navigateur utilisé ezpaarse",
         "visState": "{\"title\":\"C&R : Navigateur utilisé ezpaarse\",\"type\":\"pie\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"params\":{},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"params\":{\"field\":\"user-agent-name\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":15,\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":false,\"missingBucketLabel\":\"Non renseigné\"},\"schema\":\"segment\"}],\"params\":{\"type\":\"pie\",\"addTooltip\":true,\"addLegend\":false,\"legendPosition\":\"right\",\"nestedLegend\":false,\"distinctColors\":false,\"isDonut\":true,\"palette\":{\"type\":\"palette\",\"name\":\"default\"},\"labels\":{\"show\":true,\"last_level\":false,\"values\":true,\"valuesFormat\":\"percent\",\"percentDecimals\":2,\"truncate\":100,\"position\":\"default\"}}}",
         "uiStateJSON": "{\"vis\":{\"legendOpen\":false}}",
-        "description": "Navigateur utilisé par vos utilisateurs lorsqu'ils ont cliqué sur un bouton C&R.",
+        "description": "Navigateur utilisé par vos utilisateurs lorsqu'ils ont cliqué sur un bouton C&R sur la période indiquée.",
         "version": 1,
         "kibanaSavedObjectMeta": {
           "searchSourceJSON": "{\"query\":{\"query\":\"\",\"language\":\"kuery\"},\"filter\":[],\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.index\"}"
@@ -540,11 +535,11 @@
       "namespaces": [
         "inist-cnrs-portails"
       ],
-      "updated_at": "2026-01-15T13:17:44.785Z",
-      "version": "WzI3Mzk4MzYsOF0=",
+      "updated_at": "2026-01-23T10:33:39.015Z",
+      "version": "WzI3NjM3NDMsOF0=",
       "attributes": {
         "title": "C&R : Articles fournis par l'établissement ezpaarse",
-        "visState": "{\"title\":\"C&R : Articles fournis par l'établissement\",\"type\":\"markdown\",\"aggs\":[],\"params\":{\"fontSize\":12,\"markdown\":\"### 4. Accès aux articles fournis par votre établissement :\\n\\nPour obtenir les statistiques concernant les accès aux articles fournis par votre établissement, cliquez sur l'intitulé de votre établissement dans le graphique 2 ci-dessus. Dans la pop-up, décochez \\\"INSTITUTIONS PARTENAIRES\\\" puis cliquez sur APPLY.\\n\\nTous les chiffres et les graphiques se modifieront en fonction de ce filtre.\\n\\nPour revenir à la visualisation générale, supprimez le filtre \\\"source: nom de votre établissement\\\" affiché en haut à gauche de ce tableau de bord.\",\"openLinksInNewTab\":false}}",
+        "visState": "{\"title\":\"C&R : Articles fournis par l'établissement ezpaarse\",\"type\":\"markdown\",\"aggs\":[],\"params\":{\"fontSize\":12,\"markdown\":\"### 5. Accès aux articles fournis par votre établissement :\\n\\nPour obtenir les statistiques concernant les accès aux articles fournis par votre établissement, cliquez sur l'intitulé de votre établissement dans le graphique 2 ci-dessus. Dans la pop-up, décochez \\\"INSTITUTIONS PARTENAIRES\\\" puis cliquez sur APPLY.\\n\\nTous les chiffres et les graphiques se modifieront en fonction de ce filtre.\\n\\nPour revenir à la visualisation générale, supprimez le filtre \\\"source: nom de votre établissement\\\" affiché en haut à gauche de ce tableau de bord.\",\"openLinksInNewTab\":false}}",
         "uiStateJSON": "{}",
         "description": "",
         "version": 1,
