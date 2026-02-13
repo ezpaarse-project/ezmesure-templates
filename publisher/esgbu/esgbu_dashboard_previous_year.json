@@ -7,8 +7,8 @@
       "namespaces": [
         "formation-publisher"
       ],
-      "updated_at": "2026-02-11T14:12:05.119Z",
-      "version": "WzI4NjM4NjUsOF0=",
+      "updated_at": "2026-02-12T08:20:19.308Z",
+      "version": "WzI4NjU3MjQsOF0=",
       "attributes": {
         "title": "publisher : ESGBU année précédente - variante COUNTER 5.0",
         "hits": 0,
@@ -189,14 +189,19 @@
           "name": "tag-1a0290e0-6c73-11f0-ac77-7b7e31d4e520"
         },
         {
-          "id": "096e06e0-72dc-11ec-86a7-b9a4e2d97448",
-          "type": "tag",
-          "name": "tag-096e06e0-72dc-11ec-86a7-b9a4e2d97448"
-        },
-        {
           "id": "15910af0-5538-11ed-a75f-7d3584b43312",
           "type": "tag",
           "name": "tag-15910af0-5538-11ed-a75f-7d3584b43312"
+        },
+        {
+          "id": "930225d0-2987-11ef-bdb8-d784c6da1b48",
+          "type": "tag",
+          "name": "tag-930225d0-2987-11ef-bdb8-d784c6da1b48"
+        },
+        {
+          "id": "096e06e0-72dc-11ec-86a7-b9a4e2d97448",
+          "type": "tag",
+          "name": "tag-096e06e0-72dc-11ec-86a7-b9a4e2d97448"
         }
       ],
       "migrationVersion": {
@@ -1657,6 +1662,22 @@
         "color": "#01752a",
         "description": "Statut pour les dashboards uniquement",
         "name": "validé"
+      },
+      "references": [],
+      "coreMigrationVersion": "7.14.1"
+    },
+    {
+      "id": "930225d0-2987-11ef-bdb8-d784c6da1b48",
+      "type": "tag",
+      "namespaces": [
+        "formation-publisher"
+      ],
+      "updated_at": "2025-09-02T14:11:07.961Z",
+      "version": "WzI3MTY4MzgsOF0=",
+      "attributes": {
+        "name": "générique",
+        "description": "",
+        "color": "#E7664C"
       },
       "references": [],
       "coreMigrationVersion": "7.14.1"
