@@ -7,8 +7,8 @@
       "namespaces": [
         "formation-publisher"
       ],
-      "updated_at": "2026-02-12T08:20:19.308Z",
-      "version": "WzI4NjU3MjQsOF0=",
+      "updated_at": "2026-02-18T07:25:56.679Z",
+      "version": "WzI5NDQzMzYsOF0=",
       "attributes": {
         "title": "publisher : ESGBU année précédente - variante COUNTER 5.0",
         "hits": 0,
@@ -216,7 +216,7 @@
         "formation-publisher"
       ],
       "updated_at": "2024-04-16T06:13:00.243Z",
-      "version": "WzI3MjY4NTEsOF0=",
+      "version": "WzI5MjA2NDUsOF0=",
       "attributes": {
         "fieldAttrs": "{\"Report_Header.Institution_ID.Proprietary\":{\"count\":1},\"Report_Header.Institution_Name\":{\"count\":2},\"Report_Header.Release\":{\"count\":1}}",
         "title": "b-bibcnrs-publisher*",
@@ -238,7 +238,7 @@
         "formation-publisher"
       ],
       "updated_at": "2026-02-10T08:57:11.659Z",
-      "version": "WzI4NDg4MjMsOF0=",
+      "version": "WzI5MTMzNDYsOF0=",
       "attributes": {
         "title": "publisher : ESGBU choix tableau",
         "visState": "{\"title\":\"publisher : ESGBU choix tableau\",\"type\":\"markdown\",\"aggs\":[],\"params\":{\"markdown\":\"### Choix de la version du tableau \\nPour cette édition de l'enquête eSGBU sur les données de l'année 2025, vous avez le choix entre deux tableaux de bord (TB) ezMesure pour récupérer les 6 indicateurs du groupe **usages numériques / documentation numérique / documentation numérique acquise** de votre établissement. \\nCe choix dépend en grande partie de la **proportion entre les rapports COUNTER au format 5.0 et ceux qui sont au format 5.1**, et de vos abonnements chez les éditeurs concernés par l'un ou l'autre de ces formats.\\n\\n--> Si vos abonnements principaux sont encore majoritairement au format COUNTER 5.0, nous vous conseillons d'utiliser le TB \\\"classique 5.0\\\" (c'est celui que vous avez déjà utilisé l'année passée, intitulé : \\\"_publisher : ESGBU année précédente - variante 5.0_\\\"\\n\\n--> Si vos abonnements principaux sont déjà majoritairement au format COUNTER 5.1, nous vous conseillons d'utiliser le TB \\\"nouveau 5.1\\\" qui s'intitule : \\\"_publisher : ESGBU année précédente - variante 5.1 - Nouveau_\\\"\\n\\n\\n\\n\\n\",\"openLinksInNewTab\":true,\"fontSize\":12}}",
@@ -273,7 +273,7 @@
         "formation-publisher"
       ],
       "updated_at": "2026-02-10T08:57:11.659Z",
-      "version": "WzI4NDg4MjQsOF0=",
+      "version": "WzI5MTMzNDcsOF0=",
       "attributes": {
         "title": "esgbu : repartition par version COUNTER ",
         "visState": "{\"title\":\"esgbu : repartition par version COUNTER \",\"type\":\"pie\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"sum\",\"params\":{\"field\":\"Count\"},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"params\":{\"field\":\"Report_Header.Release\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":5,\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\"},\"schema\":\"segment\"}],\"params\":{\"type\":\"pie\",\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"nestedLegend\":false,\"distinctColors\":false,\"isDonut\":true,\"palette\":{\"type\":\"palette\",\"name\":\"default\"},\"labels\":{\"show\":true,\"last_level\":false,\"values\":true,\"valuesFormat\":\"percent\",\"percentDecimals\":2,\"truncate\":100,\"position\":\"default\"}}}",
@@ -318,7 +318,7 @@
         "formation-publisher"
       ],
       "updated_at": "2026-02-10T08:57:11.659Z",
-      "version": "WzI4NDg4MjUsOF0=",
+      "version": "WzI5MTMzNDgsOF0=",
       "attributes": {
         "title": "publisher : ESGBU transition COUNTER 5.1",
         "visState": "{\"title\":\"publisher : ESGBU transition COUNTER 5.1\",\"type\":\"markdown\",\"aggs\":[],\"params\":{\"markdown\":\"### Transition Counter version 5.0 --> 5.1\\nLes [éditeurs](https://registry.countermetrics.org/) se conforment progressivement à la [version 5.1 du standard COUNTER](https://cop5.countermetrics.org/en/5.1.0.1/index.html)\\n\\nPour l'enquête eSGBU actuelle, nous gérons en parallèle 2 versions (5.0 et 5.1) des rapports d'usage. Cela provoque quelques apparitions ou disparitions soudaine dans les valeurs qui s'affichent. C'est la raison pour laquelle 2 variantes du TB eSGBU vous sont proposées.\\n\\n\\n\\n\\n\",\"openLinksInNewTab\":true,\"fontSize\":12}}",
@@ -352,11 +352,11 @@
       "namespaces": [
         "formation-publisher"
       ],
-      "updated_at": "2026-02-11T13:25:06.759Z",
-      "version": "WzI4NjI4NjQsOF0=",
+      "updated_at": "2026-02-18T07:24:15.998Z",
+      "version": "WzI5NDQzMDcsOF0=",
       "attributes": {
         "title": "publisher : ESGBU en-tete-texte",
-        "visState": "{\"title\":\"publisher : ESGBU en-tete-texte\",\"type\":\"markdown\",\"aggs\":[],\"params\":{\"markdown\":\"### Enquête ESGBU : Groupe usages numériques / Documentation numérique / Documentation numérique acquise\\nLes données proviennent des [**rapports COUNTER 5.0 et 5.1**](https://www.countermetrics.org/wp-content/uploads/2024/04/Reports-guide-FR.pdf) (nouvel onglet)\\n\\nfournis par les éditeurs moissonnés et chargés dans vos espaces ezMESURE \\\\*éditeur\\\\*.\\n\\nLes requêtes retenues dans les rapports COUNTER 5.0 et 5.1 sont des types suivants :   \\n\\n**Searches_Platform** : Nombre de fois qu’un utilisateur effectue une recherche sur la plate-forme, indépendamment du nombre de bases de données impliquées dans cette recherche.  \\n**Unique_Title_Requests** : Nombre de titres (p. ex. ouvrages) ayant fait l’objet d’une requête, prise en compte une seule fois par session-utilisateur.  \\n**Unique_Item_Requests** : Nombre d’éléments de contenu (p.ex. chapitres) ayant fait l’objet d’une requête, prise en compte une seule fois par session-utilisateur.  \\n**Total_Item_Requests** : Nombre total de fois qu’un élément de contenu a été téléchargé ou visualisé dans son intégralité.  \\n\\n[Consignes de saisie et définitions ESGBU](https://esgbu.esr.gouv.fr/api/editorial_files/10/doc/Consignes_saisie_ESGBU_2022.pdf#page=18) (nouvel onglet)\\n\\n[Des webinaires de formation hebdomadaires sont organisés jusqu'à fin avril](https://blog.readmetrics.org/2025/01/rendez-vous-agenda-des-webinaires-esgbu/) (nouvel onglet)\\n\\n\\nPour toute question sur l’ESGBU (enquête en cours, données archivées des enquêtes antérieures, indicateurs collectés, etc.) vous pouvez contacter le département Diffusion des connaissances et Documentation : esgbu.technique@education.gouv.fr\\n\\n[![Logo ESGBU](https://raw.githubusercontent.com/ezpaarse-project/ezmesure/b10de0b44f4173d1c877221d1285cb533440c98d/front/static/images/logo-esgbu.png)](https://esgbu.esr.gouv.fr/)\\n\\n\\n\\n\",\"openLinksInNewTab\":true,\"fontSize\":12}}",
+        "visState": "{\"title\":\"publisher : ESGBU en-tete-texte\",\"type\":\"markdown\",\"aggs\":[],\"params\":{\"markdown\":\"### Enquête ESGBU : Groupe usages numériques / Documentation numérique / Documentation numérique acquise\\nLes données proviennent des [**rapports COUNTER 5.0 et 5.1**](https://www.countermetrics.org/wp-content/uploads/2024/04/Reports-guide-FR.pdf) (nouvel onglet)\\n\\nfournis par les éditeurs moissonnés et chargés dans vos espaces ezMESURE \\\\*éditeur\\\\*.\\n\\nLes requêtes retenues dans les rapports COUNTER 5.0 et 5.1 sont des types suivants :   \\n\\n**Searches_Platform** : Nombre de fois qu’un utilisateur effectue une recherche sur la plate-forme, indépendamment du nombre de bases de données impliquées dans cette recherche.  \\n**Unique_Title_Requests** : Nombre de titres (p. ex. ouvrages) ayant fait l’objet d’une requête, prise en compte une seule fois par session-utilisateur.  \\n**Unique_Item_Requests** : Nombre d’éléments de contenu (p.ex. chapitres) ayant fait l’objet d’une requête, prise en compte une seule fois par session-utilisateur.  \\n**Total_Item_Requests** : Nombre total de fois qu’un élément de contenu a été téléchargé ou visualisé dans son intégralité.  \\n\\n[Consignes de saisie et définitions ESGBU](https://docs.readmetrics.org/s/fr-ezmesure-user/doc/enquete-esgbu-et-tableaux-dedies-gknn9CFxgs) (nouvel onglet)\\n\\n[Des webinaires de formation hebdomadaires sont organisés jusqu'à fin avril](https://blog.readmetrics.org/2025/01/rendez-vous-agenda-des-webinaires-esgbu/) (nouvel onglet)\\n\\n\\nPour toute question sur l’ESGBU (enquête en cours, données archivées des enquêtes antérieures, indicateurs collectés, etc.) vous pouvez contacter le département Diffusion des connaissances et Documentation : esgbu.technique@education.gouv.fr\\n\\n[![Logo ESGBU](https://raw.githubusercontent.com/ezpaarse-project/ezmesure/b10de0b44f4173d1c877221d1285cb533440c98d/front/static/images/logo-esgbu.png)](https://esgbu.esr.gouv.fr/)\\n\\n\\n\\n\",\"openLinksInNewTab\":true,\"fontSize\":12}}",
         "uiStateJSON": "{}",
         "description": "Présentation, métriques utilisées, consignes",
         "version": 1,
@@ -383,7 +383,7 @@
         "formation-publisher"
       ],
       "updated_at": "2026-02-10T08:57:11.659Z",
-      "version": "WzI4NDg4MjcsOF0=",
+      "version": "WzI5MTMzNDksOF0=",
       "attributes": {
         "title": "publisher : période ESGBU",
         "visState": "{\"title\":\"publisher : période ESGBU\",\"type\":\"metric\",\"aggs\":[{\"id\":\"6\",\"enabled\":true,\"type\":\"min\",\"params\":{\"field\":\"X_Date_Month\",\"customLabel\":\"période de\"},\"schema\":\"metric\"},{\"id\":\"7\",\"enabled\":true,\"type\":\"max\",\"params\":{\"field\":\"X_Date_Month\",\"customLabel\":\"à\"},\"schema\":\"metric\"}],\"params\":{\"metric\":{\"percentageMode\":false,\"useRanges\":false,\"colorSchema\":\"Green to Red\",\"metricColorMode\":\"None\",\"colorsRange\":[{\"type\":\"range\",\"from\":0,\"to\":10000}],\"labels\":{\"show\":true},\"invertColors\":false,\"style\":{\"bgFill\":\"#000\",\"bgColor\":false,\"labelColor\":false,\"subText\":\"\",\"fontSize\":37}},\"dimensions\":{\"metrics\":[{\"type\":\"vis_dimension\",\"accessor\":0,\"format\":{\"id\":\"number\",\"params\":{}}},{\"type\":\"vis_dimension\",\"accessor\":1,\"format\":{\"id\":\"number\",\"params\":{}}},{\"type\":\"vis_dimension\",\"accessor\":2,\"format\":{\"id\":\"number\",\"params\":{}}},{\"type\":\"vis_dimension\",\"accessor\":3,\"format\":{\"id\":\"number\",\"params\":{}}},{\"type\":\"vis_dimension\",\"accessor\":4,\"format\":{\"id\":\"number\",\"params\":{}}},{\"type\":\"vis_dimension\",\"accessor\":5,\"format\":{\"id\":\"date\",\"params\":{}}},{\"type\":\"vis_dimension\",\"accessor\":6,\"format\":{\"id\":\"date\",\"params\":{}}}]},\"addTooltip\":true,\"addLegend\":false,\"type\":\"metric\"}}",
@@ -418,7 +418,7 @@
         "formation-publisher"
       ],
       "updated_at": "2026-02-10T08:57:11.659Z",
-      "version": "WzI4NDg4MjgsOF0=",
+      "version": "WzI5MTMzNTAsOF0=",
       "attributes": {
         "description": "Indicateurs généraux PR P1 \"searches_platform\"",
         "uiStateJSON": "{}",
@@ -463,7 +463,7 @@
         "formation-publisher"
       ],
       "updated_at": "2026-02-10T08:57:11.659Z",
-      "version": "WzI4NDg4MjksOF0=",
+      "version": "WzI5MTMzNTEsOF0=",
       "attributes": {
         "title": "publisher : UsREcC5 plateformes-table Nombre de recherches",
         "visState": "{\"title\":\"publisher : UsREcC5 plateformes-table Nombre de recherches\",\"type\":\"table\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"sum\",\"params\":{\"field\":\"Count\",\"customLabel\":\"Nombre de recherches COUNTER 5\"},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"params\":{\"field\":\"Platform\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":100,\"otherBucket\":true,\"otherBucketLabel\":\"autres plateformes\",\"missingBucket\":true,\"missingBucketLabel\":\"-\",\"customLabel\":\"Plateforme\"},\"schema\":\"bucket\"},{\"id\":\"3\",\"enabled\":true,\"type\":\"terms\",\"params\":{\"field\":\"X_Endpoint_Name\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":5,\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":true,\"missingBucketLabel\":\"non renseigné\",\"customLabel\":\"Point d'accès ezCOUNTER\"},\"schema\":\"bucket\"}],\"params\":{\"perPage\":10,\"showPartialRows\":false,\"showMetricsAtAllLevels\":false,\"sort\":{\"columnIndex\":null,\"direction\":null},\"showTotal\":true,\"totalFunc\":\"sum\",\"percentageCol\":\"\",\"dimensions\":{\"metrics\":[{\"accessor\":1,\"format\":{\"id\":\"number\"},\"params\":{},\"aggType\":\"sum\"}],\"buckets\":[{\"accessor\":0,\"format\":{\"id\":\"terms\",\"params\":{\"id\":\"string\",\"otherBucketLabel\":\"Other\",\"missingBucketLabel\":\"Missing\"}},\"params\":{},\"aggType\":\"terms\"}]},\"showToolbar\":true}}",
@@ -508,7 +508,7 @@
         "formation-publisher"
       ],
       "updated_at": "2026-02-10T08:57:11.659Z",
-      "version": "WzI4NDg4MzAsOF0=",
+      "version": "WzI5MTMzNTIsOF0=",
       "attributes": {
         "description": "Indicateurs généraux TR:B1 \"Unique_Title_Requests\" dans la colonne \"Metric_Type\". Relever la somme de la colonne \"Reporting_Period_Total\".\n",
         "uiStateJSON": "{}",
@@ -553,7 +553,7 @@
         "formation-publisher"
       ],
       "updated_at": "2026-02-10T08:57:11.659Z",
-      "version": "WzI4NDg4MzEsOF0=",
+      "version": "WzI5MTMzNTMsOF0=",
       "attributes": {
         "title": "publisher : UsUniEbookC5 plateformes-table Nombre d'unités vues ou téléchargées de livres électroniques - Unique (C5)",
         "visState": "{\"title\":\"publisher : UsUniEbookC5 plateformes-table Nombre d'unités vues ou téléchargées de livres électroniques - Unique (C5)\",\"type\":\"table\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"sum\",\"params\":{\"field\":\"Count\",\"customLabel\":\"Nombre d'unités vues ou téléchargées de livres électroniques - Unique (C5)\"},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"params\":{\"field\":\"Platform\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":100,\"otherBucket\":true,\"otherBucketLabel\":\"autres plateformes\",\"missingBucket\":true,\"missingBucketLabel\":\"-\",\"customLabel\":\"Plateforme\"},\"schema\":\"bucket\"},{\"id\":\"3\",\"enabled\":true,\"type\":\"terms\",\"params\":{\"field\":\"X_Endpoint_Name\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":5,\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":true,\"missingBucketLabel\":\"non renseigné\",\"customLabel\":\"Point d'accès ezCOUNTER\"},\"schema\":\"bucket\"}],\"params\":{\"perPage\":10,\"showPartialRows\":false,\"showMetricsAtAllLevels\":false,\"sort\":{\"columnIndex\":null,\"direction\":null},\"showTotal\":true,\"totalFunc\":\"sum\",\"percentageCol\":\"\",\"dimensions\":{\"metrics\":[{\"accessor\":1,\"format\":{\"id\":\"number\"},\"params\":{},\"aggType\":\"sum\"}],\"buckets\":[{\"accessor\":0,\"format\":{\"id\":\"terms\",\"params\":{\"id\":\"string\",\"otherBucketLabel\":\"Other\",\"missingBucketLabel\":\"Missing\"}},\"params\":{},\"aggType\":\"terms\"}]},\"showToolbar\":true}}",
@@ -598,7 +598,7 @@
         "formation-publisher"
       ],
       "updated_at": "2026-02-10T08:57:11.659Z",
-      "version": "WzI4NDg4MzQsOF0=",
+      "version": "WzI5MTMzNTYsOF0=",
       "attributes": {
         "description": "Indicateurs généraux TR_J1 et appliquer le filtre \"Unique_Item_Requests\" dans la colonne \"Metric_Type\". Relever la somme de la colonne \"Reporting_Period_Total\".\n\n",
         "uiStateJSON": "{}",
@@ -643,7 +643,7 @@
         "formation-publisher"
       ],
       "updated_at": "2026-02-10T08:57:11.659Z",
-      "version": "WzI4NDg4MzUsOF0=",
+      "version": "WzI5MTMzNTcsOF0=",
       "attributes": {
         "title": "publisher : UsUniArtC5 plateformes-table Nombre d'unités vues ou téléchargées d'articles de périodiques - Unique (C5)",
         "visState": "{\"title\":\"publisher : UsUniArtC5 plateformes-table Nombre d'unités vues ou téléchargées d'articles de périodiques - Unique (C5)\",\"type\":\"table\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"sum\",\"params\":{\"field\":\"Count\",\"customLabel\":\"Nombre d'unités vues ou téléchargées d'articles de périodiques - Unique (C5)\"},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"params\":{\"field\":\"Platform\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":100,\"otherBucket\":true,\"otherBucketLabel\":\"autres plateformes\",\"missingBucket\":true,\"missingBucketLabel\":\"-\",\"customLabel\":\"Plateforme\"},\"schema\":\"bucket\"},{\"id\":\"3\",\"enabled\":true,\"type\":\"terms\",\"params\":{\"field\":\"X_Endpoint_Name\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":5,\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":true,\"missingBucketLabel\":\"non renseigné\",\"customLabel\":\"Point d'accès ezCOUNTER\"},\"schema\":\"bucket\"}],\"params\":{\"perPage\":10,\"showPartialRows\":false,\"showMetricsAtAllLevels\":false,\"sort\":{\"columnIndex\":null,\"direction\":null},\"showTotal\":true,\"totalFunc\":\"sum\",\"percentageCol\":\"\",\"dimensions\":{\"metrics\":[{\"accessor\":1,\"format\":{\"id\":\"number\"},\"params\":{},\"aggType\":\"sum\"}],\"buckets\":[{\"accessor\":0,\"format\":{\"id\":\"terms\",\"params\":{\"id\":\"string\",\"otherBucketLabel\":\"Other\",\"missingBucketLabel\":\"Missing\"}},\"params\":{},\"aggType\":\"terms\"}]},\"showToolbar\":true}}",
@@ -688,7 +688,7 @@
         "formation-publisher"
       ],
       "updated_at": "2026-02-10T08:57:11.659Z",
-      "version": "WzI4NDg4MzYsOF0=",
+      "version": "WzI5MTMzNTgsOF0=",
       "attributes": {
         "description": "Indicateurs généraux TR_J1 et appliquer le filtre \"Total_Item_Requests\" dans la colonne \"Metric_Type\". Relever la somme de la colonne \"Reporting_Period_Total\".\n",
         "uiStateJSON": "{}",
@@ -733,7 +733,7 @@
         "formation-publisher"
       ],
       "updated_at": "2026-02-10T08:57:11.659Z",
-      "version": "WzI4NDg4MzcsOF0=",
+      "version": "WzI5MTMzNTksOF0=",
       "attributes": {
         "title": "publisher : UsTotArtC5 plateformes-Nombre d'unités vues ou téléchargées d'articles de périodiques - Total (C5)",
         "visState": "{\"title\":\"publisher : UsTotArtC5 plateformes-Nombre d'unités vues ou téléchargées d'articles de périodiques - Total (C5)\",\"type\":\"table\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"sum\",\"params\":{\"field\":\"Count\",\"customLabel\":\"Nombre d'unités vues ou téléchargées d'articles de périodiques - Total (C5)\"},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"params\":{\"field\":\"Platform\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":100,\"otherBucket\":true,\"otherBucketLabel\":\"autres plateformes\",\"missingBucket\":true,\"missingBucketLabel\":\"-\",\"customLabel\":\"Plateforme\"},\"schema\":\"bucket\"},{\"id\":\"3\",\"enabled\":true,\"type\":\"terms\",\"params\":{\"field\":\"X_Endpoint_Name\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":5,\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":true,\"missingBucketLabel\":\"non renseigné\",\"customLabel\":\"Point d'accès ezCOUNTER\"},\"schema\":\"bucket\"}],\"params\":{\"perPage\":10,\"showPartialRows\":false,\"showMetricsAtAllLevels\":false,\"sort\":{\"columnIndex\":null,\"direction\":null},\"showTotal\":true,\"totalFunc\":\"sum\",\"percentageCol\":\"\",\"dimensions\":{\"metrics\":[{\"accessor\":1,\"format\":{\"id\":\"number\"},\"params\":{},\"aggType\":\"sum\"}],\"buckets\":[{\"accessor\":0,\"format\":{\"id\":\"terms\",\"params\":{\"id\":\"string\",\"otherBucketLabel\":\"Other\",\"missingBucketLabel\":\"Missing\"}},\"params\":{},\"aggType\":\"terms\"}]},\"showToolbar\":true}}",
@@ -778,7 +778,7 @@
         "formation-publisher"
       ],
       "updated_at": "2026-02-10T08:57:11.659Z",
-      "version": "WzI4NDg4MzgsOF0=",
+      "version": "WzI5MTMzNjAsOF0=",
       "attributes": {
         "title": "publisher : esgbu variables UsUniAutC5 et UsTotAutC5",
         "visState": "{\"title\":\"publisher : esgbu variables UsUniAutC5 et UsTotAutC5\",\"type\":\"markdown\",\"aggs\":[],\"params\":{\"fontSize\":12,\"openLinksInNewTab\":true,\"markdown\":\"\\n**Attention** : Pour les variables **UsUniAutC5** et **UsTotAutC5**, les filtres préconisés (Metric_Type : _Unique_Item_Requests_ et _Total_Item_Requests_) ne sont pas disponibles dans tous les rapports **PR_P1** fournis par les éditeurs ou les plateformes.\\nNous faisons ici une proposition alternative de calcul qui repose sur la métrique de type _Investigations_ (qui comprend les _Requests_) dans les rapports **PR** et **TR**.\\nSi cette évolution s’avère pertinente, elle sera intégrée durablement à l’enquête. \\n\\n\\nPlus de détails [dans la documention ReadMETRICS](https://docs.readmetrics.org/s/fr-ezmesure-user/doc/espace-editeur-counter-fmdzKXzQFm#h-le-cas-particulier-des-metriques-esgbu-%C2%AB-contenus-de-bases-de-donnees-%C2%BB-usuniautc5-et-ustotautc5)\\n\\n\\n\"}}",
@@ -808,7 +808,7 @@
         "formation-publisher"
       ],
       "updated_at": "2026-02-10T08:57:11.659Z",
-      "version": "WzI4NDg4MzksOF0=",
+      "version": "WzI5MTMzNjEsOF0=",
       "attributes": {
         "title": "publisher :  ESGBU UsUniAutC5 : différence entre PR et TR  UII",
         "description": null,
@@ -997,7 +997,7 @@
         "formation-publisher"
       ],
       "updated_at": "2026-02-10T08:57:11.659Z",
-      "version": "WzI4NDg4NDAsOF0=",
+      "version": "WzI5MTMzNjIsOF0=",
       "attributes": {
         "title": "publisher : ESGBU indicateurs UsUniAutC5",
         "visState": "{\"title\":\"publisher : ESGBU indicateurs UsUniAutC5\",\"type\":\"metric\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"sum\",\"params\":{\"field\":\"Count\",\"customLabel\":\"Nombre d'investigations de contenus de bases de données (Unique_Item_Investigations)\"},\"schema\":\"metric\"},{\"id\":\"9\",\"enabled\":true,\"type\":\"terms\",\"params\":{\"field\":\"Report_Header.Report_ID\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":50,\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\"},\"schema\":\"group\"}],\"params\":{\"metric\":{\"percentageMode\":false,\"useRanges\":false,\"colorSchema\":\"Green to Red\",\"metricColorMode\":\"None\",\"colorsRange\":[{\"type\":\"range\",\"from\":0,\"to\":10000}],\"labels\":{\"show\":true},\"invertColors\":false,\"style\":{\"bgFill\":\"#000\",\"bgColor\":false,\"labelColor\":false,\"subText\":\"\",\"fontSize\":25}},\"dimensions\":{\"metrics\":[{\"type\":\"vis_dimension\",\"accessor\":0,\"format\":{\"id\":\"number\",\"params\":{}}},{\"type\":\"vis_dimension\",\"accessor\":1,\"format\":{\"id\":\"number\",\"params\":{}}},{\"type\":\"vis_dimension\",\"accessor\":2,\"format\":{\"id\":\"number\",\"params\":{}}},{\"type\":\"vis_dimension\",\"accessor\":3,\"format\":{\"id\":\"number\",\"params\":{}}},{\"type\":\"vis_dimension\",\"accessor\":4,\"format\":{\"id\":\"number\",\"params\":{}}},{\"type\":\"vis_dimension\",\"accessor\":5,\"format\":{\"id\":\"date\",\"params\":{}}},{\"type\":\"vis_dimension\",\"accessor\":6,\"format\":{\"id\":\"date\",\"params\":{}}}]},\"addTooltip\":true,\"addLegend\":false,\"type\":\"metric\"}}",
@@ -1047,7 +1047,7 @@
         "formation-publisher"
       ],
       "updated_at": "2026-02-10T08:57:11.659Z",
-      "version": "WzI4NDg4NDEsOF0=",
+      "version": "WzI5MTMzNjMsOF0=",
       "attributes": {
         "title": "publisher : PR - Nombre d'investigations de contenus de bases de données (Unique_Item_Investigations)",
         "visState": "{\"title\":\"publisher : PR - Nombre d'investigations de contenus de bases de données (Unique_Item_Investigations)\",\"type\":\"table\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"sum\",\"params\":{\"field\":\"Count\",\"customLabel\":\"Nombre d'investigations de contenus de bases de données - unique (C5)\"},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"params\":{\"field\":\"Platform\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":100,\"otherBucket\":true,\"otherBucketLabel\":\"autres plateformes\",\"missingBucket\":true,\"missingBucketLabel\":\"-\",\"customLabel\":\"Plateforme\"},\"schema\":\"bucket\"},{\"id\":\"3\",\"enabled\":true,\"type\":\"terms\",\"params\":{\"field\":\"X_Endpoint_Name\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":5,\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":true,\"missingBucketLabel\":\"non renseigné\",\"customLabel\":\"Point d'accès ezCOUNTER\"},\"schema\":\"bucket\"}],\"params\":{\"perPage\":10,\"showPartialRows\":false,\"showMetricsAtAllLevels\":false,\"sort\":{\"columnIndex\":null,\"direction\":null},\"showTotal\":true,\"totalFunc\":\"sum\",\"percentageCol\":\"\",\"dimensions\":{\"metrics\":[{\"accessor\":1,\"format\":{\"id\":\"number\"},\"params\":{},\"aggType\":\"sum\"}],\"buckets\":[{\"accessor\":0,\"format\":{\"id\":\"terms\",\"params\":{\"id\":\"string\",\"otherBucketLabel\":\"Other\",\"missingBucketLabel\":\"Missing\"}},\"params\":{},\"aggType\":\"terms\"}]},\"showToolbar\":true}}",
@@ -1097,7 +1097,7 @@
         "formation-publisher"
       ],
       "updated_at": "2026-02-10T08:57:11.659Z",
-      "version": "WzI4NDg4NDIsOF0=",
+      "version": "WzI5MTMzNjQsOF0=",
       "attributes": {
         "title": "publisher : TR - Nombre d'investigations de contenus de bases de données (Unique_Item_Investigations)",
         "visState": "{\"title\":\"publisher : TR - Nombre d'investigations de contenus de bases de données (Unique_Item_Investigations)\",\"type\":\"table\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"sum\",\"params\":{\"field\":\"Count\",\"customLabel\":\"Nombre d'investigations de contenus de bases de données  - unique (C5)\"},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"params\":{\"field\":\"Platform\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":100,\"otherBucket\":true,\"otherBucketLabel\":\"autres plateformes\",\"missingBucket\":true,\"missingBucketLabel\":\"-\",\"customLabel\":\"Plateforme\"},\"schema\":\"bucket\"},{\"id\":\"3\",\"enabled\":true,\"type\":\"terms\",\"params\":{\"field\":\"X_Endpoint_Name\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":5,\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":true,\"missingBucketLabel\":\"non renseigné\",\"customLabel\":\"Point d'accès ezCOUNTER\"},\"schema\":\"bucket\"}],\"params\":{\"perPage\":10,\"showPartialRows\":false,\"showMetricsAtAllLevels\":false,\"sort\":{\"columnIndex\":null,\"direction\":null},\"showTotal\":true,\"totalFunc\":\"sum\",\"percentageCol\":\"\",\"dimensions\":{\"metrics\":[{\"accessor\":1,\"format\":{\"id\":\"number\"},\"params\":{},\"aggType\":\"sum\"}],\"buckets\":[{\"accessor\":0,\"format\":{\"id\":\"terms\",\"params\":{\"id\":\"string\",\"otherBucketLabel\":\"Other\",\"missingBucketLabel\":\"Missing\"}},\"params\":{},\"aggType\":\"terms\"}]},\"showToolbar\":true}}",
@@ -1147,7 +1147,7 @@
         "formation-publisher"
       ],
       "updated_at": "2026-02-10T08:57:11.659Z",
-      "version": "WzI4NDg4NDMsOF0=",
+      "version": "WzI5MTMzNjUsOF0=",
       "attributes": {
         "title": "publisher :  ESGBU UsTotAutC5 : différence entre PR et TR  TII",
         "description": null,
@@ -1336,7 +1336,7 @@
         "formation-publisher"
       ],
       "updated_at": "2026-02-10T08:57:11.659Z",
-      "version": "WzI4NDg4NDQsOF0=",
+      "version": "WzI5MTMzNjYsOF0=",
       "attributes": {
         "title": "publisher : ESGBU indicateurs UsTotAutC5",
         "visState": "{\"title\":\"publisher : ESGBU indicateurs UsTotAutC5\",\"type\":\"metric\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"sum\",\"params\":{\"field\":\"Count\",\"customLabel\":\"Nombre d'investigations de contenus de bases de données (Total_Item_Investigations)\"},\"schema\":\"metric\"},{\"id\":\"9\",\"enabled\":true,\"type\":\"terms\",\"params\":{\"field\":\"Report_Header.Report_ID\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":50,\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\"},\"schema\":\"group\"}],\"params\":{\"metric\":{\"percentageMode\":false,\"useRanges\":false,\"colorSchema\":\"Green to Red\",\"metricColorMode\":\"None\",\"colorsRange\":[{\"type\":\"range\",\"from\":0,\"to\":10000}],\"labels\":{\"show\":true},\"invertColors\":false,\"style\":{\"bgFill\":\"#000\",\"bgColor\":false,\"labelColor\":false,\"subText\":\"\",\"fontSize\":25}},\"dimensions\":{\"metrics\":[{\"type\":\"vis_dimension\",\"accessor\":0,\"format\":{\"id\":\"number\",\"params\":{}}},{\"type\":\"vis_dimension\",\"accessor\":1,\"format\":{\"id\":\"number\",\"params\":{}}},{\"type\":\"vis_dimension\",\"accessor\":2,\"format\":{\"id\":\"number\",\"params\":{}}},{\"type\":\"vis_dimension\",\"accessor\":3,\"format\":{\"id\":\"number\",\"params\":{}}},{\"type\":\"vis_dimension\",\"accessor\":4,\"format\":{\"id\":\"number\",\"params\":{}}},{\"type\":\"vis_dimension\",\"accessor\":5,\"format\":{\"id\":\"date\",\"params\":{}}},{\"type\":\"vis_dimension\",\"accessor\":6,\"format\":{\"id\":\"date\",\"params\":{}}}]},\"addTooltip\":true,\"addLegend\":false,\"type\":\"metric\"}}",
@@ -1386,7 +1386,7 @@
         "formation-publisher"
       ],
       "updated_at": "2026-02-10T08:57:11.659Z",
-      "version": "WzI4NDg4NDUsOF0=",
+      "version": "WzI5MTMzNjcsOF0=",
       "attributes": {
         "title": "publisher : PR - Nombre d'investigations de contenus de bases de données (Total_Item_Investigations)",
         "visState": "{\"title\":\"publisher : PR - Nombre d'investigations de contenus de bases de données (Total_Item_Investigations)\",\"type\":\"table\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"sum\",\"params\":{\"field\":\"Count\",\"customLabel\":\"Nombre d'investigations de contenus de bases de données - unique (C5)\"},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"params\":{\"field\":\"Platform\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":100,\"otherBucket\":true,\"otherBucketLabel\":\"autres plateformes\",\"missingBucket\":true,\"missingBucketLabel\":\"-\",\"customLabel\":\"Plateforme\"},\"schema\":\"bucket\"},{\"id\":\"3\",\"enabled\":true,\"type\":\"terms\",\"params\":{\"field\":\"X_Endpoint_Name\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":5,\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":true,\"missingBucketLabel\":\"non renseigné\",\"customLabel\":\"Point d'accès ezCOUNTER\"},\"schema\":\"bucket\"}],\"params\":{\"perPage\":10,\"showPartialRows\":false,\"showMetricsAtAllLevels\":false,\"sort\":{\"columnIndex\":null,\"direction\":null},\"showTotal\":true,\"totalFunc\":\"sum\",\"percentageCol\":\"\",\"dimensions\":{\"metrics\":[{\"accessor\":1,\"format\":{\"id\":\"number\"},\"params\":{},\"aggType\":\"sum\"}],\"buckets\":[{\"accessor\":0,\"format\":{\"id\":\"terms\",\"params\":{\"id\":\"string\",\"otherBucketLabel\":\"Other\",\"missingBucketLabel\":\"Missing\"}},\"params\":{},\"aggType\":\"terms\"}]},\"showToolbar\":true}}",
@@ -1436,7 +1436,7 @@
         "formation-publisher"
       ],
       "updated_at": "2026-02-10T08:57:11.659Z",
-      "version": "WzI4NDg4NDYsOF0=",
+      "version": "WzI5MTMzNjgsOF0=",
       "attributes": {
         "title": "publisher : TR - Nombre d'investigations de contenus de bases de données (Total_Item_Investigations)",
         "visState": "{\"title\":\"publisher : TR - Nombre d'investigations de contenus de bases de données (Total_Item_Investigations)\",\"type\":\"table\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"sum\",\"params\":{\"field\":\"Count\",\"customLabel\":\"Nombre d'investigations de contenus de bases de données  - unique (C5)\"},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"params\":{\"field\":\"Platform\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":100,\"otherBucket\":true,\"otherBucketLabel\":\"autres plateformes\",\"missingBucket\":true,\"missingBucketLabel\":\"-\",\"customLabel\":\"Plateforme\"},\"schema\":\"bucket\"},{\"id\":\"3\",\"enabled\":true,\"type\":\"terms\",\"params\":{\"field\":\"X_Endpoint_Name\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":5,\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":true,\"missingBucketLabel\":\"non renseigné\",\"customLabel\":\"Point d'accès ezCOUNTER\"},\"schema\":\"bucket\"}],\"params\":{\"perPage\":10,\"showPartialRows\":false,\"showMetricsAtAllLevels\":false,\"sort\":{\"columnIndex\":null,\"direction\":null},\"showTotal\":true,\"totalFunc\":\"sum\",\"percentageCol\":\"\",\"dimensions\":{\"metrics\":[{\"accessor\":1,\"format\":{\"id\":\"number\"},\"params\":{},\"aggType\":\"sum\"}],\"buckets\":[{\"accessor\":0,\"format\":{\"id\":\"terms\",\"params\":{\"id\":\"string\",\"otherBucketLabel\":\"Other\",\"missingBucketLabel\":\"Missing\"}},\"params\":{},\"aggType\":\"terms\"}]},\"showToolbar\":true}}",
@@ -1486,7 +1486,7 @@
         "formation-publisher"
       ],
       "updated_at": "2026-02-10T08:57:11.659Z",
-      "version": "WzI4NDg4NDcsOF0=",
+      "version": "WzI5MTMzNjksOF0=",
       "attributes": {
         "title": "publisher : esgbu controles",
         "visState": "{\"title\":\"publisher : esgbu controles\",\"type\":\"markdown\",\"aggs\":[],\"params\":{\"fontSize\":12,\"openLinksInNewTab\":false,\"markdown\":\"### Visualisations de contrôle\"}}",
@@ -1516,7 +1516,7 @@
         "formation-publisher"
       ],
       "updated_at": "2026-02-11T13:08:21.953Z",
-      "version": "WzI4NjI2MjAsOF0=",
+      "version": "WzI5MTM1NzUsOF0=",
       "attributes": {
         "title": "publisher : ESGBU indicateurs valeurs (table synthétique)",
         "visState": "{\"title\":\"publisher : ESGBU indicateurs valeurs (table synthétique)\",\"type\":\"table\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"sum\",\"params\":{\"field\":\"Count\",\"customLabel\":\"Valeur\"},\"schema\":\"metric\"},{\"id\":\"5\",\"enabled\":true,\"type\":\"filters\",\"params\":{\"filters\":[{\"input\":{\"query\":\"Report_Header.Report_ID : \\\"PR_P1\\\" and Metric_Type : \\\"Searches_Platform\\\" \",\"language\":\"kuery\"},\"label\":\"UsREcC5\"},{\"input\":{\"query\":\"Report_Header.Report_ID : \\\"TR_B1\\\" and Metric_Type : \\\"Unique_Title_Requests\\\" \",\"language\":\"kuery\"},\"label\":\"UsUniEbookC5\"},{\"input\":{\"query\":\"Report_Header.Report_ID : \\\"TR_J1\\\" and Metric_Type : \\\"Unique_Item_Requests\\\" \",\"language\":\"kuery\"},\"label\":\"UsUniArtC5\"},{\"input\":{\"query\":\"Report_Header.Report_ID : \\\"TR_J1\\\" and Metric_Type : \\\"Total_Item_Requests\\\" \",\"language\":\"kuery\"},\"label\":\"UsTotArtC5\"},{\"input\":{\"query\":\"Report_Header.Report_ID : \\\"PR\\\" and Metric_Type : \\\"Unique_Item_Investigations\\\" and not Platform : (\\\"OpenEdition\\\" or \\\"JSTOR\\\" or \\\"nature.com\\\" or \\\"Oxford Academic\\\" or \\\"SpringerLink\\\")\",\"language\":\"kuery\"},\"label\":\"UsUniAutCR (PR)\"},{\"input\":{\"query\":\"Report_Header.Report_ID : \\\"TR\\\" and Metric_Type : \\\"Unique_Item_Investigations\\\" and not Platform : (\\\"OpenEdition\\\" or \\\"JSTOR\\\" or \\\"nature.com\\\" or \\\"Oxford Academic\\\" or \\\"SpringerLink\\\")\",\"language\":\"kuery\"},\"label\":\"UsUniAutCR (TR)\"},{\"input\":{\"query\":\"Report_Header.Report_ID : \\\"PR\\\" and Metric_Type : \\\"Total_Item_Investigations\\\" and not Platform : (\\\"OpenEdition\\\" or \\\"JSTOR\\\" or \\\"nature.com\\\" or \\\"Oxford Academic\\\" or \\\"SpringerLink\\\")\",\"language\":\"kuery\"},\"label\":\"UsTotAutCR (PR)\"},{\"input\":{\"query\":\"Report_Header.Report_ID : \\\"TR\\\" and Metric_Type : \\\"Total_Item_Investigations\\\" and not Platform : (\\\"OpenEdition\\\" or \\\"JSTOR\\\" or \\\"nature.com\\\" or \\\"Oxford Academic\\\" or \\\"SpringerLink\\\")\",\"language\":\"kuery\"},\"label\":\"UsTotAutCR (TR)\"}]},\"schema\":\"bucket\"},{\"id\":\"6\",\"enabled\":true,\"type\":\"cardinality\",\"params\":{\"field\":\"Platform\",\"customLabel\":\"Plateformes\"},\"schema\":\"metric\"},{\"id\":\"7\",\"enabled\":true,\"type\":\"cardinality\",\"params\":{\"field\":\"X_Package\",\"customLabel\":\"Profil/Compte/Site/Antenne/Fonds\"},\"schema\":\"metric\"}],\"params\":{\"perPage\":10,\"showPartialRows\":false,\"showMetricsAtAllLevels\":false,\"sort\":{\"columnIndex\":null,\"direction\":null},\"showTotal\":false,\"totalFunc\":\"sum\",\"percentageCol\":\"\",\"dimensions\":{\"metrics\":[{\"accessor\":1,\"format\":{\"id\":\"number\"},\"params\":{},\"aggType\":\"sum\"}],\"buckets\":[{\"accessor\":0,\"format\":{\"id\":\"terms\",\"params\":{\"id\":\"string\",\"otherBucketLabel\":\"Other\",\"missingBucketLabel\":\"Missing\"}},\"params\":{},\"aggType\":\"terms\"}]},\"showToolbar\":true,\"row\":true}}",
@@ -1551,7 +1551,7 @@
         "formation-publisher"
       ],
       "updated_at": "2026-02-10T08:57:11.659Z",
-      "version": "WzI4NDg4NDksOF0=",
+      "version": "WzI5MTMzNzAsOF0=",
       "attributes": {
         "title": "publisher : histogramme mensuel des rapports moissonnés",
         "visState": "{\"title\":\"publisher : histogramme mensuel des rapports moissonnés\",\"type\":\"histogram\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"sum\",\"params\":{\"field\":\"Count\",\"customLabel\":\"Type de rapport\"},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"date_histogram\",\"params\":{\"field\":\"X_Date_Month\",\"timeRange\":{\"from\":\"now-1y/y\",\"to\":\"now-1y/y\"},\"useNormalizedEsInterval\":true,\"scaleMetricValues\":false,\"interval\":\"M\",\"used_interval\":\"1M\",\"drop_partials\":false,\"min_doc_count\":1,\"extended_bounds\":{},\"customLabel\":\"Moissonnage par mois\"},\"schema\":\"segment\"},{\"id\":\"3\",\"enabled\":true,\"type\":\"terms\",\"params\":{\"field\":\"Report_Header.Report_ID\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":5,\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\"},\"schema\":\"split\"}],\"params\":{\"type\":\"histogram\",\"grid\":{\"categoryLines\":false,\"valueAxis\":\"\"},\"categoryAxes\":[{\"id\":\"CategoryAxis-1\",\"type\":\"category\",\"position\":\"bottom\",\"show\":true,\"scale\":{\"type\":\"linear\"},\"labels\":{\"show\":true,\"filter\":true,\"truncate\":100},\"title\":{},\"style\":{}}],\"valueAxes\":[{\"id\":\"ValueAxis-1\",\"name\":\"LeftAxis-1\",\"type\":\"value\",\"position\":\"left\",\"show\":true,\"scale\":{\"type\":\"linear\",\"mode\":\"normal\"},\"labels\":{\"show\":true,\"rotate\":0,\"filter\":false,\"truncate\":100},\"title\":{\"text\":\"Type de rapport\"},\"style\":{}}],\"seriesParams\":[{\"show\":true,\"type\":\"histogram\",\"mode\":\"normal\",\"data\":{\"label\":\"Type de rapport\",\"id\":\"1\"},\"interpolate\":\"linear\",\"valueAxis\":\"ValueAxis-1\",\"drawLinesBetweenPoints\":true,\"lineWidth\":2,\"showCircles\":true,\"circlesRadius\":3}],\"radiusRatio\":0,\"addTooltip\":true,\"detailedTooltip\":true,\"palette\":{\"type\":\"palette\",\"name\":\"default\"},\"addLegend\":true,\"legendPosition\":\"right\",\"times\":[],\"addTimeMarker\":false,\"labels\":{\"show\":false},\"thresholdLine\":{\"show\":true,\"value\":10,\"width\":1,\"style\":\"full\",\"color\":\"#E7664C\"},\"row\":true}}",
@@ -1606,7 +1606,7 @@
         "formation-publisher"
       ],
       "updated_at": "2026-02-10T08:57:11.659Z",
-      "version": "WzI4NDg4NTAsOF0=",
+      "version": "WzI5MTMzNzEsOF0=",
       "attributes": {
         "title": "publisher : ESGBU profils-table présence",
         "visState": "{\"title\":\"publisher : ESGBU profils-table présence\",\"type\":\"table\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"cardinality\",\"params\":{\"field\":\"X_Package\",\"customLabel\":\"Présence\"},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"params\":{\"field\":\"X_Package\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":20,\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\",\"customLabel\":\"Profil/Compte/Site/Antenne/Fonds\"},\"schema\":\"bucket\"}],\"params\":{\"perPage\":20,\"showPartialRows\":false,\"showMetricsAtAllLevels\":false,\"sort\":{\"columnIndex\":null,\"direction\":null},\"showTotal\":true,\"totalFunc\":\"sum\",\"percentageCol\":\"\",\"dimensions\":{\"metrics\":[{\"accessor\":1,\"format\":{\"id\":\"number\"},\"params\":{},\"aggType\":\"sum\"}],\"buckets\":[{\"accessor\":0,\"format\":{\"id\":\"terms\",\"params\":{\"id\":\"string\",\"otherBucketLabel\":\"Other\",\"missingBucketLabel\":\"Missing\"}},\"params\":{},\"aggType\":\"terms\"}]},\"showToolbar\":true}}",
@@ -1641,7 +1641,7 @@
         "formation-publisher"
       ],
       "updated_at": "2026-02-10T08:57:11.659Z",
-      "version": "WzI4NDg4NTEsOF0=",
+      "version": "WzI5MTMzNzIsOF0=",
       "attributes": {
         "name": "C5",
         "description": "version counter 5",
@@ -1657,7 +1657,7 @@
         "formation-publisher"
       ],
       "updated_at": "2026-02-10T08:57:11.659Z",
-      "version": "WzI4NDg4NTIsOF0=",
+      "version": "WzI5MTMzNzMsOF0=",
       "attributes": {
         "color": "#01752a",
         "description": "Statut pour les dashboards uniquement",
@@ -1673,7 +1673,7 @@
         "formation-publisher"
       ],
       "updated_at": "2025-09-02T14:11:07.961Z",
-      "version": "WzI3MTY4MzgsOF0=",
+      "version": "WzI5Mjg1NDIsOF0=",
       "attributes": {
         "name": "générique",
         "description": "",
@@ -1689,7 +1689,7 @@
         "formation-publisher"
       ],
       "updated_at": "2026-02-10T08:57:11.659Z",
-      "version": "WzI4NDg4NTMsOF0=",
+      "version": "WzI5MTMzNzQsOF0=",
       "attributes": {
         "color": "#E7664C",
         "description": "Tag pour tableaux ESGBU",
@@ -1705,7 +1705,7 @@
         "formation-publisher"
       ],
       "updated_at": "2026-02-10T08:57:11.659Z",
-      "version": "WzI4NDg4NTUsOF0=",
+      "version": "WzI5MTMzNzYsOF0=",
       "attributes": {
         "name": "C51",
         "description": "",
