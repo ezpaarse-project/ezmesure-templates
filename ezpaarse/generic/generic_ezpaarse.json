@@ -7,86 +7,101 @@
       "namespaces": [
         "formation-ezpaarse"
       ],
-      "updated_at": "2025-02-07T12:51:32.288Z",
-      "version": "WzM5MjA5NDksMThd",
+      "updated_at": "2026-04-24T12:54:03.913Z",
+      "version": "WzM3MTIyMzUsOF0=",
       "attributes": {
-        "description": "premier tableau de bord générique chargé automatiquement lors d'un premier chargement de vos données d'usage dans votre espace ezMESURE.",
+        "title": "* : tableau de bord générique données ezPAARSE",
         "hits": 0,
-        "kibanaSavedObjectMeta": {
-          "searchSourceJSON": "{\"query\":{\"query\":\"\",\"language\":\"kuery\"},\"filter\":[]}"
-        },
+        "description": "premier tableau de bord générique chargé automatiquement lors d'un premier chargement de vos données d'usage dans votre espace ezMESURE.",
+        "panelsJSON": "[{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":0,\"y\":0,\"w\":40,\"h\":14,\"i\":\"f700d0bc-2fe4-4b6d-86f5-c4515604ab4c\"},\"panelIndex\":\"f700d0bc-2fe4-4b6d-86f5-c4515604ab4c\",\"embeddableConfig\":{\"enhancements\":{}},\"panelRefName\":\"panel_f700d0bc-2fe4-4b6d-86f5-c4515604ab4c\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":40,\"y\":0,\"w\":8,\"h\":14,\"i\":\"956fc03f-d7d2-4271-8aa8-a4855215e37b\"},\"panelIndex\":\"956fc03f-d7d2-4271-8aa8-a4855215e37b\",\"embeddableConfig\":{\"enhancements\":{},\"vis\":{\"legendOpen\":true,\"colors\":{}},\"table\":null},\"panelRefName\":\"panel_956fc03f-d7d2-4271-8aa8-a4855215e37b\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":0,\"y\":14,\"w\":48,\"h\":6,\"i\":\"dbeed313-0698-4f5b-a584-ec32fc5d7f10\"},\"panelIndex\":\"dbeed313-0698-4f5b-a584-ec32fc5d7f10\",\"embeddableConfig\":{\"enhancements\":{}},\"panelRefName\":\"panel_dbeed313-0698-4f5b-a584-ec32fc5d7f10\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":0,\"y\":20,\"w\":48,\"h\":21,\"i\":\"3fcec7e6-f16f-4193-a2bb-f17bd4a9d780\"},\"panelIndex\":\"3fcec7e6-f16f-4193-a2bb-f17bd4a9d780\",\"embeddableConfig\":{\"enhancements\":{},\"vis\":{\"colors\":{\"Count\":\"#5195CE\"}},\"table\":null},\"panelRefName\":\"panel_3fcec7e6-f16f-4193-a2bb-f17bd4a9d780\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":0,\"y\":41,\"w\":19,\"h\":31,\"i\":\"705ea1a0-0cf1-4053-83bd-9fe5af036d34\"},\"panelIndex\":\"705ea1a0-0cf1-4053-83bd-9fe5af036d34\",\"embeddableConfig\":{\"enhancements\":{},\"vis\":{\"legendOpen\":true,\"colors\":{\"Web of Science\":\"#5195CE\",\"National Center for Biotechnology Information\":\"#6ED0E0\",\"Science Direct\":\"#E0752D\",\"Nature Publishing Group\":\"#3F6833\"}},\"table\":null},\"panelRefName\":\"panel_705ea1a0-0cf1-4053-83bd-9fe5af036d34\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":19,\"y\":41,\"w\":15,\"h\":31,\"i\":\"fd7e4bc2-66fd-4402-919c-b530a5d93768\"},\"panelIndex\":\"fd7e4bc2-66fd-4402-919c-b530a5d93768\",\"embeddableConfig\":{\"enhancements\":{},\"vis\":{\"params\":{\"colWidth\":[{\"colIndex\":0,\"width\":388}]}}},\"panelRefName\":\"panel_fd7e4bc2-66fd-4402-919c-b530a5d93768\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":34,\"y\":41,\"w\":14,\"h\":31,\"i\":\"f592532e-d97a-45ec-8c6c-dd52472fa6d2\"},\"panelIndex\":\"f592532e-d97a-45ec-8c6c-dd52472fa6d2\",\"embeddableConfig\":{\"enhancements\":{},\"vis\":{\"params\":{\"colWidth\":[{\"colIndex\":0,\"width\":351.5}]}}},\"panelRefName\":\"panel_f592532e-d97a-45ec-8c6c-dd52472fa6d2\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":0,\"y\":72,\"w\":19,\"h\":17,\"i\":\"be5cb237-19c9-4f17-9247-2c9e58ed0a18\"},\"panelIndex\":\"be5cb237-19c9-4f17-9247-2c9e58ed0a18\",\"embeddableConfig\":{\"enhancements\":{},\"vis\":{\"legendOpen\":true,\"colors\":{}},\"table\":null},\"panelRefName\":\"panel_be5cb237-19c9-4f17-9247-2c9e58ed0a18\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":19,\"y\":72,\"w\":15,\"h\":17,\"i\":\"547c073f-b376-4079-93b1-d8040a2447ee\"},\"panelIndex\":\"547c073f-b376-4079-93b1-d8040a2447ee\",\"embeddableConfig\":{\"enhancements\":{},\"vis\":{\"legendOpen\":true,\"colors\":{\"PDF\":\"#BF1B00\"}},\"table\":null},\"panelRefName\":\"panel_547c073f-b376-4079-93b1-d8040a2447ee\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":34,\"y\":72,\"w\":14,\"h\":17,\"i\":\"733c36a9-8e9d-4a59-88a5-8fc337298fd8\"},\"panelIndex\":\"733c36a9-8e9d-4a59-88a5-8fc337298fd8\",\"embeddableConfig\":{\"enhancements\":{},\"vis\":{\"colors\":{\"avec DOI\":\"#629E51\",\"sans DOI\":\"#BF1B00\"},\"legendOpen\":true},\"table\":null},\"panelRefName\":\"panel_733c36a9-8e9d-4a59-88a5-8fc337298fd8\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":0,\"y\":89,\"w\":48,\"h\":25,\"i\":\"4503739f-aeb6-468d-81f0-67ffc23e46c8\"},\"panelIndex\":\"4503739f-aeb6-468d-81f0-67ffc23e46c8\",\"embeddableConfig\":{\"enhancements\":{}},\"panelRefName\":\"panel_4503739f-aeb6-468d-81f0-67ffc23e46c8\"}]",
         "optionsJSON": "{\"hidePanelTitles\":false,\"useMargins\":true}",
-        "panelsJSON": "[{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":0,\"y\":0,\"w\":24,\"h\":19,\"i\":\"f700d0bc-2fe4-4b6d-86f5-c4515604ab4c\"},\"panelIndex\":\"f700d0bc-2fe4-4b6d-86f5-c4515604ab4c\",\"embeddableConfig\":{\"enhancements\":{}},\"panelRefName\":\"panel_f700d0bc-2fe4-4b6d-86f5-c4515604ab4c\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":24,\"y\":0,\"w\":24,\"h\":19,\"i\":\"dbeed313-0698-4f5b-a584-ec32fc5d7f10\"},\"panelIndex\":\"dbeed313-0698-4f5b-a584-ec32fc5d7f10\",\"embeddableConfig\":{\"enhancements\":{}},\"panelRefName\":\"panel_dbeed313-0698-4f5b-a584-ec32fc5d7f10\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":0,\"y\":19,\"w\":48,\"h\":21,\"i\":\"3fcec7e6-f16f-4193-a2bb-f17bd4a9d780\"},\"panelIndex\":\"3fcec7e6-f16f-4193-a2bb-f17bd4a9d780\",\"embeddableConfig\":{\"enhancements\":{},\"vis\":{\"colors\":{\"Count\":\"#629E51\"}},\"table\":null},\"panelRefName\":\"panel_3fcec7e6-f16f-4193-a2bb-f17bd4a9d780\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":0,\"y\":40,\"w\":19,\"h\":31,\"i\":\"705ea1a0-0cf1-4053-83bd-9fe5af036d34\"},\"panelIndex\":\"705ea1a0-0cf1-4053-83bd-9fe5af036d34\",\"embeddableConfig\":{\"enhancements\":{},\"vis\":{\"legendOpen\":true},\"table\":null},\"panelRefName\":\"panel_705ea1a0-0cf1-4053-83bd-9fe5af036d34\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":19,\"y\":40,\"w\":15,\"h\":31,\"i\":\"fd7e4bc2-66fd-4402-919c-b530a5d93768\"},\"panelIndex\":\"fd7e4bc2-66fd-4402-919c-b530a5d93768\",\"embeddableConfig\":{\"enhancements\":{}},\"panelRefName\":\"panel_fd7e4bc2-66fd-4402-919c-b530a5d93768\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":34,\"y\":40,\"w\":14,\"h\":31,\"i\":\"f592532e-d97a-45ec-8c6c-dd52472fa6d2\"},\"panelIndex\":\"f592532e-d97a-45ec-8c6c-dd52472fa6d2\",\"embeddableConfig\":{\"enhancements\":{}},\"panelRefName\":\"panel_f592532e-d97a-45ec-8c6c-dd52472fa6d2\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":0,\"y\":71,\"w\":18,\"h\":17,\"i\":\"be5cb237-19c9-4f17-9247-2c9e58ed0a18\"},\"panelIndex\":\"be5cb237-19c9-4f17-9247-2c9e58ed0a18\",\"embeddableConfig\":{\"enhancements\":{},\"vis\":{\"legendOpen\":true},\"table\":null},\"panelRefName\":\"panel_be5cb237-19c9-4f17-9247-2c9e58ed0a18\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":18,\"y\":71,\"w\":15,\"h\":17,\"i\":\"547c073f-b376-4079-93b1-d8040a2447ee\"},\"panelIndex\":\"547c073f-b376-4079-93b1-d8040a2447ee\",\"embeddableConfig\":{\"enhancements\":{},\"vis\":{\"legendOpen\":true},\"table\":null},\"panelRefName\":\"panel_547c073f-b376-4079-93b1-d8040a2447ee\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":33,\"y\":71,\"w\":15,\"h\":17,\"i\":\"733c36a9-8e9d-4a59-88a5-8fc337298fd8\"},\"panelIndex\":\"733c36a9-8e9d-4a59-88a5-8fc337298fd8\",\"embeddableConfig\":{\"enhancements\":{},\"vis\":{\"colors\":{\"avec DOI\":\"#629E51\",\"sans DOI\":\"#BF1B00\"},\"legendOpen\":true},\"table\":null},\"panelRefName\":\"panel_733c36a9-8e9d-4a59-88a5-8fc337298fd8\"},{\"version\":\"7.14.1\",\"type\":\"visualization\",\"gridData\":{\"x\":0,\"y\":88,\"w\":48,\"h\":25,\"i\":\"4503739f-aeb6-468d-81f0-67ffc23e46c8\"},\"panelIndex\":\"4503739f-aeb6-468d-81f0-67ffc23e46c8\",\"embeddableConfig\":{\"enhancements\":{}},\"panelRefName\":\"panel_4503739f-aeb6-468d-81f0-67ffc23e46c8\"}]",
+        "version": 1,
+        "timeRestore": true,
+        "timeTo": "now-1y/y",
+        "timeFrom": "now-1y/y",
         "refreshInterval": {
           "pause": true,
           "value": 0
         },
-        "timeFrom": "now-1y/y",
-        "timeRestore": true,
-        "timeTo": "now-1y/y",
-        "title": "* : tableau de bord générique données ezPAARSE",
-        "version": 1
+        "kibanaSavedObjectMeta": {
+          "searchSourceJSON": "{\"query\":{\"query\":\"\",\"language\":\"kuery\"},\"filter\":[]}"
+        }
       },
       "references": [
         {
-          "id": "150fed40-bdf3-11eb-8139-2d9f91b04e27",
           "name": "f700d0bc-2fe4-4b6d-86f5-c4515604ab4c:panel_f700d0bc-2fe4-4b6d-86f5-c4515604ab4c",
-          "type": "visualization"
+          "type": "visualization",
+          "id": "150fed40-bdf3-11eb-8139-2d9f91b04e27"
         },
         {
-          "id": "b9e74dc0-bdeb-11eb-8139-2d9f91b04e27",
+          "name": "956fc03f-d7d2-4271-8aa8-a4855215e37b:panel_956fc03f-d7d2-4271-8aa8-a4855215e37b",
+          "type": "visualization",
+          "id": "6442c900-3e45-11f1-a436-b52299be2a8d"
+        },
+        {
           "name": "dbeed313-0698-4f5b-a584-ec32fc5d7f10:panel_dbeed313-0698-4f5b-a584-ec32fc5d7f10",
-          "type": "visualization"
+          "type": "visualization",
+          "id": "b9e74dc0-bdeb-11eb-8139-2d9f91b04e27"
         },
         {
-          "id": "4f51eff0-bdf1-11eb-8139-2d9f91b04e27",
           "name": "3fcec7e6-f16f-4193-a2bb-f17bd4a9d780:panel_3fcec7e6-f16f-4193-a2bb-f17bd4a9d780",
-          "type": "visualization"
+          "type": "visualization",
+          "id": "4f51eff0-bdf1-11eb-8139-2d9f91b04e27"
         },
         {
-          "id": "fbdb0050-bdeb-11eb-8139-2d9f91b04e27",
           "name": "705ea1a0-0cf1-4053-83bd-9fe5af036d34:panel_705ea1a0-0cf1-4053-83bd-9fe5af036d34",
-          "type": "visualization"
+          "type": "visualization",
+          "id": "fbdb0050-bdeb-11eb-8139-2d9f91b04e27"
         },
         {
-          "id": "1e908ba0-ca2a-11ed-8ce4-61ee0b8a2f58",
           "name": "fd7e4bc2-66fd-4402-919c-b530a5d93768:panel_fd7e4bc2-66fd-4402-919c-b530a5d93768",
-          "type": "visualization"
+          "type": "visualization",
+          "id": "1e908ba0-ca2a-11ed-8ce4-61ee0b8a2f58"
         },
         {
-          "id": "48e5a480-ca2a-11ed-8ce4-61ee0b8a2f58",
           "name": "f592532e-d97a-45ec-8c6c-dd52472fa6d2:panel_f592532e-d97a-45ec-8c6c-dd52472fa6d2",
-          "type": "visualization"
+          "type": "visualization",
+          "id": "48e5a480-ca2a-11ed-8ce4-61ee0b8a2f58"
         },
         {
-          "id": "412ecdd0-bdec-11eb-8139-2d9f91b04e27",
           "name": "be5cb237-19c9-4f17-9247-2c9e58ed0a18:panel_be5cb237-19c9-4f17-9247-2c9e58ed0a18",
-          "type": "visualization"
+          "type": "visualization",
+          "id": "412ecdd0-bdec-11eb-8139-2d9f91b04e27"
         },
         {
-          "id": "65f86040-bdec-11eb-8139-2d9f91b04e27",
           "name": "547c073f-b376-4079-93b1-d8040a2447ee:panel_547c073f-b376-4079-93b1-d8040a2447ee",
-          "type": "visualization"
+          "type": "visualization",
+          "id": "65f86040-bdec-11eb-8139-2d9f91b04e27"
         },
         {
-          "id": "cc279940-bdf0-11eb-8139-2d9f91b04e27",
           "name": "733c36a9-8e9d-4a59-88a5-8fc337298fd8:panel_733c36a9-8e9d-4a59-88a5-8fc337298fd8",
-          "type": "visualization"
+          "type": "visualization",
+          "id": "cc279940-bdf0-11eb-8139-2d9f91b04e27"
         },
         {
-          "id": "b30f4d50-bdef-11eb-8139-2d9f91b04e27",
           "name": "4503739f-aeb6-468d-81f0-67ffc23e46c8:panel_4503739f-aeb6-468d-81f0-67ffc23e46c8",
-          "type": "visualization"
+          "type": "visualization",
+          "id": "b30f4d50-bdef-11eb-8139-2d9f91b04e27"
         },
         {
           "id": "b9f60840-f6c2-11ec-871c-618dc17b393f",
-          "name": "tag-b9f60840-f6c2-11ec-871c-618dc17b393f",
-          "type": "tag"
+          "type": "tag",
+          "name": "tag-b9f60840-f6c2-11ec-871c-618dc17b393f"
         },
         {
           "id": "f2d9a600-2e31-11ef-b86a-fb4acd467871",
-          "name": "tag-f2d9a600-2e31-11ef-b86a-fb4acd467871",
-          "type": "tag"
+          "type": "tag",
+          "name": "tag-f2d9a600-2e31-11ef-b86a-fb4acd467871"
+        },
+        {
+          "id": "aa9ce620-3e49-11f1-a436-b52299be2a8d",
+          "type": "tag",
+          "name": "tag-aa9ce620-3e49-11f1-a436-b52299be2a8d"
+        },
+        {
+          "id": "b914f850-3e49-11f1-a436-b52299be2a8d",
+          "type": "tag",
+          "name": "tag-b914f850-3e49-11f1-a436-b52299be2a8d"
         }
       ],
       "migrationVersion": {
@@ -100,19 +115,49 @@
       "namespaces": [
         "formation-ezpaarse"
       ],
-      "updated_at": "2025-02-07T12:51:32.288Z",
-      "version": "WzM5MjA4ODEsMThd",
+      "updated_at": "2026-04-23T08:31:10.163Z",
+      "version": "WzM3MDIzOTUsOF0=",
       "attributes": {
+        "title": "*: générique présentation",
+        "visState": "{\"title\":\"*: générique présentation\",\"type\":\"markdown\",\"aggs\":[],\"params\":{\"fontSize\":12,\"markdown\":\"![ezMESURE](https://raw.githubusercontent.com/ezpaarse-project/ezpaarse-project.github.io/master/ezmesure/static/images/logo-ezMESURE-350.png)\\n![ezPAARSE](https://demo.ezpaarse.org/_nuxt/img/logo.923aee7.png)\\n## Tableau de bord générique ezPAARSE \\nIl s'agit du premier tableau de bord chargé automatiquement dans votre espace ezMESURE après un premier chargement de vos données d'usages traitées par ezPAARSE.\\n\\n\\nPour vous guider, vous pouvez consulter la [Documentation ReadMETRICS](https://docs.readmetrics.org/s/fr-ezmesure-user/doc/espace-ezpaarse-mnt6CRBkGU).\\n\\n\\nL'équipe ezTEAM.\",\"openLinksInNewTab\":false}}",
+        "uiStateJSON": "{}",
         "description": "",
+        "version": 1,
         "kibanaSavedObjectMeta": {
           "searchSourceJSON": "{\"query\":{\"language\":\"kuery\",\"query\":\"\"},\"filter\":[]}"
-        },
-        "title": "*: générique présentation",
-        "uiStateJSON": "{}",
-        "version": 1,
-        "visState": "{\"aggs\":[],\"params\":{\"fontSize\":12,\"markdown\":\"![ezMESURE](https://raw.githubusercontent.com/ezpaarse-project/ezpaarse-project.github.io/master/ezmesure/static/images/logo-ezMESURE-350.png)\\n## Tableau de bord générique ezPAARSE - ezMESURE\\nIl s'agit du premier tableau de bord chargé automatiquement dans votre espace ezMESURE après un premier chargement de vos données d'usages traitées par ezPAARSE.\\n\\nRappel: \\n  -  [Comment se connecter à ezMESURE pour la première fois ?](https://blog.ezpaarse.org/2021/03/faq-comment-se-connecter-a-ezmesure-pour-la-premiere-fois/) .\\n -  [Automatisez vos chargements dans ezMESURE](https://blog.ezpaarse.org/2019/10/communication-automatisez-vos-chargements-dans-ezmesure/) .\\n-  [Tutoriel ezPAARSE-ezMESURE - guide des bonnes pratiques](https://blog.ezpaarse.org/2020/10/tutoriel-ezpaarse-ezmesure-guide-des-bonnes-pratiques/) .\\n\\n N'hésitez pas à consulter le blog ezPAARSE pour d'autres informations (tutos, FAQ, Supports mutualisés) (https://blog.ezpaarse.org/)\\n\\nL'équipe ezTEAM.\",\"openLinksInNewTab\":false},\"title\":\"*: générique présentation\",\"type\":\"markdown\"}"
+        }
       },
       "references": [],
+      "migrationVersion": {
+        "visualization": "7.14.0"
+      },
+      "coreMigrationVersion": "7.14.1"
+    },
+    {
+      "id": "6442c900-3e45-11f1-a436-b52299be2a8d",
+      "type": "visualization",
+      "namespaces": [
+        "formation-ezpaarse"
+      ],
+      "updated_at": "2026-04-22T12:18:38.098Z",
+      "version": "WzM2OTQ5OTQsOF0=",
+      "attributes": {
+        "title": "*: générique version ezPAARSE",
+        "visState": "{\"title\":\"*: générique version ezPAARSE\",\"type\":\"pie\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"params\":{},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"params\":{\"field\":\"ezpaarse_version\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":5,\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\"},\"schema\":\"segment\"}],\"params\":{\"type\":\"pie\",\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"top\",\"isDonut\":true,\"labels\":{\"show\":true,\"values\":true,\"last_level\":true,\"truncate\":100,\"position\":\"inside\"},\"dimensions\":{\"metric\":{\"accessor\":1,\"format\":{\"id\":\"number\"},\"params\":{},\"aggType\":\"count\"},\"buckets\":[{\"accessor\":0,\"format\":{\"id\":\"terms\",\"params\":{\"id\":\"string\",\"otherBucketLabel\":\"Other\",\"missingBucketLabel\":\"Missing\"}},\"params\":{},\"aggType\":\"terms\"}]},\"palette\":{\"type\":\"palette\",\"name\":\"kibana_palette\"},\"distinctColors\":true,\"nestedLegend\":false}}",
+        "uiStateJSON": "{\"vis\":{\"legendOpen\":true}}",
+        "description": "",
+        "version": 1,
+        "kibanaSavedObjectMeta": {
+          "searchSourceJSON": "{\"query\":{\"query\":\"\",\"language\":\"kuery\"},\"filter\":[],\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.index\"}"
+        }
+      },
+      "references": [
+        {
+          "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
+          "type": "index-pattern",
+          "id": "d4db7ac0-e551-11ef-aaa0-fb75009c2a28"
+        }
+      ],
       "migrationVersion": {
         "visualization": "7.14.0"
       },
@@ -124,23 +169,23 @@
       "namespaces": [
         "formation-ezpaarse"
       ],
-      "updated_at": "2025-02-07T12:51:32.288Z",
-      "version": "WzM5MjA4OTYsMThd",
+      "updated_at": "2026-04-22T12:47:30.022Z",
+      "version": "WzM2OTU1MzEsOF0=",
       "attributes": {
+        "title": "* : générique métriques",
+        "visState": "{\"title\":\"* : générique métriques\",\"type\":\"metric\",\"aggs\":[{\"id\":\"4\",\"enabled\":true,\"type\":\"min\",\"params\":{\"field\":\"datetime\",\"customLabel\":\"Période du\"},\"schema\":\"metric\"},{\"id\":\"5\",\"enabled\":true,\"type\":\"max\",\"params\":{\"field\":\"datetime\",\"customLabel\":\"au\"},\"schema\":\"metric\"},{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"params\":{\"customLabel\":\"Total des accès\"},\"schema\":\"metric\"},{\"id\":\"3\",\"enabled\":true,\"type\":\"cardinality\",\"params\":{\"field\":\"publication_title\",\"customLabel\":\"Titres de publications\"},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"cardinality\",\"params\":{\"field\":\"platform\",\"customLabel\":\"Plateformes\"},\"schema\":\"metric\"},{\"id\":\"6\",\"enabled\":true,\"type\":\"max\",\"params\":{\"field\":\"platforms_date\",\"customLabel\":\"Dernière mise à jour des plateformes\"},\"schema\":\"metric\"}],\"params\":{\"metric\":{\"percentageMode\":false,\"useRanges\":false,\"colorSchema\":\"Green to Red\",\"metricColorMode\":\"None\",\"colorsRange\":[{\"type\":\"range\",\"from\":0,\"to\":10000}],\"labels\":{\"show\":true},\"invertColors\":false,\"style\":{\"bgFill\":\"#000\",\"bgColor\":false,\"labelColor\":false,\"subText\":\"\",\"fontSize\":22}},\"dimensions\":{\"metrics\":[{\"type\":\"vis_dimension\",\"accessor\":0,\"format\":{\"id\":\"number\",\"params\":{}}},{\"type\":\"vis_dimension\",\"accessor\":1,\"format\":{\"id\":\"number\",\"params\":{}}},{\"type\":\"vis_dimension\",\"accessor\":2,\"format\":{\"id\":\"number\",\"params\":{}}},{\"type\":\"vis_dimension\",\"accessor\":3,\"format\":{\"id\":\"date\",\"params\":{\"pattern\":\"D MMM YYYY \"}}},{\"type\":\"vis_dimension\",\"accessor\":4,\"format\":{\"id\":\"date\",\"params\":{\"pattern\":\"D MMM YYYY \"}}}]},\"addTooltip\":true,\"addLegend\":false,\"type\":\"metric\"}}",
+        "uiStateJSON": "{}",
         "description": "",
+        "version": 1,
         "kibanaSavedObjectMeta": {
           "searchSourceJSON": "{\"query\":{\"language\":\"kuery\",\"query\":\"\"},\"filter\":[],\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.index\"}"
-        },
-        "title": "* : générique métriques",
-        "uiStateJSON": "{}",
-        "version": 1,
-        "visState": "{\"title\":\"* : générique métriques\",\"type\":\"metric\",\"params\":{\"metric\":{\"percentageMode\":false,\"useRanges\":false,\"colorSchema\":\"Green to Red\",\"metricColorMode\":\"None\",\"colorsRange\":[{\"type\":\"range\",\"from\":0,\"to\":10000}],\"labels\":{\"show\":true},\"invertColors\":false,\"style\":{\"bgFill\":\"#000\",\"bgColor\":false,\"labelColor\":false,\"subText\":\"\",\"fontSize\":20}},\"dimensions\":{\"metrics\":[{\"type\":\"vis_dimension\",\"accessor\":0,\"format\":{\"id\":\"number\",\"params\":{}}},{\"type\":\"vis_dimension\",\"accessor\":1,\"format\":{\"id\":\"number\",\"params\":{}}},{\"type\":\"vis_dimension\",\"accessor\":2,\"format\":{\"id\":\"number\",\"params\":{}}},{\"type\":\"vis_dimension\",\"accessor\":3,\"format\":{\"id\":\"date\",\"params\":{\"pattern\":\"D MMM YYYY \"}}},{\"type\":\"vis_dimension\",\"accessor\":4,\"format\":{\"id\":\"date\",\"params\":{\"pattern\":\"D MMM YYYY \"}}}]},\"addTooltip\":true,\"addLegend\":false,\"type\":\"metric\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"Total des accès\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"cardinality\",\"schema\":\"metric\",\"params\":{\"field\":\"platform\",\"customLabel\":\"Plateformes\"}},{\"id\":\"3\",\"enabled\":true,\"type\":\"cardinality\",\"schema\":\"metric\",\"params\":{\"field\":\"publication_title\",\"customLabel\":\"Titres de publications\"}},{\"id\":\"4\",\"enabled\":true,\"type\":\"min\",\"schema\":\"metric\",\"params\":{\"field\":\"datetime\",\"customLabel\":\"Période du\"}},{\"id\":\"5\",\"enabled\":true,\"type\":\"max\",\"schema\":\"metric\",\"params\":{\"field\":\"datetime\",\"customLabel\":\"au\"}}]}"
+        }
       },
       "references": [
         {
-          "id": "d4db7ac0-e551-11ef-aaa0-fb75009c2a28",
           "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
-          "type": "index-pattern"
+          "type": "index-pattern",
+          "id": "d4db7ac0-e551-11ef-aaa0-fb75009c2a28"
         }
       ],
       "migrationVersion": {
@@ -155,7 +200,7 @@
         "formation-ezpaarse"
       ],
       "updated_at": "2025-02-07T12:51:32.288Z",
-      "version": "WzM5MjA4OTcsMThd",
+      "version": "WzM2NzU5NDcsOF0=",
       "attributes": {
         "description": "",
         "kibanaSavedObjectMeta": {
@@ -185,7 +230,7 @@
         "formation-ezpaarse"
       ],
       "updated_at": "2025-02-07T12:51:32.288Z",
-      "version": "WzM5MjA4OTgsMThd",
+      "version": "WzM2NzU5NDgsOF0=",
       "attributes": {
         "description": "",
         "kibanaSavedObjectMeta": {
@@ -215,7 +260,7 @@
         "formation-ezpaarse"
       ],
       "updated_at": "2025-02-07T12:51:32.288Z",
-      "version": "WzM5MjA4ODMsMThd",
+      "version": "WzM2NzU5NDEsOF0=",
       "attributes": {
         "description": "",
         "kibanaSavedObjectMeta": {
@@ -245,7 +290,7 @@
         "formation-ezpaarse"
       ],
       "updated_at": "2025-02-07T12:51:32.288Z",
-      "version": "WzM5MjA4OTksMThd",
+      "version": "WzM2NzU5NDksOF0=",
       "attributes": {
         "description": "",
         "kibanaSavedObjectMeta": {
@@ -275,7 +320,7 @@
         "formation-ezpaarse"
       ],
       "updated_at": "2025-02-07T12:51:32.288Z",
-      "version": "WzM5MjA5MDAsMThd",
+      "version": "WzM2NzU5NTAsOF0=",
       "attributes": {
         "description": "",
         "kibanaSavedObjectMeta": {
@@ -305,7 +350,7 @@
         "formation-ezpaarse"
       ],
       "updated_at": "2025-02-07T12:51:32.288Z",
-      "version": "WzM5MjA5MDEsMThd",
+      "version": "WzM2NzU5NTEsOF0=",
       "attributes": {
         "description": "",
         "kibanaSavedObjectMeta": {
@@ -335,7 +380,7 @@
         "formation-ezpaarse"
       ],
       "updated_at": "2025-02-07T12:51:32.288Z",
-      "version": "WzM5MjA5MDIsMThd",
+      "version": "WzM2NTAwNDAsOF0=",
       "attributes": {
         "description": "",
         "kibanaSavedObjectMeta": {
@@ -365,7 +410,7 @@
         "formation-ezpaarse"
       ],
       "updated_at": "2025-02-07T12:51:32.288Z",
-      "version": "WzM5MjA5MDMsMThd",
+      "version": "WzM2NTAwNDEsOF0=",
       "attributes": {
         "description": "",
         "kibanaSavedObjectMeta": {
@@ -395,7 +440,7 @@
         "formation-ezpaarse"
       ],
       "updated_at": "2025-02-07T12:51:32.288Z",
-      "version": "WzM5MjA4NzcsMThd",
+      "version": "WzM2NzU5MzUsOF0=",
       "attributes": {
         "color": "#07db57",
         "description": "",
@@ -411,11 +456,43 @@
         "formation-ezpaarse"
       ],
       "updated_at": "2025-02-07T12:51:32.288Z",
-      "version": "WzM5MjA4NzgsMThd",
+      "version": "WzM2NzU5MzYsOF0=",
       "attributes": {
         "color": "#E7664C",
         "description": "",
         "name": "generique"
+      },
+      "references": [],
+      "coreMigrationVersion": "7.14.1"
+    },
+    {
+      "id": "aa9ce620-3e49-11f1-a436-b52299be2a8d",
+      "type": "tag",
+      "namespaces": [
+        "formation-ezpaarse"
+      ],
+      "updated_at": "2026-04-22T12:49:14.116Z",
+      "version": "WzM2OTU1NjcsOF0=",
+      "attributes": {
+        "name": "date platform",
+        "description": "",
+        "color": "#41d72f"
+      },
+      "references": [],
+      "coreMigrationVersion": "7.14.1"
+    },
+    {
+      "id": "b914f850-3e49-11f1-a436-b52299be2a8d",
+      "type": "tag",
+      "namespaces": [
+        "formation-ezpaarse"
+      ],
+      "updated_at": "2026-04-22T12:49:38.392Z",
+      "version": "WzM2OTU1ODAsOF0=",
+      "attributes": {
+        "name": "ezpaarse version",
+        "description": "",
+        "color": "#54B399"
       },
       "references": [],
       "coreMigrationVersion": "7.14.1"
@@ -426,10 +503,10 @@
       "namespaces": [
         "formation-ezpaarse"
       ],
-      "updated_at": "2025-02-07T12:51:32.288Z",
-      "version": "WzM5MjA5NDMsMThd",
+      "updated_at": "2025-10-07T07:43:02.407Z",
+      "version": "WzM2NjE5ODksOF0=",
       "attributes": {
-        "fieldAttrs": "{}",
+        "fieldAttrs": "{\"cnrsData.intituleUnite\":{\"count\":1},\"section\":{\"count\":1}}",
         "fields": "[]",
         "runtimeFieldMap": "{}",
         "timeFieldName": "datetime",
