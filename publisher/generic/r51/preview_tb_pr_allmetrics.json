@@ -882,43 +882,43 @@
       "namespaces": [
         "formation-publisher"
       ],
-      "updated_at": "2026-03-03T09:49:23.902Z",
-      "version": "WzM2Njk0NzgsOF0=",
+      "updated_at": "2026-06-10T13:22:02.242Z",
+      "version": "WzM4NzY5MzIsOV0=",
       "attributes": {
+        "title": "publisher : guide-filtrage-texte",
+        "visState": "{\"title\":\"publisher : guide-filtrage-texte\",\"type\":\"markdown\",\"aggs\":[],\"params\":{\"markdown\":\"### Comment filtrer les résultats ?\\n\\nPar défaut, un tableau de bord affiche l'ensemble des résultats disponibles dans l'index. Compte tenu de l'ampleur de l'index, mener une recherche consiste souvent à filtrer les résultats plutôt qu'à les parcourir. \\n\\nPour ce faire, plusieurs méthodes : \\n\\n---\\n\\n#### Au clic \\nLe filtrage au clic repose sur les **symboles (+) et (-)**. Pour les faire apparaître, il suffit de survoler une valeur dans une table, de cliquer sur un segment de graphique ou sur un item de légende. Cliquer sur l'un ou l'autre de ces symboles active des filtrages différents, qui s'appliquent à l'ensemble du tableau :\\n- **(+)** &rarr; Conserver dans le tableau **uniquement les résultats qui déclarent la valeur choisie** = exclure les résultats qui ne déclarent pas cette valeur. *Attention : le (+) ne permet pas de sélection multiple dans le même champ.*\\n\\n- **(-)** &rarr; Conserver dans le tableau **uniquement les résultats qui ne déclarent pas la valeur choisie** = exclure les résultats qui déclarent cette valeur. *Précision : le (-) permet de garder plusieurs valeurs d'un même champ.*\\n\\n---\\n#### Avec les sélecteurs\\n\\nLes sélecteurs sont les petites barres de recherches portant l'inscription `Select` ainsi qu'une flèche invitant à les déplier. Ces modules ont une fonction de **facettes**. Ils permettent de filtrer sur une ou plusieurs valeurs du champ indiqué.\\n\\nPour utiliser les sélecteurs de manière efficace, il est recommandé de **saisir les premières lettres ou les premiers termes** de la valeur recherchée pour obtenir une liste de suggestion, puis de **cliquer sur le résultat voulu** dans la liste. Le tableau de bord s'actualisera automatiquement. L'opération est **répétable**, pour une sélection multiple.\\n\\n>*Note 1 : Les sélecteurs sont **sensibles à la casse** et attendent des termes exacts.*\\n\\n>*Note 2 : Il est parfois nécessaire d'**attendre quelques secondes** pour obtenir la liste de suggestion.*\\n\\n>*Note 3 : Les sélecteurs **ne retournent pas les données manquantes** (`missing`).*\\n\\n---\\n\\n#### Avec des requêtes (*pour les utilisateurs avancés*)\\n\\n[Pour plus d'informations, consultez la documentation](https://docs.readmetrics.org/s/fr-ezmesure-user/doc/filtrer-un-tableau-de-bord-ghDz90PfLv#h-avec-des-requetes-pour-les-utilisateurs-avances)\",\"openLinksInNewTab\":false,\"fontSize\":12}}",
+        "uiStateJSON": "{}",
         "description": "Vademecum pour le filtrage dans les tableaux de bord.",
+        "version": 1,
         "kibanaSavedObjectMeta": {
           "searchSourceJSON": "{\"query\":{\"query\":\"\",\"language\":\"kuery\"},\"filter\":[]}"
-        },
-        "title": "publisher : guide-filtrage-texte",
-        "uiStateJSON": "{}",
-        "version": 1,
-        "visState": "{\"title\":\"publisher : guide-filtrage-texte\",\"type\":\"markdown\",\"aggs\":[],\"params\":{\"markdown\":\"### Comment filtrer les résultats ?\\n\\nPar défaut, un tableau de bord affiche l'ensemble des résultats disponibles dans l'index. Compte tenu de l'ampleur de l'index, mener une recherche consiste souvent à filtrer les résultats plutôt qu'à les parcourir. \\n\\nPour ce faire, plusieurs méthodes : \\n\\n---\\n\\n#### Au clic \\nLe filtrage au clic repose sur les **symboles (+) et (-)**. Pour les faire apparaître, il suffit de survoler une valeur dans une table, de cliquer sur un segment de graphique ou sur un item de légende. Cliquer sur l'un ou l'autre de ces symboles active des filtrages différents, qui s'appliquent à l'ensemble du tableau :\\n- **(+)** &rarr; Conserver dans le tableau **uniquement les résultats qui déclarent la valeur choisie** = exclure les résultats qui ne déclarent pas cette valeur. *Attention : le (+) ne permet pas de sélection multiple dans le même champ.*\\n\\n- **(-)** &rarr; Conserver dans le tableau **uniquement les résultats qui ne déclarent pas la valeur choisie** = exclure les résultats qui déclarent cette valeur. *Précision : le (-) permet de garder plusieurs valeurs d'un même champ.*\\n\\n---\\n#### Avec les sélecteurs\\n\\nLes sélecteurs sont les petites barres de recherches portant l'inscription `Select` ainsi qu'une flèche invitant à les déplier. Ces modules ont une fonction de **facettes**. Ils permettent de filtrer sur une ou plusieurs valeurs du champ indiqué.\\n\\nPour utiliser les sélecteurs de manière efficace, il est recommandé de **saisir les premières lettres ou les premiers termes** de la valeur recherchée pour obtenir une liste de suggestion, puis de **cliquer sur le résultat voulu** dans la liste. Le tableau de bord s'actualisera automatiquement. L'opération est **répétable**, pour une sélection multiple.\\n\\n>*Note 1 : Les sélecteurs sont **sensibles à la casse** et attendent des termes exacts.*\\n\\n>*Note 2 : Il est parfois nécessaire d'**attendre quelques secondes** pour obtenir la liste de suggestion.*\\n\\n>*Note 3 : Les sélecteurs **ne retournent pas les données manquantes** (`missing`).*\\n\\n---\\n\\n#### Avec des requêtes (*pour les utilisateurs avancés*)\\n\\n*Une aide spécifique sera rédigée ultérieurement.*\",\"openLinksInNewTab\":false,\"fontSize\":12}}"
+        }
       },
       "references": [
         {
           "id": "fe8ed6a0-d767-11ec-871c-618dc17b393f",
-          "name": "tag-ref-fe8ed6a0-d767-11ec-871c-618dc17b393f",
-          "type": "tag"
+          "type": "tag",
+          "name": "tag-fe8ed6a0-d767-11ec-871c-618dc17b393f"
         },
         {
           "id": "37d769b0-d75c-11ec-871c-618dc17b393f",
-          "name": "tag-ref-37d769b0-d75c-11ec-871c-618dc17b393f",
-          "type": "tag"
+          "type": "tag",
+          "name": "tag-37d769b0-d75c-11ec-871c-618dc17b393f"
         },
         {
           "id": "c82e05c0-d769-11ec-871c-618dc17b393f",
-          "name": "tag-ref-c82e05c0-d769-11ec-871c-618dc17b393f",
-          "type": "tag"
+          "type": "tag",
+          "name": "tag-c82e05c0-d769-11ec-871c-618dc17b393f"
         },
         {
           "id": "43a82140-d76a-11ec-871c-618dc17b393f",
-          "name": "tag-ref-43a82140-d76a-11ec-871c-618dc17b393f",
-          "type": "tag"
+          "type": "tag",
+          "name": "tag-43a82140-d76a-11ec-871c-618dc17b393f"
         },
         {
           "id": "24096260-fea0-11ec-871c-618dc17b393f",
-          "name": "tag-ref-24096260-fea0-11ec-871c-618dc17b393f",
-          "type": "tag"
+          "type": "tag",
+          "name": "tag-24096260-fea0-11ec-871c-618dc17b393f"
         }
       ],
       "migrationVersion": {

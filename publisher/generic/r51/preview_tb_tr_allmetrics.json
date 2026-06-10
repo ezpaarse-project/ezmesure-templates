@@ -7,8 +7,8 @@
       "namespaces": [
         "formation-publisher"
       ],
-      "updated_at": "2026-06-04T13:10:30.531Z",
-      "version": "WzM4NjA1ODgsOF0=",
+      "updated_at": "2026-06-10T13:50:03.747Z",
+      "version": "WzM4Nzc4MDksOV0=",
       "attributes": {
         "title": "publisher * Tableau TR > all metrics Counter 5 et 51",
         "hits": 0,
@@ -1302,28 +1302,28 @@
       "namespaces": [
         "formation-publisher"
       ],
-      "updated_at": "2026-03-03T09:49:23.858Z",
-      "version": "WzM2Njk0NjEsOF0=",
+      "updated_at": "2026-06-10T13:48:56.459Z",
+      "version": "WzM4Nzc3NDIsOV0=",
       "attributes": {
+        "title": "publisher : guide-tableau-TR-texte",
+        "visState": "{\"title\":\"publisher : guide-tableau-TR-texte\",\"type\":\"markdown\",\"aggs\":[],\"params\":{\"markdown\":\"### Comment lire ce tableau de bord ?\\n\\nLe tableau de bord affiche  **toutes les métriques COUNTER par défaut**. Le Title Master Report est particulièrement adapté à l'étude des usages pour les revues et monographies.\\n\\nLa lecture du tableau se fait en deux étapes :\\n- Dans un premier temps, il donne un aperçu de toutes les métriques en un seul coup d'œil rassemblées dans une table.\\n- Dans un second temps, il faudra sélectionner une seule métrique pour une lecture cohérente de la suite du tableau de bord, au risque de voir s'afficher des cumuls erronés de valeurs Counter.\\n\\n\\nCe tableau de bord est pensé pour répondre à des questions générales d'analyse des usages :\\n- À combien de `Total_Item_Requests` s'élèvent les usages de ces ressources par les utilisateurs ?\\n- Quels volumes de `Total_Item_Requests` réalisent mes différentes communautés d'utilisateurs (s'il y en a plusieurs) ?\\n- Quelle est la part des revues dans ces usages par rapport à celle des monographies ?\\n- Quelle est la part d'*open access* dans le total des usages ?\\n- Quelles sont les plateformes qui cumulent le plus de `Total_Item_Requests` ou de `Unique_Item_Requests`  ?\\n- Quels sont les titres qui cumulent le plus de `Total_Item_Requests` ou de `Unique_Item_Requests`  ?\\n- Quelles sont les années de publication (`YOP`) les plus consultées ?\\n\\nLe tableau est donc structuré par étages, en prenant ces questions de la plus globale à la plus fine.\\n\\nIl est néanmoins possible de filtrer un ou plusieurs de ces critères pour répondre à des questions plus précises encore.\\n\\n----\\n\\nNB 1 : L'appellation **`éléments de rapport`** utilisée dans les visualisations est celle définie par COUNTER pour qualifier les différents types d'usages comptabilisés dans les différents rapports, selon le type de ressource. En anglais : `report item`.\\n\\nNB 2 : Le ***symbole (i)*** présent à côté du titre de chaque visualisation permet (en le survolant) d'afficher des **infobulles**. Chaque infobulle précise la finalité de la visualisation en question et peut également fournir des compléments d'information. \\nExemples : \\n- Années de publication (`YOP`) : `0001`= non renseigné ; `9999`= à paraître, en avant-première (*online first*).\\n- `Data_Type` et `Section_Type`, pour indiquer leur relation parent > enfant (disparait avec la version COUNTER 5.1).\\n\\nNB 3 : Certains champs comportent des **valeurs manquantes**, sous la forme `Non renseigné` dans les graphiques et `-` dans les tables. Cela est indépendant de notre volonté et est dû au fait que les rapports fournis par les éditeurs ne sont pas toujours exemplaires. Les rapports éditeurs peuvent effectivement comporter des lacunes, même sur des métadonnées de première importance, ex : `Access_Type`, `Data_Type` ou `YOP` (Year Of Publication). Nous invitons les utilisateurs à bien tenir compte de ces limitations lors des filtrages, pour ne pas fausser ou biaiser les analyses. \\n\\nNB 4 : Nous recommandons aux utilisateurs de **ne pas supprimer les filtres par défaut**, car faire apparaître au même niveau tous les types de rapports introduirait énormément de doublons et rendrait le tableau cacophonique.\\n\\nNB 5 : Pour créer facilement un filtre sur une liste de titres précise, nous vous recommandons d'utiliser notre outil **csv2kib** en suivant les étapes dans [la documentation](https://docs.readmetrics.org/s/fr-ezmesure-user/doc/creer-un-filtre-bouquet-GtuW4mmUlF).\\n\\n\",\"openLinksInNewTab\":false,\"fontSize\":12}}",
+        "uiStateJSON": "{}",
         "description": "Vademecum pour la lecture des données Counter dans le tableau de bord TR générique.",
+        "version": 1,
         "kibanaSavedObjectMeta": {
           "searchSourceJSON": "{\"query\":{\"query\":\"\",\"language\":\"kuery\"},\"filter\":[]}"
-        },
-        "title": "publisher : guide-tableau-TR-texte",
-        "uiStateJSON": "{}",
-        "version": 1,
-        "visState": "{\"title\":\"publisher : guide-tableau-TR-texte\",\"type\":\"markdown\",\"aggs\":[],\"params\":{\"markdown\":\"### Comment lire ce tableau de bord ?\\n\\nLe tableau de bord applique un **filtre par défaut sur le type de rapport `TR` : `Title Report` et sur le type de métrique `Total_Item_Requests`**. Il est donc particulièrement adapté à l'étude des usages pour les revues et monographies.\\n\\nLa métrique `Total_Item_Requests` a été retenue ici car elle donne une bonne vue d'ensemble des consultations de texte intégral et assure la continuité avec les rapports issus de la version 4 de COUNTER.\\n\\nCe tableau de bord est pensé pour répondre à des questions générales d'analyse des usages :\\n- À combien de `Total_Item_Requests` s'élèvent les usages de ces ressources par les utilisateurs ?\\n- Quels volumes de `Total_Item_Requests` réalisent mes différentes communautés d'utilisateurs (s'il y en a plusieurs) ?\\n- Quelle est la part des revues dans ces usages par rapport à celle des monographies ?\\n- Quelle est la part d'*open access* dans le total des usages ?\\n- Quelles sont les plateformes qui cumulent le plus de `Total_Item_Requests` ?\\n- Quels sont les titres qui cumulent le plus de `Total_Item_Requests` ?\\n- Quelles sont les années de publication (`YOP`) les plus consultées ?\\n\\nLe tableau est donc structuré par étages, en prenant ces questions de la plus globale à la plus fine.\\n\\nIl est néanmoins possible de filtrer un ou plusieurs de ces critères pour répondre à des questions plus précises encore.\\n\\n----\\n\\nNB 1 : L'appellation **`éléments de rapport`** utilisée dans les visualisations est celle définie par COUNTER pour qualifier les différents types d'usages comptabilisés dans les différents rapports, selon le type de ressource. En anglais : `report item`. Dans ce tableau, il correspond donc aux `Total_Item_Requests`comptabilisés dans les `TR`.\\n\\nNB 2 : Le ***symbole (i)*** présent à côté du titre de chaque visualisation permet (en le survolant) d'afficher des **infobulles**. Chaque infobulle précise la finalité de la visualisation en question et peut également fournir des compléments d'information. \\nExemples : \\n- Années de publication (`YOP`) : `0001`= non renseigné ; `9999`= à paraître, en avant-première (*online first*).\\n- `Data_Type` et `Section_Type`, pour indiquer leur relation parent > enfant.\\n\\nNB 3 : Certains champs comportent des **valeurs manquantes**, sous la forme `Non renseigné` dans les graphiques et `-` dans les tables. Cela est indépendant de notre volonté et est dû au fait que les rapports fournis par les éditeurs ne sont pas toujours exemplaires. Les rapports éditeurs peuvent effectivement comporter des lacunes, même sur des métadonnées de première importance, ex : `Access_Type`, `Data_Type` ou `YOP` (Year Of Publication). Nous invitons les utilisateurs à bien tenir compte de ces limitations lors des filtrages, pour ne pas fausser ou biaiser les analyses. \\n\\nNB 4 : En modifiant les filtres par défaut présents en haut du tableau, il est possible d'étudier un autre type de rapport (`DR`, `IR`,`PR`) ou un autre type de métrique (`Unique_Item_Requests`, `No_Licence`, etc.). Nous attirons néanmoins l'attention sur le fait que ce tableau orienté `TR` n'est pas forcément adapté pour examiner les autres types de rapport. Des tableaux spécifiques aux autres types de rapports seront construits ultérieurement. \\n\\nNB 5 : Nous recommandons aux utilisateurs de **ne pas supprimer les filtres par défaut**, car faire apparaître au même niveau tous les types de rapports et tous les types de métrique introduirait énormément de doublons et rendrait le tableau cacophonique.\\n\\nNB 6 : Pour créer facilement un filtre sur une liste de titres précise, nous vous recommandons d'utiliser notre outil [**csv2kib**](https://ezpaarse-project.github.io/csv2kib/).\\n\\nNB 7 : Zoom recommandé pour affichage sur écran d'ordinateur portable : 80%-90%.\",\"openLinksInNewTab\":false,\"fontSize\":12}}"
+        }
       },
       "references": [
         {
           "id": "fe8ed6a0-d767-11ec-871c-618dc17b393f",
-          "name": "tag-ref-fe8ed6a0-d767-11ec-871c-618dc17b393f",
-          "type": "tag"
+          "type": "tag",
+          "name": "tag-fe8ed6a0-d767-11ec-871c-618dc17b393f"
         },
         {
           "id": "43a82140-d76a-11ec-871c-618dc17b393f",
-          "name": "tag-ref-43a82140-d76a-11ec-871c-618dc17b393f",
-          "type": "tag"
+          "type": "tag",
+          "name": "tag-43a82140-d76a-11ec-871c-618dc17b393f"
         }
       ],
       "migrationVersion": {
@@ -1337,43 +1337,43 @@
       "namespaces": [
         "formation-publisher"
       ],
-      "updated_at": "2026-03-03T09:49:23.902Z",
-      "version": "WzM2Njk0NzgsOF0=",
+      "updated_at": "2026-06-10T13:22:02.242Z",
+      "version": "WzM4NzY5MzIsOV0=",
       "attributes": {
+        "title": "publisher : guide-filtrage-texte",
+        "visState": "{\"title\":\"publisher : guide-filtrage-texte\",\"type\":\"markdown\",\"aggs\":[],\"params\":{\"markdown\":\"### Comment filtrer les résultats ?\\n\\nPar défaut, un tableau de bord affiche l'ensemble des résultats disponibles dans l'index. Compte tenu de l'ampleur de l'index, mener une recherche consiste souvent à filtrer les résultats plutôt qu'à les parcourir. \\n\\nPour ce faire, plusieurs méthodes : \\n\\n---\\n\\n#### Au clic \\nLe filtrage au clic repose sur les **symboles (+) et (-)**. Pour les faire apparaître, il suffit de survoler une valeur dans une table, de cliquer sur un segment de graphique ou sur un item de légende. Cliquer sur l'un ou l'autre de ces symboles active des filtrages différents, qui s'appliquent à l'ensemble du tableau :\\n- **(+)** &rarr; Conserver dans le tableau **uniquement les résultats qui déclarent la valeur choisie** = exclure les résultats qui ne déclarent pas cette valeur. *Attention : le (+) ne permet pas de sélection multiple dans le même champ.*\\n\\n- **(-)** &rarr; Conserver dans le tableau **uniquement les résultats qui ne déclarent pas la valeur choisie** = exclure les résultats qui déclarent cette valeur. *Précision : le (-) permet de garder plusieurs valeurs d'un même champ.*\\n\\n---\\n#### Avec les sélecteurs\\n\\nLes sélecteurs sont les petites barres de recherches portant l'inscription `Select` ainsi qu'une flèche invitant à les déplier. Ces modules ont une fonction de **facettes**. Ils permettent de filtrer sur une ou plusieurs valeurs du champ indiqué.\\n\\nPour utiliser les sélecteurs de manière efficace, il est recommandé de **saisir les premières lettres ou les premiers termes** de la valeur recherchée pour obtenir une liste de suggestion, puis de **cliquer sur le résultat voulu** dans la liste. Le tableau de bord s'actualisera automatiquement. L'opération est **répétable**, pour une sélection multiple.\\n\\n>*Note 1 : Les sélecteurs sont **sensibles à la casse** et attendent des termes exacts.*\\n\\n>*Note 2 : Il est parfois nécessaire d'**attendre quelques secondes** pour obtenir la liste de suggestion.*\\n\\n>*Note 3 : Les sélecteurs **ne retournent pas les données manquantes** (`missing`).*\\n\\n---\\n\\n#### Avec des requêtes (*pour les utilisateurs avancés*)\\n\\n[Pour plus d'informations, consultez la documentation](https://docs.readmetrics.org/s/fr-ezmesure-user/doc/filtrer-un-tableau-de-bord-ghDz90PfLv#h-avec-des-requetes-pour-les-utilisateurs-avances)\",\"openLinksInNewTab\":false,\"fontSize\":12}}",
+        "uiStateJSON": "{}",
         "description": "Vademecum pour le filtrage dans les tableaux de bord.",
+        "version": 1,
         "kibanaSavedObjectMeta": {
           "searchSourceJSON": "{\"query\":{\"query\":\"\",\"language\":\"kuery\"},\"filter\":[]}"
-        },
-        "title": "publisher : guide-filtrage-texte",
-        "uiStateJSON": "{}",
-        "version": 1,
-        "visState": "{\"title\":\"publisher : guide-filtrage-texte\",\"type\":\"markdown\",\"aggs\":[],\"params\":{\"markdown\":\"### Comment filtrer les résultats ?\\n\\nPar défaut, un tableau de bord affiche l'ensemble des résultats disponibles dans l'index. Compte tenu de l'ampleur de l'index, mener une recherche consiste souvent à filtrer les résultats plutôt qu'à les parcourir. \\n\\nPour ce faire, plusieurs méthodes : \\n\\n---\\n\\n#### Au clic \\nLe filtrage au clic repose sur les **symboles (+) et (-)**. Pour les faire apparaître, il suffit de survoler une valeur dans une table, de cliquer sur un segment de graphique ou sur un item de légende. Cliquer sur l'un ou l'autre de ces symboles active des filtrages différents, qui s'appliquent à l'ensemble du tableau :\\n- **(+)** &rarr; Conserver dans le tableau **uniquement les résultats qui déclarent la valeur choisie** = exclure les résultats qui ne déclarent pas cette valeur. *Attention : le (+) ne permet pas de sélection multiple dans le même champ.*\\n\\n- **(-)** &rarr; Conserver dans le tableau **uniquement les résultats qui ne déclarent pas la valeur choisie** = exclure les résultats qui déclarent cette valeur. *Précision : le (-) permet de garder plusieurs valeurs d'un même champ.*\\n\\n---\\n#### Avec les sélecteurs\\n\\nLes sélecteurs sont les petites barres de recherches portant l'inscription `Select` ainsi qu'une flèche invitant à les déplier. Ces modules ont une fonction de **facettes**. Ils permettent de filtrer sur une ou plusieurs valeurs du champ indiqué.\\n\\nPour utiliser les sélecteurs de manière efficace, il est recommandé de **saisir les premières lettres ou les premiers termes** de la valeur recherchée pour obtenir une liste de suggestion, puis de **cliquer sur le résultat voulu** dans la liste. Le tableau de bord s'actualisera automatiquement. L'opération est **répétable**, pour une sélection multiple.\\n\\n>*Note 1 : Les sélecteurs sont **sensibles à la casse** et attendent des termes exacts.*\\n\\n>*Note 2 : Il est parfois nécessaire d'**attendre quelques secondes** pour obtenir la liste de suggestion.*\\n\\n>*Note 3 : Les sélecteurs **ne retournent pas les données manquantes** (`missing`).*\\n\\n---\\n\\n#### Avec des requêtes (*pour les utilisateurs avancés*)\\n\\n*Une aide spécifique sera rédigée ultérieurement.*\",\"openLinksInNewTab\":false,\"fontSize\":12}}"
+        }
       },
       "references": [
         {
           "id": "fe8ed6a0-d767-11ec-871c-618dc17b393f",
-          "name": "tag-ref-fe8ed6a0-d767-11ec-871c-618dc17b393f",
-          "type": "tag"
+          "type": "tag",
+          "name": "tag-fe8ed6a0-d767-11ec-871c-618dc17b393f"
         },
         {
           "id": "37d769b0-d75c-11ec-871c-618dc17b393f",
-          "name": "tag-ref-37d769b0-d75c-11ec-871c-618dc17b393f",
-          "type": "tag"
+          "type": "tag",
+          "name": "tag-37d769b0-d75c-11ec-871c-618dc17b393f"
         },
         {
           "id": "c82e05c0-d769-11ec-871c-618dc17b393f",
-          "name": "tag-ref-c82e05c0-d769-11ec-871c-618dc17b393f",
-          "type": "tag"
+          "type": "tag",
+          "name": "tag-c82e05c0-d769-11ec-871c-618dc17b393f"
         },
         {
           "id": "43a82140-d76a-11ec-871c-618dc17b393f",
-          "name": "tag-ref-43a82140-d76a-11ec-871c-618dc17b393f",
-          "type": "tag"
+          "type": "tag",
+          "name": "tag-43a82140-d76a-11ec-871c-618dc17b393f"
         },
         {
           "id": "24096260-fea0-11ec-871c-618dc17b393f",
-          "name": "tag-ref-24096260-fea0-11ec-871c-618dc17b393f",
-          "type": "tag"
+          "type": "tag",
+          "name": "tag-24096260-fea0-11ec-871c-618dc17b393f"
         }
       ],
       "migrationVersion": {
