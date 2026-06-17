@@ -7,8 +7,8 @@
       "namespaces": [
         "istex"
       ],
-      "updated_at": "2025-06-20T11:40:29.311Z",
-      "version": "WzE1MjI2MDgsNl0=",
+      "updated_at": "2026-06-17T12:31:35.321Z",
+      "version": "WzM4OTgwMTAsOV0=",
       "attributes": {
         "title": "istex-*:istex-generic",
         "hits": 0,
@@ -99,19 +99,9 @@
           "id": "e875cf40-30c9-11f0-865c-298b326405f6"
         },
         {
-          "id": "b9f60840-f6c2-11ec-871c-618dc17b393f",
+          "id": "6161cea0-14b5-11ee-8ce4-61ee0b8a2f58",
           "type": "tag",
-          "name": "tag-b9f60840-f6c2-11ec-871c-618dc17b393f"
-        },
-        {
-          "id": "f2d9a600-2e31-11ef-b86a-fb4acd467871",
-          "type": "tag",
-          "name": "tag-f2d9a600-2e31-11ef-b86a-fb4acd467871"
-        },
-        {
-          "id": "9114a400-14b1-11ee-8ce4-61ee0b8a2f58",
-          "type": "tag",
-          "name": "tag-9114a400-14b1-11ee-8ce4-61ee0b8a2f58"
+          "name": "tag-6161cea0-14b5-11ee-8ce4-61ee0b8a2f58"
         },
         {
           "id": "98aac780-14b1-11ee-8ce4-61ee0b8a2f58",
@@ -119,9 +109,19 @@
           "name": "tag-98aac780-14b1-11ee-8ce4-61ee0b8a2f58"
         },
         {
-          "id": "6161cea0-14b5-11ee-8ce4-61ee0b8a2f58",
+          "id": "9114a400-14b1-11ee-8ce4-61ee0b8a2f58",
           "type": "tag",
-          "name": "tag-6161cea0-14b5-11ee-8ce4-61ee0b8a2f58"
+          "name": "tag-9114a400-14b1-11ee-8ce4-61ee0b8a2f58"
+        },
+        {
+          "id": "f2d9a600-2e31-11ef-b86a-fb4acd467871",
+          "type": "tag",
+          "name": "tag-f2d9a600-2e31-11ef-b86a-fb4acd467871"
+        },
+        {
+          "id": "b9f60840-f6c2-11ec-871c-618dc17b393f",
+          "type": "tag",
+          "name": "tag-b9f60840-f6c2-11ec-871c-618dc17b393f"
         }
       ],
       "migrationVersion": {
@@ -135,23 +135,23 @@
       "namespaces": [
         "istex"
       ],
-      "updated_at": "2025-06-06T13:37:13.605Z",
-      "version": "WzE1MjExMDAsNl0=",
+      "updated_at": "2026-04-02T13:37:48.794Z",
+      "version": "WzM2ODA4NTQsOF0=",
       "attributes": {
-        "title": "istex-generic-report: Readme",
-        "visState": "{\"title\":\"istex-generic-report: Readme\",\"type\":\"markdown\",\"aggs\":[],\"params\":{\"fontSize\":11,\"openLinksInNewTab\":true,\"markdown\":\"# Rapport de consultation des données d'Istex\\n\\n ![ISTEX](https://www.inist.fr/wp-content/uploads/2018/07/istex_logo.svg)  [![ezMESURE](https://user-images.githubusercontent.com/10154941/30215945-cac4a172-94b1-11e7-89ce-54b7134ab53b.png)](/)\\n\\nCe rapport présente le nombre de consultations sur Istex pour votre établissement. \\n\\n⚠  Seuls les accès aux fichiers PDF sont pris en compte. Par défaut, le tableau de bord montre les données de l'année précédente.\\n\\n### Navigation\\n\\nCe tableau de bord est interactif. Il peut être filtré en cliquant sur les éléments qui le compose (graphiques, entrées des tables) ou en spécifiant les bornes chronologiques.\\n\\n### Visualisations\\n\\n* **Consultations par type d'accès [données] :** Identifie l'origine de l'accès aux fichiers PDF Istex ([Istex Search](https://search.istex.fr/fr-FR), [Click & Read](https://clickandread.inist.fr/), API, etc.).\\n* **Statut libre accès :** Comptabilise les accès aux fichiers PDF selon leur statut de libre accès (Green, Bronze, Gold, etc.).\\n* **Modalités d'identification :** Recense le nombre d'accès réalisés via la [Fédération Éducation-Recherche (FER)](https://services.renater.fr/federation/index) ou par adresse IP déclarées sur [Licences Nationales](https://www.licencesnationales.fr/).\\n* **Consultations par type de bouquet [données] :** Détaille la répartition des consultations selon les différents bouquets documentaires.\\n* **Consultations mensuelles :** Donne une vue chronologique des consultations mois par mois.\\n* **Titres de publication et bouquets :** Détaille la répartition des consultations selon le titre de publication l'ISSN, l'eISSN et le bouquet.\\n\\nVous pouvez [contacter l'équipe Istex](https://www.istex.fr/contactez-nous/) en cas de besoin.\\n\"}}",
-        "uiStateJSON": "{}",
         "description": "Présentation du rapport",
-        "version": 1,
         "kibanaSavedObjectMeta": {
           "searchSourceJSON": "{\"query\":{\"query\":\"\",\"language\":\"kuery\"},\"filter\":[]}"
-        }
+        },
+        "title": "istex-generic-report: Readme",
+        "uiStateJSON": "{}",
+        "version": 1,
+        "visState": "{\"title\":\"istex-generic-report: Readme\",\"type\":\"markdown\",\"aggs\":[],\"params\":{\"fontSize\":11,\"openLinksInNewTab\":true,\"markdown\":\"# Rapport de consultation des données d'Istex\\n\\n ![ISTEX](https://www.inist.fr/wp-content/uploads/2018/07/istex_logo.svg)  [![ezMESURE](https://user-images.githubusercontent.com/10154941/30215945-cac4a172-94b1-11e7-89ce-54b7134ab53b.png)](/)\\n\\nCe rapport présente le nombre de consultations sur Istex pour votre établissement. \\n\\n⚠  Seuls les accès aux fichiers PDF sont pris en compte. Par défaut, le tableau de bord montre les données de l'année précédente.\\n\\n### Navigation\\n\\nCe tableau de bord est interactif. Il peut être filtré en cliquant sur les éléments qui le compose (graphiques, entrées des tables) ou en spécifiant les bornes chronologiques.\\n\\n### Visualisations\\n\\n* **Consultations par type d'accès [données] :** Identifie l'origine de l'accès aux fichiers PDF Istex ([Istex Search](https://search.istex.fr/fr-FR), [Click & Read](https://clickandread.inist.fr/), API, etc.).\\n* **Statut libre accès :** Comptabilise les accès aux fichiers PDF selon leur statut de libre accès (Green, Bronze, Gold, etc.).\\n* **Modalités d'identification :** Recense le nombre d'accès réalisés via la [Fédération Éducation-Recherche (FER)](https://services.renater.fr/federation/index) ou par adresse IP déclarées sur [Licences Nationales](https://www.licencesnationales.fr/).\\n* **Consultations par type de bouquet [données] :** Détaille la répartition des consultations selon les différents bouquets documentaires.\\n* **Consultations mensuelles :** Donne une vue chronologique des consultations mois par mois.\\n* **Titres de publication et bouquets :** Détaille la répartition des consultations selon le titre de publication l'ISSN, l'eISSN et le bouquet.\\n\\nVous pouvez [contacter l'équipe Istex](https://www.istex.fr/contactez-nous/) en cas de besoin.\\n\"}}"
       },
       "references": [
         {
           "id": "9114a400-14b1-11ee-8ce4-61ee0b8a2f58",
-          "type": "tag",
-          "name": "tag-9114a400-14b1-11ee-8ce4-61ee0b8a2f58"
+          "name": "tag-9114a400-14b1-11ee-8ce4-61ee0b8a2f58",
+          "type": "tag"
         }
       ],
       "migrationVersion": {
@@ -165,28 +165,28 @@
       "namespaces": [
         "istex"
       ],
-      "updated_at": "2025-06-05T05:53:03.464Z",
-      "version": "WzE1MjEwMjUsNl0=",
+      "updated_at": "2026-04-02T13:37:48.794Z",
+      "version": "WzM2ODA4ODcsOF0=",
       "attributes": {
-        "title": "istex-generic-report: Date de début",
-        "visState": "{\"title\":\"istex-generic-report: Date de début\",\"type\":\"metric\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"min\",\"params\":{\"field\":\"datetime\",\"customLabel\":\"Date de début\"},\"schema\":\"metric\"}],\"params\":{\"addTooltip\":true,\"addLegend\":false,\"type\":\"metric\",\"metric\":{\"percentageMode\":false,\"useRanges\":false,\"colorSchema\":\"Green to Red\",\"metricColorMode\":\"None\",\"colorsRange\":[{\"from\":0,\"to\":10000}],\"labels\":{\"show\":true},\"invertColors\":false,\"style\":{\"bgFill\":\"#000\",\"bgColor\":false,\"labelColor\":false,\"subText\":\"\",\"fontSize\":40}}}}",
-        "uiStateJSON": "{}",
         "description": "Date de début du rapport",
-        "version": 1,
         "kibanaSavedObjectMeta": {
           "searchSourceJSON": "{\"query\":{\"query\":\"\",\"language\":\"kuery\"},\"filter\":[],\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.index\"}"
-        }
+        },
+        "title": "istex-generic-report: Date de début",
+        "uiStateJSON": "{}",
+        "version": 1,
+        "visState": "{\"title\":\"istex-generic-report: Date de début\",\"type\":\"metric\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"min\",\"params\":{\"field\":\"datetime\",\"customLabel\":\"Date de début\"},\"schema\":\"metric\"}],\"params\":{\"addTooltip\":true,\"addLegend\":false,\"type\":\"metric\",\"metric\":{\"percentageMode\":false,\"useRanges\":false,\"colorSchema\":\"Green to Red\",\"metricColorMode\":\"None\",\"colorsRange\":[{\"from\":0,\"to\":10000}],\"labels\":{\"show\":true},\"invertColors\":false,\"style\":{\"bgFill\":\"#000\",\"bgColor\":false,\"labelColor\":false,\"subText\":\"\",\"fontSize\":40}}}}"
       },
       "references": [
         {
+          "id": "a5c73130-a26b-11ef-83ba-f3a1d08225ea",
           "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
-          "type": "index-pattern",
-          "id": "0111fa00-ab0b-11ef-836d-d36da0a72ca3"
+          "type": "index-pattern"
         },
         {
           "id": "9114a400-14b1-11ee-8ce4-61ee0b8a2f58",
-          "type": "tag",
-          "name": "tag-9114a400-14b1-11ee-8ce4-61ee0b8a2f58"
+          "name": "tag-9114a400-14b1-11ee-8ce4-61ee0b8a2f58",
+          "type": "tag"
         }
       ],
       "migrationVersion": {
@@ -200,28 +200,28 @@
       "namespaces": [
         "istex"
       ],
-      "updated_at": "2025-06-05T05:55:05.954Z",
-      "version": "WzE1MjEwMjksNl0=",
+      "updated_at": "2026-04-02T13:37:48.794Z",
+      "version": "WzM2ODEwNDIsOF0=",
       "attributes": {
-        "title": "istex-generic-report: Date de fin",
-        "visState": "{\"title\":\"istex-generic-report: Date de fin\",\"type\":\"metric\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"max\",\"params\":{\"field\":\"datetime\",\"customLabel\":\"Date de fin\"},\"schema\":\"metric\"}],\"params\":{\"addTooltip\":true,\"addLegend\":false,\"type\":\"metric\",\"metric\":{\"percentageMode\":false,\"useRanges\":false,\"colorSchema\":\"Green to Red\",\"metricColorMode\":\"None\",\"colorsRange\":[{\"from\":0,\"to\":10000}],\"labels\":{\"show\":true},\"invertColors\":false,\"style\":{\"bgFill\":\"#000\",\"bgColor\":false,\"labelColor\":false,\"subText\":\"\",\"fontSize\":40}}}}",
-        "uiStateJSON": "{}",
         "description": "Date de fin du rapport",
-        "version": 1,
         "kibanaSavedObjectMeta": {
           "searchSourceJSON": "{\"query\":{\"query\":\"\",\"language\":\"kuery\"},\"filter\":[],\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.index\"}"
-        }
+        },
+        "title": "istex-generic-report: Date de fin",
+        "uiStateJSON": "{}",
+        "version": 1,
+        "visState": "{\"title\":\"istex-generic-report: Date de fin\",\"type\":\"metric\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"max\",\"params\":{\"field\":\"datetime\",\"customLabel\":\"Date de fin\"},\"schema\":\"metric\"}],\"params\":{\"addTooltip\":true,\"addLegend\":false,\"type\":\"metric\",\"metric\":{\"percentageMode\":false,\"useRanges\":false,\"colorSchema\":\"Green to Red\",\"metricColorMode\":\"None\",\"colorsRange\":[{\"from\":0,\"to\":10000}],\"labels\":{\"show\":true},\"invertColors\":false,\"style\":{\"bgFill\":\"#000\",\"bgColor\":false,\"labelColor\":false,\"subText\":\"\",\"fontSize\":40}}}}"
       },
       "references": [
         {
+          "id": "a5c73130-a26b-11ef-83ba-f3a1d08225ea",
           "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
-          "type": "index-pattern",
-          "id": "0111fa00-ab0b-11ef-836d-d36da0a72ca3"
+          "type": "index-pattern"
         },
         {
           "id": "9114a400-14b1-11ee-8ce4-61ee0b8a2f58",
-          "type": "tag",
-          "name": "tag-9114a400-14b1-11ee-8ce4-61ee0b8a2f58"
+          "name": "tag-9114a400-14b1-11ee-8ce4-61ee0b8a2f58",
+          "type": "tag"
         }
       ],
       "migrationVersion": {
@@ -235,11 +235,11 @@
       "namespaces": [
         "istex"
       ],
-      "updated_at": "2025-06-05T05:54:51.006Z",
-      "version": "WzE1MjEwMzAsNl0=",
+      "updated_at": "2026-05-13T12:32:49.778Z",
+      "version": "WzM3ODM3MjMsOF0=",
       "attributes": {
         "title": "istex-generic-report: Nombre d'accès aux fichiers PDF",
-        "visState": "{\"title\":\"istex-generic-report: Nombre d'accès aux fichiers PDF\",\"type\":\"metric\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"params\":{\"customLabel\":\"Nombre d'accès aux fichiers PDF\"},\"schema\":\"metric\"}],\"params\":{\"addTooltip\":true,\"addLegend\":false,\"type\":\"metric\",\"metric\":{\"percentageMode\":false,\"useRanges\":false,\"colorSchema\":\"Green to Red\",\"metricColorMode\":\"Labels\",\"colorsRange\":[{\"from\":10000,\"to\":20000}],\"labels\":{\"show\":true},\"invertColors\":false,\"style\":{\"bgFill\":\"#000\",\"bgColor\":false,\"labelColor\":false,\"subText\":\"\",\"fontSize\":40}}}}",
+        "visState": "{\"title\":\"istex-generic-report: Nombre d'accès aux fichiers PDF\",\"type\":\"metric\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"params\":{\"customLabel\":\"Nombre d'accès à Istex (métadonnées et données)\"},\"schema\":\"metric\"}],\"params\":{\"addTooltip\":true,\"addLegend\":false,\"type\":\"metric\",\"metric\":{\"percentageMode\":false,\"useRanges\":false,\"colorSchema\":\"Green to Red\",\"metricColorMode\":\"Labels\",\"colorsRange\":[{\"from\":10000,\"to\":20000}],\"labels\":{\"show\":true},\"invertColors\":false,\"style\":{\"bgFill\":\"#000\",\"bgColor\":false,\"labelColor\":false,\"subText\":\"\",\"fontSize\":40}}}}",
         "uiStateJSON": "{}",
         "description": "Nombre d'accès aux fichiers PDF",
         "version": 1,
@@ -251,7 +251,7 @@
         {
           "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
           "type": "index-pattern",
-          "id": "0111fa00-ab0b-11ef-836d-d36da0a72ca3"
+          "id": "a5c73130-a26b-11ef-83ba-f3a1d08225ea"
         },
         {
           "id": "9114a400-14b1-11ee-8ce4-61ee0b8a2f58",
@@ -270,28 +270,28 @@
       "namespaces": [
         "istex"
       ],
-      "updated_at": "2025-06-05T05:54:22.026Z",
-      "version": "WzE1MjEwMjcsNl0=",
+      "updated_at": "2026-04-02T13:37:48.794Z",
+      "version": "WzM2ODA5NDksOF0=",
       "attributes": {
-        "title": "istex-generic-report: Nombre de bouquets consultés",
-        "visState": "{\"title\":\"istex-generic-report: Nombre de bouquets consultés\",\"type\":\"metric\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"cardinality\",\"params\":{\"field\":\"publisher_name\",\"customLabel\":\"Nombre de bouquets consultés\"},\"schema\":\"metric\"}],\"params\":{\"addTooltip\":true,\"addLegend\":false,\"type\":\"metric\",\"metric\":{\"percentageMode\":false,\"useRanges\":false,\"colorSchema\":\"Green to Red\",\"metricColorMode\":\"None\",\"colorsRange\":[{\"from\":0,\"to\":10000}],\"labels\":{\"show\":true},\"invertColors\":false,\"style\":{\"bgFill\":\"#000\",\"bgColor\":false,\"labelColor\":false,\"subText\":\"\",\"fontSize\":40}}}}",
-        "uiStateJSON": "{}",
         "description": "Nombre de bouquets consultés",
-        "version": 1,
         "kibanaSavedObjectMeta": {
           "searchSourceJSON": "{\"query\":{\"query\":\"\",\"language\":\"kuery\"},\"filter\":[],\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.index\"}"
-        }
+        },
+        "title": "istex-generic-report: Nombre de bouquets consultés",
+        "uiStateJSON": "{}",
+        "version": 1,
+        "visState": "{\"title\":\"istex-generic-report: Nombre de bouquets consultés\",\"type\":\"metric\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"cardinality\",\"params\":{\"field\":\"publisher_name\",\"customLabel\":\"Nombre de bouquets consultés\"},\"schema\":\"metric\"}],\"params\":{\"addTooltip\":true,\"addLegend\":false,\"type\":\"metric\",\"metric\":{\"percentageMode\":false,\"useRanges\":false,\"colorSchema\":\"Green to Red\",\"metricColorMode\":\"None\",\"colorsRange\":[{\"from\":0,\"to\":10000}],\"labels\":{\"show\":true},\"invertColors\":false,\"style\":{\"bgFill\":\"#000\",\"bgColor\":false,\"labelColor\":false,\"subText\":\"\",\"fontSize\":40}}}}"
       },
       "references": [
         {
+          "id": "a5c73130-a26b-11ef-83ba-f3a1d08225ea",
           "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
-          "type": "index-pattern",
-          "id": "0111fa00-ab0b-11ef-836d-d36da0a72ca3"
+          "type": "index-pattern"
         },
         {
           "id": "9114a400-14b1-11ee-8ce4-61ee0b8a2f58",
-          "type": "tag",
-          "name": "tag-9114a400-14b1-11ee-8ce4-61ee0b8a2f58"
+          "name": "tag-9114a400-14b1-11ee-8ce4-61ee0b8a2f58",
+          "type": "tag"
         }
       ],
       "migrationVersion": {
@@ -305,28 +305,28 @@
       "namespaces": [
         "istex"
       ],
-      "updated_at": "2025-06-05T05:51:23.136Z",
-      "version": "WzE1MjEwMjQsNl0=",
+      "updated_at": "2026-04-02T13:37:48.794Z",
+      "version": "WzM2ODA5OTQsOF0=",
       "attributes": {
-        "title": "istex-generic-report: Statut OA",
-        "visState": "{\"title\":\"istex-generic-report: Statut OA\",\"type\":\"pie\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"params\":{},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"params\":{\"field\":\"oa_status\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":8,\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\"},\"schema\":\"segment\"}],\"params\":{\"type\":\"pie\",\"addTooltip\":true,\"addLegend\":false,\"legendPosition\":\"right\",\"nestedLegend\":false,\"distinctColors\":false,\"isDonut\":true,\"palette\":{\"type\":\"palette\",\"name\":\"default\"},\"labels\":{\"show\":true,\"last_level\":false,\"values\":true,\"valuesFormat\":\"percent\",\"percentDecimals\":2,\"truncate\":100,\"position\":\"default\"}}}",
-        "uiStateJSON": "{\"vis\":{\"legendOpen\":false}}",
         "description": "Répartition des consultations selon la couleur Open Access du document",
-        "version": 1,
         "kibanaSavedObjectMeta": {
           "searchSourceJSON": "{\"query\":{\"query\":\"\",\"language\":\"kuery\"},\"filter\":[],\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.index\"}"
-        }
+        },
+        "title": "istex-generic-report: Statut OA",
+        "uiStateJSON": "{\"vis\":{\"legendOpen\":false}}",
+        "version": 1,
+        "visState": "{\"title\":\"istex-generic-report: Statut OA\",\"type\":\"pie\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"params\":{},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"params\":{\"field\":\"oa_status\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":8,\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\"},\"schema\":\"segment\"}],\"params\":{\"type\":\"pie\",\"addTooltip\":true,\"addLegend\":false,\"legendPosition\":\"right\",\"nestedLegend\":false,\"distinctColors\":false,\"isDonut\":true,\"palette\":{\"type\":\"palette\",\"name\":\"default\"},\"labels\":{\"show\":true,\"last_level\":false,\"values\":true,\"valuesFormat\":\"percent\",\"percentDecimals\":2,\"truncate\":100,\"position\":\"default\"}}}"
       },
       "references": [
         {
+          "id": "a5c73130-a26b-11ef-83ba-f3a1d08225ea",
           "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
-          "type": "index-pattern",
-          "id": "0111fa00-ab0b-11ef-836d-d36da0a72ca3"
+          "type": "index-pattern"
         },
         {
           "id": "9114a400-14b1-11ee-8ce4-61ee0b8a2f58",
-          "type": "tag",
-          "name": "tag-9114a400-14b1-11ee-8ce4-61ee0b8a2f58"
+          "name": "tag-9114a400-14b1-11ee-8ce4-61ee0b8a2f58",
+          "type": "tag"
         }
       ],
       "migrationVersion": {
@@ -340,11 +340,11 @@
       "namespaces": [
         "istex"
       ],
-      "updated_at": "2025-05-14T14:21:04.069Z",
-      "version": "WzE1MDU1MzYsNl0=",
+      "updated_at": "2026-06-17T09:26:04.840Z",
+      "version": "WzM4OTYwNjksOV0=",
       "attributes": {
         "title": "istex-generic-report: Type d'acces",
-        "visState": "{\"title\":\"istex-generic-report: Type d'acces\",\"type\":\"pie\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"params\":{\"customLabel\":\"\"},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"filters\",\"params\":{\"filters\":[{\"input\":{\"query\":\"NOT istex-id:ABES*\",\"language\":\"kuery\"},\"label\":\"Accès par fédération\"},{\"input\":{\"query\":\"istex-id:ABES*\",\"language\":\"kuery\"},\"label\":\"Accès par adresse IP\"}]},\"schema\":\"segment\"}],\"params\":{\"type\":\"pie\",\"addTooltip\":true,\"addLegend\":false,\"legendPosition\":\"right\",\"nestedLegend\":false,\"distinctColors\":false,\"isDonut\":true,\"palette\":{\"type\":\"palette\",\"name\":\"default\"},\"labels\":{\"show\":true,\"last_level\":false,\"values\":true,\"valuesFormat\":\"percent\",\"percentDecimals\":2,\"truncate\":100,\"position\":\"default\"}}}",
+        "visState": "{\"title\":\"istex-generic-report: Type d'acces\",\"type\":\"pie\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"params\":{\"customLabel\":\"\"},\"schema\":\"metric\"},{\"id\":\"3\",\"enabled\":true,\"type\":\"terms\",\"params\":{\"field\":\"auth\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":5,\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\"},\"schema\":\"segment\"}],\"params\":{\"type\":\"pie\",\"addTooltip\":true,\"addLegend\":false,\"legendPosition\":\"right\",\"nestedLegend\":false,\"distinctColors\":false,\"isDonut\":true,\"palette\":{\"type\":\"palette\",\"name\":\"default\"},\"labels\":{\"show\":true,\"last_level\":false,\"values\":true,\"valuesFormat\":\"percent\",\"percentDecimals\":2,\"truncate\":100,\"position\":\"default\"}}}",
         "uiStateJSON": "{}",
         "description": "Répartition des type d'accès : Fédération d'identité Recherche (FER) ou adresse IP",
         "version": 1,
@@ -356,7 +356,7 @@
         {
           "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
           "type": "index-pattern",
-          "id": "0111fa00-ab0b-11ef-836d-d36da0a72ca3"
+          "id": "a5c73130-a26b-11ef-83ba-f3a1d08225ea"
         },
         {
           "id": "9114a400-14b1-11ee-8ce4-61ee0b8a2f58",
@@ -375,28 +375,28 @@
       "namespaces": [
         "istex"
       ],
-      "updated_at": "2025-07-09T12:20:43.438Z",
-      "version": "WzE1MzU2NzUsNl0=",
+      "updated_at": "2026-04-02T13:37:48.794Z",
+      "version": "WzM2ODA4NTcsOF0=",
       "attributes": {
-        "title": "istex-generic-report: istex id et owner",
-        "visState": "{\"title\":\"istex-generic-report: istex id et owner\",\"type\":\"table\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"params\":{},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"params\":{\"field\":\"abes-id\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":400,\"otherBucket\":true,\"otherBucketLabel\":\"Other\",\"missingBucket\":true,\"missingBucketLabel\":\"non renseigné\",\"customLabel\":\"Identifiant ABES\"},\"schema\":\"bucket\"},{\"id\":\"3\",\"enabled\":true,\"type\":\"terms\",\"params\":{\"field\":\"institutionName\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":5,\"otherBucket\":true,\"otherBucketLabel\":\"Other\",\"missingBucket\":true,\"missingBucketLabel\":\"non renseigné\",\"customLabel\":\"Nom de l'établissement\"},\"schema\":\"bucket\"}],\"params\":{\"perPage\":10,\"showPartialRows\":false,\"showMetricsAtAllLevels\":false,\"showTotal\":true,\"showToolbar\":true,\"totalFunc\":\"sum\",\"percentageCol\":\"\",\"row\":false}}",
-        "uiStateJSON": "{}",
         "description": "Table présentant le nombre de consultations par istex id",
-        "version": 1,
         "kibanaSavedObjectMeta": {
           "searchSourceJSON": "{\"query\":{\"query\":\"\",\"language\":\"kuery\"},\"filter\":[],\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.index\"}"
-        }
+        },
+        "title": "istex-generic-report: istex id et owner",
+        "uiStateJSON": "{}",
+        "version": 1,
+        "visState": "{\"title\":\"istex-generic-report: istex id et owner\",\"type\":\"table\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"params\":{},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"params\":{\"field\":\"abes-id\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":400,\"otherBucket\":true,\"otherBucketLabel\":\"Other\",\"missingBucket\":true,\"missingBucketLabel\":\"non renseigné\",\"customLabel\":\"Identifiant ABES\"},\"schema\":\"bucket\"},{\"id\":\"3\",\"enabled\":true,\"type\":\"terms\",\"params\":{\"field\":\"institutionName\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":5,\"otherBucket\":true,\"otherBucketLabel\":\"Other\",\"missingBucket\":true,\"missingBucketLabel\":\"non renseigné\",\"customLabel\":\"Nom de l'établissement\"},\"schema\":\"bucket\"}],\"params\":{\"perPage\":10,\"showPartialRows\":false,\"showMetricsAtAllLevels\":false,\"showTotal\":true,\"showToolbar\":true,\"totalFunc\":\"sum\",\"percentageCol\":\"\",\"row\":false}}"
       },
       "references": [
         {
+          "id": "a5c73130-a26b-11ef-83ba-f3a1d08225ea",
           "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
-          "type": "index-pattern",
-          "id": "0111fa00-ab0b-11ef-836d-d36da0a72ca3"
+          "type": "index-pattern"
         },
         {
           "id": "9114a400-14b1-11ee-8ce4-61ee0b8a2f58",
-          "type": "tag",
-          "name": "tag-9114a400-14b1-11ee-8ce4-61ee0b8a2f58"
+          "name": "tag-9114a400-14b1-11ee-8ce4-61ee0b8a2f58",
+          "type": "tag"
         }
       ],
       "migrationVersion": {
@@ -410,28 +410,28 @@
       "namespaces": [
         "istex"
       ],
-      "updated_at": "2025-06-05T05:53:56.230Z",
-      "version": "WzE1MjEwMjYsNl0=",
+      "updated_at": "2026-04-02T13:37:48.794Z",
+      "version": "WzM2ODEwNTAsOF0=",
       "attributes": {
-        "title": "istex-generic-report: Consultations mensuelles",
-        "visState": "{\"title\":\"istex-generic-report: Consultations mensuelles\",\"type\":\"histogram\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"params\":{\"customLabel\":\"Consultations\"},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"date_histogram\",\"params\":{\"field\":\"datetime\",\"timeRange\":{\"from\":\"now-3y\",\"to\":\"now\"},\"useNormalizedEsInterval\":true,\"scaleMetricValues\":true,\"interval\":\"M\",\"used_interval\":\"1M\",\"drop_partials\":false,\"min_doc_count\":1,\"extended_bounds\":{},\"customLabel\":\"Mois\"},\"schema\":\"segment\"}],\"params\":{\"type\":\"histogram\",\"grid\":{\"categoryLines\":false},\"categoryAxes\":[{\"id\":\"CategoryAxis-1\",\"type\":\"category\",\"position\":\"bottom\",\"show\":true,\"scale\":{\"type\":\"linear\"},\"labels\":{\"show\":true,\"filter\":true,\"truncate\":100,\"rotate\":0},\"title\":{},\"style\":{}}],\"valueAxes\":[{\"id\":\"ValueAxis-1\",\"name\":\"LeftAxis-1\",\"type\":\"value\",\"position\":\"left\",\"show\":true,\"scale\":{\"type\":\"linear\",\"mode\":\"normal\"},\"labels\":{\"show\":true,\"rotate\":0,\"filter\":false,\"truncate\":100},\"title\":{\"text\":\"Consultations\"},\"style\":{}}],\"seriesParams\":[{\"show\":true,\"type\":\"histogram\",\"mode\":\"stacked\",\"data\":{\"label\":\"Consultations\",\"id\":\"1\"},\"interpolate\":\"linear\",\"valueAxis\":\"ValueAxis-1\",\"drawLinesBetweenPoints\":true,\"lineWidth\":2,\"showCircles\":true,\"circlesRadius\":3}],\"radiusRatio\":0,\"addTooltip\":true,\"detailedTooltip\":true,\"palette\":{\"type\":\"palette\",\"name\":\"default\"},\"addLegend\":true,\"legendPosition\":\"right\",\"times\":[],\"addTimeMarker\":false,\"labels\":{\"show\":true},\"thresholdLine\":{\"show\":false,\"value\":10,\"width\":1,\"style\":\"full\",\"color\":\"#E7664C\"}}}",
-        "uiStateJSON": "{}",
         "description": "Nombre d'accès mensuels aux PDF ",
-        "version": 1,
         "kibanaSavedObjectMeta": {
           "searchSourceJSON": "{\"query\":{\"query\":\"\",\"language\":\"kuery\"},\"filter\":[],\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.index\"}"
-        }
+        },
+        "title": "istex-generic-report: Consultations mensuelles",
+        "uiStateJSON": "{}",
+        "version": 1,
+        "visState": "{\"title\":\"istex-generic-report: Consultations mensuelles\",\"type\":\"histogram\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"params\":{\"customLabel\":\"Consultations\"},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"date_histogram\",\"params\":{\"field\":\"datetime\",\"timeRange\":{\"from\":\"now-3y\",\"to\":\"now\"},\"useNormalizedEsInterval\":true,\"scaleMetricValues\":true,\"interval\":\"M\",\"used_interval\":\"1M\",\"drop_partials\":false,\"min_doc_count\":1,\"extended_bounds\":{},\"customLabel\":\"Mois\"},\"schema\":\"segment\"}],\"params\":{\"type\":\"histogram\",\"grid\":{\"categoryLines\":false},\"categoryAxes\":[{\"id\":\"CategoryAxis-1\",\"type\":\"category\",\"position\":\"bottom\",\"show\":true,\"scale\":{\"type\":\"linear\"},\"labels\":{\"show\":true,\"filter\":true,\"truncate\":100,\"rotate\":0},\"title\":{},\"style\":{}}],\"valueAxes\":[{\"id\":\"ValueAxis-1\",\"name\":\"LeftAxis-1\",\"type\":\"value\",\"position\":\"left\",\"show\":true,\"scale\":{\"type\":\"linear\",\"mode\":\"normal\"},\"labels\":{\"show\":true,\"rotate\":0,\"filter\":false,\"truncate\":100},\"title\":{\"text\":\"Consultations\"},\"style\":{}}],\"seriesParams\":[{\"show\":true,\"type\":\"histogram\",\"mode\":\"stacked\",\"data\":{\"label\":\"Consultations\",\"id\":\"1\"},\"interpolate\":\"linear\",\"valueAxis\":\"ValueAxis-1\",\"drawLinesBetweenPoints\":true,\"lineWidth\":2,\"showCircles\":true,\"circlesRadius\":3}],\"radiusRatio\":0,\"addTooltip\":true,\"detailedTooltip\":true,\"palette\":{\"type\":\"palette\",\"name\":\"default\"},\"addLegend\":true,\"legendPosition\":\"right\",\"times\":[],\"addTimeMarker\":false,\"labels\":{\"show\":true},\"thresholdLine\":{\"show\":false,\"value\":10,\"width\":1,\"style\":\"full\",\"color\":\"#E7664C\"}}}"
       },
       "references": [
         {
+          "id": "a5c73130-a26b-11ef-83ba-f3a1d08225ea",
           "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
-          "type": "index-pattern",
-          "id": "0111fa00-ab0b-11ef-836d-d36da0a72ca3"
+          "type": "index-pattern"
         },
         {
           "id": "9114a400-14b1-11ee-8ce4-61ee0b8a2f58",
-          "type": "tag",
-          "name": "tag-9114a400-14b1-11ee-8ce4-61ee0b8a2f58"
+          "name": "tag-9114a400-14b1-11ee-8ce4-61ee0b8a2f58",
+          "type": "tag"
         }
       ],
       "migrationVersion": {
@@ -445,28 +445,28 @@
       "namespaces": [
         "istex"
       ],
-      "updated_at": "2025-05-14T14:05:11.339Z",
-      "version": "WzE1MDU1MjUsNl0=",
+      "updated_at": "2026-04-02T13:37:48.794Z",
+      "version": "WzM2ODA3ODUsOF0=",
       "attributes": {
-        "title": "istex-generic-report: Consultations par type d'accès",
-        "visState": "{\"title\":\"istex-generic-report: Consultations par type d'accès\",\"type\":\"pie\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"params\":{},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"params\":{\"field\":\"sid\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":10,\"otherBucket\":true,\"otherBucketLabel\":\"Other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\"},\"schema\":\"segment\"}],\"params\":{\"type\":\"pie\",\"addTooltip\":true,\"addLegend\":false,\"legendPosition\":\"right\",\"nestedLegend\":false,\"distinctColors\":false,\"isDonut\":true,\"palette\":{\"type\":\"palette\",\"name\":\"default\"},\"labels\":{\"show\":true,\"last_level\":false,\"values\":true,\"valuesFormat\":\"percent\",\"percentDecimals\":2,\"truncate\":100,\"position\":\"default\"}}}",
-        "uiStateJSON": "{\"vis\":{\"legendOpen\":true}}",
         "description": "Top 10 des consultations par type d'accès (sid)",
-        "version": 1,
         "kibanaSavedObjectMeta": {
           "searchSourceJSON": "{\"query\":{\"query\":\"\",\"language\":\"kuery\"},\"filter\":[],\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.index\"}"
-        }
+        },
+        "title": "istex-generic-report: Consultations par type d'accès",
+        "uiStateJSON": "{\"vis\":{\"legendOpen\":true}}",
+        "version": 1,
+        "visState": "{\"title\":\"istex-generic-report: Consultations par type d'accès\",\"type\":\"pie\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"params\":{},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"params\":{\"field\":\"sid\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":10,\"otherBucket\":true,\"otherBucketLabel\":\"Other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\"},\"schema\":\"segment\"}],\"params\":{\"type\":\"pie\",\"addTooltip\":true,\"addLegend\":false,\"legendPosition\":\"right\",\"nestedLegend\":false,\"distinctColors\":false,\"isDonut\":true,\"palette\":{\"type\":\"palette\",\"name\":\"default\"},\"labels\":{\"show\":true,\"last_level\":false,\"values\":true,\"valuesFormat\":\"percent\",\"percentDecimals\":2,\"truncate\":100,\"position\":\"default\"}}}"
       },
       "references": [
         {
+          "id": "a5c73130-a26b-11ef-83ba-f3a1d08225ea",
           "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
-          "type": "index-pattern",
-          "id": "0111fa00-ab0b-11ef-836d-d36da0a72ca3"
+          "type": "index-pattern"
         },
         {
           "id": "9114a400-14b1-11ee-8ce4-61ee0b8a2f58",
-          "type": "tag",
-          "name": "tag-9114a400-14b1-11ee-8ce4-61ee0b8a2f58"
+          "name": "tag-9114a400-14b1-11ee-8ce4-61ee0b8a2f58",
+          "type": "tag"
         }
       ],
       "migrationVersion": {
@@ -480,8 +480,8 @@
       "namespaces": [
         "istex"
       ],
-      "updated_at": "2025-06-20T06:34:47.289Z",
-      "version": "WzE1MjI2MDMsNl0=",
+      "updated_at": "2026-05-07T06:32:37.427Z",
+      "version": "WzM3NjQ3OTQsOF0=",
       "attributes": {
         "title": "istex-generic-report: Consultations par type d'accès [données]",
         "visState": "{\"title\":\"istex-generic-report: Consultations par type d'accès [données]\",\"type\":\"table\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"params\":{},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"params\":{\"field\":\"sid\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":50,\"otherBucket\":true,\"otherBucketLabel\":\"Other\",\"missingBucket\":true,\"missingBucketLabel\":\"Non renseigné\",\"customLabel\":\"Type d'accès\"},\"schema\":\"bucket\"}],\"params\":{\"perPage\":10,\"showPartialRows\":false,\"showMetricsAtAllLevels\":false,\"showTotal\":true,\"showToolbar\":true,\"totalFunc\":\"sum\",\"percentageCol\":\"\",\"row\":false}}",
@@ -489,14 +489,14 @@
         "description": "Table présentant le nombre de consultations par bouquet",
         "version": 1,
         "kibanaSavedObjectMeta": {
-          "searchSourceJSON": "{\"query\":{\"query\":\"\",\"language\":\"kuery\"},\"filter\":[],\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.index\"}"
+          "searchSourceJSON": "{\"query\":{\"query\":\"NOT sid:none\",\"language\":\"kuery\"},\"filter\":[],\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.index\"}"
         }
       },
       "references": [
         {
           "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
           "type": "index-pattern",
-          "id": "0111fa00-ab0b-11ef-836d-d36da0a72ca3"
+          "id": "a5c73130-a26b-11ef-83ba-f3a1d08225ea"
         },
         {
           "id": "9114a400-14b1-11ee-8ce4-61ee0b8a2f58",
@@ -515,28 +515,28 @@
       "namespaces": [
         "istex"
       ],
-      "updated_at": "2025-05-14T14:04:37.034Z",
-      "version": "WzE1MDU1MjQsNl0=",
+      "updated_at": "2026-04-02T13:37:48.794Z",
+      "version": "WzM2ODA5MzcsOF0=",
       "attributes": {
-        "title": "istex-generic-report: Consultations par bouquet",
-        "visState": "{\"title\":\"istex-generic-report: Consultations par bouquet\",\"type\":\"pie\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"params\":{},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"params\":{\"field\":\"publisher_name\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":10,\"otherBucket\":true,\"otherBucketLabel\":\"Other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\",\"customLabel\":\"Top 10 des éditeurs les plus consultés\"},\"schema\":\"segment\"}],\"params\":{\"type\":\"pie\",\"addTooltip\":true,\"addLegend\":false,\"legendPosition\":\"right\",\"nestedLegend\":false,\"distinctColors\":false,\"isDonut\":true,\"palette\":{\"type\":\"palette\",\"name\":\"default\"},\"labels\":{\"show\":true,\"last_level\":false,\"values\":true,\"valuesFormat\":\"percent\",\"percentDecimals\":2,\"truncate\":100,\"position\":\"default\"}}}",
-        "uiStateJSON": "{\"vis\":{\"legendOpen\":true}}",
         "description": "Top 10 des bouquets les plus consultés",
-        "version": 1,
         "kibanaSavedObjectMeta": {
           "searchSourceJSON": "{\"query\":{\"query\":\"\",\"language\":\"kuery\"},\"filter\":[],\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.index\"}"
-        }
+        },
+        "title": "istex-generic-report: Consultations par bouquet",
+        "uiStateJSON": "{\"vis\":{\"legendOpen\":true}}",
+        "version": 1,
+        "visState": "{\"title\":\"istex-generic-report: Consultations par bouquet\",\"type\":\"pie\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"params\":{},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"params\":{\"field\":\"publisher_name\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":10,\"otherBucket\":true,\"otherBucketLabel\":\"Other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\",\"customLabel\":\"Top 10 des éditeurs les plus consultés\"},\"schema\":\"segment\"}],\"params\":{\"type\":\"pie\",\"addTooltip\":true,\"addLegend\":false,\"legendPosition\":\"right\",\"nestedLegend\":false,\"distinctColors\":false,\"isDonut\":true,\"palette\":{\"type\":\"palette\",\"name\":\"default\"},\"labels\":{\"show\":true,\"last_level\":false,\"values\":true,\"valuesFormat\":\"percent\",\"percentDecimals\":2,\"truncate\":100,\"position\":\"default\"}}}"
       },
       "references": [
         {
+          "id": "a5c73130-a26b-11ef-83ba-f3a1d08225ea",
           "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
-          "type": "index-pattern",
-          "id": "0111fa00-ab0b-11ef-836d-d36da0a72ca3"
+          "type": "index-pattern"
         },
         {
           "id": "9114a400-14b1-11ee-8ce4-61ee0b8a2f58",
-          "type": "tag",
-          "name": "tag-9114a400-14b1-11ee-8ce4-61ee0b8a2f58"
+          "name": "tag-9114a400-14b1-11ee-8ce4-61ee0b8a2f58",
+          "type": "tag"
         }
       ],
       "migrationVersion": {
@@ -550,28 +550,28 @@
       "namespaces": [
         "istex"
       ],
-      "updated_at": "2025-06-10T12:43:51.119Z",
-      "version": "WzE1MjExMjUsNl0=",
+      "updated_at": "2026-04-02T13:37:48.794Z",
+      "version": "WzM2ODA5NjUsOF0=",
       "attributes": {
-        "title": "istex-generic-report:  Consultations par bouquet [données]",
-        "visState": "{\"title\":\"istex-generic-report:  Consultations par bouquet [données]\",\"type\":\"table\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"params\":{},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"params\":{\"field\":\"publisher_name\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":1000,\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\",\"customLabel\":\"Bouquet\"},\"schema\":\"bucket\"}],\"params\":{\"perPage\":10,\"showPartialRows\":false,\"showMetricsAtAllLevels\":false,\"showTotal\":true,\"showToolbar\":true,\"totalFunc\":\"sum\",\"percentageCol\":\"\",\"row\":false}}",
-        "uiStateJSON": "{}",
         "description": "Table présentant le nombre de consultations par bouquet",
-        "version": 1,
         "kibanaSavedObjectMeta": {
           "searchSourceJSON": "{\"query\":{\"query\":\"\",\"language\":\"kuery\"},\"filter\":[],\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.index\"}"
-        }
+        },
+        "title": "istex-generic-report:  Consultations par bouquet [données]",
+        "uiStateJSON": "{}",
+        "version": 1,
+        "visState": "{\"title\":\"istex-generic-report:  Consultations par bouquet [données]\",\"type\":\"table\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"params\":{},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"params\":{\"field\":\"publisher_name\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":1000,\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\",\"customLabel\":\"Bouquet\"},\"schema\":\"bucket\"}],\"params\":{\"perPage\":10,\"showPartialRows\":false,\"showMetricsAtAllLevels\":false,\"showTotal\":true,\"showToolbar\":true,\"totalFunc\":\"sum\",\"percentageCol\":\"\",\"row\":false}}"
       },
       "references": [
         {
+          "id": "a5c73130-a26b-11ef-83ba-f3a1d08225ea",
           "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
-          "type": "index-pattern",
-          "id": "0111fa00-ab0b-11ef-836d-d36da0a72ca3"
+          "type": "index-pattern"
         },
         {
           "id": "9114a400-14b1-11ee-8ce4-61ee0b8a2f58",
-          "type": "tag",
-          "name": "tag-9114a400-14b1-11ee-8ce4-61ee0b8a2f58"
+          "type": "tag"
+          "name": "tag-9114a400-14b1-11ee-8ce4-61ee0b8a2f58",
         }
       ],
       "migrationVersion": {
@@ -585,11 +585,11 @@
       "namespaces": [
         "istex"
       ],
-      "updated_at": "2025-05-14T13:55:48.067Z",
-      "version": "WzE1MDU1MTksNl0=",
+      "updated_at": "2026-04-09T12:02:22.573Z",
+      "version": "WzM2ODQyMjAsOF0=",
       "attributes": {
         "title": "istex-generic: Titres de publication et bouquets",
-        "visState": "{\"title\":\"istex-generic: Titres de publication et bouquets\",\"type\":\"table\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"params\":{\"customLabel\":\"Nombre d'accès\"},\"schema\":\"metric\"},{\"id\":\"5\",\"enabled\":true,\"type\":\"terms\",\"params\":{\"field\":\"publication_title\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":1000,\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":false,\"missingBucketLabel\":\"-\",\"customLabel\":\"Titre de publication\"},\"schema\":\"bucket\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"params\":{\"field\":\"print_identifier\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":1000,\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":true,\"missingBucketLabel\":\"-\",\"customLabel\":\"ISSN (print)\"},\"schema\":\"bucket\"},{\"id\":\"3\",\"enabled\":true,\"type\":\"terms\",\"params\":{\"field\":\"online_identifier\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":1000,\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":true,\"missingBucketLabel\":\"-\",\"customLabel\":\"eISSN\"},\"schema\":\"bucket\"},{\"id\":\"4\",\"enabled\":true,\"type\":\"terms\",\"params\":{\"field\":\"publisher_name\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":1000,\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":true,\"missingBucketLabel\":\"-\",\"customLabel\":\"Bouquet\"},\"schema\":\"bucket\"}],\"params\":{\"perPage\":20,\"showPartialRows\":true,\"showMetricsAtAllLevels\":false,\"showTotal\":false,\"showToolbar\":true,\"totalFunc\":\"sum\",\"percentageCol\":\"\"}}",
+        "visState": "{\"title\":\"istex-generic: Titres de publication et bouquets\",\"type\":\"table\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"params\":{\"customLabel\":\"Nombre d'accès\"},\"schema\":\"metric\"},{\"id\":\"5\",\"enabled\":true,\"type\":\"terms\",\"params\":{\"field\":\"publication_title\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":1000,\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":false,\"missingBucketLabel\":\"-\",\"customLabel\":\"Titre de publication\"},\"schema\":\"bucket\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"params\":{\"field\":\"print_identifier\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":1000,\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":true,\"missingBucketLabel\":\"-\",\"customLabel\":\"ISSN (print)\"},\"schema\":\"bucket\"}],\"params\":{\"perPage\":20,\"showPartialRows\":true,\"showMetricsAtAllLevels\":false,\"showTotal\":true,\"showToolbar\":true,\"totalFunc\":\"sum\",\"percentageCol\":\"\"}}",
         "uiStateJSON": "{}",
         "description": "Table présentant les titres de publication, (e)ISSN, et les bouquets",
         "version": 1,
@@ -601,7 +601,7 @@
         {
           "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
           "type": "index-pattern",
-          "id": "0111fa00-ab0b-11ef-836d-d36da0a72ca3"
+          "id": "a5c73130-a26b-11ef-83ba-f3a1d08225ea"
         },
         {
           "id": "9114a400-14b1-11ee-8ce4-61ee0b8a2f58",
@@ -615,49 +615,17 @@
       "coreMigrationVersion": "7.14.1"
     },
     {
-      "id": "b9f60840-f6c2-11ec-871c-618dc17b393f",
+      "id": "6161cea0-14b5-11ee-8ce4-61ee0b8a2f58",
       "type": "tag",
       "namespaces": [
         "istex"
       ],
-      "updated_at": "2025-02-07T12:59:01.184Z",
-      "version": "WzE1MDAyNjIsNl0=",
+      "updated_at": "2026-04-02T13:37:48.794Z",
+      "version": "WzM2ODA5NTUsOF0=",
       "attributes": {
-        "color": "#07db57",
+        "color": "#d72bae",
         "description": "",
-        "name": "validé"
-      },
-      "references": [],
-      "coreMigrationVersion": "7.14.1"
-    },
-    {
-      "id": "f2d9a600-2e31-11ef-b86a-fb4acd467871",
-      "type": "tag",
-      "namespaces": [
-        "istex"
-      ],
-      "updated_at": "2025-02-07T12:59:01.184Z",
-      "version": "WzE1MDAyNjMsNl0=",
-      "attributes": {
-        "color": "#E7664C",
-        "description": "",
-        "name": "generique"
-      },
-      "references": [],
-      "coreMigrationVersion": "7.14.1"
-    },
-    {
-      "id": "9114a400-14b1-11ee-8ce4-61ee0b8a2f58",
-      "type": "tag",
-      "namespaces": [
-        "istex"
-      ],
-      "updated_at": "2024-11-19T09:32:24.207Z",
-      "version": "WzE1MDc5NTEsNl0=",
-      "attributes": {
-        "color": "#e2acd7",
-        "description": "",
-        "name": "Istex"
+        "name": "université"
       },
       "references": [],
       "coreMigrationVersion": "7.14.1"
@@ -668,8 +636,8 @@
       "namespaces": [
         "istex"
       ],
-      "updated_at": "2024-11-19T09:32:24.207Z",
-      "version": "WzE1MDc5NTIsNl0=",
+      "updated_at": "2026-04-02T13:37:48.794Z",
+      "version": "WzM2ODEwMzEsOF0=",
       "attributes": {
         "color": "#d7e970",
         "description": "",
@@ -679,32 +647,68 @@
       "coreMigrationVersion": "7.14.1"
     },
     {
-      "id": "6161cea0-14b5-11ee-8ce4-61ee0b8a2f58",
+      "id": "9114a400-14b1-11ee-8ce4-61ee0b8a2f58",
       "type": "tag",
       "namespaces": [
         "istex"
       ],
-      "updated_at": "2024-11-19T09:32:24.207Z",
-      "version": "WzE1MDc5ODAsNl0=",
+      "updated_at": "2026-04-02T13:37:48.794Z",
+      "version": "WzM2ODA3ODQsOF0=",
       "attributes": {
-        "color": "#d72bae",
+        "color": "#e2acd7",
         "description": "",
-        "name": "université"
+        "name": "Istex"
       },
       "references": [],
       "coreMigrationVersion": "7.14.1"
     },
     {
-      "id": "0111fa00-ab0b-11ef-836d-d36da0a72ca3",
+      "id": "f2d9a600-2e31-11ef-b86a-fb4acd467871",
+      "type": "tag",
+      "namespaces": [
+        "istex"
+      ],
+      "updated_at": "2026-05-18T07:01:03.939Z",
+      "version": "WzM3OTA5ODEsOF0=",
+      "attributes": {
+        "color": "#E7664C",
+        "description": "",
+        "name": "generique"
+      },
+      "references": [],
+      "coreMigrationVersion": "7.14.1"
+    },
+    {
+      "id": "b9f60840-f6c2-11ec-871c-618dc17b393f",
+      "type": "tag",
+      "namespaces": [
+        "istex"
+      ],
+      "updated_at": "2026-05-18T07:01:03.939Z",
+      "version": "WzM3OTA5ODAsOF0=",
+      "attributes": {
+        "color": "#07db57",
+        "description": "",
+        "name": "validé"
+      },
+      "references": [],
+      "coreMigrationVersion": "7.14.1"
+    },
+    {
+      "id": "a5c73130-a26b-11ef-83ba-f3a1d08225ea",
       "type": "index-pattern",
       "namespaces": [
         "istex"
       ],
-      "updated_at": "2024-11-25T08:55:22.275Z",
-      "version": "WzE1MjA4NzAsNl0=",
+      "updated_at": "2026-06-16T11:39:00.113Z",
+      "version": "WzM4OTMzNzQsOV0=",
       "attributes": {
-        "title": "istex*",
-        "timeFieldName": "datetime"
+        "fieldAttrs": "{\"istex_rtype\":{\"count\":8},\"sid\":{\"count\":15},\"url\":{\"count\":2},\"istex_bundle_size\":{\"count\":6},\"mime\":{\"count\":2},\"owner\":{\"count\":17},\"auth\":{\"count\":1},\"istex-id\":{\"count\":3},\"abes-id\":{\"count\":7},\"access_type\":{\"count\":6},\"oa_status\":{\"count\":3},\"institutionName\":{\"count\":4},\"publication_date\":{\"count\":5},\"publisher_name\":{\"count\":2},\"referer\":{\"count\":2},\"status\":{\"count\":7},\"ua\":{\"count\":3},\"print_identifier\":{\"count\":3},\"doi\":{\"count\":3},\"datetime\":{\"count\":2},\"host\":{\"count\":11},\"ezpaarse_date\":{\"count\":2},\"platform_name\":{\"count\":1},\"geoip-country\":{\"count\":2},\"rtype\":{\"count\":1},\"user-agent\":{\"count\":1}}",
+        "fields": "[]",
+        "runtimeFieldMap": "{}",
+        "timeFieldName": "datetime",
+        "title": "z-istex-ezpaarse-*",
+        "typeMeta": "{}"
       },
       "references": [],
       "migrationVersion": {
