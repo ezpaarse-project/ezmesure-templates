@@ -570,8 +570,8 @@
         },
         {
           "id": "9114a400-14b1-11ee-8ce4-61ee0b8a2f58",
-          "type": "tag"
           "name": "tag-9114a400-14b1-11ee-8ce4-61ee0b8a2f58",
+          "type": "tag"
         }
       ],
       "migrationVersion": {
